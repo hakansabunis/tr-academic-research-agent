@@ -9,110 +9,181 @@
 
 ---
 
-## 1. Problem Statement
+## 1. Problem & Motivation
 
-While English-language researchers benefit from grounded, evidence-based
-LLM tools such as **Elicit**, **Consensus.app**, and **scite.ai**, no
-comparable system exists for the Turkish academic ecosystem. Turkish
-researchers are stuck between two unsatisfactory options: general-purpose
-chatbots that hallucinate confidently in Turkish, or English-only academic
-search tools that ignore the Turkish corpus entirely.
+English-language researchers benefit from grounded, evidence-based LLM
+tools such as **Elicit**, **Consensus.app**, and **scite.ai**. None of
+these systems serve the Turkish academic ecosystem. Turkey hosts more
+than 600 active peer-reviewed journals on DergiPark and releases tens
+of thousands of theses every year through YÖK Ulusal Tez Merkezi, yet
+this Turkish-language scholarly output is invisible to current
+LLM-based research assistants.
 
-This gap is significant. Turkey hosts **more than 600 active peer-reviewed
-journals on DergiPark** and releases tens of thousands of theses every
-year through YÖK Ulusal Tez Merkezi. None of this Turkish-language
-scholarly output is accessible through current LLM-based research
-assistants.
+The novelty is therefore not architectural in isolation, but in
+combining state-of-the-art LLM orchestration techniques with a
+language-specific academic corpus that has been largely missing from
+the modern LLM ecosystem.
 
-## 2. Proposed System
+## 2. System Architecture
 
-I propose **TürkResearcher**: an open-source, multi-agent research
-assistant for Turkish academic literature, built on LangChain and
-LangGraph.
+The system is a directed-graph LangGraph state machine of six nodes
+orchestrated by LangChain primitives. State is carried through typed
+Pydantic objects; transitions between nodes are deterministic except
+for one conditional edge from the Critic that branches based on
+coverage assessment and an iteration counter.
 
-Given a research question in Turkish, the agent will:
+The pipeline begins with a Turkish question and proceeds through five
+LLM-using agents. The **Planner** decomposes the question into 3–5
+targeted sub-questions. The **Retriever** issues a multi-query search
+over the indexed corpus and returns the top-ranked chunks. The
+**Synthesiser** clusters retrieved evidence into findings and flags
+contradictions. The **Critic** assesses whether the planner's
+sub-questions are adequately covered: if not, control loops back to
+the Retriever (bounded to two iterations) or, after the second
+failure, falls through to an optional **LiveSearch** node that calls
+external academic APIs as a final fallback. The **Writer** then
+produces the Turkish academic answer with IEEE-style citations.
 
-1. **Decompose** the question into 3–5 specific sub-questions
-2. **Retrieve** evidence from a corpus of 500K+ Turkish thesis abstracts
-   using multi-query similarity search
-3. **Synthesise** the retrieved findings, flagging contradictions
-4. **Self-critique** for coverage, looping back to retrieval if
-   sub-questions are not adequately addressed
-5. **Write** a Turkish academic answer with IEEE-style citations linked
-   to public YÖK PDFs
+Three architectural decisions shape this design. First, state is
+modelled as a typed structure with reducer functions on append-style
+fields, so retrieval iterations accumulate chunks rather than
+overwriting them. Second, every LLM node uses schema-enforced output
+through the OpenAI function-calling protocol, which DeepSeek supports
+natively (DeepSeek does not support OpenAI's newer `json_schema`
+response format). Third, the critic loop is bounded to a maximum of
+two iterations, after which the system falls through to either the
+live-search fallback or directly to the writer, preventing runaway
+retrieval cycles.
 
-## 3. Data
+## 3. Component Specifications
 
-**Primary corpus.** [`umutertugrul/turkish-academic-theses-dataset`](https://huggingface.co/datasets/umutertugrul/turkish-academic-theses-dataset)
-on Hugging Face Hub: a 650K-row bilingual abstract dataset under
-CC-BY-4.0 licence, derived from YÖK Ulusal Tez Merkezi.
+### 3.1 Embedding layer
 
-Quality filters (`abstract_tr` ≥ 50 words, non-empty title,
-deduplication on `tez_no`) will retain approximately 500K–600K records
-for indexing.
-
-**Optional extension.** Turkish journal articles harvested from
-**DergiPark** via the OAI-PMH protocol (`https://dergipark.org.tr/api/public/oai/`),
-to broaden coverage beyond theses.
-
-## 4. System Design
-
-| Component | Choice | Rationale |
+| Property | Value | Rationale |
 |---|---|---|
-| Embedder | `paraphrase-multilingual-mpnet-base-v2` (768-dim) | Strong multilingual sentence representation, good Turkish coverage, modest VRAM footprint |
-| Vector store | ChromaDB | Open-source, well-supported by LangChain, persistent on disk |
-| Distance metric | Cosine similarity | Standard for sentence-transformer embeddings |
-| LLM backbone | DeepSeek (`deepseek-chat`) | OpenAI-compatible API, strong Turkish, low cost |
-| Orchestration | LangChain + LangGraph | Composable RAG primitives plus a state machine for the multi-agent loop |
+| Model | paraphrase-multilingual-mpnet-base-v2 | 768-dim multilingual sentence transformer; XLM-RoBERTa backbone with strong Turkish coverage |
+| Document representation | Title concatenated with abstract | Title-aware indexing adds a strong lexical signal that abstract-only embeddings miss |
+| Normalisation | L2 | Required for cosine similarity to be a valid metric |
+| Inference target | CPU at query time | Local agent runs without GPU; ~50 ms per query after first load |
 
-The five agents (Planner, Retriever, Synthesiser, Critic, Writer) will
-be wired into a directed graph with a conditional edge from Critic back
-to Retriever for coverage failures.
+Alternatives considered and rejected: BERTurk-base (Turkish-only but
+optimised for token-level NER, not sentence representation);
+distiluse-multilingual (512-dim, faster but lower retrieval quality);
+custom SimCSE fine-tune (deferred to future work).
 
-## 5. Evaluation
+### 3.2 Vector indexing
 
-A 30-question Turkish benchmark spanning ten subject categories
-(computer science, education, health, engineering, social sciences,
-business, agriculture, linguistics, law, multi-domain). Four
-**LLM-as-judge** metrics:
+| Property | Value | Rationale |
+|---|---|---|
+| Backend | ChromaDB persistent client | Python-native, persistent on disk, mature LangChain integration |
+| Index | HNSW with M=16 and ef_construction=200 | Sub-second similarity search on more than one hundred thousand vectors |
+| Distance | Cosine | Standard for L2-normalised sentence embeddings |
+| Identifier scheme | Thesis records use the YÖK identifier; journal records use an article prefix | Globally unique; supports source-aware filtering downstream |
+| Metadata stored per chunk | Thirteen fields including author, advisor, location, year, subject, PDF URL, language, source type | Sufficient to construct IEEE citations without re-querying the source parquet |
 
-- **Citation accuracy** — do cited sources actually support the claims?
-- **Faithfulness** — is the generated answer grounded in retrieved context?
-- **Coverage** — fraction of planned sub-questions substantively addressed
-- **Holistic score (1–5)** — overall academic quality (structure, register, reasoning)
+Alternatives considered: FAISS (faster but no built-in persistence
+abstraction); Weaviate or Pinecone (managed services, conflicting with
+the "runs on a laptop" requirement).
 
-Per-category breakdown will surface domains where the system performs
-well versus domains where corpus coverage limits performance, supporting
-an honest analysis of where Turkish academic NLP infrastructure is strong
-and where gaps remain.
+### 3.3 LLM integration layer
 
-## 6. Deliverables
+The system uses DeepSeek's `deepseek-chat` model accessed through its
+OpenAI-compatible REST endpoint. LangChain's `ChatOpenAI` wrapper is
+configured with an overridden base URL so that the same client library
+serves both vendors. Structured outputs are produced via the
+function-calling protocol, since DeepSeek does not yet support the
+newer `json_schema` response format. Per-agent temperature is tuned
+deterministically: the Critic runs at zero temperature for stable
+coverage decisions, the Planner at 0.1 for diverse but focused
+sub-questions, the Synthesiser at 0.2, and the Writer at 0.3 for
+fluent academic prose. Each agent node receives a Pydantic schema and
+produces a validated instance of that schema, eliminating brittle JSON
+parsing.
 
-1. **GitHub repository** under MIT licence, with reproducible pipeline
-   (`pip install`-and-go) and full eval harness.
-2. **Public Hugging Face Hub dataset** hosting the prebuilt vector index,
-   so anyone cloning the repo can reproduce the system without rebuilding
-   the index from scratch.
-3. **IEEE-format academic report** (2–6 pages): abstract, introduction,
-   related work, methodology, experiments, discussion / error analysis,
-   conclusion.
-4. **10–15 minute class presentation** with a live demo.
+### 3.4 Retrieval strategy
+
+The retriever runs the original question alongside each planner
+sub-question, producing four to six independent queries per turn. For
+each query, the top six chunks are retrieved by cosine similarity. The
+results are deduplicated globally by their thesis identifier, with the
+maximum similarity score retained when the same chunk appears across
+multiple queries. The deduplicated set is truncated to the top
+twenty-four chunks before being passed to the synthesiser. Cosine
+distance returned by ChromaDB is converted to a similarity score in
+the unit interval for downstream interpretability.
+
+### 3.5 Citation subsystem
+
+The writer emits inline numeric markers in Turkish prose, where each
+number indexes one of the retrieved chunks delivered as context. The
+IEEE reference list itself is constructed deterministically by the
+system from chunk metadata (author, title, location, year, public PDF
+URL), not by the LLM. This split keeps the writer free to reason about
+narrative while guaranteeing that every reference resolves to a real
+public URL on `tez.yok.gov.tr`. A post-processing safety check filters
+any numeric marker that exceeds the available chunk count, preventing
+hallucinated references from leaking into the final answer.
+
+## 4. Data Pipeline
+
+The corpus originates from `umutertugrul/turkish-academic-theses-dataset`
+on Hugging Face Hub, a 650K-row bilingual abstract dataset under
+CC-BY-4.0. The pipeline first fetches the raw parquet via the
+`datasets` library. A filter stage then enforces three quality
+criteria: each abstract must be at least fifty words, the Turkish
+title must be non-empty, and duplicate thesis identifiers are
+collapsed. The retained 500K–600K records are embedded with mpnet on
+a Colab T4 GPU at batch size 256, then ingested into a Chroma
+collection configured for cosine similarity. The persistent index is
+uploaded as a public Hugging Face dataset, allowing any consumer to
+reproduce the runtime by pulling the prebuilt index rather than
+rebuilding it from scratch.
+
+## 5. Evaluation Framework
+
+A 30-question Turkish academic benchmark spans ten subject categories:
+computer science, education, health, engineering, social sciences,
+business, agriculture, linguistics, law, and multi-domain queries.
+Four LLM-as-judge metrics are computed per question.
+
+| Metric | Range | Captures |
+|---|---|---|
+| Citation accuracy | 0 to 1 | Whether cited chunks support the surrounding claim |
+| Faithfulness | 0 to 1 | Whether every claim is grounded in retrieved context |
+| Coverage | 0 to 1 | Fraction of planner sub-questions substantively addressed |
+| Holistic | 1 to 5 | Overall academic quality (structure, register, reasoning) |
+
+Mechanical metrics are also captured: end-to-end latency,
+retrieved-chunk count, maximum cosine similarity, and critic
+iteration count. A per-category breakdown surfaces domains where the
+corpus is strong versus weak, supporting honest error analysis rather
+than a single blended number.
+
+## 6. Reproducibility & Deployment
+
+All code will be released under MIT licence on GitHub. The prebuilt
+Chroma index will be published as a public Hugging Face dataset so
+that any consumer can reproduce the system end-to-end without
+rebuilding the index. The runtime is designed to be a three-step
+flow: install dependencies from the pinned requirements file, pull
+the prebuilt index from Hugging Face Hub via a single helper script,
+then run the agent CLI with a Turkish question.
 
 ## 7. Timeline
 
-| Phase | Weeks |
-|---|---|
-| Data pipeline (fetch, filter, embed, index) | 1–2 |
-| Multi-agent system design and integration | 3 |
-| Evaluation framework and analysis | 4 |
-| Report and presentation | 5 |
+| Phase | Weeks | Output |
+|---|---|---|
+| Data pipeline (fetch, filter, embed, index, push) | 1–2 | Indexed Chroma collection on HF Hub |
+| Multi-agent system implementation (LangGraph nodes, Pydantic schemas, citation subsystem) | 3 | Runnable agent CLI |
+| Evaluation framework (benchmark questions, judge prompts, summary aggregation) | 4 | Quantitative results table |
+| Academic report (IEEE 2–6 pages) and class presentation | 5 | PDF and slide deck |
 
-## 8. Why this is novel
+## 8. Expected Deliverables
 
-To the best of my knowledge, **TürkResearcher would be the first
-open-source multi-agent academic research assistant for Turkish**.
-The novelty lies not in inventing new model architectures, but in
-combining state-of-the-art LLM orchestration techniques with a
-language-specific academic corpus that has been largely invisible to
-the modern LLM ecosystem — and in doing so openly, with full
-reproducibility.
+1. GitHub repository under MIT licence with reproducible pipeline
+   and full evaluation harness.
+2. Public Hugging Face dataset hosting the prebuilt vector index.
+3. IEEE-format academic report (2–6 pages): abstract, introduction,
+   related work, methodology, experiments, discussion / error analysis,
+   conclusion.
+4. 10–15 minute class presentation with a live demo.
