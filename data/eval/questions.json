@@ -1,0 +1,242 @@
+[
+  {
+    "id": "q01",
+    "category": "computer_science",
+    "type": "trend",
+    "question": "Türkçe doğal dil işlemede son yıllardaki ana yaklaşımlar nelerdir?",
+    "expected_subjects": ["Bilgisayar Mühendisliği", "Bilgisayar"],
+    "min_citations": 5
+  },
+  {
+    "id": "q02",
+    "category": "computer_science",
+    "type": "method",
+    "question": "Türkçe metin sınıflandırmada Transformer tabanlı modellerin (BERT vb.) avantajları ve sınırlılıkları nelerdir?",
+    "expected_subjects": ["Bilgisayar Mühendisliği"],
+    "min_citations": 4
+  },
+  {
+    "id": "q03",
+    "category": "computer_science",
+    "type": "application",
+    "question": "Derin öğrenme yöntemleri Türkiye'deki sel ve taşkın tahmininde nasıl uygulanmıştır?",
+    "expected_subjects": ["İnşaat Mühendisliği", "Bilgisayar Mühendisliği", "Çevre Mühendisliği"],
+    "min_citations": 4
+  },
+  {
+    "id": "q04",
+    "category": "computer_science",
+    "type": "comparison",
+    "question": "Türkçe görüntü tanımada konvolüsyonel sinir ağları ile geleneksel makine öğrenmesi yöntemlerinin karşılaştırması nasıldır?",
+    "expected_subjects": ["Bilgisayar Mühendisliği", "Elektrik-Elektronik Mühendisliği"],
+    "min_citations": 4
+  },
+  {
+    "id": "q05",
+    "category": "education",
+    "type": "trend",
+    "question": "Türkiye'de matematik eğitiminde STEM yaklaşımının öğrenci başarısına etkisi üzerine yapılan çalışmalar nelerdir?",
+    "expected_subjects": ["Eğitim ve Öğretim", "Matematik"],
+    "min_citations": 5
+  },
+  {
+    "id": "q06",
+    "category": "education",
+    "type": "method",
+    "question": "Uzaktan eğitimde öğrenci motivasyonunu artıran pedagojik stratejiler nelerdir?",
+    "expected_subjects": ["Eğitim ve Öğretim"],
+    "min_citations": 5
+  },
+  {
+    "id": "q07",
+    "category": "education",
+    "type": "limitation",
+    "question": "Kapsayıcı eğitim uygulamalarının Türkiye'deki uygulanmasındaki temel sorunlar nelerdir?",
+    "expected_subjects": ["Eğitim ve Öğretim"],
+    "min_citations": 4
+  },
+  {
+    "id": "q08",
+    "category": "health",
+    "type": "method",
+    "question": "Diyabet hastalarında beslenme alışkanlıklarının glisemik kontrol üzerindeki etkisi nasıl değerlendirilmiştir?",
+    "expected_subjects": ["Beslenme ve Diyetetik", "Endokrinoloji ve Metabolizma Hastalıkları"],
+    "min_citations": 4
+  },
+  {
+    "id": "q09",
+    "category": "health",
+    "type": "comparison",
+    "question": "Kalp damar hastalıklarının teşhisinde ekokardiyografi ve manyetik rezonans görüntülemenin karşılaştırmalı performansı nedir?",
+    "expected_subjects": ["Kardiyoloji", "Radyoloji ve Nükleer Tıp"],
+    "min_citations": 4
+  },
+  {
+    "id": "q10",
+    "category": "health",
+    "type": "application",
+    "question": "Türkiye'de hemşirelik öğrencilerinin klinik karar verme becerilerinin geliştirilmesi için kullanılan yöntemler nelerdir?",
+    "expected_subjects": ["Hemşirelik"],
+    "min_citations": 5
+  },
+  {
+    "id": "q11",
+    "category": "engineering",
+    "type": "application",
+    "question": "Yenilenebilir enerji kaynaklarından rüzgar türbinlerinin Türkiye'deki potansiyeli ve verimliliği üzerine yapılan çalışmalar nelerdir?",
+    "expected_subjects": ["Enerji", "Makine Mühendisliği", "Elektrik-Elektronik Mühendisliği"],
+    "min_citations": 5
+  },
+  {
+    "id": "q12",
+    "category": "engineering",
+    "type": "method",
+    "question": "Beton karışımına nano malzeme katkılarının mekanik özelliklere etkisi nasıl incelenmiştir?",
+    "expected_subjects": ["İnşaat Mühendisliği", "Malzeme Bilimi"],
+    "min_citations": 4
+  },
+  {
+    "id": "q13",
+    "category": "engineering",
+    "type": "trend",
+    "question": "Endüstri 4.0 kapsamında Türk imalat sanayisinde dijital dönüşüm uygulamaları nasıl ilerlemiştir?",
+    "expected_subjects": ["Endüstri ve Endüstri Mühendisliği", "İşletme"],
+    "min_citations": 4
+  },
+  {
+    "id": "q14",
+    "category": "social_sciences",
+    "type": "trend",
+    "question": "Türkiye'de sosyal medyanın siyasi katılım üzerindeki etkisini inceleyen araştırmalardaki bulgular nelerdir?",
+    "expected_subjects": ["Siyasal Bilimler", "Halkla İlişkiler", "Sosyoloji"],
+    "min_citations": 4
+  },
+  {
+    "id": "q15",
+    "category": "social_sciences",
+    "type": "method",
+    "question": "Yaşlı bireylerin yalnızlık duygusunu azaltan psikososyal müdahale yöntemleri nelerdir?",
+    "expected_subjects": ["Psikoloji", "Sosyal Hizmetler"],
+    "min_citations": 4
+  },
+  {
+    "id": "q16",
+    "category": "business",
+    "type": "method",
+    "question": "Türkiye'deki KOBİ'lerin dijital pazarlama stratejilerini nasıl benimsediği üzerine yapılan çalışmaların ortak bulguları nelerdir?",
+    "expected_subjects": ["İşletme", "Halkla İlişkiler"],
+    "min_citations": 4
+  },
+  {
+    "id": "q17",
+    "category": "business",
+    "type": "application",
+    "question": "Müşteri sadakat programlarının e-ticaret sektöründeki etkinliği üzerine yapılan araştırmalar nelerdir?",
+    "expected_subjects": ["İşletme", "Pazarlama"],
+    "min_citations": 4
+  },
+  {
+    "id": "q18",
+    "category": "agriculture",
+    "type": "method",
+    "question": "Türkiye'de organik tarım uygulamalarının toprak verimliliğine etkisi nasıl ölçülmüştür?",
+    "expected_subjects": ["Ziraat"],
+    "min_citations": 4
+  },
+  {
+    "id": "q19",
+    "category": "veterinary",
+    "type": "method",
+    "question": "Sığırcılıkta yapay tohumlama tekniklerinin döl verimi üzerindeki etkileri nedir?",
+    "expected_subjects": ["Veteriner Hekimliği", "Ziraat"],
+    "min_citations": 3
+  },
+  {
+    "id": "q20",
+    "category": "linguistics",
+    "type": "method",
+    "question": "Türkçenin tarihi lehçeleri üzerine yapılan ses bilgisi çalışmalarındaki ana yöntemler nelerdir?",
+    "expected_subjects": ["Türk Dili ve Edebiyatı", "Dilbilim"],
+    "min_citations": 4
+  },
+  {
+    "id": "q21",
+    "category": "law",
+    "type": "limitation",
+    "question": "Türkiye'de kişisel verilerin korunması (KVKK) hukuku uygulamalarındaki temel sorunlar nelerdir?",
+    "expected_subjects": ["Hukuk", "Kamu Yönetimi"],
+    "min_citations": 4
+  },
+  {
+    "id": "q22",
+    "category": "law",
+    "type": "comparison",
+    "question": "Türk Ceza Kanunu ile Anglo-Sakson hukuk sisteminde suç ve ceza prensiplerinin karşılaştırması nasıldır?",
+    "expected_subjects": ["Hukuk"],
+    "min_citations": 3
+  },
+  {
+    "id": "q23",
+    "category": "physics",
+    "type": "method",
+    "question": "Süperiletken malzemelerin enerji depolama uygulamaları üzerine yapılan deneysel çalışmalardaki bulgular nelerdir?",
+    "expected_subjects": ["Fizik ve Fizik Mühendisliği", "Enerji"],
+    "min_citations": 3
+  },
+  {
+    "id": "q24",
+    "category": "chemistry",
+    "type": "application",
+    "question": "Yeşil kimya prensiplerinin ilaç üretim süreçlerindeki uygulamaları nelerdir?",
+    "expected_subjects": ["Kimya", "Eczacılık ve Farmakoloji", "Kimya Mühendisliği"],
+    "min_citations": 4
+  },
+  {
+    "id": "q25",
+    "category": "biology",
+    "type": "method",
+    "question": "Mikroplastiklerin sucul ekosistemlerdeki canlılar üzerindeki ekotoksikolojik etkileri nasıl araştırılmıştır?",
+    "expected_subjects": ["Biyoloji", "Çevre Mühendisliği", "Su Ürünleri"],
+    "min_citations": 4
+  },
+  {
+    "id": "q26",
+    "category": "tourism",
+    "type": "trend",
+    "question": "COVID-19 sonrası Türkiye turizm sektöründe sürdürülebilir turizm yaklaşımlarının değişimi nasıldır?",
+    "expected_subjects": ["Turizm", "İşletme"],
+    "min_citations": 3
+  },
+  {
+    "id": "q27",
+    "category": "sports",
+    "type": "method",
+    "question": "Yüksek yoğunluklu interval antrenmanın elit sporcuların performansına etkisi nasıl ölçülmüştür?",
+    "expected_subjects": ["Spor"],
+    "min_citations": 3
+  },
+  {
+    "id": "q28",
+    "category": "multi_domain",
+    "type": "cross",
+    "question": "Yapay zeka teknolojilerinin tıbbi tanı süreçlerine entegrasyonu hangi etik ve hukuki konuları gündeme getirmektedir?",
+    "expected_subjects": ["Bilgisayar Mühendisliği", "Hukuk", "Sağlık Eğitimi"],
+    "min_citations": 4
+  },
+  {
+    "id": "q29",
+    "category": "multi_domain",
+    "type": "cross",
+    "question": "İklim değişikliğinin Türkiye'deki tarımsal üretim üzerindeki ekonomik etkileri nelerdir?",
+    "expected_subjects": ["Ziraat", "Ekonomi", "Çevre Mühendisliği"],
+    "min_citations": 4
+  },
+  {
+    "id": "q30",
+    "category": "edge_case",
+    "type": "narrow",
+    "question": "Eski Anadolu Türkçesinde kıpçak unsurlarının fonetik özellikleri nelerdir?",
+    "expected_subjects": ["Türk Dili ve Edebiyatı"],
+    "min_citations": 2
+  }
+]

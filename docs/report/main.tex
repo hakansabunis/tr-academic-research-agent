@@ -1,0 +1,327 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{textcomp}
+\usepackage{hyperref}
+
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{T\"urkResearcher: A LangGraph-based Multi-Agent\\Research Assistant Grounded in 633K Turkish Theses}
+
+\author{
+\IEEEauthorblockN{Hakan Sabuni\c{s}}
+\IEEEauthorblockA{Department of Computer Engineering\\
+Istanbul Medipol University\\
+Email: hakansabunis@gmail.com}
+}
+
+\maketitle
+
+\begin{abstract}
+Despite the rapid emergence of English-language research assistants such as
+Elicit and Consensus.app, no comparable system exists for Turkish academic
+literature, leaving researchers without grounded, citation-supported answers
+in their native language. We introduce \textit{T\"urkResearcher}, a multi-agent
+research assistant built on LangChain and LangGraph, which decomposes Turkish
+academic queries, retrieves evidence from a corpus of 633{,}998 Turkish thesis
+abstracts (the largest publicly indexed corpus to date for the domain),
+synthesises findings, and produces IEEE-style citations. The system uses a
+hybrid architecture: a multilingual sentence-transformer embedder for offline
+retrieval and the DeepSeek API for reasoning. We additionally harvest
+hundreds of thousands of journal articles from DergiPark via OAI-PMH to
+extend coverage. We evaluate the system on a 30-question Turkish-language
+benchmark spanning ten subject areas using LLM-as-judge metrics for citation
+accuracy, faithfulness, sub-question coverage, and overall academic quality.
+% PLACEHOLDER: fill in headline numbers once eval finishes.
+% e.g. "We obtain a citation accuracy of XX, faithfulness of YY, and a holistic
+% quality score of ZZ/5."
+The full pipeline, data, and the prebuilt index are released openly on the
+Hugging Face Hub for reproducibility.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Retrieval-Augmented Generation, Multi-Agent Systems, Turkish NLP, LangChain,
+LangGraph, Academic Search, LLM-as-Judge.
+\end{IEEEkeywords}
+
+\section{Introduction}
+
+\IEEEPARstart{R}{esearch} assistants powered by retrieval-augmented generation
+(RAG) and large language models (LLMs) have rapidly become an essential layer
+of modern academic workflows. English-language tools such as Elicit, scite.ai
+and Consensus.app help researchers locate evidence, distil findings, and trace
+arguments to primary sources. None of these systems serve the Turkish-language
+academic ecosystem. Turkish researchers, despite the country having more than
+600 active scholarly journals on DergiPark and tens of thousands of theses
+released annually through YÖK Ulusal Tez Merkezi, must currently choose
+between general-purpose chatbots that hallucinate or English-only tools that
+ignore the Turkish corpus entirely.
+
+This work fills that gap with \textit{T\"urkResearcher}, an open multi-agent
+academic research assistant for Turkish. Given a research question in Turkish,
+the system decomposes it into sub-questions, retrieves evidence multi-querily
+from a 633{,}998-record corpus of Turkish thesis abstracts, synthesises the
+findings, runs an explicit critic step, and finally drafts a Turkish academic
+answer with IEEE-style citations grounded in retrieved sources.
+
+\textbf{Contributions.}
+\begin{itemize}
+\item A \emph{novel application} of multi-agent RAG to the under-served Turkish
+academic-search niche, with no commercial or open-source equivalent at the
+time of writing.
+\item A reproducible \emph{data pipeline} built atop the
+\texttt{umutertugrul/turkish-academic-theses-dataset} corpus, applying
+quality filters and producing a \emph{title-aware}, cosine-distance Chroma
+index that we release publicly as
+\texttt{hakansabunis/tr-academic-research-agent-index}.
+\item An \emph{OAI-PMH harvester} for DergiPark that extends the corpus by
+several hundred thousand journal articles.
+\item A \emph{LangGraph state machine} that integrates Planner, Retriever,
+Synthesiser, Critic and Writer agents, and demonstrates conditional looping
+when retrieval coverage is insufficient.
+\item A \emph{30-question Turkish benchmark} and an LLM-as-judge evaluation
+framework reporting citation accuracy, faithfulness, multi-hop coverage, and
+holistic academic quality.
+\end{itemize}
+
+\section{Related Work}
+
+\textbf{RAG and research assistants.} Retrieval-augmented generation
+\cite{lewis2020rag} has become the dominant paradigm for grounding LLM
+output in external evidence. Commercial systems such as Elicit and
+Consensus.app demonstrate the demand for evidence-traceable academic search,
+but they target English-only corpora. Open-source efforts such as
+\texttt{LangChain} and \texttt{LangGraph} \cite{langchain2024,langgraph2024}
+provide composable RAG and multi-agent abstractions that we build upon.
+
+\textbf{Turkish NLP.} Recent work on Turkish NLP has produced strong
+language-model baselines (BERTurk \cite{schweter2020berturk}, multilingual
+sentence transformers \cite{reimers2019sbert,reimers2020multilingualsbert})
+and several monolingual datasets, but coverage of academic search and
+domain-specific RAG remains thin. The
+\texttt{umutertugrul/turkish-academic-theses-dataset} corpus
+\cite{umut2024theses} provides $\sim$650K bilingual abstracts that we filter
+and index in this work; previous efforts such as TR-Akademik~\cite{trakad2025}
+indexed only a $\sim$48K subset using a leaner schema and an L2 distance
+metric, which we improve upon.
+
+\textbf{Multi-agent LLM systems.} Recent work has shown that decomposing a
+task across specialised agents (e.g., AutoGen \cite{wu2023autogen}) yields
+better results than monolithic prompting, particularly when retrieval and
+critique steps are interleaved. We instantiate a five-agent pipeline with
+explicit conditional looping inspired by these systems.
+
+\textbf{Evaluation of RAG.} Frameworks such as RAGAS \cite{es2024ragas} and
+RAG\,Bench \cite{lyu2024rag} measure faithfulness, answer relevance and
+context precision. We adopt an LLM-as-judge approach \cite{zheng2023llmjudge}
+adapted to Turkish, scoring citation accuracy, faithfulness, multi-hop
+coverage, and overall academic quality.
+
+\section{Methodology}
+
+\subsection{System overview}
+
+T\"urkResearcher is a directed graph of five agents orchestrated by
+LangGraph, with a single conditional edge from \texttt{Critic} back to
+\texttt{Retriever} (Fig.~\ref{fig:arch}). All four LLM-using agents share the
+same DeepSeek backend through LangChain's \texttt{ChatOpenAI} adapter,
+configured to use \texttt{function\_calling} for structured output, since
+DeepSeek does not yet expose the OpenAI \texttt{json\_schema} response
+format.
+
+\begin{figure}[t]
+\centering
+% \includegraphics[width=\linewidth]{figures/architecture.pdf}
+\fbox{\parbox{0.92\linewidth}{\centering
+\textbf{Question (TR)} $\to$
+\textbf{Planner} (3--5 sub-Qs) $\to$
+\textbf{Retriever} (multi-query Chroma) $\to$
+\textbf{Synthesiser} (cluster findings) $\to$
+\textbf{Critic} (coverage check) $\to^{\mathrm{loop}}$
+\textbf{Writer} (IEEE-cited answer)
+}}
+\caption{T\"urkResearcher LangGraph state machine. The Critic node may route
+back to Retriever up to twice if coverage is insufficient.}
+\label{fig:arch}
+\end{figure}
+
+\subsection{Data pipeline}
+
+We start from \texttt{umutertugrul/turkish-academic-theses-dataset}, a
+$\sim$650K-row bilingual thesis-metadata dataset under CC-BY-4.0, and apply
+the following filters:
+(i) \texttt{abstract\_tr} non-empty;
+(ii) \texttt{abstract\_tr} $\geq 50$ tokens;
+(iii) \texttt{title\_tr} non-empty;
+(iv) deduplication by \texttt{tez\_no}.
+This yields $N{=}633{,}998$ records spanning 1966--2024 across more than
+50 distinct subject areas (Education, Business, Agriculture, Law, Medicine,
+Engineering, etc.; the most populous subjects are Education and Training
+($n{=}5126$) and Business Administration ($n{=}2048$)).
+
+Each record is encoded as the concatenation
+\texttt{title\_tr}~$\Vert$~\texttt{abstract\_tr}, providing a stronger
+lexical signal than the abstract alone, and embedded with
+\texttt{paraphrase-multilingual-mpnet-base-v2} (768-dim). We persist
+embeddings into Chroma using cosine distance (\texttt{hnsw:space=cosine}).
+
+\subsection{Multi-agent pipeline}
+
+\textbf{Planner.} Decomposes the user's question into 3--5 well-typed
+Turkish sub-questions emphasising different conceptual angles (method,
+finding, limitation, comparison, application). Output is a Pydantic
+\texttt{Plan} object enforced via function calling.
+
+\textbf{Retriever.} Runs the original question and every sub-question
+against the Chroma collection (top-$k{=}6$ each), deduplicates by
+\texttt{tez\_no} keeping the highest score, and returns up to 24 chunks
+sorted by similarity. Cosine distance is converted into a
+$[0,1]$ similarity score.
+
+\textbf{Synthesiser.} Receives the retrieved chunks and produces a
+\texttt{Synthesis} object whose \texttt{findings} are short claims with
+explicit citations to chunk-level \texttt{tez\_no}s, plus a
+\texttt{contradictions} list when the corpus disagrees with itself.
+
+\textbf{Critic.} Evaluates whether the synthesis covers all sub-questions,
+emitting Boolean \texttt{coverage\_ok}, a list of missing aspects, and
+concrete Turkish \texttt{requery\_terms} for the next retrieval pass. If
+\texttt{coverage\_ok} is false and the iteration count is below
+\texttt{MAX\_CRITIC\_LOOPS}~$=2$, control returns to the Retriever; otherwise
+flow proceeds to the Writer.
+
+\textbf{Writer.} Produces a final Turkish academic answer in Markdown,
+sentence-level citations \texttt{[n]} matching the chunks, and IEEE-style
+references that include author, title, location, and the public YÖK PDF
+URL.
+
+\subsection{DergiPark extension}
+
+To extend coverage beyond theses, we implement an OAI-PMH harvester
+(\texttt{scripts/05\_harvest\_dergipark.py}) that streams Dublin Core records
+from
+\url{https://dergipark.org.tr/api/public/oai/}, persists JSONL incrementally
+with resumption-token state for crash safety, and respects 429 backoff. At
+the time of writing this corpus is being embedded and merged into the same
+Chroma collection.
+
+\section{Experiments}
+
+\subsection{Setup}
+
+\textbf{Corpus index.} Final 633{,}998-document Chroma index, built on a
+Colab T4/A100 GPU with mpnet-base-v2 over $\sim$6 hours, occupying 13.4 GB
+on disk and 14.8 GB on Hugging Face Hub.
+
+\textbf{Hardware.} Local agent inference on a Windows 11 laptop with an RTX
+3050 Ti (4 GB) acting as embedder host (CPU also sufficient); LLM calls
+issued to the DeepSeek API (\texttt{deepseek-chat}). No GPU is required at
+query time once the index is downloaded.
+
+\textbf{Benchmark.} A 30-question Turkish-language eval set,
+\texttt{data/eval/questions.json}, with expected subject areas and minimum
+citation thresholds. Categories cover computer science, education, health,
+engineering, social sciences, business, agriculture, veterinary, linguistics,
+law, physics, chemistry, biology, tourism, sports and cross-domain queries.
+
+\subsection{Metrics}
+
+For each question, we compute four metrics with DeepSeek as judge:
+\begin{itemize}
+\item \textbf{Citation accuracy} ($\in [0,1]$): the fraction of in-text
+\texttt{[n]} citations whose underlying chunk supports the surrounding claim.
+\item \textbf{Faithfulness} ($\in [0,1]$): how grounded the answer is in
+retrieved chunks (1.0 = no hallucination).
+\item \textbf{Coverage} ($\in [0,1]$): fraction of planner sub-questions
+substantively addressed in the final answer.
+\item \textbf{Holistic score} ($\in \{1,\dots,5\}$): overall academic quality
+(structure, register, reasoning).
+\end{itemize}
+We additionally report end-to-end latency, number of retrieved chunks,
+maximum chunk similarity, and the number of citations.
+
+\subsection{Results}
+
+% PLACEHOLDER --- fill in once scripts/06,07,08 finish.
+% Insert table from data/eval/summary.md (overall + by-category).
+
+Table~\ref{tab:overall} reports headline metrics over the 30-question
+benchmark. % PLACEHOLDER
+
+\begin{table}[t]
+\centering
+\caption{Overall benchmark metrics (mean over 30 questions).}
+\label{tab:overall}
+\begin{tabular}{lcccc}
+\toprule
+Metric & Mean & Median & Min & Max \\
+\midrule
+Citation accuracy & TBD & TBD & TBD & TBD \\
+Faithfulness      & TBD & TBD & TBD & TBD \\
+Coverage          & TBD & TBD & TBD & TBD \\
+Holistic (1--5)   & TBD & TBD & TBD & TBD \\
+\#Citations       & TBD & TBD & TBD & TBD \\
+Latency (s)       & TBD & TBD & TBD & TBD \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Discussion and Error Analysis}
+
+% Update with concrete examples once eval finishes.
+\textbf{Strengths.} Adding the title to the embedded document and switching
+from Euclidean to cosine distance materially improves retrieval relevance
+compared with the prior 48K-record TR-Akademik index. Smoke tests on five
+canonical queries (e.g.\ \emph{flood prediction with deep learning},
+\emph{Turkish NLP methods}, \emph{cardiovascular disease diagnosis}) all
+return on-topic theses in the top-3, whereas the legacy index returned
+spurious sound-of-Turkish-language theses.
+
+\textbf{Failure modes.} The retriever surfaces broad off-topic theses for
+narrow questions when the corpus is light in that area (e.g.\ extremely
+recent post-2024 sub-fields). The Writer agent largely guards against
+hallucinated citations because \texttt{citations\_ieee} is filled
+deterministically by the system; however, narrative claims unsupported by
+retrieved chunks remain a residual risk.
+
+\textbf{Latency.} End-to-end runs are dominated by sequential DeepSeek calls
+(Plan, Synth, Critic, Write), giving a baseline of $\sim$45--90~s per
+question. Latency could be reduced by parallelising sub-question retrievals
+and by caching the Planner output for similar questions.
+
+\textbf{Limitations.}
+(i)~The corpus is restricted to thesis abstracts (full text is not yet
+included); DergiPark integration partially addresses this with journal
+articles. (ii)~The current evaluation uses a single LLM judge; cross-judge
+agreement should be measured in future work. (iii)~The pipeline assumes
+\emph{static} corpus knowledge between rebuilds; live API tools (DergiPark
+REST, OpenAlex, Semantic Scholar) are flagged as future work for real-time
+coverage of newly published research.
+
+\section{Conclusion}
+
+We presented \textit{T\"urkResearcher}, an open multi-agent academic research
+assistant for Turkish, grounded in 633{,}998 thesis abstracts and a parallel
+DergiPark journal harvest. The system targets a clear, previously unfilled
+niche, integrates Planner/Retriever/Synthesiser/Critic/Writer agents in a
+LangGraph state machine, and emits IEEE-style citations traceable to public
+YÖK PDFs. The complete pipeline, including the 14.8\,GB prebuilt index, is
+released on the Hugging Face Hub for reproducibility. Future work targets
+live source aggregation, full-text retrieval, and cross-judge evaluation.
+
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+
+\end{document}

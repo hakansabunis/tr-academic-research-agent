@@ -1,0 +1,41 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
+
+data/abstracts.parquet
+data/chroma_db/
+data/dergipark/
+data/raw/
+data/eval/runs/
+data/eval/judgments/
+data/eval/results/
+data/eval/summary.json
+data/eval/summary.md
+data/derivation_report.json
+data/index_validation_report.json
+data/_hub_cache/
+
+# Claude Code internal
+.claude/
+
+# Python venv
+.venv/
+venv/
+
+# Old/yedek scripts
+scripts/01_copy_data.py
+scripts/02_index_abstracts.py
+
+.langsmith/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+*.log
