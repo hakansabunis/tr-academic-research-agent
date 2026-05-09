@@ -3,8 +3,11 @@
 > **TürkResearcher** — the first open multi-agent academic research assistant for Turkish, grounded in 633K Turkish thesis abstracts.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Live demo on HF Spaces](https://img.shields.io/badge/demo-HF%20Space-orange)](https://huggingface.co/spaces/hakansabunis/turkresearcher)
 [![Index on HF](https://img.shields.io/badge/index-HuggingFace-blue)](https://huggingface.co/datasets/hakansabunis/tr-academic-research-agent-index)
 [![LangGraph](https://img.shields.io/badge/LangGraph-multi--agent-green)](https://github.com/langchain-ai/langgraph)
+
+> 🚀 **Try it live:** [hakansabunis/turkresearcher](https://huggingface.co/spaces/hakansabunis/turkresearcher) (bring your own DeepSeek API key)
 
 Inspired by Elicit / Consensus.app — but Turkish-first, since no equivalent exists. Given a Turkish research question, the agent decomposes it, retrieves multi-query evidence from a 633.998-record corpus, runs a critic loop for coverage, then writes a Turkish academic answer with IEEE-style citations grounded in real `tez.yok.gov.tr` PDFs.
 
