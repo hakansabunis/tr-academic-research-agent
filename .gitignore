@@ -40,6 +40,10 @@ venv/
 scripts/01_copy_data.py
 scripts/02_index_abstracts.py
 
+# Local debug throwaways
+space/_debug.py
+space/_debug2.py
+
 .langsmith/
 .pytest_cache/
 .mypy_cache/
