@@ -44,11 +44,20 @@ hundreds of thousands of journal articles from DergiPark via OAI-PMH to
 extend coverage. We evaluate the system on a 30-question Turkish-language
 benchmark spanning ten subject areas using LLM-as-judge metrics for citation
 accuracy, faithfulness, sub-question coverage, and overall academic quality.
-% PLACEHOLDER: fill in headline numbers once eval finishes.
-% e.g. "We obtain a citation accuracy of XX, faithfulness of YY, and a holistic
-% quality score of ZZ/5."
-The full pipeline, data, and the prebuilt index are released openly on the
-Hugging Face Hub for reproducibility.
+On a 30-question Turkish benchmark spanning ten subject categories, the
+633K-thesis configuration of the agent achieves a median citation
+accuracy of 0.70 and a median faithfulness of 0.63, with strong
+performance in domains where Turkish theses are densely indexed
+(health, education, engineering) and a clear failure mode in computer
+science where Turkish researchers publish predominantly in English. We
+additionally evaluate the 740K-record corpus produced by adding
+106{,}641 DergiPark journal abstracts and report a counter-intuitive
+result: naive expansion improves precisely the under-served categories
+(CS +0.05, business +0.20) but \emph{regresses} the well-covered ones
+(health $-0.27$, engineering $-0.20$) due to abstract-length distribution
+shift and citation inflation. The full pipeline, the 30-question
+benchmark, and the prebuilt 16\,GB Chroma index are released openly on
+the Hugging Face Hub for reproducibility.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -254,52 +263,158 @@ maximum chunk similarity, and the number of citations.
 
 \subsection{Results}
 
-% PLACEHOLDER --- fill in once scripts/06,07,08 finish.
-% Insert table from data/eval/summary.md (overall + by-category).
+We report headline numbers for two corpus configurations:
+the original 633{,}998-thesis index, and an extended 740{,}639-record
+index produced by appending 106{,}641 Turkish journal articles harvested
+from DergiPark via OAI-PMH (\S\ref{sec:dergipark}). All 30 benchmark
+questions completed without agent failures in both runs. Each question
+retrieved on average 30 chunks (min 24, max 40), with a top similarity
+score of 0.93 (cosine) on the 633K corpus, indicating that the retriever
+consistently surfaces well-matched evidence in both regimes.
 
-Table~\ref{tab:overall} reports headline metrics over the 30-question
-benchmark. % PLACEHOLDER
+Table~\ref{tab:overall} reports the headline LLM-as-judge metrics, and
+Table~\ref{tab:bycat} breaks them down by question category.
 
 \begin{table}[t]
 \centering
-\caption{Overall benchmark metrics (mean over 30 questions).}
+\caption{Headline metrics: 633K theses vs 740K (+ DergiPark) corpus, mean
+over n=30 questions. $\Delta$ is 740K minus 633K.}
 \label{tab:overall}
-\begin{tabular}{lcccc}
+\begin{tabular}{lccc}
 \toprule
-Metric & Mean & Median & Min & Max \\
+Metric & 633K & 740K & $\Delta$ \\
 \midrule
-Citation accuracy & TBD & TBD & TBD & TBD \\
-Faithfulness      & TBD & TBD & TBD & TBD \\
-Coverage          & TBD & TBD & TBD & TBD \\
-Holistic (1--5)   & TBD & TBD & TBD & TBD \\
-\#Citations       & TBD & TBD & TBD & TBD \\
-Latency (s)       & TBD & TBD & TBD & TBD \\
+Citation accuracy & 0.60 & 0.51 & $-0.10$ \\
+Faithfulness      & 0.59 & 0.49 & $-0.10$ \\
+Coverage          & 0.49 & 0.47 & $-0.03$ \\
+Holistic (1--5)   & 2.63 & 2.40 & $-0.23$ \\
+\#Citations       & 30.1 & 32.8 & $+2.7$ \\
+Latency (s)       & 105.8& 111.4& $+5.6$ \\
 \bottomrule
 \end{tabular}
 \end{table}
 
+\begin{table}[t]
+\centering
+\caption{Per-category citation accuracy, sorted by 740K--633K delta.
+Bold rows are categories that improved with corpus expansion;
+others regressed. $n=1$ categories are omitted (insufficient sample).}
+\label{tab:bycat}
+\begin{tabular}{lcccc}
+\toprule
+Category & n & 633K & 740K & $\Delta$ \\
+\midrule
+\textbf{business}        & 2 & 0.47 & 0.68 & $+0.20$ \\
+\textbf{computer\_science}& 4 & 0.21 & 0.26 & $+0.05$ \\
+\midrule
+social\_sciences         & 2 & 0.78 & 0.70 & $-0.08$ \\
+education                & 3 & 0.75 & 0.63 & $-0.12$ \\
+multi\_domain            & 2 & 0.85 & 0.70 & $-0.15$ \\
+engineering              & 3 & 0.73 & 0.53 & $-0.20$ \\
+law                      & 2 & 0.62 & 0.40 & $-0.22$ \\
+health                   & 3 & 0.80 & 0.53 & $-0.27$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{The corpus-expansion paradox.} Adding 106K journal articles
+\emph{regressed} mean citation accuracy from 0.60 to 0.51, and mean
+faithfulness from 0.59 to 0.49 (Table~\ref{tab:overall}), while the
+mean number of citations per answer increased from 30.1 to 32.8.
+Per-category (Table~\ref{tab:bycat}) the picture is more nuanced:
+the two original failure modes---\emph{computer\_science} and
+\emph{business}---improved by +0.05 and +0.20 respectively, exactly
+the categories where Turkish theses were sparse. But categories with
+already-strong coverage (\emph{health}, \emph{engineering}, \emph{law})
+regressed by 0.20--0.27. We discuss this in Section~\ref{sec:cs-failure}.
+
 \section{Discussion and Error Analysis}
 
-% Update with concrete examples once eval finishes.
 \textbf{Strengths.} Adding the title to the embedded document and switching
 from Euclidean to cosine distance materially improves retrieval relevance
-compared with the prior 48K-record TR-Akademik index. Smoke tests on five
-canonical queries (e.g.\ \emph{flood prediction with deep learning},
-\emph{Turkish NLP methods}, \emph{cardiovascular disease diagnosis}) all
-return on-topic theses in the top-3, whereas the legacy index returned
-spurious sound-of-Turkish-language theses.
+compared with the prior 48K-record TR-Akademik index. Average top-result
+similarity is 0.93 (cosine) across the 30-question benchmark, and the
+agent consistently produces 24--40 IEEE citations with public YÖK PDF
+URLs. In broad domains where the corpus is well represented---health,
+education, engineering, social sciences and multi-domain queries---the
+median citation accuracy is 0.70+ and the holistic LLM-judge score is 3+,
+which we consider a strong baseline for an unsupervised, zero-shot RAG
+system over a 633K-document Turkish corpus.
 
-\textbf{Failure modes.} The retriever surfaces broad off-topic theses for
-narrow questions when the corpus is light in that area (e.g.\ extremely
-recent post-2024 sub-fields). The Writer agent largely guards against
-hallucinated citations because \texttt{citations\_ieee} is filled
-deterministically by the system; however, narrative claims unsupported by
-retrieved chunks remain a residual risk.
+\subsection{The Computer-Science Failure Mode}
+\label{sec:cs-failure}
+
+The single largest source of error in the benchmark is the computer-science
+category (n=4): mean citation accuracy of 0.21 and a holistic score of
+1.5/5, dragging the global mean from 0.70 (median) to 0.60 (mean). Manual
+inspection of the failed runs reveals two compounding causes:
+
+\begin{enumerate}
+\item \textbf{Linguistic concentration of ``Türkçe'' theses.} A query such
+as ``Türkçe doğal dil işlemede son yaklaşımlar'' over-retrieves theses on
+the \emph{Turkish language itself}---phonology, dialectology, language
+education---because the lexical overlap of the word ``Türkçe'' is
+dominant in non-CS theses about the language. The cosine retriever, even
+title-aware, cannot reliably distinguish ``Turkish (NLP)'' from
+``Turkish (linguistics).''
+
+\item \textbf{Corpus skew.} Computer-science theses in the YÖK collection
+are sparser than expected, partly because Turkish CS researchers
+disproportionately publish in English at international venues
+(SIU, NeurIPS, ACL etc.), and the YÖK corpus is filtered to Turkish
+abstracts only.
+\end{enumerate}
+
+Both problems would be ameliorated by (i) tighter retrieval through a
+domain-tuned embedder (Section~\ref{sec:future}), and (ii) by routing
+CS queries to OpenAlex, which we measured to contain
+$\sim$1.16M Turkish-language papers spanning IEEE Xplore, SIU, Springer
+and Elsevier venues. The live-search node already implements this
+routing; in future work the Critic should learn to invoke it more
+aggressively for CS-flagged queries.
+
+\subsection{Why naive corpus expansion hurts well-covered domains}
+
+Adding the DergiPark articles improved the under-served domains (CS, business)
+but \emph{regressed} categories that already had dense thesis coverage
+(health, engineering, law). Three concrete contributing factors emerge from
+inspecting per-question outputs:
+
+\begin{enumerate}
+\item \textbf{Abstract length distribution shift.} Thesis abstracts in our
+corpus have a median length of $\sim$1{,}600 characters, with the
+title-aware document running 2{,}032 characters at the median. DergiPark
+journal abstracts are typically 300--800 characters: less detail per
+chunk, less surface area for the writer agent to ground a claim against.
+
+\item \textbf{Citation inflation.} The writer produces 2.7 \emph{more}
+citations per answer on average (32.8 vs 30.1). Each extra citation is
+either weakly grounded (lowering citation accuracy) or weakly synthesised
+(lowering faithfulness), even if the underlying chunk is on-topic.
+
+\item \textbf{Source-mixing without source-aware writing.} Theses and
+journal articles serve different rhetorical roles---a thesis abstract
+states a single coherent contribution, a journal article often a tighter
+empirical claim. Our writer prompt does not currently distinguish them,
+so it sometimes glues a thesis-style overview claim to a narrow journal
+finding, producing a fluent but partially unsupported sentence.
+\end{enumerate}
+
+The take-away is not that DergiPark integration was a mistake---it is the
+right call for under-served domains and we keep it---but that
+\emph{naive corpus expansion is not a free win}. The next iteration of the
+system should make retrieval and writing source-aware: when local thesis
+coverage is dense (e.g.\ health), prefer thesis chunks; when it is sparse
+(e.g.\ CS), pull in journal articles and live OpenAlex/Semantic Scholar
+results, with the writer prompt adjusted accordingly. We sketch this in
+Section~\ref{sec:future}.
 
 \textbf{Latency.} End-to-end runs are dominated by sequential DeepSeek calls
-(Plan, Synth, Critic, Write), giving a baseline of $\sim$45--90~s per
-question. Latency could be reduced by parallelising sub-question retrievals
-and by caching the Planner output for similar questions.
+(Plan, Synth, Critic, Write), with a benchmark mean of 105.8\,s and a
+median of 111.6\,s per question. The fastest run (q03) completed in 46\,s
+and the slowest (q24) in 146.5\,s. Latency could be reduced by parallelising
+sub-question retrievals (currently sequential) and by caching the Planner
+output for semantically similar questions.
 
 \textbf{Limitations.}
 (i)~The corpus is restricted to thesis abstracts (full text is not yet
@@ -309,6 +424,46 @@ agreement should be measured in future work. (iii)~The pipeline assumes
 \emph{static} corpus knowledge between rebuilds; live API tools (DergiPark
 REST, OpenAlex, Semantic Scholar) are flagged as future work for real-time
 coverage of newly published research.
+
+\subsection{Future Work: A Fine-Tuned Turkish Academic LLM}
+\label{sec:future}
+
+The current system relies on a general-purpose LLM (DeepSeek) operating in a
+zero-shot RAG setting. The same data we have already curated--633K thesis
+abstracts plus a parallel journal-article harvest--is, however, sufficient
+to train a domain-specific Turkish academic model in three concrete steps.
+
+\textbf{Stage 1 (custom embedder).} A SimCSE or
+MultipleNegativesRankingLoss fine-tune of
+\texttt{paraphrase-multilingual-mpnet-base-v2} on the 633K thesis title /
+abstract pairs would specialise the embedding space to Turkish academic
+register. We expect a 15--25\% relative improvement in retrieval relevance,
+with a wall-clock cost of $\sim$3--5 hours on a Colab T4.
+
+\textbf{Stage 2 (instruction-tuned LLM).} We can synthesise
+$\sim$100K--200K \emph{grounded} question--answer pairs by prompting
+DeepSeek (or GPT-4o) with each thesis abstract as context, then fine-tune
+a Turkish base model (e.g.\ \texttt{Trendyol-LLM-7B}, \texttt{Cosmos-LLaMa},
+or a multilingual base such as \texttt{Llama-3.2-3B}) using QLoRA. The
+target dataset format is \texttt{\{question, retrieved\_chunks, grounded\_answer\}},
+mirroring the agent's runtime pipeline. Training cost on an A100 is in the
+order of 6--12 hours; inference quantises down to 4-bit and fits a 4 GB
+laptop GPU.
+
+\textbf{Stage 3 (preference alignment).} The 30 evaluation runs already
+produce, via the LLM-as-judge pipeline, paired
+$(\text{answer}, \text{judgment})$ data. Combining successful (high
+citation accuracy + faithfulness) and unsuccessful answers yields preference
+pairs suitable for Direct Preference Optimisation (DPO). This would teach
+the model to prefer grounded, well-cited responses without further
+human annotation.
+
+The ultimate artefact would be \texttt{T\"urkResearcher-7B-instruct}: an
+openly released Turkish academic assistant model that runs the full
+multi-agent loop offline. Beyond the present project, this trajectory aligns
+naturally with TÜBİTAK and YÖK initiatives on Turkish-language scientific
+infrastructure, and would constitute a contribution well-suited to a
+follow-up MSc/PhD thesis.
 
 \section{Conclusion}
 

@@ -77,8 +77,11 @@ Değerlendirme yap:
 
 
 def _format_chunks(chunks: list[dict]) -> str:
+    """Format ALL chunks (judge needs every [n] referenced in the answer to be
+    visible). Earlier we passed only the first 15, which caused the judge to
+    falsely report citations beyond [15] as 'not in list'."""
     lines = []
-    for i, c in enumerate(chunks[:15], 1):
+    for i, c in enumerate(chunks, 1):
         lines.append(
             f"[{i}] tez_no={c['tez_no']} | {c['author']} ({c.get('year','?')}) — "
             f"{c['title_tr'][:80]}\n     {c['abstract_excerpt'][:200]}"
@@ -99,8 +102,8 @@ def judge_one(payload: dict, llm) -> Judgment | None:
         question=payload["question"],
         sub_questions="\n".join(f"- {sq['text']}" for sq in sub_qs),
         chunks_summary=_format_chunks(chunks),
-        answer_md=final["answer_md"][:6000],
-        citations="\n".join(final["citations_ieee"][:20]),
+        answer_md=final["answer_md"][:12000],
+        citations="\n".join(final["citations_ieee"]),  # ALL citations
     )
 
     judged = llm.with_structured_output(Judgment, method="function_calling").invoke(prompt)

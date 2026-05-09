@@ -13,14 +13,21 @@ data/abstracts.parquet
 data/chroma_db/
 data/dergipark/
 data/raw/
+data/derived/
 data/eval/runs/
+data/eval/runs_633k/
 data/eval/judgments/
+data/eval/judgments_633k/
 data/eval/results/
-data/eval/summary.json
-data/eval/summary.md
 data/derivation_report.json
 data/index_validation_report.json
 data/_hub_cache/
+
+# Eval summaries are kept in git (text-only, paste-ready for the report).
+# Per-question runs/judgments are gitignored — too many small JSONs.
+!data/eval/summary*.json
+!data/eval/summary*.md
+!data/eval/comparison*.md
 
 # Claude Code internal
 .claude/

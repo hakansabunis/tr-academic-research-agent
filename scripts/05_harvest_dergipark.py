@@ -40,6 +40,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import time
 import xml.etree.ElementTree as ET
@@ -47,6 +48,24 @@ from pathlib import Path
 from urllib.parse import urlencode
 
 import requests
+
+_RESUMPTION_TOKEN_RE = re.compile(
+    r"<resumptionToken[^>]*>([^<]+)</resumptionToken>",
+    re.IGNORECASE,
+)
+
+
+def _extract_resumption_token(content_bytes: bytes) -> str | None:
+    """Regex-based fallback when the page is malformed XML but the
+    resumptionToken element itself is intact."""
+    try:
+        text = content_bytes.decode("utf-8", errors="replace")
+    except Exception:
+        return None
+    m = _RESUMPTION_TOKEN_RE.search(text)
+    if m:
+        return m.group(1).strip()
+    return None
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "data" / "raw"
@@ -224,6 +243,8 @@ def main() -> int:
     out_fp = JSONL_PATH.open("a", encoding="utf-8", buffering=1)
     pages_this_run = 0
     records_this_run = 0
+    parse_retry_count = 0
+    MAX_PARSE_RETRIES = 5
     t0 = time.time()
 
     try:
@@ -246,13 +267,47 @@ def main() -> int:
             content = fetch_page(params)
             try:
                 root = ET.fromstring(content)
+                parse_retry_count = 0  # reset on success
             except ET.ParseError as e:
-                print(f"[!] XML parse error: {e}", file=sys.stderr)
-                # Save partial response for debugging
-                debug_path = RAW_DIR / f"dergipark.error_page_{state['pages']}.xml"
+                parse_retry_count += 1
+                debug_path = RAW_DIR / f"dergipark.error_page_{state['pages']}_attempt{parse_retry_count}.xml"
                 debug_path.write_bytes(content)
+                print(
+                    f"[!] XML parse error (attempt {parse_retry_count}/{MAX_PARSE_RETRIES}): {e}",
+                    file=sys.stderr,
+                )
                 print(f"    Wrote {debug_path}", file=sys.stderr)
-                return 2
+                if parse_retry_count >= MAX_PARSE_RETRIES:
+                    # Last-resort bypass: extract resumptionToken via regex from
+                    # the malformed response and jump to the next page. We lose
+                    # this page's ~100 records but the harvest can continue.
+                    bypass_token = _extract_resumption_token(content)
+                    if bypass_token:
+                        print(
+                            f"[!] {MAX_PARSE_RETRIES} parse errors at this cursor; "
+                            f"regex-extracted resumptionToken to skip page "
+                            f"{state['pages'] + 1} (~100 records lost).",
+                            file=sys.stderr,
+                        )
+                        state["resumption_token"] = bypass_token
+                        state["pages"] += 1
+                        save_state(state)
+                        pages_this_run += 1
+                        parse_retry_count = 0
+                        time.sleep(args.delay)
+                        continue
+                    print(
+                        f"[!] Aborting: {MAX_PARSE_RETRIES} consecutive parse errors "
+                        "and no resumptionToken extractable from malformed response. "
+                        f"Harvested so far: {state['harvested']:,} records in {state['pages']} pages.",
+                        file=sys.stderr,
+                    )
+                    return 2
+                # Exponential-ish backoff: 5, 10, 15, 20, 25 seconds
+                wait = 5 * parse_retry_count
+                print(f"    Backing off {wait}s and retrying same resumption_token...", file=sys.stderr)
+                time.sleep(wait)
+                continue
 
             # Detect OAI-level errors (e.g., badResumptionToken)
             err = root.find("oai:error", NS)

@@ -171,18 +171,37 @@ Business · Agriculture · Veterinary · Linguistics · Law · Sciences
 
 ---
 
-## Results
+## Results — Two Corpus Configurations
 
-<!-- TODO: replace with actual numbers from data/eval/summary.json -->
+We evaluate twice: 633K thesis-only vs 740K (+ 106K DergiPark articles).
 
-| Metric | Mean | Median | Min | Max |
-|---|---|---|---|---|
-| Citation accuracy | TBD | TBD | TBD | TBD |
-| Faithfulness | TBD | TBD | TBD | TBD |
-| Coverage | TBD | TBD | TBD | TBD |
-| Holistic (1–5) | TBD | TBD | TBD | TBD |
-| #Citations | TBD | TBD | TBD | TBD |
-| Latency (s) | 46 | 78 | 46 | 90 |
+| Metric | 633K | 740K | Δ |
+|---|---|---|---|
+| Citation accuracy | **0.60** | 0.51 | -0.10 |
+| Faithfulness | **0.59** | 0.49 | -0.10 |
+| Coverage | 0.49 | 0.47 | -0.03 |
+| Holistic (1–5) | **2.63** | 2.40 | -0.23 |
+| #Citations | 30.1 | **32.8** | +2.7 |
+| Latency (s) | 105.8 | 111.4 | +5.6 |
+
+**30/30 successful** in both runs. **Counter-intuitive:** more data ≠ better metrics.
+
+---
+
+## The Corpus-Expansion Paradox
+
+| Category | n | 633K → 740K | |
+|---|---|---|---|
+| 🟢 business | 2 | 0.47 → 0.68 | **+0.20** |
+| 🟢 computer_science | 4 | 0.21 → 0.26 | **+0.05** |
+| 🔴 social_sciences | 2 | 0.78 → 0.70 | -0.08 |
+| 🔴 education | 3 | 0.75 → 0.63 | -0.12 |
+| 🔴 multi_domain | 2 | 0.85 → 0.70 | -0.15 |
+| 🔴 engineering | 3 | 0.73 → 0.53 | -0.20 |
+| 🔴 law | 2 | 0.62 → 0.40 | -0.22 |
+| 🔴 health | 3 | 0.80 → 0.53 | -0.27 |
+
+**Pattern:** under-served domains improved; well-covered domains regressed.
 
 ---
 
@@ -202,23 +221,61 @@ Generates:
 
 ---
 
-## Limitations
+## Why CS Fails (633K corpus)
 
-- **Abstract-only retrieval** — full-text not indexed
-- **Single LLM judge** — cross-judge agreement not measured
-- **Static rebuild cycle** — live tools partially address this
-- **Latency 60–90 s** — sequential agent calls; could parallelise
-- **DergiPark live search** — OAI-PMH date filter is coarse
+**1. "Türkçe" lexical confound** — query "Türkçe doğal dil işleme" → top hits are theses about *the Turkish language itself* (phonology, dialectology), not NLP.
+
+**2. Corpus skew** — Turkish CS researchers publish predominantly in English; YÖK is filtered to TR abstracts only.
+
+DergiPark partially fixed this (+0.05). OpenAlex has 1.16M TR papers — even bigger lever.
 
 ---
 
-## Future Work
+## Why Naive Expansion Hurt Other Domains
+
+Three contributing factors:
+
+1. **Abstract length shift.** Theses ≈ 1600 chars, journal articles ≈ 500 chars. Less surface to ground claims.
+
+2. **Citation inflation.** Writer agent produces +2.7 more citations per answer; each extra citation is weaker.
+
+3. **Source-mixing without source-aware writing.** Thesis claims are broad-coherent; journal claims are narrow-empirical. Writer prompt doesn't yet distinguish them.
+
+→ **Take-away:** corpus expansion is *not* a free win. Need source-aware retrieval + writer.
+
+---
+
+## Limitations
+
+- **Abstract-only retrieval** — full-text not indexed
+- **Single LLM judge** — cross-judge agreement not measured (high variance)
+- **Naive corpus expansion regressed well-covered domains** (paradox finding)
+- **Latency 100–150 s** — sequential agent calls; could parallelise
+- **No source-aware writing** — writer prompt unaware of thesis vs article rhetorical role
+
+---
+
+## Future Work — Near-term
 
 - **Full-text** indexing via DergiPark PDF extraction
-- **Cross-judge** evaluation (DeepSeek + Claude + GPT) for inter-rater agreement
+- **Cross-judge** evaluation (DeepSeek + Claude + GPT)
 - **Latency**: parallel sub-question retrieval, Planner cache
-- **Production**: web UI, conversational memory, user feedback loop
-- **Domain filters**: per-subject specialised collections (Law, Medicine, etc.)
+- **Production**: web UI, conversational memory
+- **Domain filters**: per-subject specialised collections
+
+---
+
+## Future Work — TürkResearcher-7B
+
+> The same data is enough to train a domain-specific Turkish academic LLM.
+
+| Stage | What | Cost | Output |
+|---|---|---|---|
+| **1** | Custom embedder (SimCSE on 633K abstracts) | T4 ~3–5 h | +15-25% retrieval |
+| **2** | Synthetic 100–200K Q&A → QLoRA on Turkish 7B base | A100 ~6–12 h | `TürkResearcher-7B-instruct` |
+| **3** | DPO using eval judgments as preference pairs | A100 ~6 h | Aligned, citation-honest |
+
+→ End artefact: an **open-source Turkish academic LLM** — first of its kind. Strong fit for TÜBİTAK / YÖK initiatives and a natural MSc thesis continuation.
 
 ---
 
