@@ -1,0 +1,12 @@
+{
+  "id": "q19",
+  "question": "Sığırcılıkta yapay tohumlama tekniklerinin döl verimi üzerindeki etkileri nedir?",
+  "category": "veterinary",
+  "judgment": {
+    "citation_accuracy": 0.5,
+    "faithfulness": 0.6,
+    "coverage": 0.4,
+    "holistic_score": 2,
+    "rationale": "Yanıt, getirilen kaynakların çoğunu doğru kullanmış olsa da, birçok atıf ya ilgisiz kaynaklara yapılmış (ör. [10] insan spermi, [11] koç sperması) ya da kaynaklar sığırcılıkla ilgili olmayan tezlere ait. Ayrıca alt sorulardan yöntem karşılaştırmaları, doğal aşım karşılaştırmaları, personel yetersizliği gibi önemli başlıklar hiç ele alınmamış. Akademik üslup kısmen yeterli ancak kapsam ve kaynak uyumu zayıf."
+  }
+}

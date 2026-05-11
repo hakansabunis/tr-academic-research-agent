@@ -1,0 +1,12 @@
+{
+  "id": "q17",
+  "question": "Müşteri sadakat programlarının e-ticaret sektöründeki etkinliği üzerine yapılan araştırmalar nelerdir?",
+  "category": "business",
+  "judgment": {
+    "citation_accuracy": 0.7,
+    "faithfulness": 0.65,
+    "coverage": 0.4,
+    "holistic_score": 3,
+    "rationale": "Yanıt, kaynaklardan bazılarını doğru kullanmış olsa da (örn. [4], [11], [14], [18], [21]), birçok atıf ya kaynağın içeriğiyle tam örtüşmemekte ya da kaynak e-ticaret sadakat programlarıyla doğrudan ilgili değildir (örn. [5] bankacılık, [12] telekom, [26] tekstil). Ayrıca yanıt, planner'ın alt sorularının çoğunu (yöntemler, CLV/kârlılık, Türkiye-uluslararası karşılaştırması, sınırlılıklar, aracı/düzenleyici değişkenler) ya hiç ele almamış ya da çok yüzeysel geçmiştir. Akademik üslup ve organizasyon kabul edilebilir düzeydedir ancak soruya odaklanma ve kaynak sadakati zayıftır."
+  }
+}

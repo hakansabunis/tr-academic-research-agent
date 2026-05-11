@@ -1,0 +1,12 @@
+{
+  "id": "q01",
+  "question": "Türkçe doğal dil işlemede son yıllardaki ana yaklaşımlar nelerdir?",
+  "category": "computer_science",
+  "judgment": {
+    "citation_accuracy": 0.6,
+    "faithfulness": 0.5,
+    "coverage": 0.4,
+    "holistic_score": 2,
+    "rationale": "Yanıt, kaynakların çoğunu yüzeysel veya ilgisiz şekilde kullanmış; örneğin [1], [4], [5], [6], [10], [11], [13], [14], [16], [17], [18], [21], [22], [23], [24] gibi kaynaklar ya doğrudan Türkçe DDİ yaklaşımlarıyla ilgisizdir ya da yanıtta belirtilen iddiaları desteklememektedir. Ayrıca alt sorulardan \"büyük ölçekli kaynaklar/derlem/benchmark\" ve \"sınırlılıklar/çözüm önerileri\" neredeyse hiç ele alınmamıştır. Atıf doğruluğu düşük, kapsam zayıf, üslup genel-geçer ve kaynaklara sadakat yetersizdir."
+  }
+}

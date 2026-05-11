@@ -1,0 +1,335 @@
+{
+  "id": "q04",
+  "category": "computer_science",
+  "type": "comparison",
+  "question": "Türkçe görüntü tanımada konvolüsyonel sinir ağları ile geleneksel makine öğrenmesi yöntemlerinin karşılaştırması nasıldır?",
+  "expected_subjects": [
+    "Bilgisayar Mühendisliği",
+    "Elektrik-Elektronik Mühendisliği"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 57.32,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Türkçe görüntü tanıma üzerine yapılan tezlerde konvolüsyonel sinir ağları (CNN) hangi mimarilerle (AlexNet, VGG, ResNet vb.) kullanılmış ve bu mimarilerin başarım oranları nedir?",
+          "rationale": "CNN yaklaşımının hangi mimarilerle temsil edildiğini ve elde edilen başarı düzeyini belirlemek için."
+        },
+        {
+          "text": "Aynı tezlerde geleneksel makine öğrenmesi yöntemlerinden (SVM, k-NN, Random Forest, PCA+LDA vb.) hangileri kullanılmış ve bu yöntemlerin doğruluk oranları nedir?",
+          "rationale": "Geleneksel yöntemlerin çeşitliliğini ve performansını ortaya koyarak karşılaştırma zemini oluşturmak için."
+        },
+        {
+          "text": "Bu tezlerde CNN ile geleneksel yöntemler arasında doğruluk, eğitim süresi, veri ihtiyacı ve genelleme başarımı açısından hangi farklar raporlanmıştır?",
+          "rationale": "İki yaklaşım arasındaki nicel ve nitel farklılıkları sentezleyerek karşılaştırmalı bir değerlendirme yapmak için."
+        },
+        {
+          "text": "Tezlerde kullanılan veri kümelerinin (Türkçe el yazısı, yüz, trafik işareti vb.) türü ve büyüklüğü, CNN ve geleneksel yöntemlerin başarımını nasıl etkilemiştir?",
+          "rationale": "Veri kümesi özelliklerinin yöntem başarımı üzerindeki etkisini anlamak ve hangi koşullarda hangi yöntemin öne çıktığını belirlemek için."
+        },
+        {
+          "text": "Tezlerde CNN ve geleneksel yöntemlerin sınırlılıkları (aşırı öğrenme, hesaplama maliyeti, etiketli veri gereksinimi vb.) nasıl karşılaştırılmış ve hangi bağlamda hangi yöntem önerilmiştir?",
+          "rationale": "Her iki yaklaşımın pratik uygulama bağlamındaki güçlü ve zayıf yönlerini belirleyerek araştırmacılara yol göstermek için."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 24,
+      "max_score": 0.8541,
+      "min_score": 0.7778,
+      "chunks": [
+        {
+          "tez_no": "884709",
+          "title_tr": "Kısa metinlerde makine öğrenmesi yöntemleriyle yüksek performanslı dil tanıma",
+          "author": "BERFİN AYDIN",
+          "year": 2024,
+          "score": 0.8541,
+          "abstract_excerpt": "Dil tanıma doğal dil işlemede öne çıkan çalışma başlıklarından birisidir. Bugüne kadar manuel, otomatik ya da yarı otomatik yöntemlerle yerine getirilmiştir. Son dönemde artan metin boyutları ve miktarı nedeniyle makine öğrenmesi tabanlı dil tanıma çalışmalarında bir artış meydana gelmiştir. Özellik"
+        },
+        {
+          "tez_no": "551894",
+          "title_tr": "İşaret dili ile akıllı kontrol sistemi",
+          "author": "ZAINAB SHUKUR MAHMOOD MAHMOOD",
+          "year": 2019,
+          "score": 0.8432,
+          "abstract_excerpt": "Konvolüsyonel sinir ağı (CNN) bir veya daha fazla konvolüsyon katmanından (genellikle bir alt örnekleme) oluşur ve ardından bir veya daha fazla tam katman, çok katmanlı sinir ağı olarak izler. CNN mimarisi, 2D giriş görüntüsünün (veya konuşma sinyali gibi diğer bir 2D girişinin) yapısından faydalanm"
+        },
+        {
+          "tez_no": "517724",
+          "title_tr": "Derin öğrenme yöntemi kullanılarak görüntü-tabanlı türk işaret dili tanıma",
+          "author": "ELİF EZEL",
+          "year": 2018,
+          "score": 0.8422,
+          "abstract_excerpt": "İşaret dili, işitme problemi yaşayan insanların kendilerini ifade etmek amacıyla kullandıkları görsel bir iletişim şeklidir. Bu çalışmanın temel hedefi, işitme problemi yaşayan insanların hayatını kolaylaştırmaktır.\nBu tez çalışmasında, görsel bir dil olan Türk İşaret Dili (TİD) parmak alfabesine ai"
+        },
+        {
+          "tez_no": "592014",
+          "title_tr": "El yazısı karakter tanıma ve resim sınıflandırmada derin öğrenme yaklaşımları",
+          "author": "AOUDOU SALOUHOU",
+          "year": 2019,
+          "score": 0.8324,
+          "abstract_excerpt": "Geçtiğimiz yıllarda, yapay zeka (AI) ve makine öğrenmesi alanlarında muhteşem bir araştırma yapılmıştır. Bununla birlikte, geçmiş ve son yıllarda, araştırma, yaklaşımı, makine öğreniminin ileri alanı olan 'Derin Öğrenme' alanına yoğunlaşmıştır. Bu yeni araştırma alanı, algoritmalarını görüntü tanıma"
+        },
+        {
+          "tez_no": "905471",
+          "title_tr": "Makine öğrenimi yöntemleri ile sağkalım analizi",
+          "author": "AKIN ÇAĞATAY ÇALIŞKAN",
+          "year": 2024,
+          "score": 0.8317,
+          "abstract_excerpt": "Sağkalım analizi veya olay-zaman analizi, bir dizi gözlemi ele alan ve bu\ngözlemlerle ilgi duyulan olayın meydana gelmesi için geçen süreyi tahmin etmeye\nçalışan istatistiksel yöntemlerdir. Sağkalım analiz yöntemleri genel olarak istatistiksel\nyöntemler ve makine öğrenimine dayalı yöntemler olmak u"
+        },
+        {
+          "tez_no": "580234",
+          "title_tr": "Rastgele orman yaklaşımı kullanılarak çok değişkenli uyumlu regresyon şeritlerinde model seçimi",
+          "author": "DİLEK SABANCI",
+          "year": 2019,
+          "score": 0.8314,
+          "abstract_excerpt": "Çok değişkenli uyumlu regresyon şeritleri (MARS) makine öğreniminde bir denetimli öğrenme modeli olup, topluluk öğrenimi yöntemi ile elde edilmemektedir. Topluluk öğrenimi yöntemleri makine öğrenimi algoritmalarının istikrarını ve doğruluğunu iyileştirmek için ortak bir amaca hizmet eden yüzlerce ya"
+        },
+        {
+          "tez_no": "768088",
+          "title_tr": "Türk işaret dili tanıma için zayıf-güdümlü makine öğrenmesi yöntemi",
+          "author": "BANUÇİÇEK KANDEMİR KILINÇÇEKER",
+          "year": 2022,
+          "score": 0.8311,
+          "abstract_excerpt": "Türk İşaret Dili'nin (TİD) tanınması bir bilgisayarlı görme kapsamında bir yapay zekâ problemidir. Bu problemin çözülebilmesi için Yapay Sinir Ağları (YSA) kullanılmaktadır. Bu tez kapsamında TİD'in tanınmasına yönelik YSA modeli öne sürülmektedir. Bu sınıflandırma modelinin eğitilmesi için, TİD'e ö"
+        },
+        {
+          "tez_no": "625420",
+          "title_tr": "Konvolusyonel sinir ağları kullanarak Türkçe metinler için cümle sınıflandırması",
+          "author": "GURUR PIRANA",
+          "year": 2020,
+          "score": 0.8297,
+          "abstract_excerpt": "Bu çalışmada derin öğrenme ve makine öğrenmesi yöntemleri kullanılarak cümle sınıflandırma problemi ele alınmıştır. Çalışmanın amacı, Konvolüsyonel Sinir Ağları (CNN-Convolutional Neural Networks), Bölge Konvolüsyonel Sinir Ağları (RCNN Region Convolutional Neural Networks),Uzun-Kısa Süreli Hafıza ("
+        },
+        {
+          "tez_no": "305570",
+          "title_tr": "Yapay sinir ağları ile yüz tanıma",
+          "author": "OZAN TAŞOVA",
+          "year": 2011,
+          "score": 0.8286,
+          "abstract_excerpt": "Yüz tanıma, günümüzde önemini hızla arttırmakta olan bir örüntü tanıma konusudur. Yüz tanıma, insan beyninin çok zorluk çekmeden gerçekleştirdiği bir görevidir. İnsan yüzü oldukça ayırt edici özelliklere sahiptir ve insan beyni yüze ait görsel bilgileri, biometrik tanımlayıcılar olarak kullanır.İnsa"
+        },
+        {
+          "tez_no": "752351",
+          "title_tr": "Geleneksel makine öğrenmesi ve karışık etkili makine öğrenmesi model performanslarının benzetim çalışması ile değerlendirilmesi",
+          "author": "EBRU TURGAL",
+          "year": 2022,
+          "score": 0.8249,
+          "abstract_excerpt": "Kümelenmiş verilerin analizi için yaygın olarak klasik yaklaşım (genelleştirilmiş) doğrusal karışık etkili modeller (LME, GLMM) kullanılmaktadır. Bununla birlikte, doğrusal parametrik modellerin varsayımlarını sağlamak oldukça zordur. Klasik yöntemler, boylamsal verilerin alt grup gözlemlerinin yüks"
+        },
+        {
+          "tez_no": "247693",
+          "title_tr": "Veri madenciliğine genel bakış ve Random Forests yönteminin incelenmesi: Sağlık alanında bir uygulama",
+          "author": "MUHAMMET AKMAN",
+          "year": 2010,
+          "score": 0.8245,
+          "abstract_excerpt": "Karar vericilere, eldeki verilerden yola çıkarak doğru ve etkin kararlar almasına yardımcı olmak amacıyla veri madenciği yapılmaktadır. Veri madenciliği, genel olarak tanımlayıcı ve tahmin edici olmak üzere iki ana başlıkta incelenmektedir. Özellikle tıp alanında veri madenciliği daha çok tahmin edi"
+        },
+        {
+          "tez_no": "676151",
+          "title_tr": "Çocuk yüz ifadelerinin derin öğrenme yöntemleri ile tespiti ve analizi",
+          "author": "İREM SAYIN",
+          "year": 2021,
+          "score": 0.8241,
+          "abstract_excerpt": "Yüz görüntüleri üzerinden ifade tanımlama oldukça popüler bir alandır. İfade tanımlama üzerinde yapılmış pek çok çalışma yetişkin bireylerden oluşan veri setleri kullanılarak gerçekleştirilmiştir. Toplumun tamamı ya da farklı yaş grupları için geliştirilecek yeni teknolojiler ve sistemler için bu gr"
+        },
+        {
+          "tez_no": "868167",
+          "title_tr": "Uzun süreli verilerin analizinde kullanılan makine öğrenmesi algoritmaları",
+          "author": "CAN DEMİRCİGİL",
+          "year": 2024,
+          "score": 0.8214,
+          "abstract_excerpt": "Aynı birimlerin zaman boyunca takip edilerek ölçümlerin tekrarlı olarak alınması ile elde edilen veriler \"uzun süreli veriler\" (boylamsal veriler) olarak adlandırılmaktadır. Tıp, psikoloji, sosyoloji, çevre bilimi vb. alanlarda toplanan uzun süreli veriler, zaman serileri ve klasik regresyon analizl"
+        },
+        {
+          "tez_no": "563736",
+          "title_tr": "Mikrokanonikal optimizasyon algoritması ile konvolüsyonel sinir ağlarında hiper parametrelerin optimize edilmesi",
+          "author": "ZEKİ KUŞ",
+          "year": 2019,
+          "score": 0.8193,
+          "abstract_excerpt": "Bilgisayarlı görü çalışmaları, günümüzde en çok ilgi duyulan ve üzerinde çalışma yapılan yapay zeka alanlarından biridir. Bilgisayarların insanlar gibi görüntüleri algılamasını, sınıflandırabilmesini ve yorumlayabilmesini sağlamak amacıyla geliştirilen özel derin öğrenme mimarileri bulunmaktadır. Bu"
+        },
+        {
+          "tez_no": "636444",
+          "title_tr": "Tekrarlayan sinir ağlarını kullanarak konuşma tanıma",
+          "author": "MUSTAFA AHMED ELBERRI",
+          "year": 2020,
+          "score": 0.8166,
+          "abstract_excerpt": "Konuşma tanıma yada otomatik konuşma tanıma bilgisayar biliminin, mühendisliğin ve bilişimsel dilbilimin ortak bir uygulama alanıdır. Bu alan, özellikle bilgisayarlar için, konuşulan dilden otomatik olarak veri elde etmeyi sağlayan süreçlerin araştırılmasıyla ve geliştirilmesiyle ilgilenir. Konuşma "
+        },
+        {
+          "tez_no": "476276",
+          "title_tr": "İş süreçlerinde insan görüsünü derin öğrenme ile destekleme",
+          "author": "ALTUĞ YİĞİT",
+          "year": 2017,
+          "score": 0.813,
+          "abstract_excerpt": "Bilgisayarın dış dünyayı insan gibi algılamasını, nesneler arasındaki uzaysal ilişkileri yorumlamasını sağlamak için uzun yıllardır bilgisayar görüsü alanında çeşitli çalışmalar yürütülmektedir. Geleneksel bilgisayar görüsü ve makine öğrenmesi teknikleri el yazısı tanıma gibi karışık işlemlerde insa"
+        },
+        {
+          "tez_no": "541261",
+          "title_tr": "Makine öğrenmesi ve derin öğrenme: Nesne tanıma uygulaması",
+          "author": "SALİHA KEVSER KAVUNCU",
+          "year": 2018,
+          "score": 0.8099,
+          "abstract_excerpt": "Büyük veri son yılların en popüler sorunlarından birisidir. İnternet üzerinden veya çevrimdışı olarak elde edilen verilerin saklanması oldukça zordur. Ancak mevcut veriler sayesinde karşılaşılan yeni veriler için doğru çıkarımlar yapmak bilim, ekonomi, tıp, savunma sanayi ve teknoloji gibi birçok di"
+        },
+        {
+          "tez_no": "682736",
+          "title_tr": "Veri madenciliğinin K-ortalamalar kümeleme yönteminde başlangıç ağırlık merkezi noktalarının yörünge iterasyonu ile belirlenmesi",
+          "author": "AZİZ MAHMUT YÜCELEN",
+          "year": 2021,
+          "score": 0.802,
+          "abstract_excerpt": "Veri madenciliğinin en temel düşüncesi, veri kümesindeki her bir nesnenin sahip olduğu alt bilgileri ortaya çıkararak, veri kümesi hakkında istenilen bilgiye ulaşmaktır. Bu alt bilgi, veri madenciliğinde çeşitli matematiksel ve istatistiksel yöntemler ile ortaya çıkarılır.\nVeri madenciliğinin çalışm"
+        },
+        {
+          "tez_no": "371383",
+          "title_tr": "Çok boyutlu veritabanlarında veri madenciliği yöntemleri kullanılarak bilgi keşfi",
+          "author": "HUSEYN HASANLI",
+          "year": 2014,
+          "score": 0.801,
+          "abstract_excerpt": "Bilim insanları, esas itibariyle, doğada meydana gelen değişimleri inceler ve bu değişimlerin nedenlerini anlamaya çalışır. Bu anlama çabası bazen insan vücudundaki bir kaç hücrenin çevre şartlarına karşı verdiği tepkilerle, bazen de bireylerin sosyal medyada rağbet etiği reklam biçimiyle ilgilidir."
+        },
+        {
+          "tez_no": "651235",
+          "title_tr": "Soru dokümanlarının anlamsal benzerliklerine dayalı derin öğrenme tabanlı kümeleme analizi",
+          "author": "ERAY YELMEN",
+          "year": 2020,
+          "score": 0.8,
+          "abstract_excerpt": "İnternet ortamında metinsel dokümanların miktarının büyük boyutlara ulaşması ile birlikte aranan  doğru dokümana kolay ve hızlı bir şekilde ulaşmak zorlaşmıştır. Metin dokümanlarının benzerliklerine göre kümelenmesi manuel yöntemlerle oldukça zahmetlidir. Bu durumu otomatik hale getirerek kolaylaştı"
+        },
+        {
+          "tez_no": "304604",
+          "title_tr": "Metin madenciliği için iyileştirilmiş bir kümeleme yapısının tasarımı ve uygulaması",
+          "author": "VOLKAN TUNALI",
+          "year": 2011,
+          "score": 0.7984,
+          "abstract_excerpt": "Veritabanlarında Bilgi Keşfi olarak da adlandırılan Veri Madenciliği, veritabanları ve veri ambarları gibi çeşitli veri depolarında saklanmakta olan büyük miktardaki verinin işlenerek içindeki geçerli, daha önceden bilinmeyen, potansiyel olarak kullanışlı, yararlı ve değerli olabilecek bilginin çıka"
+        },
+        {
+          "tez_no": "237170",
+          "title_tr": "Görsel veri madenciliği tekniklerinin kümeleme analizlerinde kullanımı ve uygulanması",
+          "author": "METİN VATANSEVER",
+          "year": 2008,
+          "score": 0.7961,
+          "abstract_excerpt": "Veri madenciliği, geniş veri yığınları içerisinde, yararlı olma potansiyeline sahip, aralarında bilinmedik ilişkilerin olduğu verilerin keşfedilerek, veri sahibi için hem anlaşılır hem de kullanılabilir bir biçime getirilmesine yönelik geliştirilmiş yöntemler topluluğudur. Verilerin grafiksel bir fo"
+        },
+        {
+          "tez_no": "894544",
+          "title_tr": "Veri görselleştirme: TR Dizin'de indekslenen Ankara Üniversitesi adresli makalelerin üst veri kayıtları üzerine bir araştırma",
+          "author": "RECEP IŞIK",
+          "year": 2024,
+          "score": 0.7937,
+          "abstract_excerpt": "Veri analizi, ham verileri çeşitli projelerde stratejik karar alma için eyleme geçirilebilir\niçgörülere dönüştürmede hayati bir rol oynar. Veri kümeleri giderek daha karmaşık hale\ngeldikçe, önemli ve ilgisiz bilgiler arasında ayrım yapmak daha zor hale gelir. Analiz\ntekniklerindeki ve sunum yöntemle"
+        },
+        {
+          "tez_no": "294651",
+          "title_tr": "Haber televizyonlarında haber yapım ve yayın süreçleri: NTV, Habertürk ve CNN Türk televizyonlarının karşılaştırmalı çözümlemeleri",
+          "author": "HAKAN CEM IŞIKLAR",
+          "year": 2011,
+          "score": 0.7778,
+          "abstract_excerpt": "Televizyon haberi ya da haberciliği sürekli gelişen teknik imkânlar ve yeni keşiflerle birlikte gittikçe hız kazanan bir duruma gelmektedir. Bu hız içinde kendini geliştiremeyen, yeniliklere açık olamayan her unsur belki de ortadan kalkmaya mahkûm olacaktır. İşte bu gerçekten yola çıkılarak hazırlan"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 8,
+      "findings": [
+        {
+          "claim": "Konvolüsyonel Sinir Ağları (CNN), bilgisayarlı görü ve görüntü tanıma alanında en çok kullanılan ve başarılı sonuçlar elde edilen derin öğrenme yöntemidir.",
+          "citations": [
+            "551894",
+            "517724",
+            "592014",
+            "563736",
+            "541261"
+          ]
+        },
+        {
+          "claim": "CNN'ler, geleneksel makine öğrenmesi yöntemlerine kıyasla görüntü tanıma ve sınıflandırma problemlerinde daha yüksek başarım göstermektedir.",
+          "citations": [
+            "517724",
+            "592014",
+            "476276",
+            "541261"
+          ]
+        },
+        {
+          "claim": "Geleneksel makine öğrenmesi ve bilgisayar görüsü teknikleri, el yazısı tanıma gibi karmaşık görsel işlemlerde insan görüsünün başarı oranını yakalayamamaktadır.",
+          "citations": [
+            "476276"
+          ]
+        },
+        {
+          "claim": "Derin öğrenme yöntemleri (CNN dahil), görüntü tanıma, görüntü sınıflandırma ve nesne tanıma gibi problemlerde geleneksel makine öğrenmesi yöntemlerine göre daha iyi sonuçlar vermektedir.",
+          "citations": [
+            "592014",
+            "541261"
+          ]
+        },
+        {
+          "claim": "CNN mimarisi, 2D giriş görüntüsünün yapısından faydalanmak üzere tasarlanmış olup yerel bağlantılar ve ağırlık paylaşımı ile çalışır; eğitilmesi daha kolaydır ve aynı sayıda gizli katman ile tam bağlı ağa göre daha az parametre içerir.",
+          "citations": [
+            "551894"
+          ]
+        },
+        {
+          "claim": "Türk İşaret Dili tanıma gibi görsel problemlerde, klasik makine öğrenmesi yöntemleri yerine derin sinir ağları (CNN) kullanılarak daha başarılı sonuçlar elde edilmiştir.",
+          "citations": [
+            "517724",
+            "768088"
+          ]
+        },
+        {
+          "claim": "CNN'lerin hiper parametrelerinin optimize edilmesi (örneğin mikrokanonikal optimizasyon algoritması ile) başarımı artırmaktadır.",
+          "citations": [
+            "563736"
+          ]
+        },
+        {
+          "claim": "Derin öğrenme ve makine öğrenmesi yöntemlerinin (CNN, RCNN, LSTM, Naive Bayes, Lojistik Regresyon, DVM gibi) başarımları veri kümesine ve probleme göre değişiklik göstermektedir.",
+          "citations": [
+            "625420"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Kaynaklarda doğrudan bir çelişki bulunmamaktadır. Bununla birlikte, bazı kaynaklar (ör. tez_no=625420) farklı derin öğrenme ve makine öğrenmesi yöntemlerinin başarımlarının veri kümesine ve probleme göre değiştiğini belirtirken, diğer kaynaklar (ör. tez_no=517724, 592014, 476276) CNN/derin öğrenmenin genel olarak geleneksel yöntemlerden daha başarılı olduğunu vurgulamaktadır. Bu, 'her durumda CNN daha iyidir' şeklinde mutlak bir genelleme yapılamayacağını, başarımın problem ve veri kümesine bağlı olduğunu gösteren bir nüans farkıdır."
+      ]
+    },
+    "critic": null,
+    "iteration_count": 1,
+    "final": {
+      "answer_md": "## Giriş\n\nGörüntü tanıma, bilgisayarlı görü alanının temel problemlerinden biri olup, son yıllarda derin öğrenme yöntemlerinin yükselişiyle birlikte önemli bir dönüşüm geçirmiştir. Bu bağlamda, Konvolüsyonel Sinir Ağları (CNN) ve geleneksel makine öğrenmesi yöntemleri arasındaki karşılaştırma, araştırmacılar için kritik bir öneme sahiptir. Bu çalışmada, Türkçe görüntü tanıma bağlamında CNN'ler ile geleneksel makine öğrenmesi yöntemlerinin karşılaştırmalı bir analizi sunulmaktadır.\n\n## CNN'lerin Görüntü Tanımadaki Üstünlüğü\n\nKonvolüsyonel Sinir Ağları, bilgisayarlı görü ve görüntü tanıma alanında en çok kullanılan ve başarılı sonuçlar elde edilen derin öğrenme yöntemi olarak öne çıkmaktadır [1][2][3][4][5]. CNN'ler, geleneksel makine öğrenmesi yöntemlerine kıyasla görüntü tanıma ve sınıflandırma problemlerinde daha yüksek başarım göstermektedir [2][3][6][5]. Bu üstünlüğün temel nedeni, CNN mimarisinin 2D giriş görüntüsünün yapısından faydalanmak üzere tasarlanmış olmasıdır; yerel bağlantılar ve ağırlık paylaşımı ile çalışan bu yapı, eğitilmesi daha kolaydır ve aynı sayıda gizli katman ile tam bağlı bir ağa göre daha az parametre içerir [1].\n\n## Geleneksel Yöntemlerin Sınırlılıkları\n\nGeleneksel makine öğrenmesi ve bilgisayar görüsü teknikleri, el yazısı tanıma gibi karmaşık görsel işlemlerde insan görüsünün başarı oranını yakalayamamaktadır [6]. Bu yöntemler genellikle nesnelerin önemli özelliklerinin manuel olarak seçilmesine ve bu özellikler üzerinden tespitler yapılmasına dayanmaktadır [6]. Oysa derin öğrenme yöntemleri, özellik çıkarımını otomatik olarak gerçekleştirerek bu sınırlılığı aşmaktadır.\n\n## Türkçe Görüntü Tanıma Uygulamalarında Karşılaştırma\n\nTürk İşaret Dili (TİD) tanıma gibi görsel problemlerde, klasik makine öğrenmesi yöntemleri yerine derin sinir ağlarının (CNN) kullanılmasıyla daha başarılı sonuçlar elde edilmiştir [2][7]. Bu durum, CNN'lerin görsel dil tanıma gibi karmaşık örüntü tanıma problemlerinde geleneksel yöntemlere kıyasla belirgin bir avantaj sunduğunu göstermektedir. Ayrıca, CNN'lerin hiper parametrelerinin optimize edilmesi (örneğin mikrokanonikal optimizasyon algoritması ile) başarımı daha da artırmaktadır [4].\n\n## Başarımın Probleme ve Veri Kümesine Bağlılığı\n\nDerin öğrenme ve makine öğrenmesi yöntemlerinin (CNN, RCNN, LSTM, Naive Bayes, Lojistik Regresyon, Destek Vektör Makineleri gibi) başarımları veri kümesine ve probleme göre değişiklik göstermektedir [8]. Bu durum, CNN'lerin her koşulda geleneksel yöntemlerden mutlak olarak üstün olduğu şeklinde bir genelleme yapılamayacağını ortaya koymaktadır. Bununla birlikte, mevcut literatürde görüntü tanıma ve sınıflandırma problemlerinde CNN'lerin genel olarak daha başarılı olduğu yönünde güçlü bir fikir birliği bulunmaktadır [2][3][6][5].\n\n## Sonuç\n\nTürkçe görüntü tanıma bağlamında Konvolüsyonel Sinir Ağları, geleneksel makine öğrenmesi yöntemlerine kıyasla genellikle daha yüksek başarım sunmaktadır. CNN'lerin 2D görüntü yapısından faydalanan mimarisi, otomatik özellik çıkarımı ve parametre verimliliği bu üstünlüğün temelini oluşturmaktadır. Bununla birlikte, yöntem seçiminde problemin doğası ve veri kümesinin özellikleri belirleyici rol oynamaktadır. Gelecek çalışmalarda, CNN hiper parametre optimizasyonu ve hibrit yaklaşımların başarıma etkisinin daha detaylı incelenmesi önerilmektedir.",
+      "n_citations": 24,
+      "citations_ieee": [
+        "[1] BERFİN AYDIN, \"Kısa metinlerde makine öğrenmesi yöntemleriyle yüksek performanslı dil tanıma,\" Yüksek Lisans/Doktora tezi, Sivas Cumhuriyet Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-17JkkFgOEZ2slFbyFJU_Ou1NVj4kNWJrhd0d6bbzfwv",
+        "[2] ZAINAB SHUKUR MAHMOOD MAHMOOD, \"İşaret dili ile akıllı kontrol sistemi,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZbgEGST3itN3ejpbrbAiP6oztdYYNzxZ7QLQGx2xnwape",
+        "[3] ELİF EZEL, \"Derin öğrenme yöntemi kullanılarak görüntü-tabanlı türk işaret dili tanıma,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı / Bilgisayar Mühendisliği Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=hcgrYffRbz0Z44UJEuLtwc6S5QyBdMx7B6mC913m2SLe1PaDkEzdKCCYiZwEvDHc",
+        "[4] AOUDOU SALOUHOU, \"El yazısı karakter tanıma ve resim sınıflandırmada derin öğrenme yaklaşımları,\" Yüksek Lisans/Doktora tezi, Fatih Sultan Mehmet Vakıf Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=npGs9H39x7G6401x51yqpOYi3lTMs6Q-zCM9kUiULorYooYJNMSDN6Mj2kNbTltb",
+        "[5] AKIN ÇAĞATAY ÇALIŞKAN, \"Makine öğrenimi yöntemleri ile sağkalım analizi,\" Yüksek Lisans/Doktora tezi, Dokuz Eylül Üniversitesi / Fen Bilimleri Enstitüsü / İstatistik Ana Bilim Dalı / Veri Bilimi Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=LY6e5xGA7WWUpEdrBmEPLpDjcBMUrq5XgDtxP0g8Y1FzThhuw4XgtbJbdndObVkF",
+        "[6] DİLEK SABANCI, \"Rastgele orman yaklaşımı kullanılarak çok değişkenli uyumlu regresyon şeritlerinde model seçimi,\" Yüksek Lisans/Doktora tezi, Ondokuz Mayıs Üniversitesi / Fen Bilimleri Enstitüsü / İstatistik Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vjszP7PzV0HebcjFEvDfwFS25MKChQTf9PJTYJCf0wbsMtCuA2ZdNWSQdYuSADB3",
+        "[7] BANUÇİÇEK KANDEMİR KILINÇÇEKER, \"Türk işaret dili tanıma için zayıf-güdümlü makine öğrenmesi yöntemi,\" Yüksek Lisans/Doktora tezi, Gebze Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Matematik Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiNJO9mqt1IeM3OUQRzX0-qQuTsMUsyiB_m_-2l0aKE98",
+        "[8] GURUR PIRANA, \"Konvolusyonel sinir ağları kullanarak Türkçe metinler için cümle sınıflandırması,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi-Cerrahpaşa / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı / Bilgisayar Mühendisliği Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGe1tYYX4J8YvfUsK363nYrw3EhrTdA6T22AbAltW4Lj4",
+        "[9] OZAN TAŞOVA, \"Yapay sinir ağları ile yüz tanıma,\" Yüksek Lisans/Doktora tezi, Dokuz Eylül Üniversitesi / Fen Bilimleri Enstitüsü / İktisat Bölümü / Mekatronik Mühendisliği Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-Ag2v1L3yTibcLzDCKdO07wWBdZubIQHUAdqMcHOjXxIE",
+        "[10] EBRU TURGAL, \"Geleneksel makine öğrenmesi ve karışık etkili makine öğrenmesi model performanslarının benzetim çalışması ile değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sağlık Bilimleri Enstitüsü / Biyoistatistik Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RsTBl6RWK25OBMIKtIgYYekonSJWnPm3dME0_OenhAHNVC0RJ3OMMWPs6K5PrSBZ",
+        "[11] MUHAMMET AKMAN, \"Veri madenciliğine genel bakış ve Random Forests yönteminin incelenmesi: Sağlık alanında bir uygulama,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sağlık Bilimleri Enstitüsü / Biyoistatistik Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAQnpPl-iPkd1_TtLeUFdWyKU4j7EzwlE6xw88N-PA9Bf",
+        "[12] İREM SAYIN, \"Çocuk yüz ifadelerinin derin öğrenme yöntemleri ile tespiti ve analizi,\" Yüksek Lisans/Doktora tezi, Isparta Uygulamalı Bilimler Üniversitesi / Lisansüstü Eğitim Enstitüsü / Mekatronik Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEApXU6B6FGtB4xkXbg4LAeRmQI-WBMuex7omQgTl1i2VH",
+        "[13] CAN DEMİRCİGİL, \"Uzun süreli verilerin analizinde kullanılan makine öğrenmesi algoritmaları,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Fen Bilimleri Enstitüsü / İstatistik Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQklSw5xejfzTziS6nmG1rYJ7pqbfYM3rrh-oMlS0Hegt",
+        "[14] ZEKİ KUŞ, \"Mikrokanonikal optimizasyon algoritması ile konvolüsyonel sinir ağlarında hiper parametrelerin optimize edilmesi,\" Yüksek Lisans/Doktora tezi, Fatih Sultan Mehmet Vakıf Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZlgMAblQOcQC6NmIoDTuXHIQr5cZgQnYzM_B9gJf-ZiD",
+        "[15] MUSTAFA AHMED ELBERRI, \"Tekrarlayan sinir ağlarını kullanarak konuşma tanıma,\" Yüksek Lisans/Doktora tezi, Kastamonu Üniversitesi / Fen Bilimleri Enstitüsü / Malzeme Bilimi ve Mühendisliği Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=_F5QEpayDXGqGZlp9XiFtOwxGFmBY_SZn6kqB4q5_dweXG9-Bo4P897ovyOUqZSP",
+        "[16] ALTUĞ YİĞİT, \"İş süreçlerinde insan görüsünü derin öğrenme ile destekleme,\" Yüksek Lisans/Doktora tezi, Trakya Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=7lOJX8w_8PRQU1mSHU6-jl2x-NlfKTGr5tccCjXt3RhIhx3pMz-iolyWV23e-nAx",
+        "[17] SALİHA KEVSER KAVUNCU, \"Makine öğrenmesi ve derin öğrenme: Nesne tanıma uygulaması,\" Yüksek Lisans/Doktora tezi, Kırıkkale Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=T1mWGp9MngYYkCSgiJvtVmcVmkOqNkX3zcmIv6Se6gWcKZWcTFi3E6Yp0iF5aDRm",
+        "[18] AZİZ MAHMUT YÜCELEN, \"Veri madenciliğinin K-ortalamalar kümeleme yönteminde başlangıç ağırlık merkezi noktalarının yörünge iterasyonu ile belirlenmesi,\" Yüksek Lisans/Doktora tezi, Dicle Üniversitesi / Fen Bilimleri Enstitüsü / Matematik Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77LfQZiinqkKZUQvSyHcGH0PyLjdqKk37rpJX5Zcdj1YqM",
+        "[19] HUSEYN HASANLI, \"Çok boyutlu veritabanlarında veri madenciliği yöntemleri kullanılarak bilgi keşfi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Fen Bilimleri Enstitüsü / Matematik Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=48XPj7KKQhKUgntkUiKO3GlCHpczrqMktmcjbHBf-SJ5-0cEWaZUU6cN0LBz6ShK",
+        "[20] ERAY YELMEN, \"Soru dokümanlarının anlamsal benzerliklerine dayalı derin öğrenme tabanlı kümeleme analizi,\" Yüksek Lisans/Doktora tezi, Kocaeli Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMs8xbXfwy-jySig0rmTe5ndWiENtPDFB3ch3Ym86mGqD4",
+        "[21] VOLKAN TUNALI, \"Metin madenciliği için iyileştirilmiş bir kümeleme yapısının tasarımı ve uygulaması,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Fen Bilimleri Enstitüsü / Elektronik-Bilgisayar Eğitimi Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-Al5NnP60d8gZjdH9cXbaJJKj23kqQ_BfGIbBER1Ip_MU",
+        "[22] METİN VATANSEVER, \"Görsel veri madenciliği tekniklerinin kümeleme analizlerinde kullanımı ve uygulanması,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İstatistik Ana Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=UPP_Zu9isEmWGFXFCBYasS7dH2_neihExNGWWDPAPwjYtQB2qUteFRo8-jWlalge",
+        "[23] RECEP IŞIK, \"Veri görselleştirme: TR Dizin'de indekslenen Ankara Üniversitesi adresli makalelerin üst veri kayıtları üzerine bir araştırma,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Bilgi ve Belge Yönetimi Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=UjlM15wKZGQW6TLC0pvCt605_fXnGe-P-aBqQF2QWNFaRQrVyAIhfv8hqFvyjWs8",
+        "[24] HAKAN CEM IŞIKLAR, \"Haber televizyonlarında haber yapım ve yayın süreçleri: NTV, Habertürk ve CNN Türk televizyonlarının karşılaştırmalı çözümlemeleri,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / Radyo Televizyon ve Sinema Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGobS8jS_uqtnolWnuGkmPcZx5YlruilH53TRy8iUJ-j4"
+      ]
+    }
+  },
+  "error": null
+}

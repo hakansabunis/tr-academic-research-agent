@@ -1,0 +1,12 @@
+{
+  "id": "q04",
+  "question": "Türkçe görüntü tanımada konvolüsyonel sinir ağları ile geleneksel makine öğrenmesi yöntemlerinin karşılaştırması nasıldır?",
+  "category": "computer_science",
+  "judgment": {
+    "citation_accuracy": 0.2,
+    "faithfulness": 0.15,
+    "coverage": 0.2,
+    "holistic_score": 1,
+    "rationale": "Yanıt, getirilen kaynakların içeriğiyle neredeyse hiç örtüşmemektedir. Kaynakların çoğu (1, 5, 6, 8, 9, 10, 11, 13, 15, 18-24) görüntü tanıma ile ilgisizdir (metin madenciliği, sağkalım analizi, regresyon, veri görselleştirme, televizyon haberciliği vb.). Atıfların büyük kısmı rastgele yapılmış, kaynaklarda olmayan iddialar (CNN üstünlüğü, mimari detaylar, geleneksel yöntemlerin sınırlılıkları) sanki o kaynaklardaymış gibi sunulmuştur. Alt soruların hiçbiri (belirli CNN mimarileri, geleneksel yöntemlerin doğruluk oranları, veri kümesi etkisi, sınırlılıkların karşılaştırılması) yanıtlanmamıştır."
+  }
+}

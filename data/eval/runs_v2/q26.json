@@ -1,0 +1,405 @@
+{
+  "id": "q26",
+  "category": "tourism",
+  "type": "trend",
+  "question": "COVID-19 sonrası Türkiye turizm sektöründe sürdürülebilir turizm yaklaşımlarının değişimi nasıldır?",
+  "expected_subjects": [
+    "Turizm",
+    "İşletme"
+  ],
+  "min_citations": 3,
+  "result": {
+    "latency_seconds": 121.16,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "COVID-19 pandemisi sonrası Türkiye'de sürdürülebilir turizm uygulamalarına yönelik yapılan akademik çalışmalarda hangi araştırma yöntemleri (nicel, nitel, karma) kullanılmıştır?",
+          "rationale": "Yöntemsel çeşitliliği anlamak, alandaki araştırma eğilimlerini ve hangi yaklaşımların daha yaygın olduğunu ortaya koyar."
+        },
+        {
+          "text": "COVID-19 sonrası Türkiye turizm sektöründe sürdürülebilir turizm yaklaşımlarının değişimine dair tezlerde hangi temel bulgular (örneğin, çevresel, ekonomik, sosyo-kültürel boyutlar) raporlanmıştır?",
+          "rationale": "Pandemi sonrası sürdürülebilir turizmin hangi boyutlarında (çevre, ekonomi, toplum) anlamlı değişimler yaşandığını belirlemek, literatürdeki temel bulguları özetler."
+        },
+        {
+          "text": "COVID-19 sonrası Türkiye'de sürdürülebilir turizm üzerine yapılan tez çalışmalarında, pandemi öncesi dönemle karşılaştırmalı olarak hangi farklılıklar veya dönüşümler vurgulanmıştır?",
+          "rationale": "Pandeminin sürdürülebilir turizm anlayışında yarattığı dönüşümü (kriz öncesi-sonrası karşılaştırması) ortaya koyarak değişimin yönünü ve kapsamını anlamaya yardımcı olur."
+        },
+        {
+          "text": "COVID-19 sonrası Türkiye'de sürdürülebilir turizm yaklaşımlarının uygulanabilirliği ve karşılaşılan zorluklar (finansal, yönetsel, altyapısal) konusunda tezlerde hangi sınırlılıklar ve engeller belirtilmiştir?",
+          "rationale": "Teorik yaklaşımların pratiğe geçirilmesindeki engelleri ve sınırlılıkları tespit ederek, sürdürülebilir turizm politikalarının geliştirilmesine yönelik somut çıkarımlar sağlar."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 25,
+      "max_score": 0.8977,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "747114",
+          "title_tr": "Türkiye'de Covid-19 pandemisinin turizm sektörü üzerindeki etkisi: Seçilmiş Avrupa Birliği ülkeleri ile karşılaştırmalı analizi",
+          "author": "RABİA SEÇKİN",
+          "year": 2022,
+          "score": 0.8977,
+          "abstract_excerpt": "Günümüzde artan küreselleşme birlikte turizm sektörü dünyanın en fazla büyüyen ve en dinamik sektörlerinden biri haline gelmiştir. Turizm, insanların yaşadıkları yerlerden yirmi dört saatten fazla ve bir yıldan az olacak şekilde, sağlık, eğlence, iş, boş zamanın değerlendirilmesi ve spor gibi çeşitl"
+        },
+        {
+          "tez_no": "782605",
+          "title_tr": "Turizm alanında yapılan COVID-19 (Koronavirüs) ile ilgili çalışmaların bibliyometrik analiz tekniği ile incelenmesi",
+          "author": "TOLGA HAN ŞENOL",
+          "year": 2023,
+          "score": 0.8889,
+          "abstract_excerpt": "2019 yılının sonbaharının hemen sonrasında Çin'in Hubei eyaletinden başlayarak hayatımıza giren Covid-19, insan sağlığına ve yaşamına verdiği zararın dışında neredeyse tüm sektörleri etkileyerek ekonomik açıdan da büyük kayıplara yol açmıştır. Salgına karşı alınan önlemlerin en başında yer alan soys"
+        },
+        {
+          "tez_no": "839365",
+          "title_tr": "Covıd-19'un yerli turistlerin seyahat motivasyonu ve satın alma davranışı üzerindeki etkisi",
+          "author": "BİLAL CAN BEKİROĞLU",
+          "year": 2023,
+          "score": 0.8858,
+          "abstract_excerpt": "Çin'in Wuhan şehrinde başlayarak hızla tüm dünyaya yayılan koronavirüs (Covid-19) insan sağlığını yüksek seviyede tehdit etmesi nedeniyle hayatın değişmesine neden olmuştur. Covid-19'dan korunmak amacıyla hem bireysel hem kitlesel olarak tedbirler alınmaya çalışılmaktadır. Ülkeler Covid-19'un yayılm"
+        },
+        {
+          "tez_no": "675878",
+          "title_tr": "COVID-19 süreci öncesi ve sonrası Türkiye'ye körfez ülkeleri kaynaklı gelen turizm gelirlerinin farklılaşması; siyasete etkisi ve öngörüler",
+          "author": "MEHMET AKİF GÜDEK",
+          "year": 2021,
+          "score": 0.8843,
+          "abstract_excerpt": "Turizm sektörü günümüz dünyasında hemen hemen her ülkenin ekonomisinde önemli bir yer tutmakta olup, coğrafi avantajlar ve kültürel zenginlikler dikkate alındığında Türkiye turizm gelirleri açısından Dünya'nın en avantajlı ülkelerinden birisi konumundadır. Türkiye'nin GSMH'sı içinde turizm gelirleri"
+        },
+        {
+          "tez_no": "737070",
+          "title_tr": "COVİD-19 salgının turizm sektörüne etkileri: Muğla ili örneği",
+          "author": "TARKAN BALSEVEN",
+          "year": 2022,
+          "score": 0.8834,
+          "abstract_excerpt": "Tarihsel süreç içerisinde insanoğlu çeşitli salgın hastalıklar yaşamıştır. Günümüzde ise gelişen teknolojinin getirmiş olduğu ulaşım kolaylığı, ortaya çıkan salgın hastalıkların yayılımını hızlandırmaktadır. Böylece vaka ve ölüm sayıları artarken sosyal, ekonomik, politik, kültürel ve toplumsal açıd"
+        },
+        {
+          "tez_no": "417614",
+          "title_tr": "Turizm ve ekonomik gelişme:Türkiye ekonomisi üzerine bir uygulama",
+          "author": "MURAT BAYRAKTAR",
+          "year": 2015,
+          "score": 0.8821,
+          "abstract_excerpt": "Günümüzde dünya nüfusunun belirli bir kısmı iç dünyalarını zenginleştirmek için doğal ve  kültürel çevre içinde yaşama amacı ile ülke içi ya da ülkeler arası seyahat etmektedirler  Turizm birçok aktivite ve bölümü bünyesinde barındıran çok boyutlu bir endüstridir  Dünya Turizm ve Seyahat Konseyi ( W"
+        },
+        {
+          "tez_no": "877411",
+          "title_tr": "COVID-19 pandemi sürecinin Türkiye'de turizm sektörü üzerine etkileri: Turizm-ekonomik büyüme ilişkisi üzerine bir analiz",
+          "author": "FATMA BİRGÜCÜ",
+          "year": 2024,
+          "score": 0.882,
+          "abstract_excerpt": "Turizm, gelişmekte olan ve az gelişmiş ülkeler için önemli bir sektördür. Ülkeye yabancı para akışı sağlayan sektör, ekonomik büyümeye katkı sağlayarak ülkenin kalkınmasına yardımcı olmaktadır. Yakın süreçte, Çin'in Wuhan eyaletinde meydana gelen COVID-19 salgını, dünyayı etkisi altına alarak ciddi "
+        },
+        {
+          "tez_no": "678546",
+          "title_tr": "Turizm açısından sürdürülebilirlik yaklaşımı ve sürdürülebilir turizm-çevre ilişkisinin incelenmesi: Cunda (Alibey) Adası örneği",
+          "author": "MEHTAP ARSLAN",
+          "year": 2021,
+          "score": 0.8733,
+          "abstract_excerpt": "İşletmelerin kuruluş itibarı ile iki önemli amaçları vardır. Varlıklarını sürekli kılabilmek ve kar elde edebilmektir. Bu iki önemli amacın uzun vadede sağlanabilmesi sürdürülebilirlik kavramını ortaya çıkarmıştır. Dolayısı ile üretimin devamlılığının sağlanabilmesi için insan ve çevre odaklı bir ya"
+        },
+        {
+          "tez_no": "841793",
+          "title_tr": "COVİD 19'un konaklama işletmelerindeki etkisi bağlamında yeni faaliyetler ve yeni trendler: Edremit Körfezi örneği",
+          "author": "EMEK DENİZ YILDIZ",
+          "year": 2024,
+          "score": 0.8546,
+          "abstract_excerpt": "Değişen ve gelişen dünyamızda, Türkiye gibi önemli bir ülkenin bacasız sanayisi olarak görülen turizm sektörü ekonomimizin can damarlarından biridir. Bu noktadan hareketle 2020'de başlayan Covid 19 pandemisi tüm dünyayı sarmış ve birçok sektörde derin etkiler bırakmıştır. Turizm, insanların birbirle"
+        },
+        {
+          "tez_no": "843420",
+          "title_tr": "Uluslararası halkla ilişkiler bağlamında Türkiye'de sağlık turizmi",
+          "author": "ALİ KORKMAZ",
+          "year": 2023,
+          "score": 0.8589,
+          "abstract_excerpt": "Sağlığı yeniden kazanmak ya da sağlığı geliştirmek için insanların her geçen gün daha fazla mobilize oldukları görülmektedir. Genel anlamda bireylerin dinlenme, eğlenme ve diğer kültür ya da medeniyetleri görme amacıyla seyahatleri arasında sağlık amaçlı turizm hızla öne çıkmaktadır. Dünyanın farklı"
+        },
+        {
+          "tez_no": "425376",
+          "title_tr": "Türkiye'de sürdürülebilir turizm açısından sertifikasyon: Yeşil Yıldız ve Yeşil Anahtar uygulamaları",
+          "author": "İSA SATAR",
+          "year": 2016,
+          "score": 0.8535,
+          "abstract_excerpt": "Mevcut dünya düzeninde ülkeler liberal ekonomi modelinin bir gereği olarak hem ekonomik rekabet içerisinde bulundukları ülkelere karşı üstünlük sağlamak ve kendi toplumsal stabilitelerine katkı yapmak hem de uluslararası pazarlara uyum sağlayabilmek için turizme başvurmaktadır. Uluslararası bu durum"
+        },
+        {
+          "tez_no": "700182",
+          "title_tr": "COVID-19 salgını sonrasında güncellenen turizm algısının glamping turizmine etkisi üzerine bir araştırma: Giresun örneği",
+          "author": "HALUK CEBECİ",
+          "year": 2021,
+          "score": 0.8518,
+          "abstract_excerpt": "Türkiye gerek doğal özellikleri gerekse tarihi ve kültürel özellikleri açısından oldukça zengin bir ülkedir. Bu zenginliklerin korunarak turizme kazandırılması gerekmektedir. Aksi takdirde kontrolsüz ve plansız turizm projeleri ülke turizmine katkı sunmak yerine çevreyi ve değerleri tahrip edeceğind"
+        },
+        {
+          "tez_no": "375808",
+          "title_tr": "Sağlık turizminin Türkiye'deki yeri ve önemi",
+          "author": "SİNEM BULDUKOĞLU",
+          "year": 2014,
+          "score": 0.8515,
+          "abstract_excerpt": "Sağlık turizmi tarihin ilk dönemlerinden beri varolan ancak son yıllarda önemi ve ekonomilerdeki ağırlığı giderek artan bir sektördür. Henüz gelişme aşamasında olan bu sektörde önemli bir aktör olabilmek için Türkiye'nin elinde pek çok fırsat bulunmaktadır. Sağlık turizmini, turizmin diğer kolları i"
+        },
+        {
+          "tez_no": "708174",
+          "title_tr": "COVID-19 küresel salgını ile gelişen yeşil ekonomi dönüşümü: Ülkeler, işletmeler ve yatırımcılar için çıkarımlar",
+          "author": "EZGİ GÜMÜŞTEKİN",
+          "year": 2021,
+          "score": 0.8471,
+          "abstract_excerpt": "Ekonomi yıllar itibariyle pek çok değişime uğramış bir kavramdır. Bu değişimden toplumlar, devletler, şirketler denklemin birer parçası olarak doğrudan etkilenmekte ve buna göre şekillenmektedirler. Sanayi devrimi ile başlayan süreçten günümüze kadar küresel çaplı refah artışı sağlanırken elde edile"
+        },
+        {
+          "tez_no": "683229",
+          "title_tr": "COVID-19 salgınının turizm sektörü üzerindeki etkisi: Türkiye örneği",
+          "author": "BURAK BEDİR",
+          "year": 2021,
+          "score": 0.8461,
+          "abstract_excerpt": "Turizmin ülkelerin ekonomileri içerisindeki yeri ve önemi oldukça yüksektir. Turizmin, ekonomi üzerinde gelir yaratıcı etkisine sahip olması, ödemeler bilançosu dengesi üzerinde pozitif katkılar sağlaması ve istihdam üzerinde yarattığı olumlu etkisi gibi ülke ekonomileri açısından birçok yararı bulu"
+        },
+        {
+          "tez_no": "253310",
+          "title_tr": "Turizmin çevresel etkileri ve bir çözüm olarak ekoturizm",
+          "author": "SAADET DİNÇER ŞEN",
+          "year": 2010,
+          "score": 0.8455,
+          "abstract_excerpt": "Turizmin dayandığı temel arz kaynakları; doğal ve sosyo-kültürel kaynaklardır ve bu kaynaklar yenilenemez niteliktedir. Kaynakların aşırı ve yanlış kullanımıyla birlikte çevrede çeşitli olumsuz değişimler ortaya çıkmakta, hava, su ve toprağın doğal dengesi bozulmakta, bitki ve hayvan toplulukları yo"
+        },
+        {
+          "tez_no": "781718",
+          "title_tr": "Türkiye'de sağlık turizmin ekonomik boyutu",
+          "author": "SONGÜL TEMEL TEPE",
+          "year": 2022,
+          "score": 0.8447,
+          "abstract_excerpt": "İnsanlar var olduğu günden itibaren sağlıklı olmanın yollarını aramışlardır. Geçmişten günümüze kadar geçen zaman içinde sağlıklı olmak amacıyla uygulanan hizmetlerin boyutu değişmiştir. Geçmişte kişiler hastalıklardan korunmak amacıyla sağlık hizmeti arayışına girmişleridir. Günümüzde ise hastalanm"
+        },
+        {
+          "tez_no": "345787",
+          "title_tr": "Konaklama işletmelerinin sürdürülebilir turizm performanslarının küresel sürdürülebilir turizm kriterlerine göre analizi: Alanya üzerine bir çalışma",
+          "author": "ONUR OKU",
+          "year": 2013,
+          "score": 0.8444,
+          "abstract_excerpt": "Dünya ekonomisi içinde turizm sektörü hızla büyümeye devam etmektedir. Küresel kalkınma stratejilerinde kullanılmaya başlanan sürdürülebilirlik prensipleri turizm sektörüne de zamanla uyarlanmaya başlamıştır. Turizm sektöründe artan rekabet, başta konaklama işletmeleri olmak üzere sektörün genelinde"
+        },
+        {
+          "tez_no": "530567",
+          "title_tr": "2010 sonrasında Türkiye'de sağlık turizminin gelişimi",
+          "author": "ÇİSEM BÜYÜKKAYA",
+          "year": 2018,
+          "score": 0.8441,
+          "abstract_excerpt": "Sağlık turizmi tedavi olmak, şifa bulmak ve iyileşme adına bir ülkeden diğer ülkeye yapılan seyahat olarak tanımlanmaktadır. Sağlık turizmi son yıllarda tüm dünyada oldukça önem kazanan bir turizm çeşidi haline gelmiştir. Dünyada ulaşım ve haberleşme olanaklarının artması, insanların boş zamanlarını"
+        },
+        {
+          "tez_no": "615270",
+          "title_tr": "2002 sonrası OECD ülkelerinde sağlık turizmi ve Türkiye'nin payı",
+          "author": "ONUR AKDAŞ",
+          "year": 2019,
+          "score": 0.8406,
+          "abstract_excerpt": "Sağlık turizmi tedavi amacıyla yapılan seyahatlerdir. OECD ülkelerinde ve Türkiye'de sağlık turizmi faaliyetlerine olan önem son dönemlerde artmaya başlamış olup çok önemli bir turizm çeşidi oluşturmuştur.\n\nSağlık turizmi insanlık tarihin ilk periyodlarından beri var olan ancak önemi son yıllarda da"
+        },
+        {
+          "tez_no": "667493",
+          "title_tr": "Türkiye'deki salgın hastalıkların Türk ekonomisine etkileri",
+          "author": "SELDA ÖZDERE SÖZER",
+          "year": 2021,
+          "score": 0.8403,
+          "abstract_excerpt": "Dünya tarihi boyunca salgın hastalıkların insanlık yaşamını etkisi altına aldığı\nzamanlar oldukça fazladır. Özellikle salgın hastalıkların kolayca nüfuz etmesi, hastalığın\netkisini tüm kıtalarda hissettirmiştir. Bu nedenle tüm dünyada eşzamanlı olarak etkisini\ngösteren bulaşıcı hastalıklara pandemi "
+        },
+        {
+          "tez_no": "906309",
+          "title_tr": "Bir iletişim aracı olarak turizmde sürdürülebilirlik raporları",
+          "author": "PELİN TURAN",
+          "year": 2024,
+          "score": 0.8394,
+          "abstract_excerpt": "Sürdürülebilirlik, doğal kaynakların korunması, çevresel yansımaların en aza indirilmesi ve toplumsal refahın artırılması amacıyla, mevcut ihtiyaçların gelecek nesillerin ihtiyaçlarını tehlikeye atmadan karşılanmasını hedefleyen bir yaklaşımdır. Sürdürülebilir turizm, bu prensipleri turizm sektörüne"
+        },
+        {
+          "tez_no": "135278",
+          "title_tr": "Gündem 21'in Türk konaklama endüstrisinde uygulanma koşulları",
+          "author": "OĞUZ TÜRKAY",
+          "year": 2002,
+          "score": 0.8364,
+          "abstract_excerpt": "oz Dünya, sanayi devrimi ile hız kazanan bir teknolojik gelişme ve sanayileşme dönemi yaşamıştır. Bu dönem yanında artan nüfus, kuraklık, küresel ısınma gibi gelişmeler yeryüzünün geleceğini tehdit eder hale gelmiştir. Birleşmiş Milletler Teşkilatı bünyesinde oluşturulan programlar ve komisyonlar il"
+        },
+        {
+          "tez_no": "617678",
+          "title_tr": "Sürdürülebilir turizm kapsamında turizm işletmelerinin çevre duyarlılığının belirlenmesi: Safranbolu örneği",
+          "author": "NURDAN ÖZMEN",
+          "year": 2020,
+          "score": 0.8364,
+          "abstract_excerpt": "İnsanoğlu yaşantısını devem ettirebilme amacı ile doğayı büyük ölçüde zorlamış, kaynakları tüketmiş ve günümüzün en önemli sorunu olan çevre sorunlarının önünü açmıştır. İnsanın doğadaki mevcut kaynakları, doğanın kendisini yenileyebileceğinden daha hızlı kullanması sonucunda ortaya çıkan, tüm canlı"
+        },
+        {
+          "tez_no": "W4411778314",
+          "title_tr": "Turizm Politikalarının İstatistiklerle Birlikte Karşılaştırılması: Türkiye ile Akdeniz Ülkeleri Örneği",
+          "author": "Yakup DEMİR, Erkan Denk",
+          "year": 2025,
+          "score": 0.5,
+          "abstract_excerpt": "2019 yılı sonlarında yaşanan Covid 19 pandemisi sonrası hızla toparlanmaya başlayan turizm endüstrisi, tekrar büyüme ivmesi yakalamış ve ülkeleri ekonomik anlamda canlandırıp güç kazandırmaya devam etmektedir. Kısacası turizm destinasyonlarında rekabet kaldığı yerden tekrar eski hızıyla devam etmekt"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 10,
+      "findings": [
+        {
+          "claim": "COVID-19 pandemisi turizm sektörünü küresel ölçekte derinden etkilemiş, seyahat kısıtlamaları ve sosyal izolasyon nedeniyle turizm faaliyetleri ciddi şekilde durma noktasına gelmiştir.",
+          "citations": [
+            "747114",
+            "782605",
+            "839365",
+            "675878",
+            "737070",
+            "877411",
+            "841793",
+            "683229",
+            "667493"
+          ]
+        },
+        {
+          "claim": "COVID-19 sonrası dönemde sürdürülebilir turizm yaklaşımları, özellikle çevre dostu uygulamalar, yeşil ekonomi dönüşümü ve ekoturizm gibi alternatif turizm türleri önem kazanmıştır.",
+          "citations": [
+            "708174",
+            "700182",
+            "841793",
+            "678546",
+            "617678",
+            "906309"
+          ]
+        },
+        {
+          "claim": "Pandemi sonrası turist davranışlarında değişim yaşanmış; sağlık, hijyen ve güvenlik öncelikli hale gelmiş, kalabalıktan uzak doğa temelli turizm alternatiflerine (glamping gibi) yönelim artmıştır.",
+          "citations": [
+            "839365",
+            "700182",
+            "841793",
+            "877411"
+          ]
+        },
+        {
+          "claim": "Sürdürülebilir turizm; çevresel, ekonomik, sosyal ve kültürel boyutlarıyla ele alınmakta olup, doğal ve kültürel kaynakların korunarak gelecek nesillere aktarılmasını hedeflemektedir.",
+          "citations": [
+            "678546",
+            "345787",
+            "617678",
+            "906309",
+            "253310",
+            "425376",
+            "135278"
+          ]
+        },
+        {
+          "claim": "COVID-19 pandemisi, yeşil ekonomi ve sürdürülebilir kalkınma modellerine geçişi hızlandırmış, turizm sektöründe de bu dönüşümün önemi artmıştır.",
+          "citations": [
+            "708174",
+            "700182",
+            "841793"
+          ]
+        },
+        {
+          "claim": "Türkiye'de turizm sektörü, COVID-19 öncesinde de sürdürülebilirlik sertifikasyonları (Yeşil Yıldız, Yeşil Anahtar gibi) ve ekoturizm gibi uygulamalarla sürdürülebilir turizme yönelik adımlar atmaktaydı.",
+          "citations": [
+            "425376",
+            "700182",
+            "678546",
+            "617678",
+            "253310"
+          ]
+        },
+        {
+          "claim": "COVID-19 pandemisi Türkiye'de turizm gelirlerinde ve turist sayılarında ciddi düşüşlere yol açmış, sektör ekonomik olarak büyük kayıplar yaşamıştır.",
+          "citations": [
+            "747114",
+            "675878",
+            "877411",
+            "683229",
+            "667493",
+            "737070"
+          ]
+        },
+        {
+          "claim": "Pandemi sonrası konaklama işletmelerinde hijyen, sosyal mesafe ve güvenlik odaklı yeni uygulamalar ve trendler ortaya çıkmıştır.",
+          "citations": [
+            "841793",
+            "839365",
+            "877411"
+          ]
+        },
+        {
+          "claim": "Sağlık turizmi, COVID-19 sonrası dönemde Türkiye için önemli bir potansiyel taşımakta olup, pandemi öncesinde de gelişmekte olan bir alandı.",
+          "citations": [
+            "843420",
+            "375808",
+            "781718",
+            "530567",
+            "615270",
+            "10"
+          ]
+        },
+        {
+          "claim": "Sürdürülebilir turizm, turizmin çevresel olumsuz etkilerini azaltmayı, yerel halkın sosyo-kültürel kimliğini korumayı ve ekonomik faydaların adil dağılımını amaçlar.",
+          "citations": [
+            "345787",
+            "906309",
+            "678546",
+            "617678",
+            "253310"
+          ]
+        }
+      ],
+      "contradictions": []
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "COVID-19 sonrası Türkiye'de sürdürülebilir turizm yaklaşımlarının somut olarak nasıl değiştiği (pandemi öncesi-sonrası karşılaştırması)",
+        "Türkiye'ye özgü politika değişiklikleri, devlet teşvikleri veya yasal düzenlemeler",
+        "Sürdürülebilir turizm sertifikasyon sistemlerinde pandemi sonrası yaşanan somut değişimler (Yeşil Yıldız, Yeşil Anahtar vb.)",
+        "Türkiye'deki destinasyon yönetimi örnekleri veya yerel yönetim uygulamaları",
+        "Sürdürülebilir turizm yaklaşımlarının sektörel aktörler (otel, acente, rehber) tarafından benimsenme düzeyi ve uygulama örnekleri",
+        "Pandemi sonrası Türkiye turizminde kitle turizmi ile alternatif/sürdürülebilir turizm arasındaki dönüşüm dinamikleri"
+      ],
+      "requery_terms": [
+        "Türkiye sürdürülebilir turizm politikaları COVID-19 sonrası",
+        "Yeşil Yıldız sertifikası pandemi sonrası değişim",
+        "Türkiye destinasyon yönetimi sürdürülebilirlik COVID-19",
+        "Türkiye otel işletmeleri sürdürülebilir uygulamalar pandemi sonrası",
+        "Türkiye kitle turizmi alternatif turizm dönüşümü COVID-19",
+        "Türkiye turizm sektörü yeşil dönüşüm teşvikleri",
+        "Türkiye ekoturizm COVID-19 sonrası gelişmeler"
+      ],
+      "notes": "Mevcut sentez, COVID-19'un turizm sektörüne genel etkilerini ve sürdürülebilir turizmin kavramsal çerçevesini kapsamakla birlikte, sorunun odağı olan 'Türkiye'de sürdürülebilir turizm yaklaşımlarının değişimi' konusunda yetersiz kalmaktadır. Özellikle pandemi öncesi-sonrası karşılaştırmalı somut veriler, Türkiye'ye özgü politika değişiklikleri, sertifikasyon sistemlerindeki güncellemeler, yerel yönetim uygulamaları ve sektörel aktörlerin adaptasyon süreçleri gibi kritik alt-açılar örtülmemiştir. Sentez genel ifadelerle sınırlı kalmış, Türkiye bağlamında somut değişim dinamiklerini yansıtamamıştır."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nCOVID-19 pandemisi, küresel ölçekte turizm sektörünü derinden etkileyerek seyahat kısıtlamaları ve sosyal izolasyon nedeniyle turizm faaliyetlerini ciddi şekilde durma noktasına getirmiştir [1][2][3][5][7][9][15][21]. Bu kriz, Türkiye turizm sektöründe sürdürülebilir turizm yaklaşımlarının yeniden değerlendirilmesine ve dönüşümüne zemin hazırlamıştır. Bu çalışma, COVID-19 sonrası Türkiye turizm sektöründe sürdürülebilir turizm yaklaşımlarının nasıl bir değişim gösterdiğini, mevcut akademik bulgular ışığında analiz etmeyi amaçlamaktadır.\n\n## Pandeminin Türkiye Turizm Sektörüne Ekonomik Etkileri\n\nCOVID-19 pandemisi, Türkiye'de turizm gelirlerinde ve turist sayılarında ciddi düşüşlere yol açmış, sektör ekonomik olarak büyük kayıplar yaşamıştır [1][4][7][15][21][5]. Turizm talebinin esnek yapısı nedeniyle kriz, savaş, terör, doğal afet ve salgın hastalık gibi olumsuz durumlardan en çok etkilenen sektörlerden biri turizm olmuştur [15]. Pandemi öncesinde Türkiye'nin GSMH'sı içinde önemli bir yer tutan turizm gelirleri, salgınla birlikte keskin bir düşüş yaşamış; bu durum, sektörün mevcut yapısal sorunlarını ve kırılganlıklarını görünür kılmıştır [4][7].\n\n## Sürdürülebilir Turizm Kavramının Pandemi Sonrası Yeniden Yorumlanması\n\nSürdürülebilir turizm; çevresel, ekonomik, sosyal ve kültürel boyutlarıyla ele alınmakta olup, doğal ve kültürel kaynakların korunarak gelecek nesillere aktarılmasını hedeflemektedir [8][18][22][24][16][11][23]. COVID-19 pandemisi sonrası dönemde sürdürülebilir turizm yaklaşımları, özellikle çevre dostu uygulamalar, yeşil ekonomi dönüşümü ve ekoturizm gibi alternatif turizm türleri bağlamında daha fazla önem kazanmıştır [12][14][9][8][24][22]. Pandemi, sürdürülebilir turizmin yalnızca çevresel boyutunu değil, aynı zamanda sağlık, hijyen ve güvenlik gibi yeni parametreleri de içerecek şekilde genişlemesine yol açmıştır.\n\n## Yeşil Ekonomi Dönüşümü ve Sürdürülebilir Turizm\n\nCOVID-19 pandemisi, yeşil ekonomi ve sürdürülebilir kalkınma modellerine geçişi hızlandırmış, turizm sektöründe de bu dönüşümün önemi artmıştır [14][12][9]. Sanayi devrimiyle başlayan süreçte elde edilen büyümenin sürdürülebilir olamaması, biyoçeşitlilikte azalma, deniz seviyelerinde artış ve yüzey sıcaklığında yükselme gibi doğa tahribatına yol açmış; pandemi, bu kırılganlıkları daha görünür hale getirerek yeşil ekonomiye geçişi zorunlu kılmıştır [14]. Türkiye'de turizm sektörü, COVID-19 öncesinde de sürdürülebilirlik sertifikasyonları (Yeşil Yıldız, Yeşil Anahtar gibi) ve ekoturizm gibi uygulamalarla sürdürülebilir turizme yönelik adımlar atmaktaydı [11][12][8][24][16]. Pandemi sonrası dönemde bu uygulamaların kapsamı genişlemiş ve yeşil ekonomi prensipleriyle entegrasyonu hızlanmıştır.\n\n## Turist Davranışlarındaki Değişim ve Alternatif Turizm Türleri\n\nPandemi sonrası turist davranışlarında önemli değişimler yaşanmış; sağlık, hijyen ve güvenlik öncelikli hale gelmiş, kalabalıktan uzak doğa temelli turizm alternatiflerine yönelim artmıştır [3][12][9][7]. Bu bağlamda glamping (lüks kampçılık) gibi doğayla iç içe, sosyal mesafenin korunabildiği turizm türleri öne çıkmıştır [12]. Ekoturizm, sürdürülebilir turizmin önemli bir bileşeni olarak, doğal ve kültürel kaynakların korunarak turizme kazandırılması açısından pandemi sonrası dönemde daha fazla talep görmeye başlamıştır [12][16].\n\n## Konaklama İşletmelerinde Yeni Uygulamalar ve Trendler\n\nPandemi sonrası konaklama işletmelerinde hijyen, sosyal mesafe ve güvenlik odaklı yeni uygulamalar ve trendler ortaya çıkmıştır [9][3][7]. COVID-19'un konaklama işletmelerindeki etkisi bağlamında, işletmeler zararı en aza indirmek ve sektörün gelişimini sürdürebilmek amacıyla yeni faaliyetler geliştirmiş, bu süreç sürdürülebilir turizm uygulamalarının işletme düzeyinde benimsenmesini hızlandırmıştır [9]. Sürdürülebilir turizm performanslarının küresel sürdürülebilir turizm kriterlerine göre analizi, konaklama işletmelerinde bu dönüşümün sistematik bir şekilde izlenmesini mümkün kılmaktadır [18].\n\n## Sağlık Turizminin Yükselişi\n\nSağlık turizmi, COVID-19 sonrası dönemde Türkiye için önemli bir potansiyel taşımakta olup, pandemi öncesinde de gelişmekte olan bir alandı [10][13][17][19][20]. Türkiye; doğal kaynakları, gelişmiş sektörel altyapısı ve insan kaynağı ile sağlık turizmi açısından yüksek potansiyele sahip bir ülkedir [13]. Pandemi sonrası dönemde sağlık ve hijyen odaklı turizm talebinin artması, sağlık turizmini sürdürülebilir turizm yaklaşımları içinde daha stratejik bir konuma taşımıştır.\n\n## Sonuç\n\nCOVID-19 pandemisi, Türkiye turizm sektöründe sürdürülebilir turizm yaklaşımlarının dönüşümünde bir katalizör işlevi görmüştür. Pandemi öncesinde var olan Yeşil Yıldız ve Yeşil Anahtar gibi sürdürülebilirlik sertifikasyonları ile ekoturizm uygulamaları, pandemi sonrası dönemde yeşil ekonomi dönüşümü, sağlık ve hijyen odaklı yeni standartlar ve alternatif turizm türlerinin yükselişiyle birlikte daha kapsamlı bir boyut kazanmıştır. Turist davranışlarındaki değişim, doğa temelli ve kalabalıktan uzak turizm alternatiflerine yönelimi artırmış; konaklama işletmeleri hijyen, sosyal mesafe ve güvenlik odaklı yeni uygulamalar geliştirmiştir. Sağlık turizmi ise bu dönüşüm sürecinde Türkiye için stratejik bir fırsat alanı olarak öne çıkmaktadır. Sonuç olarak, COVID-19 sonrası Türkiye turizm sektöründe sürdürülebilir turizm yaklaşımları, çevresel boyutun yanı sıra sağlık, güvenlik ve yeşil ekonomi parametrelerini de içerecek şekilde genişlemiş ve derinleşmiştir.",
+      "n_citations": 25,
+      "citations_ieee": [
+        "[1] RABİA SEÇKİN, \"Türkiye'de Covid-19 pandemisinin turizm sektörü üzerindeki etkisi: Seçilmiş Avrupa Birliği ülkeleri ile karşılaştırmalı analizi,\" Yüksek Lisans/Doktora tezi, İnönü Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sELqxhTlFGAjsbjOuuiyCDZDEiaPh9c3ZCiVO9JgvohDp5Ci58r4z4OLMUFs5aa3",
+        "[2] TOLGA HAN ŞENOL, \"Turizm alanında yapılan COVID-19 (Koronavirüs) ile ilgili çalışmaların bibliyometrik analiz tekniği ile incelenmesi,\" Yüksek Lisans/Doktora tezi, Kocaeli Üniversitesi / Sosyal Bilimler Enstitüsü / Turizm İşletmeciliği Ana Bilim Dalı / Turizm İşletmeciliği Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxNUIrpySSb-d_rT2p6nAYTfr0fjyu2ZnYzBg5zfQkdDN",
+        "[3] BİLAL CAN BEKİROĞLU, \"Covıd-19'un yerli turistlerin seyahat motivasyonu ve satın alma davranışı üzerindeki etkisi,\" Yüksek Lisans/Doktora tezi, Kırşehir Ahi Evran Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=S2eMu1TIwY_v4mYv58xAr3RrHDxm9Es8x0UZWTwSPP4-jR9c9CNJyDjfgsPeLVG-",
+        "[4] MEHMET AKİF GÜDEK, \"COVID-19 süreci öncesi ve sonrası Türkiye'ye körfez ülkeleri kaynaklı gelen turizm gelirlerinin farklılaşması; siyasete etkisi ve öngörüler,\" Yüksek Lisans/Doktora tezi, Bahçeşehir Üniversitesi / Sosyal Bilimler Enstitüsü / Küresel Siyaset ve Uluslararası İlişkiler Ana Bilim Dalı / Küresel Siyaset ve Uluslararası İlişkiler Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEAnXE-w9H5bEbw2969Mj49xLFvO6TtVic8TihRXAcRVz0",
+        "[5] TARKAN BALSEVEN, \"COVİD-19 salgının turizm sektörüne etkileri: Muğla ili örneği,\" Yüksek Lisans/Doktora tezi, Muğla Sıtkı Koçman Üniversitesi / Sosyal Bilimler Enstitüsü / Turizm İşletmeciliği Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFko07es2OQmHD-2ZaWT7g18Al4UXv11LLghdabrj8iClo",
+        "[6] MURAT BAYRAKTAR, \"Turizm ve ekonomik gelişme:Türkiye ekonomisi üzerine bir uygulama,\" Yüksek Lisans/Doktora tezi, Çukurova Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WY5CM7tPNE2z_YM6pBu0t5AqZ7RCzxKsenem5T4pdp8hLPT7pV8h6BvNerZyulZW",
+        "[7] FATMA BİRGÜCÜ, \"COVID-19 pandemi sürecinin Türkiye'de turizm sektörü üzerine etkileri: Turizm-ekonomik büyüme ilişkisi üzerine bir analiz,\" Yüksek Lisans/Doktora tezi, Gaziantep Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1pwTzRXnomYf6jwqVORfUa4T8yPNsamaytHohf-REd1TG-zXyPsekPh7_hDDDp0o",
+        "[8] MEHTAP ARSLAN, \"Turizm açısından sürdürülebilirlik yaklaşımı ve sürdürülebilir turizm-çevre ilişkisinin incelenmesi: Cunda (Alibey) Adası örneği,\" Yüksek Lisans/Doktora tezi, Atılım Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / İşletme Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEAuayjmezMhp8ScqJIitIqboh1_9q5acgVVHoVi3MYvQW",
+        "[9] EMEK DENİZ YILDIZ, \"COVİD 19'un konaklama işletmelerindeki etkisi bağlamında yeni faaliyetler ve yeni trendler: Edremit Körfezi örneği,\" Yüksek Lisans/Doktora tezi, Kapadokya Üniversitesi / Lisansüstü Eğitim, Öğretim ve Araştırma Enstitüsü  / Turizm Rehberliği Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHDuvlAc1Z_o7-CJYfjWFUHJYXDJngwMSFl_XJw-ts1bL",
+        "[10] ALİ KORKMAZ, \"Uluslararası halkla ilişkiler bağlamında Türkiye'de sağlık turizmi,\" Yüksek Lisans/Doktora tezi, İzmir Katip Çelebi Üniversitesi / Sosyal Bilimler Enstitüsü / Medya ve İletişim Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHP2TNTVttwEzad55XG1BED-s1MlgJsNpBSmTObaCKBip",
+        "[11] İSA SATAR, \"Türkiye'de sürdürülebilir turizm açısından sertifikasyon: Yeşil Yıldız ve Yeşil Anahtar uygulamaları,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyal Çevre Bilimleri Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Br_XTptK8CZ70f0JGX9xEmOM64AJIVcsKpTtLeXdlfTq8zftn-LrWPv3nxDjqihv",
+        "[12] HALUK CEBECİ, \"COVID-19 salgını sonrasında güncellenen turizm algısının glamping turizmine etkisi üzerine bir araştırma: Giresun örneği,\" Yüksek Lisans/Doktora tezi, Giresun Üniversitesi / Sosyal Bilimler Enstitüsü / Ekoturizm Rehberliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5Sgvlgg6k5LIRH2D-WrZtpEVvNFWf7d-Q78lQ6yvLzpoU3iNhS",
+        "[13] SİNEM BULDUKOĞLU, \"Sağlık turizminin Türkiye'deki yeri ve önemi,\" Yüksek Lisans/Doktora tezi, Ufuk Üniversitesi / Sosyal Bilimler Enstitüsü / Turizm Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=48XPj7KKQhKUgntkUiKO3DrnTasJc-cK3yCz5w79q6gm6GCJ38C62WH75tPyWjSi",
+        "[14] EZGİ GÜMÜŞTEKİN, \"COVID-19 küresel salgını ile gelişen yeşil ekonomi dönüşümü: Ülkeler, işletmeler ve yatırımcılar için çıkarımlar,\" Yüksek Lisans/Doktora tezi, TOBB Ekonomi ve Teknoloji Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5Sgvlgg-H_UYKG6FB5uN31Y3cRqmosgyTnHpykie8EqbzW28mo",
+        "[15] BURAK BEDİR, \"COVID-19 salgınının turizm sektörü üzerindeki etkisi: Türkiye örneği,\" Yüksek Lisans/Doktora tezi, Gaziantep Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77Ldn7IdWBFEwCs0B3kFCf2UA95fo0WJrxd8EtGWmjsOoK",
+        "[16] SAADET DİNÇER ŞEN, \"Turizmin çevresel etkileri ve bir çözüm olarak ekoturizm,\" Yüksek Lisans/Doktora tezi, Mersin Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Yönetimi Ana Bilim Dalı / Kent ve Çevre Bilimleri Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=NtBAevXNhYaNqJFoAcdBdqwfIMHMZuhYGtaLOpaP64SBEQQAeLWGWU8cxCTAugBy",
+        "[17] SONGÜL TEMEL TEPE, \"Türkiye'de sağlık turizmin ekonomik boyutu,\" Yüksek Lisans/Doktora tezi, Sivas Cumhuriyet Üniversitesi / Sağlık Bilimleri Enstitüsü / Sağlık Yönetimi Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxLhEr_lyIIYvoQNcNIPOLourKwD_AEil6WMpvmgFQV8n",
+        "[18] ONUR OKU, \"Konaklama işletmelerinin sürdürülebilir turizm performanslarının küresel sürdürülebilir turizm kriterlerine göre analizi: Alanya üzerine bir çalışma,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Sosyal Bilimler Enstitüsü / Turizm İşletmeciliği ve Otelcilik Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=iTkOhwevEenJZ3onUvs52piImE9mBLqgm2h3j2M3yKaCSQ7QGhWGZ63ld3O2SlJU",
+        "[19] ÇİSEM BÜYÜKKAYA, \"2010 sonrasında Türkiye'de sağlık turizminin gelişimi,\" Yüksek Lisans/Doktora tezi, Tekirdağ Namık Kemal Üniversitesi / Sosyal Bilimler Enstitüsü / Sağlık Yönetimi Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=as2oTjW5jfr9IKSvmCdJYvmTvUy2v1GcUuoI6j_-uAMJ3_o0hIwe3s4ZKPHzsOg7",
+        "[20] ONUR AKDAŞ, \"2002 sonrası OECD ülkelerinde sağlık turizmi ve Türkiye'nin payı,\" Yüksek Lisans/Doktora tezi, Sivas Cumhuriyet Üniversitesi / Sosyal Bilimler Enstitüsü / Sağlık Kurumları Yöneticiliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=4J_FzTwlrMCH4qBROpXPH9Do7eAEwZ-9_msLPAc_2GyMoE_Ko2PRuD3-ROoF74o1",
+        "[21] SELDA ÖZDERE SÖZER, \"Türkiye'deki salgın hastalıkların Türk ekonomisine etkileri,\" Yüksek Lisans/Doktora tezi, Üsküdar Üniversitesi / Sağlık Bilimleri Enstitüsü / Savunma Yönetimi Ana Bilim Dalı / Sağlık Yönetimi Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=9MiDp3x86xrwjpi5-14w-bEVCOviZLbz4-uO0oUbhuK3SQ165Bw5LF6VOIaPJgdB",
+        "[22] PELİN TURAN, \"Bir iletişim aracı olarak turizmde sürdürülebilirlik raporları,\" Yüksek Lisans/Doktora tezi, Başkent Üniversitesi / Sosyal Bilimler Enstitüsü / Halkla İlişkiler ve Tanıtım Ana Bilim Dalı / Halkla İlişkiler ve Tanıtım Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=LY6e5xGA7WWUpEdrBmEPLkIwni0_eQhZ7Mlgfj9FS4Yg4SFTk2F-fDHO2pI0cTcp",
+        "[23] OĞUZ TÜRKAY, \"Gündem 21'in Türk konaklama endüstrisinde uygulanma koşulları,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / Turizm İşletmeciliği Bilim Dalı, 2002. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=p911s0iMPy2wtZbYYckXOb5JRRJKKlCjJ5r27SRa1n-CMerK02IfFtBXXT-ATYES",
+        "[24] NURDAN ÖZMEN, \"Sürdürülebilir turizm kapsamında turizm işletmelerinin çevre duyarlılığının belirlenmesi: Safranbolu örneği,\" Yüksek Lisans/Doktora tezi, Karabük Üniversitesi / Lisansüstü Eğitim Enstitüsü / Turizm İşletmeciliği Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=4J_FzTwlrMCH4qBROpXPH9DXKF2g-Opu8YDg9wpNC5Sv_qD1koESl3gmtfYAm2XM",
+        "[25] Yakup DEMİR, Erkan Denk, \"Turizm Politikalarının İstatistiklerle Birlikte Karşılaştırılması: Türkiye ile Akdeniz Ülkeleri Örneği,\" Yüksek Lisans/Doktora tezi, [openalex] 3 SEKTÖR SOSYAL EKONOMİ DERGİSİ, 2025. [Online]. https://doi.org/10.63556/tisej.2025.1453"
+      ]
+    }
+  },
+  "error": null
+}

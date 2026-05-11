@@ -1,0 +1,12 @@
+{
+  "id": "q16",
+  "question": "Türkiye'deki KOBİ'lerin dijital pazarlama stratejilerini nasıl benimsediği üzerine yapılan çalışmaların ortak bulguları nelerdir?",
+  "category": "business",
+  "judgment": {
+    "citation_accuracy": 0.85,
+    "faithfulness": 0.8,
+    "coverage": 0.8,
+    "holistic_score": 3,
+    "rationale": "Atıflar genel olarak ilgili kaynaklara yönlendirilmiş olsa da bazı atıflar (örn. [4], [12], [18]) kaynakların içeriğiyle tam örtüşmeyen genellemeler için kullanılmıştır. Yanıt, kaynaklara genel olarak sadık kalmakla birlikte bazı iddialar (ör. \"farkındalık-uygulama boşluğu\", \"tek tip yaklaşım yerine özelleştirilmiş çözümler\") doğrudan kaynaklarda desteklenmemektedir. Alt sorulardan \"yönetici özellikleri ve firma büyüklüğü\" sorusu yeterince ele alınmamıştır. Akademik üslup ve organizasyon iyi düzeydedir ancak derinlik ve spesifik bulgu aktarımı sınırlı kalmıştır."
+  }
+}

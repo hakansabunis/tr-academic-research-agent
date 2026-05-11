@@ -1,0 +1,12 @@
+{
+  "id": "q15",
+  "question": "Yaşlı bireylerin yalnızlık duygusunu azaltan psikososyal müdahale yöntemleri nelerdir?",
+  "category": "social_sciences",
+  "judgment": {
+    "citation_accuracy": 0.7,
+    "faithfulness": 0.75,
+    "coverage": 0.4,
+    "holistic_score": 3,
+    "rationale": "Atıfların çoğu ilgili kaynaklarla uyumlu olsa da [9], [16], [19] gibi bazı atıflar ya doğrudan müdahale çalışması değildir ya da yanıltıcı bağlamda kullanılmıştır. Yanıt, alt soruların yalnızca ilkini (müdahale türleri) kapsamış; ölçekler, araştırma desenleri, etki büyüklükleri, bireysel/bağlamsal faktörler, Türkiye'deki sınırlılıklar ve uygulama ortamı karşılaştırmaları gibi kritik alt soruları ele almamıştır. Akademik üslup ve organizasyon kabul edilebilir düzeydedir ancak kapsam dar ve derinlik eksiktir."
+  }
+}

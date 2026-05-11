@@ -1,0 +1,12 @@
+{
+  "id": "q02",
+  "question": "Türkçe metin sınıflandırmada Transformer tabanlı modellerin (BERT vb.) avantajları ve sınırlılıkları nelerdir?",
+  "category": "computer_science",
+  "judgment": {
+    "citation_accuracy": 0.4,
+    "faithfulness": 0.35,
+    "coverage": 0.3,
+    "holistic_score": 2,
+    "rationale": "Yanıt, atıfların çoğunda kaynak-iddia uyumsuzluğu sergiliyor. Örneğin [2], [4], [11], [13], [15] numaralı tezlerin özetlerinde Transformer/BERT karşılaştırması yok; [10] soru-cevap sistemi tezi, [21] LSTM tezi. Alt sorulardan yalnızca bir kısmı (performans karşılaştırması ve sınırlılıklar) yüzeysel ele alınmış; yorumlanabilirlik, tokenizer stratejisi, cross-domain genelleme gibi kritik alt sorular hiç işlenmemiş. Üslup akademik olsa da içerik kaynaklarla desteklenmediği için güvenilir değil."
+  }
+}

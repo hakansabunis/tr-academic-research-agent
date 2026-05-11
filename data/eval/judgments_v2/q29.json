@@ -1,0 +1,12 @@
+{
+  "id": "q29",
+  "question": "İklim değişikliğinin Türkiye'deki tarımsal üretim üzerindeki ekonomik etkileri nelerdir?",
+  "category": "multi_domain",
+  "judgment": {
+    "citation_accuracy": 0.7,
+    "faithfulness": 0.6,
+    "coverage": 0.4,
+    "holistic_score": 2,
+    "rationale": "Yanıt genel bir iklim değişikliği-tarım anlatısı sunuyor ancak alt soruların çoğunu (kullanılan yöntemler, nicel etkiler, maliyet-fayda analizi, veri kısıtları) karşılamıyor. Atıfların bir kısmı ilgisiz (ör. [21] Apa Barajı makine öğrenmesi, [23] siyasal gelişmeler) ve kaynak özetlerinde olmayan ayrıntılar içeriyor. Akademik üslup yeterli ancak içerik yüzeysel ve odaksız."
+  }
+}

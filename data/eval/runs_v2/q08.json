@@ -1,0 +1,436 @@
+{
+  "id": "q08",
+  "category": "health",
+  "type": "method",
+  "question": "Diyabet hastalarında beslenme alışkanlıklarının glisemik kontrol üzerindeki etkisi nasıl değerlendirilmiştir?",
+  "expected_subjects": [
+    "Beslenme ve Diyetetik",
+    "Endokrinoloji ve Metabolizma Hastalıkları"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 107.29,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Diyabet hastalarında beslenme alışkanlıklarını değerlendirmek için kullanılan ölçekler ve yöntemler nelerdir?",
+          "rationale": "Bu alt soru, araştırmalarda kullanılan metodolojik yaklaşımları (besin tüketim kaydı, beslenme sıklığı anketi, 24 saatlik geri çağırma vb.) ortaya koyarak değerlendirme araçlarının çeşitliliğini kapsar."
+        },
+        {
+          "text": "Diyabet hastalarında hangi beslenme alışkanlıkları (karbonhidrat sayımı, düşük glisemik indeksli diyet, Akdeniz diyeti vb.) glisemik kontrolü anlamlı şekilde etkilemektedir?",
+          "rationale": "Bu alt soru, farklı beslenme modellerinin glisemik kontrol (HbA1c, açlık kan şekeri, postprandiyal glukoz) üzerindeki etkisine dair bulguları derlemeyi hedefler."
+        },
+        {
+          "text": "Türkiye'de yapılan tez çalışmalarında diyabet hastalarının beslenme alışkanlıkları ile glisemik kontrol arasındaki ilişkide hangi aracı veya düzenleyici değişkenler (fiziksel aktivite, uyku, ilaç uyumu, sağlık okuryazarlığı) incelenmiştir?",
+          "rationale": "Bu alt soru, araştırmalarda ele alınan bağlamsal faktörleri ve karmaşık ilişki ağlarını ortaya çıkararak bulguların kapsamını genişletir."
+        },
+        {
+          "text": "Diyabet hastalarında beslenme alışkanlıklarının glisemik kontrol üzerindeki etkisini inceleyen tezlerde karşılaşılan başlıca sınırlılıklar ve yöntemsel zorluklar nelerdir?",
+          "rationale": "Bu alt soru, mevcut araştırmaların güçlü ve zayıf yönlerini, örneklem büyüklüğü, izlem süresi, hatırlama yanlılığı gibi sınırlılıklar açısından değerlendirmeyi sağlar."
+        },
+        {
+          "text": "Diyabet hastalarında beslenme alışkanlıklarının glisemik kontrol üzerindeki etkisine yönelik tez bulguları, klinik uygulama ve diyabet yönetimi açısından hangi önerileri sunmaktadır?",
+          "rationale": "Bu alt soru, araştırma sonuçlarının pratik çıkarımlarını, diyetisyen ve hekimlere yönelik önerileri ve hasta eğitimi stratejilerini kapsar."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 34,
+      "max_score": 0.8934,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "681951",
+          "title_tr": "Tip 1 diyabetli bireylerde diyetin karbonhidrat miktarı ve glisemik indeksinin kan glukoz değişkenliği ve serbest yağ asitlerine etkisi",
+          "author": "SELDA SEÇKİNER",
+          "year": 2021,
+          "score": 0.8934,
+          "abstract_excerpt": "Araştırma farklı karbonhidrat miktarı (KH) ve glisemik indeks (GI) içeren dört diyet örneğinin glisemik değişkenlik (GD) ve pazma serbest yağ asitine (SYA) etkisini gözlemlemek amacıyla yaşları ortalama 29, insülin kalemi kullanan 17 tip 1 diyabetlide (T1DM) yürütülmüştür. Bireyin enerji ihtiyacına "
+        },
+        {
+          "tez_no": "225630",
+          "title_tr": "Tip 2 diyabetli hastaların diyetlerinin içerdiği glisemik indeks ve glisemik yükün değerlendirilmesi.",
+          "author": "NUKET YUMUK",
+          "year": 2008,
+          "score": 0.8726,
+          "abstract_excerpt": "Çalışmada, yaşları 35?55 yıl olan, dislipidemi ve hipertansiyondan başka herhangi bir kronik hastalığı olmayan ve oral antidiyabetiklerden başka diyabetik ajan kullanmayan 75 tip 2 diyabetli (42 erkek, 33 kadın) hastanın diyetlerinin içerdiği glisemik indeks (Gİ) ve glisemik yük (GY) değerlendirilmi"
+        },
+        {
+          "tez_no": "817583",
+          "title_tr": "Irak'ta diyabetli hastalarda beslenme durumunun değerlendirilmesi",
+          "author": "ALI AMEEN KAREEM AL-DAFFAIE",
+          "year": 2023,
+          "score": 0.861,
+          "abstract_excerpt": "Diyabet hastalığının tedavisi için kan şekerinin kontrol altına alınması gerekir. Uygun beslenme, diyabet hastalığının tedavisinde kan şekeri kontrolü için önemlidir.  Bu çalışma, yetişkin bireylerde beslenme durumunun değerlendirmek amacıyla yapıldı. Kesitsel ve tanımlayıcı desende yapılan çalışman"
+        },
+        {
+          "tez_no": "340663",
+          "title_tr": "Tip 1 diyabeti olan ve olmayan bireylerin diyet glisemik indeks ve yükünün hesaplanması ve değerlendirilmesi",
+          "author": "ÇİĞDEM AKSOY",
+          "year": 2013,
+          "score": 0.8608,
+          "abstract_excerpt": "Bu çalışma Ekim 2012 ? Nisan 2013 tarihleri arasında Bakırköy Dr. Sadi Konuk Eğitim ve Araştırma Hastanesi Beslenme ve Diyet Birimi?ne başvuran, İstanbul?da yaşayan, 19-29 yaş arası Tip 1 diyabetli ve diyabetli olmayan toplam 76 bireyin diyetlerinin içerdiği glisemik indeks (Gİ) ve yükün (GY) değerl"
+        },
+        {
+          "tez_no": "617776",
+          "title_tr": "Özel bir hastanenin beslenme ve diyet polikliniğine başvuran Tip 2 diyabetli bireylerin beslenme alışkanlıkları ve diyabetik ürünleri kullanım durumları",
+          "author": "ÇİSEM GİZİR",
+          "year": 2019,
+          "score": 0.8606,
+          "abstract_excerpt": "Diyabet, pankreastan kan glikoz seviyesini düzenleyen insülin hormonunun yetersiz üretimi sonucu, ya da üritelen insülinin vücutta kullanılamaması sonucu ortaya çıkan glikozüri ile karakterize kronik bir hastalıktır. Tip 2 diyabetli (T2DM) bireylerde kişiye en uygun ve kan şekeri seviyesini kontrol "
+        },
+        {
+          "tez_no": "567495",
+          "title_tr": "Atatürk Üniversitesi Araştırma Hastanesi Pediatri Polikliniği'ne başvuran 7-18 yaş tip ı diyabetli hastaların beslenme ile ilgili bilgi ve davranışları",
+          "author": "HATİCE ÜNLÜEL HORSANALI",
+          "year": 2019,
+          "score": 0.8593,
+          "abstract_excerpt": "Amaç: Atatürk Üniversitesi Araştırma Hastanesi Pediatri Polikliniği'ne başvuran 7-18 yaş Tip 1 diyabetli hastaların beslenme ile ilgili bilgi ve davranışlarını değerlendirmektir. \nMateryal ve Metot: Araştırma, Atatürk Üniversitesi Sağlık Araştırma ve Uygulama Merkezi Endokrinoloji Bölümü'nde Aralık "
+        },
+        {
+          "tez_no": "473734",
+          "title_tr": "Tip 2 diyabetli bireylerin beslenme alışkanlıkları, hastalığa yönelik beslenme bilgi düzeyleri ve kan parametrelerinin değerlendirilmesi",
+          "author": "SERAP BALABAN",
+          "year": 2017,
+          "score": 0.8584,
+          "abstract_excerpt": "Bu araştırmada Tip 2 diyabetli bireylerin beslenme alışkanlıklarının saptanması, hastalığa yönelik beslenme bilgi düzeylerinin belirlenmesi ve bazı kan parametrelerinin değerlendirilmesi amaçlanmıştır. Bu araştırmaya Kayseri Eğitim ve Araştırma Hastanesi Endokrinoloji Bölümü' ne başvuran en az 1 yıl"
+        },
+        {
+          "tez_no": "769524",
+          "title_tr": "Tip 2 diyabetli bireylerde diyet kalitesi ve beslenme durumları arasındaki ilişkinin belirlenmesi",
+          "author": "FATMA ŞEŞEN",
+          "year": 2022,
+          "score": 0.8568,
+          "abstract_excerpt": "Amaç: Tip 2 diabetes mellituslu (T2DM) bireylerde diyet kalitesi hastalığın gelişmesi, ilerlemesi ve tedavisinde önemli bir yer tutmaktadır. Bu çalışma, diyet kalitesi ve beslenme durumları arasındaki ilişkinin belirlenmesi amacıyla yapılmıştır.\nYöntem: Çalışmaya Diyarbakır Kulp İlçe Devlet Hastanes"
+        },
+        {
+          "tez_no": "547904",
+          "title_tr": "Tip 2 diyabetli hastalarda beslenme özelliklerinin cins, yaş, beden kütle indeksi ve diyabet parametreleri ile olan ilişkisi",
+          "author": "İREM AKIN",
+          "year": 2019,
+          "score": 0.8541,
+          "abstract_excerpt": "Hızla değişen yaşam tarzlarına bağlı olarak tip 2 diyabet ve obezite, gelişmiş ve gelişmekte olan ülkelerde önemli halk sağlığı sorunu haline gelmiştir. Çalışmada,  tip 2 diyabetli hastaların beslenme alışkanlıkları ile hastaların diyabet parametreleri ve antropometrik özellikleri arasındaki ilişkin"
+        },
+        {
+          "tez_no": "523753",
+          "title_tr": "Tip 2 diyabetli bireylerde diyet enerji yoğunluğu ve yaşam tarzının glisemik kontrol ile ilişkisi",
+          "author": "TEVFİK KOÇAK",
+          "year": 2018,
+          "score": 0.8527,
+          "abstract_excerpt": "Bu çalışma, Tip 2 diyabetli bireyler ile yaş ve beden kütle indeksi benzer olan sağlıklı bireylerin diyet enerji yoğunlukları, beslenme durumları ve yaşam tarzı değişkenlerinin karşılaştırılması ve glisemik kontrol ile ilişkisinin değerlendirilmesi amacıyla planlanmış ve yürütülmüştür. Çalışmaya yaş"
+        },
+        {
+          "tez_no": "583480",
+          "title_tr": "Diyabetik hastaların diyabet takip parametreleri hakkında bilgi, tutum ve davranışlarının değerlendirilmesi",
+          "author": "SULTAN OSANMAZ AVCI",
+          "year": 2019,
+          "score": 0.8487,
+          "abstract_excerpt": "AMAÇ: Diyabette kronik komplikasyonların ortaya çıkışının engellenmesi ya da geciktirilmesi, diyabetik hastanın yaşam kalitesinin iyileştirilmesi ve sağlık harcamalarının azaltılabilmesi için en önemli nokta etkin glisemi kontrolünün sağlanmasıdır. Etkin glisemi kontrolünün sağlanmasında hastanın ha"
+        },
+        {
+          "tez_no": "931548",
+          "title_tr": "Tip 1 diyabetli yetişkinlerde yağ ve proteinlerin glukoz seviyelerine ve insülin dozlarının ayarlanmasına etkilerinin değerlendirilmesi",
+          "author": "ŞEVVAL GÖKÇE SARIBEYLİLER",
+          "year": 2024,
+          "score": 0.8448,
+          "abstract_excerpt": "Tip 1 diyabetli bireylerde yağ ve proteinden zengin öğünlerde glukoz kontrolünün sağlanmasında karbonhidrat/insülin (KH/İ) oranının yeterli olmadığı bilinmekle birlikte hangi hastalara müdahale edilmesi gerektiği ve yapılacak ek insülin dozlarının nasıl hesaplanacağı konusunda belirsizlikler vardır."
+        },
+        {
+          "tez_no": "752510",
+          "title_tr": "Glisemik kontrol oranlarına göre tip 2 diyabet hastalarına verilen tedaviler ve bu tedavilerin etkinliği: Tek merkezli retrospektif gerçek yaşam verileri çalışması",
+          "author": "ECE ARBABİ",
+          "year": 2022,
+          "score": 0.8433,
+          "abstract_excerpt": "AMAÇ: Üçüncü basamak diyabet polikliniklerinde tip 2 diyabet tanısı ile\nizlenen hastaların glisemik kontrol düzeyine göre tedavi modalitelerini\nbelirlemek ve farklı glisemik kontrol düzeylerinde uygulanan farklı tedavi\nrejimlerinin etkinliğinin değerlendirmek\nYÖNTEM: Bu retrospektif tek merkezli çal"
+        },
+        {
+          "tez_no": "674977",
+          "title_tr": "Tip 2 diyabetli bireylerde sezgisel yemenin yeme tutumu ve glisemik kontrol ile ilişkisi",
+          "author": "ÖZLEM KOÇAK",
+          "year": 2021,
+          "score": 0.841,
+          "abstract_excerpt": "Amaç: Bu çalışma, Tip 2 diyabetli bireylerde sezgisel yemenin yeme tutumu ve glisemik kontrol ile ilişkisini belirlemek amacıyla yapılmıştır. \nGereç ve Yöntem: Araştırmanın örneklemini; 18 Kasım 2019 – 12 Mart 2020 tarihleri arasında Ege Üniversitesi Tıp Fakültesi Hastanesi Endokrinoloji ve Metaboli"
+        },
+        {
+          "tez_no": "424841",
+          "title_tr": "Enteral yoldan beslenen yoğun bakım hastalarının beslenme yönteminin glikoz kontrolüne etkisi",
+          "author": "RASİME AKTAŞ",
+          "year": 2013,
+          "score": 0.84,
+          "abstract_excerpt": "Araştırma yoğun bakım ünitesinde yatan hastalarda kullanılmakta olan sürekli enteral ve aralıklı enteral beslenme yöntemlerinin glikoz kontrolüne etkisini değerlendirmek amacıyla yapıldı.\n18 yaş ve üzeri, enteral yoldan beslenen, en az 5 gün yoğun bakım ünitesinde kalan,  diyabetin akut komplikasyon"
+        },
+        {
+          "tez_no": "741134",
+          "title_tr": "Tip 2 diyabetli bireylerde beslenme eğitiminin serum ileri glikasyon son ürünleri, glukoz ve lipid metabolizması ile antropometrik parametreler üzerine etkileri",
+          "author": "BUĞU USANMA KOBAN",
+          "year": 2022,
+          "score": 0.8367,
+          "abstract_excerpt": "AMAÇ: Diyabet, sıklığı giderek artan bir hastalıktır. Özellikle uzun dönem komplikasyonlarının kontrol altına alınması bakımından, bireylere tıbbi beslenme önerileri sunmak önemli bir adımdır. Bu çerçevede kalori ayarlanması, yağ, şeker ve tuz kısıtlaması yaygın bir yöntemdir. Besinlerin ileri glika"
+        },
+        {
+          "tez_no": "424767",
+          "title_tr": "Tip 2 diyabette obezitenin metabolik kontrole etkisi",
+          "author": "ÖZNUR GÜVEN",
+          "year": 2015,
+          "score": 0.8367,
+          "abstract_excerpt": "Diyabet; prevelansı gittikçe artan, yaşam süresini ve kalitesini etkileyen önemli bir kronik hastalıktır. Diyabet komplikasyonlarının önlenmesi ile sıkı glisemik kontrol arasında yaşamsal bir ilişki olduğu, tüm dünyanın üzerinde uzlaştığı bir görüştür. Diyabet gibi obezite de major sağlık problemler"
+        },
+        {
+          "tez_no": "709528",
+          "title_tr": "Tip 2 diyabetes mellitus hastalarında kötü glisemi ile risk faktörleri arasındaki ilişki",
+          "author": "MUHAMMED MUSTAFA ATCI",
+          "year": 2015,
+          "score": 0.8685,
+          "abstract_excerpt": "Diabetes mellitus, hiperglisemi, glikozüri, dislipidemi ile seyreden kronik bir metabolizma hastalığıdır. Nedenden bağımsız olarak hastalık insülinin tam veya kısmi eksikliği bulunabilen, insülin direncinin de eşlik edebileceği, hipergliseminin ana rol oynadığı değişik patojenik mekanizmaları kapsay"
+        },
+        {
+          "tez_no": "685591",
+          "title_tr": "Tip 2 diyabetli hastalar ile depresyonda olan tip 2 diyabetli hastaların ghrelin ve nesfatin-1 düzeylerinin karşılaştırılmalı olarak incelenmesi",
+          "author": "SAADET İLÇİN",
+          "year": 2021,
+          "score": 0.8636,
+          "abstract_excerpt": "Diyabetes Mellitus (DM) ve Major Depresif Bozukluk (MDB), küresel olarak genişleyen hastalıklardır. DM ve MDB'nin nedeni olarak gösterilen, yüksek inflamasyon ve kan-glikoz seviyeleri, hipotalamik-hipofiz-adrenal (HPA) eksen aktivasyonu gibi ana patolojik değişiklikler ortaktır. Tip-2DM (T2DM) dünya"
+        },
+        {
+          "tez_no": "488233",
+          "title_tr": "Türkiye'de satılan ekmeklerin in vitro glisemik indeks ve glisemik yük yönünden değerlendirilmesi",
+          "author": "BÜŞRA YUSUFOĞLU",
+          "year": 2017,
+          "score": 0.8458,
+          "abstract_excerpt": "Kan şekerinin hızla ve fazla miktarda yükselmesi, sağlık için istenmeyen bir durumdur. Hızla ve fazlaca yükselen kan şekeri, pankreastan kana çok fazla ve çok hızlı bir şekilde insülin salgılanmasına neden olur. Bu durumun uzun süre tekrarlaması pankreası yormakta, hücrelerin insülin alıcılarını kay"
+        },
+        {
+          "tez_no": "193347",
+          "title_tr": "Maksimum doz oral hipoglisemik ajanlarla optimal glisemik regülasyon sağlanamayan tip 2 diyabetik hastalarda repaglinid-glargin insülin kombinasyonu, akarboz-glargin insülin kombinasyonu ve tek başına glargin insülin tedavilerinin glisemik parametrel",
+          "author": "CEVDET DURAN",
+          "year": 2006,
+          "score": 0.8437,
+          "abstract_excerpt": "ÖZETMAKS MUM DOZ ORAL H POGL SEM K AJANLARLA OPT MAL GL SEM KREGÜLASYON SAĞLANAMAYAN T P 2 D YABET K HASTALARDAREPAGL N D-GLARG N NSÜL N KOMB NASYONU, AKARBOZ-GLARG NNSÜL N KOMB NASYONU VE TEK BAŞINA GLARG N NSÜL NTEDAV LER N N GL SEM K PARAMETRELER ÜZER NE ETK S N NDEĞERLEND R LMESTip 2 diyabetik h"
+        },
+        {
+          "tez_no": "683467",
+          "title_tr": "Bir grup Türk tip II diyabet hastalarında bazı gen varyasyonlarının (TNF-α, PPARG, Calpain 10) hastalık gelişimi üzerine olası etkilerinin irdelenmesi",
+          "author": "CEREN ALBİNA KUŞ",
+          "year": 2021,
+          "score": 0.8434,
+          "abstract_excerpt": "Tip II Diabetes Mellitus (T2DM) en çok görülen diyabet şeklidir. Genelde 30 yaş üzerinde ortaya çıkar. Ancak obezite sıklığının artmasına bağlı olarak adölesan dönem dahil olmak üzere daha genç yaşlarda da tip 2 diyabet hastalığı görülebilmektedir.\nGünün herhangi bir vaktinde ölçülen kan şekerinin 2"
+        },
+        {
+          "tez_no": "659680",
+          "title_tr": "Ramazan ayı boyunca diyabet ve yüksek tansiyon hastalarının tedavi uyuncunun değerlendirilmesi",
+          "author": "ONUR ALİOĞLU",
+          "year": 2021,
+          "score": 0.8258,
+          "abstract_excerpt": "Uyunç; hastanın, reçetede yazılan ilaçlar hakkında hekim tarafından kendisine yapılan tavsiyelere uyma isteği ve uyma derecesidir. Çalışmaya Ramazan ayı boyunca 129 birey katılmıştır. Diyabet, vücutta yeterli insülin hormonu üretilmediği veya insülinin etkili olarak kullanılmadığı durumda ortaya çık"
+        },
+        {
+          "tez_no": "457729",
+          "title_tr": "İnsülin direncinin erken tanısında non-invazif ve invazif biyobelirteçler: Adiponektin ve irisin",
+          "author": "HATİCE BAYINDIR",
+          "year": 2016,
+          "score": 0.8225,
+          "abstract_excerpt": "Obezite ve diyabet, yaşadığımız çağda tüm toplumları yaş gözetmeksizin etkileyen ve neredeyse epidemi boyutuna ulaşmış son derece ciddi bir sağlık sorunudur.2013 yılında Uluslararası Diyabet Federasyonu (IDF) tarafından yayınlanan \"Altıncı Diyabet Atlası\" na göre dünya nüfusunun %8,3'ünde diyabet, %"
+        },
+        {
+          "tez_no": "W4390473995",
+          "title_tr": "Tip 2 Diabetes Mellitus Hastalarında Kapsamlı Tele-Eğitimin Etkinliği: Randomize Kontrollü Çalışma",
+          "author": "Serap Tuna, Fatih Özden, Özgür Karaman, Neşe Yeniçeri, Cem Şahin",
+          "year": 2023,
+          "score": 0.5,
+          "abstract_excerpt": "Amaç: Bu çalışmada Tip 2 diyabet tanısı almış bireylere tele-sağlık yoluyla verilen uzaktan eğitimin egzersiz hedefleri, fiziksel aktivite,beslenme, ilaç alışkanlıkları ve diyabet sorunları üzerindeki etkinliğinin araştırılması amaçlanmıştır.Gereç ve Yöntemler: Toplam 30 Diabetes Mellitus hastası (1"
+        },
+        {
+          "tez_no": "W4312017963",
+          "title_tr": "Yaşlılarda Akdeniz Diyeti ve DASH Diyetinin Kan Glukoz Düzeyinin Korunmasına Etkisi",
+          "author": "Selin Sezgi Poyraz, Seda Çiftçi",
+          "year": 2022,
+          "score": 0.5,
+          "abstract_excerpt": "Diyabet, yaşlanan nüfus için önemli bir sağlık sorunudur. Diyabetik bireylerde sağlıklı beslenme modellerinin teşvik edilmesine odaklanılmalıdır ve bu durum sağlanırken bireylerin yemek yeme zevkini sürdürmek de önemlidir. “Akdeniz Mutfağı”; sağlığın geliştirilmesi ve korunmasında etkili olan, aroma"
+        },
+        {
+          "tez_no": "W3164924057",
+          "title_tr": "Popüler Diyet Akımlarının Vücut Ağırlığı ve Sağlık Üzerine Etkileri",
+          "author": "Sefa Can KÜÇÜK, Artun Yıbar",
+          "year": 2021,
+          "score": 0.5,
+          "abstract_excerpt": "Obezite, küresel boyutta önemli bir halk sağlığı sorunudur. Hafif şişmanlık ve obezite; kardiyovasküler hastalıklar ve tip 2 diyabet başta olmak üzere kısa ve uzun süreli sağlık sorunlarına zemin hazırlayarak morbidite ve mortalite oranını arttırmaktadır. Dünyadaki birçok kişi vücut ağırlığını azalt"
+        },
+        {
+          "tez_no": "W4225070335",
+          "title_tr": "DİYABETES MELLİTUSTA TIBBİ BESLENME YAKLAŞIMLARI",
+          "author": "Bahtınur TAŞCI, Nuray İPEKCİ, Canan Asal Ulus",
+          "year": 2022,
+          "score": 0.5,
+          "abstract_excerpt": "Diyabetes Mellitus (DM), pankreasın yeterli miktarda insülin üretememesi ya da salgılanan insülin hormonunun vücutta etkili olamaması ile ortaya çıkabilen kan şekeri yüksekliği ile karakterize olan bir hastalıktır. DM, prevalansı her geçen gün artmakta olan, morbitide ve mortalitesi yüksek bir hasta"
+        },
+        {
+          "tez_no": "W3082388134",
+          "title_tr": "Aralıklı Açlık Diyetleri ve Düşük Karbonhidratlı Diyetlerin Obezite Tedavisindeki Etkisi",
+          "author": "Gökçe Sueda Aydoğdu, Gamze Akbulut",
+          "year": 2020,
+          "score": 0.5,
+          "abstract_excerpt": "Obezite, prevalansı giderek artan küresel bir sağlık sorunudur. Fazla kilolu ve obez bireyleri tedavi etmek için yeni diyet stratejileri oluşturulmuştur ve bu diyet stratejileri popüler ve yaygın hale gelmiştir. Bu diyetler arasında “aralıklı açlık diyetleri” ve “düşük karbonhidratlı diyetler (DKD)”"
+        },
+        {
+          "tez_no": "W7126753140",
+          "title_tr": "Kronik hastalığı olan bireylerin diyetlerinin diyet inflamatuar indeksi&apos;nin araştırılması",
+          "author": "Çağan Dağdeviren",
+          "year": 2024,
+          "score": 0.5,
+          "abstract_excerpt": "Bu çalışma, kronik hastalığa sahip (obezite, Tip-2 Diyabet, hipertansiyon, hiperlipidemi, kardiyovasküler hastalıklar) bireylerin diyetlerinin inflamatuar indeksinin araştırılması amacıyla 27 erkek ve 23 kadın yetişkin birey üzerinde yapılmıştır. Bireylerden yüz yüze görüşülerek soru kağıdı ile veri"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 12,
+      "findings": [
+        {
+          "claim": "Diyet karbonhidrat miktarı ve glisemik indeksinin kan glukoz değişkenliği üzerinde anlamlı bir etkisi bulunmamıştır.",
+          "citations": [
+            "681951"
+          ]
+        },
+        {
+          "claim": "Yüksek glisemik indeksli diyet tüketen erkek tip 2 diyabet hastalarında bel/kalça oranı daha yüksektir.",
+          "citations": [
+            "225630"
+          ]
+        },
+        {
+          "claim": "Tip 1 diyabetli bireylerde yağ ve proteinden zengin öğünler glukoz kontrolünü etkilemekte ve standart karbonhidrat/insülin oranı yeterli olmamaktadır.",
+          "citations": [
+            "931548"
+          ]
+        },
+        {
+          "claim": "Tip 2 diyabetli bireylerde diyet kalitesi, hastalığın gelişmesi, ilerlemesi ve tedavisinde önemli rol oynamaktadır.",
+          "citations": [
+            "769524",
+            "617776",
+            "473734"
+          ]
+        },
+        {
+          "claim": "Tip 2 diyabetli bireylerde obezite, metabolik kontrolü ve glisemik kontrolü zorlaştırmaktadır.",
+          "citations": [
+            "424767",
+            "685591"
+          ]
+        },
+        {
+          "claim": "Düşük AGE'li (ileri glikasyon son ürünü) beslenme, diyabetli bireylerde metabolik parametreler üzerinde olumlu etkiler göstermektedir.",
+          "citations": [
+            "741134"
+          ]
+        },
+        {
+          "claim": "Beslenme eğitimi, tip 2 diyabetli bireylerde glukoz ve lipid metabolizması ile antropometrik parametreler üzerinde olumlu etkiler sağlamaktadır.",
+          "citations": [
+            "741134"
+          ]
+        },
+        {
+          "claim": "Diyabet hastalarının beslenme bilgi düzeyi, glisemik kontrol ve hastalık yönetiminde önemli bir faktördür.",
+          "citations": [
+            "567495",
+            "473734",
+            "583480"
+          ]
+        },
+        {
+          "claim": "Tip 2 diyabetli bireylerde diyet enerji yoğunluğu ve yaşam tarzı faktörleri glisemik kontrol ile ilişkilidir.",
+          "citations": [
+            "523753"
+          ]
+        },
+        {
+          "claim": "Sezgisel yeme davranışı, tip 2 diyabetli bireylerde yeme tutumu ve glisemik kontrol ile ilişkilidir.",
+          "citations": [
+            "674977"
+          ]
+        },
+        {
+          "claim": "Enteral beslenme yöntemi (sürekli vs. aralıklı), yoğun bakım hastalarında glikoz kontrolünü etkilemektedir.",
+          "citations": [
+            "424841"
+          ]
+        },
+        {
+          "claim": "Tip 1 diyabetli bireylerde düzenli ana öğün tüketimi (günde 3 ana öğün) yaygın bir beslenme alışkanlığıdır.",
+          "citations": [
+            "340663"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Tez 681951'de karbonhidrat miktarı ve glisemik indeksin kan glukoz değişkenliği üzerinde anlamlı etkisi bulunmazken (AUC p=0,783; ortalama KG p=0,276), tez 931548'de yağ ve protein içeriğinin glukoz kontrolünü etkilediği ve standart KH/İ oranının yeterli olmadığı belirtilmektedir. Bu iki bulgu, makrobesin ögelerinin glisemik kontrol üzerindeki etkisine dair farklı sonuçlar ortaya koymaktadır."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Beslenme alışkanlıklarının değerlendirilme yöntemleri (ör. besin tüketim kaydı, 24 saatlik geri çağırma, FFQ gibi araçlar) örtülmemiş.",
+        "Öğün sıklığı, öğün atlama, gece yemeği gibi yeme düzeni alışkanlıkları yeterince kapsanmamış.",
+        "Lif, posa, tam tahıl tüketimi gibi spesifik diyet bileşenlerinin glisemik kontrolle ilişkisi eksik.",
+        "Akdeniz diyeti, DASH diyeti gibi spesifik diyet modellerinin etkisi örtülmemiş.",
+        "Meyve-sebze tüketimi, şekerli içecek tüketimi gibi somut besin grubu alışkanlıkları kapsanmamış.",
+        "Diyabet tipi ayrımı (Tip 1 vs Tip 2) kısmen var ancak gestasyonel diyabet veya prediyabet popülasyonları örtülmemiş.",
+        "Fiziksel aktivite ile beslenmenin etkileşimi (eşlik eden yaşam tarzı faktörleri) yeterince ele alınmamış."
+      ],
+      "requery_terms": [
+        "diyabet beslenme alışkanlıkları değerlendirme yöntemleri",
+        "tip 2 diyabet Akdeniz diyeti glisemik kontrol",
+        "diyabet lif tüketimi kan şekeri",
+        "diyabet öğün sıklığı glisemik kontrol",
+        "diyabet meyve sebze tüketimi HbA1c",
+        "gestasyonel diyabet beslenme glisemik kontrol",
+        "diyabet fiziksel aktivite beslenme etkileşimi kan glukoz",
+        "diyabet şekerli içecek tüketimi glisemik kontrol",
+        "DASH diyeti tip 2 diyabet kan şekeri"
+      ],
+      "notes": "Mevcut sentez, makrobesin ögeleri (karbonhidrat, yağ, protein), glisemik indeks, diyet kalitesi, obezite, beslenme eğitimi ve bilgi düzeyi gibi bazı boyutları kapsamakla birlikte, sorunun odağı olan 'beslenme alışkanlıklarının değerlendirilmesi' açısından önemli boşluklar içermektedir. Özellikle (1) beslenme alışkanlıklarının hangi yöntemlerle (anket, kayıt, FFQ vb.) değerlendirildiği, (2) öğün düzeni ve sıklığı, (3) spesifik diyet modelleri (Akdeniz, DASH), (4) somut besin grubu tüketim alışkanlıkları (meyve, sebze, şekerli içecek, lif), (5) gestasyonel diyabet/prediyabet popülasyonları ve (6) fiziksel aktivite-beslenme etkileşimi gibi alt-açılar örtülmemiştir. Bu nedenle ek arama önerilmiştir."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nDiyabetes mellitus, prevalansı giderek artan ve bireylerin yaşam kalitesini önemli ölçüde etkileyen kronik bir metabolik hastalıktır. Hastalığın yönetiminde tıbbi beslenme tedavisi, farmakolojik ajanlar ve insülin tedavisi ile birlikte temel bir bileşen olarak kabul edilmektedir [28]. Bu bağlamda, diyabet hastalarında beslenme alışkanlıklarının glisemik kontrol üzerindeki etkisi, farklı araştırmalarda çeşitli boyutlarıyla ele alınmıştır.\n\n## Makrobesin Ögelerinin Glisemik Kontrole Etkisi\n\nDiyetin karbonhidrat miktarı ve glisemik indeksinin kan glukoz değişkenliği üzerindeki etkisine ilişkin bulgular farklılık göstermektedir. Tip 1 diyabetli bireylerde yürütülen bir çalışmada, farklı karbonhidrat miktarı (%40 ve %60) ve glisemik indeks (düşük ve yüksek) içeren dört farklı diyet örneğinin kan glukoz değişkenliği üzerinde anlamlı bir etkisi bulunmamıştır (AUC p=0,783; ortalama KG p=0,276) [1]. Buna karşılık, başka bir araştırmada tip 1 diyabetli bireylerde yağ ve proteinden zengin öğünlerin glukoz kontrolünü etkilediği ve standart karbonhidrat/insülin oranının bu tür öğünlerde yeterli olmadığı belirtilmektedir [12]. Bu iki bulgu, makrobesin ögelerinin glisemik kontrol üzerindeki etkisine dair farklı sonuçlar ortaya koymakta olup, karbonhidrat miktarı ve glisemik indeksin tek başına değerlendirilmesinin yanı sıra öğünün yağ ve protein içeriğinin de dikkate alınması gerektiğini düşündürmektedir.\n\nTip 2 diyabetli erkek hastalarda yüksek glisemik indeksli diyet tüketenlerin bel/kalça oranlarının daha yüksek olduğu saptanmıştır [2]. Bu bulgu, glisemik indeksin yalnızca postprandiyal glukoz yanıtıyla değil, aynı zamanda antropometrik parametrelerle de ilişkili olabileceğini göstermektedir.\n\n## Diyet Kalitesi ve Beslenme Alışkanlıkları\n\nTip 2 diyabetli bireylerde diyet kalitesi, hastalığın gelişmesi, ilerlemesi ve tedavisinde önemli bir rol oynamaktadır [8][5][7]. Diyet enerji yoğunluğu ve yaşam tarzı faktörlerinin glisemik kontrol ile ilişkili olduğu belirtilmektedir [10]. Ayrıca, tip 2 diyabetli bireylerde sezgisel yeme davranışının yeme tutumu ve glisemik kontrol ile ilişkili olduğu gösterilmiştir [14]. Tip 1 diyabetli bireylerde ise düzenli ana öğün tüketimi (günde 3 ana öğün) yaygın bir beslenme alışkanlığı olarak rapor edilmiştir [4].\n\n## Obezite ve Metabolik Kontrol\n\nTip 2 diyabetli bireylerde obezite, metabolik kontrolü ve glisemik kontrolü zorlaştırmaktadır [17][19]. Obezite, insülin direncini artırarak hiperglisemiyi ağırlaştırmakta ve diyabet tedavisini karmaşık hale getirmektedir [19]. Tip 2 diyabet ile obezite arasındaki yakın ilişki, beslenme alışkanlıklarının düzenlenmesinin önemini bir kez daha vurgulamaktadır [17].\n\n## Beslenme Eğitimi ve Bilgi Düzeyi\n\nDiyabet hastalarının beslenme bilgi düzeyi, glisemik kontrol ve hastalık yönetiminde önemli bir faktördür [7][6][11]. Beslenme eğitimi, tip 2 diyabetli bireylerde glukoz ve lipid metabolizması ile antropometrik parametreler üzerinde olumlu etkiler sağlamaktadır [16]. Aynı çalışmada, düşük ileri glikasyon son ürünü (AGE) içeren beslenmenin diyabetli bireylerde metabolik parametreler üzerinde olumlu etkiler gösterdiği de belirtilmiştir [16].\n\n## Özel Durumlar: Enteral Beslenme\n\nYoğun bakım ünitesinde yatan hastalarda enteral beslenme yönteminin (sürekli vs. aralıklı) glikoz kontrolünü etkilediği gösterilmiştir [15]. Bu bulgu, diyabetli bireylerde beslenme alışkanlıklarının yalnızca günlük yaşamda değil, klinik ortamlarda da glisemik kontrol üzerinde belirleyici olduğunu ortaya koymaktadır.\n\n## Sonuç\n\nDiyabet hastalarında beslenme alışkanlıklarının glisemik kontrol üzerindeki etkisi çok boyutlu ve karmaşık bir ilişki ağı içermektedir. Karbonhidrat miktarı ve glisemik indeksin etkisine dair çelişkili bulgular bulunmakla birlikte, öğünün yağ ve protein içeriği, diyet kalitesi, enerji yoğunluğu, obezite durumu ve bireyin beslenme bilgi düzeyi gibi faktörlerin glisemik kontrolü anlamlı şekilde etkilediği görülmektedir. Beslenme eğitimi ve düşük AGE'li beslenme gibi müdahalelerin olumlu etkileri, diyabet yönetiminde bireyselleştirilmiş ve kapsamlı beslenme stratejilerinin önemini ortaya koymaktadır.",
+      "n_citations": 34,
+      "citations_ieee": [
+        "[1] SELDA SEÇKİNER, \"Tip 1 diyabetli bireylerde diyetin karbonhidrat miktarı ve glisemik indeksinin kan glukoz değişkenliği ve serbest yağ asitlerine etkisi,\" Yüksek Lisans/Doktora tezi, Acıbadem Mehmet Ali Aydınlar Üniversitesi / Sağlık Bilimleri Enstitüsü / Beslenme ve Diyetetik Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77LXSkiLD835d7xc62zoO4GverH-gj_61juFKlM3uSXP40",
+        "[2] NUKET YUMUK, \"Tip 2 diyabetli hastaların diyetlerinin içerdiği glisemik indeks ve glisemik yükün değerlendirilmesi.,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sağlık Bilimleri Enstitüsü / Beslenme ve Diyetetik Ana Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6Q7TIZh4WiZh7xO6DJSFjMjBzvfl9h88cJRdFcpuCWTRl",
+        "[3] ALI AMEEN KAREEM AL-DAFFAIE, \"Irak'ta diyabetli hastalarda beslenme durumunun değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Çankırı Karatekin Üniversitesi / Sağlık Bilimleri Enstitüsü / İç Hastalıkları Hemşireliği Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=a0OMTmEd_3mfOBxT8SiBTMBuAwVOGCSUXlxGA10NGMBAuz_8Dwj3pR0tlVawOXOx",
+        "[4] ÇİĞDEM AKSOY, \"Tip 1 diyabeti olan ve olmayan bireylerin diyet glisemik indeks ve yükünün hesaplanması ve değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Haliç Üniversitesi / Sağlık Bilimleri Enstitüsü / Beslenme ve Diyetetik Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=iTkOhwevEenJZ3onUvs52jSlin1zZ-vvo7TM8NHbBbMf05j15T9OYoMUrxFjgoOw",
+        "[5] ÇİSEM GİZİR, \"Özel bir hastanenin beslenme ve diyet polikliniğine başvuran Tip 2 diyabetli bireylerin beslenme alışkanlıkları ve diyabetik ürünleri kullanım durumları,\" Yüksek Lisans/Doktora tezi, İstanbul Okan Üniversitesi / Sağlık Bilimleri Enstitüsü / Beslenme ve Diyetetik Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=4J_FzTwlrMCH4qBROpXPHx8VAzyt2ImneWUlbN3JqJE9bdZpv1lmDlb0Ai36FMnL",
+        "[6] HATİCE ÜNLÜEL HORSANALI, \"Atatürk Üniversitesi Araştırma Hastanesi Pediatri Polikliniği'ne başvuran 7-18 yaş tip ı diyabetli hastaların beslenme ile ilgili bilgi ve davranışları,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Sağlık Bilimleri Enstitüsü / Halk Sağlığı Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZiMrVAZqHvQouZH2-2Bwv2KG45hp8R5tvSmqrLx3dLzK",
+        "[7] SERAP BALABAN, \"Tip 2 diyabetli bireylerin beslenme alışkanlıkları, hastalığa yönelik beslenme bilgi düzeyleri ve kan parametrelerinin değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sağlık Bilimleri Enstitüsü / Beslenme ve Diyetetik Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=7lOJX8w_8PRQU1mSHU6-jhkCkMlUcv22eRH3se6ZUAwdZvmlbdVlipOqlcD53BrF",
+        "[8] FATMA ŞEŞEN, \"Tip 2 diyabetli bireylerde diyet kalitesi ve beslenme durumları arasındaki ilişkinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Sağlık Bilimleri Enstitüsü / Beslenme ve Diyetetik Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiNnm2umwiuAcVa-s73cu0kCOBBPiU-ix9llsLbCllVeo",
+        "[9] İREM AKIN, \"Tip 2 diyabetli hastalarda beslenme özelliklerinin cins, yaş, beden kütle indeksi ve diyabet parametreleri ile olan ilişkisi,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sağlık Bilimleri Enstitüsü / İç Hastalıkları Ana Bilim Dalı / Endokrinoloji ve Metabolizma Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=T1mWGp9MngYYkCSgiJvtVlBHCdYaHtyojWlJPbfgs5og0We1pOf8RhAOr3bLJqIQ",
+        "[10] TEVFİK KOÇAK, \"Tip 2 diyabetli bireylerde diyet enerji yoğunluğu ve yaşam tarzının glisemik kontrol ile ilişkisi,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Sağlık Bilimleri Enstitüsü / Beslenme ve Diyetetik Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fS4sqEZr79C_n60Rk6MjFaQrJ6jXVHDHbQCUYCPhVY8fm9oYmaoTtRvCzVQZqUX0",
+        "[11] SULTAN OSANMAZ AVCI, \"Diyabetik hastaların diyabet takip parametreleri hakkında bilgi, tutum ve davranışlarının değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Sağlık Bilimleri Üniversitesi / Ankara Eğitim ve Araştırma Hastanesi / Aile Hekimliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vjszP7PzV0HebcjFEvDfwExL1dHUCA3fVO02BFPIZbDDyeYA5M45LZAza6TDjEtv",
+        "[12] ŞEVVAL GÖKÇE SARIBEYLİLER, \"Tip 1 diyabetli yetişkinlerde yağ ve proteinlerin glukoz seviyelerine ve insülin dozlarının ayarlanmasına etkilerinin değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sağlık Bilimleri Enstitüsü / İç Hastalıkları Ana Bilim Dalı / Beslenme Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=htlyhJG97gjBTPjAeWRhPgfFm3dGxJghGY5KngUnIVjJH3cYTaGFNmRxTlu1_s8H",
+        "[13] ECE ARBABİ, \"Glisemik kontrol oranlarına göre tip 2 diyabet hastalarına verilen tedaviler ve bu tedavilerin etkinliği: Tek merkezli retrospektif gerçek yaşam verileri çalışması,\" Yüksek Lisans/Doktora tezi, İstanbul Medeniyet Üniversitesi / Göztepe Prof. Dr. Süleyman Yalçın Şehir Hastanesi / İç Hastalıkları Ana Bilim Dalı / İç Hastalıkları Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RsTBl6RWK25OBMIKtIgYYcO6QSHYBRogKPKIb63ZxpM-KCj5JFXJNvJHpO6_QpXf",
+        "[14] ÖZLEM KOÇAK, \"Tip 2 diyabetli bireylerde sezgisel yemenin yeme tutumu ve glisemik kontrol ile ilişkisi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sağlık Bilimleri Enstitüsü / Kronik Hastalıklar Ana Bilim Dalı / Diyabet Destek Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEAp1n6IjWufP_5Bt7y3olNI6zQ3nIKzsGWAgucBrRViU4",
+        "[15] RASİME AKTAŞ, \"Enteral yoldan beslenen yoğun bakım hastalarının beslenme yönteminin glikoz kontrolüne etkisi,\" Yüksek Lisans/Doktora tezi, Acıbadem Üniversitesi / Sağlık Bilimleri Enstitüsü / Acil ve Yoğun Bakım Hemşireliği Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Br_XTptK8CZ70f0JGX9xEo5ZNjuXJ67OF3RUXOt6wdOxYyIhKe0ztfz373j0diuX",
+        "[16] BUĞU USANMA KOBAN, \"Tip 2 diyabetli bireylerde beslenme eğitiminin serum ileri glikasyon son ürünleri, glukoz ve lipid metabolizması ile antropometrik parametreler üzerine etkileri,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sağlık Bilimleri Enstitüsü / İç Hastalıkları Ana Bilim Dalı / Beslenme Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sELqxhTlFGAjsbjOuuiyCDFaETz9YLtnLO-jogyjDew7M3Lm8lAbTaI31I49lwkv",
+        "[17] ÖZNUR GÜVEN, \"Tip 2 diyabette obezitenin metabolik kontrole etkisi,\" Yüksek Lisans/Doktora tezi, Okan Üniversitesi / Sağlık Bilimleri Enstitüsü / Beslenme ve Diyetetik Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Br_XTptK8CZ70f0JGX9xEk83ABOVwKGKezK_MvBMTnSR_Fi1X_Ria-RpizCVEA2h",
+        "[18] MUHAMMED MUSTAFA ATCI, \"Tip 2 diyabetes mellitus hastalarında kötü glisemi ile risk faktörleri arasındaki ilişki,\" Yüksek Lisans/Doktora tezi, Sağlık Bakanlığı / İstanbul Şişli Hamidiye Etfal Eğitim ve Araştırma Hastanesi / İç Hastalıkları Ana Bilim Dalı / İç Hastalıkları Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5Sgvlggzip4Y5ZRHjx129h8qsjo_I_q0Y5eR3MB3mN1Kf6xLy6",
+        "[19] SAADET İLÇİN, \"Tip 2 diyabetli hastalar ile depresyonda olan tip 2 diyabetli hastaların ghrelin ve nesfatin-1 düzeylerinin karşılaştırılmalı olarak incelenmesi,\" Yüksek Lisans/Doktora tezi, Van Yüzüncü Yıl Üniversitesi / Sağlık Bilimleri Enstitüsü / Fizyoloji Ana Bilim Dalı / Fizyoloji Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77LQXxxYiYacx6CULXvjkOxcm_BHAdA02LqMdNgQQniJdx",
+        "[20] BÜŞRA YUSUFOĞLU, \"Türkiye'de satılan ekmeklerin in vitro glisemik indeks ve glisemik yük yönünden değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Ana Bilim Dalı / Biyokimya Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RrI-Krk3A-RkF4YfHofuk3ODNk7X2J4vsK-GqH2yvyNRd8-UVTdMOgIZbFk404c-",
+        "[21] CEVDET DURAN, \"Maksimum doz oral hipoglisemik ajanlarla optimal glisemik regülasyon sağlanamayan tip 2 diyabetik hastalarda repaglinid-glargin insülin kombinasyonu, akarboz-glargin insülin kombinasyonu ve tek başına glargin insülin tedavilerinin glisemik parametrel,\" Yüksek Lisans/Doktora tezi, Uludağ Üniversitesi / Tıp Fakültesi / İç Hastalıkları Ana Bilim Dalı / Endokrinoloji ve Metabolizma Bilim Dalı, 2006. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=XohQ0H2mJnBfxLPsY8dG40DRrEXwCriLEvXdkPITXFAPTBx6x9lFBcE7Dfe72WR5",
+        "[22] CEREN ALBİNA KUŞ, \"Bir grup Türk tip II diyabet hastalarında bazı gen varyasyonlarının (TNF-α, PPARG, Calpain 10) hastalık gelişimi üzerine olası etkilerinin irdelenmesi,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sağlık Bilimleri Enstitüsü / Toksikoloji Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77LdIKWhIPX8oA0k_DQCtBwIbmZmx9xGNAJie6tCeWd8gU",
+        "[23] ONUR ALİOĞLU, \"Ramazan ayı boyunca diyabet ve yüksek tansiyon hastalarının tedavi uyuncunun değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Medipol Üniversitesi / Sağlık Bilimleri Enstitüsü / Klinik Eczacılık Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMszwcWSX8n3r_EuaR_myfCuIlsCflREIn448SW3tAWUlM",
+        "[24] HATİCE BAYINDIR, \"İnsülin direncinin erken tanısında non-invazif ve invazif biyobelirteçler: Adiponektin ve irisin,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Biyomühendislik Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=DPTyuy3wRPq_qvCPSqUB61sbc_N9GuFIVZiwucO41YrnSxsS0Svc_3k6Z8k9ag_1",
+        "[25] Serap Tuna, Fatih Özden, Özgür Karaman, Neşe Yeniçeri, Cem Şahin, \"Tip 2 Diabetes Mellitus Hastalarında Kapsamlı Tele-Eğitimin Etkinliği: Randomize Kontrollü Çalışma,\" Yüksek Lisans/Doktora tezi, [openalex], 2023. [Online]. https://openalex.org/W4390473995",
+        "[26] Selin Sezgi Poyraz, Seda Çiftçi, \"Yaşlılarda Akdeniz Diyeti ve DASH Diyetinin Kan Glukoz Düzeyinin Korunmasına Etkisi,\" Yüksek Lisans/Doktora tezi, [openalex], 2022. [Online]. https://openalex.org/W4312017963",
+        "[27] Sefa Can KÜÇÜK, Artun Yıbar, \"Popüler Diyet Akımlarının Vücut Ağırlığı ve Sağlık Üzerine Etkileri,\" Yüksek Lisans/Doktora tezi, [openalex] Akademik Gıda, 2021. [Online]. https://doi.org/10.24323/akademik-gida.927722",
+        "[28] Bahtınur TAŞCI, Nuray İPEKCİ, Canan Asal Ulus, \"DİYABETES MELLİTUSTA TIBBİ BESLENME YAKLAŞIMLARI,\" Yüksek Lisans/Doktora tezi, [openalex] Samsun Sağlık Bilimleri Dergisi, 2022. [Online]. https://doi.org/10.47115/jshs.1038544",
+        "[29] Gökçe Sueda Aydoğdu, Gamze Akbulut, \"Aralıklı Açlık Diyetleri ve Düşük Karbonhidratlı Diyetlerin Obezite Tedavisindeki Etkisi,\" Yüksek Lisans/Doktora tezi, [openalex] Journal of Nutrition and Dietetics, 2020. [Online]. https://doi.org/10.33076/2020.bdd.1302",
+        "[30] Çağan Dağdeviren, \"Kronik hastalığı olan bireylerin diyetlerinin diyet inflamatuar indeksi&apos;nin araştırılması,\" Yüksek Lisans/Doktora tezi, [openalex] Hasan Kalyoncu University Institutional Repository (Hasan Kalyoncu University), 2024. [Online]. https://openalex.org/W7126753140",
+        "[31] , \"Bayramda kan şekerini dengelemenin yolları nelerdir?,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] üha, 2024. [Online]. https://www.semanticscholar.org/paper/aec4ffdf3e52630d3b55d0d6feb2ee2f0b6a51e4",
+        "[32] Gülsüm Asilkan Kaldik, Abdurrahman Şermet, \"Determination of serum vaspin levels in diabetic rats and investigation of the relationships between some other adipocytokinins and vaspin,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Türk Doğa ve Fen Dergisi, 2025. [Online]. https://www.semanticscholar.org/paper/2237b2fa3c34257a895ec507b6530a10c7db096e",
+        "[33] Ayşe Nur Elmaskaya, Mubin Koyuncu, \"Süt Kaynaklı Biyoaktif Bileşenlerin Antidiyabetik Etkisi,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Turkish Journal of Agriculture - Food Science and Technology, 2025. [Online]. https://www.semanticscholar.org/paper/5dad6776651de58de3ba6f28f5ed7b5780648496",
+        "[34] Sema Börekci, \"Tip 2 Diyabetli Hastalarda Tuz Tüketimi ve Beslenme Durumunun Değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, [semantic_scholar], 2015. [Online]. https://www.semanticscholar.org/paper/a2dd2a1c2065c425003505ed33f964993d216f00"
+      ]
+    }
+  },
+  "error": null
+}

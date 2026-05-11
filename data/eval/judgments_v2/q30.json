@@ -1,0 +1,12 @@
+{
+  "id": "q30",
+  "question": "Eski Anadolu Türkçesinde kıpçak unsurlarının fonetik özellikleri nelerdir?",
+  "category": "edge_case",
+  "judgment": {
+    "citation_accuracy": 0.3,
+    "faithfulness": 0.25,
+    "coverage": 0.2,
+    "holistic_score": 1,
+    "rationale": "Yanıt, Eski Anadolu Türkçesindeki Kıpçak fonetik unsurlarını somut örneklerle (ünlü uyumu, ünlü/ünsüz değişmeleri gibi) hiç ele almamakta, yalnızca genel geçer ifadelerle yetinmektedir. Atıfların çoğu (ör. [3], [4], [5], [6], [7], [8], [9], [10], [11], [13], [14], [15], [16], [18], [19], [20]) doğrudan Eski Anadolu Türkçesi-Kıpçakça fonetik ilişkisiyle ilgili olmadığı halde sanki ilgiliymiş gibi kullanılmıştır. Alt sorulardan hiçbiri (somut fonetik özellikler, yöntemler, dönemsel/bölgesel dağılım, diğer lehçelerle etkileşim) yeterince yanıtlanmamıştır."
+  }
+}

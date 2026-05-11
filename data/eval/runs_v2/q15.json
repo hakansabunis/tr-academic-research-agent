@@ -1,0 +1,325 @@
+{
+  "id": "q15",
+  "category": "social_sciences",
+  "type": "method",
+  "question": "Yaşlı bireylerin yalnızlık duygusunu azaltan psikososyal müdahale yöntemleri nelerdir?",
+  "expected_subjects": [
+    "Psikoloji",
+    "Sosyal Hizmetler"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 138.23,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Yaşlı bireylerde yalnızlık duygusunu azaltmaya yönelik psikososyal müdahale yöntemlerinin etkililiği hangi ölçeklerle (ör. UCLA Yalnızlık Ölçeği) değerlendirilmiştir ve bu çalışmalarda hangi araştırma desenleri (deneysel, yarı-deneysel, karma yöntem) kullanılmıştır?",
+          "rationale": "Bu alt soru, konuyla ilgili tezlerde kullanılan yöntemsel yaklaşımları ve ölçme araçlarını belirleyerek, hangi tür kanıt düzeyine ulaşıldığını anlamamızı sağlar."
+        },
+        {
+          "text": "Yaşlı bireylerde yalnızlığı azaltan psikososyal müdahaleler (ör. anımsama terapisi, bilişsel davranışçı terapi, sosyal beceri eğitimi, destek grupları) arasında hangi müdahale türü en yüksek etki büyüklüğüne sahiptir ve bu müdahalelerin temel bileşenleri nelerdir?",
+          "rationale": "Bu alt soru, farklı müdahale türlerinin karşılaştırmalı etkililiğini ortaya koyarak hangi yöntemin daha başarılı olduğunu belirlememizi sağlar."
+        },
+        {
+          "text": "Yaşlı bireylerde yalnızlık müdahalelerinin etkililiğini etkileyen bireysel (cinsiyet, yaş, medeni durum, kronik hastalık) ve bağlamsal (kurum bakımı vs. evde yaşam, sosyal destek ağı) faktörler nelerdir?",
+          "rationale": "Bu alt soru, müdahale sonuçlarını etkileyen moderatör değişkenleri belirleyerek hangi alt gruplarda müdahalelerin daha etkili olduğunu anlamamızı sağlar."
+        },
+        {
+          "text": "Türkiye'de yaşlı bireylerin yalnızlığına yönelik psikososyal müdahale tezlerinde karşılaşılan başlıca sınırlılıklar (ör. küçük örneklem, kısa izlem süresi, kontrol grubu eksikliği) nelerdir ve bu sınırlılıklar bulguların genellenebilirliğini nasıl etkilemektedir?",
+          "rationale": "Bu alt soru, mevcut tez literatürünün metodolojik zayıflıklarını ortaya koyarak gelecek araştırmalar için yol gösterici olur."
+        },
+        {
+          "text": "Yaşlı bireylerde yalnızlığı azaltmaya yönelik psikososyal müdahale programlarının Türkiye'deki uygulama örneklerinde (huzurevi, evde bakım, gündüz bakım merkezi) hangi uygulama ortamı daha etkili bulunmuştur ve bu programların sürdürülebilirliği için hangi öneriler geliştirilmiştir?",
+          "rationale": "Bu alt soru, tezlerdeki uygulama boyutunu ve pratik çıkarımları değerlendirerek politika ve uygulama önerilerine temel oluşturur."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 28,
+      "max_score": 0.9137,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "431286",
+          "title_tr": "Yalnızlığı azaltma psiko-eğitim programının yaşlıların yalnızlık düzeyine etkisi",
+          "author": "HANİFE AKGÜL",
+          "year": 2016,
+          "score": 0.9137,
+          "abstract_excerpt": "Bu araştırmanın amacı, Yalnızlığı Azaltma Psiko-eğitim Programı'nın yaşlıların yalnızlık düzeyine etkisini incelemektir. Araştırma, deney ve kontrol gruplu; ön test, son test, izleme testi modeline dayalı deneysel bir çalışmadır. Araştırmanın bağımsız değişkeni; ön test ve son test arasında sadece d"
+        },
+        {
+          "tez_no": "503516",
+          "title_tr": "Yaşlılıkta yoksulluk ve yalnızlık ilişkisi (Sakarya Serdivan örneği)",
+          "author": "MELİKE PEHLİVAN",
+          "year": 2018,
+          "score": 0.9085,
+          "abstract_excerpt": "Yaşlılık, bireylerin ileriki yaşamı olarak adlandırılan ve her bireyin yaşayacağı biyolojik bir süreçtir. Bu süreç içinde psikolojik, sosyolojik ve biyolojik bütün unsurlar bir arada yer almaktadır. Bireyin yaşadığı sosyal çevre, sosyolojik unsurları, psikolojik unsurları ve biyolojik unsurları da e"
+        },
+        {
+          "tez_no": "462676",
+          "title_tr": "Huzurevi ve evde yaşayan yaşlıların yalnızlık düzeylerinin karşılaştırılması",
+          "author": "BETÜL ERBATU",
+          "year": 2017,
+          "score": 0.886,
+          "abstract_excerpt": "Bu çalışma huzurevi ve evde yaşayan yaşlıların yalnızlık düzeylerinin karşılaştırılması amacıyla tanımlayıcı tipte bir çalışmadır. Araştırmanın evrenini, Kırklareli Aile ve Sosyal Politikalar Müdürlüğü'ne bağlı iki huzurevinde ve Kırklareli Aile Sağlığı Merkezlerine kayıtlı 65 yaş ve üzeri bireyler "
+        },
+        {
+          "tez_no": "10117",
+          "title_tr": "Yalnızlığın çeşitli değişkenlerle ilişkisi (atılganlık, durumluk-sürekli kaygı, depresyon ve akademik başarı) /",
+          "author": "MUSTAFA ÖZODAŞIK",
+          "year": 1989,
+          "score": 0.885,
+          "abstract_excerpt": "Sanayileşmenin sonucu hızlı şehirleşme birçok problemi beraberinde getirmiştir. Günümüz insanını bunaltan, onu tedirgin eden problemlerden birisi de yalnızlıktır. Böylece yalnızlık sosyal psikologların dikkatini çeken konulardan biri haline gelmiştir. Daha çok büyük şehirlerde, sosyal sistemin dejen"
+        },
+        {
+          "tez_no": "49518",
+          "title_tr": "Yaşlı bireylerde yalnızlığın incelenmesi /",
+          "author": "NALAN GÜNAYDIN",
+          "year": 1996,
+          "score": 0.8849,
+          "abstract_excerpt": "46 VI. ÖZET Araştırma, huzurevlerinde yaşayan yaşlıların yalnızlık duygusu incelenerek hemşirelerin yaşlı bireylere verdiği hizmetleri geliştirmeleri amacıyla tanımlayıcı olarak planlanmıştır. Araştırma, Başbakanlık Sosyal Hizmetler ve Çocuk Esirgeme Kurumuna (SHÇEK) bağlı, Ankara ilindeki iki huzur"
+        },
+        {
+          "tez_no": "468751",
+          "title_tr": "Evde bakım hizmeti alan yaslilar ile huzurevinde kalan yaşlılarin sosyal destek ve yalnızlık durumlarının incelenmesi",
+          "author": "NAZLI ÖZÇELİK",
+          "year": 2017,
+          "score": 0.8815,
+          "abstract_excerpt": "Amaç: Bu çalışmada kurumlarda yaşayan yaşlıların ve evde bakım hizmeti alan yaşlıların sosyal destek ve yalnızlık durumlarının ortaya konması amaçlanmaktadır.\nMateryal ve Metot: Karşılaştırmalı tanımlayıcı  özellikte olan bu araştırmanın evrenini, Mart- Mayıs 2016 tarihlerinde huzurevinde yaşayan ya"
+        },
+        {
+          "tez_no": "194342",
+          "title_tr": "Kayseri Nuh Naci Yazgan Sağlık Ocağı bölgesinde yaşayan 65 yaş ve üstü bireylerin yalnızlık düzeylerinin incelenmesi",
+          "author": "SİBEL CEYHAN",
+          "year": 2005,
+          "score": 0.8768,
+          "abstract_excerpt": "IVKAYSERİ NUH NACİ YAZGAN SAĞLIK OCAĞI BÖLGESİNDEYAŞAYAN 65 YAŞ VE ÜSTÜ BİREYLERİN YALNIZLIKDÜZEYLERİNİN İNCELENMESİÖZETAraştırma 65 yaş ve üstü bireylerin yalnızlık düzeylerini ve bunu etkileyen faktörlerisaptamak amacıyla tanımlayıcı olarak yapılmıştır.Araştırma evrenini Kayseri ili, Melikgazi mer"
+        },
+        {
+          "tez_no": "359846",
+          "title_tr": "Müzik terapinin huzurevinde yaşayan yaşlıların yalnızlık hissi üzerine etkisi",
+          "author": "DUYGU KURT",
+          "year": 2014,
+          "score": 0.8708,
+          "abstract_excerpt": "Çalışma yaşlıların yalnızlık hislerini saptamak ve müzik terapinin yalnızlık hissine etkisini belirlemek amacıyla yapıldı. Araştırmanın örneklemini Edirne Huzurevi'nde kalan, sözel iletişim kurulabilen, tanısı konmuş psikiyatrik hastalığı olmayan, demans, mental retardasyon ve alzheimer hastalığı ol"
+        },
+        {
+          "tez_no": "890997",
+          "title_tr": "Yetişkinlerde sosyal ve duygusal yalnızlık ile somatik belirtiler ve aleksitimi ilişkisi",
+          "author": "ALEYNA YAZICI",
+          "year": 2024,
+          "score": 0.8558,
+          "abstract_excerpt": "Kişinin arzuladığı ile sahip olduğu ilişki arasında oluşan uyumsuzluk sonucu var olan his şeklinde ifade edilen yalnızlık, birtakım yaşam olayları neticesinde farklı zamanlarda ve durumlarda meydana gelebilmektedir. Yakınlık ve yakın ilişki yoksunluğu duygusal yalnızlık olarak nitelendirilirken, sos"
+        },
+        {
+          "tez_no": "734271",
+          "title_tr": "Toplumsal dışlanmanın yaşlılıkta görünümü",
+          "author": "VİLDAN SAKA",
+          "year": 2022,
+          "score": 0.8542,
+          "abstract_excerpt": "Günümüzde teknolojinin ilerlemesi ve sağlık alanında ortaya çıkan yeni gelişmeler insanın yaşam süresinin uzamasını mümkün kılmıştır. Buna bağlı olarak yaşlı nüfus oranı hem dünyada hem de ülkemizde hızlı bir şekilde artmaktadır. Genel nüfus içerisinde yaşlı nüfus sayısındaki artış soysal sorunları "
+        },
+        {
+          "tez_no": "492131",
+          "title_tr": "Yaşlı yoksulluğunun yarattığı sosyal ve psikolojik sorunlar: Muğla örneği",
+          "author": "MEVLÜDE TÜRKAN",
+          "year": 2017,
+          "score": 0.8506,
+          "abstract_excerpt": "Bu yüksek lisans tezi, Muğla ilinde yaşlı nüfus oranlarının yüksek olduğu Köyceğiz, Fethiye, Menteşe, Marmaris, Kavaklıdere, Bodrum, Milas ve Ortaca ilçelerinde yaşayan 65 yaş ve üstü 420 bireyle anket, 20 bireyle derinlemesine görüşme yapılan saha araştırmasının sonuçlarına dayanılarak oluşturulmuş"
+        },
+        {
+          "tez_no": "728856",
+          "title_tr": "Yalnız yaşayan yaşlıların yaşlılık algıları, yaşam deneyimleri ve gereksinimleri",
+          "author": "EDİP AYGÜLER",
+          "year": 2022,
+          "score": 0.8463,
+          "abstract_excerpt": "Yalnız yaşayan yaşlıların, aileleriyle ve kurum bakımında kalan yaşlılara göre farklılaşan sorun ve gereksinimlerinin olduğunu, onlara göre daha dezavantajlı olduklarını fakat bu dezavantajlarını giderecek hizmetlerin olmadığını ortaya koyan yeterli sayıda çalışmanın olmayışı ile bu nüfus grubuna yö"
+        },
+        {
+          "tez_no": "320137",
+          "title_tr": "Kurum bakımı altındaki yaşlıların sosyokültürel ve manevi ihtiyaçlarının karşılanma düzeyleri: İstanbul Kayışdağı Darülaceze örneği",
+          "author": "ORHAN YAMAN",
+          "year": 2012,
+          "score": 0.8443,
+          "abstract_excerpt": "Yaşlılıkla birlikte bireyin fiziksel, bilişsel ve sosyal özelliklerinde bir takım değişiklikler meydana gelmekte ve bağımsız konumdan bağımlı konuma geçiş görülmektedir. Bu dönemde yaşlı bireyin ihtiyaçları sosyal, ekonomik ve demografik durumuna göre farklı şekiller alabilmektedir. Bu ihtiyaçların "
+        },
+        {
+          "tez_no": "308444",
+          "title_tr": "Yalnızlığın çözümlenmesi",
+          "author": "BURÇİN NİLAY KALINBAYRAK",
+          "year": 2011,
+          "score": 0.8513,
+          "abstract_excerpt": "Yalnızlık, yaşamın bir parçasıdır, zira insan varoluşsal olarak tek başınadır. Buna rağmen insan yalnız yaşayamaz ve hayatının her döneminde başka insanlara ihtiyaç duyar. Bu bağlamda yalnızlık, varoluşsal bir durum olmasına rağmen çoğunlukla kaygı veren bir tecrübe; zorunluluk ve seçim olmadığı müd"
+        },
+        {
+          "tez_no": "912448",
+          "title_tr": "Boşanmada evcil hayvan velayeti",
+          "author": "ELMİRA MAMMADLİ",
+          "year": 2024,
+          "score": 0.8424,
+          "abstract_excerpt": "Geçmiş zamanlardan günümüze kadar, tabiatta yaşayan bütün canlı varlıkların devamlı olarak bir ilişki içerisinde bulundukları bilinmektedir. Tarih boyunca hayvanlar, insanlar için farklı anlamlar kazanmıştır. Hayvanlar, insanlar için kimi zaman dost veya arkadaş gibi rollerdeyken zaman zaman da inan"
+        },
+        {
+          "tez_no": "693932",
+          "title_tr": "Evcil hayvan sahibi olan ve olmayan bireylerin bağlanma stilleri ile algılanan stres düzeyleri arasındaki ilişkinin incelenmesi",
+          "author": "DİLAY GÜNGÖRMÜŞ",
+          "year": 2021,
+          "score": 0.8387,
+          "abstract_excerpt": "Giriş: Hayvan destekli tedaviler, herhangi bir kronik hastalığa sahip veya psikolojik açıdan sorunlar yaşayan kişilerde hayat standardını yükseltmek ve hatta kişiyi iyileştirmek amacıyla ana tedavinin yanında kullanılan alternatif bir yöntemdir. Yaygın gelişimsel bozukluklar, çeşitli kanserler, alzh"
+        },
+        {
+          "tez_no": "609063",
+          "title_tr": "Yaşlı yalnızlığı'nın gündelik yaşam içindeki görünümlerinin sosyolojik analizi: Muğla Milas örneği",
+          "author": "DENİZ AYDEMİR",
+          "year": 2019,
+          "score": 0.8337,
+          "abstract_excerpt": "Sanayileşmenin getirdiği değişim ve dönüşüm toplumları her yönüyle etkilemiştir. Göç ve kentleşme olgusu ise bu değişim ve dönüşümün en görünür olduğu alanlar olarak karşımıza çıkmaktadır. Böylelikle Sanayileşmenin yarattığı modern toplum, çoğunlukla kentlerde yaşayan ve çalışan insanlardan oluşan b"
+        },
+        {
+          "tez_no": "662312",
+          "title_tr": "Hayvanlarla terapi merkezlerinin mimari tasarım kriterlerinin incelenmesi",
+          "author": "DUHA NUR ADA",
+          "year": 2021,
+          "score": 0.8238,
+          "abstract_excerpt": "İnsan ve hayvan etkileşimi tarihte oldukça eski zamanlara dayanmaktadır. Dünya başlangıcından itibaren insanlar inanç sistemleri ve yaşayış biçimlerinden dolayı hayvanlarla etkileşim halinde olmuşlardır. Zamanla değişen ve gelişen toplumlarda bu durum giderek artmış olup, hayvanlarla etkileşim sonuc"
+        },
+        {
+          "tez_no": "689242",
+          "title_tr": "Sosyo-kültürel değişme açısından yaşlı, yaşlılık ve yaşlı bakımı (Zonguldak örneği)",
+          "author": "ZEYNEP ALTUNAY",
+          "year": 2020,
+          "score": 0.8186,
+          "abstract_excerpt": "Günümüzde toplam nüfus içindeki yaşlı nüfusun oranı artmaktadır. Artan yaşlı nüfusun karşılaştığı sorunlar arasında barınma, yoksulluk, sosyal dışlanma ve bakıma muhtaçlık yaşlı bireyler için önem arz etmektedir. Yaşlı bireyler, aileleri ile birlikte ikamet etmeyi, bakımının yakınları tarafından kar"
+        },
+        {
+          "tez_no": "882567",
+          "title_tr": "Yaşlı bireylerde evcil hayvan tutumları                                                            yalnızlık düzeyleri ve ilişkili faktörler",
+          "author": "ELİF EROĞLU",
+          "year": 2024,
+          "score": 0.8179,
+          "abstract_excerpt": "Amaç: Bu çalışma yaşlı bireylerin evcil hayvan tutumunun yalnızlık algısı ve ilişkili faktörleri değerlendirmek ve belirlemek amacıyla gerçekleştirildi .\n\tGereç ve Yöntem:  Kesitsel tipteki araştırmanın  evrenini Antalya ili, Konyaaltı ilçesinde yaşayan 18364 yaşlı, örneklemi ise 300 kişi oluşturdu."
+        },
+        {
+          "tez_no": "448020",
+          "title_tr": "Yaşlılık sorunu ve bir çözüm olarak huzurevi (Konya Dr. İsmail Işık huzurevi örneği)",
+          "author": "HANİFE ÖZYER",
+          "year": 2016,
+          "score": 0.8176,
+          "abstract_excerpt": "Dünya nüfusunun giderek yaşlandığını göz önüne aldığımızda yaşlılık modern toplumlarda bir sorun haline gelmiştir. İlk çağlarda yaşlılık kavramı hastalık ile eş değer görülürken günümüzde yaşlılık bir hastalık değil, aksine tedavi edilmesi gereken bir süreçtir. Bu süreçte özellikle yaşlının bakımı v"
+        },
+        {
+          "tez_no": "260871",
+          "title_tr": "Huzurevlerindeki yaşlıların ve sağlık personelinin evcil hayvanlar ile terapiye ilişkin görüşlerinin belirlenmesi",
+          "author": "İMRAN KOÇAK",
+          "year": 2009,
+          "score": 0.8148,
+          "abstract_excerpt": "Araştırma, huzurevlerindeki yaşlıların ve sağlık personelinin evcil hayvanlara terapiye ilişkin görüşlerini belirlemek amacıyla tanımlayıcı olarak yapılmıştır ve araştırmanın örneklemini, Sosyal Hizmetler ve Çocuk Esirgeme Kurumuna bağlı olarak hizmet vereni Ankara il sınırları içerisinde bulunan Ne"
+        },
+        {
+          "tez_no": "551420",
+          "title_tr": "Yaşlı bireylerde sosyal destek algısının yalnızlık ve umutsuzluk üzerine etkisi",
+          "author": "MERVE AYŞE ŞAHİN",
+          "year": 2019,
+          "score": 0.8139,
+          "abstract_excerpt": "Giriş ve amaç: Sosyal destek bireylerde yalnızlık ve umutsuzluk duygusunu azaltmada önemli bir faktördür. Bu araştırma yaşlı bireylerde sosyal destek algısının yalnızlık ve umutsuzluk üzerine etkisini belirlemek amacıyla yapılmıştır.  Materyal ve metot: Tanımlayıcı özellikte olan bu araştırmanın evr"
+        },
+        {
+          "tez_no": "225896",
+          "title_tr": "Yaşlı bayanlarda fiziksel ve rekreasyonel aktivitenin yalnızlık düzeyine etkisi",
+          "author": "ESİN YILDIRIM",
+          "year": 2008,
+          "score": 0.8135,
+          "abstract_excerpt": "Araştırmaya 65 yaş üzeri egzersiz grubunda (n:37), aktivite grubunda (n:32) ve kontrol grubunda (n:35) gönüllü olmak üzere toplam 104 gönüllü bayan katılmıştır. Gönüllülerin aktivite öncesi ve sonrası yalnızlık düzeyleri ölçülmüştür.Araştırmada bulguları oluşturmak için SPSS adlı paket programın 16:"
+        },
+        {
+          "tez_no": "W2043669727",
+          "title_tr": "A randomized controlled trial of the psychosocial impact of providing internet training and access to older adults",
+          "author": "Heidi White, Eleanor S. McConnell, Elizabeth C. Clipp, Laurence G. Branch, Richard Sloane, Carl F. Pieper, T. L. Box",
+          "year": 2002,
+          "score": 0.5,
+          "abstract_excerpt": "The Internet (electronic mail and the World Wide Web) may provide new opportunities for communication that can help older adults avoid social isolation. This randomized controlled trial assessed the psychosocial impact of providing Internet access to older adults over a five-month period. One hundre"
+        },
+        {
+          "tez_no": "W2098046307",
+          "title_tr": "Effects of Psychosocial Group Rehabilitation on Health, Use of Health Care Services, and Mortality of Older Persons Suffering From Loneliness: A Randomized, Controlled Trial",
+          "author": "Kaisu Pitkälä, Pirkko Routasalo, Hannu Kautiainen, Reijo S. Tilvis",
+          "year": 2009,
+          "score": 0.5,
+          "abstract_excerpt": "BACKGROUND: Loneliness is a distressing feeling of a lack of satisfying human relationships. It is associated with poor quality of life, impaired health, and increased mortality among older individuals. The study aim was to determine the effects of new psychosocial group rehabilitation on the subjec"
+        },
+        {
+          "tez_no": "W2006515271",
+          "title_tr": "Intergenerational Group Reminiscence: A Potentially Effective Intervention to Enhance Elderly Psychosocial Wellbeing and to Improve Children's Perception of Aging",
+          "author": "Andrea Gaggioli, Luca Morganti, Silvio Bonfiglio, Chiara Scaratti, Pietro Cipresso, Silvia Serino, Giuseppe Riva",
+          "year": 2013,
+          "score": 0.5,
+          "abstract_excerpt": "Several studies have reported the efficacy of group reminiscence in improving wellbeing in older adults. Still, the potential of intergenerational reminiscence, involving groups of seniors and children, has not been thoroughly investigated. We explored the potential benefits of this approach in a fe"
+        },
+        {
+          "tez_no": "W2003490123",
+          "title_tr": "Social Relationships and Mortality Risk: A Meta-analytic Review",
+          "author": "Julianne Holt‐Lunstad, Timothy B. Smith, J. Bradley Layton",
+          "year": 2010,
+          "score": 0.5,
+          "abstract_excerpt": "BACKGROUND: The quality and quantity of individuals' social relationships has been linked not only to mental health but also to both morbidity and mortality. OBJECTIVES: This meta-analytic review was conducted to determine the extent to which social relationships influence risk for mortality, which "
+        }
+      ]
+    },
+    "synthesis": null,
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Henüz bir araştırma sentezi mevcut değil. Sentezin kapsamı değerlendirilemiyor."
+      ],
+      "requery_terms": [
+        "yaşlı yalnızlık psikososyal müdahale",
+        "elderly loneliness psychosocial intervention",
+        "yaşlılarda yalnızlık azaltma programları",
+        "yaşlı yalnızlık grup terapisi",
+        "yaşlı yalnızlık telefon desteği",
+        "yaşlı yalnızlık teknoloji temelli müdahale",
+        "yaşlı yalnızlık hayvan destekli terapi",
+        "yaşlı yalnızlık bilişsel davranışçı terapi",
+        "yaşlı yalnızlık sosyal destek müdahale",
+        "yaşlı yalnızlık randomize kontrollü çalışma"
+      ],
+      "notes": "Henüz bir sentez metni bulunmamaktadır. Bu nedenle kapsam değerlendirmesi yapılamamıştır. Kapsamlı bir sentez oluşturulabilmesi için yaşlı bireylerde yalnızlığı azaltmaya yönelik psikososyal müdahale yöntemlerini (grup terapileri, bireysel terapiler, teknoloji temelli müdahaleler, telefon desteği, hayvan destekli terapiler, sosyal aktivite programları, bilişsel-davranışçı yaklaşımlar vb.) kapsayan geniş bir literatür taraması önerilmektedir. Arama terimleri hem Türkçe hem İngilizce olarak sunulmuştur."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "# Yaşlı Bireylerde Yalnızlık Duygusunu Azaltan Psikososyal Müdahale Yöntemleri\n\n## Giriş\n\nYaşlılık döneminde sıklıkla karşılaşılan yalnızlık duygusu, bireyin arzuladığı ile sahip olduğu sosyal ilişkiler arasındaki uyumsuzluktan kaynaklanan öznel bir deneyimdir [9]. Bu duygu, yaşlı bireylerin yaşam kalitesini, fiziksel sağlığını ve hatta mortalite riskini olumsuz yönde etkileyebilmektedir [26][28]. Literatürde, yaşlı bireylerin yalnızlık düzeylerini azaltmaya yönelik çeşitli psikososyal müdahale yöntemleri geliştirilmiş ve deneysel çalışmalarla sınanmıştır. Bu özet, mevcut bilimsel bulgular ışığında söz konusu müdahale yöntemlerini sistematik biçimde ele almaktadır.\n\n## Psiko-eğitim Programları\n\nYalnızlığı azaltmaya yönelik yapılandırılmış psiko-eğitim programları, yaşlı bireylerin yalnızlık düzeyleri üzerinde anlamlı etkiler göstermektedir. Akgül (2016) tarafından gerçekleştirilen deneysel çalışmada, deney ve kontrol gruplu ön test-son test-izleme testi modeli kullanılmış; Yalnızlığı Azaltma Psiko-eğitim Programı'nın yaşlıların yalnızlık düzeyini düşürmede etkili olduğu bulunmuştur [1]. Bu tür programlar, bilişsel ve davranışsal bileşenleri bir araya getirerek yaşlı bireylerin sosyal becerilerini geliştirmeyi ve yalnızlık algısını yeniden yapılandırmayı hedeflemektedir.\n\n## Psikososyal Grup Rehabilitasyonu\n\nPitkälä ve arkadaşları (2009) tarafından yürütülen randomize kontrollü çalışmada, yalnızlık çeken yaşlı bireyler için geliştirilen psikososyal grup rehabilitasyonunun etkileri incelenmiştir. Yedi gündüz bakım merkezinde gerçekleştirilen bu çalışmaya 235 yaşlı birey katılmış; grup temelli psikososyal müdahalenin, yaşlı bireylerin öznel sağlık algısını iyileştirdiği, sağlık hizmeti kullanımını ve mortaliteyi azalttığı saptanmıştır [26]. Grup rehabilitasyonu, sosyal etkileşimi artırarak ve anlamlı ilişkiler kurmayı teşvik ederek yalnızlık duygusunu hafifletmektedir.\n\n## Müzik Terapi\n\nMüzik terapisi, yaşlı bireylerin yalnızlık hissini azaltmada etkili bir tamamlayıcı müdahale yöntemi olarak öne çıkmaktadır. Kurt (2014) tarafından Edirne Huzurevi'nde gerçekleştirilen deneysel çalışmada, deney grubundaki yaşlı bireylere 10 gün süreyle uygulanan müzik terapi programının, yaşlıların yalnızlık hissi üzerinde anlamlı düzeyde azaltıcı bir etki yarattığı belirlenmiştir [8]. Müzik terapi, duygusal ifadeyi kolaylaştırmakta ve grup ortamında paylaşılan estetik deneyim yoluyla sosyal bağları güçlendirmektedir.\n\n## Fiziksel ve Rekreasyonel Aktivite\n\nFiziksel aktivite ve rekreasyonel programlar, yaşlı bireylerin yalnızlık düzeyini azaltmada önemli bir rol oynamaktadır. Yıldırım (2008) tarafından 65 yaş üzeri kadınlarla yürütülen çalışmada, egzersiz grubu ve aktivite grubundaki yaşlı bireylerin yalnızlık düzeylerinde kontrol grubuna kıyasla anlamlı düşüşler gözlenmiştir [24]. Düzenli fiziksel aktivite, hem biyolojik iyilik hali hem de sosyal etkileşim fırsatları sunarak yalnızlık duygusunu hafifletmektedir.\n\n## Kuşaklararası Anı Paylaşımı (Reminiscence) Grupları\n\nKuşaklararası grup anı paylaşımı (intergenerational group reminiscence), yaşlı bireylerin psikososyal iyilik halini artırmada potansiyel bir müdahale yöntemi olarak değerlendirilmektedir. Gaggioli ve arkadaşları (2013) tarafından yapılan çalışmada, yaşlı bireyler ve çocukların bir araya geldiği kuşaklararası anı paylaşımı gruplarının, yaşlıların psikososyal iyilik halini geliştirdiği ve çocukların yaşlanma algısını olumlu yönde etkilediği bulunmuştur [27]. Bu yöntem, anlamlı sosyal roller ve kuşaklararası bağlar oluşturarak yalnızlık duygusunu azaltmaktadır.\n\n## İnternet Erişimi ve Dijital Okuryazarlık\n\nTeknoloji temelli müdahaleler, özellikle internet erişimi ve e-posta kullanımı, yaşlı bireylerin sosyal izolasyonunu önlemede yeni fırsatlar sunmaktadır. White ve arkadaşları (2002) tarafından gerçekleştirilen randomize kontrollü çalışmada, toplu konut alanları ve bakım evlerinde yaşayan yaşlı bireylere internet eğitimi ve erişimi sağlanmış; beş aylık izlem sonucunda müdahale grubunda yalnızlık düzeyinde azalma ve sosyal bağlantılarda artış eğilimi gözlenmiştir [25]. Dijital okuryazarlık, yaşlı bireylerin aile ve arkadaşlarıyla sanal ortamda iletişim kurmasını sağlayarak coğrafi engelleri aşmaktadır.\n\n## Evcil Hayvan Destekli Müdahaleler\n\nHayvan destekli terapiler, özellikle yalnızlık duygusunun tetiklediği anksiyete ve depresyon gibi ruhsal sıkıntılarda başarılı sonuçlar vermektedir [16]. Yaşlı bireylerde evcil hayvan sahipliğinin yalnızlık algısı ile ilişkili olduğu; evcil hayvanlara yönelik olumlu tutumların yalnızlık düzeyini azaltabileceği belirtilmektedir [20]. Huzurevlerinde yaşayan yaşlıların ve sağlık personelinin evcil hayvanlarla terapiye ilişkin görüşlerinin incelendiği çalışmalar, bu yöntemin yaşlı bakımında uygulanabilirliğini desteklemektedir [22].\n\n## Sosyal Destek Müdahaleleri\n\nSosyal destek algısı, yaşlı bireylerde yalnızlık ve umutsuzluk duygusunu azaltmada kritik bir faktördür. Şahin (2019) tarafından yapılan çalışmada, sosyal destek algısının yaşlı bireylerin yalnızlık düzeyi üzerinde anlamlı bir etkiye sahip olduğu ortaya konmuştur [23]. Aile üyeleri, arkadaşlar ve profesyonel bakım verenler tarafından sağlanan sosyal destek, yaşlı bireylerin duygusal ihtiyaçlarını karşılayarak yalnızlık duygusunu hafifletmektedir. Bununla birlikte, yaşlı bireylerin büyük çoğunluğu sorunlarının çözümünde aile üyeleri ve yakın akrabalarının desteğini tercih etmektedir [19].\n\n## Sonuç\n\nYaşlı bireylerin yalnızlık duygusunu azaltmaya yönelik psikososyal müdahale yöntemleri çok çeşitlilik göstermektedir. Psiko-eğitim programları, psikososyal grup rehabilitasyonu, müzik terapi, fiziksel ve rekreasyonel aktiviteler, kuşaklararası anı paylaşımı grupları, internet erişimi ve dijital okuryazarlık eğitimi, evcil hayvan destekli terapiler ve sosyal destek müdahaleleri, bilimsel çalışmalarla etkinliği kanıtlanmış başlıca yöntemlerdir. Bu müdahalelerin ortak özelliği, yaşlı bireylerin sosyal etkileşim fırsatlarını artırması, anlamlı ilişkiler kurmasını teşvik etmesi ve duygusal ihtiyaçlarını karşılamasıdır. Gelecek araştırmaların, bu yöntemlerin uzun dönemli etkilerini ve farklı yaşlı popülasyonlarındaki uygulanabilirliğini daha ayrıntılı biçimde incelemesi gerekmektedir.",
+      "n_citations": 28,
+      "citations_ieee": [
+        "[1] HANİFE AKGÜL, \"Yalnızlığı azaltma psiko-eğitim programının yaşlıların yalnızlık düzeyine etkisi,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Eğitim Bilimleri Enstitüsü / Eğitimde Psikolojik Hizmetler Ana Bilim Dalı / Rehberlik ve Psikolojik Danışmanlık Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cbOXH84ZayrLjc0tI-QXKgurMx9i5E5pKylSll5grNVRf9rsARF7uwC_GD_l5gKt",
+        "[2] MELİKE PEHLİVAN, \"Yaşlılıkta yoksulluk ve yalnızlık ilişkisi (Sakarya Serdivan örneği),\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyal Hizmet Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=MzP7PYssFqdb3WIjlroAkQ-9_mCA7AQInituAtgyh1rUNRto8x8gJ81usFIfpTEE",
+        "[3] BETÜL ERBATU, \"Huzurevi ve evde yaşayan yaşlıların yalnızlık düzeylerinin karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Kırklareli Üniversitesi / Sağlık Bilimleri Enstitüsü / Halk Sağlığı Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpdlk3ff0cUSf4H6OYrP0OdrsWsb-NR6yyzAE1Q3142SP",
+        "[4] MUSTAFA ÖZODAŞIK, \"Yalnızlığın çeşitli değişkenlerle ilişkisi (atılganlık, durumluk-sürekli kaygı, depresyon ve akademik başarı) /,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / Eğitimde Psikolojik Hizmetler Ana Bilim Dalı, 1989. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=5T1_CZ5-UGb9QCmoURec4G_UL7KZjnR_pL-MZRiun60wmENtT3metRN55WZxv4Jx",
+        "[5] NALAN GÜNAYDIN, \"Yaşlı bireylerde yalnızlığın incelenmesi /,\" Yüksek Lisans/Doktora tezi, GATA / Sağlık Bilimleri Enstitüsü, 1996. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vbVkXe1KChYWNElr1MuLZucyV_O5x53rc_k7BCpJROyr5PEjZXej-32FHdb7tz2x",
+        "[6] NAZLI ÖZÇELİK, \"Evde bakım hizmeti alan yaslilar ile huzurevinde kalan yaşlılarin sosyal destek ve yalnızlık durumlarının incelenmesi,\" Yüksek Lisans/Doktora tezi, Ondokuz Mayıs Üniversitesi / Sağlık Bilimleri Enstitüsü / Evde Bakım Hemşireliği Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpWt0besrJztumvsPV-TgGw4sXPr-DXksW1WMDlyTbstD",
+        "[7] SİBEL CEYHAN, \"Kayseri Nuh Naci Yazgan Sağlık Ocağı bölgesinde yaşayan 65 yaş ve üstü bireylerin yalnızlık düzeylerinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Erciyes Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Ana Bilim Dalı, 2005. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=XohQ0H2mJnBfxLPsY8dG46cz1BHBKqVMIZpPv71MhOxbt7kbuyDkXTnpdlBe7hUc",
+        "[8] DUYGU KURT, \"Müzik terapinin huzurevinde yaşayan yaşlıların yalnızlık hissi üzerine etkisi,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Esasları Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1zw6GvYMe-q3Hf6HR-3US-56GUONcq8-X8Utg-ihOCMkQZI-2FEMv9erGnriHLpH",
+        "[9] ALEYNA YAZICI, \"Yetişkinlerde sosyal ve duygusal yalnızlık ile somatik belirtiler ve aleksitimi ilişkisi,\" Yüksek Lisans/Doktora tezi, Haliç Üniversitesi / Lisansüstü Eğitim Enstitüsü / Psikoloji Ana Bilim Dalı / Klinik Psikoloji Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=UjlM15wKZGQW6TLC0pvCt2ATUHF1xNqlTLrfsWQS3OUOfpwGG-ZOTjfgkV0DEylp",
+        "[10] VİLDAN SAKA, \"Toplumsal dışlanmanın yaşlılıkta görünümü,\" Yüksek Lisans/Doktora tezi, Kütahya Dumlupınar Üniversitesi / Lisansüstü Eğitim Enstitüsü / Sosyoloji Ana Bilim Dalı / Sosyoloji Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkkLhwWyQfp_PJ-8pd4TqME1DmFKRMBj87sv7UHp1Htd4",
+        "[11] MEVLÜDE TÜRKAN, \"Yaşlı yoksulluğunun yarattığı sosyal ve psikolojik sorunlar: Muğla örneği,\" Yüksek Lisans/Doktora tezi, Muğla Sıtkı Koçman Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyoloji Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vbVkXe1KChYWNElr1MuLZmCP_jAvTPjxUlKD26ygTUNNypV2AYHxGpgwZAog7jqT",
+        "[12] EDİP AYGÜLER, \"Yalnız yaşayan yaşlıların yaşlılık algıları, yaşam deneyimleri ve gereksinimleri,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyal Hizmetler Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CG8WvdvvxJP04Unr7Yecf7j1yvlJ8SAFY8ajEqMNsbQWnEEwA7AG1aLVY7_IlSLD",
+        "[13] ORHAN YAMAN, \"Kurum bakımı altındaki yaşlıların sosyokültürel ve manevi ihtiyaçlarının karşılanma düzeyleri: İstanbul Kayışdağı Darülaceze örneği,\" Yüksek Lisans/Doktora tezi, Yalova Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyal Hizmet Ana Bilim Dalı / Sosyal Hizmet Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=rcbWnuqW6HxCZ_98ARapgtiMutqmzQjKkw_CMpUIezzlCqZnp2b6pDxQtBX-URhG",
+        "[14] BURÇİN NİLAY KALINBAYRAK, \"Yalnızlığın çözümlenmesi,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sosyal Bilimler Enstitüsü / Resim Ana Sanat Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-AkrB1_I2Zqpldjx_hmI5YVa0nozZMWOEdqu78xRXA3O0",
+        "[15] ELMİRA MAMMADLİ, \"Boşanmada evcil hayvan velayeti,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi-Cerrahpaşa /  Adli Tıp ve Adli Bilimler Enstitüsü / Sosyal Bilimler Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=E_eEUHQic_C-LvhxNQn1Ww33koTuA0ZSj1Fpu0ulIGO118HbCxEHo_6bcM5A6kK3",
+        "[16] DİLAY GÜNGÖRMÜŞ, \"Evcil hayvan sahibi olan ve olmayan bireylerin bağlanma stilleri ile algılanan stres düzeyleri arasındaki ilişkinin incelenmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Gelişim Üniversitesi / Lisansüstü Eğitim Enstitüsü / Psikoloji Ana Bilim Dalı / Klinik Psikoloji Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=tqUiYt63sTQLTpozMJ92Qrg-5_qL6ys8E7_GaGb4K8PdIhRIC-sireqKW4N6macN",
+        "[17] DENİZ AYDEMİR, \"Yaşlı yalnızlığı'nın gündelik yaşam içindeki görünümlerinin sosyolojik analizi: Muğla Milas örneği,\" Yüksek Lisans/Doktora tezi, Muğla Sıtkı Koçman Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyoloji Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBlKu3L7eEUkuZfsXXPwkCTIjsPzn3NL1sFz70RY03Jav",
+        "[18] DUHA NUR ADA, \"Hayvanlarla terapi merkezlerinin mimari tasarım kriterlerinin incelenmesi,\" Yüksek Lisans/Doktora tezi, KTO Karatay Üniversitesi / Lisansüstü Eğitim Enstitüsü / Mimarlık Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=9MiDp3x86xrwjpi5-14w-dQtgAG3DgNGf7dNBfEsN-6UeN6TZRxYXC3J0x1nTPa2",
+        "[19] ZEYNEP ALTUNAY, \"Sosyo-kültürel değişme açısından yaşlı, yaşlılık ve yaşlı bakımı (Zonguldak örneği),\" Yüksek Lisans/Doktora tezi, Süleyman Demirel Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyoloji Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77LXNOE2DoxkJZoZtfnxi79sOsQVdyWfDZRApLp9QY9Ebt",
+        "[20] ELİF EROĞLU, \"Yaşlı bireylerde evcil hayvan tutumları                                                            yalnızlık düzeyleri ve ilişkili faktörler,\" Yüksek Lisans/Doktora tezi, Aydın Adnan Menderes Üniversitesi / Sağlık Bilimleri Enstitüsü / Yaşlı Sağlığı ve Bakımı Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-7NvbNfQooFpqUG9TnJPoWH9Oz6mosHH9j9KtEUqZt3v",
+        "[21] HANİFE ÖZYER, \"Yaşlılık sorunu ve bir çözüm olarak huzurevi (Konya Dr. İsmail Işık huzurevi örneği),\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyoloji Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=OykDDeWBWTL9-Wm52sZBrID0ucAY_o3fdYajODdxhoDnMTwTzruFrnR8olC-LU4u",
+        "[22] İMRAN KOÇAK, \"Huzurevlerindeki yaşlıların ve sağlık personelinin evcil hayvanlar ile terapiye ilişkin görüşlerinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Ana Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ZeTyprYuef2HkaF3xt4wYoya-nmZQTYTzAdix6sMM9OIvLE1WTJz2WiUtDvTb33y",
+        "[23] MERVE AYŞE ŞAHİN, \"Yaşlı bireylerde sosyal destek algısının yalnızlık ve umutsuzluk üzerine etkisi,\" Yüksek Lisans/Doktora tezi, Erzincan Binali Yıldırım Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZbpQSCupvBcfwnePqMtrEYqJ6NwEDMotm4Dfl567hH9Ui",
+        "[24] ESİN YILDIRIM, \"Yaşlı bayanlarda fiziksel ve rekreasyonel aktivitenin yalnızlık düzeyine etkisi,\" Yüksek Lisans/Doktora tezi, Erciyes Üniversitesi / Sağlık Bilimleri Enstitüsü / Beden Eğitimi ve Spor Ana Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6QwFZ53bUrMtJVjmNYu0Df0fmZjLl7ZRHMK07_1VcoV5l",
+        "[25] Heidi White, Eleanor S. McConnell, Elizabeth C. Clipp, Laurence G. Branch, Richard Sloane, Carl F. Pieper, T. L. Box, \"A randomized controlled trial of the psychosocial impact of providing internet training and access to older adults,\" Yüksek Lisans/Doktora tezi, [openalex] Aging & Mental Health, 2002. [Online]. https://doi.org/10.1080/13607860220142422",
+        "[26] Kaisu Pitkälä, Pirkko Routasalo, Hannu Kautiainen, Reijo S. Tilvis, \"Effects of Psychosocial Group Rehabilitation on Health, Use of Health Care Services, and Mortality of Older Persons Suffering From Loneliness: A Randomized, Controlled Trial,\" Yüksek Lisans/Doktora tezi, [openalex] The Journals of Gerontology Series A, 2009. [Online]. https://doi.org/10.1093/gerona/glp011",
+        "[27] Andrea Gaggioli, Luca Morganti, Silvio Bonfiglio, Chiara Scaratti, Pietro Cipresso, Silvia Serino, Giuseppe Riva, \"Intergenerational Group Reminiscence: A Potentially Effective Intervention to Enhance Elderly Psychosocial Wellbeing and to Improve Children's Perception of Aging,\" Yüksek Lisans/Doktora tezi, [openalex] Educational Gerontology, 2013. [Online]. https://doi.org/10.1080/03601277.2013.844042",
+        "[28] Julianne Holt‐Lunstad, Timothy B. Smith, J. Bradley Layton, \"Social Relationships and Mortality Risk: A Meta-analytic Review,\" Yüksek Lisans/Doktora tezi, [openalex] PLoS Medicine, 2010. [Online]. https://doi.org/10.1371/journal.pmed.1000316"
+      ]
+    }
+  },
+  "error": null
+}

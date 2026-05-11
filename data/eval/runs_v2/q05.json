@@ -1,0 +1,195 @@
+{
+  "id": "q05",
+  "category": "education",
+  "type": "trend",
+  "question": "Türkiye'de matematik eğitiminde STEM yaklaşımının öğrenci başarısına etkisi üzerine yapılan çalışmalar nelerdir?",
+  "expected_subjects": [
+    "Eğitim ve Öğretim",
+    "Matematik"
+  ],
+  "min_citations": 5,
+  "result": {
+    "latency_seconds": 61.53,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "STEM yaklaşımının matematik başarısına etkisini inceleyen Türkiye'deki tezlerde kullanılan araştırma yöntemleri (deneysel, yarı deneysel, meta-analiz vb.) nelerdir ve bu yöntemlerin dağılımı nasıldır?",
+          "rationale": "Yöntemsel çeşitlilik, çalışmaların bilimsel geçerliliğini ve genellenebilirliğini değerlendirmek için kritik öneme sahiptir."
+        },
+        {
+          "text": "Bu tezlerde STEM yaklaşımının matematik başarısı üzerindeki etki büyüklüğü (effect size) nedir ve hangi öğrenim kademelerinde (ilkokul, ortaokul, lise) daha belirgin sonuçlar elde edilmiştir?",
+          "rationale": "Etki büyüklüğü ve kademe bazlı farklılaşma, STEM'in hangi düzeyde daha etkili olduğunu ortaya koyar."
+        },
+        {
+          "text": "Bu tezlerde STEM yaklaşımının matematik başarısına etkisini sınırlayan faktörler (örneklem büyüklüğü, süre, öğretmen yeterliliği, müfredat uyumu vb.) nelerdir ve hangi sınırlılıklar öne çıkmaktadır?",
+          "rationale": "Sınırlılıkların belirlenmesi, mevcut bulguların güvenilirliğini ve gelecek araştırmaların odaklanması gereken alanları gösterir."
+        },
+        {
+          "text": "Türkiye'de STEM ve matematik başarısı üzerine yapılan tezler, STEM yaklaşımını geleneksel öğretim yöntemleriyle karşılaştırdığında hangi boyutlarda (problem çözme, eleştirel düşünme, tutum) anlamlı farklılıklar rapor etmiştir?",
+          "rationale": "Karşılaştırmalı bulgular, STEM'in hangi bilişsel ve duyuşsal becerilerde geleneksel yönteme üstünlük sağladığını ortaya koyar."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 16,
+      "max_score": 0.8942,
+      "min_score": 0.8371,
+      "chunks": [
+        {
+          "tez_no": "600567",
+          "title_tr": "STEM eğitimi etkinliklerinin ilkokul dördüncü sınıf öğrencilerinin STEM'e yönelik tutumlarına, 21. yüzyıl becerilerine ve matematik başarılarına etkisi",
+          "author": "MEHMET AKİF BİRCAN",
+          "year": 2019,
+          "score": 0.8942,
+          "abstract_excerpt": "Günümüzde bilim ve teknolojideki gelişmeler, ülkeler arasında sanayi, savunma, eğitim alanlarında büyük bir liderlik mücadelesinin başlamasına neden olmuştur. Söz konusu rekabette ülkelerin ayakta kalması ve liderlik yarışına dâhil olabilmesi için, 21. yüzyıl becerileri ile donanmış; fen, teknoloji,"
+        },
+        {
+          "tez_no": "812978",
+          "title_tr": "STEM eğitiminin öğrencilerin fen başarısına etkisi: Bir meta-analiz çalışması",
+          "author": "SEÇİL BOZ",
+          "year": 2023,
+          "score": 0.8831,
+          "abstract_excerpt": "Bu araştırmada STEM eğitiminin öğrencilerin fen başarısına etkisini belirlemek amaçlanmıştır. Bu doğrultuda meta-analiz yöntemi kullanılmıştır. 54 çalışmaya ait 67 veri, meta-analiz kapsamına alınmıştır. 3704 öğrenciye ait STEM eğitimi konusunda gerçekleştirilen yarı deneysel desen türündeki çalışma"
+        },
+        {
+          "tez_no": "588391",
+          "title_tr": "Ortaöğretimde fen ve matematik kazanımlarının STEM eğitim sürecine etkisi: Anadolu lisesi ve M.T.A.L örneği",
+          "author": "MURAT TUNCAR",
+          "year": 2019,
+          "score": 0.8806,
+          "abstract_excerpt": "Bu araştırmanın amacı örneklem olarak seçilen Çubuk Anadolu Lisesi öğrencileri ile Çelebi Mesleki Teknik Anadolu Lisesi öğrencilerinin Fen ve Matematik kazanımlarını karşılaştırmak ve bu kazanımların STEM eğitim sürecine etkisini belirlemektir. Bu araştırmanın örneklemini,  2017-2018 eğitim öğretim "
+        },
+        {
+          "tez_no": "866522",
+          "title_tr": "STEM etkinliklerinin 4. sınıf öğrencilerinin STEM tutumlarına ve matematik başarılarına etkisi",
+          "author": "ÜMRAN ATAY",
+          "year": 2024,
+          "score": 0.8795,
+          "abstract_excerpt": "Bu araştırmanın amacı; İlkokul 4. sınıf öğrencileri ile gerçekleştirilen STEM uygulamalarının, öğrencilerin STEM tutumlarına ve matematik başarılarına etkisinin incelenmesidir. Bu doğrultuda nicel araştırma yöntemlerinden yararlanılmıştır ve araştırma deseni olarak ön test – son test kontrol gruplu "
+        },
+        {
+          "tez_no": "552826",
+          "title_tr": "STEM yaklaşımının fen derslerine yansımasına yönelik bir uygulama: Çocuk Üniversitesi örneği",
+          "author": "FATMA YAZAR",
+          "year": 2019,
+          "score": 0.8785,
+          "abstract_excerpt": "STEM Fen (Science), Teknoloji (Technology), Mühendislik (Engineering) ve Matematik (Mathematics) dallarını bir bütün olarak ele alan, multidisipliner yaklaşımla kişilerin rekabet yeteneğinin, STEM okuryazarlığının ve 21.yy becerilerinin gelişimini sağlayan son derece yeni ve güncel bir programdır. \n"
+        },
+        {
+          "tez_no": "881782",
+          "title_tr": "STEM kapsamında yapılan bir uygulamanınöğrencilerin matematik başarı düzeyleri vetutumlarına etkisinin incelenmesi",
+          "author": "BETÜL CENGİZ",
+          "year": 2024,
+          "score": 0.8778,
+          "abstract_excerpt": "Yaşadığımız çağda, bilgi toplumu bireylerinden beklenen meraklı, araştırmacı ve üretici olmasıdır. Bireylerin eğitim süreçleri planlanırken, bu sürecin problem çözebilmelerini, araştırmalarını, karar verebilmelerini, yenilikçi buluşlar yapmalarını destekleyici ve bu konulardaki ilgi ve yeteneklerini"
+        },
+        {
+          "tez_no": "762220",
+          "title_tr": "Türkiye'de STEM ile ilgili yapılmış tez çalışmalarının eğilimleri",
+          "author": "MEDENİ DEMİR",
+          "year": 2022,
+          "score": 0.8745,
+          "abstract_excerpt": "Amaç: Bu çalışmanın amacı, 2014 yılından 2021 yılına kadar yapılmış tüm lisansüstü\nçalışmaların içerik analizi ile yönelimlerini belirlemektir.\nMateryal- Yöntem: Araştırmanın örneklemini ulusal tez merkezinden STEM (FETEMM)\nanahtar kelimesi ile yapılan aramada elde edilen yüksek lisans ve doktora te"
+        },
+        {
+          "tez_no": "643390",
+          "title_tr": "Tasarım temelli STEM eğitimi etkinliklerinin 7. sınıf öğrencilerinde akademik başarılara, stem'e yönelik tutumlara ve STEM meslek ilgisine olan etkisinin belirlenmesi",
+          "author": "DERYA GÜNEŞ VAROL",
+          "year": 2020,
+          "score": 0.8744,
+          "abstract_excerpt": "Ülkelerin teknoloji sayesinde sürekli gelişip kalkındığı 21.yüzyılda üretimdeki artış geleceği belirlemektedir. Yapılan araştırmalar ülkelerin sanayi pazarında yerini almaları için eğitime verilen önemi artırmaları gerektiğini, üretimin ekonomiyi artırdığını iyice ortaya koymuş, eğitim kurumlarında "
+        },
+        {
+          "tez_no": "628678",
+          "title_tr": "STEM eğitimine ilişkin öğretmen ve öğrenci algıları: Maltepe ilçesi özel okulları örneği",
+          "author": "AYÇA ET",
+          "year": 2020,
+          "score": 0.8724,
+          "abstract_excerpt": "STEM, \"Science, Technology, Engineering, Mathematics\" kelimelerinin baş harflerinden oluşan eğitim metodu İngilizce karşılıklarından da görüleceği üzere, bilim, teknoloji, mühendislik ve matematiğin harmanlandığı ve bir bütünsellik kazandığı eğitim metodudur. Türkçe karşılığı olarak FETEMM kısaltmas"
+        },
+        {
+          "tez_no": "546805",
+          "title_tr": "Fen bilimleri dersinde STEM etkinliklerinin ortaokul öğrencilerinin başarısına, fene ilişkin tutumlarına ve STEM'e yönelik görüşlerine etkisi",
+          "author": "DİLARA NECCAR",
+          "year": 2019,
+          "score": 0.871,
+          "abstract_excerpt": "21. yy becerilerine sahip, günümüz gerekliliğini sağlayacak nitelikteki bireylerin, yoğun bilgileri işleyip disiplinler arası düşünebilecek özelliklere sahip olmaları gerekmektedir. Bu gereklilik yeni bir eğitim arayışını doğurmuş ve sonuçta Amerika'da İngilizce \"Science\", \"Technology\", \"Engineering"
+        },
+        {
+          "tez_no": "656747",
+          "title_tr": "DMÖN destekli STEM uygulamalarının oran – orantı ve yüzdeler konusunda etkisinin incelenmesi",
+          "author": "GİZEM BERK",
+          "year": 2020,
+          "score": 0.8667,
+          "abstract_excerpt": "Amaç: Gerçek yaşam problemleri bağlamında geliştirilen, DMÖN destekli STEM uygulamalarıyla desteklenen matematik derslerinin öğrencilerin oran-orantı ve yüzdeler konusundaki başarılarına,  STEM'e yönelik tutumlarına ve bilgisayarca düşünme becerilerine etkisini incelemek ve çalışmaya yönelik öğrenci"
+        },
+        {
+          "tez_no": "705025",
+          "title_tr": "Fen ve matematik eğitiminde STEM uygulamalarına ilişkin lisansüstü tezlerin içerik analizi",
+          "author": "SALİHA GÖKÇEN",
+          "year": 2021,
+          "score": 0.8657,
+          "abstract_excerpt": "Bu araştırmada Türkiye'de 2011-2021 yılları kapsamında fen ve matematik eğitimleri alanında STEM uygulamaları ile ilgili gerçekleştirilmiş tezleri tematik olarak incelemek amaçlanmıştır. Hızlıca gelişmekte olan bu dünyaya ülkemizin de uyum sağlayabilmesi için STEM uygulamalarını bireylere tanıtmanın"
+        },
+        {
+          "tez_no": "567281",
+          "title_tr": "Eğitim fakültelerinin lisans programlarına yönelik fen, teknoloji, mühendislik ve matematik (STEM) öğretim programının tasarlanması, uygulanması ve değerlendirilmesi",
+          "author": "NİLAY TÜRK",
+          "year": 2019,
+          "score": 0.858,
+          "abstract_excerpt": "Eğitimin öncelikli görevlerinden biri bireyleri yaşam boyunca gereksinim duyacağı becerilerle donanmış olarak yetiştirmektir. Bu görevini gerçekleştirmesini sağlayan araçlardan biri eğitim programlarıdır. Dünya genelinde yaşanan değişim ve gelişmeler programlarda değişikliğe neden olarak yeni yaklaş"
+        },
+        {
+          "tez_no": "771382",
+          "title_tr": "STEM temelli laboratuvar eğitiminin öğretmen adaylarının STEM hazır bulunuşluk düzeylerine, bilimsel süreç ve karar verme becerilerine etkisi",
+          "author": "DEVRİM ERTUĞRUL",
+          "year": 2022,
+          "score": 0.8538,
+          "abstract_excerpt": "STEM eğitimi yaklaşımı, fen (science), teknoloji (technology), mühendislik (engineering) ve matematik (mathematics) gibi dört önemli disiplinin bütünleştirilerek uygulamaya konulduğu bir öğretim modeli olarak tanımlanmaktadır. Bilginin gerçek hayattaki problem çözmeye uygulanmasını ön plana alan bu "
+        },
+        {
+          "tez_no": "735545",
+          "title_tr": "Fen eğitiminde STEM: Bir içerik analiz çalışması",
+          "author": "BÜŞRA GENÇ",
+          "year": 2022,
+          "score": 0.8528,
+          "abstract_excerpt": "Günümüzde STEM hakkında çok sayıda araştırmaların yapılmış olması bu konu hakkında genel bir çerçevenin oluşturulması gerekliliğini ortaya koymuştur. Bu çalışmanın amacı; Türkiye'de 2014-2021 yılları arasında fen eğitiminde STEM uygulamaları ile ilgili hazırlanmış lisansüstü tezleri incelemektir. YÖ"
+        },
+        {
+          "tez_no": "920101",
+          "title_tr": "Problem tabanlı STEM eğitiminin kullanıldığı tezler üzerine bir doküman analizi",
+          "author": "MURAT ÇETİNEL",
+          "year": 2024,
+          "score": 0.8371,
+          "abstract_excerpt": "STEM eğitiminde Problem Tabanlı Öğrenme yaklaşımının (PTÖ STEM) kullanıldığı tez çalışmalarını çeşitli değişkenler açısından incelemeyi amaçlayan bir araştırma gerçekleştirilmiştir. Dünyada sıklıkla tercih edilen ve öğretim programlarına adapte edilen Problem Tabanlı Öğrenme ve STEM yaklaşımı ülkemi"
+        }
+      ]
+    },
+    "synthesis": null,
+    "critic": null,
+    "iteration_count": 1,
+    "final": {
+      "answer_md": "## Giriş\n\nTürkiye'de matematik eğitiminde STEM (Science, Technology, Engineering, Mathematics) yaklaşımının öğrenci başarısına etkisi, son yıllarda giderek artan sayıda akademik çalışmaya konu olmuştur. STEM, fen, teknoloji, mühendislik ve matematik disiplinlerini bütünleşik bir şekilde ele alan, disiplinler arası bir eğitim yaklaşımı olarak tanımlanmaktadır [1][9]. Bu yaklaşımın temel amacı, öğrencilerin 21. yüzyıl becerileriyle donanmış, problem çözme yeteneği gelişmiş bireyler olarak yetişmelerini sağlamaktır [1][8]. Bu bağlamda, Türkiye'de STEM yaklaşımının matematik başarısı üzerindeki etkisini inceleyen çeşitli deneysel çalışmalar ve meta-analiz araştırmaları bulunmaktadır.\n\n## STEM Yaklaşımının Matematik Başarısına Etkisi: Deneysel Çalışmalar\n\n### İlkokul Düzeyinde Yapılan Çalışmalar\n\nBircan (2019) tarafından ilkokul dördüncü sınıf öğrencileriyle gerçekleştirilen çalışmada, STEM eğitimi etkinliklerinin öğrencilerin matematik başarılarına etkisi incelenmiştir. Araştırma sonucunda, STEM etkinliklerinin öğrencilerin matematik başarılarını olumlu yönde etkilediği belirlenmiştir [1]. Benzer şekilde, Atay (2024) tarafından yine ilkokul 4. sınıf öğrencileriyle yürütülen yarı deneysel desenli çalışmada, STEM uygulamalarının öğrencilerin matematik başarılarına anlamlı bir etkisi olduğu tespit edilmiştir [4].\n\n### Ortaokul Düzeyinde Yapılan Çalışmalar\n\nOrtaokul düzeyinde yapılan çalışmalar da STEM yaklaşımının matematik başarısına olumlu katkı sağladığını göstermektedir. Güneş Varol (2020), 7. sınıf öğrencileriyle tasarım temelli STEM eğitimi etkinlikleri yürütmüş ve bu etkinliklerin öğrencilerin akademik başarıları üzerinde olumlu etkisi olduğunu belirlemiştir [8]. Berk (2020) ise, Dinamik Matematik Öğrenme Nesneleri (DMÖN) destekli STEM uygulamalarının oran-orantı ve yüzdeler konusunda öğrencilerin başarılarına etkisini incelemiş ve uygulamaların öğrenci başarısını artırdığı sonucuna ulaşmıştır [11].\n\n### Lise Düzeyinde Yapılan Çalışmalar\n\nLise düzeyinde yapılan çalışmalar sınırlı olmakla birlikte, Tuncar (2019) tarafından Anadolu Lisesi ve Mesleki Teknik Anadolu Lisesi öğrencileriyle yürütülen araştırmada, fen ve matematik kazanımlarının STEM eğitim sürecine etkisi karşılaştırmalı olarak incelenmiştir [3].\n\n## Meta-Analiz ve İçerik Analizi Çalışmaları\n\nTürkiye'de STEM yaklaşımının öğrenci başarısına etkisini bütüncül bir perspektiften değerlendiren meta-analiz çalışmaları da bulunmaktadır. Boz (2023) tarafından gerçekleştirilen meta-analiz çalışmasında, 54 çalışmaya ait 67 veri analiz edilmiş ve STEM eğitiminin öğrencilerin fen başarısına etkisi incelenmiştir. 3704 öğrenciyi kapsayan bu çalışmada, 2018-2022 yılları arasındaki yarı deneysel desen türündeki araştırmalar değerlendirilmiştir [2]. Her ne kadar bu meta-analiz doğrudan matematik başarısına odaklanmamış olsa da, STEM yaklaşımının fen başarısı üzerindeki etkisine dair kapsamlı veriler sunmaktadır.\n\nİçerik analizi çalışmaları da STEM araştırmalarının genel eğilimlerini ortaya koymaktadır. Demir (2022), 2014-2021 yılları arasında Türkiye'de STEM ile ilgili yapılmış lisansüstü tez çalışmalarını içerik analizi ile incelemiş ve bu çalışmaların yönelimlerini belirlemiştir [7]. Göçken (2021) ise, 2011-2021 yılları kapsamında fen ve matematik eğitimleri alanında STEM uygulamaları ile ilgili gerçekleştirilmiş tezleri tematik olarak incelemiştir [12]. Genç (2022) tarafından yapılan bir diğer içerik analizi çalışmasında ise, 2014-2021 yılları arasında fen eğitiminde STEM uygulamaları ile ilgili hazırlanmış 39 doktora ve 153 yüksek lisans tezi analiz edilmiştir [15].\n\n## STEM Yaklaşımının Matematik Tutumu ve Diğer Becerilere Etkisi\n\nMatematik başarısının yanı sıra, STEM yaklaşımının öğrencilerin matematiğe ve STEM'e yönelik tutumlarına etkisi de araştırılmıştır. Bircan (2019), STEM eğitimi etkinliklerinin ilkokul dördüncü sınıf öğrencilerinin STEM'e yönelik tutumlarına ve 21. yüzyıl becerilerine olumlu etkisi olduğunu belirlemiştir [1]. Atay (2024) da benzer şekilde, STEM etkinliklerinin öğrencilerin STEM tutumlarını olumlu yönde etkilediğini tespit etmiştir [4]. Cengiz (2024) tarafından yapılan çalışmada ise, STEM kapsamında yapılan uygulamaların öğrencilerin matematik başarı düzeyleri ve tutumlarına etkisi incelenmiş ve olumlu sonuçlar elde edilmiştir [6].\n\n## Sonuç\n\nTürkiye'de matematik eğitiminde STEM yaklaşımının öğrenci başarısına etkisi üzerine yapılan çalışmalar, genel olarak STEM temelli etkinliklerin öğrencilerin matematik başarısını olumlu yönde etkilediğini göstermektedir. İlkokul düzeyinden ortaokul düzeyine kadar farklı eğitim kademelerinde yürütülen deneysel çalışmalar, STEM uygulamalarının akademik başarıyı artırdığına işaret etmektedir [1][4][8][11]. Bununla birlikte, mevcut çalışmaların büyük ölçüde ilkokul ve ortaokul düzeyinde yoğunlaştığı, lise düzeyinde daha sınırlı sayıda araştırma bulunduğu görülmektedir [7][12][15]. Ayrıca, STEM yaklaşımının matematik başarısına etkisini konu alan meta-analiz çalışmalarının sayısının sınırlı olduğu, mevcut meta-analizlerin daha çok fen başarısına odaklandığı anlaşılmaktadır [2]. Bu durum, Türkiye'de STEM yaklaşımının matematik eğitimindeki etkisine yönelik daha kapsamlı ve bütüncül araştırmalara ihtiyaç duyulduğunu ortaya koymaktadır.",
+      "n_citations": 16,
+      "citations_ieee": [
+        "[1] MEHMET AKİF BİRCAN, \"STEM eğitimi etkinliklerinin ilkokul dördüncü sınıf öğrencilerinin STEM'e yönelik tutumlarına, 21. yüzyıl becerilerine ve matematik başarılarına etkisi,\" Yüksek Lisans/Doktora tezi, Ondokuz Mayıs Üniversitesi / Eğitim Bilimleri Enstitüsü / Temel Eğitim Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBtawbwjGNWi8EDD8gWOI1TmVtYH2jHBF1-RZEyM9H-bt",
+        "[2] SEÇİL BOZ, \"STEM eğitiminin öğrencilerin fen başarısına etkisi: Bir meta-analiz çalışması,\" Yüksek Lisans/Doktora tezi, Aksaray Üniversitesi / Fen Bilimleri Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=a0OMTmEd_3mfOBxT8SiBTMhtAZwkZlaFHPjct3bJsBOwNCrN3MHCdNUA6vhNXrbf",
+        "[3] MURAT TUNCAR, \"Ortaöğretimde fen ve matematik kazanımlarının STEM eğitim sürecine etkisi: Anadolu lisesi ve M.T.A.L örneği,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Eğitim Bilimleri Enstitüsü / Fen ve Matematik Alanlar Eğitimi Ana Bilim Dalı / Biyoloji Eğitimi Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vjszP7PzV0HebcjFEvDfwIIllphTWt0LG6HniVBsmsaeibEbx7ibPvG-1sVLoH2c",
+        "[4] ÜMRAN ATAY, \"STEM etkinliklerinin 4. sınıf öğrencilerinin STEM tutumlarına ve matematik başarılarına etkisi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Sosyal Bilimler Enstitüsü / Temel Eğitim Ana Bilim Dalı / Sınıf Öğretmenliği Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQqCEj9Xv77v8ITp7JrmLQOrqzZN4Q1Oi8cBnuMCvKjDO",
+        "[5] FATMA YAZAR, \"STEM yaklaşımının fen derslerine yansımasına yönelik bir uygulama: Çocuk Üniversitesi örneği,\" Yüksek Lisans/Doktora tezi, İnönü Üniversitesi / Eğitim Bilimleri Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı / Fen Bilgisi Eğitimi Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZbr1OsN-Xm52VSQQGETcweKG3CKu5CfW8oGbx9x6GSKqV",
+        "[6] BETÜL CENGİZ, \"STEM kapsamında yapılan bir uygulamanınöğrencilerin matematik başarı düzeyleri vetutumlarına etkisinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Eğitim Bilimleri Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı / Matematik Öğretmenliği Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-4e1jbrHhPd6U6sdp3JVZ7nxEA4yIgbPkZ6K4RIQeJcW",
+        "[7] MEDENİ DEMİR, \"Türkiye'de STEM ile ilgili yapılmış tez çalışmalarının eğilimleri,\" Yüksek Lisans/Doktora tezi, Aydın Adnan Menderes Üniversitesi / Fen Bilimleri Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı / Matematik Eğitimi Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiALm3yDf_YWwP3C3m0y7nfGF-vmljvHsZpRmPP3gfytv",
+        "[8] DERYA GÜNEŞ VAROL, \"Tasarım temelli STEM eğitimi etkinliklerinin 7. sınıf öğrencilerinde akademik başarılara, stem'e yönelik tutumlara ve STEM meslek ilgisine olan etkisinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Eğitim Bilimleri Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı / Fen Bilgisi Eğitimi Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fl0Kw4p1rmMDotyKRdYv1HfBPBRZqBtGLCqR5Lu0d6NYkvAFuCAUD_syXsgL84ev",
+        "[9] AYÇA ET, \"STEM eğitimine ilişkin öğretmen ve öğrenci algıları: Maltepe ilçesi özel okulları örneği,\" Yüksek Lisans/Doktora tezi, Maltepe Üniversitesi / Lisansüstü Eğitim Enstitüsü / Eğitim Yönetimi ve Denetimi Ana Bilim Dalı / Eğitim Yönetimi ve Denetimi Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGcSW3HOShzIfGdX4oH5tocl8_5Mva0DuctiuiPkKbWqW",
+        "[10] DİLARA NECCAR, \"Fen bilimleri dersinde STEM etkinliklerinin ortaokul öğrencilerinin başarısına, fene ilişkin tutumlarına ve STEM'e yönelik görüşlerine etkisi,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Eğitim Bilimleri Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı / Fen Bilgisi Eğitimi Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=T1mWGp9MngYYkCSgiJvtVlyNzTomaPSmVEktcSFHdJgCL-xkN_r2aA4yJr5aPjA9",
+        "[11] GİZEM BERK, \"DMÖN destekli STEM uygulamalarının oran – orantı ve yüzdeler konusunda etkisinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Eğitim Bilimleri Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı / Bilgisayar ve Öğretim Teknolojileri Eğitimi Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMs7XCRbxAhX3S5nTW97uiYfGfA9oUHzT4JEVCnj0G9nUt",
+        "[12] SALİHA GÖKÇEN, \"Fen ve matematik eğitiminde STEM uygulamalarına ilişkin lisansüstü tezlerin içerik analizi,\" Yüksek Lisans/Doktora tezi, Bartın Üniversitesi / Lisansüstü Eğitim Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5Sgvlgg-QTbBFIjgxnJWsccmSHAJH2O0uUVvDg0ABZSrRNat4D",
+        "[13] NİLAY TÜRK, \"Eğitim fakültelerinin lisans programlarına yönelik fen, teknoloji, mühendislik ve matematik (STEM) öğretim programının tasarlanması, uygulanması ve değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Eğitim Bilimleri Enstitüsü / Eğitim Bilimleri Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZlI4SWZcR8TXq6KvgI29v3zVbhITWoJuUbt2RZipaIle",
+        "[14] DEVRİM ERTUĞRUL, \"STEM temelli laboratuvar eğitiminin öğretmen adaylarının STEM hazır bulunuşluk düzeylerine, bilimsel süreç ve karar verme becerilerine etkisi,\" Yüksek Lisans/Doktora tezi, Düzce Üniversitesi / Lisansüstü Eğitim Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı / Fen Bilgisi Eğitimi Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kIrIdtdJ31bRgjb6fHvMUd0f716RjN6_zHLDpiNHwLhQQTixtkgKWgAvsqnu-IMn",
+        "[15] BÜŞRA GENÇ, \"Fen eğitiminde STEM: Bir içerik analiz çalışması,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Eğitim Bilimleri Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı / Fen Bilgisi Eğitimi Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkp5Te6j4SVdkrsHZTKwkmPS7l2yHXPjsUCFxNZWO88ix",
+        "[16] MURAT ÇETİNEL, \"Problem tabanlı STEM eğitiminin kullanıldığı tezler üzerine bir doküman analizi,\" Yüksek Lisans/Doktora tezi, Karamanoğlu Mehmetbey Üniversitesi / Fen Bilimleri Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı / Fen Bilgisi Eğitimi Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=P3dtmmHrq-mzEcmCLi1CqRn3jXrVxkv1fbxSEjs6B00BSKoOEqt6G_9Nyia6e1tA"
+      ]
+    }
+  },
+  "error": null
+}

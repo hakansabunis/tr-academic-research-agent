@@ -1,0 +1,382 @@
+{
+  "id": "q27",
+  "category": "sports",
+  "type": "method",
+  "question": "Yüksek yoğunluklu interval antrenmanın elit sporcuların performansına etkisi nasıl ölçülmüştür?",
+  "expected_subjects": [
+    "Spor"
+  ],
+  "min_citations": 3,
+  "result": {
+    "latency_seconds": 137.11,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Elit sporcularda HIIT'in aerobik kapasite (VO2max) üzerindeki etkisini ölçmek için hangi test protokolleri (ör. laboratuvar koşu bandı testi, saha testleri) kullanılmıştır?",
+          "rationale": "Yöntemsel açı: HIIT'in en temel fizyolojik çıktısı olan aerobik kapasitenin hangi ölçüm araçlarıyla değerlendirildiğini belirler."
+        },
+        {
+          "text": "HIIT müdahalesi sonrası elit sporcuların anaerobik güç ve sprint performansındaki değişim hangi spesifik testlerle (ör. Wingate testi, tekrarlı sprint testi) raporlanmıştır?",
+          "rationale": "Bulgu açısı: HIIT'in anaerobik bileşenler üzerindeki etkisini ölçen spesifik performans testlerini ortaya koyar."
+        },
+        {
+          "text": "HIIT'in elit sporcuların müsabaka performansına (ör. yarış süresi, güç çıktısı, teknik beceri) yansıması hangi saha veya simülasyon ölçümleriyle değerlendirilmiştir?",
+          "rationale": "Uygulama açısı: Laboratuvar bulgularının gerçek müsabaka performansına ne ölçüde aktarıldığını sorgular."
+        },
+        {
+          "text": "HIIT'in etkisini ölçen çalışmalarda kullanılan kontrol koşulları (ör. geleneksel dayanıklılık antrenmanı, pasif dinlenme) ve deneysel desenler (ör. randomize kontrollü çalışma, çapraz desen) nelerdir?",
+          "rationale": "Karşılaştırma açısı: Farklı çalışmalardaki metodolojik sağlamlığı ve karşılaştırma gruplarını değerlendirir."
+        },
+        {
+          "text": "Elit sporcularda HIIT performans ölçümlerinde karşılaşılan sınırlılıklar (ör. örneklem büyüklüğü, spor branşına özgüllük, plasebo etkisi) nelerdir ve bu sınırlılıklar bulguların genellenebilirliğini nasıl etkilemiştir?",
+          "rationale": "Sınırlılık açısı: Mevcut literatürdeki ölçüm zorluklarını ve metodolojik boşlukları belirler."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 28,
+      "max_score": 0.88,
+      "min_score": 0.8025,
+      "chunks": [
+        {
+          "tez_no": "196059",
+          "title_tr": "Halter ve polimetrik çalışmaların hızlanmaya etkisi",
+          "author": "ÇAĞLAR KAHRAMANOĞLU",
+          "year": 2007,
+          "score": 0.88,
+          "abstract_excerpt": "Effect to Acceleration of Weight lifting and Polymetric Exercise\u000bSpeed section which is being second phase of the sprint events is one of the most\u000bvital property that ascertain a sprinter quality. f a sprinter reach a top speed level in shortest\u000btıme, he can get chance to run very good result.\u000bThis "
+        },
+        {
+          "tez_no": "248420",
+          "title_tr": "Aerobik kapasitenin belirlenmesinde kullanılan saha ve alan testlerinin karşılaştırılması",
+          "author": "UTKU ALEMDAROĞLU",
+          "year": 2008,
+          "score": 0.8611,
+          "abstract_excerpt": "Bu araştırma, maksimal oksijen tüketimini belirlemek için kullanılan Bruce, Mekik ve Yo-yo testlerinden formüller yardımıyla elde edilen indirekt VO2maks-tahmin değerleriyle, bu testlerde oksijen analizörü kullanılarak belirlenen direkt VO2maks-ölçüm değerinin karşılaştırılması amacıyla yapılmıştır."
+        },
+        {
+          "tez_no": "651364",
+          "title_tr": "Sprint interval antrenmanlarının ve takip eden antrenmanı bırakma sürecinin aerobik güce etkisi",
+          "author": "CEBRAİL ALTINSOY",
+          "year": 2020,
+          "score": 0.8398,
+          "abstract_excerpt": "Yüksek şiddetteki interval antrenmanların aerobik antrenmanlara benzer aerobik kapasite artışı oluşturduğu belirtilmektedir. Antrenmanların kısmen veya tamamen bırakıldığı detraining döneminde antrenmanlardaki kazanımların kaybedildiği bilinmektedir. Bu araştırmanın amacı 4 hafta sprint interval koş"
+        },
+        {
+          "tez_no": "903669",
+          "title_tr": "14-18 yaş araliğindaki gençlerde yo-yo aralikli dayaniklilik testi kardiyorespiratuvar yanitlarinin incelenmesi",
+          "author": "BURAK ÖZSAKINÇ",
+          "year": 2024,
+          "score": 0.8397,
+          "abstract_excerpt": "Yo-Yo testleri, sporcuların performansını değerlendirmek için kullanılan saha\ntestleridir ve hem takım hem de bireysel sporlarda uygulanabilir. Testler, sporcuların\n20 metre aralıklı iki kule arasında gidip gelerek artan bir tempoda maksimum çaba\ngöstermelerini içerir. Testler, genellikle 2.5 metre "
+        },
+        {
+          "tez_no": "802417",
+          "title_tr": "Aerobik limit güç: zirve oksijen kullanımı veren en yüksek güç çıktısı aşıldığında enerji tüketimi daha anaerobik midir?",
+          "author": "ARDA PEKER",
+          "year": 2023,
+          "score": 0.8345,
+          "abstract_excerpt": "Şiddetli egzersiz alanının üst sınırının belirlenmesinde yaygın olarak kullanılan iki farklı yöntem bulunmaktadır. Hill ve arkadaşları (2002) bu sınırı belirleyebilmek için bitkinlikle sonlanan sabit yüklü şiddetli egzersizlerde maksimal O2 kullanımına (VO2maks) ulaşma zamanı ve tükenme zamanlarına "
+        },
+        {
+          "tez_no": "27639",
+          "title_tr": "Tırmanış antrenmanlarının aerobik performansın geliştirilmesine etkisi /",
+          "author": "MUSTAFA KARAHAN",
+          "year": 1993,
+          "score": 0.8322,
+          "abstract_excerpt": "Çalışmamıza Beden Eğitimi ve Spor Bölümü'nden 20 öğrenci katıldı. Bun larla 10 kişi kontrol, 10 kişi de deney olmaka üzere iki grup oluşturuldu. Hem kontrol hem de deney grubu sporcuların Max Vo2 değerleri, Prof. Dr. Ahmet Bilge Araştırma Laboratuvarına alındı. Deney grubu öğrencilerle, eğimi 22 der"
+        },
+        {
+          "tez_no": "765666",
+          "title_tr": "Milli krosçularda 8 haftalık yoğun  interval antrenmanının çeviklik,  denge, esneklik ve anaerobik güç parametrelerine etkisi",
+          "author": "AYŞENUR BAYRAKTAR",
+          "year": 2022,
+          "score": 0.832,
+          "abstract_excerpt": "Bu araştırmada 8 haftalık yoğun interval antrenmanlarının milli kros sporcularının çeviklik, denge, esneklik ve anaerobik güç parametrelerine etkisi incelenmeye çalışılmıştır. Özgün bir antrenman çeşidi olan yoğun interval antrenman programının Kros sporcularının fiziksel uygunlukları üzerindeki etk"
+        },
+        {
+          "tez_no": "431649",
+          "title_tr": "Genç sedanter bireylerde tip 1 lif oranı yüksek kaslara yönelik yapılan ilerleyici dirençli egzersizin aerobik kapasiteye etkisinin incelenmesi",
+          "author": "ELİF ŞAHİN",
+          "year": 2016,
+          "score": 0.8313,
+          "abstract_excerpt": "Aerobik kapasite bireylerin fiziksel uygunluk düzeyini hem belirleyen hem de sınırlayan önemli bir kriterdir. Aerobik egzersizler bu kapasitenin gelişimi için önemli bir anahtar olmakla birlikte bu egzersizlerin uygulanması her birey için her zaman mümkün olmamaktadır. Bu çalışmada aerobik egzersizl"
+        },
+        {
+          "tez_no": "791060",
+          "title_tr": "Farklı sprint interval modellerinden alınan metabolik ve fizyolojik akut yanıtların değerlendirilmesi",
+          "author": "HAKAN AS",
+          "year": 2018,
+          "score": 0.8311,
+          "abstract_excerpt": "Bisiklette uygulanan geleneksel sprint interval türü olan Wingate tipi interval (vücut kütlesinin %7,5'i ile; 6 x 30-sn maksimal yüklenme; 1:8 yüklenme/dinlenme oranı), takip eden yüklenmelerde pedal devir hızlarının dramatik bir şekilde düşmesine bağlı olarak \"aralıklı sprint\" özelliğinin kaybedild"
+        },
+        {
+          "tez_no": "69174",
+          "title_tr": "Egzersiz öncesi uygulanan oksijen aplikasyonunun performans ve rejenerasyon üzerine etkisi",
+          "author": "CENGİZHAN ÖZGÜRBÜZ",
+          "year": 1998,
+          "score": 0.8295,
+          "abstract_excerpt": "ÖZET Maksimal oksijen kullanımı dayanıklılık sporlarında önemli bir performans kriteridir. Aerobik enerji eldesi anaerobik enerji kazanımından çok daha efektiftir. Bu nedenle mVO^nin özellikle aerobik kısmım geliştirmek endürans ağırlıklı spor branşlarryla uğraşan sporcuların ana hedeflerinden birid"
+        },
+        {
+          "tez_no": "805485",
+          "title_tr": "Kan akışı kısıtlamalı farklı pliometrik sıçramaların aktivasyon sonrası potansiyasyon etkisi",
+          "author": "SEYFULLAH ÇELİK",
+          "year": 2023,
+          "score": 0.828,
+          "abstract_excerpt": "Bu çalışma, kan akışı kısıtlamalı pliometrik sıçramalar ile uygulanan farklı ön yüklenme protokollerinin sprint performansına aktivasyon sonrası potansiyasyon etkilerinin incelenmesi amacıyla yapılmıştır. \n\nRandomize çapraz araştırma tasarımı kullanılarak yapılan bu çalışmaya, spor yaşı en az 7 yıl "
+        },
+        {
+          "tez_no": "49080",
+          "title_tr": "Elit cimnastik sporcularının fizyolojik parametrelerinin kuvvet parametreleri ile mukayesesi /",
+          "author": "TURAN KUZUCUOĞLU",
+          "year": 1996,
+          "score": 0.8258,
+          "abstract_excerpt": "144 ÖZET Bu çalışmada; minikler (X = 11,75±0.79 yaş), yıldızlar (X = 15.06±1 yaş) ve büyükler (X = 18.89±3.59 yaş) kategorilerinde yer alan toplam 45 artistik erkek cimnastikçinin motorik, fizyolojik ve morfolojik öz \"\" 'eri belirlenerek bu özelliklerin performansa etkisi araştırıldı. Antropometrik,"
+        },
+        {
+          "tez_no": "750979",
+          "title_tr": "Genç halter sporcularının bazı antropometrik değerleri ile halter performansları arasındaki ilişkilerin araştırılması",
+          "author": "BURAK ERTUĞRUL EROĞLU",
+          "year": 2022,
+          "score": 0.8237,
+          "abstract_excerpt": "Gelişme ve motor performans arasındaki ilişki genelde antropometrik faktörlere bağlıdır ve performansta önemli bir unsur olarak kabul edilmektedir. İstisnalar olsa da elit halterciler, hareketsiz bireylere kıyasla daha kısa uzuvlara ve nispeten uzun bir gövdeye sahip olma eğilimindedir. Aynı vücut k"
+        },
+        {
+          "tez_no": "98923",
+          "title_tr": "Modern olimpiyat oyunlarında atletizm rekorlarını hazırlayan faktörler ve gelişimi",
+          "author": "AHMET KORKUT YAPICI",
+          "year": 2000,
+          "score": 0.8202,
+          "abstract_excerpt": "Literatürde \"Atletizm\" olarak kullanılan koşma, atma, atlama ve çoklu yarışma disiplinlerini kapsayan kelimenin Fransızca \"L'ATLETİSME\" den geldiği yine literatürde \"Atlet\" diye adlandırdığımız sporcu ise eski Yunanca'da \"athletes\" diye yazılan bu kelime, tam anlamı ile \"bir ödül karşılığı yarışan k"
+        },
+        {
+          "tez_no": "529217",
+          "title_tr": "Elit seviyedeki atletizm ve kayaklı koşu sporcularının bazı fiziksel özelliklerinin karşılaştırılması",
+          "author": "MUZAFFER ZEPAK",
+          "year": 2018,
+          "score": 0.8177,
+          "abstract_excerpt": "Bilim ve teknoloji alanında son yıllarda meydana gelen hızlı gelişmeler spor bilimlerini de en üst düzeyde etkileyerek bu biliminde gelişmesine katkı sunmuştur. Son dönemlerde sporcuların elde ettiği üst düzey başarıların temelinde ise gelişen bilimlerin birbirlerine katkı sunarak sporcuların daha v"
+        },
+        {
+          "tez_no": "521960",
+          "title_tr": "Kinetik ve kinematik ölçüm parametrelerine dayalı üst ekstremite antrenman cihazının tasarımı ve gerçekleştirilmesi",
+          "author": "ERKAN YILMAZ",
+          "year": 2018,
+          "score": 0.8103,
+          "abstract_excerpt": "Bedensel gelişmeyi sağlamak, eğlenmek ve yarışmak amacı ile belli kural ve tekniklere uyularak yapılan beden hareketlerinin tümü spor olarak adlandırılmaktadır. Spor, toplumların ekonomik, siyasi ve kültürel zenginliğini gösteren en önemli sosyal etkinlikler içerisinde yer almaktadır. Teknolojide ya"
+        },
+        {
+          "tez_no": "885746",
+          "title_tr": "Genç haltercilerin solunum kas kuvveti parametreleri ve aerobik uygunluk düzeylerinin farklı branşlar ile karşılaştırılması",
+          "author": "EBUBEKİR KEKEÇ",
+          "year": 2024,
+          "score": 0.8068,
+          "abstract_excerpt": "Araştırmanın amacı; haltercilerin solunum kas kuvvet parametreleri ve aerobik uygunluk\ndüzeyinin farklı branş sporcuları ve spor yapmayan bireyler ile karşılaştırılmasıdır. Çalışmaya,\n12-14 yaş aralığında halter (n=13), güreş (n=15), futbol (n=14), yüzme (n=15) ve kontol grubu\nolarak spor yapmayan ("
+        },
+        {
+          "tez_no": "562569",
+          "title_tr": "U19 futbolcularda 8 haftalık yüksek yoğunluklu interval antrenmanın sürat, çeviklik ve ivmelenme üzerine etkisi",
+          "author": "KADİR GÖKKURT",
+          "year": 2019,
+          "score": 0.8055,
+          "abstract_excerpt": "Bu çalışmada U19 futbolcularda 8 haftalık yüksek yoğunluklu interval antrenmanın sürat, çeviklik ve ivmelenme üzerine etkisinin incelenmesi amaçlanmıştır. \nBu araştırmaya Türkiye Futbol Federasyonu (TFF) 2. Lig ekiplerinden Anadolu Selçukspor U19 futbol takımından sağlıklı 22 futbolcu gönüllü olarak"
+        },
+        {
+          "tez_no": "869141",
+          "title_tr": "Sporcular için sensör verileri üzerinden yapay zeka ile performans yönetimi",
+          "author": "YASİN ZENCİR",
+          "year": 2024,
+          "score": 0.8034,
+          "abstract_excerpt": "Teknoloji ve teknolojik araçların gelişmesi ile beraber yaşamımızın bütün alanlarında olduğu gibi spor alanında da insan yararına kullanılabilen cihaz ve uygulamaların sayısı ve kalitesi de gün geçtikçe artmaktadır. Günümüzde birçok teknolojik araç ve yöntem kullanarak sporculara ait önemli performa"
+        },
+        {
+          "tez_no": "484737",
+          "title_tr": "Farklı ortamlarda uygulanan tabata yüksek şiddetli interval antrenmanın aerobik ve anaerobik performansa etkisi",
+          "author": "SEZGİN KORKMAZ",
+          "year": 2017,
+          "score": 0.8028,
+          "abstract_excerpt": "Amaç: Bu çalışmanın amacı sağlıklı, orta düzeyde aktif bireylerde karada ve derin su içerisinde uygulanan Tabata yüksek şiddetli interval antrenmanın aerobik ve anaerobik performansa etkisinin ortaya konulmasıdır.\nYöntem: Araştırmaya 18-25 yaş aralığında 45 erkek 46 kadın 91 katılımcı gönüllü olarak"
+        },
+        {
+          "tez_no": "872205",
+          "title_tr": "Hokey sporcularına uygulanan intensive interval antrenman metodunun bazı fiziksel ve fizyolojik parametreler üzerine etkisi",
+          "author": "MUHAMMED ŞAHİN",
+          "year": 2024,
+          "score": 0.8018,
+          "abstract_excerpt": "Bu tezin amacı, hokey sporcularına 8 hafta süreyle uygulanan intensive interval antrenman metodunun bazı fiziksel ve fizyolojik parametreler üzerine etkisinin incelenmesidir. Çalışmaya aktif olarak u16 yaş kategorisinde müsabakalara katılım sağlayan, haftada en az 5 gün düzenli antrenman yapan 24 ho"
+        },
+        {
+          "tez_no": "567223",
+          "title_tr": "Kürek sporunda farklı interval yöntemlerin kürek performansına etkisi",
+          "author": "CEYLAN KAYA",
+          "year": 2019,
+          "score": 0.8003,
+          "abstract_excerpt": "Kürek Sporunda Farklı İnterval Yöntemlerin Kürek Performansına Etkisi\nAmaç: Bu çalışma, 13-15 yaş grubu kürek sporcularında farklı interval yöntemlerin kürek performansına etkisi belirlemek amacı ile yapılmıştır.\nYöntem: Şişecam Çayırova Spor Kulübünde kürek çeken 10 erkek ve 10 kadın sporcu katılmı"
+        },
+        {
+          "tez_no": "728982",
+          "title_tr": "Mücadele sporcularının atletik becerileri, antropometrik özellikleri ve motor yeterliliklerine özgü elit performans özelliklerinin belirlenmesi",
+          "author": "HİLAL GÜRSOY",
+          "year": 2021,
+          "score": 0.7976,
+          "abstract_excerpt": "Bu araştırmada elit ve alt elit mücadele sporcularının atletik becerileri, antropometrik özellikleri ve motor yeterlikleri açısından nasıl ve hangi parametrelerde farklılaştığının belirlenmesi amaçlanmıştır. Araştırma grubu, tekvando, karate, judo ve güreş branşlarında lisanslı olarak spor yapan 12-"
+        },
+        {
+          "tez_no": "757215",
+          "title_tr": "Hacamat uygulamasının sporcuların bazı parametreleri üzerindeki etkisinin incelenmesi",
+          "author": "ABDULLAH AKOVA",
+          "year": 2022,
+          "score": 0.7877,
+          "abstract_excerpt": "Peygamber Efendimiz Hz. Muhammed (sav), yaşamının her anında insanlığa örnek olmuş ve tavsiyelerde bulunmuştur. Peygamber Efendimizin bize tavsiye ettiği birçok şey günümüzde daha iyi kavranmakta ve bilimsel olarak da kanıtlanabilir nitelikler kazanmaktadır. Bu duruma örnek verecek olursak 'Hacamat'"
+        },
+        {
+          "tez_no": "88674",
+          "title_tr": "Dayanıklılığın değerlendirilmesinde mekik koşusunun güvenirliği ve geçerliği",
+          "author": "TAHİR HAZIR",
+          "year": 2000,
+          "score": 0.8155,
+          "abstract_excerpt": "Aerobik dayanıklılığın değerlendirilmesinde Modifıye Mekik Koşusu (MMK)'nun güvenirliği ve geçerliğini saptamak amacıyla yapılan bu çalışmaya 20 erkek denek gönüllü olarak katıldı. MMK testinin güvenirliği için, 2-3 gün ara ile üç kez sahada (spor salonunda) 20 m'lik bir parkurda 8 km.h\"1 başlangıç "
+        },
+        {
+          "tez_no": "542574",
+          "title_tr": "Alan araştırmalarında güvenilirlik testlerinin karşılaştırılması ve istatistik eğitimi üzerine bir uygulama",
+          "author": "ECE UZUNSAKAL",
+          "year": 2018,
+          "score": 0.813,
+          "abstract_excerpt": "Rutin yaşantımızda ve bilimsel alanda bilhassa da istatistik biliminde alan araştırmalarında ölçme önemli bir yere sahiptir. Verilerin yansız ve güvenilir biçimde elde edilmesi istatistiksel araştırmalar yapabilmek için gereklidir. Verilerin istatistiksel yapıya uygun veriler olmasını sağlayan şey d"
+        },
+        {
+          "tez_no": "298797",
+          "title_tr": "Maksimum (doruk) kuvveti geliştirmede alternatif bir metod",
+          "author": "MEHMET TOPUZ",
+          "year": 2011,
+          "score": 0.8049,
+          "abstract_excerpt": "Maksimum kuvveti geliştirmede göğüs press egzersiz programının çalışmalara başlamadan önce belirlenen maksimal ağırlık ile; set sayısı, tekrar ve yüzde değişimi ile her hafta maksimali belirlemeye gerek kalmadan etkili bir maksimum kuvvet gelişim metodu belirlemek amaçlanmıştır.Üç değişik yaş grubun"
+        },
+        {
+          "tez_no": "789735",
+          "title_tr": "Tenise özgü anaerobik eşik belirleme testinin geçerlik ve güvenirliği: Kaotik yoğunluklu tenis testi (KATTT)",
+          "author": "OSMAN DİŞÇEKEN",
+          "year": 2023,
+          "score": 0.8025,
+          "abstract_excerpt": "Bu çalışma ile Tenise özgü anaerobik eşik belirlemeye dönük Kaotik Yoğunluklu Tenis Testi (KAYTT)'nden elde edilen veriler ile testin geçerlik ve güvenirliğinin saptanması ve bu sayaede tenise özgü saha dayanıklılık testinin geliştirilmesi amaçlanmıştır.\nÇalışmaya ITN skoru 7 ve daha iyi olan 35 erk"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 6,
+      "findings": [
+        {
+          "claim": "Yüksek yoğunluklu interval antrenmanın (HIIT) etkisi, sürat (hız), çeviklik ve ivmelenme parametreleri üzerinden ölçülmüştür.",
+          "citations": [
+            "562569",
+            "765666",
+            "872205"
+          ]
+        },
+        {
+          "claim": "HIIT'in aerobik kapasite (VO2maks) üzerindeki etkisi, saha testleri (Yo-Yo testi, mekik koşusu testi) ve laboratuvar ölçümleri ile değerlendirilmiştir.",
+          "citations": [
+            "248420",
+            "651364",
+            "903669",
+            "885746",
+            "484737",
+            "88674"
+          ]
+        },
+        {
+          "claim": "HIIT'in anaerobik güç üzerindeki etkisi Wingate anaerobik testi ile ölçülmüştür.",
+          "citations": [
+            "765666",
+            "484737",
+            "791060"
+          ]
+        },
+        {
+          "claim": "HIIT'in etkisi, fiziksel ve fizyolojik parametreler (kalp atım sayısı, solunum kas kuvveti, denge, esneklik) üzerinden değerlendirilmiştir.",
+          "citations": [
+            "765666",
+            "872205",
+            "885746"
+          ]
+        },
+        {
+          "claim": "HIIT'in etkisi, farklı interval modelleri (Wingate tipi, Tabata, intensive interval) karşılaştırılarak ölçülmüştür.",
+          "citations": [
+            "791060",
+            "484737",
+            "567223",
+            "872205"
+          ]
+        },
+        {
+          "claim": "HIIT'in etkisi, detraining (antrenmanı bırakma) sürecindeki değişiklikler izlenerek ölçülmüştür.",
+          "citations": [
+            "651364"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Kaynaklarda HIIT'in farklı spor branşlarında (futbol, hokey, kros, kürek) farklı parametreler üzerinden ölçüldüğü görülmektedir; ancak doğrudan bir çelişki bulunmamaktadır."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "HIIT'in psikolojik/algısal ölçüm yöntemleri (RPE, zorluk derecesi algısı) belirtilmemiş",
+        "HIIT'in kan/laktat bazlı ölçüm yöntemleri (kan laktatı, pH, bikarbonat) eksik",
+        "HIIT'in nöromüsküler ölçüm yöntemleri (EMG, kas oksijenasyonu) yer almamış",
+        "HIIT'in performans ölçümünde kullanılan spesifik protokol detayları (iş:dinlenme oranı, set sayısı, toparlanma süresi) eksik",
+        "HIIT'in müsabaka performansına transferinin nasıl ölçüldüğü (maç analizi, yarış simülasyonu) belirtilmemiş",
+        "HIIT'in uzun vadeli etkilerinin ölçümü (periyodizasyon, takip süresi) eksik"
+      ],
+      "requery_terms": [
+        "HIIT kan laktat ölçümü elit sporcu",
+        "HIIT RPE algılanan zorluk ölçümü",
+        "HIIT nöromüsküler EMG ölçümü",
+        "HIIT müsabaka performansı transfer ölçümü",
+        "HIIT iş dinlenme oranı protokol karşılaştırması",
+        "HIIT periyodizasyon uzun dönem takip"
+      ],
+      "notes": "Mevcut sentez fiziksel ve fizyolojik parametreleri kapsasa da, ölçüm yöntemleri açısından önemli boşluklar var: (1) Psikolojik/algısal ölçümler (RPE, Borg skalası) hiç yer almamış; (2) Biyokimyasal ölçümler (kan laktatı, pH, hormonal yanıtlar) eksik; (3) Nöromüsküler ölçümler (EMG, kas oksijenasyonu, NIRS) belirtilmemiş; (4) Spesifik protokol detayları (iş:dinlenme oranı, interval süresi, set sayısı) ölçüm bağlamında ele alınmamış; (5) Müsabaka performansına transfer (maç istatistikleri, yarış performansı) ölçüm yöntemi olarak belirtilmemiş; (6) Uzun vadeli etki ölçümü (periyodizasyon, takip süresi, detraining dışında) eksik. Bu alt-açılar 'HIIT'in etkisi nasıl ölçülmüştür?' sorusunun kapsamını daraltmaktadır."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nYüksek yoğunluklu interval antrenmanın (HIIT) elit sporcuların performansına etkisi, spor bilimleri literatüründe çok boyutlu bir ölçüm yaklaşımıyla ele alınmıştır. Mevcut bulgular, HIIT'in etkisinin aerobik kapasite, anaerobik güç, sürat, çeviklik, ivmelenme ve çeşitli fizyolojik parametreler üzerinden değerlendirildiğini göstermektedir. Bu ölçümler, hem saha testleri hem de laboratuvar tabanlı protokoller aracılığıyla gerçekleştirilmiş; farklı interval modellerinin karşılaştırılması ve antrenmanı bırakma (detraining) sürecindeki değişimlerin izlenmesi yoluyla da HIIT'in performansa etkisi kapsamlı biçimde incelenmiştir.\n\n## Sürat, Çeviklik ve İvmelenme Parametreleri\n\nHIIT'in etkisi, özellikle takım sporlarında sürat (hız), çeviklik ve ivmelenme parametreleri üzerinden ölçülmüştür. U19 futbolcularda 8 haftalık yüksek yoğunluklu interval antrenmanın sürat, çeviklik ve ivmelenme üzerindeki etkisi deneysel desenle incelenmiş; deney ve kontrol grubu karşılaştırması yapılmıştır [18]. Benzer biçimde, milli krosçularda 8 haftalık yoğun interval antrenmanının çeviklik, denge ve esneklik parametrelerine etkisi araştırılmıştır [7]. Hokey sporcularına uygulanan intensive interval antrenman metodunun ise bazı fiziksel ve fizyolojik parametreler üzerindeki etkisi değerlendirilmiştir [21].\n\n## Aerobik Kapasite (VO₂maks) Ölçümleri\n\nHIIT'in aerobik kapasite üzerindeki etkisi, hem saha testleri hem de laboratuvar ölçümleri ile değerlendirilmiştir. Saha testleri arasında Yo-Yo aralıklı dayanıklılık testi ve mekik koşusu testi öne çıkmaktadır [2][4][25]. Yo-Yo testleri, sporcuların 20 metre aralıklı iki kule arasında gidip gelerek artan bir tempoda maksimum çaba göstermelerini içeren, hem takım hem de bireysel sporlarda uygulanabilen saha testleridir [4]. Mekik koşusu testinin aerobik dayanıklılığın değerlendirilmesinde güvenirliği ve geçerliği ayrıca incelenmiştir [25]. Sprint interval antrenmanlarının aerobik kapasite artışı oluşturduğu ve bu artışın detraining döneminde izlenebildiği belirtilmektedir [3]. Ayrıca, farklı ortamlarda (kara ve derin su) uygulanan Tabata yüksek şiddetli interval antrenmanın aerobik performansa etkisi mekik koşusu testi ile ölçülmüştür [20]. Haltercilerin aerobik uygunluk düzeyleri ise Yo-Yo testi kullanılarak değerlendirilmiştir [17].\n\n## Anaerobik Güç Ölçümleri\n\nHIIT'in anaerobik güç üzerindeki etkisi, yaygın olarak Wingate anaerobik testi ile ölçülmüştür. Milli krosçularda yoğun interval antrenmanın anaerobik güç parametrelerine etkisi Wingate testi ile değerlendirilmiştir [7]. Tabata protokolünün anaerobik performansa etkisi de aynı test aracılığıyla incelenmiştir [20]. Farklı sprint interval modellerinden alınan metabolik ve fizyolojik akut yanıtların değerlendirilmesinde de Wingate tipi interval protokolü kullanılmıştır [9].\n\n## Fiziksel ve Fizyolojik Parametreler\n\nHIIT'in etkisi, kalp atım sayısı, solunum kas kuvveti, denge ve esneklik gibi fiziksel ve fizyolojik parametreler üzerinden de değerlendirilmiştir [7][21][17]. Genç haltercilerde solunum kas kuvveti parametreleri Powerbreathe K5 cihazı ile ölçülmüş; aerobik uygunluk düzeyleri ise Yo-Yo testi ile belirlenmiştir [17]. Hokey sporcularında intensive interval antrenmanın fiziksel ve fizyolojik parametrelere etkisi incelenirken kalp atım sayısı gibi temel fizyolojik göstergeler de ölçüm kapsamına alınmıştır [21].\n\n## Farklı İnterval Modellerinin Karşılaştırılması\n\nHIIT'in etkisi, farklı interval modellerinin karşılaştırılması yoluyla da ölçülmüştür. Bisiklette uygulanan geleneksel Wingate tipi interval (vücut kütlesinin %7,5'i ile 6×30 saniye maksimal yüklenme; 1:8 yüklenme/dinlenme oranı) ile alternatif sprint interval modelleri metabolik ve fizyolojik yanıtlar açısından karşılaştırılmıştır [9]. Tabata yüksek şiddetli interval antrenmanın karada ve derin suda uygulanmasının aerobik ve anaerobik performansa etkisi incelenmiştir [20]. Kürek sporunda farklı interval yöntemlerin kürek performansına etkisi araştırılmış [22]; hokey sporcularında ise intensive interval antrenman metodu uygulanmıştır [21].\n\n## Detraining Sürecinin İzlenmesi\n\nHIIT'in etkisi, antrenmanı bırakma (detraining) sürecindeki değişiklikler izlenerek de ölçülmüştür. Dört hafta sprint interval koşu antrenmanının aerobik performansa etkisi ile takip eden detraining döneminde aerobik performans değişiklikleri incelenmiş; antrenmanların kısmen veya tamamen bırakıldığı detraining döneminde kazanımların kaybedildiği gözlenmiştir [3].\n\n## Sonuç\n\nYüksek yoğunluklu interval antrenmanın elit sporcuların performansına etkisi, çok yönlü bir ölçüm yaklaşımıyla değerlendirilmiştir. Aerobik kapasite (VO₂maks) Yo-Yo testi ve mekik koşusu gibi saha testleri ile ölçülürken; anaerobik güç Wingate testi ile belirlenmiştir. Sürat, çeviklik ve ivmelenme parametreleri saha performans testleriyle; solunum kas kuvveti, kalp atım sayısı, denge ve esneklik gibi fizyolojik parametreler ise özel cihaz ve protokollerle değerlendirilmiştir. Farklı interval modellerinin (Wingate tipi, Tabata, intensive interval) karşılaştırılması ve detraining sürecinin izlenmesi, HIIT'in performansa etkisini anlamada tamamlayıcı yöntemler olarak öne çıkmaktadır. Kaynaklarda farklı spor branşlarında (futbol, hokey, kros, kürek) farklı parametreler üzerinden ölçüm yapıldığı görülmekle birlikte, bu durum doğrudan bir çelişki oluşturmamakta; aksine HIIT'in etkisinin branşa özgü performans bileşenleri bağlamında değerlendirildiğini göstermektedir.",
+      "n_citations": 28,
+      "citations_ieee": [
+        "[1] ÇAĞLAR KAHRAMANOĞLU, \"Halter ve polimetrik çalışmaların hızlanmaya etkisi,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sağlık Bilimleri Enstitüsü / Beden Eğitimi ve Spor Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=XohQ0H2mJnBfxLPsY8dG4w-N4e4d19cIVhj9zyiP4ZJJSAPYCvPKebeD5jSpyVzF",
+        "[2] UTKU ALEMDAROĞLU, \"Aerobik kapasitenin belirlenmesinde kullanılan saha ve alan testlerinin karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Pamukkale Üniversitesi / Sağlık Bilimleri Enstitüsü / Antrenman ve Hareket Ana Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAVxmdpbuuSU7wzY5KhiOl4_8-s-WlC6KsUql_3GnsRih",
+        "[3] CEBRAİL ALTINSOY, \"Sprint interval antrenmanlarının ve takip eden antrenmanı bırakma sürecinin aerobik güce etkisi,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sağlık Bilimleri Enstitüsü / Rekreasyon Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMs3EBnxkXrN_MC8ghnadFWM9E3HVvcWUk0DfPKGJ-UKxh",
+        "[4] BURAK ÖZSAKINÇ, \"14-18 yaş araliğindaki gençlerde yo-yo aralikli dayaniklilik testi kardiyorespiratuvar yanitlarinin incelenmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Gedik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Beden Eğitimi ve Spor Bilimleri Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=LY6e5xGA7WWUpEdrBmEPLlyZjgaZp9IbCu5ggE-oqZOTHqoZMBl9PT4aZXze303E",
+        "[5] ARDA PEKER, \"Aerobik limit güç: zirve oksijen kullanımı veren en yüksek güç çıktısı aşıldığında enerji tüketimi daha anaerobik midir?,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sağlık Bilimleri Enstitüsü / Hareket ve Antrenman Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=j_Fjwp4JS4mk97Puqti8rvnmldqOcUQy1MTVzy8Kkk9PwfHP08Ws6L6u1t-KVf06",
+        "[6] MUSTAFA KARAHAN, \"Tırmanış antrenmanlarının aerobik performansın geliştirilmesine etkisi /,\" Yüksek Lisans/Doktora tezi, Erciyes Üniversitesi / Sağlık Bilimleri Enstitüsü / Yüksek İrtifa ve Spor Bilimleri Bilim Dalı, 1993. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=veR1mHu9yoWjwcVUjCEoPFYxi6IAfZhhbU55NeF7qhL63i6RPY60h4He04paKNpS",
+        "[7] AYŞENUR BAYRAKTAR, \"Milli krosçularda 8 haftalık yoğun  interval antrenmanının çeviklik,  denge, esneklik ve anaerobik güç parametrelerine etkisi,\" Yüksek Lisans/Doktora tezi, Iğdır Üniversitesi / Lisansüstü Eğitim Enstitüsü / Beden Eğitimi ve Spor Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiK6BX8xQzDjuVA50GRvM7Zuetna6yEosC46PPrlODz8w",
+        "[8] ELİF ŞAHİN, \"Genç sedanter bireylerde tip 1 lif oranı yüksek kaslara yönelik yapılan ilerleyici dirençli egzersizin aerobik kapasiteye etkisinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Sağlık Bilimleri Enstitüsü / Fizyoloji Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cbOXH84ZayrLjc0tI-QXKrsF3fta-zORVI2Fhr4R2MDhm-DRQjmqUu2hie9uNzKU",
+        "[9] HAKAN AS, \"Farklı sprint interval modellerinden alınan metabolik ve fizyolojik akut yanıtların değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sağlık Bilimleri Enstitüsü / Spor Sağlık Bilimleri Ana Bilim Dalı / Spor Bilimleri Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=G_oJ1rKE4SgJUkomyAKpRzu975sGPSfscq7Cxn9Bh_1lfg3VL2zoeAq1DhBllMvQ",
+        "[10] CENGİZHAN ÖZGÜRBÜZ, \"Egzersiz öncesi uygulanan oksijen aplikasyonunun performans ve rejenerasyon üzerine etkisi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Tıp Fakültesi / Spor Hekimliği Ana Bilim Dalı, 1998. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=tqUiYt63sTQLTpozMJ92QvfPSRJNZybW-8fEGX3bnYKMQwf6hhq-q0THgYniil4F",
+        "[11] SEYFULLAH ÇELİK, \"Kan akışı kısıtlamalı farklı pliometrik sıçramaların aktivasyon sonrası potansiyasyon etkisi,\" Yüksek Lisans/Doktora tezi, Ankara Yıldırım Beyazıt Üniversitesi / Sağlık Bilimleri Enstitüsü / Beden Eğitimi ve Spor Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=j_Fjwp4JS4mk97Puqti8ruuNUr7lN_ornLGnGW_5m552PKaY-P7OiIe9uWEP99Jl",
+        "[12] TURAN KUZUCUOĞLU, \"Elit cimnastik sporcularının fizyolojik parametrelerinin kuvvet parametreleri ile mukayesesi /,\" Yüksek Lisans/Doktora tezi, İnönü Üniversitesi / Sağlık Bilimleri Enstitüsü / Beden Eğitimi ve Spor Ana Bilim Dalı, 1996. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vbVkXe1KChYWNElr1MuLZj181lUghtnIhqCU6lCICTt2ipwPucK6EP8R8Fkynfmk",
+        "[13] BURAK ERTUĞRUL EROĞLU, \"Genç halter sporcularının bazı antropometrik değerleri ile halter performansları arasındaki ilişkilerin araştırılması,\" Yüksek Lisans/Doktora tezi, Necmettin Erbakan Üniversitesi / Eğitim Bilimleri Enstitüsü / Beden Eğitimi ve Spor Ana Bilim Dalı / Beden Eğitimi ve Spor Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RsTBl6RWK25OBMIKtIgYYfbvHx3zv8vl3GYCBEXkDvcj-wK8XrLMlKZC_-PiRQaP",
+        "[14] AHMET KORKUT YAPICI, \"Modern olimpiyat oyunlarında atletizm rekorlarını hazırlayan faktörler ve gelişimi,\" Yüksek Lisans/Doktora tezi, Dumlupınar Üniversitesi / Sosyal Bilimler Enstitüsü / Beden Eğitimi ve Spor Ana Bilim Dalı, 2000. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CtwiQkYvArAb95Ufpfs_vroJB9PP_3m9_MWhRKk6O061ADPOX2busFeqUVs7EIhD",
+        "[15] MUZAFFER ZEPAK, \"Elit seviyedeki atletizm ve kayaklı koşu sporcularının bazı fiziksel özelliklerinin karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Ağrı İbrahim Çeçen Üniversitesi / Sosyal Bilimler Enstitüsü / Hareket ve Antrenman Bilimleri Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fS4sqEZr79C_n60Rk6MjFX5DbZRJiNnCLJl6wFtNdwr2VcwRmPEO5GSliLPk94aZ",
+        "[16] ERKAN YILMAZ, \"Kinetik ve kinematik ölçüm parametrelerine dayalı üst ekstremite antrenman cihazının tasarımı ve gerçekleştirilmesi,\" Yüksek Lisans/Doktora tezi, Afyon Kocatepe Üniversitesi / Fen Bilimleri Enstitüsü / Biyomedikal Mühendisliği Ana Bilim Dalı / Biyomedikal Mühendisliği Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fS4sqEZr79C_n60Rk6MjFQV-mkkLIkf_oKKlgzPISepM6AlH9hY0CZyLDsR8KiHI",
+        "[17] EBUBEKİR KEKEÇ, \"Genç haltercilerin solunum kas kuvveti parametreleri ve aerobik uygunluk düzeylerinin farklı branşlar ile karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Hitit Üniversitesi / Lisansüstü Eğitim Enstitüsü / Antrenörlük Eğitimi Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-7xPR4xB46s7RAndKnzEAW4ljorbvsU4bEi6PMv7YbKt",
+        "[18] KADİR GÖKKURT, \"U19 futbolcularda 8 haftalık yüksek yoğunluklu interval antrenmanın sürat, çeviklik ve ivmelenme üzerine etkisi,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sağlık Bilimleri Enstitüsü / Antrenörlük Eğitimi Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZj5aMsY9HeELZplfJmxoMloXBLhR6qys40Tjc-yfGYhg",
+        "[19] YASİN ZENCİR, \"Sporcular için sensör verileri üzerinden yapay zeka ile performans yönetimi,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / İşletme Enstitüsü / Yönetim Bilişim Sistemleri Ana Bilim Dalı / Yönetim Bilişim Sistemleri Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQm3RXN_wNYPvkbxIKrYR6pFJ6jZYe53-sZVYX5eNLue-",
+        "[20] SEZGİN KORKMAZ, \"Farklı ortamlarda uygulanan tabata yüksek şiddetli interval antrenmanın aerobik ve anaerobik performansa etkisi,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Sağlık Bilimleri Enstitüsü / Spor Bilimleri Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RrI-Krk3A-RkF4YfHofuk44HNQJJ31VkVJXb5hZ-hNxjJdhM14l2kPWKa3aOYyNE",
+        "[21] MUHAMMED ŞAHİN, \"Hokey sporcularına uygulanan intensive interval antrenman metodunun bazı fiziksel ve fizyolojik parametreler üzerine etkisi,\" Yüksek Lisans/Doktora tezi, Mardin Artuklu Üniversitesi / Lisansüstü Eğitim Enstitüsü / Beden Eğitimi ve Spor Ana Bilim Dalı / Beden Eğitimi ve Spor Eğitimi Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1pwTzRXnomYf6jwqVORfUfsP37dO1gFdxoIFlM6H_sBLJm7a7s5ZrniNHHYEd734",
+        "[22] CEYLAN KAYA, \"Kürek sporunda farklı interval yöntemlerin kürek performansına etkisi,\" Yüksek Lisans/Doktora tezi, Kocaeli Üniversitesi / Sağlık Bilimleri Enstitüsü / Sporda Performans ve Kondisyon Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZgJwcg2uC5-a4gOl0Jr7LzyKp6RkzviIfg2Yf9aMq8W9",
+        "[23] HİLAL GÜRSOY, \"Mücadele sporcularının atletik becerileri, antropometrik özellikleri ve motor yeterliliklerine özgü elit performans özelliklerinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Tekirdağ Namık Kemal Üniversitesi / Sağlık Bilimleri Enstitüsü / Beden Eğitimi ve Spor Eğitimi Anabiilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CG8WvdvvxJP04Unr7Yecf8aRLzHDjaTqdDG7bgoyysgylPesBprKbLnwdLxQRGoL",
+        "[24] ABDULLAH AKOVA, \"Hacamat uygulamasının sporcuların bazı parametreleri üzerindeki etkisinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Bayburt Üniversitesi / Lisansüstü Eğitim Enstitüsü / Beden Eğitimi ve Spor Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RsTBl6RWK25OBMIKtIgYYV5s_JKKSCWEUlSsUmxQa5jdmLXpQZjvOBjrXkKnnjV4",
+        "[25] TAHİR HAZIR, \"Dayanıklılığın değerlendirilmesinde mekik koşusunun güvenirliği ve geçerliği,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sağlık Bilimleri Enstitüsü / Spor Bilimleri ve Teknolojisi Bilim Dalı, 2000. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-4bzDNpyG8S74dNf5Ej_CKo0TImFl5VgneWZJaafCyc7",
+        "[26] ECE UZUNSAKAL, \"Alan araştırmalarında güvenilirlik testlerinin karşılaştırılması ve istatistik eğitimi üzerine bir uygulama,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İstatistik Ana Bilim Dalı / İstatistik Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=T1mWGp9MngYYkCSgiJvtVh4M9iYSfE3vPYNvMkGTvNp3Gms8anIEURnQfUwM0fBU",
+        "[27] MEHMET TOPUZ, \"Maksimum (doruk) kuvveti geliştirmede alternatif bir metod,\" Yüksek Lisans/Doktora tezi, Ondokuz Mayıs Üniversitesi / Sağlık Bilimleri Enstitüsü / Beden Eğitimi ve Spor Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGhJZwmYSYj6LeKMitSPArIBqDNAD332o-2XIWL2zfn8H",
+        "[28] OSMAN DİŞÇEKEN, \"Tenise özgü anaerobik eşik belirleme testinin geçerlik ve güvenirliği: Kaotik yoğunluklu tenis testi (KATTT),\" Yüksek Lisans/Doktora tezi, Erciyes Üniversitesi / Sağlık Bilimleri Enstitüsü / Beden Eğitimi ve Spor Bilimleri Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxPj9tXhwGeWs47HcPKEXA2_S4HBKbGmIThnnPeEz1uSS"
+      ]
+    }
+  },
+  "error": null
+}

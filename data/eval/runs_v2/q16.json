@@ -1,0 +1,271 @@
+{
+  "id": "q16",
+  "category": "business",
+  "type": "method",
+  "question": "Türkiye'deki KOBİ'lerin dijital pazarlama stratejilerini nasıl benimsediği üzerine yapılan çalışmaların ortak bulguları nelerdir?",
+  "expected_subjects": [
+    "İşletme",
+    "Halkla İlişkiler"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 143.89,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "KOBİ'lerin dijital pazarlama stratejilerini benimseme sürecinde karşılaştıkları temel engeller ve zorluklar nelerdir?",
+          "rationale": "Bu alt soru, mevcut tezlerde sıklıkla ele alınan bir ortak bulgu kümesini (finansal, teknik, bilgi eksikliği gibi engeller) hedef alır."
+        },
+        {
+          "text": "KOBİ'lerin en sık kullandığı dijital pazarlama araçları ve kanalları (sosyal medya, SEO, e-posta vb.) hangileridir?",
+          "rationale": "Tezlerdeki ortak bulgulardan biri de hangi dijital araçların KOBİ'ler tarafından daha yoğun benimsendiğidir; bu soru o bulguyu özgülleştirir."
+        },
+        {
+          "text": "KOBİ'lerin dijital pazarlama stratejilerini benimsemesinde yönetici özellikleri ve firma büyüklüğü gibi faktörler nasıl bir rol oynamaktadır?",
+          "rationale": "Tezlerde sıkça incelenen bir diğer ortak tema, firma içi dinamiklerin (yöneticinin dijital okuryazarlığı, çalışan sayısı vb.) benimseme düzeyine etkisidir."
+        },
+        {
+          "text": "KOBİ'lerin dijital pazarlama stratejilerini benimsemesinin işletme performansına (satış, müşteri memnuniyeti, marka bilinirliği) etkisine dair hangi ortak bulgular raporlanmıştır?",
+          "rationale": "Bu soru, tezlerdeki ortak sonuçlardan biri olan benimseme-çıktı ilişkisini (performans göstergeleri) sorgular."
+        },
+        {
+          "text": "KOBİ'lerin dijital pazarlama stratejilerini benimseme düzeyi sektörler arasında anlamlı farklılıklar göstermekte midir?",
+          "rationale": "Tezlerde sıklıkla yapılan sektörel karşılaştırmaların ortak bulgularını ortaya çıkarmak için bu soru özgül bir karşılaştırma açısı sunar."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 24,
+      "max_score": 0.898,
+      "min_score": 0.817,
+      "chunks": [
+        {
+          "tez_no": "784332",
+          "title_tr": "KOBİ'lerin dijital pazarlama faaliyetlerine yaklaşımları: Ankara ilinde bir uygulama",
+          "author": "BÜŞRA KAVASOĞLU",
+          "year": 2023,
+          "score": 0.898,
+          "abstract_excerpt": "Bu çalışmada Küçük ve Orta Ölçekli İşletmelerin (KOBİ'lerin); gelişen teknoloji ve değişen dünyanın getirdiği yeniliklerden olan dijital pazarlama ve dijital pazarlama faaliyetlerine yaklaşımları incelenmektedir. KOBİ'ler, tüm dünyada ekonominin lokomotifi olarak görülmektedir. İstihdamın, refah düz"
+        },
+        {
+          "tez_no": "756754",
+          "title_tr": "Küçük ve orta ölçekli işletmelerde dijital pazarlama araçlarından sosyal medya kullanımı: Türkiye örneği",
+          "author": "ŞEMSİ MERVE BALLI",
+          "year": 2022,
+          "score": 0.8854,
+          "abstract_excerpt": "İçinde yaşadığımız yüzyılda internet ve teknolojinin olağanüstü hızda ilerleyişi hem sosyal yaşamın hem de kurumsal hayatın işleyişinde köklü değişimleri beraberinde getirmiştir. İnsanların davranış şekilleri ve alışkanlıkları teknoloji kullanımının etkisiyle değişirken, tüketici davranışları da far"
+        },
+        {
+          "tez_no": "254383",
+          "title_tr": "KOBİ'lerde E-pazarlamanın önemi: Konya KOBİleri'nde E-pazarlama uygulamaları",
+          "author": "HASAN GEDİK",
+          "year": 2009,
+          "score": 0.8613,
+          "abstract_excerpt": "Küreselleşen dünyadaki yeni ekonomik gelişmeler, bilişim ve iletişim teknolojilerindeki yenilikler ve buna paralel olarak bilgisayar ve internet kullanımının yaygınlaşması, hem bireyleri hem de işletmeleri bir değişim içine sokmuştur. Günümüz bilgi çağında artan rekabet şartları ile hızlı değişim ve"
+        },
+        {
+          "tez_no": "188372",
+          "title_tr": "KOBİ`lerde yatırım eğilimleri: 2005 yılında Konya ili örneği",
+          "author": "UĞUR ÇAĞLAK",
+          "year": 2005,
+          "score": 0.8601,
+          "abstract_excerpt": "ÖZETKurumsallaşmış şirketlerin belki de son 10 yıldır bilgi ve iletişimteknolojilerine yaptıkları yatırımlar oldukça artmıştır. Günümüzde şirketler, bilgi veiletişim araçlarına yaptıkları yatırımların büyümelerine ve gelişmelerine sebebiyetveren etkenlerin başında olduğunu kabul etmişlerdir.Konya il"
+        },
+        {
+          "tez_no": "587261",
+          "title_tr": "Küreselleşme sürecinde KOBİ'lerin e-ticarete uyumu",
+          "author": "AHMET ERAY YILMAZ",
+          "year": 2019,
+          "score": 0.8584,
+          "abstract_excerpt": "Bilgi toplumunun geleceğimizi şekillendirdiği günümüzde, teknolojik gelişmelerin etkisiyle ekonomimiz de evirilmektedir. Bu kapsamda ekonomimiz için kilit noktada bulunan KOBİ'ler her türlü gelişmelere ayak uydurmak zorundadır. Gelişen ekonomilerin en önemli sorunu ise sürdürülebilir ekonomik büyüme"
+        },
+        {
+          "tez_no": "774816",
+          "title_tr": "İşletmelerde dijital dönüşümün finansal performansa etkisi: KOBİ'lerde bir araştırma",
+          "author": "MUTLU YAĞCI",
+          "year": 2023,
+          "score": 0.8581,
+          "abstract_excerpt": "Küçük ve Orta Ölçekli İşletmeler (KOBİ)'ler, ülkelerin ekonomisine olumlu etkiler yaparlar ve bir ülkedeki işletmeler arasında oransal olarak büyük bir çoğunluğa sahiptir. Büyük ölçekli işletmelerde bulunmayan özelliklere sahip olan KOBİ'ler esnek ve yalın yanları, piyasaya ve tüketicilerin talepler"
+        },
+        {
+          "tez_no": "758166",
+          "title_tr": "Dijital pazarlamanın küçük ve orta büyüklükteki işletmelerin uluslararası ticaretlerine etkisi ve Türkiye örneği",
+          "author": "ABDULLAHİ MOHAMED MOHAMUD",
+          "year": 2022,
+          "score": 0.8578,
+          "abstract_excerpt": "Dijital pazarlama, işletme ve müşterileri arasında bağlantı kurmak için doğrudan tepkiler bileşimini \nve aynı zamanda doğrudan olmayan pazarlama unsurlarını ve çeşitli modern teknolojileri kullanır. \nBu pazarlama türü ayrıca dünya çapındaki internet ağını kullanarak yeni girişimler çekme, yeni \npaza"
+        },
+        {
+          "tez_no": "668285",
+          "title_tr": "Konya'daki KOBİ'lerin yeni nesil pazarlama tekniklerine olan farkındalığına yönelik araştırma",
+          "author": "EMRE KUYUCU",
+          "year": 2021,
+          "score": 0.857,
+          "abstract_excerpt": "Teknolojinin gelişmesi, tüketici profilinin her geçen gün değişmesi, yeni nesil pazarlama tekniklerini doğurmuştur. Kişiselleştirilmiş çalışmalar, dijitali besleyen fijital araçlar, ortaya değer koyan şirketler, marka kimliği ve hikâyesi gibi unsurlar artık şirketlerin gündemine girmeye başlamıştır."
+        },
+        {
+          "tez_no": "219868",
+          "title_tr": "Elektronik ticaretin KOBİ`ler açısından uygulanabilirliği: Ankara örneği",
+          "author": "AHMED RAMAZAN ALTINOK",
+          "year": 2008,
+          "score": 0.8552,
+          "abstract_excerpt": "Bilgi ve letisim Teknolojilerinde (BT) son çeyrek asırda ortaya çıkan\u000bgelismelerin üretim araçlarına uygulanması ile üretim süreçlerinde verimlilik ve etkinlik\u000bartısı saglanmıstır. Bu gelismeler, özellikle pazarlama ve reklam bütçeleri kısıtlı olan\u000bküçük ve orta ölçekli isletmeler (KOB) için büyük f"
+        },
+        {
+          "tez_no": "646964",
+          "title_tr": "Dijital pazarlama yöntemleri kullanılarak hizmet sektöründeki firmaların bilinirliğinin arttırılması",
+          "author": "SEFA GÜRBÜZ",
+          "year": 2020,
+          "score": 0.8526,
+          "abstract_excerpt": "Her geçen gün teknolojide yeni gelişmeler yaşanmakta ve yaşanan bu gelişmelerin ortaya çıkardığı yenilikler de yeni pazarlama taktilerini beraberinde getirmektedir. Teknoloji ile bütünleşen pazarlama da bu sayede yeni kavramların doğmasına fırsat sağlamaktadır. Teknolojik gelişmelerle birlikte son y"
+        },
+        {
+          "tez_no": "235886",
+          "title_tr": "Kobiler'de e-ticaret",
+          "author": "NAZLI SEVDA ERKENT",
+          "year": 2009,
+          "score": 0.8522,
+          "abstract_excerpt": "KOBİ'ler bir ülke ekonomisinin temel direğidirler ve onların rekabetçiliği ülkenin rekabet gücüyle sıkı sıkıya bağlı olmaktadır. Internet KOBİ'ler için rekabetçi bir avantaj kaynağı olmaktadır, ancak bunun nasıl başarılacağını kavramak önemlidir. E-ticaret, ticaretin parametrelerini büyük ölçüde yen"
+        },
+        {
+          "tez_no": "761879",
+          "title_tr": "İşletmelerde dijitalleşmeye yönelik olarak kurumsal yönetim çerçevesinin oluşturulması: Küçük ve orta ölçekli işletmeler üzerine bir araştırma",
+          "author": "REMZİ DURMUŞ",
+          "year": 2022,
+          "score": 0.85,
+          "abstract_excerpt": "Ortalama son 15 yıldır gündemimize yerleşen endüstri 4.0 kavramı ve buna bağlı olarak dijitalleşen dünya, işletmelerinde iş yapma şeklini ve iş yapma araç gereçlerini değiştirmiştir. Dijitalleşemeyen şirketlerin dijitalleşen şirketlere göre daha geride kalacağı yapılan bütün araştırmalarda görülmekt"
+        },
+        {
+          "tez_no": "506620",
+          "title_tr": "İnternetle değişen ticaret ve rekabet: Mikro işletmelerin dijital medya kullanımları",
+          "author": "İBRAHİM SIVAR",
+          "year": 2018,
+          "score": 0.8562,
+          "abstract_excerpt": "Literatürde KOBİ'lerin iletişim faaliyetleri için internet ve dijital medya kullanımları üzerine çeşitli araştırmalar gerçekleştirildiği görülmektedir. KOBİ kategorisi içinde en küçük ölçekli işletmeler olarak tanımlanan mikro işletmelere  yönelik betimleyici bir çalışmaya rastlanmamıştır. Bu çalışm"
+        },
+        {
+          "tez_no": "205681",
+          "title_tr": "Sanal mikroişletme ağıyla yerel kalkınma ve bir uygulama",
+          "author": "MEHMET KARACA",
+          "year": 2007,
+          "score": 0.8383,
+          "abstract_excerpt": "Son yıllarda hızla ilerleyen teknolojik gelişmeler işletmelere genişfırsatlar sunmanın yanı sıra, ekonomik ve ticaret ilişkilerini değiştirmekte veyeni tip organizasyonlar yaratmaktadır. Global pazarların ortaya çıkması ileişletmeler daha önce kendilerinin yaptıkları birçok işi dışarıdaki firmalaray"
+        },
+        {
+          "tez_no": "265773",
+          "title_tr": "Elektronik pazarlama: Bursa ilindeki KOBİ'ler üzerine bir araştırma",
+          "author": "SALİH YEŞİLYURT",
+          "year": 2010,
+          "score": 0.8365,
+          "abstract_excerpt": "İşletmeler, insan ihtiyaçlarını tespit edebilmek ve bu ihtiyaçları giderebilecek mal ve hizmetleri üretebilmek için bilgiye ihtiyaç duymaktadırlar. Bilgiye erişim, rekabetin gittikçe arttığı günümüzde işletmelerin varlıklarını devam ettirebilmeleri açısından çok büyük önem taşımaktadır. Bu noktada i"
+        },
+        {
+          "tez_no": "739603",
+          "title_tr": "Bir sürdürülebilirlik faktörü olarak dijitalleşme KOBİ'ler üzerine bir araştırma",
+          "author": "BAŞAK BOYACI",
+          "year": 2022,
+          "score": 0.8309,
+          "abstract_excerpt": "Sürdürülebilir kalkınma, 1970'lerden sonra yaygınlaşmaya başlayan bir kavramdır ve bugünün ihtiyaçlarını geleceğin gereksinimlerinden ödün vermeden karşılayabilmeyi ifade eder. Dünya'da yaşanan gelişmelere paralel olarak devlet ve özel sektör de sürdürülebilir kalkınmayı ekonomik, sosyal ve çevresel"
+        },
+        {
+          "tez_no": "748563",
+          "title_tr": "KOBİ'lerde satış sonrası hizmetlerin dijitalleşmesi: Makine imalat sektörü İzmir ili örneği",
+          "author": "HİKMET EMİR ÖNBIÇAK",
+          "year": 2022,
+          "score": 0.8301,
+          "abstract_excerpt": "Nesnelerin interneti, bulut teknolojisi, katmanlı üretim ve yapay zekâ gibi teknolojilerin ve dijitalleşmenin günümüz sanayi sektörüne büyük katkısı olması yanında ciddi bir verimlilik artışı sunduğu açıktır. Sektördeki dijitalleşmeye bağlı gelişmeler KOBİ'leri ciddi şekilde etkilemektedir. Bu kapsa"
+        },
+        {
+          "tez_no": "596545",
+          "title_tr": "Dijital pazarlama modelleri ve bir uygulama",
+          "author": "DOĞANCAN ÜLKER",
+          "year": 2019,
+          "score": 0.8255,
+          "abstract_excerpt": "Dijital pazarlamanın geleneksel pazarlama araçlarına göre önlenemez bir yükseliş yaşadığı günümüzde, çeşitli dijital pazarlama modelleri ortaya çıkmış ve sektör bazında kullanım amaçları farklılık göstermeye başlamıştır. Doğru bir dijital kampanyası stratejisi oluşturularak, geleneksel mecralara gör"
+        },
+        {
+          "tez_no": "906575",
+          "title_tr": "KOBİ'lerin rekabet avantajı yaratma sürecinde dijital dönüşüm ve dijital olgunluk algılarının PLS-SEM ile analizi",
+          "author": "DİLEK VEYSİKARANİ",
+          "year": 2024,
+          "score": 0.8242,
+          "abstract_excerpt": "Bilgi, belge ve dokümanlara erişim süreci günümüzde, geçmiş dönemlerle kıyaslandığında büyük bir hız kazanmış ve çok daha kolay bir hale gelmiştir. Bu gelişme, toplumların bilgi toplumuna dönüşüm süreçlerini hızlandırmış, özellikle 20. yüzyılın ortalarından itibaren bilgi ve iletişim teknolojilerind"
+        },
+        {
+          "tez_no": "72008",
+          "title_tr": "Küçük ve ortaboy işletmelerin pazarlama sorunları ve Denizli'de bir uygulama",
+          "author": "ATİLLA YÜCEL",
+          "year": 1998,
+          "score": 0.8221,
+          "abstract_excerpt": "II ÖZET 1970'li yılların sonuna kadar sanayileşmenin vazgeçilmez unsuru olarak kabul gören büyük ölçekli firmalar ve bunun temel dayanağı olan ölçek ekonomileri kavramı yerini; I980'li yıllardan itibaren, temelinde değişikliklere ve yemliklere daha esnek davranabilen Küçük ve Orta boy firmalara bıra"
+        },
+        {
+          "tez_no": "380787",
+          "title_tr": "Küçük ve orta büyüklükteki işletmelere sağlanan kamu desteklerinin etkinliği ve KOSGEB Diyarbakır uygulaması",
+          "author": "HASAN SOLMAZ",
+          "year": 2014,
+          "score": 0.8217,
+          "abstract_excerpt": "KOBİ olarak bilinen Küçük ve Orta Büyüklükteki İşletmeler, dünya'nın her ülkesinde olduğu gibi ülkemiz ekonomisinde de son derece önemli bir yere sahiptir. KOBİ'ler; sayısal çoğunluk, istihdam hacmi, üretim değeri, gelişmeye olan katkıları, gelir dağılımının tabana yayılması bakımından serbest rekab"
+        },
+        {
+          "tez_no": "136976",
+          "title_tr": "Elektronik ticaret ve İstanbul'daki bazı KOBİ'ler üzerine bir uygulama",
+          "author": "YÜKSEL SALTER",
+          "year": 2003,
+          "score": 0.8197,
+          "abstract_excerpt": "n ÖZET Elektronik ticaret, bilgisayar ağlan aracılığı ile ürünlerin üretilmesinin, tanıtanının, satışının, ödemesinin ve dağıtanının yapılması olarak tanımlanabilir. Bu yeni ticaret firmanın baştan aşağıya yemden yapılanmasını gerektiren bir süreci içermektedir. E-ticaret flrma-firma arasında, firma"
+        },
+        {
+          "tez_no": "145616",
+          "title_tr": "KOBİ'lerin pazarlama problemlerine yönelik olarak internet aracılığıyla ihracat açılımı ve Sivas ilinde bir uygulama",
+          "author": "EYUP AKIN",
+          "year": 2004,
+          "score": 0.8194,
+          "abstract_excerpt": "ÖZET Globalleşen dünya rekabeti her geçen gün daha da artırmaktadır. Rekabet sadece büyük ölçekli çok uluslu işletmeler için değil aynı zamanda Kobi'ler içinde bir zorunluluktur. Bu rekabet ortamındaki basan için temel unsur pazar oluşturma veya ürünleri mevcut pazarlara ulaştırmaktır. Kobi'lerin pa"
+        },
+        {
+          "tez_no": "745804",
+          "title_tr": "Sosyal medya pazarlamasının KOBİ müşterilerinin artmasında etkileri: Hazır giyim sektöründe bir araştırma",
+          "author": "ANWAR MOHAMMED ABDULLAH ITHAWİ",
+          "year": 2022,
+          "score": 0.817,
+          "abstract_excerpt": "Günümüzde, işletmelerin hayatta kalması ve başarılı olması için fazla sayıda müşteriye ulaşma mücadelesi zorlu geçmektedir. İşletmelerin temel amacı bu yarışta hem fazla müşteri kazanmak, rekabet üstünlüğü elde etmek hem de zamanda geleceklerini garanti altına almaktır. Son yıllarda yaşanan hızlı de"
+        }
+      ]
+    },
+    "synthesis": null,
+    "critic": null,
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nKüçük ve Orta Ölçekli İşletmeler (KOBİ'ler), Türkiye ekonomisinin bel kemiğini oluşturmakta olup, dijitalleşen dünyada rekabet avantajı elde edebilmek için dijital pazarlama stratejilerini benimsemek durumundadırlar. Literatürde bu konuda yapılan çalışmalar, KOBİ'lerin dijital pazarlamaya yaklaşımlarını, karşılaştıkları engelleri ve bu süreçteki başarı faktörlerini ortaya koymaktadır. Bu özet, Türkiye'deki KOBİ'lerin dijital pazarlama stratejilerini benimseme sürecine ilişkin ortak bulguları sistematik bir şekilde sunmaktadır.\n\n## KOBİ'lerin Dijital Pazarlamaya Yönelik Farkındalık ve Tutumları\n\nAraştırmalar, KOBİ'lerin dijital pazarlamanın öneminin giderek daha fazla farkına vardıklarını göstermektedir. KOBİ'ler, gelişen teknoloji ve değişen dünyanın getirdiği yeniliklerden olan dijital pazarlama faaliyetlerine yönelmekte, ancak bu konuda tam anlamıyla bir bilinç düzeyine ulaşamamaktadırlar [1]. Yeni nesil pazarlama tekniklerine yönelik farkındalık düzeyi incelendiğinde, KOBİ'lerin kişiselleştirilmiş çalışmalar, dijitali besleyen fijital araçlar ve marka kimliği gibi unsurları gündemlerine almaya başladıkları görülmektedir [8]. Bununla birlikte, farkındalık düzeyi ile uygulama pratikleri arasında belirgin bir boşluk bulunmaktadır.\n\n## Dijital Pazarlama Araçlarının Kullanımı\n\n### Sosyal Medya Kullanımı\n\nSosyal medya, KOBİ'ler tarafından en yaygın kullanılan dijital pazarlama araçlarından biridir. İnternet ve teknolojinin olağanüstü hızda ilerleyişi, tüketici davranışlarını değiştirmiş ve işletmeleri pazarlama strateji ve araçlarında yenilikçi yaklaşımlara yöneltmiştir [2]. Sosyal medya pazarlaması, KOBİ'lerin müşteri sayılarını artırmada ve müşterilerle doğrudan etkileşim kurmada önemli bir rol oynamaktadır [24]. Özellikle hazır giyim sektöründe faaliyet gösteren KOBİ'ler, sosyal medya platformlarını müşteri kazanımı ve marka bilinirliği oluşturma amacıyla aktif olarak kullanmaktadır [24].\n\n### E-Ticaret ve E-Pazarlama Uygulamaları\n\nE-ticaret, KOBİ'ler için rekabetçi bir avantaj kaynağı olarak görülmektedir [11]. Bilgi ve iletişim teknolojilerindeki gelişmeler, özellikle pazarlama ve reklam bütçeleri kısıtlı olan KOBİ'ler için büyük fırsatlar ortaya çıkarmıştır [9]. İnternet üzerinden bütün dünya pazarına hitap edilebilmesi, KOBİ'lerin daha önce ulaşamayacakları yeni fırsatlar ve imkânlara erişmelerini sağlamaktadır [9]. Ancak KOBİ'lerin e-ticarete uyum sürecinde çeşitli zorluklar yaşadıkları ve bu sürecin işletmelerin baştan aşağıya yeniden yapılanmasını gerektirdiği belirtilmektedir [22].\n\n## Dijital Pazarlama Benimsemesinde Karşılaşılan Engeller\n\n### Kaynak ve Bütçe Kısıtları\n\nKOBİ'lerin dijital pazarlama stratejilerini benimsemesindeki en önemli engellerden biri, sınırlı finansal kaynaklardır. Dijital pazarlama kanalları, geleneksel mecralara göre çok daha küçük bütçelerle dahi etkili sonuçlar elde edilmesine olanak tanısa da [18], KOBİ'lerin bu alana yeterli yatırımı yapmakta zorlandıkları görülmektedir. Bilgi ve iletişim teknolojilerine yapılan yatırımların büyümeye ve gelişmeye sebebiyet veren etkenlerin başında geldiği kabul edilmekle birlikte [4], KOBİ'lerin bu yatırımları gerçekleştirme konusunda isteksiz oldukları veya yetersiz kaldıkları anlaşılmaktadır.\n\n### Bilgi ve Yetenek Eksikliği\n\nKOBİ'lerin dijital pazarlama konusundaki bilgi ve yetenek eksikliği, benimseme sürecini olumsuz etkileyen bir diğer faktördür. Mikro işletmeler özelinde yapılan bir çalışmada, bu işletmelerin dijital medyada pazarlama iletişimi faaliyetlerini nasıl yürüteceklerine dair genel bir bakış açısına sahip olmadıkları tespit edilmiştir [13]. KOBİ'lerin pazarlama problemlerine yönelik olarak internet aracılığıyla ihracat açılımı yapma potansiyelleri bulunmakla birlikte [23], bu potansiyelin hayata geçirilmesi için gerekli bilgi ve beceri düzeyine ulaşılması gerekmektedir.\n\n## Dijital Dönüşümün Finansal ve Rekabetçi Etkileri\n\nDijital dönüşümün KOBİ'lerin finansal performansına olumlu etkileri olduğu araştırmalarla ortaya konmuştur. Dijitalleşmenin ilerlemesinden istifade eden KOBİ'ler, küresel düzeydeki işletmecilik süreçlerinde kendilerini geliştirme imkânı bulmaktadır [6]. Dijital pazarlama, işletme ve müşterileri arasında bağlantı kurmak için doğrudan ve dolaylı pazarlama unsurlarını bir arada kullanarak, KOBİ'lerin uluslararası ticaretlerine de önemli katkılar sağlamaktadır [7]. Dijitalleşemeyen şirketlerin dijitalleşen şirketlere göre daha geride kalacağı, yapılan bütün araştırmalarda vurgulanmaktadır [12].\n\n## Sektörel ve Bölgesel Farklılıklar\n\nAraştırmalar, KOBİ'lerin dijital pazarlama stratejilerini benimseme düzeylerinde sektörel ve bölgesel farklılıklar olduğunu göstermektedir. Ankara [1][9], Konya [3][8], İzmir [17], Bursa [15], Denizli [20], Sivas [23] ve İstanbul [22] gibi farklı illerde yapılan çalışmalar, KOBİ'lerin dijital pazarlamaya yaklaşımlarının bulundukları bölgenin ekonomik gelişmişlik düzeyine ve faaliyet gösterdikleri sektörün yapısına göre farklılaştığını ortaya koymaktadır. Makine imalat sektöründe faaliyet gösteren KOBİ'lerin satış sonrası hizmetlerde dijitalleşme düzeyleri [17] ile hizmet sektöründeki firmaların dijital pazarlama yöntemlerini kullanma biçimleri [10] arasında belirgin farklılıklar bulunmaktadır.\n\n## Sonuç\n\nTürkiye'deki KOBİ'lerin dijital pazarlama stratejilerini benimseme sürecine ilişkin ortak bulgular, bu işletmelerin dijital pazarlamanın öneminin farkında olduklarını ancak bu alanda tam anlamıyla bir dönüşüm gerçekleştiremediklerini göstermektedir. Sosyal medya ve e-ticaret platformları en yaygın kullanılan dijital pazarlama araçları olmakla birlikte, KOBİ'ler sınırlı finansal kaynaklar, bilgi ve yetenek eksikliği gibi nedenlerle dijital pazarlamanın potansiyelinden tam olarak yararlanamamaktadır. Dijital dönüşümün finansal performans ve rekabet avantajı üzerindeki olumlu etkileri literatürde geniş kabul görmekle birlikte, bu dönüşümün başarıyla gerçekleştirilebilmesi için KOBİ'lere yönelik eğitim, danışmanlık ve finansal destek mekanizmalarının güçlendirilmesi gerekmektedir. Sektörel ve bölgesel farklılıklar göz önünde bulundurulduğunda, dijital pazarlama stratejilerinin benimsenmesinde tek tip bir yaklaşım yerine, KOBİ'lerin özgün ihtiyaçlarına ve kapasitelerine uygun, özelleştirilmiş çözümlerin geliştirilmesi önem arz etmektedir.",
+      "n_citations": 24,
+      "citations_ieee": [
+        "[1] BÜŞRA KAVASOĞLU, \"KOBİ'lerin dijital pazarlama faaliyetlerine yaklaşımları: Ankara ilinde bir uygulama,\" Yüksek Lisans/Doktora tezi, Ankara Hacı Bayram Veli Üniversitesi / Lisansüstü Eğitim Enstitüsü / İşletme Ana Bilim Dalı / Pazarlama Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxNS9mPVUwBbX5SY-uZUqI3WIHsAe99f621gxMp3G-lOL",
+        "[2] ŞEMSİ MERVE BALLI, \"Küçük ve orta ölçekli işletmelerde dijital pazarlama araçlarından sosyal medya kullanımı: Türkiye örneği,\" Yüksek Lisans/Doktora tezi, Çukurova Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RsTBl6RWK25OBMIKtIgYYYDB7AwmE8w8J7_bnAtxVXgBtBbM8rqm2nBaGIpeUBnL",
+        "[3] HASAN GEDİK, \"KOBİ'lerde E-pazarlamanın önemi: Konya KOBİleri'nde E-pazarlama uygulamaları,\" Yüksek Lisans/Doktora tezi, Cumhuriyet Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Bölümü / İşletme Ana Bilim Dalı / Üretim Yönetimi ve Pazarlama Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=NtBAevXNhYaNqJFoAcdBdhWtu7HIBhnF9Mwz2rhBBSOzzso3QUghiz9hZY-6WlPq",
+        "[4] UĞUR ÇAĞLAK, \"KOBİ`lerde yatırım eğilimleri: 2005 yılında Konya ili örneği,\" Yüksek Lisans/Doktora tezi, Mimar Sinan Güzel Sanatlar Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyoloji Ana Bilim Dalı / Genel Sosyoloji ve Metadoloji Bilim Dalı, 2005. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-L8ilcwn9ZRRc_YMKxXW1kiv6HTSLJuK9zIKLuYOinZJnQmZjYrYtXR-6gusRVVQ",
+        "[5] AHMET ERAY YILMAZ, \"Küreselleşme sürecinde KOBİ'lerin e-ticarete uyumu,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Sosyal Bilimler Enstitüsü / Girişimcilik ve İnovasyon Yönetimi Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vjszP7PzV0HebcjFEvDfwBSC-omh5YC-aC36UTyoXn7upUnORThzb0B-721qqCFa",
+        "[6] MUTLU YAĞCI, \"İşletmelerde dijital dönüşümün finansal performansa etkisi: KOBİ'lerde bir araştırma,\" Yüksek Lisans/Doktora tezi, Aydın Adnan Menderes Üniversitesi / Sosyal Bilimler Enstitüsü / Ekonomi Finans Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kIrIdtdJ31bRgjb6fHvMUbCC4gQgWMsv5de3dUSG5grrXS9TsNhPFmTroTxFR6R4",
+        "[7] ABDULLAHİ MOHAMED MOHAMUD, \"Dijital pazarlamanın küçük ve orta büyüklükteki işletmelerin uluslararası ticaretlerine etkisi ve Türkiye örneği,\" Yüksek Lisans/Doktora tezi, Bursa Uludağ Üniversitesi / Sosyal Bilimler Enstitüsü / Uluslararası İşletmecilik ve Ticaret Ana Bilim Dalı / Uluslararası Ticaret Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RsTBl6RWK25OBMIKtIgYYTggfmIDJ617KhUcQoTlLAZfQULr7SRt__YIv9hvNhBg",
+        "[8] EMRE KUYUCU, \"Konya'daki KOBİ'lerin yeni nesil pazarlama tekniklerine olan farkındalığına yönelik araştırma,\" Yüksek Lisans/Doktora tezi, KTO Karatay Üniversitesi / Lisansüstü Eğitim Enstitüsü / Uluslararası Ticaret ve Lojistik Ana Bilim Dalı / Uluslararası Ticaret Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=9MiDp3x86xrwjpi5-14w-QJvFjP71HJg3QbK-ZmUF8OM67oKSbZb3Po6WyhXu5E_",
+        "[9] AHMED RAMAZAN ALTINOK, \"Elektronik ticaretin KOBİ`ler açısından uygulanabilirliği: Ankara örneği,\" Yüksek Lisans/Doktora tezi, Adnan Menderes Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wBmNpkQC9Nhi90NLW7E7-RqryL-nMbGet-M1laaor4CGYoat-2nKT0iGfozqkd5i",
+        "[10] SEFA GÜRBÜZ, \"Dijital pazarlama yöntemleri kullanılarak hizmet sektöründeki firmaların bilinirliğinin arttırılması,\" Yüksek Lisans/Doktora tezi, Ufuk Üniversitesi / Sosyal Bilimler Enstitüsü / Yönetim Bilişim Sistemleri Ana Bilim Dalı / Yönetim Bilişim Sistemleri Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fl0Kw4p1rmMDotyKRdYv1NNN7ZGxFbnQWtWdLwJSHU4wJVf3h_gixnPqkF3rXoAJ",
+        "[11] NAZLI SEVDA ERKENT, \"Kobiler'de e-ticaret,\" Yüksek Lisans/Doktora tezi, Kadir Has Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Bölümü / İşletme Ana Bilim Dalı / İşletme Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=UPP_Zu9isEmWGFXFCBYasdzxo6mf2z0M-7XRfWPhe5pPTg-exB0fE4M_ggO08oSK",
+        "[12] REMZİ DURMUŞ, \"İşletmelerde dijitalleşmeye yönelik olarak kurumsal yönetim çerçevesinin oluşturulması: Küçük ve orta ölçekli işletmeler üzerine bir araştırma,\" Yüksek Lisans/Doktora tezi, İstanbul Ticaret Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiHz8iSw2it4r22DDwm014Aaj5fgp_piqfpnQ-32UFFTw",
+        "[13] İBRAHİM SIVAR, \"İnternetle değişen ticaret ve rekabet: Mikro işletmelerin dijital medya kullanımları,\" Yüksek Lisans/Doktora tezi, Anadolu Üniversitesi / Sosyal Bilimler Enstitüsü / Halkla İlişkiler ve Reklamcılık Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=MzP7PYssFqdb3WIjlroAke4ZTdD1ymYUTThhBbJEDM6-V80KGDa6QPIajfewiRIk",
+        "[14] MEHMET KARACA, \"Sanal mikroişletme ağıyla yerel kalkınma ve bir uygulama,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / Yönetim ve Organizasyon Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ePX_SaJ0b35Gq45swKG3lJT08jDzFnFdH7nZ6Dk4uw-fUpDypz08YULZwHIUlWwD",
+        "[15] SALİH YEŞİLYURT, \"Elektronik pazarlama: Bursa ilindeki KOBİ'ler üzerine bir araştırma,\" Yüksek Lisans/Doktora tezi, Kafkas Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Bölümü / İşletme Ana Bilim Dalı / İşletme Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ZeTyprYuef2HkaF3xt4wYg05zVlFTpgFO9qIZcRR2ZL6X6JUJCIXQlCJ-gE76hs4",
+        "[16] BAŞAK BOYACI, \"Bir sürdürülebilirlik faktörü olarak dijitalleşme KOBİ'ler üzerine bir araştırma,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / İşletme Enstitüsü / Yönetim Bilişim Sistemleri Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkv_qzjnyAVuCDwseGNVSG6A2mFxctqxPqAGZUlVLS2Z6",
+        "[17] HİKMET EMİR ÖNBIÇAK, \"KOBİ'lerde satış sonrası hizmetlerin dijitalleşmesi: Makine imalat sektörü İzmir ili örneği,\" Yüksek Lisans/Doktora tezi, Maltepe Üniversitesi / Lisansüstü Eğitim Enstitüsü / İşletme Ana Bilim Dalı / İşletme Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sELqxhTlFGAjsbjOuuiyCA0SIKGTAhUTbDa-G7YHBczFTJjNY3jPL3ZUZgRMZM9b",
+        "[18] DOĞANCAN ÜLKER, \"Dijital pazarlama modelleri ve bir uygulama,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Fen Bilimleri Enstitüsü / Enformatik Ana Bilim Dalı / Enformatik Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=npGs9H39x7G6401x51yqpOG8AS7IhwuVYOKGcem91cuz0f6h_IgpaPbEXzAj18PQ",
+        "[19] DİLEK VEYSİKARANİ, \"KOBİ'lerin rekabet avantajı yaratma sürecinde dijital dönüşüm ve dijital olgunluk algılarının PLS-SEM ile analizi,\" Yüksek Lisans/Doktora tezi, Çukurova Üniversitesi / Sosyal Bilimler Enstitüsü / Ekonometri Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=LY6e5xGA7WWUpEdrBmEPLrzmHQpW3a1d4krmOw4yevMKtCrZOmEkolibbyVYqkLP",
+        "[20] ATİLLA YÜCEL, \"Küçük ve ortaboy işletmelerin pazarlama sorunları ve Denizli'de bir uygulama,\" Yüksek Lisans/Doktora tezi, Pamukkale Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 1998. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CG8WvdvvxJP04Unr7Yecf4WlMpL0vm0SbOKnmJxz1K2GWMPqRAX82EeqLYbr57ZD",
+        "[21] HASAN SOLMAZ, \"Küçük ve orta büyüklükteki işletmelere sağlanan kamu desteklerinin etkinliği ve KOSGEB Diyarbakır uygulaması,\" Yüksek Lisans/Doktora tezi, Dicle Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sY7m19PfcL6F1NUw-cr80AepzH_x-842KIjCpgad0D8QlmIQ-SBf1Lp6Bub4noZM",
+        "[22] YÜKSEL SALTER, \"Elektronik ticaret ve İstanbul'daki bazı KOBİ'ler üzerine bir uygulama,\" Yüksek Lisans/Doktora tezi, Cumhuriyet Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / Üretim Yönetimi ve Pazarlama Bilim Dalı, 2003. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=p911s0iMPy2wtZbYYckXOZ85pIJJRtKSihGV-c01wElwW60Yc4zbLDhfh1rCy-om",
+        "[23] EYUP AKIN, \"KOBİ'lerin pazarlama problemlerine yönelik olarak internet aracılığıyla ihracat açılımı ve Sivas ilinde bir uygulama,\" Yüksek Lisans/Doktora tezi, Cumhuriyet Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / Üretim Yönetimi ve Pazarlama Bilim Dalı, 2004. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Keh6sQzap4ZTp8dqWPlH1OmZVLU9R2jbiFI3zJV4JBtxVFQFhXqT7cPPomM5u4Qr",
+        "[24] ANWAR MOHAMMED ABDULLAH ITHAWİ, \"Sosyal medya pazarlamasının KOBİ müşterilerinin artmasında etkileri: Hazır giyim sektöründe bir araştırma,\" Yüksek Lisans/Doktora tezi, İstanbul Gelişim Üniversitesi / Lisansüstü Eğitim Enstitüsü / İşletme Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sELqxhTlFGAjsbjOuuiyCNuc9IUi7SVA7VDO3rye-XQX58bJ_AT3hgztL7lKnpH1"
+      ]
+    }
+  },
+  "error": null
+}

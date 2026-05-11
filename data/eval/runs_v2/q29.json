@@ -1,0 +1,272 @@
+{
+  "id": "q29",
+  "category": "multi_domain",
+  "type": "cross",
+  "question": "İklim değişikliğinin Türkiye'deki tarımsal üretim üzerindeki ekonomik etkileri nelerdir?",
+  "expected_subjects": [
+    "Ziraat",
+    "Ekonomi",
+    "Çevre Mühendisliği"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 93.35,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "İklim değişikliğinin Türkiye'deki tarımsal üretim üzerindeki ekonomik etkilerini inceleyen tezlerde hangi yöntemler (ekonometrik model, simülasyon, panel veri analizi vb.) kullanılmıştır?",
+          "rationale": "Yöntemsel çeşitliliği anlamak, hangi analiz tekniklerinin bu soruyu yanıtlamak için tercih edildiğini gösterir."
+        },
+        {
+          "text": "Bu tezlerde iklim değişikliğinin tarımsal üretim değeri, verimlilik ve çiftçi gelirleri üzerindeki nicel etkileri (yüzde değişim, kayıp miktarı vb.) nasıl raporlanmıştır?",
+          "rationale": "Somut bulguları derleyerek etkinin büyüklüğü ve yönü hakkında kanıta dayalı bilgi sağlar."
+        },
+        {
+          "text": "İklim değişikliğinin farklı tarım ürünleri (tahıl, meyve, sebze, endüstriyel bitkiler) ve bölgeler (İç Anadolu, Akdeniz, Güneydoğu vb.) üzerindeki ekonomik etkileri arasında nasıl bir farklılaşma gözlemlenmiştir?",
+          "rationale": "Ürün ve bölge bazlı farklılaşma, uyum politikalarının hedeflenmesi için kritik bir ayrıntıdır."
+        },
+        {
+          "text": "Tezlerde iklim değişikliğinin tarımsal ekonomi üzerindeki etkilerine yönelik hangi uyum ve azaltım stratejileri önerilmiş ve bu stratejilerin maliyet-fayda analizi nasıl yapılmıştır?",
+          "rationale": "Akademik önerilerin politika ve uygulama düzeyinde karşılığını görmek için uyum stratejilerinin kapsamını ve ekonomik gerekçelerini ortaya koyar."
+        },
+        {
+          "text": "Bu tezlerde iklim değişikliğinin tarımsal üretim üzerindeki ekonomik etkilerine ilişkin veri kısıtları, model sınırlılıkları ve gelecek araştırma önerileri nelerdir?",
+          "rationale": "Sınırlılıkların ve boşlukların belirlenmesi, mevcut bilginin güvenilirliğini değerlendirmek ve yeni araştırma yönlerini tespit etmek için önemlidir."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 24,
+      "max_score": 0.9363,
+      "min_score": 0.8611,
+      "chunks": [
+        {
+          "tez_no": "299776",
+          "title_tr": "İklim değişikliği üzerine yapılan çalışmalarrın değerlendirilmesine yönelik bir araştırma",
+          "author": "ZEYNEP EKER",
+          "year": 2011,
+          "score": 0.9363,
+          "abstract_excerpt": "Bu çalışmada iklim değişikliği üzerine yapılan çalışmaların değerlendirmesi yapılmıştır. Bu değerlendirme iklim değişikliğinin hem genel etkilerini hem de tarım sektörü üzerine etkilerini içermektedir. Bu amaçla konu ile ilgili araştırmalar ele alınmış, izlenen süreç ve elde edilen sonuçlar karşılaş"
+        },
+        {
+          "tez_no": "896188",
+          "title_tr": "İklim değişikliğinin Türkiye tarımına etkileri",
+          "author": "KÜBRA DAĞ",
+          "year": 2024,
+          "score": 0.9266,
+          "abstract_excerpt": "Sanayi devriminden sonra endüstriyel süreçler, ormansızlaşma ve fosil yakıtların yanması sonucu atmosfere salınan sera gazı miktarı sürekli artmaktadır. Bununla birlikte yüzey sıcaklıkları artarak olumsuz etkiler doğurmaktadır. Artan sera gazları ve sıcaklıklara bağlı olarak gerçekleşen iklim değişi"
+        },
+        {
+          "tez_no": "726716",
+          "title_tr": "İklim değişikliği ve Türkiye'de tarım üzerine etkileri",
+          "author": "BURÇİN BERİKOL METE",
+          "year": 2022,
+          "score": 0.9256,
+          "abstract_excerpt": "Tarihte birçok kez iklim değişmiş ve tarımsal faaliyetler bundan etkilenmiştir. Bugün yaşanan iklim değişikliği antroposen kaynaklıdır. İnsan faaliyetleri atmosferde var olan elementlerin oranlarını değiştirerek küresel ısınmaya sebep olmaktadır. Yaşanan küresel ısınma hava olaylarının şiddetini ve "
+        },
+        {
+          "tez_no": "446097",
+          "title_tr": "Küresel iklim değişikliğinin sektörel düzeyde ve Türkiye tarım sektörü üzerindeki etkilerinin incelenmesi",
+          "author": "MEHMET SAYA",
+          "year": 2016,
+          "score": 0.9178,
+          "abstract_excerpt": "Sanayi Devrimi sonrası artan enerji ihtiyacının karşılanması amacıyla dünyada büyük ölçüde fosil yakıtlar kullanılmıştır. Bu durum, atmosferde sera gazlarının birikerek küresel ısınmaya ve nihayetinde iklim değişikliğine yol açmıştır. İklim değişikliği ise dünya üzerinde çok sınırlı bir faydadan öte"
+        },
+        {
+          "tez_no": "261825",
+          "title_tr": "İklim değişikliğinin Türkiye'de buğday, arpa ve mısır bitkilerinin verimleri üzerine etkilerinin panel veri modeli ile analizi",
+          "author": "BERNA KAYA",
+          "year": 2009,
+          "score": 0.9117,
+          "abstract_excerpt": "Son yıllarda dünya gündemini en çok meşgul eden konulardan biri olan iklim değişikliğinin, ülke ekonomileri ve sektörler üzerindeki etkilerinin ne yönde olacağı önemli bir sorundur. Hem uluslararası, hem de ulusal alanda çözümler aranması gereken bu önemli sorun konusunda, ne yazık ki Dünya'da ve ül"
+        },
+        {
+          "tez_no": "381848",
+          "title_tr": "İklim değişikliğinin buğday bitkisinin gelişimi ve verimine olası etkilerinin bitki-iklim simulasyon modeli ile incelenmesi",
+          "author": "OSMAN ÇAYLAK",
+          "year": 2015,
+          "score": 0.9072,
+          "abstract_excerpt": "İklim değişikliği günümüzde Dünya genelinde hemen herkesin hem fikir olduğu, ancak olası etkileri hakkında sıkça tartışmaların yaşanadığı ve birçok araştırmanın ana hedefi olmuş ciddi bir konudur. Hükümetler arası iklim değişimi organizasyonu (IPCC) raporlarına göre, çeşitli kaynaklardan doğaya salı"
+        },
+        {
+          "tez_no": "610466",
+          "title_tr": "Türkiye'de iklim değişikliğinin tarıma olası etkileri ve uyum için politika önerileri",
+          "author": "FİGEN ÖZER AYHAN",
+          "year": 2019,
+          "score": 0.9053,
+          "abstract_excerpt": "İklim değişikliği son yıllarda insanlığın karşılaştığı en büyük çevre tehdididir. İklim değişikliği; sıcaklık artışları, kuraklık, sel, şiddetli kasırga gibi aşırı hava olaylarının sıklığı ve etkisinde artış, buzulların erimesi gibi etkenler sonucunda bitkiler, hayvanlar ve ekosistemlerin yanı sıra "
+        },
+        {
+          "tez_no": "779598",
+          "title_tr": "Küresel iklim değişikliğinde tarım ve bir çözüm önerisi olarak modern tarım uygulamaları",
+          "author": "NEŞET KICIK",
+          "year": 2023,
+          "score": 0.9008,
+          "abstract_excerpt": "Küresel iklim değişikliğinin tek sorunlusu insan değildir. Fakat en büyük sorumluluk insanındır. Çevre, yüzyıllar boyunca olumsuz etkiye maruz kalmıştır. Bu etki Sanayi Devrimi öncesi doğal nitelikteyken Sanayi Devrimi sonrası yapay nitelik kazanmıştır. Sanayi Devrimi ve çeşitli insan faaliyetleriyl"
+        },
+        {
+          "tez_no": "410138",
+          "title_tr": "Türkiye'de iklim değişikliklerinin buğday fiyatlarına etkisi",
+          "author": "YASEMİN MARMARA",
+          "year": 2015,
+          "score": 0.8829,
+          "abstract_excerpt": "İnsanoğlunun var oluşundan beri varlığını özellikle gıda temini noktasında hissettiren ve sürdüren tarım sektörü, gelişen teknolojiye bağlı olarak uygulama esaslarını ve tarımsal ürünlerin kullanım sahalarını da geliştirmiştir. Ancak, tarımsal üretime ilişkin uygulamalar her ne kadar gelişirse geliş"
+        },
+        {
+          "tez_no": "859119",
+          "title_tr": "Küresel iklim değişikliğinin tarım mallarının karşılaştırmalı üstünlüğüne etkisi (Avrupa Birliği örneği)",
+          "author": "ARDA HALİL ATMACA",
+          "year": 2024,
+          "score": 0.881,
+          "abstract_excerpt": "Yirminci yüzyılın ikinci yarısından itibaren görünür olmaya başlayan küresel iklim değişikliği, bugün dünyanın acil bir şekilde önlem alması gereken problemlerinden biri haline gelmiştir. Özellikle sıcaklık artışı kuraklık riskini ortaya çıkarırken, kıtlık gibi iktisadın temel varsayımlarından biri "
+        },
+        {
+          "tez_no": "619908",
+          "title_tr": "Türkiye'de iklim değişikliğinin enerji ve tarım sektörüne etkisi üzerine ekonometrik bir uygulama",
+          "author": "AYŞE BOYRAZ",
+          "year": 2020,
+          "score": 0.8805,
+          "abstract_excerpt": "Sanayi devrimi sonrasında enerji ihtiyacının artması nedeniyle fosil yakıt tüketiminde ciddi artışlar yaşanmıştır. İnsanoğlunun bitmek bilmeyen çıkar mücadelesi ve çevrenin tahribatını görmezden gelmesi,  sera gazının atmosferde birikmesine küresel ısınmanın yaşanmasına, buna bağlı olarak da iklim d"
+        },
+        {
+          "tez_no": "804847",
+          "title_tr": "Küresel iklim değişikliğinin ekonomik yansımaları",
+          "author": "SÜLEYMAN GEZGİN",
+          "year": 2023,
+          "score": 0.8772,
+          "abstract_excerpt": "İklim değişikliği, günümüz dünyasının en belirleyici endişelerinden biridir ve dünyanın ekosistemlerini büyük ölçüde yeniden şekillendirmiş ve şekillendirme sürecindedir. İklim değişikliği, yeryüzünde sabit bir süreç olmasına rağmen son zamanlarda bu değişimin hızı kat kat artmaktadır. Esas olarak f"
+        },
+        {
+          "tez_no": "783931",
+          "title_tr": "Türkiye'de iklim değişikliğinin tarımsal ürün verimliliğine etkilerinin bölgesel olarak değerlendirilmesi",
+          "author": "FATMA SELÇUK",
+          "year": 2023,
+          "score": 0.8746,
+          "abstract_excerpt": "Küresel iklim değişikliği, 20. yüzyılın ortalarından itibaren gündemde olan, tüm dünyayı etkileyen, çözülmesi ve anlaşılması güç olan önemli bir çevre sorunudur. İklim değişikliği, doğal olarak veya insan faaliyetleri nedeniyle iklimde zamanla meydana gelen uzun vadeli değişiklik şeklinde tanımlanma"
+        },
+        {
+          "tez_no": "352176",
+          "title_tr": "Küresel iklim değişikliğinin Türkiye'deki su kaynakları üzerine etkileri",
+          "author": "SEVAL ŞAHİN",
+          "year": 2013,
+          "score": 0.8744,
+          "abstract_excerpt": "Türkiye farklı iklim yapısı nedeniyle, özellikle küresel ısınmaya bağlı olarak, görülebilecek bir iklim değişikliğinden en fazla etkilenecek ülkelerden birisidir. Doğal olarak üç tarafından denizlerle çevrili olması, farklı özelliklere sahip bir topografyaya sahip bulunması ve orografik özellikleri "
+        },
+        {
+          "tez_no": "850298",
+          "title_tr": "Küresel kamusal bir mal olarak suyun önemi ve Türkiye'de su kaynaklarının ekonomi politiği",
+          "author": "KÜBRA ARSLAN",
+          "year": 2023,
+          "score": 0.9033,
+          "abstract_excerpt": "Günümüz dünyasını tehdit eden en büyük problemlerden biri şüphesiz küresel \nısınma ve beraberinde getirdiği sorunlardır. Bu sorunlar geniş çaplı olup, en bilinen ve \nönem arz edenlerinin başında ise temiz su kaynaklarının tehdit altında olması problemi \ngelmektedir. Canlıların yaşamsal faaliyetlerin"
+        },
+        {
+          "tez_no": "127212",
+          "title_tr": "Meteorolojik kuraklık modellemesi ve Türkiye uygulaması",
+          "author": "SEVİNÇ SIRDAŞ",
+          "year": 2002,
+          "score": 0.8841,
+          "abstract_excerpt": "METEOROLOJİK KURAKLIK MODELLEMESI VE TÜRKİYE UYGULAMASI ÖZET Kuraklık canlı yaşam ve ekonomisi için en büyük etkiye sahip, farklı meteorolojik ve çevresel şartlar altında gelişen en önemli doğal afettir. Yıkıcı sonuçlara sahip olan kuraklığın başlangıcını kesinlikle tanımlamak mümkün değildir. Kurak"
+        },
+        {
+          "tez_no": "812085",
+          "title_tr": "SWAT hidrolojik modeli ile kuraklık analizi",
+          "author": "EGEMEN ÇİMEN",
+          "year": 2023,
+          "score": 0.8796,
+          "abstract_excerpt": "Kuraklık iklim değişikliğinin en önemli etkilerinden biridir. Kuraklığın zaman ve mekân sınırlaması bulunmamakla birlikte önlem alınmadığı takdirde gelecekte ürün çeşitliliğini ciddi oranda düşüreceği ve sosyo-ekonomik yaşantıyı olumsuz yönde etkileyeceği öngörülmektedir. Bu çalışma kapsamında Deniz"
+        },
+        {
+          "tez_no": "249993",
+          "title_tr": "Küresel ısınmanın su kaynakları üzerine etkileri: Türkiye örneği",
+          "author": "ERCAN KÜÇÜKKILAVUZ",
+          "year": 2009,
+          "score": 0.877,
+          "abstract_excerpt": "Günümüzde en büyük çevre sorunlarından biri küresel ısınma ve iklim değişikliğidir. İnsan kaynaklı bu çevre sorunun en temel nedeni, özellikle sanayi devrimi ile birlikte artan fosil yakıt tüketimidir. İklim değişikliğine ve onun ciddi boyuttaki ekolojik ve sosyo - ekonomik etkilerine dair kanıtlar "
+        },
+        {
+          "tez_no": "690719",
+          "title_tr": "Türkiye'de kuraklık analizi",
+          "author": "GÖZDE NUR AKŞAN",
+          "year": 2021,
+          "score": 0.8741,
+          "abstract_excerpt": "Kuraklık, tüm doğal tehlikelerin en karmaşığıdır. Kuraklığa hazırlık planlamasında ilerleme olmaması ve ulusal kuraklık politikalarının geliştirilmesi bu karmaşıklığın bir yansımasıdır.\nTez kapsamında, meteorolojik kuraklık için Türkiye'nin 81 merkez istasyonundan alınan günlük, aylık toplam yağış v"
+        },
+        {
+          "tez_no": "659410",
+          "title_tr": "Türkiye'nin kuraklık analizi",
+          "author": "HURŞİT YETMEN",
+          "year": 2013,
+          "score": 0.8699,
+          "abstract_excerpt": "Türkiye'nin çok büyük bir bölümünde yaz mevsiminin yağışsız geçmesi, Polar Cephe'nin bu mevsimde iyice kuzeye çekilmesi, yüksek basınç sistemi ve cT hava kütlelerinin etkisiyle ilgili olduğu bilindiği için bu durum iklim normali ve her yıl tekrarlanan bir süreç olarak su kaynaklarının yönetimi konus"
+        },
+        {
+          "tez_no": "860971",
+          "title_tr": "Apa Barajı havzasındaki hidrolojik parametrelerin makine öğrenmesi ile tahmini",
+          "author": "TÜRKER TUĞRUL",
+          "year": 2024,
+          "score": 0.8696,
+          "abstract_excerpt": "Son yıllarda, özellikle de sanayi devriminden sonra insanoğlunun suya olan ihtiyacı artmıştır. Canlılar için yaşamsal önemi tartışılmaz olan bu suyun, gelecekteki ve mevcut miktarının korunması tüm insanoğlunu ilgilendiren bir konu haline gelmekten ötesine geçmiş, herkesin bu konu hakkında neler yap"
+        },
+        {
+          "tez_no": "735416",
+          "title_tr": "İklim değişikliğine rağmen kapitalizmin kurallarına göre işleyen bir ekonomide sürdürülebilir büyüme mümkün mü?",
+          "author": "FİKRİ KORUM",
+          "year": 2022,
+          "score": 0.8683,
+          "abstract_excerpt": "İçinde yaşadığımız dünya sayısız türe ev sahipliği yapan ve insan yaşamı için en uygun ortamı sağlayan gezegendir. Dünya jeologlara göre tahmini 4.6 milyar yaşında ve dünyada bu güne kadar çok çeşitli iklim değişiklikleri olmuş, bu değişikliklerden birçok tür yok olurken, onların yerine yeni türler "
+        },
+        {
+          "tez_no": "220151",
+          "title_tr": "Küresel ısınmanın sebep olacağı siyasal ve ekonomik gelişmeler ve muhtemel Türkiye yansımaları",
+          "author": "İBRAHİM ATEŞ",
+          "year": 2008,
+          "score": 0.8613,
+          "abstract_excerpt": "İnsanlık tarihinin başlangıcından bu güne özellikle de son yüzyıllık zaman dilimi dahilindeki sıcaklıkta 0,5 °C'lik bir artma, deniz seviyesinde bu yüzyılın başından beri 20 cm'lik bir artma, stratosfer sıcaklığında azalma, orta enlemlerdeki yağış miktarında artma ve subtropik enlemlerdeki yağış mik"
+        },
+        {
+          "tez_no": "258339",
+          "title_tr": "Sürdürülebilir tarımın ölçümü ve Türkiye açısından değerlendirilmesi",
+          "author": "MUHAMMED ŞÜKRÜ MOLLAVELİOĞLU",
+          "year": 2009,
+          "score": 0.8611,
+          "abstract_excerpt": "Son yüzyılda, teknolojik açıdan yaşanan hızlı gelişim ve değişimden tarım sektörü de büyük ölçüde etkilenmiş ve tarımsal verimliliğin artırılması yoğun teknolojilerin kullanımıyla olanaklı hale gelmiştir. Özellikle, 1950'li yıllardan sonra tarımda modernleşme daha da hızlanmıştır. Tarımsal modernleş"
+        }
+      ]
+    },
+    "synthesis": null,
+    "critic": null,
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nİklim değişikliği, Sanayi Devrimi sonrası fosil yakıt tüketimindeki artışa bağlı olarak atmosferde sera gazlarının birikmesiyle ortaya çıkan küresel bir krizdir [4][11][12]. Bu süreç, yüzey sıcaklıklarının yükselmesine, yağış rejimlerinin bozulmasına ve aşırı hava olaylarının sıklığının artmasına yol açmaktadır [2][3][7]. Türkiye, coğrafi konumu itibarıyla Akdeniz havzasında yer alması nedeniyle iklim değişikliğinin olumsuz etkilerine en açık ülkelerden biri olarak değerlendirilmektedir [7][14]. Bu bağlamda, iklim değişikliğinin Türkiye'deki tarımsal üretim üzerindeki ekonomik etkileri; verim kayıpları, ürün fiyatlarındaki dalgalanmalar, su kaynaklarının azalması ve sektörel maliyet artışları gibi çok boyutlu bir çerçevede incelenmektedir.\n\n## İklim Değişikliğinin Tarımsal Verimlilik ve Üretim Üzerindeki Ekonomik Etkileri\n\nİklim değişikliğinin tarım sektörü üzerindeki en doğrudan ekonomik etkisi, verimlilik kayıpları aracılığıyla ortaya çıkmaktadır. Yapılan araştırmalar, iklim değişikliğine bağlı olarak sıcaklık artışları ve yağış düzensizliklerinin buğday, arpa ve mısır gibi temel tahıl ürünlerinin verimini olumsuz yönde etkilediğini göstermektedir [5][6]. Bu durum, tarımsal üretim miktarında azalmaya yol açarak çiftçi gelirlerini düşürmekte ve ulusal ölçekte gıda arz güvenliğini tehdit etmektedir. İklim değişikliğinin tarım üzerindeki olumsuz etkilerinin, olumlu etkilerinden daha fazla olduğu vurgulanmaktadır [3]. Ayrıca, iklim değişikliğinin etkileri Türkiye'nin farklı bölgelerinde farklı şiddette hissedilmektedir; örneğin, Güneydoğu ve İç Anadolu bölgeleri çölleşme tehdidi altındayken, diğer bölgelerde sıcaklık artışı ve su kıtlığı daha belirgin hale gelmektedir [13][14].\n\n## Su Kaynaklarının Azalması ve Kuraklığın Ekonomik Maliyeti\n\nKuraklık, iklim değişikliğinin en önemli ve yıkıcı sonuçlarından biri olarak tarımsal üretimi doğrudan etkilemektedir [16][17][19]. Türkiye'de özellikle yaz mevsiminin yağışsız geçmesi ve polar cephenin kuzeye çekilmesi, su kaynaklarının yönetiminde belirsizlik yaratmakta; periyodik olmayan kuraklık dönemleri ise tarımsal üretimde ciddi kayıplara neden olmaktadır [20]. Su kaynaklarının azalması, sulu tarım yapılan alanlarda üretim maliyetlerini artırmakta ve verim düşüşüne yol açmaktadır [14][15][18]. Kuraklığın devam etmesi halinde depolanan su miktarının talebi karşılayamaması, tarımsal üretimde azalma ve kayıplar ile olumsuz ekonomik sonuçlar doğurmaktadır [16]. Önlem alınmadığı takdirde, kuraklığın gelecekte ürün çeşitliliğini ciddi oranda düşüreceği ve sosyo-ekonomik yaşantıyı olumsuz etkileyeceği öngörülmektedir [17].\n\n## Tarımsal Ürün Fiyatları ve Piyasa Dinamikleri Üzerindeki Etkiler\n\nİklim değişikliği, tarımsal ürün arzında yarattığı dalgalanmalar aracılığıyla ürün fiyatlarını da etkilemektedir. Tarımın mevsimlere bağlı olma özelliği, iklim koşullarındaki değişimlerin üretim miktarını sınırlamasına ve dolayısıyla fiyat istikrarsızlığına yol açmasına neden olmaktadır [9]. Buğday gibi temel gıda maddelerinin fiyatlarındaki artış, hem tüketici refahını olumsuz etkilemekte hem de enflasyonist baskı yaratmaktadır. Ayrıca, iklim değişikliğinin tarım mallarının karşılaştırmalı üstünlüğü üzerinde de etkili olduğu, uluslararası ticaret dinamiklerini değiştirebileceği belirtilmektedir [10].\n\n## Sektörel ve Makroekonomik Maliyetler\n\nİklim değişikliği, tarım sektörü özelinde olduğu kadar genel ekonomi üzerinde de ciddi maliyetler yaratmaktadır. Sera gazı emisyonlarındaki artışa bağlı olarak gerçekleşen iklim değişikliği, dünya ekonomisi ve ülke ekonomileri üzerinde önemli ekonomik baskılar oluşturmaktadır [4][12]. Türkiye özelinde yapılan ekonometrik çalışmalar, iklim değişikliğinin enerji ve tarım sektörleri üzerindeki etkilerinin ekonomik büyüme ve istihdam üzerinde olumsuz sonuçlar doğurduğunu ortaya koymaktadır [11]. Bununla birlikte, iklim değişikliğinin tarım sektörü üzerindeki etkilerine yönelik yapılan çalışmalarda bazı tutarsızlıklar bulunduğu ve tam bir görüş birliğine varılamadığı da ifade edilmektedir [1].\n\n## Uyum Politikaları ve Sürdürülebilir Tarım Arayışları\n\nİklim değişikliğinin tarımsal üretim üzerindeki olumsuz ekonomik etkilerini hafifletmek amacıyla çeşitli uyum politikaları geliştirilmektedir. Bu kapsamda, modern tarım uygulamaları, sürdürülebilir tarım yöntemleri ve su kaynaklarının etkin yönetimi öne çıkan çözüm önerileri arasında yer almaktadır [7][8][24]. Ancak, hem ulusal hem de uluslararası düzeyde gerekli önlemlerin henüz yeterince hayata geçirilemediği belirtilmektedir [5][10]. Kapitalist ekonomik sistemin kuralları çerçevesinde sürdürülebilir büyümenin mümkün olup olmadığı ise tartışmalı bir konu olarak gündemdeki yerini korumaktadır [22].\n\n## Sonuç\n\nİklim değişikliği, Türkiye'deki tarımsal üretim üzerinde verim kayıpları, su kıtlığı, ürün fiyatlarında dalgalanma ve makroekonomik maliyetler gibi çok boyutlu ve ağırlıklı olarak olumsuz ekonomik etkiler yaratmaktadır. Türkiye'nin Akdeniz havzasındaki konumu, bu etkileri daha da şiddetlendirmektedir. Mevcut literatür, iklim değişikliğinin tarım sektörü üzerindeki etkilerinin bölgesel farklılıklar gösterdiğini ve bu etkilerin hafifletilmesi için kapsamlı uyum politikalarına ihtiyaç duyulduğunu ortaya koymaktadır. Bununla birlikte, konuya ilişkin çalışmalarda bazı tutarsızlıklar bulunması, daha fazla ampirik araştırma yapılması gerektiğine işaret etmektedir.",
+      "n_citations": 24,
+      "citations_ieee": [
+        "[1] ZEYNEP EKER, \"İklim değişikliği üzerine yapılan çalışmalarrın değerlendirilmesine yönelik bir araştırma,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Fen Bilimleri Enstitüsü / Tarım Ekonomisi Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGhLRiFbNeIBlbBo6r8AhKpPUGMHs09T6plgL81erKRrD",
+        "[2] KÜBRA DAĞ, \"İklim değişikliğinin Türkiye tarımına etkileri,\" Yüksek Lisans/Doktora tezi, Mersin Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı / İktisat Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=UjlM15wKZGQW6TLC0pvCt8mnbHx2m4f-qIDikoB1WsSLCp94ecfS1KNymJOLh_R8",
+        "[3] BURÇİN BERİKOL METE, \"İklim değişikliği ve Türkiye'de tarım üzerine etkileri,\" Yüksek Lisans/Doktora tezi, Kırklareli Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CG8WvdvvxJP04Unr7Yecf4E3zjdCV76AHr2KhPuDiV2SyWvuUgWtdnTqDtl2tbop",
+        "[4] MEHMET SAYA, \"Küresel iklim değişikliğinin sektörel düzeyde ve Türkiye tarım sektörü üzerindeki etkilerinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı / İktisat Politikası Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=OykDDeWBWTL9-Wm52sZBrEhAE4M64jwYCkpj7pntgWVirHiFBo-u730_jYpzlrt2",
+        "[5] BERNA KAYA, \"İklim değişikliğinin Türkiye'de buğday, arpa ve mısır bitkilerinin verimleri üzerine etkilerinin panel veri modeli ile analizi,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Bölümü / İktisat Ana Bilim Dalı / İktisat Politikası Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ZeTyprYuef2HkaF3xt4wYi0XUxAetWIfmXS72Qngtnx7PMcpRIUUU0o3eix_sC65",
+        "[6] OSMAN ÇAYLAK, \"İklim değişikliğinin buğday bitkisinin gelişimi ve verimine olası etkilerinin bitki-iklim simulasyon modeli ile incelenmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Meteoroloji Mühendisliği Ana Bilim Dalı / Atmosfer Bilimleri Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sY7m19PfcL6F1NUw-cr80GYcP2Br3AE9995W0XGBSW4dia7XGIXc4tK8z-XMxer6",
+        "[7] FİGEN ÖZER AYHAN, \"Türkiye'de iklim değişikliğinin tarıma olası etkileri ve uyum için politika önerileri,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Fen Bilimleri Enstitüsü / Tarım Ekonomisi Ana Bilim Dalı / Tarım Politikası ve Yayım Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=4J_FzTwlrMCH4qBROpXPHxia0QHREBZjb3n-3cbsi434xVXzO5VmpjPhX7V8Xu1e",
+        "[8] NEŞET KICIK, \"Küresel iklim değişikliğinde tarım ve bir çözüm önerisi olarak modern tarım uygulamaları,\" Yüksek Lisans/Doktora tezi, Hitit Üniversitesi / Lisansüstü Eğitim Enstitüsü / Siyaset Bilimi ve Kamu Yönetimi Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kIrIdtdJ31bRgjb6fHvMURsbjx16fhe3fScMbgLuC5w_z9Oa6DRFiCIw2FpynrYV",
+        "[9] YASEMİN MARMARA, \"Türkiye'de iklim değişikliklerinin buğday fiyatlarına etkisi,\" Yüksek Lisans/Doktora tezi, Beykent Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Yönetimi Ana Bilim Dalı / Finans Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WY5CM7tPNE2z_YM6pBu0t9BRftH0c6JZADhXf6ORdnCxGWiFS-GTyECkd9C-OqWc",
+        "[10] ARDA HALİL ATMACA, \"Küresel iklim değişikliğinin tarım mallarının karşılaştırmalı üstünlüğüne etkisi (Avrupa Birliği örneği),\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı / İktisat Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cr4SkWLaRMhkDRBjqthpsTiw8_nmXyU1kMk4aZ671R3UUGOnxSBWbxOplIQfN5Ku",
+        "[11] AYŞE BOYRAZ, \"Türkiye'de iklim değişikliğinin enerji ve tarım sektörüne etkisi üzerine ekonometrik bir uygulama,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=4J_FzTwlrMCH4qBROpXPH6M6pmR0_MpDpn3J9OvPHdggW1d-v35eEsKr0fcAS_7D",
+        "[12] SÜLEYMAN GEZGİN, \"Küresel iklim değişikliğinin ekonomik yansımaları,\" Yüksek Lisans/Doktora tezi, İskenderun Teknik Üniversitesi / Sosyal Bilimler Enstitüsü / Ekonomi Finans Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=j_Fjwp4JS4mk97Puqti8rlRJo8WXg5E5NXrUvyRKL_a0xfzPlWwJ3dwONVv-8NMA",
+        "[13] FATMA SELÇUK, \"Türkiye'de iklim değişikliğinin tarımsal ürün verimliliğine etkilerinin bölgesel olarak değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Şehir ve Bölge Planlama Ana Bilim Dalı / Bölge Planlama Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxJYPBfU8B5waHBMDijzMSuI31j6R-UW7vUhJ-TF_TtJF",
+        "[14] SEVAL ŞAHİN, \"Küresel iklim değişikliğinin Türkiye'deki su kaynakları üzerine etkileri,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Fen Bilimleri Enstitüsü / Tarımsal Yapılar ve Sulama Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1zw6GvYMe-q3Hf6HR-3USzSsqq930IL4FZL_FRwKJhKcT3927AqQVQKDaj1skKrY",
+        "[15] KÜBRA ARSLAN, \"Küresel kamusal bir mal olarak suyun önemi ve Türkiye'de su kaynaklarının ekonomi politiği,\" Yüksek Lisans/Doktora tezi, Gümüşhane Üniversitesi / Lisansüstü Eğitim Enstitüsü / Maliye Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cr4SkWLaRMhkDRBjqthpsYMQqv-u2Z5_U_x-3ERrEaq-TU747j_-wBFx4FKHYxb4",
+        "[16] SEVİNÇ SIRDAŞ, \"Meteorolojik kuraklık modellemesi ve Türkiye uygulaması,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Meteoroloji Mühendisliği Ana Bilim Dalı, 2002. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=TJtEyl3GBWgytfBisjf7l4Vj-27nlFKIp7rd9finiZ7xciPnJpHGJbBBhsusy_2y",
+        "[17] EGEMEN ÇİMEN, \"SWAT hidrolojik modeli ile kuraklık analizi,\" Yüksek Lisans/Doktora tezi, Pamukkale Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=a0OMTmEd_3mfOBxT8SiBTDGkYvsh5lN1O8m2wDgw6yqDzDylFOGOT0QAwtY-voTa",
+        "[18] ERCAN KÜÇÜKKILAVUZ, \"Küresel ısınmanın su kaynakları üzerine etkileri: Türkiye örneği,\" Yüksek Lisans/Doktora tezi, Harran Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Bölümü / İktisat Ana Bilim Dalı / İkt. Gelişme ve Uluslararası İkt. Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAW-d6W1lujkLR_GPvqly6CmyIaAIdMDHRGPkKWvqF-ng",
+        "[19] GÖZDE NUR AKŞAN, \"Türkiye'de kuraklık analizi,\" Yüksek Lisans/Doktora tezi, Pamukkale Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=tqUiYt63sTQLTpozMJ92QmZeI5q1SNM1MI4BSEg1jNnMIbD17IMKqxR1ENvN4YoZ",
+        "[20] HURŞİT YETMEN, \"Türkiye'nin kuraklık analizi,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Coğrafya Ana Bilim Dalı / Fiziki Coğrafya Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMs_bUo91LCxIffbOxT0LJQoB4BixVX6OlM7YqgyGtpafn",
+        "[21] TÜRKER TUĞRUL, \"Apa Barajı havzasındaki hidrolojik parametrelerin makine öğrenmesi ile tahmini,\" Yüksek Lisans/Doktora tezi, Aksaray Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQlyjS9HINbhWdiljiRII7AeqKviL9GUGa5MhlnvJSpqj",
+        "[22] FİKRİ KORUM, \"İklim değişikliğine rağmen kapitalizmin kurallarına göre işleyen bir ekonomide sürdürülebilir büyüme mümkün mü?,\" Yüksek Lisans/Doktora tezi, Karamanoğlu Mehmetbey Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkhK37yO5qh8ZtL4g35uQlRz04Wx4Q8hlsuWwq7opVet8",
+        "[23] İBRAHİM ATEŞ, \"Küresel ısınmanın sebep olacağı siyasal ve ekonomik gelişmeler ve muhtemel Türkiye yansımaları,\" Yüksek Lisans/Doktora tezi, Gebze Yüksek Teknoloji Enstitüsü / Sosyal Bilimler Enstitüsü / Strateji Bilimi Bölümü / Strateji Bilimi Ana Bilim Dalı / İşletme Yönetimi ve Organizasyon Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6Q8TxmUcQjAwNcfWd81CpWRdwKZsgWSdT9uwoHk2zYJJ5",
+        "[24] MUHAMMED ŞÜKRÜ MOLLAVELİOĞLU, \"Sürdürülebilir tarımın ölçümü ve Türkiye açısından değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=NtBAevXNhYaNqJFoAcdBdiO26MOiMZByNsBIxiTus_kLAl1D_5Yews5z7AsZTsCy"
+      ]
+    }
+  },
+  "error": null
+}

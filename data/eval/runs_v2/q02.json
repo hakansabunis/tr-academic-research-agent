@@ -1,0 +1,374 @@
+{
+  "id": "q02",
+  "category": "computer_science",
+  "type": "method",
+  "question": "Türkçe metin sınıflandırmada Transformer tabanlı modellerin (BERT vb.) avantajları ve sınırlılıkları nelerdir?",
+  "expected_subjects": [
+    "Bilgisayar Mühendisliği"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 105.8,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Türkçe metin sınıflandırmada BERT ve türevi modeller, geleneksel yöntemlere (SVM, LSTM, FastText vb.) kıyasla hangi performans metriklerinde (F1, doğruluk, kesinlik, duyarlılık) ne ölçüde üstünlük sağlamaktadır?",
+          "rationale": "Bu soru, Transformer modellerinin avantajlarını somut performans karşılaştırmaları üzerinden ortaya koyar. YÖK tezlerinde sıkça rastlanan deneysel karşılaştırma bulgularına odaklanır."
+        },
+        {
+          "text": "Türkçe metin sınıflandırmada BERT tabanlı modellerin ince ayar (fine-tuning) aşamasında karşılaşılan başlıca sınırlılıklar (veri miktarı, etiket dengesizliği, alan uyarlaması, hesaplama maliyeti) nelerdir ve bu sınırlılıklar hangi tezlerde nasıl raporlanmıştır?",
+          "rationale": "Bu soru, modellerin sınırlılıklarını uygulama aşamasındaki pratik engeller üzerinden sorgular. Tezlerde raporlanan somut kısıtları hedef alır."
+        },
+        {
+          "text": "Türkçe için ön eğitilmiş (pre-trained) Transformer modellerinin (BERTurk, DistilBERT, ELECTRA, XLM-R vb.) metin sınıflandırma başarımı, model boyutu, eğitim verisi büyüklüğü ve tokenizer stratejisi açısından nasıl farklılaşmaktadır?",
+          "rationale": "Bu soru, farklı Transformer varyantlarının Türkçe özelindeki karşılaştırmalı başarımını sorgular. Tezlerde sıkça yapılan model karşılaştırma deneylerine yöneliktir."
+        },
+        {
+          "text": "Türkçe metin sınıflandırmada Transformer modellerinin yorumlanabilirlik (interpretability) ve açıklanabilirlik (explainability) açısından sunduğu avantaj ve sınırlılıklar (attention görselleştirme, SHAP/LIME entegrasyonu vb.) tezlerde nasıl ele alınmıştır?",
+          "rationale": "Bu soru, sadece başarım değil, modellerin şeffaflığı ve güvenilirliği gibi nitel boyutları sorgular. Tezlerdeki yorumlanabilirlik analizlerine odaklanır."
+        },
+        {
+          "text": "Türkçe metin sınıflandırmada Transformer modellerinin belirli alanlara (duygu analizi, haber sınıflandırma, spam tespiti, tıbbi metin vb.) uygulanmasında elde edilen bulgular, alanlar arası genelleme (cross-domain generalization) açısından hangi avantaj ve sınırlılıkları göstermektedir?",
+          "rationale": "Bu soru, avantaj ve sınırlılıkların alan bağımlılığını sorgular. Farklı uygulama alanlarındaki tez bulgularını karşılaştırmalı olarak değerlendirmeyi hedefler."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 27,
+      "max_score": 0.8883,
+      "min_score": 0.8194,
+      "chunks": [
+        {
+          "tez_no": "343705",
+          "title_tr": "Bilimsel makalelerin metin işleme yöntemleri ile sınıflandırılması",
+          "author": "SAMAL KALİYEVA",
+          "year": 2013,
+          "score": 0.8883,
+          "abstract_excerpt": "Günümüzdeki teknolojik gelişmeler ile, kağıt üzerindeki metinlerin sayısal ortamlara aktarılması kolaylaşmıştır. Bu metinlere daha kolay erişilebilmesi için metin sınıflandırma yapılması gerekmektedir. Çok sayıdaki doğal dil metinlerini sınıflandırmadan önce metin işleme tekniklerinin uygulanması ge"
+        },
+        {
+          "tez_no": "735613",
+          "title_tr": "Çift yönlü enkoder transformatör tabanlı Türkçe metin sınıflandırma derin öğrenme modeli geliştirilmesi /",
+          "author": "KAMİL AKARSU",
+          "year": 2022,
+          "score": 0.8796,
+          "abstract_excerpt": "Yazının icadından günümüz dünyasına kadar geçen sürede katlamalı olarak artan sayıda yazılı bilgi kaynakları mevcuttur. Çok büyük miktarda metin verisi beraberinde kaçınılmaz sorunları da getirmiştir. Elde edilen yazılı verilerin\nincelenmesi, etiketlenmesi, konularının tahmin edilmesi gibi problemle"
+        },
+        {
+          "tez_no": "606859",
+          "title_tr": "Derin öğrenme yöntemleri ile Türkçe metinlerde benzerlik tespiti",
+          "author": "İRFAN AYGÜN",
+          "year": 2019,
+          "score": 0.8748,
+          "abstract_excerpt": "Günümüz teknolojilerinde doğal dillerin makineler tarafından algılanabilmesi birçok problemin çözümü için kaçınılmaz bir ihtiyaçtır. Metinler üzerinde yapılan çalışmalar sayesinde intihal tespiti, metin-yazar eşleştirmesi, metin konusunun tespiti, otomatik özet çıkarımı gibi birçok alanda yazılım ta"
+        },
+        {
+          "tez_no": "859818",
+          "title_tr": "Geleneksel makine öğrenimi ve derin öğrenme modelleri ile Türkçe metin sınıflandırmada kelime temsil yöntemlerinin etkisi",
+          "author": "NİHAL DUMAN SUNA",
+          "year": 2024,
+          "score": 0.8667,
+          "abstract_excerpt": "Yapay zekânın bir kolu olan doğal dil işleme metin verilerin üretilmesine, işlenmesine, sınıflandırılmasına ve idare edilebilmesine olanak sağlar. Doğal dil işleme büyük metin verilerinin işlenmesi ve farklı amaçlar için kullanılması açısından etkin ve önemlidir. Doğal dil işleme alanlarından metin "
+        },
+        {
+          "tez_no": "222323",
+          "title_tr": "Türkçe metinler için konu belirleme sistemi",
+          "author": "FATİH KESGİN",
+          "year": 2007,
+          "score": 0.8665,
+          "abstract_excerpt": "Bilgi erişimi (BE), bilginin temsil edilmesi, saklanması, düzenlenmesi ve gerektiği\u000bzamanda erişilebilmesini mümkün hale getirmek için yöntemlerin geliştirildiği\u000baraştırma konusudur. Genel Ağ'ın (İnternet) yaygınlaşması ile sayısal olarak saklanan\u000bve erişilmek istenen belgelerin sayısı her geçen gün"
+        },
+        {
+          "tez_no": "182753",
+          "title_tr": "Melez yaklaşımlarla Türkçe dokümanlarda yazar tanıma",
+          "author": "FİLİZ TÜRKOĞLU",
+          "year": 2006,
+          "score": 0.8657,
+          "abstract_excerpt": "İnternet'in yaygınlaşmasıyla elektronik ortamdaki doküman sayısı oldukça artmıştır.Gittikçe artan bu bilgiye daha kolay ve hızlı erişmek amacıyla metin sınıflandırma önemkazanmaktadır. Son yıllarda, metin sınıflandırma alanında yapılan çalışmaların bir kısmı,yazar tanıma adı verilen ve anonim bir me"
+        },
+        {
+          "tez_no": "696487",
+          "title_tr": "Doküman dili tanıma için içerik bağımsız yeni bir yaklaşım: açı örüntüler",
+          "author": "TUBA NOYAN",
+          "year": 2021,
+          "score": 0.8633,
+          "abstract_excerpt": "Metin madenciliğinde dil tanıma (DT), bir belgenin veya bir kısmının yazıldığı doğal dili algılama çalışmasıdır. Bu çalışmada, karakterlerin UTF-8 değerleri arasında kalan açı bilgisini kullanan metinden yeni bir dil tanıma yaklaşımı önerilmiştir. \nÖnerilen açı yöntemi metinlerden öznitelik çıkarımı"
+        },
+        {
+          "tez_no": "691593",
+          "title_tr": "Türkçe metinlerin sınıflandırılmasında kullanılmak için geliştirilen melez bir öz nitelik seçim yöntemi",
+          "author": "YEŞİM KAYGUSUZ",
+          "year": 2021,
+          "score": 0.8605,
+          "abstract_excerpt": "Teknolojinin her alanda yaygınlaşması, kullanılması ve internete erişimin kolaylaşması ile içerikler üretilmesi, paylaşılması ve depolanması kolaylaşmıştır. Bu interaktif eylemler sonucunda ise geçmişten günümüze depolanan veri miktarlarında büyük oranlarda artışlar gözlemlenmiştir. Depolanan verile"
+        },
+        {
+          "tez_no": "848752",
+          "title_tr": "Makine öğrenmesi kullanarak metin özetleme",
+          "author": "GÜLNİHAL UYKUN",
+          "year": 2024,
+          "score": 0.8594,
+          "abstract_excerpt": "Bilgi kaynaklarının çokluğu ve bilgi içeren belgelerin büyüklüğü, metinden bilgi edinme işleminin oldukça fazla zaman almasına sebep olmaktadır. Bilişim teknolojilerindeki gelişmeler, metinden bilgiye erişmek için kullanılabilecek farklı yöntemlerin arayışını ortaya çıkarmıştır. Metinden bilgiye eri"
+        },
+        {
+          "tez_no": "886444",
+          "title_tr": "Türkçe metinler üzerinde doğal dil işleme teknikleriyle soru-cevap sistemi geliştirilmesi",
+          "author": "MEHMET ARZU",
+          "year": 2024,
+          "score": 0.8554,
+          "abstract_excerpt": "Soru-cevap sistemleri, kullanıcıların doğal dilde ifade ettikleri sorulara hızlı ve doğru yanıtlar vererek bilgiye erişim süreçlerini kolaylaştırmaktadır. Günümüzde doğal dil işleme tekniklerindeki gelişmeler, bu tür sistemlerin etkinliğini artırmakta ve kullanıcı deneyimini iyileştirmektedir. Bunun"
+        },
+        {
+          "tez_no": "877743",
+          "title_tr": "Derin öğrenme yöntemleri ile ilişkisel doküman sınıflandırılması",
+          "author": "HALİL İBRAHİM OKUR",
+          "year": 2024,
+          "score": 0.8298,
+          "abstract_excerpt": "Metin sınıflandırması, geniş ve karmaşık metin havuzlarından anlamlı bilgiler çıkarmak ve bu metinleri otomatik olarak kategorilere ayırmak için kullanılan doğal dil işleme (NLP) uygulamalarından biridir. Ancak, zengin morfolojik yapıya sahip dillerde ve çeşitli veri kaynaklarında bu yöntemler yeter"
+        },
+        {
+          "tez_no": "334883",
+          "title_tr": "Türkçe dokümanların sınıflandırılması",
+          "author": "RUMEYSA YILMAZ",
+          "year": 2013,
+          "score": 0.8186,
+          "abstract_excerpt": "İnternetin hızla gelişmesi elektronik ortamdaki bilgileri ve işlemleri arttırmıştır. Fakat, bu ortamlarda depolanan ve işlenen bilgilerin boyutunun artması aranan bilgiye erişmekte problemler çıkarmıştır. Bu doğrultuda, kullanıcıların istedikleri bilgiye daha doğru ve hızlı bir şekilde ulaşma ihtiya"
+        },
+        {
+          "tez_no": "752523",
+          "title_tr": "Dönüştürücü dil modellerine etkili hassas ayar yapmak için veri mühendisliği yöntemleri",
+          "author": "MUHAMMED SAİD ZENGİN",
+          "year": 2022,
+          "score": 0.8168,
+          "abstract_excerpt": "Geleneksel yöntemlerle metinden öznitelik çıkarmak ve bir doğal dil işleme görevini yerine getirmek mümkündür, fakat kısıtlı miktardaki etiketli veriyle cümle yapısı ve kelime vektörleri yeterince öğrenilmediği için model performansı kısıtlı kalmaktadır. Bu sebeple son yıllarda araştırmacılar öncede"
+        },
+        {
+          "tez_no": "386141",
+          "title_tr": "Enformasyon sistemlerinde saklı Markov modeli ve Bayes tabanlı sınıflandırıcılar ile bilgi modellerinin geliştirilmesi",
+          "author": "ADEM DOĞANER",
+          "year": 2015,
+          "score": 0.8166,
+          "abstract_excerpt": "Bilgi teknolojilerinin gelişmesi ile birlikte bilgisayar ve internet ortamında çok sayıda metin yığını oluşmuştur. Kullanıcılar, bu yoğunluktaki metin yığınları karşısında istedikleri bilgiyi elde etmek için zorluklar ile karşılaşmaktadırlar. Kullanıcılar çoğu kez bu verileri incelemek için zaman bu"
+        },
+        {
+          "tez_no": "829295",
+          "title_tr": "Türkçe klinik metinlerin derin öğrenme yaklaşımları ile sınıflandırılması",
+          "author": "HAZAL TÜRKMEN",
+          "year": 2023,
+          "score": 0.803,
+          "abstract_excerpt": "Doğal dil işleme (DDİ) alanında son yıllarda kaydedilen önemli ilerlemeler, büyük dil modellerinin (BDM'ler) ortaya çıkışıyla birlikte devrim niteliğinde araştırma ve gelişmeleri mümkün kılmıştır. Özellikle alan içi derlemlerle desteklenmiş ve önceden eğitilmiş olan BDM'lerin sunduğu imkanlar, bu de"
+        },
+        {
+          "tez_no": "201320",
+          "title_tr": "Metin madenciliği ile metin sınıflandırma",
+          "author": "İSMAİL FERHAT PİLAVCILAR",
+          "year": 2007,
+          "score": 0.8619,
+          "abstract_excerpt": "Bilgisayarların çıkısı ve gelismesiyle her geçen gün biraz daha değisen ve gelisen bir dünyada\u000byasamaktayız. Bilgisayarlar yasantımıza birçok kolaylık katmakta, yapılan islerin yükünü\u000bhafifletmekte, daha iyi sonuçlara, daha kısa yollardan ulasmamızı sağlamaktadır. Bilgisayarlar\u000baynı isi otomatik ola"
+        },
+        {
+          "tez_no": "571975",
+          "title_tr": "Merkez tabanlı metin sınıflandırma",
+          "author": "ORKUN HARAÇVERMEZ",
+          "year": 2019,
+          "score": 0.8483,
+          "abstract_excerpt": "Son yıllarda bilişim alanındaki büyük ilerlemeden dolayı çok miktarda metin verilerinin işlenmesi ve sınıflandırılması ihtiyacı vardır. Sınıflandırılan verilere çok daha hızlı erişim mümkün olmaktadır. Metin sınıflandırma, dokümanların otomatik olarak önceden belirlenmiş metin kategorilerinin hangis"
+        },
+        {
+          "tez_no": "565656",
+          "title_tr": "İstatistiksel doğal dil işlemede derin öğrenme yöntemleri kullanılarak çevrimiçi Türkçe akademik derlem çözümlenmesi",
+          "author": "BARIŞ BABÜROĞLU",
+          "year": 2019,
+          "score": 0.8468,
+          "abstract_excerpt": "Doğal dil, insanları diğer canlılardan ayıran ve insanların iletişim kurmasını sağlayan en temel özelliklerden biridir. Dil, insanın duygu ve düşüncelerini ifade etmede kullandığı ve kültürlerin nesiller boyunca aktarılmasını sağlayan bir araçtır. Günlük hayatta karşılaşılan yazılar ve sesler birer "
+        },
+        {
+          "tez_no": "728941",
+          "title_tr": "Doğal dil işleme ile makinelerin kendi dilini modellemesi",
+          "author": "ALİ DAYAN",
+          "year": 2022,
+          "score": 0.84,
+          "abstract_excerpt": "Doğadaki tüm canlılar birbirleri ile haberleşmek için çeşitli yöntemler kullanmaktadır. Dillerin oluşumu ve gelişimi hakkında hala yeterli bilgi bulunmamaktadır. Dillerin oluşumu ve doğal dil işleme süreçleri ile ilgili geçmişten günümüze kadar çeşitli çalışmalar yapılmış olup bu çalışmalar farklı m"
+        },
+        {
+          "tez_no": "600635",
+          "title_tr": "Türkçe metinden konuşma sentezlemeye yönelik yapılan çalışmaların incelenmesi",
+          "author": "GAMZE YILMAZ",
+          "year": 2019,
+          "score": 0.8366,
+          "abstract_excerpt": "Metinden konuşma sentezleme çalışmaları dijital ortamdaki her türlü bilginin sesli olarak iletilmesini sağlamaktadır. Doğal dil işleme çalışmaları ise doğal dilin yapısını daha iyi anlamak ve bilgisayar-insan etkileşimini kolaylaştırmak amacıyla yapılmaktadır. Bu tez çalışmasında, öncelikle Türkçeni"
+        },
+        {
+          "tez_no": "830420",
+          "title_tr": "Kelime gömme yaklaşımlarının iadesiz torbalanmasına dayanan uzun kısa süreli bellek mimarisi ve metin sınıflandırmasına uygulanması",
+          "author": "MUHAMMET OĞUZHAN YALÇIN",
+          "year": 2023,
+          "score": 0.8348,
+          "abstract_excerpt": "Metin sınıflandırma, doğal dil işlemenin temel uygulama alanlarından biridir. Metin sınıflandırma,  metin verilerini sahip oldukları ayırt edici özellikler dikkate alınarak önceden belirlenen bir sınıfa atama süreci olarak tanımlanabilir. Duygu analizi, istenmeyen e-postaların tespit edilmesi, soru "
+        },
+        {
+          "tez_no": "661410",
+          "title_tr": "Üretken rakip ağlar ile Türkçe metin üretimi",
+          "author": "BARIŞ GÜCÜK",
+          "year": 2021,
+          "score": 0.8343,
+          "abstract_excerpt": "Makinelerin çeşitli algoritmalar aracılığı ile kendisine verilen örneklerden öğrenip, gelecek durumlar için tahminlerde bulunmasına makine öğrenmesi denir. Makine öğrenmesi yöntemlerinde eğitim aşamasının başarısı için kullanılan eğitim veri seti kümesi oldukça önemlidir. Doğal dil işlemede en çok k"
+        },
+        {
+          "tez_no": "687202",
+          "title_tr": "Doğal dil işleme ile akademik metinlerin kümelenmesi",
+          "author": "SALİMKAN FATMA TAŞKIRAN",
+          "year": 2021,
+          "score": 0.834,
+          "abstract_excerpt": "Günümüzde ulaşımı kolay hale gelen verilerin verimli bir şekilde kullanılabilmesi için verileri ihtiyaç duyulan özelliklerine göre kategorize etmek gerekmektedir. Akademik alanda araştırma yaparken ise genellikle makale, bildiri veya tez çalışmaları gibi metin tabanlı veriler kullanılır. Kısa sürede"
+        },
+        {
+          "tez_no": "250243",
+          "title_tr": "Dillerin tipolojik sınıflandırılması",
+          "author": "ZULFİYA SHAKHİN",
+          "year": 2009,
+          "score": 0.831,
+          "abstract_excerpt": "Tipoloji dilbiliminin bir dalı olarak geçen yüz yılın başından beri incelenmektedir. Dil sınıflandırılması alanı büyük bir materyal birikimine sahip olmasına rağmen bu konuyla yakından ilgilenen dilbilimci sayısı oldukça azdır. Bu çalışma, dil sınıflandırılması alanındaki eksikliği gidermeyi hedefle"
+        },
+        {
+          "tez_no": "599431",
+          "title_tr": "Metin sınıflandırma için terim ağırlıklandırma",
+          "author": "TURGUT DOĞAN",
+          "year": 2019,
+          "score": 0.8289,
+          "abstract_excerpt": "Metin sınıflandırma, metin dokümanlarının etiketleri önceden belirlenmiş sınıflara atanması işlevidir. İnternetin ve teknolojinin gelişimine paralel olarak elektronik ortama aktarılan metin dokümanlarının dramatik bir biçimde artması, söz konusu dokümanların hızlıca erişimi, organize edilmesi ve sın"
+        },
+        {
+          "tez_no": "377166",
+          "title_tr": "İngilizce'den Türkçe'ye istatistiksel bilgisayarlı çeviri sistemlerinde alan uyarlaması ile başarının artırılması",
+          "author": "EZGİ YILDIRIM",
+          "year": 2014,
+          "score": 0.8263,
+          "abstract_excerpt": "Doğal dildeki bir metni veya bir konuşmayı diğer bir doğal dile insan gözetimli veya gözetimsiz olarak bilgisayarların yardımıyla çevirme işlemi bilgisayarlı çeviri olarak bilinmektedir. Bilgisayarlı çeviri, doğal dil işlemenin en temel, en etkin ve tarihi en eskiye dayanan alanlarından biridir. 195"
+        },
+        {
+          "tez_no": "630095",
+          "title_tr": "Üretim süreçlerinde doğal dil işleme kullanılarak makine öğrenimi",
+          "author": "ELİF MELİKE DEDELEROĞLU",
+          "year": 2020,
+          "score": 0.8194,
+          "abstract_excerpt": "Güncel teknolojik konulardan biri olan doğal dil işleme, insanoğluna pek çok alanda kolaylıklar sağlamayı amaçlamaktadır. Doğal dil işleme, yazılım kütüphanelerinin kullanılarak tasarlandığı uygulamalar ve sistemler ile makinelerin metinleri kontrol edebilmeleri, sözlü komutları anlayıp yönlendirmel"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 7,
+      "findings": [
+        {
+          "claim": "Transformer tabanlı modeller (BERT vb.), önceden eğitilmiş dil modelleri olarak birçok doğal dil işleme görevinde geleneksel yöntemlere göre daha yüksek başarım göstermektedir.",
+          "citations": [
+            "735613",
+            "859818",
+            "877743",
+            "752523",
+            "829295"
+          ]
+        },
+        {
+          "claim": "Önceden eğitilmiş Transformer modellerine hassas ayar (fine-tuning) yapmak, sınırlı etiketli veriyle çalışırken geleneksel yöntemlere göre daha avantajlıdır.",
+          "citations": [
+            "752523",
+            "735613"
+          ]
+        },
+        {
+          "claim": "Türkçe gibi zengin morfolojik yapıya sahip dillerde ve az kaynaklı dillerde Transformer tabanlı modellerle yapılan çalışmalar sınırlıdır.",
+          "citations": [
+            "829295",
+            "877743"
+          ]
+        },
+        {
+          "claim": "Transformer modelleri, geleneksel kural tabanlı ve bilgi getirme tabanlı sistemlerin aksine, metinlerin bağlamsal anlamını daha derinlemesine analiz edebilmektedir.",
+          "citations": [
+            "886444",
+            "735613"
+          ]
+        },
+        {
+          "claim": "Geleneksel makine öğrenimi yöntemleri ve TF-IDF gibi kelime temsil yöntemleri, sınırlı veriyle çalışırken Transformer modellerine kıyasla daha düşük performans göstermektedir.",
+          "citations": [
+            "752523",
+            "859818"
+          ]
+        },
+        {
+          "claim": "Türkçe metin sınıflandırmada BERT tabanlı modeller, NER ve varlık-ilişki bilgilerinin entegrasyonu ile daha başarılı sonuçlar vermektedir.",
+          "citations": [
+            "877743"
+          ]
+        },
+        {
+          "claim": "Büyük dil modelleri (BERT vb.) alan içi derlemlerle desteklendiğinde başarımı artmaktadır, ancak az kaynaklı dillerde bu tür çalışmalar sınırlıdır.",
+          "citations": [
+            "829295"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Kaynaklarda Transformer tabanlı modellerin avantajları ve sınırlılıklarına dair doğrudan bir çelişki bulunmamaktadır. Ancak, [4] (Duman Suna, 2024) geleneksel makine öğrenimi, derin öğrenme ve transformer modellerini karşılaştırmalı olarak incelerken; [13] (Zengin, 2022) önceden eğitilmiş modellerin her durumda daha iyi olduğunu vurgulamaktadır. Bu iki kaynak arasında, geleneksel yöntemlerin belirli koşullarda (örneğin çok sınırlı veri veya kaynak kısıtı) Transformer modellerine göre avantajlı olup olmadığı konusunda potansiyel bir gerilim bulunabilir, ancak bu doğrudan bir çelişki olarak ifade edilmemiştir."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Transformer modellerinin yüksek hesaplama maliyeti (GPU/TPU gereksinimi, eğitim süresi) ve kaynak tüketimi",
+        "Türkçe metin sınıflandırmada Transformer modellerinin tokenizasyon sorunları (alt-kelime tokenizasyonunun Türkçe'nin sondan eklemeli yapısıyla uyumu)",
+        "Transformer modellerinin açıklanabilirlik (explainability) ve yorumlanabilirlik zorlukları",
+        "Türkçe'ye özel önceden eğitilmiş modellerin (BERTurk, DistilBERTurk vb.) varlığı ve bunların başarım karşılaştırmaları",
+        "Transformer modellerinin bellek ve depolama gereksinimleri (model boyutu, inference latency)",
+        "Sınıf dengesizliği, çok dilli vs. tek dilli modellerin Türkçe performansı gibi spesifik sınıflandırma zorlukları"
+      ],
+      "requery_terms": [
+        "Türkçe BERT hesaplama maliyeti GPU",
+        "BERTurk tokenizasyon Türkçe morfoloji",
+        "Transformer açıklanabilirlik metin sınıflandırma",
+        "BERTurk DistilBERT Türkçe sınıflandırma karşılaştırma",
+        "Türkçe BERT model boyutu bellek",
+        "çok dilli BERT Türkçe tek dilli karşılaştırma",
+        "Türkçe metin sınıflandırma sınıf dengesizliği BERT"
+      ],
+      "notes": "Mevcut sentez, Transformer modellerinin avantajlarını (yüksek başarım, hassas ayar, bağlamsal anlam) ve genel sınırlılıklarını (az kaynaklı dillerde sınırlı çalışma) kısmen kapsıyor. Ancak Türkçe metin sınıflandırma bağlamında şu kritik alt-açılar örtülmemiştir: (1) Yüksek hesaplama maliyeti ve donanım gereksinimleri — bu, pratik uygulamalar için önemli bir sınırlılıktır. (2) Türkçe'nin sondan eklemeli morfolojisiyle alt-kelime tokenizasyonunun uyumu — BERT'in WordPiece tokenizasyonu Türkçe'de alt-optimal olabilir. (3) Modellerin kara kutu doğası ve açıklanabilirlik sorunları. (4) Türkçe'ye özel modellerin (BERTurk, DistilBERTurk, ConvBERTurk) varlığı ve bunların çok dilli BERT'e karşı performansı. (5) Model boyutu, bellek kullanımı ve çıkarım gecikmesi gibi pratik kısıtlar. (6) Sınıf dengesizliği, çok dilli/tek dilli model tercihi gibi sınıflandırmaya özgü konular. Önerilen anahtar kelimelerle bu boşlukların doldurulması mümkündür."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nDoğal dil işleme (DDİ) alanında metin sınıflandırma, büyük ölçekli metin verilerinin otomatik olarak kategorize edilmesini sağlayan temel bir uygulama alanıdır [21]. Son yıllarda Transformer mimarisine dayalı önceden eğitilmiş dil modelleri (BERT ve türevleri), metin sınıflandırma görevlerinde geleneksel yöntemlere kıyasla önemli başarım artışları sağlamıştır [2], [4], [11], [13], [15]. Bu bölümde, Türkçe metin sınıflandırma bağlamında Transformer tabanlı modellerin avantajları ve sınırlılıkları, mevcut bulgular ışığında ele alınmaktadır.\n\n## Transformer Tabanlı Modellerin Avantajları\n\n### Yüksek Sınıflandırma Başarımı\n\nTransformer tabanlı modeller, birçok DDİ görevinde geleneksel yöntemlere göre daha yüksek başarım göstermektedir [2], [4], [11], [13], [15]. Özellikle BERT tabanlı modeller, Türkçe metin sınıflandırmada NER (Named Entity Recognition) ve varlık-ilişki bilgilerinin entegrasyonu ile daha başarılı sonuçlar vermektedir [11]. Bu modeller, büyük miktarda veriyle önceden eğitilmiş olmaları sayesinde, metinlerdeki dilbilimsel örüntüleri ve bağlamsal ilişkileri daha etkili bir şekilde öğrenebilmektedir [13].\n\n### Bağlamsal Anlam Analizi Yeteneği\n\nTransformer modelleri, geleneksel kural tabanlı ve bilgi getirme tabanlı sistemlerin aksine, metinlerin bağlamsal anlamını daha derinlemesine analiz edebilmektedir [2], [10]. Bu özellik, özellikle çok anlamlı sözcüklerin bulunduğu ve bağlamın kritik önem taşıdığı metin sınıflandırma görevlerinde belirleyici olmaktadır. Geleneksel yöntemlerle metinden öznitelik çıkarmak ve bir DDİ görevini yerine getirmek mümkün olsa da, kısıtlı miktardaki etiketli veriyle cümle yapısı ve kelime vektörleri yeterince öğrenilemediği için model performansı sınırlı kalmaktadır [13].\n\n### Sınırlı Etiketli Veriyle Çalışabilme\n\nÖnceden eğitilmiş Transformer modellerine hassas ayar (fine-tuning) yapmak, sınırlı etiketli veriyle çalışırken geleneksel yöntemlere göre daha avantajlıdır [2], [13]. Büyük miktarda veriyle hazırlanan önceden eğitilmiş dönüştürücü dil modelini kullanarak belirli bir göreve hassas ayar yapmak, araştırmacılar tarafından geleneksel yöntemlere kıyasla daha çok tercih edilmektedir [13]. Bu yaklaşım, etiketli veri miktarının sınırlı olduğu senaryolarda dahi yüksek başarım elde edilmesine olanak tanımaktadır.\n\n### Alan İçi Derlemlerle Desteklenebilme\n\nBüyük dil modelleri (BERT vb.) alan içi derlemlerle desteklendiğinde başarımı artmaktadır [15]. Özellikle klinik metinler gibi alana özgü terminoloji içeren veri kümelerinde, alan içi derlemlerle desteklenmiş modeller daha başarılı sonuçlar vermektedir. İngilizce dilinde biyomedikal ve klinik DDİ görevlerinde bu tür modellerin oldukça başarılı olduğu birçok çalışma ile gösterilmiştir [15].\n\n## Transformer Tabanlı Modellerin Sınırlılıkları\n\n### Türkçe Gibi Zengin Morfolojik Yapıya Sahip Dillerdeki Sınırlı Çalışmalar\n\nTürkçe gibi zengin morfolojik yapıya sahip dillerde ve az kaynaklı dillerde Transformer tabanlı modellerle yapılan çalışmalar sınırlıdır [11], [15]. Metin sınıflandırması, geniş ve karmaşık metin havuzlarından anlamlı bilgiler çıkarmak için kullanılan önemli bir DDİ uygulaması olmasına rağmen, zengin morfolojik yapıya sahip dillerde bu yöntemler yetersiz kalabilmektedir [11]. Türkçenin sondan eklemeli yapısı, kelime türetme kapasitesinin yüksek olması ve eklemeli morfolojisi, Transformer modellerinin eğitimi için ek zorluklar oluşturmaktadır.\n\n### Az Kaynaklı Dillerdeki Veri Eksikliği\n\nAz kaynaklı dillerde alan içi derlemlerle desteklenmiş büyük dil modelleri ile yapılan çalışmalar sınırlıdır [15]. Türkçe klinik metinler gibi belirli alanlara odaklanan çalışmalarda, yeterli büyüklükte ve kalitede eğitim verisi bulmak zor olabilmektedir. Bu durum, Transformer modellerinin potansiyel başarımının tam olarak ortaya çıkarılmasını engellemektedir.\n\n### Hesaplama Maliyeti ve Kaynak Gereksinimi\n\nHer ne kadar doğrudan bir çelişki olarak ifade edilmemiş olsa da, geleneksel makine öğrenimi yöntemlerinin belirli koşullarda (örneğin çok sınırlı veri veya kaynak kısıtı) Transformer modellerine göre avantajlı olabileceği yönünde potansiyel bir gerilim bulunmaktadır [4], [13]. Geleneksel makine öğrenimi yöntemleri ve TF-IDF gibi kelime temsil yöntemleri, sınırlı veriyle çalışırken Transformer modellerine kıyasla daha düşük performans göstermekle birlikte [4], [13], daha düşük hesaplama maliyeti ve daha az kaynak gereksinimi nedeniyle bazı senaryolarda tercih edilebilir.\n\n## Sonuç\n\nTransformer tabanlı modeller (BERT vb.), Türkçe metin sınıflandırmada geleneksel yöntemlere kıyasla üstün bağlamsal anlam analizi yeteneği, sınırlı etiketli veriyle çalışabilme kapasitesi ve yüksek sınıflandırma başarımı gibi önemli avantajlar sunmaktadır [2], [4], [10], [11], [13]. Bununla birlikte, Türkçe gibi zengin morfolojik yapıya sahip dillerde bu modellerle yapılan çalışmaların sınırlı olması [11], [15] ve az kaynaklı dillerdeki veri eksikliği [15] önemli sınırlılıklar olarak öne çıkmaktadır. Gelecek çalışmalarda, Türkçenin morfolojik yapısına duyarlı Transformer modellerinin geliştirilmesi ve alan içi derlemlerin zenginleştirilmesi, bu sınırlılıkların aşılmasında kritik rol oynayacaktır.",
+      "n_citations": 27,
+      "citations_ieee": [
+        "[1] SAMAL KALİYEVA, \"Bilimsel makalelerin metin işleme yöntemleri ile sınıflandırılması,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=iTkOhwevEenJZ3onUvs52tt72dz2vOF2Sn26PMDSRPn2id2k1TCH2XKGU8tNiVNW",
+        "[2] KAMİL AKARSU, \"Çift yönlü enkoder transformatör tabanlı Türkçe metin sınıflandırma derin öğrenme modeli geliştirilmesi /,\" Yüksek Lisans/Doktora tezi, Manisa Celal Bayar Üniversitesi / Fen Bilimleri Enstitüsü / Yazılım Mühendisliği Ana Bilim Dalı / Yazılım Mühendisliği Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkh6XMx1xq6lLVp-Mmqur3YJ68ednFzGXqWOWU8ZTKGfq",
+        "[3] İRFAN AYGÜN, \"Derin öğrenme yöntemleri ile Türkçe metinlerde benzerlik tespiti,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBukuuniXFmgok6Mk7xlZ6EHTcSV0Bo_Qy5eOlNwzzv7L",
+        "[4] NİHAL DUMAN SUNA, \"Geleneksel makine öğrenimi ve derin öğrenme modelleri ile Türkçe metin sınıflandırmada kelime temsil yöntemlerinin etkisi,\" Yüksek Lisans/Doktora tezi, Sivas Cumhuriyet Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cr4SkWLaRMhkDRBjqthpsVhmEX-RxGh94dUUlx9ImbRfs-IgaktlWrYXLGNQYofE",
+        "[5] FATİH KESGİN, \"Türkçe metinler için konu belirleme sistemi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6QwaOJI1Cge6OIEaynv0in9yuw6frDLS3U78gDq-musAA",
+        "[6] FİLİZ TÜRKOĞLU, \"Melez yaklaşımlarla Türkçe dokümanlarda yazar tanıma,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2006. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-L8ilcwn9ZRRc_YMKxXW1mPGStGn0cSuQDpJ6o4dw8e3-4Y1vpAxQIqXYecw43kU",
+        "[7] TUBA NOYAN, \"Doküman dili tanıma için içerik bağımsız yeni bir yaklaşım: açı örüntüler,\" Yüksek Lisans/Doktora tezi, Siirt Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=tqUiYt63sTQLTpozMJ92QosvNRsfsBkOU64tKFGrf1K2HkSIzhv-S_kRByJ8TF-5",
+        "[8] YEŞİM KAYGUSUZ, \"Türkçe metinlerin sınıflandırılmasında kullanılmak için geliştirilen melez bir öz nitelik seçim yöntemi,\" Yüksek Lisans/Doktora tezi, Manisa Celal Bayar Üniversitesi / Fen Bilimleri Enstitüsü / Yazılım Mühendisliği Ana Bilim Dalı / Yazılım Mühendisliği Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=tqUiYt63sTQLTpozMJ92QklhdCY3Npg92m8gGKMkkQqWz-kEXLNbADfTHMUUx4Uv",
+        "[9] GÜLNİHAL UYKUN, \"Makine öğrenmesi kullanarak metin özetleme,\" Yüksek Lisans/Doktora tezi, Süleyman Demirel Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHHjzdBaUiOcIKJF7Sp-yACoLdX6LFvn3MEHNfjaYnQBj",
+        "[10] MEHMET ARZU, \"Türkçe metinler üzerinde doğal dil işleme teknikleriyle soru-cevap sistemi geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Fen Bilimleri Enstitüsü / Yazılım Mühendisliği Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-0g1wrQZoSeWKUoraxr2dSnrD30MGZwmu2GP8XF_pYdK",
+        "[11] HALİL İBRAHİM OKUR, \"Derin öğrenme yöntemleri ile ilişkisel doküman sınıflandırılması,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi-Cerrahpaşa / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı / Bilgisayar Mühendisliği Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1pwTzRXnomYf6jwqVORfUaGevWR8pDJs8gFjmUW93xjvd96630mXIWhQdazsrm0I",
+        "[12] RUMEYSA YILMAZ, \"Türkçe dokümanların sınıflandırılması,\" Yüksek Lisans/Doktora tezi, Adnan Menderes Üniversitesi / Fen Bilimleri Enstitüsü / Matematik Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vVNzTGHHhjH-u3WMToxQ-ufBsat6wjoR3sd9Wnrq1QUA8V_2vZwT4NdtkI2VUnll",
+        "[13] MUHAMMED SAİD ZENGİN, \"Dönüştürücü dil modellerine etkili hassas ayar yapmak için veri mühendisliği yöntemleri,\" Yüksek Lisans/Doktora tezi, TOBB Ekonomi ve Teknoloji Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RsTBl6RWK25OBMIKtIgYYaEOlQc7_woO7U_oVzBpk90EV8RUvZXg_OuX38f9JpI4",
+        "[14] ADEM DOĞANER, \"Enformasyon sistemlerinde saklı Markov modeli ve Bayes tabanlı sınıflandırıcılar ile bilgi modellerinin geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Fen Bilimleri Enstitüsü / İstatistik Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sY7m19PfcL6F1NUw-cr80GBPeht-RKvPufC5kiMzyjzZV-35dxW7eHxn4vWpczdo",
+        "[15] HAZAL TÜRKMEN, \"Türkçe klinik metinlerin derin öğrenme yaklaşımları ile sınıflandırılması,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı / Bilgisayar Ortamında Mimari Tasarım Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=nLNfCsWgUluh5T2iyudShi1WsmpElt62-PyZPvhWxKxQ5k3UawY3zP9lvE3Hg6lR",
+        "[16] İSMAİL FERHAT PİLAVCILAR, \"Metin madenciliği ile metin sınıflandırma,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Matematik Mühendisliği Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ePX_SaJ0b35Gq45swKG3lF-5glPOlBd5McB7tL4b3gx8Enohd2YP0poIVJfz96FR",
+        "[17] ORKUN HARAÇVERMEZ, \"Merkez tabanlı metin sınıflandırma,\" Yüksek Lisans/Doktora tezi, Aydın Adnan Menderes Üniversitesi / Fen Bilimleri Enstitüsü / Matematik Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=jNRDC1RLfVd4_T7x7ZXmmWyGp1MsGwKtcSTLrSJFF8LVn6wdtlVmavo1AynpCl_4",
+        "[18] BARIŞ BABÜROĞLU, \"İstatistiksel doğal dil işlemede derin öğrenme yöntemleri kullanılarak çevrimiçi Türkçe akademik derlem çözümlenmesi,\" Yüksek Lisans/Doktora tezi, Kahramanmaraş Sütçü İmam Üniversitesi / Fen Bilimleri Enstitüsü / Enformatik Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZs7yEhbi4GYr4EukvPYgOxzsSzdfQR_g7bWsh4CT1d3U",
+        "[19] ALİ DAYAN, \"Doğal dil işleme ile makinelerin kendi dilini modellemesi,\" Yüksek Lisans/Doktora tezi, Beykent Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı / Bilgisayar Mühendisliği Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CG8WvdvvxJP04Unr7Yecf34_doXZi1IYGtRUWryGvPlYmaxOIgJ8ASQqEqFwWmj9",
+        "[20] GAMZE YILMAZ, \"Türkçe metinden konuşma sentezlemeye yönelik yapılan çalışmaların incelenmesi,\" Yüksek Lisans/Doktora tezi, Kırşehir Ahi Evran Üniversitesi / Fen Bilimleri Enstitüsü / İleri Teknolojiler Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBmujUNipJQjDJnoGNRQMSzAD7zOyHgOKfoJe-DM0iN0O",
+        "[21] MUHAMMET OĞUZHAN YALÇIN, \"Kelime gömme yaklaşımlarının iadesiz torbalanmasına dayanan uzun kısa süreli bellek mimarisi ve metin sınıflandırmasına uygulanması,\" Yüksek Lisans/Doktora tezi, Muğla Sıtkı Koçman Üniversitesi / Fen Bilimleri Enstitüsü / İstatistik Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=S2eMu1TIwY_v4mYv58xAr3DBSXgbZUIXavxb1ohs8AaSOutvh7HrGegOAwHMjz-9",
+        "[22] BARIŞ GÜCÜK, \"Üretken rakip ağlar ile Türkçe metin üretimi,\" Yüksek Lisans/Doktora tezi, Karabük Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=9MiDp3x86xrwjpi5-14w-X-wuONLotP4QOtK2htfzyJpGF8xGumcRIYo6F5XU8MQ",
+        "[23] SALİMKAN FATMA TAŞKIRAN, \"Doğal dil işleme ile akademik metinlerin kümelenmesi,\" Yüksek Lisans/Doktora tezi, Konya Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77LfUEMoyVTFUdh4ZOL2fnhgkZmWLutHoUdEtZEpknLly-",
+        "[24] ZULFİYA SHAKHİN, \"Dillerin tipolojik sınıflandırılması,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Batı Dilleri ve Edebiyatları Ana Bilim Dalı / Rus Dili ve Edebiyatı Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=NtBAevXNhYaNqJFoAcdBdpPPovrqbnqvhgIv99L7zKWlB-w3RWAVJngi7PKELFKT",
+        "[25] TURGUT DOĞAN, \"Metin sınıflandırma için terim ağırlıklandırma,\" Yüksek Lisans/Doktora tezi, Eskişehir Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=npGs9H39x7G6401x51yqpHKL6s3hgDM2deaIFdZRIEOJc6Il9W_PBopAtW_Q8xLU",
+        "[26] EZGİ YILDIRIM, \"İngilizce'den Türkçe'ye istatistiksel bilgisayarlı çeviri sistemlerinde alan uyarlaması ile başarının artırılması,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı / Bilgisayar Mühendisliği Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=48XPj7KKQhKUgntkUiKO3ImoVV_AHGHqY4kK-nY4B8SOqB-Du3F215-XvcoiM_zt",
+        "[27] ELİF MELİKE DEDELEROĞLU, \"Üretim süreçlerinde doğal dil işleme kullanılarak makine öğrenimi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Endüstri Mühendisliği Ana Bilim Dalı / Mühendislik Yönetimi Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=_F5QEpayDXGqGZlp9XiFtLfvByBZ_FHxQXQ6Q8VhYy-MIt5hFFwKfZcaM4GE6DQ4"
+      ]
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,336 @@
+{
+  "id": "q19",
+  "category": "veterinary",
+  "type": "method",
+  "question": "Sığırcılıkta yapay tohumlama tekniklerinin döl verimi üzerindeki etkileri nedir?",
+  "expected_subjects": [
+    "Veteriner Hekimliği",
+    "Ziraat"
+  ],
+  "min_citations": 3,
+  "result": {
+    "latency_seconds": 52.66,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Sığırcılıkta yapay tohumlama uygulamalarında kullanılan farklı tohumlama yöntemleri (rektal, servikal, laparoskopik vb.) nelerdir ve bu yöntemlerin döl verimi parametrelerine (gebelik oranı, ilk tohumlamada gebelik, servis periyodu vb.) etkileri hangi tez çalışmalarında karşılaştırılmıştır?",
+          "rationale": "Yöntemsel farklılıkların döl verimine etkisini anlamak için temel bir karşılaştırma sorusu."
+        },
+        {
+          "text": "Yapay tohumlamada kullanılan sperma (dondurulmuş/çözdürülmüş, taze) ve tohumlama zamanı (östrus tespiti sonrası saat aralığı) değişkenlerinin döl verimi üzerindeki etkileri Türkiye'deki tez çalışmalarında nasıl raporlanmıştır?",
+          "rationale": "Sperma tipi ve zamanlama gibi pratik uygulama değişkenlerinin etkisini ortaya koyar."
+        },
+        {
+          "text": "Yapay tohumlama başarısını etkileyen çevresel ve yönetsel faktörlerin (barındırma, besleme, mevsim, işletme büyüklüğü) döl verimi üzerindeki etkileri sığırcılık tezlerinde hangi bulgularla ele alınmıştır?",
+          "rationale": "Yapay tohumlamanın tek başına değil, çevresel faktörlerle birlikte değerlendirilmesi gerektiğini vurgular."
+        },
+        {
+          "text": "Yapay tohumlama uygulamalarında karşılaşılan başlıca sınırlılıklar (teknik personel yetersizliği, kızgınlık tespiti zorlukları, maliyet) ve bu sınırlılıkların döl verimine yansımaları Türkiye'de yapılan tez araştırmalarında nasıl tartışılmıştır?",
+          "rationale": "Saha uygulamalarındaki engelleri ve bunların verim kaybına etkisini anlamak için kritik."
+        },
+        {
+          "text": "Yapay tohumlama ile doğal aşım yöntemlerini döl verimi açısından karşılaştıran tez çalışmalarında hangi bulgular elde edilmiş ve yapay tohumlamanın avantaj/dezavantajları nasıl raporlanmıştır?",
+          "rationale": "Yapay tohumlamanın alternatifine göre göreceli etkinliğini değerlendirmek için karşılaştırmalı bir bakış açısı sunar."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 24,
+      "max_score": 0.849,
+      "min_score": 0.7573,
+      "chunks": [
+        {
+          "tez_no": "6702",
+          "title_tr": "Hindilerde yapay tohumlama uygulamaları üzerine bir araştırma",
+          "author": "HASAN ELEROĞLU",
+          "year": 1989,
+          "score": 0.849,
+          "abstract_excerpt": "Bu çalışmada, geniş göğüslü Amerikan Bronz ve Betina erkeklerinden alınan sperma bekletilmeden Betina dişilerini tohumlamada kullanılmıştır. Her birinde 3 te kerrür bulunan iki farklı deneme yapılmıştır. Her teker rürde 5 dişi kullanılmıştır. En uygun tohumlama sıklığının ve dozunun belir lenmesi am"
+        },
+        {
+          "tez_no": "515881",
+          "title_tr": "Farklı büyüklükteki süt sığırı işletmelerinde döl verimi parametrelerinin belirlenmesi",
+          "author": "BÜLENT GÜL",
+          "year": 2018,
+          "score": 0.8452,
+          "abstract_excerpt": "Çalışma, farklı büyüklükteki süt sığırı işletmelerindeki hayvanların döl verimi parametrelerini belirleyerek, işletmelerindeki döl verimi göstergelerini ortaya koymak amacıyla yapıldı. Araştırma, Osmaniye İli Damızlık Sığır Yetiştiriciler Birliğine üye 5 süt sığırı işletmesinde, yaşları 12 ay ile 10"
+        },
+        {
+          "tez_no": "738046",
+          "title_tr": "Sağmal sütçü ineklerde cinsiyeti belirlenmiş spermanın kullanımı",
+          "author": "ENES SERİM",
+          "year": 2022,
+          "score": 0.8405,
+          "abstract_excerpt": "Bu çalışmada senkronizasyon protokolü uygulanan sağmal ineklerde cinsiyeti belirlenmiş sperma ile farklı zamanlarda tohumlamanın gebelik oranları üzerine etkisini belirlemek amaçlandı. Bu amaçla doğum sonrası 43-49. günler arasında ilk tohumlama için pre-senkronizasyon protokolüne (G7G;PGF2α-2g-GnRH"
+        },
+        {
+          "tez_no": "312018",
+          "title_tr": "Akkeçilerde mevsim dışı kızgınlık oluşturma ve trans?servikal tohumlama olanakları",
+          "author": "ŞEYMA BOZOĞLU",
+          "year": 2012,
+          "score": 0.832,
+          "abstract_excerpt": "Bu çalışma Ankara Üniversitesi Ziraat Fakültesi Zootekni Bölümü Hayvancılık İşletmesi'nde yetiştirilen en az bir kez doğum yapmış ve hiç yapmamış toplam 19 baş Akkeçi üzerinde yapılmıştır. Üreme sezonu dışındaki Akkeçilere kızgınlıkların oluşturulması için vagina içi progesteron süngerleri yerleştir"
+        },
+        {
+          "tez_no": "786133",
+          "title_tr": "Farklı sıcaklıklarda çözdürülen boğa ‎spermasının çözüm sonrası farklı periyotlarda ‎spermatolojik parametrelerinin ‎değerlendirilmesi",
+          "author": "FATMA NUR ULUNÇ",
+          "year": 2023,
+          "score": 0.8311,
+          "abstract_excerpt": "Suni tohumlama uygulamasını saha koşullarında yapacak veteriner hekimlerin donmuş sperma payetini çözdürürken uygun koşulları göz önünde bulundurarak çözdürme işlemini yapmaları suni tohumlama başarısını arttıran önemli faktörlerden biridir. Çözdürme prosedürü, spermatozoanın hayatta kalması üzerind"
+        },
+        {
+          "tez_no": "284843",
+          "title_tr": "Kadın plasenta hormonu (hCG) ve GnRH kullanımı ile süt ineklerinde döl veriminin iyileştirilmesi olanakları",
+          "author": "MAJİD SHAHMORADİ",
+          "year": 2010,
+          "score": 0.8291,
+          "abstract_excerpt": "Bu çalışmanın amacı yüksek verimli süt ineklerinde Heatsynch ve Selectsynch yöntemleri ile yapay tohumlamadan 5 gün sonra GnRH ve hCG uygulamalarının plazma progesteron düzeyi, gebelik, gebe kalma oranına, kayıplarına etkilenirinin değerlendirilmesi ve karşılaştırılması amaçlanmıştır. Çalışmada doğu"
+        },
+        {
+          "tez_no": "536400",
+          "title_tr": "Sütçü düvelerde cinsiyeti belirlenmiş sperma ile östrus başlangıcını takiben farklı saatlerde tohumlamanın gebelik oranı üzerine etkisi",
+          "author": "BARIŞ GÜNER",
+          "year": 2019,
+          "score": 0.8287,
+          "abstract_excerpt": "Bu çalışmada düvelerde cinsiyeti belirlenmiş sperma (CBS) ile östrus başlangıcını takiben farklı zamanlarda tohumlamanın gebelik oranı üzerine etkisinin belirlenmesi amaçlandı. Çalışmada 299 adet 13 aylık ve üzeri Holstein ırkı düve kullanıldı. Çalışmaya hem östrus indüksiyonu/senkronizasyonu (tek d"
+        },
+        {
+          "tez_no": "3456",
+          "title_tr": "E.Ü. Ziraat Fakültesi ve Ege Bölge Zirai Araştırma Enstitüsü'nde yetiştirilen sığırlarda fertilite /",
+          "author": "CAN UZMAY",
+          "year": 1988,
+          "score": 0.8247,
+          "abstract_excerpt": "Çalışma iki ayrı araştırma kurumunda yetiştirilmekte olan sığırların döl verimi bakımından durumlarını ortaya koymak, konu ile ilgili sorunların nedenlerini inceleyerek çözüme yönelik öneriler geliştirmek amacı ile yapılmıştır. Çalışmamızda 1970-1986 yılları arasındaki kayıtlardan yararlanarak, sığı"
+        },
+        {
+          "tez_no": "650733",
+          "title_tr": "Farklı sıcaklık ve sürelerde çözdürülen dondurulmuş boğa spermalarının casa parametreleri ile değerlendirilmesi",
+          "author": "AYŞE DEMİRHAN",
+          "year": 2020,
+          "score": 0.8215,
+          "abstract_excerpt": "Dondurulmuş boğa spermasının çözüm sonu parametreleri uygulanan suni tohumlamanın başarısı açısından oldukça önemlidir. Dişi hayvanlara uygulanan suni tohumlamalarda kriter olarak belirlenen 37 ℃'de 20 saniye'de çözdürülmesi gereken boğa spermaları saha şartlarında her ne kadar uygulanılmaya çalışıl"
+        },
+        {
+          "tez_no": "445577",
+          "title_tr": "Spermatozoonların miktar, biçim ve hareket bakımından normal olan erkeklerde sperm dondurma – çözme işleminde dna hasar tayini",
+          "author": "TURGAY DİNÇ",
+          "year": 2015,
+          "score": 0.8215,
+          "abstract_excerpt": "Erkeklerde gelecekteki fertilitenin korunması için kemoterapi, radyoterapi yada testis cerrahisinden önce bireylerin spermini alarak daha sonra kullanılmak üzere dondurularak saklanması yardımcı üreme tekniklerinin uygulandığı tedavi merkezlerinde yaygın olarak kullanılmaktadır. Tezin amacı, IVF mer"
+        },
+        {
+          "tez_no": "607606",
+          "title_tr": "Koç spermasının modifiye edilmiş sperma sulandırıcıları ile dondurulması",
+          "author": "ELİF MERVE ÇINAR",
+          "year": 2019,
+          "score": 0.8193,
+          "abstract_excerpt": "Tez çalışmasında, koç spermasının sulandırma sıvısına FCS (%15) ve farklı mM'lerde sisteamin eklenerek spermanın düşük sıcaklıklarda saklanması ve eritilmesi sonrasında, spermada gözlenen olumlu ya da olumsuz değişiklikler incelendi. Çalışma için 5 baş koçtan elektroejakülatör yardımı ile sperma alı"
+        },
+        {
+          "tez_no": "272835",
+          "title_tr": "Sıcak stresi altındaki süt ineklerinde tohumlama protokolü sonrası epidural GnRH uygulamasının gebelik oranı üzerine etkisi",
+          "author": "ZİVER ÜSTÜN",
+          "year": 2011,
+          "score": 0.8167,
+          "abstract_excerpt": "Bu çalışma ile tohumlama protokolü uygulanarak tohumlanan ve tohumlamadan 12 gün sonra epidural GnRH uygulamasının sıcak aylardaki süt verimi yüksek ineklerde luteal fonksiyonun stimüle edilmesi ve böylece artan progesteron üretiminin luteal yetersizlikten kaynaklanan embriyonik ölümlerin azaltılabi"
+        },
+        {
+          "tez_no": "195334",
+          "title_tr": "Özel bir damızlık işletmesinde yetiştirilen holstein ineklerin döl ve süt verimi özellikleri",
+          "author": "ALİM DAŞKAYA",
+          "year": 2007,
+          "score": 0.8066,
+          "abstract_excerpt": "Bu çalısma İzmir ili Tire ilçesinde 2004 yılında, damızlık süt sıgırı yetistirmek amacıyla\u000bkurulan özel bir isletmedeki Holstein ineklerin döl ve süt verimi özelliklerini ve bu özelliklere\u000betki eden çevre faktörlerinin etki düzeylerini incelemek amacıyla yapılmıstır.\u000bArastırmada 380 laktasyon verimi"
+        },
+        {
+          "tez_no": "297711",
+          "title_tr": "Türkiye'de süt sığırcılığında süt ve döl verimi üzerinde yapılan araştırmaların değerlendirilmesi",
+          "author": "PINAR GÜLÜMSER",
+          "year": 2011,
+          "score": 0.8049,
+          "abstract_excerpt": "Tüm dünyada olduğu gibi ülkemizde de hayvancılık; ekonomik, sosyal ve beslenme açısından büyük önem taşıyan vazgeçilmez bir sektördür. Dünya da ve ülkemizde hayvan yetiştiriciliği içerisinde sığır yetiştiriciliği en önemli hayvansal üretim dallarından biridir.Ülkemizde hayvancılık sektöründe son yıl"
+        },
+        {
+          "tez_no": "97613",
+          "title_tr": "An optimization model for the agriculture and farming in Turkey goal programming approach /",
+          "author": "OLCAY CENGİZ",
+          "year": 2000,
+          "score": 0.8026,
+          "abstract_excerpt": "Tarım ve hayvancılık sektörü istihdamdaki %45, GSYİH'daki %15.8, İhracattaki % 9.6, İthalattaki % 6.8 ve herşeyden önemlisi hızla artan nüfusun beslenmesindeki önemiyle, hala Türkiye ekonomisindeki önemini devam ettirmekte ve uzun yıllar devam ettirecek bir görüntü çizmektedir. Bu sektörü bir proses"
+        },
+        {
+          "tez_no": "457062",
+          "title_tr": "Topraksız hasıl üretimi ve kullanım olanaklarının geliştirilmesi",
+          "author": "ONUR SİNAN TÜRKMEN",
+          "year": 2016,
+          "score": 0.7973,
+          "abstract_excerpt": "Bu doktora tezindeki çalışmalar, üç konu altında toplanmıştır. İlk konu olan tohumluğun belirlenmesi çalışmalarında tür, çeşit seçimi, hasat zamanı ve tohumluk miktarı üzerinde durulmuştur. Tür seçimi için üç tahıl türünün (arpa, buğday ve tritikale) ve dört farklı hasat zamanındaki (4.,7.,10 ve 13."
+        },
+        {
+          "tez_no": "376896",
+          "title_tr": "Denizli ili özel işletme koşullarında yetiştirilen holştayn ırkı sığırların süt verimi ve döl verimi özellikleri üzerine bazı çevresel faktörlerin etkisi",
+          "author": "MEHMET KAYA",
+          "year": 2013,
+          "score": 0.7955,
+          "abstract_excerpt": "ÖZETBu çalışma, Denizli İli Damızlık Sığır Yetiştiricileri Birliği'ne bağlı beş farklı özel sığırcılık işletmesinde yetiştirilen Holştayn sığırların döl verimi ve süt verimi özelliklerinin düzeylerinin belirlenmesi ve bu verim özellikleri üzerindeki bazı çevresel faktörlerin etkilerinin incelenmesi "
+        },
+        {
+          "tez_no": "182392",
+          "title_tr": "Kızgınlığı toplulaştırılmış akkaraman koyunlarında sulandırılmış sperma ile yapılan tohumlamada oksitosin kullanımının döl verimine etkisi",
+          "author": "HÜLYA HANCI",
+          "year": 2006,
+          "score": 0.7943,
+          "abstract_excerpt": "Bu çalışmada Ankara, Bala ilçesi, Karaali beldesinde köy koşullarında yetiştirilen 110 baş Akkaramanırkı koyunlara, 14 gün süreyle 40 mg progesteron analoğu (FGA) emdirilmiş süngerler kızgınlıklarıtoplulaştırmak amacıyla vagina içi yerleştirilmiştir. Süngerler geri alınırken hayvan başına 600 IUPMSG"
+        },
+        {
+          "tez_no": "563674",
+          "title_tr": "Amaranthus retroflexus L. tohumlarının dormansi durumuna iklim koşullarının etkisi",
+          "author": "EMETİ KÖSE",
+          "year": 2019,
+          "score": 0.7682,
+          "abstract_excerpt": "DaAna bitkilerin yetiştiği çevrenin, bitkinin genetik ve gelişimsel karakterleri yanında, tohum dormansi ve çimlenme üzerine önemli etkisi vardır. Türkiye' deki tarım alanlarında istilacı bir yabancı ot türü olan Amaranthus retroflexus L.' da çevre koşullarının fide çıkışı, fenoloji, tohumlarda dorm"
+        },
+        {
+          "tez_no": "493609",
+          "title_tr": "Oğulotu (Melissa officinalis) bitkisinde meristem ve somatik embriyo kültürlerinden sentetik tohum elde etme olanakları",
+          "author": "ANIL MEHMET BALTACI",
+          "year": 2018,
+          "score": 0.7655,
+          "abstract_excerpt": "Tıbbi ve antimikrobiyal amaçlı kullanılan oğulotu (Melissa officinalis) Lamiaceae familyasından çok yıllık aromatik bir bitki olup Akdeniz ve Güney Avrupa kökenli bir bitkidir. Doku kültüründe sentetik tohum üretimi kolay depolanma, taşıma ve boyutlarının küçüklüğü nedeni ile tercih edilen bir yönte"
+        },
+        {
+          "tez_no": "350361",
+          "title_tr": "Gübre katkılı zeolit uygulamalarının tohum bahçelerinde çiçek ve kozalak verimine etkisi",
+          "author": "CANAN BERBER",
+          "year": 2012,
+          "score": 0.7654,
+          "abstract_excerpt": "Sarıçam ekonomik öneminden dolayı Türkiye Milli Ağaç Islahı ve Tohum Üretimi Programında yoğun ıslah çalışmaları ön görülen 5 hedef türden birisidir. Ayrıca, bu türün Karadeniz bölgesi ağaçlandırma çalışmalarında endüstriyel amaçlı olarak kullanılma potansiyeli bulunmaktadır. Sarıçam, dünya üzerinde"
+        },
+        {
+          "tez_no": "865613",
+          "title_tr": "Defne (Laurus nobilis L.) bitkisinin ince hücre tabaka kültür sistemi ile ın vitro rejenerasyon potansiyellerinin saptanması ve uçucu yağ bileşiminin belirlenmesi",
+          "author": "HALİDE HANDE GÜNGÖR",
+          "year": 2024,
+          "score": 0.7648,
+          "abstract_excerpt": "Türkiye, Laurus nobilis L. (Defne) bitkisinin üretiminde önde gelen ülkelerden biridir. Üretimi tohumla ya da vejetatif yöntemlerle yapılan defne bitkisinde artan talebin karşılanması ve homojen kalitenin sağlanabilmesi için alternatif üretim tekniklerinin kullanılması gerekmektedir. Bu tez çalışmas"
+        },
+        {
+          "tez_no": "825106",
+          "title_tr": "Bazı uygulamaların yer elması (Helianthus tuberosus L.) tohumunun çimlenmesi ve dormansi kırması üzerine etkisi",
+          "author": "ELANUR YIKMIŞ",
+          "year": 2023,
+          "score": 0.7647,
+          "abstract_excerpt": "Bu araştırma yumru anormal itesine sahip olan yer elmasını gerçek tohumlarının çimlenme problemini çözmek için planlanmıştır. Bu amaçla tohumlara; farklı dozlarda GA3 (0, 250, 500, 750 ve 1000 ppm) uygulamaları yapılmıştır. Bunun yanında farklı sıcaklık (5ºC ve 20ºC) ve sürelerde katlama (15, 30, 45"
+        },
+        {
+          "tez_no": "642436",
+          "title_tr": "Güvenlik bağlamında geleneksel tohum yapısı ve gıda güvencesi",
+          "author": "ESRA OZAN",
+          "year": 2020,
+          "score": 0.7573,
+          "abstract_excerpt": "Canlıların besin zincirinin en önemli kaynağı olan tohumlar, yaşamın da güvencesidirler. Avcı toplayıcı insandan başlamak üzere tohum türlerini tanımak, evcilleştirmek ve çeşitliliği artırmak insanla mümkün olmuştur. Tohuma sahip olmakla tarıma başlayan, tarımla gıda güveni sağlayan ve medeni hayata"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 9,
+      "findings": [
+        {
+          "claim": "Yapay tohumlamada kullanılan spermanın çözdürme sıcaklığı ve süresi, tohumlama başarısını etkileyen önemli faktörlerdendir.",
+          "citations": [
+            "786133",
+            "650733"
+          ]
+        },
+        {
+          "claim": "Cinsiyeti belirlenmiş sperma (CBS) ile yapılan tohumlamalarda, östrus başlangıcından sonraki tohumlama zamanı gebelik oranını etkilemektedir.",
+          "citations": [
+            "738046",
+            "536400"
+          ]
+        },
+        {
+          "claim": "Senkronizasyon protokolleri ve tohumlama sonrası hormon uygulamaları (GnRH, hCG) süt ineklerinde gebelik oranlarını artırabilmektedir.",
+          "citations": [
+            "284843",
+            "272835"
+          ]
+        },
+        {
+          "claim": "Sığırcılık işletmelerinde döl verimi parametreleri (ilk tohumlama yaşı, servis sayısı, buzağılama aralığı gibi) işletme büyüklüğü ve yönetim uygulamalarına göre farklılık göstermektedir.",
+          "citations": [
+            "515881",
+            "195334",
+            "376896"
+          ]
+        },
+        {
+          "claim": "Sıcak stresi, süt ineklerinde döl verimini olumsuz etkilemekte ve bu dönemde uygulanan ek hormon tedavileri (epidural GnRH) gebelik oranlarını iyileştirebilmektedir.",
+          "citations": [
+            "272835"
+          ]
+        },
+        {
+          "claim": "Yapay tohumlamada kullanılan spermanın dondurma-çözdürme işlemi spermatozoonlarda DNA hasarına yol açabilmektedir.",
+          "citations": [
+            "445577"
+          ]
+        },
+        {
+          "claim": "Sulandırıcılara eklenen katkı maddeleri (FCS, sisteamin gibi) spermanın dondurularak saklanması ve çözdürme sonrası kalitesini etkilemektedir.",
+          "citations": [
+            "607606"
+          ]
+        },
+        {
+          "claim": "Koyun ve keçilerde mevsim dışı kızgınlık oluşturma ve senkronizasyon protokolleri ile yapay tohumlama başarısı artırılabilmektedir.",
+          "citations": [
+            "312018",
+            "182392"
+          ]
+        },
+        {
+          "claim": "Türkiye'de süt sığırcılığı işletmelerinde döl verimi düzeyleri gelişmiş ülkelerin gerisindedir.",
+          "citations": [
+            "297711"
+          ]
+        }
+      ],
+      "contradictions": []
+    },
+    "critic": null,
+    "iteration_count": 1,
+    "final": {
+      "answer_md": "## Giriş\n\nSığırcılıkta yapay tohumlama, genetik ıslah ve verimlilik artışı açısından kritik bir üreme teknolojisidir. Bu teknolojinin döl verimi üzerindeki etkileri; sperma işleme ve çözdürme koşulları, tohumlama zamanlaması, senkronizasyon protokolleri, hormon uygulamaları, çevresel faktörler ve işletme yönetimi gibi çok sayıda değişkene bağlı olarak şekillenmektedir.\n\n## Sperma Çözdürme Koşulları ve Döl Verimi\n\nYapay tohumlamada kullanılan donmuş spermanın çözdürme sıcaklığı ve süresi, tohumlama başarısını doğrudan etkileyen temel faktörlerdendir. Saha koşullarında 37°C'de 20 saniye olarak belirlenen standart çözdürme protokolü, çevresel koşullar ve insan faktörü nedeniyle her zaman uygulanamamakta; sıcaklık ve süredeki sapmalar spermatolojik parametreleri olumsuz etkileyerek tohumlama başarısını düşürebilmektedir [5], [9]. Ayrıca, spermanın dondurma-çözdürme işlemi spermatozoonlarda DNA hasarına yol açabilmekte, bu da fertilite potansiyelini sınırlayan önemli bir faktör olarak değerlendirilmektedir [10]. Sulandırıcılara eklenen katkı maddeleri (örneğin FCS ve sisteamin) ise spermanın dondurularak saklanması ve çözdürme sonrası kalitesini etkileyerek döl verimi üzerinde dolaylı bir rol oynamaktadır [11].\n\n## Cinsiyeti Belirlenmiş Sperma Kullanımı ve Tohumlama Zamanlaması\n\nCinsiyeti belirlenmiş sperma (CBS) ile yapılan tohumlamalarda, östrus başlangıcından sonraki tohumlama zamanı gebelik oranını önemli ölçüde etkilemektedir. Sütçü düvelerde CBS ile östrus başlangıcını takiben farklı saatlerde yapılan tohumlamaların gebelik oranı üzerinde belirleyici olduğu; sağmal ineklerde ise senkronizasyon protokolü sonrası farklı zamanlarda CBS ile tohumlamanın gebelik oranlarını değiştirdiği bildirilmiştir [3], [7]. Bu bulgular, CBS kullanımında tohumlama zamanlamasının optimize edilmesinin döl verimi açısından kritik olduğunu göstermektedir.\n\n## Senkronizasyon Protokolleri ve Hormon Uygulamaları\n\nSenkronizasyon protokolleri ve tohumlama sonrası hormon uygulamaları, süt ineklerinde gebelik oranlarını artırabilmektedir. Yapay tohumlamadan 5 gün sonra GnRH ve hCG uygulamalarının plazma progesteron düzeyini yükselttiği, gebelik ve gebe kalma oranlarını iyileştirdiği belirlenmiştir [6]. Sıcak stresi altındaki süt ineklerinde ise tohumlama protokolü sonrası epidural GnRH uygulamasının luteal fonksiyonu stimüle ederek artan progesteron üretimi yoluyla embriyonik ölümleri azalttığı ve gebelik oranlarını yükselttiği tespit edilmiştir [12]. Bu bulgular, özellikle sıcak stresi gibi olumsuz çevresel koşullarda ek hormon tedavilerinin döl verimini iyileştirmede etkili olabileceğini ortaya koymaktadır.\n\n## İşletme Yönetimi ve Döl Verimi Parametreleri\n\nSığırcılık işletmelerinde döl verimi parametreleri (ilk tohumlama yaşı, servis sayısı, buzağılama aralığı gibi) işletme büyüklüğü ve yönetim uygulamalarına göre farklılık göstermektedir. Farklı büyüklükteki süt sığırı işletmelerinde yapılan çalışmalar, döl verimi göstergelerinin işletmeden işletmeye değiştiğini ve yönetim uygulamalarının bu parametreler üzerinde belirleyici olduğunu ortaya koymuştur [2], [13], [17]. Türkiye'de süt sığırcılığı işletmelerinde döl verimi düzeylerinin gelişmiş ülkelerin gerisinde olduğu ve bu durumun sektörün verimlilik sorunlarından birini oluşturduğu vurgulanmaktadır [14].\n\n## Sonuç\n\nSığırcılıkta yapay tohumlama tekniklerinin döl verimi üzerindeki etkileri çok yönlüdür. Spermanın çözdürme koşulları ve kriyoprezervasyon sürecinde oluşan DNA hasarı, tohumlama başarısını sınırlayan temel faktörlerdir. Cinsiyeti belirlenmiş sperma kullanımında tohumlama zamanlamasının optimizasyonu, gebelik oranlarını artırmada kritik öneme sahiptir. Senkronizasyon protokolleri ve tohumlama sonrası GnRH/hCG uygulamaları, özellikle sıcak stresi gibi olumsuz koşullarda döl verimini iyileştirebilmektedir. Bununla birlikte, işletme yönetimi uygulamaları ve işletme büyüklüğü döl verimi parametrelerini doğrudan etkilemekte; Türkiye'de bu alandaki verim düzeylerinin gelişmiş ülkelerin gerisinde kalması, yapay tohumlama tekniklerinin yanı sıra yönetimsel iyileştirmelere de ihtiyaç duyulduğunu göstermektedir.",
+      "n_citations": 24,
+      "citations_ieee": [
+        "[1] HASAN ELEROĞLU, \"Hindilerde yapay tohumlama uygulamaları üzerine bir araştırma,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Fen Bilimleri Enstitüsü / Zootekni Ana Bilim Dalı, 1989. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEAieUp4YfGYFU_3DqzfXLaNuz9jHN-ZlMcDbUA2ngnGRZ",
+        "[2] BÜLENT GÜL, \"Farklı büyüklükteki süt sığırı işletmelerinde döl verimi parametrelerinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Mustafa Kemal Üniversitesi / Sağlık Bilimleri Enstitüsü / Dölerme ve Suni Tohumlama Ana Bilim Dalı​, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=hcgrYffRbz0Z44UJEuLtwZYPrfXA6wCGcQkSFNJlPk4E0FdNNVfyfSDPA1J1SKlB",
+        "[3] ENES SERİM, \"Sağmal sütçü ineklerde cinsiyeti belirlenmiş spermanın kullanımı,\" Yüksek Lisans/Doktora tezi, Bursa Uludağ Üniversitesi / Sağlık Bilimleri Enstitüsü / Doğum ve Jinekoloji (Veterinerlik) Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkqCrP77SK4Z9_NVUMN2sJUSuQHHbW_l17LaWarsK5968",
+        "[4] ŞEYMA BOZOĞLU, \"Akkeçilerde mevsim dışı kızgınlık oluşturma ve trans?servikal tohumlama olanakları,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Fen Bilimleri Enstitüsü / Zootekni Ana Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RYan9_S-Z7Eir3xdWGXBiG9W3Ycfl_Kyv5_c9iEw8Lqw4Yzp6Eo8UGdn_TKSZTEI",
+        "[5] FATMA NUR ULUNÇ, \"Farklı sıcaklıklarda çözdürülen boğa ‎spermasının çözüm sonrası farklı periyotlarda ‎spermatolojik parametrelerinin ‎değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Ondokuz Mayıs Üniversitesi / Lisansüstü Eğitim Enstitüsü / Dölerme ve Suni Tohumlama Ana Bilim Dalı​, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxDrmFx1mDwdLCNyZZm-wf3OjWOZVGt2PD_Us5tsdu3u5",
+        "[6] MAJİD SHAHMORADİ, \"Kadın plasenta hormonu (hCG) ve GnRH kullanımı ile süt ineklerinde döl veriminin iyileştirilmesi olanakları,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Fen Bilimleri Enstitüsü / Zootekni Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zD1B0cW7zVr3VcnZjitVXgHVP_M7pwemgNqlaepeKM6ZmsHuFyGmv-3vt3bTD1Qc",
+        "[7] BARIŞ GÜNER, \"Sütçü düvelerde cinsiyeti belirlenmiş sperma ile östrus başlangıcını takiben farklı saatlerde tohumlamanın gebelik oranı üzerine etkisi,\" Yüksek Lisans/Doktora tezi, Bursa Uludağ Üniversitesi / Sağlık Bilimleri Enstitüsü / Doğum ve Jinekoloji (Veterinerlik) Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=as2oTjW5jfr9IKSvmCdJYgHk3vM7wt7svSyCiCUs02LEVGwPFAcVI124uABCzURX",
+        "[8] CAN UZMAY, \"E.Ü. Ziraat Fakültesi ve Ege Bölge Zirai Araştırma Enstitüsü'nde yetiştirilen sığırlarda fertilite /,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Fen Bilimleri Enstitüsü / Zootekni Ana Bilim Dalı, 1988. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=iTkOhwevEenJZ3onUvs52sH71kk8qz9Ybou80qYdCDdtV9eX03T5-YJo8miFxE7v",
+        "[9] AYŞE DEMİRHAN, \"Farklı sıcaklık ve sürelerde çözdürülen dondurulmuş boğa spermalarının casa parametreleri ile değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sağlık Bilimleri Enstitüsü / Dölerme ve Suni Tohumlama Ana Bilim Dalı​, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMs2O6vMA-i-Mm9cD6E-39ZGo4Y2njUsi1HLsjD3hJWvWy",
+        "[10] TURGAY DİNÇ, \"Spermatozoonların miktar, biçim ve hareket bakımından normal olan erkeklerde sperm dondurma – çözme işleminde dna hasar tayini,\" Yüksek Lisans/Doktora tezi, Maltepe Üniversitesi / Sağlık Bilimleri Enstitüsü / Klinik Embriyoloji Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=OykDDeWBWTL9-Wm52sZBrFms4qe63L8dO1pK4XLZ9QDLCWW8GhJVZndLWQAEiaDT",
+        "[11] ELİF MERVE ÇINAR, \"Koç spermasının modifiye edilmiş sperma sulandırıcıları ile dondurulması,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi-Cerrahpaşa / Lisansüstü Eğitim Enstitüsü / Dölerme ve Suni Tohumlama Ana Bilim Dalı​, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBlVurvNDvMuYTWVdKkpiv9SUMQyj7GsDBeq769EsIu9A",
+        "[12] ZİVER ÜSTÜN, \"Sıcak stresi altındaki süt ineklerinde tohumlama protokolü sonrası epidural GnRH uygulamasının gebelik oranı üzerine etkisi,\" Yüksek Lisans/Doktora tezi, Adnan Menderes Üniversitesi / Sağlık Bilimleri Enstitüsü / Doğum ve Jinekoloji (Veterinerlik) Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=veR1mHu9yoWjwcVUjCEoPFfJtAEMSTA8e3LZBqJtLaIwUeKWk9yN-0SwXeVL_3QP",
+        "[13] ALİM DAŞKAYA, \"Özel bir damızlık işletmesinde yetiştirilen holstein ineklerin döl ve süt verimi özellikleri,\" Yüksek Lisans/Doktora tezi, Uludağ Üniversitesi / Sağlık Bilimleri Enstitüsü / Zootekni Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=XohQ0H2mJnBfxLPsY8dG4-rLU54HcIc5bbo-WmSzZvBodIyHgwQqDDBJGqs6a4WG",
+        "[14] PINAR GÜLÜMSER, \"Türkiye'de süt sığırcılığında süt ve döl verimi üzerinde yapılan araştırmaların değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Namık Kemal Üniversitesi / Fen Bilimleri Enstitüsü / Zootekni Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGmdFsojdPoGFAbVDrd7Le5fmPV6JDs9UZMT6HzhYSesu",
+        "[15] OLCAY CENGİZ, \"An optimization model for the agriculture and farming in Turkey goal programming approach /,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Fen Bilimleri Enstitüsü / Endüstri Mühendisliği Ana Bilim Dalı, 2000. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=V-oEQd0LkkqRGCXNzJWCTVu1WENLKxKwpl5RUQEMXktgbkI-EzLWEREPHW3cFcmd",
+        "[16] ONUR SİNAN TÜRKMEN, \"Topraksız hasıl üretimi ve kullanım olanaklarının geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Çanakkale Onsekiz Mart Üniversitesi / Fen Bilimleri Enstitüsü / Tarla Bitkileri Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=DPTyuy3wRPq_qvCPSqUB63RP_LKNmx1XHAEjgaPIMtm6nKCEcozHRUE2Pj2L_K9S",
+        "[17] MEHMET KAYA, \"Denizli ili özel işletme koşullarında yetiştirilen holştayn ırkı sığırların süt verimi ve döl verimi özellikleri üzerine bazı çevresel faktörlerin etkisi,\" Yüksek Lisans/Doktora tezi, Adnan Menderes Üniversitesi / Sağlık Bilimleri Enstitüsü / Zootekni Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=48XPj7KKQhKUgntkUiKO3AcrF3JMkvoylW5GtApVmqg_Y_bGKDzEOiWVoIPdmgp2",
+        "[18] HÜLYA HANCI, \"Kızgınlığı toplulaştırılmış akkaraman koyunlarında sulandırılmış sperma ile yapılan tohumlamada oksitosin kullanımının döl verimine etkisi,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Fen Bilimleri Enstitüsü / Zootekni Ana Bilim Dalı, 2006. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-L8ilcwn9ZRRc_YMKxXW1smmVgW0qu-p_3YZFRX6mK7vjKYbk_e1A8-yv-E-MW8z",
+        "[19] EMETİ KÖSE, \"Amaranthus retroflexus L. tohumlarının dormansi durumuna iklim koşullarının etkisi,\" Yüksek Lisans/Doktora tezi, Dumlupınar Üniversitesi / Fen Bilimleri Enstitüsü / Biyoloji Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZjGl0csTBIwndreKN0SwWFLzNhJ1Kfv0miFaY63F5Ehf",
+        "[20] ANIL MEHMET BALTACI, \"Oğulotu (Melissa officinalis) bitkisinde meristem ve somatik embriyo kültürlerinden sentetik tohum elde etme olanakları,\" Yüksek Lisans/Doktora tezi, Erciyes Üniversitesi / Fen Bilimleri Enstitüsü / Tarımsal Biyoteknoloji Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vbVkXe1KChYWNElr1MuLZkoHou9lA3e4xqL7JmMKTBCHxEuYCX3b-TNqTXDwOa44",
+        "[21] CANAN BERBER, \"Gübre katkılı zeolit uygulamalarının tohum bahçelerinde çiçek ve kozalak verimine etkisi,\" Yüksek Lisans/Doktora tezi, Kastamonu Üniversitesi / Fen Bilimleri Enstitüsü / Orman Mühendisliği Ana Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1zw6GvYMe-q3Hf6HR-3USyR3a4OgGm41R5Po1RmJrqw4DOUF93_WYVvSCeni9R1X",
+        "[22] HALİDE HANDE GÜNGÖR, \"Defne (Laurus nobilis L.) bitkisinin ince hücre tabaka kültür sistemi ile ın vitro rejenerasyon potansiyellerinin saptanması ve uçucu yağ bileşiminin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Fen Bilimleri Enstitüsü / Biyoteknoloji Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQlEK1Uefl8zwmli21-3C26RIV7R-duDR2yq_umdTSEIY",
+        "[23] ELANUR YIKMIŞ, \"Bazı uygulamaların yer elması (Helianthus tuberosus L.) tohumunun çimlenmesi ve dormansi kırması üzerine etkisi,\" Yüksek Lisans/Doktora tezi, Isparta Uygulamalı Bilimler Üniversitesi / Lisansüstü Eğitim Enstitüsü / Tarla Bitkileri Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=nLNfCsWgUluh5T2iyudShnaKGfZz1CCzwfSGHY8d33Mohzr6OILkQOZOdtEyiBsu",
+        "[24] ESRA OZAN, \"Güvenlik bağlamında geleneksel tohum yapısı ve gıda güvencesi,\" Yüksek Lisans/Doktora tezi, Polis Akademisi / Güvenlik Bilimleri Enstitüsü / Güvenlik Stratejileri ve Yönetimi Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fl0Kw4p1rmMDotyKRdYv1O5UTKtPBvJ7ieT8RSEJyEsa1_r3L1Es3VqEDjiKFadO"
+      ]
+    }
+  },
+  "error": null
+}

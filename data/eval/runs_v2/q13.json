@@ -1,0 +1,346 @@
+{
+  "id": "q13",
+  "category": "engineering",
+  "type": "trend",
+  "question": "Endüstri 4.0 kapsamında Türk imalat sanayisinde dijital dönüşüm uygulamaları nasıl ilerlemiştir?",
+  "expected_subjects": [
+    "Endüstri ve Endüstri Mühendisliği",
+    "İşletme"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 146.9,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Türk imalat sanayisinde Endüstri 4.0 dijital dönüşüm uygulamalarının benimsenme düzeyi ve yaygınlığı hangi sektörlerde ve hangi ölçekteki firmalarda yoğunlaşmaktadır?",
+          "rationale": "Bu soru, dijital dönüşümün hangi alt sektörlerde ve firma büyüklüklerinde (KOBİ, büyük ölçekli) daha yaygın olduğunu ortaya koyarak mevcut durumun betimsel bir haritasını çıkarmayı sağlar."
+        },
+        {
+          "text": "Türk imalat firmalarının Endüstri 4.0'a geçiş sürecinde karşılaştıkları temel engeller (finansal, teknik, örgütsel, beşeri sermaye) nelerdir ve bu engeller hangi bağlamlarda farklılaşmaktadır?",
+          "rationale": "Bu soru, dönüşümün önündeki yapısal ve işletme düzeyindeki engelleri kategorize ederek sürecin neden yavaş veya hızlı ilerlediğine dair açıklayıcı bulgulara ulaşmayı hedefler."
+        },
+        {
+          "text": "Endüstri 4.0 teknolojilerinin (nesnelerin interneti, yapay zekâ, büyük veri, siber-fiziksel sistemler) Türk imalat sanayisinde hangi spesifik alanlarda (üretim, tedarik zinciri, kalite kontrol, bakım) uygulandığına dair somut örnekler ve vaka çalışmaları nelerdir?",
+          "rationale": "Bu soru, soyut kavramların somut uygulama alanlarına nasıl yansıdığını göstererek literatürdeki vaka temelli bulguları derlemeyi amaçlar."
+        },
+        {
+          "text": "Türkiye'deki Endüstri 4.0 dijital dönüşüm uygulamaları, gelişmiş ülkelerdeki (Almanya, ABD, Japonya) benzer uygulamalarla karşılaştırıldığında hangi yönlerden farklılık göstermektedir?",
+          "rationale": "Bu soru, Türkiye özelindeki bulguları uluslararası bağlama oturtarak dönüşümün görece hızı, derinliği ve niteliği hakkında karşılaştırmalı bir perspektif sunar."
+        },
+        {
+          "text": "Türk imalat sanayisinde Endüstri 4.0 dijital dönüşümünün işgücü verimliliği, istihdam yapısı ve beceri gereksinimleri üzerindeki etkileri nelerdir?",
+          "rationale": "Bu soru, dönüşümün sosyo-ekonomik sonuçlarına odaklanarak teknolojik değişimin insan kaynağı boyutundaki yansımalarını analiz etmeyi sağlar."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 33,
+      "max_score": 0.9486,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "599891",
+          "title_tr": "Nesnelerin interneti tabanlı endüstri 4.0 sanayi uygulaması",
+          "author": "FATİH EROĞLU",
+          "year": 2019,
+          "score": 0.9486,
+          "abstract_excerpt": "Endüstriyel alanda yaşanan büyük teknolojik yenilikler üretim sistemlerinin tamamen değişmesine yol açmış ve bu değişmeler sonucu yaşanan gelişmeler tarihsel süreçte endüstri devrimleri olarak adlandırılmıştır. Günümüze gelene kadar üç sanayi devrimi yaşanmıştır. Özellikle üçüncü sanayi devriminde b"
+        },
+        {
+          "tez_no": "539050",
+          "title_tr": "Türkiye'de endüstri 4.0 farkıdanlığı",
+          "author": "EREN KAMBER",
+          "year": 2019,
+          "score": 0.9469,
+          "abstract_excerpt": "Literatürde Endüstri 4.0 olarak tanımlanan dördüncü endüstri devrimi ile birlikte, üretim sistemleri teknolojik gelişme ve ilerlemeleri hızlı bir şekilde içerisinde barındırmaya başlamaktadır. Üretimde internetin etkin kullanımı düşüncesiyle başlayan yeni devrim süreci bilgi, bilişim teknolojileri v"
+        },
+        {
+          "tez_no": "711891",
+          "title_tr": "Endüstri 4.0 ışığında Türkiye'de sanayi seviyesi: Tosya örneği",
+          "author": "SUHA HALICIOĞLU",
+          "year": 2020,
+          "score": 0.9374,
+          "abstract_excerpt": "Geçmişten günümüze kadar olan süre zarfında kurumlar, akademik kesim ve üreticiler; üretimin nasıl rahat ve verimli hale getirilebileceği sorusuna yanıt aramıştır. Bu doğrultuda Almanya'nın Hannover kentinde düzenlenen teknoloji fuarında adı \"Endüstri 4.0\" olarak adlandırılan dijital dönüşüm devrimi"
+        },
+        {
+          "tez_no": "568453",
+          "title_tr": "Endüstri 4.0 sürecinde dijital dönüşüm ve sosyoekonomik yansımalar bağlamında insan kaynaklarının dönüşümü: Disiplinlerarası bir yaklaşım",
+          "author": "EMRE DEMİRCİ",
+          "year": 2019,
+          "score": 0.9349,
+          "abstract_excerpt": "Makinelerin birbirleriyle internet üzerinden iletişim kurduğu ve insanlardan bağımsız kararlar aldığı üretim sistemi dördüncü sanayi devrimi olarak tanımlanıyor. Almanya'nın önderlik ettiği bu süreç, ucuz işgücü nedeniyle Asya'ya kaydırılan üretimi Batı'ya aktarmayı hedefliyor. Türkiye, Asya ve Avru"
+        },
+        {
+          "tez_no": "846983",
+          "title_tr": "Üretim tezgahlarından toplanan verilerin standardizasyonu",
+          "author": "ABDULLAH ARDA GÜNAYDIN",
+          "year": 2024,
+          "score": 0.9317,
+          "abstract_excerpt": "Son zamanlarda insanlığın gelişimini birçok açıdan ileriye taşımış olan en büyük \ngelişmelerden bir tanesi de şüphesiz olarak internetin icadı ve yaygınlaşmasıdır. Bu \ngelişmelerin en başında ise Dijital Dönüşüm ya da Endüstri 4.0 kavramı gelmektedir. \nGünümüz üretiminin gerekliliklerinin değişmesi,"
+        },
+        {
+          "tez_no": "727194",
+          "title_tr": "İktisadi ve İdari Bilimler Fakülteleri ve İşletme Fakültelerinin Endüstri 4.0 ile dönüşümü",
+          "author": "AYŞEGÜL SAĞLAM",
+          "year": 2022,
+          "score": 0.9265,
+          "abstract_excerpt": "Avcı ve toplayıcı toplumdan bilgi toplumuna gelinceye dek, insanoğlu hem sosyal hem ekonomik alanda birçok endüstriyel devrime şahitlik etmiştir. Son yıllarda ismini sıklıkla duyduğumuz ve bir amaç mı yoksa bir araç mı olduğu konusunda çeşitli varsayımlar bulunan Endüstri 4.0, Sanayi Devriminin dörd"
+        },
+        {
+          "tez_no": "620468",
+          "title_tr": "Endüstri 4.0 perspektifinden firmaların organizasyon yapısı ve insan kaynakları rollerine etkisi",
+          "author": "OSMAN İRİ",
+          "year": 2020,
+          "score": 0.9255,
+          "abstract_excerpt": "Almanya'nın 2011 yılında bir proje olarak dile getirdiği Endüstri 4.0 (Dördüncü Sanayi Devrimi) günümüz ürün ve hizmet üretim yöntemlerinin baştan aşağı değişmesine olanak sağlayan dijital teknolojilerin bütününü ifade etmektedir. Endüstri 4.0 ortaya çıkışı ve uygulamalarıyla birlikte Almanya tarafı"
+        },
+        {
+          "tez_no": "450744",
+          "title_tr": "Endüstri 4.0 perspektifinden Türkiye'de imalat sanayinin durumu: Sakarya imalat sanayi üzerine bir anket çalışması",
+          "author": "CEM ÖZKURT",
+          "year": 2016,
+          "score": 0.925,
+          "abstract_excerpt": "Tarihsel süreçte geçirdiğimiz üç büyük endüstri devrimin sonucunda günümüz teknolojisinin ulaştığı son durum artık insan gücüne eskisi kadar gereksinim duymamakta, geçmiş devrimlerin daha geniş kapsamlı ve bütünleşik olarak ortaya çıkan bu son hali Endüstri 4.0 uygulamaları ile birlikte daha çok bil"
+        },
+        {
+          "tez_no": "538512",
+          "title_tr": "Endüstri 4.0; imalat sanayi alt sektörler uyumluluğu",
+          "author": "HAYATİ ATLI",
+          "year": 2019,
+          "score": 0.9229,
+          "abstract_excerpt": "Geçmişte günümüze kadar birçok sanayi devrimleri yapılmıştır. İlk olarak bu sanayi devrimi buhar gücünün yardımıyla gerçekleşmiştir. Sonraki endüstri devrimi ise petrol ve türevleri yardımı ve üretim şekillerinin geliştirilmesi sayesinde üretkenlik ve verimlilik artmıştır. Üçüncü yenilik niteliğinde"
+        },
+        {
+          "tez_no": "628481",
+          "title_tr": "Üretimde dijital dönüşüm ve etkileri: Türkiye ekonomisi açısından bir analiz",
+          "author": "ÖZLEM ÖZAN KESBİÇ",
+          "year": 2020,
+          "score": 0.9225,
+          "abstract_excerpt": "Endüstri 4.0; modern teknolojilerle, modern değer zincirlerini bir araya getiren üretimde ortaya çıkan dijital dönüşümün yarattığı son sanayi devrimidir. Bu dönüşüm, gerçek ve sanal sistemleri, bilişimi, Nesnelerin İnterneti ile çeşitlenen İnternet servislerini içinde barındırır. Endüstri 4.0; inter"
+        },
+        {
+          "tez_no": "513936",
+          "title_tr": "Türkiye'de sanayi 4.0 dönüşümü: Sorunlar, gelişme sürecindeki belirleyici unsurlar ve olası etkiler",
+          "author": "FADİME HACER ERMİŞ",
+          "year": 2018,
+          "score": 0.9218,
+          "abstract_excerpt": "18. Yüzyılın sonlarına doğru başlayan birinci sanayi devrimi ile birlikte dünya\nekonomisinde yerini almaya başlayan sanayileşme olgusu günümüzde yeni bir biçim\nalmıştır. Teknolojik gelişmenin üretim sistemleri içerisindeki kullanım payının arttığı\nbu yeni biçimde sanayileşme; teknolojik gelişmeler ı"
+        },
+        {
+          "tez_no": "842821",
+          "title_tr": "Endüstri 4.0 ile değişen iş ve çalışma modelleri",
+          "author": "SERKAN SARIOĞLU",
+          "year": 2023,
+          "score": 0.9213,
+          "abstract_excerpt": "Bu tezin amacı, geçmiş sanayi devrimleri ile dördüncü sanayi devriminin emeğin vasıf görünümlerindeki değişim üzerindeki etkilerini anlatmaya çalışmaktadır. Birinci Sanayi Devrimi ile başlayan mekanik üretim anlayışı, takip eden sanayi devrimleri bağlamında incelendiğinde, işçi-makine iş birliğini d"
+        },
+        {
+          "tez_no": "662582",
+          "title_tr": "Endüstri 4.0'ın gelişmekte olan ülkelere transfer edilebilirliği: Türkiye örneği",
+          "author": "SAVAŞ ACAR",
+          "year": 2021,
+          "score": 0.9212,
+          "abstract_excerpt": "On sekizinci yüzyılda Birinci Sanayi Devrimi ile başlayan sanayileşme yolculuğu bugün Dördüncü Sanayi Devrimi ile birlikte yeni bir döneme girmiştir. Buhar makinesinin keşfiyle başlayan sanayileşme süreci, yirminci yüzyılın başlangıcında elektriğin ve kitle üretim sistemlerinin kullanılmasıyla ikinc"
+        },
+        {
+          "tez_no": "524506",
+          "title_tr": "İşletmelerin organizasyon yapısı ve kaynakları açısından endüstri 4.0 eğiliminin değerlendirilmesi: Antalya ili örneği",
+          "author": "MERVE BİLGEN ÇIKDIN",
+          "year": 2018,
+          "score": 0.918,
+          "abstract_excerpt": "Almanya'nın 2011 yılında bir proje olarak dile getirdiği Endüstri 4.0(Dördüncü Sanayi Devrimi) günümüz ürün ve hizmet üretim yöntemlerinin baştan aşağı değişmesine olanak sağlayan dijital teknolojilerin bütününü ifade etmektedir. Endüstri 4.0 ortaya çıkışı ve uygulamalarıyla birlikte Almanya tarafın"
+        },
+        {
+          "tez_no": "552969",
+          "title_tr": "Ülkelerin endüstri 4.0 düzeylerinin COPRAS yöntemi ile analizi: G-20 ülkeleri ve Türkiye",
+          "author": "CAN ŞAHİN",
+          "year": 2019,
+          "score": 0.9106,
+          "abstract_excerpt": "Üretim alanında teknolojik ilerlemelerin oluşması ile geçmişten günümüze ekonomik ve sosyal hayatı etkileyen birçok endüstriyel devrim yaşanmıştır. Endüstri 4.0 bu süreçte, çağdaş yaşamımızda ve gelecekte karşımıza çıkacağını kanıksadığımız bir süreci ifade etmek için kullanılan bir kavramdır. Alman"
+        },
+        {
+          "tez_no": "825652",
+          "title_tr": "Endüstrı̇ 4.0 dı̇jı̇tal dönüşümde dünya ve Türkı̇ye'de mevcut durum: TR41 bölgesı̇nde endüstrı̇ 4.0 farkındalığı ı̇ncelemesı̇",
+          "author": "LEVENT SIRAKAYA",
+          "year": 2023,
+          "score": 0.9035,
+          "abstract_excerpt": "IV. Sanayi Devrimi şeklinde isimlendirilen ve ilk kez 2011 senesinde Almanya'daki Hannover fuarında tanıtılmış olan Endüstri 4.0 teknolojileri ile global ölçekteki iktisadi çalışmalarda ciddi değişmelerin oluşması beklenir. IV. Sanayi Devrimi'nin beraberinde getirmiş olduğu söz konusu değişme bilhas"
+        },
+        {
+          "tez_no": "490914",
+          "title_tr": "Endüstri 4.0 bağlamında Türkiye'nin yerine ilişkin güncel ve gelecek eksenli bir analiz",
+          "author": "GÖZDE ZEYNEP ÇEVİK",
+          "year": 2018,
+          "score": 0.9005,
+          "abstract_excerpt": "Son yıllarda üretim sektöründe yaşanan büyük sanayi gelişimleri ve devrimleri  üzerine devletler rekabet edebilmek adına kendilerini bu hızlı değişim furyasına uydurmak mecburiyetinde hissetmiş ve bu bağlamda bazı stratejiler geliştirmişlerdir. Endüstri 4.0 ise 2011 yılında gündeme gelmeye başlamış "
+        },
+        {
+          "tez_no": "684345",
+          "title_tr": "Endüstri 4.0 uygulamalarının üretim süreçlerine etkisi: Torun  Bakır Alaşımları ve Tic. A.Ş. örneği",
+          "author": "EMİNE AKAR",
+          "year": 2021,
+          "score": 0.8985,
+          "abstract_excerpt": "Günümüzde yaşanan teknolojik gelişmeler ve uzun yıllardır devam eden küreselleşme\nhareketi üretim modellerine bağlı olarak hem de ülkeler arasındaki sınırların\nkalkmasıyla birlikte her alanda meydana gelen beklenen ya da beklenmeyen ani\ndeğişimler, üretim biçimlerine yansıdığı gibi tüketici istek ve"
+        },
+        {
+          "tez_no": "713257",
+          "title_tr": "Sanayi 4.0 teknolojik çevrimi: Türkiye üzerine bir değerlendirme",
+          "author": "ÖZDEN YILMAZ",
+          "year": 2022,
+          "score": 0.9444,
+          "abstract_excerpt": "Sanayi 4.0; verimlilik artışına ek olarak yüksek katma değer yaratan, mevcut değer zincirlerini dönüştüren ve nitelikli emeğe duyulan ihtiyacı yükselten bir süreçtir. Gelişmiş ekonomilerden birisi olmayı arzulayan Türkiye için, uluslararası ölçekteki gelişmeleri izlemek ve öncü ekonomiler arasında y"
+        },
+        {
+          "tez_no": "721322",
+          "title_tr": "Endüstri 4.0 sürecinde Türkiye imalat sanayinin değerlendirilmesi",
+          "author": "CAVİT ARPINAR",
+          "year": 2022,
+          "score": 0.9424,
+          "abstract_excerpt": "18. yüzyılın ikinci yarısında İngiltere'de su ve buhar gücüyle çalışan mekanik üretim alanlarının kurulmasıyla başlayan sanayileşme, teknolojide yaşanan hızlı gelişmeler ile bugün bambaşka bir boyuta ulaşmıştır. Özellikle bilgi ve iletişim teknolojilerinde yaşanan gelişmeler bugün dünyada Endüstri 4"
+        },
+        {
+          "tez_no": "509688",
+          "title_tr": "4. endüstri devrimi için yol haritası belirlenmesinde farklı ülke örneklerinin incelenmesi ve Türkiye için model önerisi",
+          "author": "GİZEM ERÇAĞ",
+          "year": 2018,
+          "score": 0.9407,
+          "abstract_excerpt": "İlk kez 2011 yılında Hannover Fuarı'nda ortaya atılan, aynı zamanda 4. Endüstrii Devrimini ifade eden Endüstri 4.0 kavramı temel olarak teknolojinin üretimle harmanlamasıyla ortaya çıkan insansız iş gücüne yönelik gelişmeleri ifade eder.  Türkiye'nin, modern endüstrinin geldiği son nokta olan 4. End"
+        },
+        {
+          "tez_no": "835531",
+          "title_tr": "Türkiye'de sanayide dijitalleşme ve model fabrikalar",
+          "author": "YUNUS CANER TANRIÖVER",
+          "year": 2023,
+          "score": 0.8947,
+          "abstract_excerpt": "Dünya tarihine bakıldığında gelişmiş ve kalkınmış ülke olarak adlandırılan ülkelerin büyük bir çoğunluğu, sanayi alanında ciddi atılımlar ve yatırımlar yapmış ülkeler olarak karşımıza çıkmaktadır. Birinci Sanayi Devrim ile İngiltere'de başlayan sanayileşme; İkinci, Üçüncü ve günümüzde yaşanan Dördün"
+        },
+        {
+          "tez_no": "656128",
+          "title_tr": "Sakarya'da dijital dönüşüme yönelik sanayi kuruluşlarında karşılaştırmalı değerlendirme çalışması",
+          "author": "SELİN DÖKME",
+          "year": 2020,
+          "score": 0.8894,
+          "abstract_excerpt": "Geçmişten bugüne gerçekleşmiş olan üç sanayi devrimi sonunda ulaşılmış olunan son noktada insan gücüne olan ihtiyaç gittikçe azalmıştır. \nÖncelikle buharla çalışan makinelerin icadı ile ilk sanayi devrimi gerçekleşmiş ve tarım toplumu fabrikaya doğru kaymıştır. Sonrasında iş bölümü ve seri üretimin "
+        },
+        {
+          "tez_no": "848066",
+          "title_tr": "Türkiye ve Avrupa Birliği ülkelerinde dijital dönüşümün ekonomik büyümeye etkisi",
+          "author": "FATMA DENİZ DERMENCİ",
+          "year": 2023,
+          "score": 0.8838,
+          "abstract_excerpt": "Teknolojik dönüşüm ve gelişmelerin oldukça hızlı gerçekleştiği Sanayi 4.0 döneminde küresel dünya düzeninde yer almak isteyen firmalar ve ülkeler, bilgi birikimi ve teknoloji yatırımlarını arttırarak teknolojinin yaygınlaşmasını sağlamalıdır. Dijital dönüşüm ile beraber ortaya çıkan dijital ekonomi "
+        },
+        {
+          "tez_no": "W4409200167",
+          "title_tr": "Türk İmalat Sanayisinde Odak Sektörlerin Ekonomik Performansının TOPSIS Yöntemi İle İncelenmesi",
+          "author": "Mustafa Remzi Sercan",
+          "year": 2025,
+          "score": 0.5,
+          "abstract_excerpt": "On sekizinci yüzyılın son çeyreğinde buhar makinesinin icat edilmesi ve üretimde kullanılması ile doğan imalat sanayisi zaman içinde birçok dönüşüme şahit olmuştur. Her ülke imalat sanayisinde yaşanan bu dönüşümlere karşı stratejiler geliştirerek uyum sağlamaya çalışmışlardır. Günümüzde Türk imalat "
+        },
+        {
+          "tez_no": "W3013028279",
+          "title_tr": "Dünyada ve Türkiye’de Blok Zinciri Teknolojisi: Finans Sektörü, Dış Ticaret ve Vergisel Düzenlemeler Üzerine Genel Bir Değerlendirme",
+          "author": "Betül Altay Topcu, Sevgi Sümerli Sarıgül",
+          "year": 2020,
+          "score": 0.5,
+          "abstract_excerpt": "Endüstri 4.0’ın itici gücü olarak kabul edilen Blok Zinciri Teknolojisi, her bir sözleşme, işlem veya ödemenin birebir tanımlanıp, doğrulanıp, depolanıp paylaşılabilmesi için dijital olarak kaydedildiği ve imzalandığı bir teknoloji protokolüdür. Bu teknoloji, belirli bir merkezde yer alan sunucuları"
+        },
+        {
+          "tez_no": "W2765768334",
+          "title_tr": "Endüstri 4.0 Uygulamaları ve Emek Gücünün Değişen Yapısı: Türkiye Liman Endüstrisi Örneği",
+          "author": "Nesli Çankırı",
+          "year": 2017,
+          "score": 0.5,
+          "abstract_excerpt": "Değişen küresel dengelerin beraberinde getirdiği hızlı"
+        },
+        {
+          "tez_no": "W7131963894",
+          "title_tr": "ENDÜSTRİ 4.0, SÜRDÜRÜLEBİLİR FİNANS VE MUHASEBE ARASINDAKİ İLİŞKİ: KURUMSAL SÜRDÜRÜLEBİLİRLİK İÇİN YENİ YAKLAŞIMLAR",
+          "author": "Ümit Nusret Salman, Çetin Ünen",
+          "year": 2025,
+          "score": 0.5,
+          "abstract_excerpt": "Bu çalışma, Endüstri 4.0 teknolojilerinin sürdürülebilir finans ve muhasebe uygulamaları üzerindeki etkilerini inceleyerek, kurumsal sürdürülebilirlik için yeni yaklaşımlar sunmayı amaçlamaktadır. Literatür incelemesi ve teorik çerçeve kapsamında, Endüstri 4.0’ ın dijitalleşme, otomasyon ve veri ana"
+        },
+        {
+          "tez_no": "W3188019453",
+          "title_tr": "Uluslararası Lojistik Açısından Türk Vergi Sistemindeki Dolaylı Vergilerin Avrupa Birliği’ne Uyumu",
+          "author": "Uluğ İlve YÜCESOY, Asuman Altay",
+          "year": 2021,
+          "score": 0.5,
+          "abstract_excerpt": "Türkiye Cumhuriyeti Avrupa Birliği’ne tam üye olma yolunda ilerleyen aynı zamanda Gümrük Birliği üyesi bir ülkedir. Avrupa Birliği tam üye olmak için Türkiye Cumhuriyeti’nin Uyum Sürecinde taahhütte bulunduğu aynı zamanda en çok ticaret yaptığı ekonomik siyasi bir yapıdır. Avrupa Birliği mevzuatı il"
+        },
+        {
+          "tez_no": "e47aa7131debcbf835bead605563b5071b1ced10",
+          "title_tr": "Otomotiv Endüstrisinde Akıllı Fabrika Uygulamaları ve Türkiye’de Adaptasyon Süreci",
+          "author": "Berfinsu Barut, Muharrem Ünver, Celal Türkcan Kayim, E. Toprak, Ezgi Uysal",
+          "year": 2020,
+          "score": 0.5,
+          "abstract_excerpt": ""
+        }
+      ]
+    },
+    "synthesis": null,
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Henüz bir araştırma sentezi bulunmamaktadır. Sentezin kapsam ve sağlamlık açısından değerlendirilebilmesi için öncelikle bir sentez metninin oluşturulması gerekmektedir."
+      ],
+      "requery_terms": [
+        "Türk imalat sanayisi dijital dönüşüm",
+        "Endüstri 4.0 Türkiye uygulamaları",
+        "Türkiye'de akıllı fabrika örnekleri",
+        "Türk sanayisinde Endüstri 4.0 olgunluk seviyesi",
+        "Türkiye imalat sektörü dijitalleşme engelleri",
+        "Türk KOBİ'lerinde Endüstri 4.0",
+        "Türkiye sanayi politikası dijital dönüşüm",
+        "Türk imalat sanayisi nesnelerin interneti",
+        "Türkiye'de siber-fiziksel sistemler imalat",
+        "Türk sanayisinde yapay zeka uygulamaları imalat"
+      ],
+      "notes": "Henüz bir sentez metni bulunmadığı için kapsam değerlendirmesi yapılamamıştır. Soru kapsamında Türk imalat sanayisinde Endüstri 4.0 bağlamında dijital dönüşümün mevcut durumu, uygulama örnekleri, karşılaşılan engeller, sektörel farklılaşmalar, politika çerçevesi ve gelecek perspektifi gibi alt boyutların sentezde ele alınması beklenir. Bu nedenle, literatür taraması için somut anahtar kelimeler önerilmiştir."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nEndüstri 4.0, ilk kez 2011 yılında Almanya'nın Hannover kentinde düzenlenen teknoloji fuarında ortaya atılan ve üretim sistemlerinde köklü bir dönüşümü ifade eden bir kavramdır [3][6][7]. Bu dönüşüm; nesnelerin interneti (IoT), siber-fiziksel sistemler (CPS), yapay zekâ, büyük veri ve akıllı fabrika uygulamaları gibi bileşenlerin üretim süreçlerine entegrasyonunu kapsamaktadır [2][10]. Türkiye, gelişmekte olan bir ülke olarak bu küresel dönüşüm sürecine uyum sağlamaya çalışmakta; ancak bu süreçte çeşitli fırsatlar ve zorluklarla karşı karşıya kalmaktadır [4][21]. Bu çalışma, Endüstri 4.0 kapsamında Türk imalat sanayisinde dijital dönüşüm uygulamalarının mevcut durumunu, karşılaşılan engelleri ve geleceğe yönelik perspektifleri akademik literatür ışığında değerlendirmektedir.\n\n## Türk İmalat Sanayisinde Dijital Dönüşümün Mevcut Durumu\n\nTürkiye, Endüstri 4.0'a geçiş sürecinde gelişmiş ülkelerin gerisinde kalmakla birlikte, bu alanda çeşitli stratejiler geliştirmektedir [21][25]. Türk imalat sanayisinde dijital dönüşüme yönelik olarak sektör önceliklendirme modeli kapsamında odak sektörler belirlenmekte ve bu doğrultuda stratejiler oluşturulmaktadır [25]. Bununla birlikte, Türkiye'nin Endüstri 4.0 dönüşümünde henüz istenen seviyeye ulaşamadığı ve bu alandaki farkındalığın sınırlı olduğu ifade edilmektedir [16].\n\nSakarya imalat sanayisi üzerine yapılan bir anket çalışması, Türkiye'de imalat sanayisinin Endüstri 4.0 perspektifinden mevcut durumunu ortaya koymakta; işletmelerin dijital dönüşüme hazır bulunuşluk düzeylerinin sınırlı olduğunu göstermektedir [8]. Benzer şekilde, Antalya ilinde yapılan bir araştırma, işletmelerin organizasyon yapısı ve kaynakları açısından Endüstri 4.0 eğiliminin değerlendirilmesinde, firmaların dönüşüm sürecine tam anlamıyla adapte olamadıklarını ortaya koymaktadır [14].\n\n## Dijital Dönüşümün Önündeki Engeller ve Zorluklar\n\nTürkiye'de Endüstri 4.0 dönüşümünün önünde çeşitli engeller bulunmaktadır. Bunlar arasında; teknolojik altyapı yetersizlikleri, nitelikli işgücü eksikliği, Ar-Ge yatırımlarının sınırlı olması ve KOBİ'lerin dijital dönüşüme uyum sağlamada karşılaştığı güçlükler sayılabilir [11][13]. Türkiye'nin gelişmekte olan bir ülke olarak sanayi toplumu olmaktan uzak olduğu ve Endüstri 4.0 çağına uyum sağlamakta zorlandığı belirtilmektedir [21]. Ayrıca, Endüstri 4.0'ın gelişmekte olan ülkelere transfer edilebilirliği bağlamında Türkiye örneği incelendiğinde, bu sürecin önünde yapısal ve kurumsal engellerin bulunduğu görülmektedir [13].\n\n## Fırsatlar ve Stratejik Yaklaşımlar\n\nÖte yandan, Endüstri 4.0 Türkiye'ye küresel rekabette öne geçme fırsatı sunmaktadır [4]. Türkiye, Asya ve Avrupa arasında bir köprü konumunda olması nedeniyle stratejik bir avantaja sahiptir [4]. İleri teknolojiler ve yenilikçiliğin çekirdeğini oluşturduğu Sanayi 4.0'ın, Türkiye sanayisinin dönüşümü için bir çıpa olacağına inanılmaktadır [19]. Bu bağlamda, Türkiye'de model fabrika uygulamaları ve dijitalleşme çalışmaları hız kazanmış; sanayide dijital dönüşümü teşvik etmek amacıyla çeşitli kamu politikaları geliştirilmiştir [22].\n\n## Sektörel Uygulamalar ve Örnek Çalışmalar\n\nTorun Bakır Alaşımları ve Tic. A.Ş. örneğinde olduğu gibi, bazı Türk firmaları Endüstri 4.0 uygulamalarını üretim süreçlerine entegre etmeye başlamıştır [18]. Otomotiv endüstrisinde akıllı fabrika uygulamaları ve Türkiye'nin adaptasyon süreci de bu alandaki önemli gelişmeler arasında yer almaktadır [30]. Bununla birlikte, bu uygulamaların henüz yaygınlaşmadığı ve belirli sektörlerle sınırlı kaldığı anlaşılmaktadır.\n\n## Sonuç\n\nEndüstri 4.0 kapsamında Türk imalat sanayisinde dijital dönüşüm uygulamaları, küresel gelişmelere paralel olarak ilerlemekle birlikte, gelişmiş ülkelerin gerisinde kalmaktadır. Türkiye'nin bu dönüşüm sürecinde karşılaştığı başlıca zorluklar; teknolojik altyapı eksiklikleri, nitelikli işgücü yetersizliği ve KOBİ'lerin dönüşüme uyum sağlamadaki güçlükleridir. Bununla birlikte, Türkiye'nin stratejik konumu, model fabrika uygulamaları ve belirli sektörlerdeki başarılı örnekler, dijital dönüşüm potansiyelinin varlığını göstermektedir. Dijital dönüşümün başarıya ulaşması için kamu politikalarının etkin bir şekilde uygulanması, Ar-Ge yatırımlarının artırılması ve nitelikli işgücünün yetiştirilmesi büyük önem taşımaktadır.",
+      "n_citations": 33,
+      "citations_ieee": [
+        "[1] FATİH EROĞLU, \"Nesnelerin interneti tabanlı endüstri 4.0 sanayi uygulaması,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik Mühendisliği Ana Bilim Dalı / Elektrik Makinaları ve Güç Elektroniği Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=npGs9H39x7G6401x51yqpPaDWVdcxBZ5Rx-OJ_PeRj1j0KhHRDd-NDWR0VDiTQ3g",
+        "[2] EREN KAMBER, \"Türkiye'de endüstri 4.0 farkıdanlığı,\" Yüksek Lisans/Doktora tezi, Alanya Alaaddin Keykubat Üniversitesi / Fen Bilimleri Enstitüsü / İşletme Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=as2oTjW5jfr9IKSvmCdJYuj8K9OhraebNu2mf_cCEF745ATOv_bEwi99vMKOcJBd",
+        "[3] SUHA HALICIOĞLU, \"Endüstri 4.0 ışığında Türkiye'de sanayi seviyesi: Tosya örneği,\" Yüksek Lisans/Doktora tezi, Kastamonu Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=5XiSE4yCP_gmnukpMEp65YbqM4TbC-fBkfwsiSa9M2JbU-gi8vKJo8vlScuA-iqc",
+        "[4] EMRE DEMİRCİ, \"Endüstri 4.0 sürecinde dijital dönüşüm ve sosyoekonomik yansımalar bağlamında insan kaynaklarının dönüşümü: Disiplinlerarası bir yaklaşım,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyoloji Ana Bilim Dalı / Sosyoloji Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZpfbdLT-ZiwUpTAjy_dHuL8lKm0ASl42Wnd3MT2vXJH0",
+        "[5] ABDULLAH ARDA GÜNAYDIN, \"Üretim tezgahlarından toplanan verilerin standardizasyonu,\" Yüksek Lisans/Doktora tezi, Tokat Gaziosmanpaşa Üniversitesi / Lisansüstü Eğitim Enstitüsü / Mekatronik Mühendisliği Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHB0yBrvGFLFEKTwcTSA_cbcGXMLMvL7rQhIjWw2uW18K",
+        "[6] AYŞEGÜL SAĞLAM, \"İktisadi ve İdari Bilimler Fakülteleri ve İşletme Fakültelerinin Endüstri 4.0 ile dönüşümü,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / Yönetim ve Organizasyon Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CG8WvdvvxJP04Unr7Yecf5u5jw-k_SpjHGNXuNc6Mj3pIH3U0gQUQuxpLrq1IBmW",
+        "[7] OSMAN İRİ, \"Endüstri 4.0 perspektifinden firmaların organizasyon yapısı ve insan kaynakları rollerine etkisi,\" Yüksek Lisans/Doktora tezi, Gebze Teknik Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGc0CeoZU5ZjH76utwdESQF-blxb7Oq1NPLJtXMviBZXf",
+        "[8] CEM ÖZKURT, \"Endüstri 4.0 perspektifinden Türkiye'de imalat sanayinin durumu: Sakarya imalat sanayi üzerine bir anket çalışması,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Fen Bilimleri Enstitüsü / Endüstri Mühendisliği Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=DPTyuy3wRPq_qvCPSqUB6wXKSr5or_yhaPyg_mEDKX39J0PnbSx_j6_wck22VJf6",
+        "[9] HAYATİ ATLI, \"Endüstri 4.0; imalat sanayi alt sektörler uyumluluğu,\" Yüksek Lisans/Doktora tezi, Nuh Naci Yazgan Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=as2oTjW5jfr9IKSvmCdJYvYvVkxGcYgYuuQ2JkPrDbbr_vi1Meo4Z_VsKyHA3BrU",
+        "[10] ÖZLEM ÖZAN KESBİÇ, \"Üretimde dijital dönüşüm ve etkileri: Türkiye ekonomisi açısından bir analiz,\" Yüksek Lisans/Doktora tezi, Manisa Celal Bayar Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGSvF2ZLQ5Iu7mHmk-FBcd8a6M3jz4Al3KPxbF7GWifUF",
+        "[11] FADİME HACER ERMİŞ, \"Türkiye'de sanayi 4.0 dönüşümü: Sorunlar, gelişme sürecindeki belirleyici unsurlar ve olası etkiler,\" Yüksek Lisans/Doktora tezi, Bolu Abant İzzet Baysal Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı / İktisat Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=hcgrYffRbz0Z44UJEuLtwR2zBN22R5MD2AaWMNeDcXMOYfetzHlwMOlyeSoQDw6N",
+        "[12] SERKAN SARIOĞLU, \"Endüstri 4.0 ile değişen iş ve çalışma modelleri,\" Yüksek Lisans/Doktora tezi, Sivas Cumhuriyet Üniversitesi / Sosyal Bilimler Enstitüsü / Çalışma Ekonomisi ve Endüstri İlişkileri Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHP0GyaraqOzE5GRhzAXpE7QKFfz8fXekyjZTlEd8ls3g",
+        "[13] SAVAŞ ACAR, \"Endüstri 4.0'ın gelişmekte olan ülkelere transfer edilebilirliği: Türkiye örneği,\" Yüksek Lisans/Doktora tezi, Muğla Sıtkı Koçman Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=9MiDp3x86xrwjpi5-14w-YXxl_jUZjE98dU8_2k9eF1yYsdkScEJlcl_fmNVNHa6",
+        "[14] MERVE BİLGEN ÇIKDIN, \"İşletmelerin organizasyon yapısı ve kaynakları açısından endüstri 4.0 eğiliminin değerlendirilmesi: Antalya ili örneği,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fS4sqEZr79C_n60Rk6MjFX1I5oOEHAadP0HoOY2h57d7JMOviyTAW8KV5sJQ9vYx",
+        "[15] CAN ŞAHİN, \"Ülkelerin endüstri 4.0 düzeylerinin COPRAS yöntemi ile analizi: G-20 ülkeleri ve Türkiye,\" Yüksek Lisans/Doktora tezi, Bartın Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZbqWRj7IT_0VqU8YVjkFC5_VA66U9SQWFedZQBo5eIoPd",
+        "[16] LEVENT SIRAKAYA, \"Endüstrı̇ 4.0 dı̇jı̇tal dönüşümde dünya ve Türkı̇ye'de mevcut durum: TR41 bölgesı̇nde endüstrı̇ 4.0 farkındalığı ı̇ncelemesı̇,\" Yüksek Lisans/Doktora tezi, Yalova Üniversitesi / Lisansüstü Eğitim Enstitüsü / Endüstri Mühendisliği Ana Bilim Dalı / Endüstri Mühendisliği Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=nLNfCsWgUluh5T2iyudShgnV_5gS0wvHl_EH95_UzmtpKIXiqXhshE2e3bAkGsni",
+        "[17] GÖZDE ZEYNEP ÇEVİK, \"Endüstri 4.0 bağlamında Türkiye'nin yerine ilişkin güncel ve gelecek eksenli bir analiz,\" Yüksek Lisans/Doktora tezi, Nişantaşı Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / İşletme Yönetimi Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vbVkXe1KChYWNElr1MuLZmmZKi155DKyz-Z9elc3FRy8oJXpBOIp4qMim96kL64t",
+        "[18] EMİNE AKAR, \"Endüstri 4.0 uygulamalarının üretim süreçlerine etkisi: Torun  Bakır Alaşımları ve Tic. A.Ş. örneği,\" Yüksek Lisans/Doktora tezi, Uşak Üniversitesi / Lisansüstü Eğitim Enstitüsü / İşletme Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77LV-XIdY_U0RBhcd3ubiCPwQWZlkPM7BH3Bxv34M-wiRR",
+        "[19] ÖZDEN YILMAZ, \"Sanayi 4.0 teknolojik çevrimi: Türkiye üzerine bir değerlendirme,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı / İktisat Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=5XiSE4yCP_gmnukpMEp65bG_zff4RqIqKIuKuZT03ddkjAqPGTGv5uGi8bmCgcU8",
+        "[20] CAVİT ARPINAR, \"Endüstri 4.0 sürecinde Türkiye imalat sanayinin değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Karamanoğlu Mehmetbey Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı / İktisat Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CG8WvdvvxJP04Unr7YecfxppT4xr0tPPjnwTvH_nhixkJPh2174v65nzr9XiwRMi",
+        "[21] GİZEM ERÇAĞ, \"4. endüstri devrimi için yol haritası belirlenmesinde farklı ülke örneklerinin incelenmesi ve Türkiye için model önerisi,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Fen Bilimleri Enstitüsü / Endüstri Mühendisliği Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=MzP7PYssFqdb3WIjlroAkeDxLRao370bAcD97GBChXTpXll_aG6XqBTDOHqV96Ln",
+        "[22] YUNUS CANER TANRIÖVER, \"Türkiye'de sanayide dijitalleşme ve model fabrikalar,\" Yüksek Lisans/Doktora tezi, Gaziantep Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=S2eMu1TIwY_v4mYv58xAr_InFuuH1NEiieRgLF-5LeXmQhmBr0DRS4nZf9OwKozG",
+        "[23] SELİN DÖKME, \"Sakarya'da dijital dönüşüme yönelik sanayi kuruluşlarında karşılaştırmalı değerlendirme çalışması,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Fen Bilimleri Enstitüsü / Endüstri Mühendisliği Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMs8jPKulk4WEJJKCg9A0w2EDlCRfTx5PSWC8scYsmuX3U",
+        "[24] FATMA DENİZ DERMENCİ, \"Türkiye ve Avrupa Birliği ülkelerinde dijital dönüşümün ekonomik büyümeye etkisi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı / İktisat Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHFF5LmlucB4nWb9-L8YSY30OUT4LD5zOSUWikRzhPMby",
+        "[25] Mustafa Remzi Sercan, \"Türk İmalat Sanayisinde Odak Sektörlerin Ekonomik Performansının TOPSIS Yöntemi İle İncelenmesi,\" Yüksek Lisans/Doktora tezi, [openalex] Ankara Hacı Bayram Veli Üniversitesi İktisadi ve İdari Bilimler Fakültesi Dergisi, 2025. [Online]. https://doi.org/10.26745/ahbvuibfd.1607479",
+        "[26] Betül Altay Topcu, Sevgi Sümerli Sarıgül, \"Dünyada ve Türkiye’de Blok Zinciri Teknolojisi: Finans Sektörü, Dış Ticaret ve Vergisel Düzenlemeler Üzerine Genel Bir Değerlendirme,\" Yüksek Lisans/Doktora tezi, [openalex] European Journal of Science and Technology, 2020. [Online]. https://doi.org/10.31590/ejosat.araconf5",
+        "[27] Nesli Çankırı, \"Endüstri 4.0 Uygulamaları ve Emek Gücünün Değişen Yapısı: Türkiye Liman Endüstrisi Örneği,\" Yüksek Lisans/Doktora tezi, [openalex], 2017. [Online]. https://doi.org/10.18872/deu.df.ulk.2017.003",
+        "[28] Ümit Nusret Salman, Çetin Ünen, \"ENDÜSTRİ 4.0, SÜRDÜRÜLEBİLİR FİNANS VE MUHASEBE ARASINDAKİ İLİŞKİ: KURUMSAL SÜRDÜRÜLEBİLİRLİK İÇİN YENİ YAKLAŞIMLAR,\" Yüksek Lisans/Doktora tezi, [openalex] Kayseri University - Avesis, 2025. [Online]. https://openalex.org/W7131963894",
+        "[29] Uluğ İlve YÜCESOY, Asuman Altay, \"Uluslararası Lojistik Açısından Türk Vergi Sistemindeki Dolaylı Vergilerin Avrupa Birliği’ne Uyumu,\" Yüksek Lisans/Doktora tezi, [openalex] Gaziantep University Journal of Social Sciences, 2021. [Online]. https://doi.org/10.21547/jss.848323",
+        "[30] Berfinsu Barut, Muharrem Ünver, Celal Türkcan Kayim, E. Toprak, Ezgi Uysal, \"Otomotiv Endüstrisinde Akıllı Fabrika Uygulamaları ve Türkiye’de Adaptasyon Süreci,\" Yüksek Lisans/Doktora tezi, [semantic_scholar], 2020. [Online]. https://www.semanticscholar.org/paper/e47aa7131debcbf835bead605563b5071b1ced10",
+        "[31] Zişan Korkmaz Özcan, Taha Samet Gürlek, \"Türkiye'de Akıllı Kent Uygulamalarının Turizme Yansıması,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Uluslararası global turizm araştırmaları dergisi, 2024. [Online]. https://www.semanticscholar.org/paper/c4a19624db5dd04b0a62aec17eee67c3060ec572",
+        "[32] Ayşegül Bulut, Şenol Adıgüzel, \"Akıllı Kent Yaklaşımı ve Büyükşehir Belediyelerinde Uygulama İmkanları: Gaziantep ve Hatay Büyükşehir Belediyeleri Örnekleri,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Uluslararasi Akademik Birikim Dergisi, 2023. [Online]. https://www.semanticscholar.org/paper/c2510b1a61016c16531f2a33d6ab55aef2ef509f",
+        "[33] Büşra Eraslan, A. Uysal, \"Endüstri 4.0 Çağında Türkiye: Akıllı Fabrikaların Yükselişi ve Mekânsal Dinamikler,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Mavi Atlas, 2024. [Online]. https://www.semanticscholar.org/paper/3f70afbb90f08df171f06f30c0c6f78854edffe1"
+      ]
+    }
+  },
+  "error": null
+}

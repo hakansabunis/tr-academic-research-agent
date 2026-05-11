@@ -1,0 +1,477 @@
+{
+  "id": "q22",
+  "category": "law",
+  "type": "comparison",
+  "question": "Türk Ceza Kanunu ile Anglo-Sakson hukuk sisteminde suç ve ceza prensiplerinin karşılaştırması nasıldır?",
+  "expected_subjects": [
+    "Hukuk"
+  ],
+  "min_citations": 3,
+  "result": {
+    "latency_seconds": 161.51,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Türk Ceza Kanunu ile Anglo-Sakson hukuk sisteminde suçun unsurları (actus reus, mens rea) nasıl tanımlanmakta ve karşılaştırılmaktadır?",
+          "rationale": "Suçun temel yapı taşları olan maddi ve manevi unsurların iki sistemdeki farklı tanımlanma biçimlerini ortaya koyarak kavramsal bir temel sağlar."
+        },
+        {
+          "text": "İki hukuk sisteminde cezalandırmanın temel ilkeleri (kanunilik, orantılılık, kusur ilkesi) açısından hangi benzerlikler ve farklılıklar bulunmaktadır?",
+          "rationale": "Ceza hukukunun omurgasını oluşturan temel prensiplerin karşılaştırmalı analizini sağlayarak sistemler arasındaki felsefi ve yapısal ayrımları ortaya çıkarır."
+        },
+        {
+          "text": "Türk Ceza Kanunu ile Anglo-Sakson hukuk sisteminde ceza sorumluluğunu ortadan kaldıran veya azaltan nedenler (meşru müdafaa, zorunluluk hali, akıl hastalığı vb.) nasıl düzenlenmektedir?",
+          "rationale": "İstisna ve savunma mekanizmalarının karşılaştırılması, iki sistemin adalet anlayışındaki farklılıkları somut olaylar üzerinden gösterir."
+        },
+        {
+          "text": "Türk Ceza Kanunu ile Anglo-Sakson hukuk sisteminde ceza türleri ve cezaların belirlenmesinde (takdir yetkisi, asgari-azami ceza aralıkları) hangi yöntemsel farklılıklar görülmektedir?",
+          "rationale": "Ceza belirleme sürecindeki yargısal takdir yetkisi ve ceza türlerinin karşılaştırılması, iki sistemin uygulama boyutundaki farklarını ortaya koyar."
+        },
+        {
+          "text": "Türk Ceza Kanunu ile Anglo-Sakson hukuk sisteminin karşılaştırıldığı ampirik çalışmalarda hangi temel bulgulara ulaşılmış ve hangi sınırlılıklar belirtilmiştir?",
+          "rationale": "Mevcut akademik çalışmaların bulgu ve sınırlılıklarının sentezlenmesi, araştırma boşluklarını ve gelecek çalışmalar için yönlendirmeyi sağlar."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 36,
+      "max_score": 0.8512,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "502465",
+          "title_tr": "İngiltere'de cezalandırma sisteminin evrimi ve sanayi devrimi sürecinin bu evrime etkisi",
+          "author": "BURAK POLAT",
+          "year": 2018,
+          "score": 0.8512,
+          "abstract_excerpt": "Cezalandırma sisteminin varlığı insanın topluluk halinde yaşamasının bir sonucudur. İnsan topluluğun beraber yaşama imkanın varlığı ancak ceza sistemi ile getirilmiş bir takım kısıtlamalar sayesinde mümkün olabilir. Ancak, bu kısıtlamalar bir sistem olarak bir anda ortaya çıkmış değildir. Aksine zam"
+        },
+        {
+          "tez_no": "443199",
+          "title_tr": "Ceza Hukukunda nedensellik bağı",
+          "author": "BURAK BOZ",
+          "year": 2016,
+          "score": 0.8378,
+          "abstract_excerpt": "Tarihi belki insanlık tarihinden de eski olan nedensellik bağı, hem sosyal hem de fen bilimleri açısından önemli bir kavramdır. Nedensellik bağı, birden fazla olgu arasında sebep-sonuç ilişkisine dayanan mantıki bir bağdır. Ceza hukukunda ise bu bağ, failin hareketi ile suç tipinin öngördüğü netice "
+        },
+        {
+          "tez_no": "240492",
+          "title_tr": "5237 sayılı Türk Ceza Kanununda kısa süreli hürriyeti bağlayıcı cezalara seçenek yaptırımlar",
+          "author": "MEHMET BURAK UZUN",
+          "year": 2009,
+          "score": 0.8354,
+          "abstract_excerpt": "Toplumun mutlaka bir düzen içinde bulunması gerekir. Toplumun düzeninin devamı için de düzenin bozulmasına sebebiyet verecek eylemler çeşitli şekillerde müeyyideye tabi tutulmak zorundadır. Toplumun en üst örgütlenmesi olan devletin sosyal barış ve sükûneti sağlamak üzere gerekli önlemleri alması ge"
+        },
+        {
+          "tez_no": "207709",
+          "title_tr": "Türk hukukunda cezanın belirlenmesi",
+          "author": "ENVER KUMBASAR",
+          "year": 2006,
+          "score": 0.8347,
+          "abstract_excerpt": "Ceza, devlet tarafından suç işleyen kişiye uygulanan yaptırımdır. Devlet, bir arada yaşayan insanların hak ve özgürlüklerinin korunması, toplumun barış ve huzuru ile kamu güvenliğinin sağlanması, hukuk düzeninin korunması amacıyla cezalandırma yoluna gider. Ceza, kişinin özgürlüğünü kısıtlayan, acı "
+        },
+        {
+          "tez_no": "657753",
+          "title_tr": "Actiones liberae in causa (aslı itibarıyla özgür hareketler) kuramı çerçevesinde ceza sorumluluğu",
+          "author": "AYŞE ÖZGE ATALAY",
+          "year": 2018,
+          "score": 0.8315,
+          "abstract_excerpt": "Sarhoşluk yaratan maddelerin kullanımı, çok eski zamanlardan beri insanlara keyif vermekle birlikte, konunun ceza sorumluluğu açısından ele alınması suretiyle birtakım problemleri de beraberinde getirmiştir. Zira ceza hukukunda sorumluluğun temelini oluşturan en önemli ilke, suç teşkil eden hareketi"
+        },
+        {
+          "tez_no": "812461",
+          "title_tr": "Cezaların etkinliği bağlamında Türk suç siyaseti",
+          "author": "EFE CAN KARABULAT",
+          "year": 2023,
+          "score": 0.8284,
+          "abstract_excerpt": "Suç sorunu ile mücadele; zaman, mekan ve karar alıcılar bakımından çok katmanlı ve karmaşık bir iştir. Başarıya ulaşabilmesi için bu mücadelenin akılcı, tutarlı ve kolektif bir siyaset dahilinde verilmesi gerekir. Bir toplumda hangi davranışların suç olarak kabul edileceğinin tayin edilmesiyle başla"
+        },
+        {
+          "tez_no": "10915",
+          "title_tr": "Suçun sosyolojik açıdan temellendirilmesi üzerine bir deneme /",
+          "author": "NİHAT AYCAN",
+          "year": 1991,
+          "score": 0.826,
+          "abstract_excerpt": "Araştırmamız, çok zengin ve farklı toplum ilişkilerinde değişik boyutlarda karşılaştığımız suça kapsamlı ve geçerli açıklamalar\" getirmeyi amaçlamaktadır. Suç, bütün toplum ve insan ilişkilerine sirayet ettiğinden değişik biçimlerde kendisini göstermiştir. Bu bakımdan suç, oldukça farklı tanım ve aç"
+        },
+        {
+          "tez_no": "325838",
+          "title_tr": "Cezanın belirlenmesi ve bireyselleştirilmesi",
+          "author": "ERDAL YERDELEN",
+          "year": 2012,
+          "score": 0.8252,
+          "abstract_excerpt": "Ceza ve cezalandırmanın amacı sıklıkla bilimsel eserlere konu olmuştur. Türk hukukunda cezanın belirlenmesi konusu, genellikle hukuk normları, somut veriler, içtihatlar çerçevesinde değerlendirilmiştir. Batı Avrupa ve ABD'de ise, hukukçuların yanında, sosyologlar, felsefeciler, kriminologlar bu konu"
+        },
+        {
+          "tez_no": "811809",
+          "title_tr": "Cezanın amacı ve adli para cezası",
+          "author": "FATIMA ZEYNEP ASİLTÜRK",
+          "year": 2023,
+          "score": 0.8248,
+          "abstract_excerpt": "Tarih boyunca insanların topluluk halinde yaşayabilmesi ve toplumun her ferdinin huzurlu ve güvenli bir hayat sürebilmesi için birtakım kuralların konulması gerekmiştir. Toplumsal uzlaşı ve toplu yaşam ceza hukuku olmaksızın düşünülemeyeceğinden her toplumda ve zamanda ceza hukukuna ilişkin adımlar "
+        },
+        {
+          "tez_no": "862644",
+          "title_tr": "Ceza normlarının yer bakımından uygulanması",
+          "author": "ATACAN BOZYEL",
+          "year": 2024,
+          "score": 0.8231,
+          "abstract_excerpt": "Ceza normlarının uygulanması ve buna ilişkin sınırlar ceza hukuku dogmatiği içerisinde geçmiş yüzyılda belirlenen kapsam içerisinde değerlendirilmektedir. Buna karşın meydana gelen teknik ve sosyal gelişmeler konunun güncel tartışmalarda yeniden ele alınmasını gerekli kılmaktadır. Bu sebeple ceza no"
+        },
+        {
+          "tez_no": "701949",
+          "title_tr": "Karşılaştırmalı hukukta suçun unsurları",
+          "author": "ROYAL MAHARRAMOV",
+          "year": 2021,
+          "score": 0.8228,
+          "abstract_excerpt": "Ceza Hukuku doktrininde Suçun Unsurlarının belirlenmesi konusunda yüzyıllardır fikir birliği olmamaktadır. Bu sorun aynı ile Türk hukuk doktrininde göze çarpmaktadır. Genel olarak, Türk doktrininde ikiden beşe kadar çıkabilen unsurlarla karşılaşılmaktadır.\nBu durum Azerbaycan ceza hukuk doktrinde ta"
+        },
+        {
+          "tez_no": "62489",
+          "title_tr": "İslam Hukukunda cezalarda gözetilen amaçlar",
+          "author": "SUAT ERDEM",
+          "year": 1997,
+          "score": 0.8216,
+          "abstract_excerpt": "Toplumun İhtiyacından doğmuş bulunan, hukuk normları, toplum düzeninin sağlanması açısından uyulması gereken kurallardır. Bu kurallar ihlal edildiği takdirde ise toplum düzeni bozulmaya başlar ve adalet ortadan kalkar. Bu hukuk kuralları bazen insanlar tarafından ihlal edilebilmektedir. Bu duruma mü"
+        },
+        {
+          "tez_no": "419322",
+          "title_tr": "İslam Ceza Hukukunda ceza normlarının özellikleri",
+          "author": "MUSTAFA AKGÖZ",
+          "year": 2016,
+          "score": 0.8184,
+          "abstract_excerpt": "Hukuk, toplumun düzenini ve devamını sağlamak için emredici, yasaklayıcı ve izin verici nitelikte birtakım kurallar koyar. Bu kuralların ihlali durumunda ise suç kavramı ortaya çıkar. Hukuka aykırı bir fiil olan suç, başkasının hakkını ihlal eden ve ceza normu tarafından yasaklanan bir eylemdir. Bu "
+        },
+        {
+          "tez_no": "911709",
+          "title_tr": "Türk Ceza Hukukunda akıl hastalığı ve akıl hastalığının kusur yeteneğine etkisi",
+          "author": "ESRA OĞUZ",
+          "year": 2024,
+          "score": 0.8156,
+          "abstract_excerpt": "Kusur yeteneği, suç işleyen kişinin suç eylemi sırasında eylemi kontrol etme, suçu anlama ve bu suç eylemi için hukuki sonuçları anlayabilme yeteneğini ifade eder. Kusur yeteneği, bireyin akıl sağlığı, kusurluluğu ve suçun işlenme anındaki bilinçli davranışları gibi unsurları içerir. Hukuk sistemler"
+        },
+        {
+          "tez_no": "849866",
+          "title_tr": "Sosyolojik açıdan cezanın caydırıcılığı",
+          "author": "TUBA ATALAY",
+          "year": 2023,
+          "score": 0.8148,
+          "abstract_excerpt": "Hukuk kurallarının genel amacı toplumsal düzen ve refahı sağlamaktır. Tüm hukuk sistemleri öncelikle bu amaca hizmet etmektedirler. Bu bağlamda ceza hukukunun temel işlevi toplumsal düzenin ihlal edilmesini suç olarak görmekte ve bu davranışlara karşın cezaları düzenlemek ve anlaşılır olmasını sağla"
+        },
+        {
+          "tez_no": "824294",
+          "title_tr": "Türkiye'deki ve Birleşik Arap Emirlikleri'ndeki suç önleme stratejilerinin karşılaştırılması",
+          "author": "ESRA NUR BAL",
+          "year": 2023,
+          "score": 0.8142,
+          "abstract_excerpt": "Devletlerin, kurdukları hukuk düzenini sürdürebildiği ve toplumdaki bireylerin \ngüvenliğini sağlayabildiği takdirde hukuk devleti olarak nitelendirilebilecekleri ve bu \nnedenle bu amaca yönelik çaba sarf ettikleri kabul edilmektedir. İnsanlığın varoluşu ile \nsüregelen \"suç\" kavramını ilk tanımlama ç"
+        },
+        {
+          "tez_no": "380779",
+          "title_tr": "Ceza sorumluluğunu kaldıran veya azaltan sebepler",
+          "author": "ORHAN ÇELİK",
+          "year": 2014,
+          "score": 0.8131,
+          "abstract_excerpt": "Kanun koyucu 5237 sayılı Yeni Türk Ceza Kanunu'nda, hukuka uygunluk sebepleri ile kusurluluğu kaldıran ve cezayı azaltan nedenleri 24 ila 34. maddeleri arasında birlikte ele almıştır. Ne var ki bu bölümdeki düzenleme kanunun doğru biçimde algılanmasını zorlaştırmaktadır. Hukuka uygunluk sebepleri il"
+        },
+        {
+          "tez_no": "730767",
+          "title_tr": "Ceza muhakemesinde pazarlık yöntemleri ve kovuşturmaya alternatif bir yöntem olarak seri muhakeme usulü",
+          "author": "YEŞİM YILMAZ",
+          "year": 2022,
+          "score": 0.7987,
+          "abstract_excerpt": "Tez çalışmasının konusu, ceza muhakemesinde pazarlık yöntemleri ile Türk ceza muhakemesinde kovuşturmaya alternatif bir yol olarak düzenlenen seri muhakeme usulüdür. Günümüzde Anglo-Sakson ceza adalet sistemleri ile birlikte Kıta Avrupası ceza adalet sistemlerinde, şüpheli/sanık ile savcının anlaşma"
+        },
+        {
+          "tez_no": "768908",
+          "title_tr": "Klasik ütopyalarda suç kavramı",
+          "author": "AHMET AKİF DİNÇ",
+          "year": 2022,
+          "score": 0.7918,
+          "abstract_excerpt": "Suç kavramı, tarihsel süreçler içerisinde farklı şekillerde ele alınıp konumlandırılmıştır. Toplumların suç kavramını farklı şekillerde anlamlandırmasının nedeni, toplumların toplumsal yaşam istençlerinden ve kültürel farklılıklarından kaynaklanır. İnsanlar, toplumsal yaşamda güvenilir, korunaklı ve"
+        },
+        {
+          "tez_no": "706303",
+          "title_tr": "Ceza hukukunda görevin yerine getirilmesi",
+          "author": "MAHMUT GÖKPINAR",
+          "year": 2021,
+          "score": 0.7901,
+          "abstract_excerpt": "Görevin yerine getirilmesi, kamu hukuku usul ve esaslarına tabi bir kişi tarafından ya bir kanun hükmünün doğrudan doğruya somut olaya uygulanması ya da amirin emrinin yerine getirilmesi şeklinde ortaya çıkan bir hukuka uygunluk nedeni olup diğer hukuka uygunluk nedenlerinin sadece bir görünümü vark"
+        },
+        {
+          "tez_no": "874044",
+          "title_tr": "Terörle mücadelede maddi ceza hukukunun dönüşümü: Türkiye ve Birleşik Krallık'ta hazırlık niteliğindeki terör suçları",
+          "author": "SENA NUR ÖZDEMİR",
+          "year": 2024,
+          "score": 0.7873,
+          "abstract_excerpt": "Terör eylemleri, bireylerin hayatlarına, vücut bütünlüklerine, özgürlüklerine; devletlerin ise varlığına ve ulusal güvenliğine ciddi zararlar veren fiillerdir. Terörle mücadelede klasik ceza hukuku doktrini erozyona uğramış ve ceza hukukunun dönüşüm fenomeni terör eksenli tartışmalar için bir postul"
+        },
+        {
+          "tez_no": "550650",
+          "title_tr": "Ceza yargılamasında isnadın ispatında delillerin önemi",
+          "author": "HATİCE YILMAZ",
+          "year": 2019,
+          "score": 0.787,
+          "abstract_excerpt": "Hukuki anlamda suç, bir toplumdaki hukuki kurumlar tarafından ceza veya güvenlik tedbiri yaptırımına bağlanmış fiildir. Suçu gerçekleştiren kişiye suçlu denir. Suçun tarihi insanlık tarihi kadar eskidir. Tarih boyunca devletler, toplum dinamiklerinin gerektirdiği şekilde failleri yargılamışlar. Suç "
+        },
+        {
+          "tez_no": "794092",
+          "title_tr": "Ceza muhakemesi hukukunda seri muhakeme usulü",
+          "author": "TAHİR AKGÜL",
+          "year": 2023,
+          "score": 0.7859,
+          "abstract_excerpt": "Nüfus artışı, bilim ve teknolojinin ilerlemesi gibi nedenlerle tüm dünyada suç ve suçlu \nsayısı giderek artmaktadır. Klasik cezalandırma anlayışı doğrultusunda görülen ceza \ndavalarının uzun sürdüğü ve masraflı olduğu bilinmektedir. Bu durum, hukuk \ndevletlerini, failin sorumluluğu kabul etmesine so"
+        },
+        {
+          "tez_no": "434391",
+          "title_tr": "Anglo-Amerikan Hukukunda vakıaların getirilmesi ve delillerin toplanmasında hakimin rolü",
+          "author": "FULYA TEOMETE YALABIK",
+          "year": 2016,
+          "score": 0.7854,
+          "abstract_excerpt": "Dünyada birçok hukuk sisteminde reform hareketleri kendini göstermekte ve iki büyük hukuk sistemi, \"common law\" olarak adlandırılan Anglo-Amerikan ve \"civil law\" olarak tanımlanan, çalışmada aktardığımız birçok Kıta Avrupası hukukunun bu reform hareketleri üzerinde çok büyük bir etkisi bulunmaktadır"
+        },
+        {
+          "tez_no": "302137",
+          "title_tr": "Ceza Muhakemesinde hüküm",
+          "author": "GÜNAL KURŞUN",
+          "year": 2011,
+          "score": 0.8346,
+          "abstract_excerpt": "Hüküm, bir muhakemenin sonunda verilen ve uyuşmazlığı çözen karardır. Muhakemenin yargılama makamları önüne götürülüşü dava ile olur. Hüküm ise dava sırasında ve sonunda yapılan muhakemenin sonucudur. Davasız muhakeme olmaz ve dolayısıyla davasız hüküm olmaz. Her hüküm bir davaya dayanır, dayanağı d"
+        },
+        {
+          "tez_no": "475750",
+          "title_tr": "Ceza Hukukunda kusur",
+          "author": "SERKAN MERAKLI",
+          "year": 2017,
+          "score": 0.8299,
+          "abstract_excerpt": "Tipe uygun ve hukuka aykırı bir eylem işleyen failin bu eyleminin kendisine isnad edilebilmesi ve kendisine karşı bir kınama yargısı yapılabilmesi kusurunun bulunmasına bağlıdır. Kusur kavramı bu yönüyle failin cezalandırılmasının gerekçesini oluşturur. Diğer yönüyle ise failin işlediği eylemden ötü"
+        },
+        {
+          "tez_no": "257739",
+          "title_tr": "Ceza Muhakemesinde karar ve hüküm",
+          "author": "VERDA GÜLSEN YAŞAR",
+          "year": 2010,
+          "score": 0.8237,
+          "abstract_excerpt": "Ceza muhakemesi; iddia, savunma ve yargılamadan oluşan ortak bir faaliyettir. Bu faaliyet, suç işlendiği yönünde bir şüpheyle (iddiayla) başlamakta, bu şüphe yargılama makamlarının katılmasıyla elbirliğiyle yenilmekte, maddi gerçekliğe ulaşıldığında verilen ortak kararla sona ermektedir.Mahkeme ve h"
+        },
+        {
+          "tez_no": "885299",
+          "title_tr": "Ceza Muhakemesi Hukukunda hukuka kesin aykırılık sebeplerinden hükmün gerekçeden yoksunluğu",
+          "author": "MUHAMMED ENES ÖZBAY",
+          "year": 2024,
+          "score": 0.8206,
+          "abstract_excerpt": "Gerekçe, kavram olarak bir şeyin sebebinin ve dayanağının ne olduğunu ifade\neder. Bu bağlamda hukuk devleti ilkesinin gereği olarak ülkemizde de anayasal\ndüzeyde normlar ile her türlü mahkeme kararlarının belirli standartları karşılayan\nölçüde gerekçeli olması zorunluluğu esası benimsenmiştir. Hakez"
+        },
+        {
+          "tez_no": "476542",
+          "title_tr": "Türk Ceza Hukukunda meşru savunma",
+          "author": "HİLAL DÜZENLİ",
+          "year": 2017,
+          "score": 0.8204,
+          "abstract_excerpt": "Meşru savunma,  bireylerin haksız saldırılara karşı kendilerini veya üçüncü kişileri koruyabilmeleri amacıyla gösterdikleri tepki fiilidir. Ceza hukukunun bilinen en eski hukuki kurumlarından biri olan meşru savunma, pozitif hukuk normlarında yer almadan çok önce dahi kabul görmekte ve uygulanmaktay"
+        },
+        {
+          "tez_no": "848872",
+          "title_tr": "Avrupa İnsan Hakları Mahkemesi kararları ışığında sanığın duruşmada hazır bulunma hakkı",
+          "author": "İDRİS DOĞAN",
+          "year": 2023,
+          "score": 0.8198,
+          "abstract_excerpt": "Ceza muhakemesinde adil bir yargılamanın gerçekleştirilmesi, sanığın savunma hakkını etkili bir şekilde kullanmasına bağlıdır. Savunma hakkının kullanımının anahtarı ise duruşmada hazır bulunma hakkıdır. Zira sanığın adil bir şekilde yargılandığından söz edilebilmesi için yargılamaya doğrudan, etkin"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 15,
+      "findings": [
+        {
+          "claim": "Ceza hukukunun temel işlevi toplumsal düzeni sağlamak ve korumaktır; suç ve ceza, topluluk halinde yaşamanın zorunlu bir sonucudur.",
+          "citations": [
+            "502465",
+            "240492",
+            "207709",
+            "812461",
+            "10915",
+            "811809",
+            "62489",
+            "419322",
+            "849866",
+            "824294",
+            "380779",
+            "768908",
+            "550650",
+            "794092",
+            "885299",
+            "476542",
+            "848872",
+            "303789",
+            "357550"
+          ]
+        },
+        {
+          "claim": "Kusur yeteneği, ceza sorumluluğunun temelini oluşturur; failin fiil sırasında kusur yeteneğine sahip olması gerekir.",
+          "citations": [
+            "657753",
+            "911709",
+            "475750"
+          ]
+        },
+        {
+          "claim": "Anglo-Sakson hukuk sisteminde (common law) pazarlık usulü (plea bargaining) gelişmiş olup, bu sistem Kıta Avrupası ve Türk hukukunda da seri muhakeme gibi alternatif usullerle benimsenmeye başlanmıştır.",
+          "citations": [
+            "730767",
+            "794092",
+            "434391"
+          ]
+        },
+        {
+          "claim": "Türk Ceza Kanunu'nda (5237 sayılı) hukuka uygunluk sebepleri ile kusurluluğu kaldıran nedenler aynı bölümde düzenlenmiş olup bu durum sistematik açıdan eleştirilmektedir.",
+          "citations": [
+            "380779"
+          ]
+        },
+        {
+          "claim": "Meşru savunma, hem Türk hukukunda hem de diğer hukuk sistemlerinde hukuka aykırılığı ortadan kaldıran bir neden olarak kabul edilmektedir.",
+          "citations": [
+            "476542",
+            "357550"
+          ]
+        },
+        {
+          "claim": "Cezanın belirlenmesi disiplinler arası bir konudur; Batı Avrupa ve ABD'de sosyologlar, felsefeciler ve kriminologlar da bu konuya ilgi gösterirken Türk hukukunda daha çok normatif ve içtihat odaklı bir yaklaşım benimsenmiştir.",
+          "citations": [
+            "325838"
+          ]
+        },
+        {
+          "claim": "Ceza hukukunda nedensellik bağı, failin hareketi ile suç tipinin öngördüğü netice arasındaki sebep-sonuç ilişkisidir; kimse başkasının hareketinden sorumlu tutulamaz.",
+          "citations": [
+            "443199"
+          ]
+        },
+        {
+          "claim": "Terörle mücadele bağlamında klasik ceza hukuku doktrini erozyona uğramış; hazırlık hareketlerinin cezalandırılması istisnadan kurala dönüşmektedir. Türkiye ve Birleşik Krallık'ta bu yönde benzer eğilimler görülmektedir.",
+          "citations": [
+            "874044"
+          ]
+        },
+        {
+          "claim": "Anglo-Sakson (common law) ve Kıta Avrupası (civil law) hukuk sistemleri arasındaki keskin ayrımlar, küreselleşme ve hukukların yakınlaşması (convergence) hareketleriyle azalmaktadır.",
+          "citations": [
+            "434391"
+          ]
+        },
+        {
+          "claim": "Ceza muhakemesinde hüküm, ancak bir davaya dayanır; davasız hüküm olmaz ve hükmün konusu iddianamede belirtilen eylemle sınırlıdır.",
+          "citations": [
+            "302137",
+            "257739"
+          ]
+        },
+        {
+          "claim": "Gerekçeli karar verme zorunluluğu, hukuk devleti ilkesinin ve adil yargılanma hakkının bir gereğidir; Türk hukukunda anayasal ve kanuni düzeyde düzenlenmiştir.",
+          "citations": [
+            "885299",
+            "848872"
+          ]
+        },
+        {
+          "claim": "Suçun unsurlarının belirlenmesi konusunda Türk doktrininde fikir birliği bulunmamakta; unsur sayısı iki ile beş arasında değişmektedir.",
+          "citations": [
+            "701949"
+          ]
+        },
+        {
+          "claim": "Cezalandırma sistemleri zaman içinde evrilmiştir; günümüzdeki halinin nihai olduğu söylenemez.",
+          "citations": [
+            "502465"
+          ]
+        },
+        {
+          "claim": "Ceza, suç ile orantılı olmalı ve adalet ilkesi gözetilmelidir; cezalandırmanın adaletten soyutlanması mümkün değildir.",
+          "citations": [
+            "62489",
+            "207709"
+          ]
+        },
+        {
+          "claim": "Ceza muhakemesinde yasak sorgu yöntemleri (işkence, zor kullanma) tarihsel süreçte terk edilmiş; günümüzde adil yargılanma hakkı kapsamında bu yöntemler yasaklanmıştır.",
+          "citations": [
+            "303789"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Kaynaklarda doğrudan bir çelişki tespit edilmemiştir. Bununla birlikte, Türk Ceza Kanunu ile Anglo-Sakson hukuk sisteminin karşılaştırmalı analizine yönelik getirilen kaynakların çoğu Türk hukukuna odaklanmakta olup, Anglo-Sakson sistemine ilişkin sınırlı sayıda kaynak (730767, 794092, 434391, 874044) bulunmaktadır. Bu nedenle iki sistem arasında kapsamlı bir karşılaştırma yapmak için yeterli veri mevcut değildir."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Anglo-Sakson hukuk sisteminde suçun tanımı ve unsurları (common law suçları, statutory suçlar ayrımı)",
+        "Anglo-Sakson sisteminde ceza sorumluluğunun temel prensipleri (mens rea, actus reus)",
+        "Türk Ceza Kanunu'nda suçun yapısal unsurları (tipiklik, hukuka aykırılık, kusurluluk) ile Anglo-Sakson sistemindeki karşılıklarının sistematik karşılaştırması",
+        "Anglo-Sakson sisteminde cezalandırma prensipleri (sentencing guidelines, determinate/indeterminate sentencing)",
+        "İki sistem arasında içtihat hukuku (precedent) ile kanunilik ilkesi (nullum crimen sine lege) bağlamında karşılaştırma",
+        "Anglo-Sakson sisteminde jüri yargılaması ve bunun suç-ceza prensiplerine etkisi",
+        "Türk hukukunda ceza sorumluluğunun şahsiliği ile Anglo-Sakson sistemindeki vicarious liability gibi farklı yaklaşımlar",
+        "İki sistemde teşebbüs, iştirak ve içtima kurallarının karşılaştırması"
+      ],
+      "requery_terms": [
+        "Anglo-Sakson hukuk suç unsurları mens rea actus reus",
+        "common law criminal law principles Turkey comparison",
+        "Anglo-Sakson ceza hukuku prensipleri Türk Ceza Kanunu karşılaştırma",
+        "common law criminal liability elements",
+        "Anglo-Sakson hukukunda cezalandırma esasları sentencing",
+        "common law precedent nullum crimen sine lege karşılaştırma",
+        "Anglo-Sakson hukuk jüri yargılaması ceza prensipleri",
+        "common law vicarious liability criminal law",
+        "Anglo-Sakson hukuk teşebbüs iştirak içtima"
+      ],
+      "notes": "Mevcut sentez, Türk Ceza Kanunu'na odaklanmış olup Anglo-Sakson sistemine dair yalnızca pazarlık usulü, terörle mücadele ve sistemlerin yakınlaşması gibi sınırlı konularda kaynak içermektedir. Oysa soru, iki sistemin suç ve ceza prensiplerinin karşılaştırmasını talep etmektedir. Anglo-Sakson sisteminin temel prensipleri (actus reus, mens rea, strict liability, common law suçları-statutory suçlar ayrımı, sentencing prensipleri, precedent sistemi, jüri yargılaması, ceza sorumluluğunun kapsamı gibi) ile Türk hukukunun karşılıkları sistematik olarak karşılaştırılmamıştır. Bu nedenle kapsamlı bir ek arama gereklidir."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nCeza hukuku, toplumsal düzenin sağlanması ve korunması işlevini üstlenen temel bir hukuk dalıdır [15][24]. Suç ve ceza kavramları, insanın topluluk halinde yaşamasının zorunlu bir sonucu olarak ortaya çıkmış olup [1][3][9], tarihsel süreç içerisinde farklı hukuk sistemlerinde çeşitli şekillerde düzenlenmiştir [1][19]. Bu çalışmada, Türk Ceza Kanunu'nun ait olduğu Kıta Avrupası (civil law) hukuk sistemi ile Anglo-Sakson (common law) hukuk sisteminin suç ve ceza prensipleri açısından karşılaştırmalı bir analizi sunulmaktadır.\n\n## Suçun Unsurları ve Yapısal Farklılıklar\n\nTürk ceza hukuku doktrininde suçun unsurlarının belirlenmesi konusunda fikir birliği bulunmamakta; unsur sayısı iki ile beş arasında değişmektedir [11]. Buna karşılık, Anglo-Sakson hukuk sisteminde suçun unsurlarına ilişkin daha yerleşik bir ayrım bulunmaktadır. Her iki sistemde de ceza sorumluluğunun temelini kusur yeteneği oluşturmakta olup, failin fiil sırasında kusur yeteneğine sahip olması gerekmektedir [5][14][26]. Kusur kavramı, failin cezalandırılmasının gerekçesini ve cezalandırmanın ölçüsünü teşkil etmesi bakımından ceza hukukunun yapıtaşlarından biridir [26].\n\n## Hukuka Uygunluk Sebepleri ve Meşru Savunma\n\nTürk Ceza Kanunu'nda (5237 sayılı) hukuka uygunluk sebepleri ile kusurluluğu kaldıran nedenler aynı bölümde (24-34. maddeler) düzenlenmiş olup, bu durum sistematik açıdan eleştirilmektedir [17]. Meşru savunma kurumu ise hem Türk hukukunda hem de Anglo-Sakson hukuk sisteminde hukuka aykırılığı ortadan kaldıran bir neden olarak kabul edilmektedir [29][32]. Meşru savunma, bireylerin haksız saldırılara karşı kendilerini veya üçüncü kişileri koruyabilmeleri amacıyla gösterdikleri tepki fiilidir ve modern ceza hukuku tarafından da kabul edilmektedir [29][32].\n\n## Ceza Muhakemesi ve Alternatif Usuller\n\nAnglo-Sakson hukuk sisteminde pazarlık usulü (plea bargaining) önemli bir yer tutarken, bu sistem Kıta Avrupası ve Türk hukukunda seri muhakeme gibi alternatif usullerle benimsenmeye başlanmıştır [18][23]. Suçun failinin ikrarına dayalı pazarlık sistemi, Anglo-Sakson hukukuna ait bir kurum olup, bu sistemin Kıta Avrupası ceza adalet sistemlerinde de uygulanmasına izin verilmektedir [18][23]. Ceza muhakemesinde hüküm, ancak bir davaya dayanır; davasız hüküm olmaz ve hükmün konusu iddianamede belirtilen eylemle sınırlıdır [25][27].\n\n## Cezanın Belirlenmesi ve Disiplinler Arası Yaklaşım\n\nCezanın belirlenmesi disiplinler arası bir konudur [8]. Batı Avrupa ve ABD'de sosyologlar, felsefeciler ve kriminologlar da bu konuya ilgi gösterirken, Türk hukukunda daha çok normatif ve içtihat odaklı bir yaklaşım benimsenmiştir [8]. Ceza, suç ile orantılı olmalı ve adalet ilkesi gözetilmelidir; cezalandırmanın adaletten soyutlanması mümkün değildir [4][12].\n\n## Terörle Mücadele ve Ceza Hukukunun Dönüşümü\n\nTerörle mücadele bağlamında klasik ceza hukuku doktrini erozyona uğramış; hazırlık hareketlerinin cezalandırılması istisnadan kurala dönüşmektedir [21]. Türkiye ve Birleşik Krallık'ta bu yönde benzer eğilimler görülmektedir [21]. Maddi ceza hukukunda cezalandırılabilirliğin öne çekilmesi, terör suçları bağlamında kural haline dönüşen bir yönelim olarak dikkat çekmektedir [21].\n\n## Hukuk Sistemlerinin Yakınlaşması\n\nAnglo-Sakson (common law) ve Kıta Avrupası (civil law) hukuk sistemleri arasındaki keskin ayrımlar, küreselleşme ve hukukların yakınlaşması (convergence) hareketleriyle azalmaktadır [24]. Dünyada birçok hukuk sisteminde reform hareketleri kendini göstermekte ve bu iki büyük hukuk sistemi birbirleriyle etkileşimde bulunarak zamanla keskin şekilde ayrıldıkları noktalarda yakınlaşmaktadır [24].\n\n## Adil Yargılanma Hakkı ve Gerekçeli Karar\n\nGerekçeli karar verme zorunluluğu, hukuk devleti ilkesinin ve adil yargılanma hakkının bir gereğidir [28][30]. Türk hukukunda bu zorunluluk anayasal ve kanuni düzeyde düzenlenmiş olup, Avrupa İnsan Hakları Sözleşmesi bağlamında da güvence altına alınmıştır [28][30]. Ceza muhakemesinde yasak sorgu yöntemleri (işkence, zor kullanma) tarihsel süreçte terk edilmiş; günümüzde adil yargılanma hakkı kapsamında bu yöntemler yasaklanmıştır [31].\n\n## Sonuç\n\nTürk Ceza Kanunu ile Anglo-Sakson hukuk sistemi arasında suç ve ceza prensipleri bakımından hem benzerlikler hem de farklılıklar bulunmaktadır. Her iki sistem de ceza hukukunun temel işlevini toplumsal düzeni sağlamak olarak görmekte [15][24], kusur yeteneğini ceza sorumluluğunun temeli olarak kabul etmekte [5][14][26] ve meşru savunmayı hukuka uygunluk nedeni olarak düzenlemektedir [29][32]. Bununla birlikte, suçun unsurlarının yapılandırılması [11], cezanın belirlenmesinde izlenen yaklaşım [8] ve ceza muhakemesinde alternatif usullerin uygulanması [18][23] gibi konularda farklılıklar göze çarpmaktadır. Küreselleşme ve hukukların yakınlaşması hareketleri neticesinde bu iki sistem arasındaki keskin ayrımların azalmakta olduğu [24] ve özellikle terörle mücadele gibi alanlarda benzer eğilimlerin ortaya çıktığı görülmektedir [21]. Cezalandırma sistemlerinin zaman içinde evrildiği ve günümüzdeki halinin nihai olmadığı [1] dikkate alındığında, iki sistem arasındaki etkileşimin gelecekte de devam edeceği söylenebilir.",
+      "n_citations": 36,
+      "citations_ieee": [
+        "[1] BURAK POLAT, \"İngiltere'de cezalandırma sisteminin evrimi ve sanayi devrimi sürecinin bu evrime etkisi,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=MzP7PYssFqdb3WIjlroAkZwNfhL3pZXi3x95_J4S8QK7S5h8V_hGBs3h0UdCAsUP",
+        "[2] BURAK BOZ, \"Ceza Hukukunda nedensellik bağı,\" Yüksek Lisans/Doktora tezi, Yıldırım Beyazıt Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=OykDDeWBWTL9-Wm52sZBrF2NdSA8LaphZencBR1V-4oMi3Zk2BmXqlZ6vFcbUhjO",
+        "[3] MEHMET BURAK UZUN, \"5237 sayılı Türk Ceza Kanununda kısa süreli hürriyeti bağlayıcı cezalara seçenek yaptırımlar,\" Yüksek Lisans/Doktora tezi, Dumlupınar Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Yönetimi Ana Bilim Dalı / Hukuk Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAR2zSxcYWYuISQ34PgKBM4f2ejAGfl0CeKMD2wwk_F6Q",
+        "[4] ENVER KUMBASAR, \"Türk hukukunda cezanın belirlenmesi,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2006. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ePX_SaJ0b35Gq45swKG3lBck-Ts7-agkHZHpcW1BgIBGfPHP6uoxQqwGzUDtrkJf",
+        "[5] AYŞE ÖZGE ATALAY, \"Actiones liberae in causa (aslı itibarıyla özgür hareketler) kuramı çerçevesinde ceza sorumluluğu,\" Yüksek Lisans/Doktora tezi, Bahçeşehir Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Kamu Hukuku Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMs8PvRBKkRewgc0s7HraNHPpoy3dNq8QCa-vNjAgi3Qvg",
+        "[6] EFE CAN KARABULAT, \"Cezaların etkinliği bağlamında Türk suç siyaseti,\" Yüksek Lisans/Doktora tezi, Ankara Hacı Bayram Veli Üniversitesi / Lisansüstü Eğitim Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Kamu Hukuku Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=a0OMTmEd_3mfOBxT8SiBTF-g5bG8uRtT2KEBDkXdb5uflZ7qQSDfqJiXb4gMwb5U",
+        "[7] NİHAT AYCAN, \"Suçun sosyolojik açıdan temellendirilmesi üzerine bir deneme /,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyoloji Ana Bilim Dalı, 1991. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=5T1_CZ5-UGb9QCmoURec4FINYk83K58kNt6rCWPBpx16h-5I526aeL2U3RC_wR49",
+        "[8] ERDAL YERDELEN, \"Cezanın belirlenmesi ve bireyselleştirilmesi,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=rcbWnuqW6HxCZ_98ARapguxIaHdTSiSU8GCvX1-1x2a9VHxF0t0JGZVw9IYY3FhN",
+        "[9] FATIMA ZEYNEP ASİLTÜRK, \"Cezanın amacı ve adli para cezası,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=a0OMTmEd_3mfOBxT8SiBTCN6hZ5C-zSADX5Ke59oPhlpXdDCCuRmCpVRemNnvU29",
+        "[10] ATACAN BOZYEL, \"Ceza normlarının yer bakımından uygulanması,\" Yüksek Lisans/Doktora tezi, Ankara Yıldırım Beyazıt Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQgV9Pl7k0zvgW_nDKVLbvHgYI8czq2qw73p1M7El66Mw",
+        "[11] ROYAL MAHARRAMOV, \"Karşılaştırmalı hukukta suçun unsurları,\" Yüksek Lisans/Doktora tezi, İstanbul Ticaret Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5Sgvlgg7T7qSQ2wdDACyZoHm3r5aHGCLnciokoFHL-r3BXS_Gt",
+        "[12] SUAT ERDEM, \"İslam Hukukunda cezalarda gözetilen amaçlar,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Temel İslam Bilimleri Ana Bilim Dalı / İslam Hukuku Bilim Dalı, 1997. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGTN3o87X3vZ1dUKvkOPLsePEP5aEklMLVkPWjbG2w1aR",
+        "[13] MUSTAFA AKGÖZ, \"İslam Ceza Hukukunda ceza normlarının özellikleri,\" Yüksek Lisans/Doktora tezi, Kahramanmaraş Sütçü İmam Üniversitesi / Sosyal Bilimler Enstitüsü / Temel İslam Bilimleri Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WY5CM7tPNE2z_YM6pBu0tzSMWjKAOVLnZ-CVkmN2h4mfAtE5248AwTXcXW650Hyp",
+        "[14] ESRA OĞUZ, \"Türk Ceza Hukukunda akıl hastalığı ve akıl hastalığının kusur yeteneğine etkisi,\" Yüksek Lisans/Doktora tezi, İstanbul Gedik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Kamu Hukuku Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=E_eEUHQic_C-LvhxNQn1Wxm3NKVFcuprEEXNDy76OcvKKeHQD-VnMXpBWgj3jxbh",
+        "[15] TUBA ATALAY, \"Sosyolojik açıdan cezanın caydırıcılığı,\" Yüksek Lisans/Doktora tezi, Kırşehir Ahi Evran Üniversitesi / Sosyal Bilimler Enstitüsü / Siyaset Bilimi ve Kamu Yönetimi Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHGF1i4-YVUhCzMsnKlTINoIyeyJgKaP1Rhw7uXuyGS7A",
+        "[16] ESRA NUR BAL, \"Türkiye'deki ve Birleşik Arap Emirlikleri'ndeki suç önleme stratejilerinin karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Üsküdar Üniversitesi / Bağımlılık ve Adli Bilimler Enstitüsü / Ceza Adaleti Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=nLNfCsWgUluh5T2iyudShs9p0HUUHO6JOzy-cSqwbA9r9p7b4rnhaHrX6UdfGSlK",
+        "[17] ORHAN ÇELİK, \"Ceza sorumluluğunu kaldıran veya azaltan sebepler,\" Yüksek Lisans/Doktora tezi, Dicle Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sY7m19PfcL6F1NUw-cr80MWa-1hBOuRQn7kLnPcC8UJieMiHuVEQgNM4NkWu_OC4",
+        "[18] YEŞİM YILMAZ, \"Ceza muhakemesinde pazarlık yöntemleri ve kovuşturmaya alternatif bir yöntem olarak seri muhakeme usulü,\" Yüksek Lisans/Doktora tezi, Galatasaray Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkrCTAnqIbj9ZK8iRhbRAeHCqxeAvqLTsRxq5__UYIhyZ",
+        "[19] AHMET AKİF DİNÇ, \"Klasik ütopyalarda suç kavramı,\" Yüksek Lisans/Doktora tezi, Trakya Üniversitesi / Sosyal Bilimler Enstitüsü / İnsan ve Toplum Araştırmaları Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiNaRgwHGMcOkTwbvbeJKJT6AJefPYrK5IqAB1u0VtTCD",
+        "[20] MAHMUT GÖKPINAR, \"Ceza hukukunda görevin yerine getirilmesi,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Ceza ve Ceza Usul Hukuku Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5SgvlggxOSWdgLKlyLrANSj01DvNaY5qM_TgcmQYhMhx7eMMLt",
+        "[21] SENA NUR ÖZDEMİR, \"Terörle mücadelede maddi ceza hukukunun dönüşümü: Türkiye ve Birleşik Krallık'ta hazırlık niteliğindeki terör suçları,\" Yüksek Lisans/Doktora tezi, İstanbul Medeniyet Üniversitesi / Lisansüstü Eğitim Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1pwTzRXnomYf6jwqVORfUYd1o_h0ArhHSnkbWRfWpnwEqsGgQtAAkKpvJfNQ1bmW",
+        "[22] HATİCE YILMAZ, \"Ceza yargılamasında isnadın ispatında delillerin önemi,\" Yüksek Lisans/Doktora tezi, Üsküdar Üniversitesi / Bağımlılık ve Adli Bilimler Enstitüsü / Adli Bilimler Ana Bilim Dalı / Olay Yeri İnceleme ve Kriminalistik Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZbhroNKQNgyX9eLtUq9DXt564Q_9R0PejCcIyY7mXYwCh",
+        "[23] TAHİR AKGÜL, \"Ceza muhakemesi hukukunda seri muhakeme usulü,\" Yüksek Lisans/Doktora tezi, Gaziantep Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Kamu Hukuku Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=G_oJ1rKE4SgJUkomyAKpR8cZWDPuiBpMmgmVBZ8aR22X6koZeJDcr-OJvZ2eGEwW",
+        "[24] FULYA TEOMETE YALABIK, \"Anglo-Amerikan Hukukunda vakıaların getirilmesi ve delillerin toplanmasında hakimin rolü,\" Yüksek Lisans/Doktora tezi, Galatasaray Üniversitesi / Sosyal Bilimler Enstitüsü / Özel Hukuk Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cbOXH84ZayrLjc0tI-QXKiEHi9Fa1cquAvIn6Q42tXSYhBNIKLDFtyHP4J_nLDT-",
+        "[25] GÜNAL KURŞUN, \"Ceza Muhakemesinde hüküm,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Ceza ve Ceza Usul Hukuku Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-ApH0fMjcPYUfeoxFBvkA8iSx7CwYGzBdwbGCkdypno3y",
+        "[26] SERKAN MERAKLI, \"Ceza Hukukunda kusur,\" Yüksek Lisans/Doktora tezi, Dokuz Eylül Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=7lOJX8w_8PRQU1mSHU6-jnNBMfoW6rX4lS4RLKQ-Zso6cL2vYF5-nomR7pjjhNWR",
+        "[27] VERDA GÜLSEN YAŞAR, \"Ceza Muhakemesinde karar ve hüküm,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Ceza ve Ceza Usul Hukuku Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=NtBAevXNhYaNqJFoAcdBdroJXgKxVksn-twE5KihA9T0zXyvd0e39TQfUu5zz6Es",
+        "[28] MUHAMMED ENES ÖZBAY, \"Ceza Muhakemesi Hukukunda hukuka kesin aykırılık sebeplerinden hükmün gerekçeden yoksunluğu,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Ceza ve Ceza Muhakemesi Hukuku Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-xUHVy0JdybIu80Q9dmQi7aI0Lmxw0toRSR-BRpssYpv",
+        "[29] HİLAL DÜZENLİ, \"Türk Ceza Hukukunda meşru savunma,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=7lOJX8w_8PRQU1mSHU6-jumM99wdhLAu31AQsiud4N5SZ0IsQSk2YIR2QbFRtMJ3",
+        "[30] İDRİS DOĞAN, \"Avrupa İnsan Hakları Mahkemesi kararları ışığında sanığın duruşmada hazır bulunma hakkı,\" Yüksek Lisans/Doktora tezi, Gaziantep Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHNrUoYMLc-aL72jbJYh1sziEqsaD7u6r4Y3sdWUXKOqX",
+        "[31] EKİN DENİZ HORZUM, \"Avrupa İnsan Hakları Mahkemesi kararları bağlamında yasak sorgu yöntemleri,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-Avcn3mHThJzhaSF8-S2dt5BkEyYnn_M08BkVqgG-faQF",
+        "[32] ÖMER DEMİRCİ, \"Meşru savunma,\" Yüksek Lisans/Doktora tezi, Çankaya Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1zw6GvYMe-q3Hf6HR-3US4XTpT7TLSEFH0asiJQq1V521_OjDeGeVsnE36R4Z0aT",
+        "[33] Michele J. Gelfand, Jana L. Raver, Lisa H. Nishii, Lisa M. Leslie, Janetta Lun, Beng Chong Lim, Lili Duan, Assaf Almaliach, Soon Ang, Jakobina Arnadottir, Zeynep Aycan, Klaus Boehnke, Paweł Boski, Rosa Cabecinhas, Darius K.‐S. Chan, Jagdeep S. Chhokar, Alessia D’Amato, Montserrat Subirats Ferrer, Iris C. Fischlmayr, Ronald Fischer, Márta Fülöp, James Georgas, Emiko S. Kashima, Yoshishima Kashima, Kibum Kim, Alain Lempereur, Patricia Márquez, Rozhan Othman, Bert Overlaet, Penny Panagiotopoulou, Karl Peltzer, Lorena R. Pérez-Floriano, Лариса Пономаренко, Anu Realo, Vidar Schei, Manfred Schmitt, Peter B. Smith, Nazar Soomro, Erna Szabo, Nalinee Taveesin, Midori Toyama, Evert Van de Vliert, Naharika Vohra, Colleen Ward, Susumu Yamaguchi, \"Differences Between Tight and Loose Cultures: A 33-Nation Study,\" Yüksek Lisans/Doktora tezi, [openalex] Science, 2011. [Online]. https://doi.org/10.1126/science.1197754",
+        "[34] Rafael La Porta, Florencio López‐de‐Silanes, Andrei Shleifer, \"The Economic Consequences of Legal Origins,\" Yüksek Lisans/Doktora tezi, [openalex] Journal of Economic Literature, 2008. [Online]. https://doi.org/10.1257/jel.46.2.285",
+        "[35] Peter Dia­mond, Jerry A. Hausman, \"Contingent Valuation: Is Some Number Better than No Number?,\" Yüksek Lisans/Doktora tezi, [openalex] The Journal of Economic Perspectives, 1994. [Online]. https://doi.org/10.1257/jep.8.4.45",
+        "[36] Stephen T. Russell, Jessica N. Fish, \"Mental Health in Lesbian, Gay, Bisexual, and Transgender (LGBT) Youth,\" Yüksek Lisans/Doktora tezi, [openalex] Annual Review of Clinical Psychology, 2016. [Online]. https://doi.org/10.1146/annurev-clinpsy-021815-093153"
+      ]
+    }
+  },
+  "error": null
+}

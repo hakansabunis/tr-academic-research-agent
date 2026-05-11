@@ -1,0 +1,308 @@
+{
+  "id": "q09",
+  "category": "health",
+  "type": "comparison",
+  "question": "Kalp damar hastalıklarının teşhisinde ekokardiyografi ve manyetik rezonans görüntülemenin karşılaştırmalı performansı nedir?",
+  "expected_subjects": [
+    "Kardiyoloji",
+    "Radyoloji ve Nükleer Tıp"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 181.38,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Ekokardiyografi ve kardiyak MR'ın sol ventrikül ejeksiyon fraksiyonu (LVEF) ölçümünde doğruluk ve tekrarlanabilirlik açısından karşılaştırmalı performansı nedir?",
+          "rationale": "LVEF, kalp yetersizliği ve birçok kardiyovasküler hastalıkta temel tanı ve prognoz parametresidir. Bu alt soru, iki yöntemin en sık kullanılan kantitatif ölçümdeki performans farkını ortaya koyar."
+        },
+        {
+          "text": "Koroner arter hastalığı tanısında stres ekokardiyografi ile stres kardiyak MR'ın duyarlılık, özgüllük ve tanısal doğruluk açısından karşılaştırılması nasıldır?",
+          "rationale": "Koroner arter hastalığı en yaygın kardiyovasküler hastalıklardan biridir ve stres görüntüleme yöntemlerinin tanısal performansı klinik karar vermede kritiktir."
+        },
+        {
+          "text": "Miyokardiyal canlılık (viabilite) değerlendirmesinde ekokardiyografi (düşük doz dobutamin stres ekokardiyografi) ile kardiyak MR'ın (geç gadolinyum tutulumu) karşılaştırmalı tanısal değeri nedir?",
+          "rationale": "Miyokard canlılığı, revaskülarizasyon kararlarında belirleyicidir ve iki yöntemin farklı fizyolojik prensiplere dayanması karşılaştırmayı anlamlı kılar."
+        },
+        {
+          "text": "Kalp kapak hastalıklarının (aort darlığı, mitral yetersizliği) derecelendirilmesinde ekokardiyografi ve kardiyak MR arasındaki uyum ve hangi durumlarda MR'ın ek katkı sağladığı nedir?",
+          "rationale": "Kapak hastalıkları ekokardiyografinin birincil tanı alanıdır ancak MR'ın kantitatif akım ölçümleri ek bilgi sağlayabilir; bu alt soru iki yöntemin uyumunu ve MR'ın ek faydasını sorgular."
+        },
+        {
+          "text": "Kardiyak MR ve ekokardiyografinin maliyet-etkinlik, erişilebilirlik ve hasta konforu açısından karşılaştırmalı üstünlükleri ve sınırlılıkları nelerdir?",
+          "rationale": "Tanısal performansın yanı sıra sağlık politikası ve klinik uygulama açısından pratik faktörler (maliyet, süre, kontrendikasyonlar) karşılaştırmanın tamamlayıcı bir boyutudur."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 26,
+      "max_score": 0.8819,
+      "min_score": 0.8254,
+      "chunks": [
+        {
+          "tez_no": "774731",
+          "title_tr": "Ejeksiyon fraksiyonu düşük ve korunmuş kalp yetersizliği vakaları için tek sinyal kullanarak makine öğrenmesi tabanlı yeni bir tanı algoritması",
+          "author": "PINAR ÖZEN",
+          "year": 2022,
+          "score": 0.8819,
+          "abstract_excerpt": "Kalp yetersizliği (KY) ile ilgili olarak, mortaliteyi azaltmak ve ömrü uzatmak tedavinin ana hedeflerinden biridir. Birçok klinik çalışma KY hastalarını Sol Ventriküler Ejeksiyon Fraksiyonuna (SVEF) göre tanımlar. SVEF'ye göre KY alt tiplerinden en sık görülen ikisi, düşük ejeksiyon fraksiyonlu KY ("
+        },
+        {
+          "tez_no": "387056",
+          "title_tr": "Kardiyak MRG",
+          "author": "SAMET VERİM",
+          "year": 2002,
+          "score": 0.8751,
+          "abstract_excerpt": "Edinsel Kalp Hastalıkları,ölümlerin en sık sebebidir. Kalp hastalıklarının tanı ve tedavisindeki gelişmeler kaydadeğer bir ilerleme kaydetmiştir. Bu çalışmanın amacı, kalp hastalıkları tanısında, noninvazif bir teknik olarak kardiyak MRG'nin etkinliğini araştırmaktır. Yaşları 43 ile 77 arasında deği"
+        },
+        {
+          "tez_no": "203683",
+          "title_tr": "Kalp kapak hastalığı ile NT-proBNP ilişkisi",
+          "author": "FERHAT ÖZYURTLU",
+          "year": 2007,
+          "score": 0.8716,
+          "abstract_excerpt": "Bu gahsmada NT-proBNP' nin kalp kapak hastahgi ile iliskisi, kapak hastahgi\u000bciddyeti ile korelasyonunu, kapak replasmani yapilmis, olan hastalardaki seyiyesinin\u000bdaha dusuk olup olmadigini ve kapak replasmani yapilmis hastalarda kapak\u000bfonksiyonu ile iliskisinin olup olmadigini arastirdik. Aynca NYHA "
+        },
+        {
+          "tez_no": "384292",
+          "title_tr": "Ekokardiyografide görsel olarak değerlendirilen ejeksiyon fraksiyonunun diğer kantitatif yöntemlerle karşılaştırılması",
+          "author": "KERİM ESENBOĞA",
+          "year": 2014,
+          "score": 0.8666,
+          "abstract_excerpt": "Amaç: Ekokardiyografide EF 'yi görsel olarak değerlendirmenin diğer kantitatif metodlara göre daha kolay olması ve laboratuarın işleyişine hız kazandırması bakımından önemli bir alternatif yöntem olduğu düşünülmektedir. Ancak görsel olarak LVEF'yi değerlendiren her laboratuarın, bu değerlendirmeleri"
+        },
+        {
+          "tez_no": "784428",
+          "title_tr": "Sol ventrikül sistolik fonksiyonunun anterior mitral annulus hareketi aracılığıyla tahmini",
+          "author": "OZAN ALTINTAS",
+          "year": 2023,
+          "score": 0.863,
+          "abstract_excerpt": "Sol ventrikül ejeksiyon fraksiyonu (LVEF) sol ventrikülün fonksiyonunu gösteren ve sol ventrikül sistolünde aortaya pompalanan hacmin diyastol sonu hacmine oranını gösteren bir parametredir. Kardiyak kökenli hastalıkların ciddiyetinin belirlenmesi açısından sol ventrikül ejeksiyon fraksiyonu büyük ö"
+        },
+        {
+          "tez_no": "310069",
+          "title_tr": "Sol ventrikül volüm ve fonksiyonlarının değerlendirilmesinde kardiyak MRG ve ekokardiyografi bulgularının karşılaştırılması",
+          "author": "BAHAR YILMAZ ÇANKAYA",
+          "year": 2012,
+          "score": 0.862,
+          "abstract_excerpt": "Kalp hastalıklarının progresyonun ve tedaviye cevabın takibinde sol ventrikül volüm ve fonksiyonlarının doğru biçimde ölçülmesi önemlidir. Sol ventrikül sistolik fonksiyonlarını göstermek amacıyla kullanılan en önemli parametre ejeksiyon fraksiyonudur.Sol ventrikül fonksiyonlarının değerlendirilmesi"
+        },
+        {
+          "tez_no": "712424",
+          "title_tr": "Doğumsal ve edinsel kalp hastalıklarında kardiyak manyetik rezonans görüntüleme /",
+          "author": "SERDAR SERİNSÖZ",
+          "year": 2011,
+          "score": 0.855,
+          "abstract_excerpt": "Kalp hastalıkları en sık karşılaşılan hastalıkların başında gelmektedir. Örneğin Amerika'da ölümlerin %40 'nı kalp hastalıkları oluşturmaktadır. Ülkemizde de mortalite ve morbiditenin önde gelen sebebleri arasındadır. Erkeklerde kadınlara oranla 4 kat daha fazla görülmektedir. Erkeklerde 50-60 yaş a"
+        },
+        {
+          "tez_no": "556259",
+          "title_tr": "Durağan dalgacık dönüşümü ile EKG işaretinde gürültü giderimi ve QRS kompleksinin belirlenmesi",
+          "author": "NURAY MISIRLI",
+          "year": 2019,
+          "score": 0.8541,
+          "abstract_excerpt": "Teknoloji, çağımızdaki bütün bilim ve uygulama alanlarını etkilediği gibi tıp biliminin de her geçen gün gelişimine katkı sağlamaktadır. Bu nedenle de hastalığın doğru teşhisi ve tedavisinde elektronik cihazların kullanımı artmıştır. Biyoelektriksel işaretlerin insan vücudundan alınıp cihazda görünt"
+        },
+        {
+          "tez_no": "861664",
+          "title_tr": "Kalp yetmezliğinde perirenal yağ doku kalınlığı ile klinik, ekokardiyografik, biyokimyasal parametrelerin ilişkisi",
+          "author": "ONUR CAN POLAT",
+          "year": 2024,
+          "score": 0.8534,
+          "abstract_excerpt": "Kalp yetmezliği (KY) tek bir patolojik tanı değil, belirtilerin (örn. juguler venöz basınç artışı, pulmoner raller ve periferik ödem)  ve eşlik edebilen ana semptomlardan (örn. nefes darlığı, ayak bileği ödemi ve yorgunluk) oluşan bir klinik sendromdur.  İstirahatte veya egzersiz sırasında yetersiz "
+        },
+        {
+          "tez_no": "282746",
+          "title_tr": "Telemedikal elektrokardiyografi sinyallerin yapay sinir ağları ile değerlendirilmesi",
+          "author": "YASHAR M. JWMAH",
+          "year": 2010,
+          "score": 0.8466,
+          "abstract_excerpt": "Bazı yerlerde sağlık hizmetleri çok kısıtlı ve ya ulaşılamazdır. Bilim ve teknoloji geliştiğinden dolayı sağlık hizmetlerine hızlı ulaşıldı ve hayatımızı daha kolaylaştırdı.Elektrokardiyografi, kalp ritminin elektriksel özelliklerini kayıt etmektedir ve bu alet kalp aritmilerini belirlemede önemli r"
+        },
+        {
+          "tez_no": "876733",
+          "title_tr": "Eko görüntülerinde derin öğrenme tabanlı aort kapak ilgi bölgesi ve kalsifikasyon tespiti",
+          "author": "MERVENUR ÇAKIR",
+          "year": 2024,
+          "score": 0.8463,
+          "abstract_excerpt": "Kalp hastalıklarının otomatik tespiti, kardiyologların ekokardiyografi görüntülerini kullanarak teşhislerinin doğruluğunu artırmak ve teşhis süresini azaltmak için bir araç olarak şu anda yaygın bir ilgi görmektedir.  Aort darlığı kalp hastalıklarının temelini oluşturan ve ilerlediği takdirde bir ço"
+        },
+        {
+          "tez_no": "486706",
+          "title_tr": "Sol ventril hipertrofi hastalığının teşhisi için yeni bir bulanık kural tabanlı sistem",
+          "author": "MOHANAD SAAD ABBAS MAHROUS",
+          "year": 2018,
+          "score": 0.846,
+          "abstract_excerpt": "Elektrokardiyogram (EKG) sinyali, insan kalbinin performansını bir elektrik sinyali olarak yansıtır. Uzun bir süre boyunca EKG kayıtları, kalp hızı değişkenliğinin etkin şekilde ölçümü için kullanıldı. Oluşturulan EKG verilerinin çok büyük olması ve insan gücüyle açıklanması hatalı analiz sonuçların"
+        },
+        {
+          "tez_no": "329054",
+          "title_tr": "Orta dereceli koroner arter lezyonlarının dobutamin stres ekokardiyografide strain değerleri ve stres sonrası kalp tipi yağ asidi bağlayıcı protein seviyeleri ile değerlendirilmesi",
+          "author": "BEKİR ÇALAPKORUR",
+          "year": 2012,
+          "score": 0.8406,
+          "abstract_excerpt": "ÖZETAmaç: İnvazif olmayan testler koroner arter hastalığı tanısında, prognoz tayininde ve revaskülarizasyon öncesi iskemi saptanmasında sıklıkla kullanılmaktadır. Non-invazif testler içerisinde dobutamin stres ekokardiyografi düşük maliyetli, tekrarlanabilir ve iskemi lokalizasyonunu belirlemesi açı"
+        },
+        {
+          "tez_no": "629729",
+          "title_tr": "Makine öğrenmesi yöntemleriyle kalp hastalıklarının teşhis edilmesi",
+          "author": "MERTCAN GÖRGÜN",
+          "year": 2020,
+          "score": 0.8389,
+          "abstract_excerpt": "Kalp hastalıkları, kalbe giden damarlarda tıkanıklık, kalp kapakçığında açıklık ya da kalbin beklenmedik herhangi bir yerinde oluşan bir sorun ile ortaya çıkar. Kalp Hastalığı riskini arttıran iki önemli faktör vardır. Bunlar Genetik Faktörler ve Çevresel Faktörlerdir. Kalp hastalıklarında en yaygın"
+        },
+        {
+          "tez_no": "311511",
+          "title_tr": "Aort ve pulmoner darlığı olan hastalarda darlık derecesinin kardiyak manyetik rezonans ile değerlendirilmesi",
+          "author": "MURAT ATALAY",
+          "year": 2010,
+          "score": 0.8361,
+          "abstract_excerpt": "Kardiyak manyetik rezonans (KMR), son yıllarda yaşanan gelişmelerle kardiyoloji pratiğinde sık olarak kullanılmaya başlanmıştır. Biz de bu çalışmada aort darlığı (AD) ve pulmoner darlığının (PD) saptanması ve ciddiyetinin tespitinde KMR'ın yerini belirlemeyi hedefledik.Çalışmaya AD ve PD olan hastal"
+        },
+        {
+          "tez_no": "242870",
+          "title_tr": "Ekokardiyografik mitral darliğin EKG'deki yansimasi: İnteratrial blok ve P terminal force",
+          "author": "DURSUN ÇAYAN AKKOYUN",
+          "year": 2009,
+          "score": 0.8319,
+          "abstract_excerpt": "Interatrial blok (IAB) sıklıkla gözden kaçan atriyumlar arası bir ileti gecikmesidir. İAB kısaca uzamış P dalgası olarak tanımlanır (?110 ms). Ekokardiyografik olarak mitral darlığın ciddiyetinin yansıması olarak EKG deki IAB ve P terminal force daha önce araştırılmamıştır. Bizim bu çalışmadaki amac"
+        },
+        {
+          "tez_no": "497477",
+          "title_tr": "Oktojenaryen bireylerde üç boyutlu ve iki boyutlu ekokardiyografi ile ölçülen  ef'nin karşılaştırılması",
+          "author": "RAMAZAN GENGÖRÜ",
+          "year": 2017,
+          "score": 0.83,
+          "abstract_excerpt": "Giriş ve Amaç: Üç boyutlu ekokardiyografinin kullanıma girmesi ile geometrik varsayımlara\nihtiyaç duymadan, sol ventrikül sistol volümü (SSV), diyastol sonu volümü (SSV) ve\nejeksiyon fraksiyonu (EF) çok daha güvenilir olarak hesaplanabilmektedir. Toplumda hızla\nartan oktojenaryen bireylerde üç boyut"
+        },
+        {
+          "tez_no": "604424",
+          "title_tr": "Koroner arter hastalığının non-invaziv tanısında eğzersiz stres testi ile smültan dobutamin stres ekokardiyografi ve technetium-99m isonitrilesingle photon emission komputerize tomografinin karşılaştırılması",
+          "author": "HALİL LÜTFİ KISACIK",
+          "year": 1994,
+          "score": 0.8261,
+          "abstract_excerpt": "Koroner arter hastalığının non-invaziv tanısında eğzersiz stres testi ile smültan dobutamin stres ekokardiyografi ve Technetium-99m isonitrilesingle photon emission komputerize tomografinin karşılaştırılması.\nKoroner Arter Hastalığının (KAH) tanısında egzersiz stress testi ile simültan dobutamin str"
+        },
+        {
+          "tez_no": "275109",
+          "title_tr": "Koroner arter hastalığı ve lezyon lokalizasyonu tahminlerinde efor stres testinin yapay zeka yöntemleri ile değerlendirilmesi",
+          "author": "İSMAİL BABAOĞLU",
+          "year": 2010,
+          "score": 0.8229,
+          "abstract_excerpt": "Egzersiz stres testi (EST), koroner arter hastalığının (KAH) tanısında, yaygınlığının değerlendirilmesinde ve prognozunun (hastalığın seyri ve gelişimi hakkında tahmin) tayininde yaygın olarak kullanılan kolay uygulanabilir, ucuz ve invazif (girişimsel) olmayan bir tanı aracıdır. Bu özellikleri nede"
+        },
+        {
+          "tez_no": "298845",
+          "title_tr": "Sol ventrikül volümleri ve ejeksiyon fraksiyonunun QGS, 4D-MSPECT ve ECTb algoritmaları ile değerlendirilmesi",
+          "author": "ASLI YILDIZ",
+          "year": 2011,
+          "score": 0.822,
+          "abstract_excerpt": "Koroner arter hastalığı (KAH), kalbe oksijen ve kan sağlayan koroner arterlerin daralmasıdır. KAH dünya çapında ölümlerin önde gelen nedenidir. Günümüzde birçok hastaya KAH'ın araştırılması amacıyla gated miyokardiyal perfüzyon SPECT (gated SPECT) çalışması yapılmaktadır. Gated SPECT görüntüleme miy"
+        },
+        {
+          "tez_no": "466837",
+          "title_tr": "Akut koroner sendrom hastalarının epikardiyal yağ dokusu kalınlığının syntax skoru ile korelasyonu",
+          "author": "FATİH ÖZTÜRK",
+          "year": 2017,
+          "score": 0.8206,
+          "abstract_excerpt": "Koroner arter hastalığı (KAH), koroner arterlerin genellikle ateroskleroz nedeniyle daralması veya tıkanmasıdır. DSÖ verinelerine göre 2020 yılınd KAH yaşamı kısıtlayan sebepler listesinde ilk sıraya geçeceği belirtilmektedir. Koroner arter hastalıklarını alt başlıklara ayırdığımız zaman Akut Korone"
+        },
+        {
+          "tez_no": "394073",
+          "title_tr": "Koroner ektaziye bağlı iskemilerin değerlendirilmesinde kardiak MR görüntüleme ve strain eko'nun rolü",
+          "author": "HAVVA KALKAN",
+          "year": 2015,
+          "score": 0.8198,
+          "abstract_excerpt": "Amaç: Bu çalışmada koroner arter ektazisine bağlı  iskemi ve infarkt varlığı, sıklığı, yaygınlığı ve bu iskemi/infarktın öngördürücülerinin neler olduğu, bunları öngörmede  MR'da geç kontrastlanma ve strain EKO'nun rolü, aralarındaki ilişkinin araştırılması amaçlanmıştır. \nGereç ve Yöntem: NEÜ Meram"
+        },
+        {
+          "tez_no": "70037",
+          "title_tr": "Koroner arter hastalığı lokalizasyonunun belirlenmesinde color kinesis-dobutamin stres ekokardiyografisi yönteminin yeri",
+          "author": "ZEKİ DOĞAN",
+          "year": 1998,
+          "score": 0.8177,
+          "abstract_excerpt": "Koroner arter hastalığı (KAH), yüksek morbidite ve mortalite nedeni olan, sık rastlanan bir hastalıktır4'5. Tedavi seçimi ve takip açısından KAH'nın erken dönemde tanınması, lokalizasyonunun ve yaygınlığının doğru belirlenmesi amaçlanır.Klinik değerlendirme, istirahat ve egzersiz EKG'leri tamda sını"
+        },
+        {
+          "tez_no": "360218",
+          "title_tr": "Kalp yetersizliği hastalarında kardiyak resenkronizasyon tedavisinin nabız dalga hızı üzerindeki akut dönem etkisi",
+          "author": "ELVİN HÜSREVZADE",
+          "year": 2013,
+          "score": 0.7838,
+          "abstract_excerpt": "Kalp yetersizliği, miyokard performansında bozulma ve nöroendokrin sistem aktivasyonu ile seyreden kompleks bir klinik sendromdur. Önceleri, kardiyak yüklenme veya hasarın kalp yetersizliğinden sorumlu olduğu düşünülürken son yıllarda yapılan çalışmalarda miyosit ve/veya kardiyak interstisiyumu etki"
+        },
+        {
+          "tez_no": "131999",
+          "title_tr": "Sol ventrikul volüm ve fonksiyonlarının değerlendirilmesinde kardiak MRG ve ekokardiografi bulgularının karşılaştırılması /",
+          "author": "MEHMET DURSUN",
+          "year": 2003,
+          "score": 0.8312,
+          "abstract_excerpt": "Kardiak MRG yüksek uzaysal ve temporal çözünürlüğü, multiplanar görüntü elde edebilmesi nedeniyle özellikle ekokardiografinin yetersiz kaldığı obezite, akciğerlerin aşın havalanması, göğüs duvarı deformiteleri gibi durumlarda oldukça değerli anatomik ve fonksiyonel bilgiler vermektedir. Sol ventrikü"
+        },
+        {
+          "tez_no": "243087",
+          "title_tr": "Fonksiyonel kardiyak manyetik rezonans görüntüleme: Ekokardiyografi bulguları ile karşılaştırmalı değerlendirme",
+          "author": "DENİZ TURGUT",
+          "year": 2009,
+          "score": 0.8254,
+          "abstract_excerpt": "GİRİŞ VE AMAÇ: Ekokardiyografi ve kardiyak MRG sonuçlarını karşılaştırarak,kalbin değerlendirilmesinde MRG'nin etkinliğinin belirlenmesi ve ekokardiyografiyealternatif bir yöntem olup olmadığının saptanması amaçlanmıştır.GEREÇ VE YÖNTEM: Ekim 2008 ile Ağustos 2009 tarihleri arasındaekokardiyografi v"
+        }
+      ]
+    },
+    "synthesis": null,
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Ekokardiyografi ve MRG'nin kalp damar hastalıkları teşhisinde karşılaştırmalı duyarlılık (sensitivite) ve özgüllük (spesifite) değerleri",
+        "Farklı kalp damar hastalığı alt türlerine (koroner arter hastalığı, kalp yetmezliği, kapak hastalıkları, miyokardit vb.) göre karşılaştırmalı performans",
+        "Her iki yöntemin maliyet-etkililik ve erişilebilirlik açısından karşılaştırılması",
+        "Hasta alt gruplarında (yaş, cinsiyet, komorbidite) performans farklılıkları",
+        "Görüntüleme yöntemlerinin sınırlılıkları ve kontrendikasyonları (ör. MRG'de klostrofobi, ekoda akustik pencere sorunları)",
+        "Kontrast madde kullanımı ve güvenlik profilleri",
+        "Son teknoloji gelişmeler (stres ekokardiyografi, 3D ekokardiyografi, MRG perfüzyon ve geç gadolinyum tutulumu gibi ileri teknikler)"
+      ],
+      "requery_terms": [
+        "ekokardiyografi MRG karşılaştırma kalp damar hastalıkları tanı performans",
+        "ekokardiyografi manyetik rezonans görüntüleme duyarlılık özgüllük koroner arter hastalığı",
+        "ekokardiyografi MRG maliyet etkililik karşılaştırması",
+        "stres ekokardiyografi kardiyak MRG karşılaştırma",
+        "ekokardiyografi kardiyak MRG hangi hastalıkta üstün"
+      ],
+      "notes": "Henüz bir sentez bulunmadığı için kapsam tamamen boş. Kalp damar hastalıkları teşhisinde ekokardiyografi ve MRG karşılaştırması için tanısal performans (sensitivite/spesifite), hastalık alt türleri, maliyet, erişilebilirlik, güvenlik, hasta alt grupları ve güncel teknik gelişmeler gibi kritik alt boyutların tümü eksik. Bu nedenle kapsamlı bir literatür taraması için somut anahtar kelimeler önerilmiştir."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nKalp damar hastalıkları, dünya genelinde mortalite ve morbiditenin önde gelen nedenleri arasında yer almaktadır [7]. Bu hastalıkların tanı ve tedavisindeki gelişmeler kayda değer bir ilerleme kaydetmiş olup, günümüzde non-invaziv görüntüleme yöntemleri ön plana çıkmaktadır [7]. Ekokardiyografi (EKO) ve kardiyak manyetik rezonans görüntüleme (MRG), kalp damar hastalıklarının değerlendirilmesinde en sık kullanılan iki non-invaziv modalite olarak karşımıza çıkmaktadır. Bu yazıda, her iki yöntemin kalp damar hastalıklarının teşhisindeki karşılaştırmalı performansı, mevcut bulgular ışığında ele alınacaktır.\n\n## Sol Ventrikül Volüm ve Fonksiyonlarının Değerlendirilmesi\n\nSol ventrikül fonksiyonlarının değerlendirilmesinde kullanılan en önemli parametre ejeksiyon fraksiyonudur (EF) [6]. Ekokardiyografi, sol ventrikül fonksiyonlarının değerlendirilmesinde en sık kullanılan görüntüleme yöntemi olmakla birlikte [6], kardiyak MRG'nin yüksek uzaysal ve temporal çözünürlüğü, multiplanar görüntü elde edebilme yeteneği nedeniyle özellikle ekokardiyografinin yetersiz kaldığı obezite, akciğerlerin aşırı havalanması ve göğüs duvarı deformiteleri gibi durumlarda oldukça değerli anatomik ve fonksiyonel bilgiler sunduğu belirtilmektedir [25]. Kardiyak MRG, non-invaziv olması, radyasyon içermemesi ve üç boyutlu görüntüleme kapasitesi ile diğer modalitelerin yetersiz kaldığı durumlarda öne çıkmaktadır [6].\n\nSol ventrikül volüm ve fonksiyonlarının değerlendirilmesinde kardiyak MRG ve ekokardiyografi bulgularının karşılaştırıldığı çalışmalarda, her iki yöntemin sol ventrikül fonksiyonlarını saptamada kullanıldığı, ancak kardiyak MRG'nin bu alanda en doğru bilgiyi veren yöntemler arasında yer aldığı ifade edilmektedir [25]. Ekokardiyografide EF'nin görsel olarak değerlendirilmesi, kantitatif metodlara göre daha kolay olması ve laboratuvar işleyişine hız kazandırması bakımından önemli bir alternatif yöntem olarak değerlendirilmekle birlikte, bu değerlendirmelerin kantitatif yöntemlerle uyumunun gösterilmesi gerektiği vurgulanmaktadır [4].\n\n## Kalp Kapak Hastalıklarının Değerlendirilmesi\n\nKalp kapak hastalıklarının tanı ve ciddiyetinin belirlenmesinde her iki yöntem de kullanılmaktadır. Kardiyak MRG'nin aort darlığı ve pulmoner darlığının saptanması ve ciddiyetinin tespitinde önemli bir yeri olduğu belirtilmektedir [15]. Ekokardiyografi ise kalp kapak hastalıklarının değerlendirilmesinde yaygın olarak kullanılan bir yöntem olup, NT-proBNP gibi biyokimyasal belirteçlerle birlikte kapak hastalığının ciddiyetinin korelasyonunun araştırıldığı çalışmalarda temel görüntüleme aracı olarak yer almaktadır [3].\n\n## Koroner Arter Hastalığı ve Miyokard İskemisinin Değerlendirilmesi\n\nKoroner arter hastalığının (KAH) non-invaziv tanısında dobutamin stres ekokardiyografi, düşük maliyetli, tekrarlanabilir ve iskemi lokalizasyonunu belirlemesi açısından öne çıkmaktadır [13]. Ancak dobutamin stres ekokardiyografinin görsel değerlendirmesinin subjektif ve deneyim bağımlı olduğu, ayrıca tek ve orta dereceli koroner arter lezyonlarında duyarlılığının sınırlı olabileceği ifade edilmektedir [13]. Koroner arter ektazisine bağlı iskemi ve infarkt varlığının değerlendirilmesinde, MR'da geç kontrastlanma ve strain EKO'nun rolü araştırılmış olup, her iki yöntemin bu alandaki katkıları incelenmiştir [22].\n\n## Kalp Yetersizliği Tanısında Karşılaştırmalı Performans\n\nKalp yetersizliği (KY) tanısında sol ventriküler ejeksiyon fraksiyonuna (SVEF) göre sınıflandırma yapılmaktadır. Düşük ejeksiyon fraksiyonlu KY (DEF-KY, SVEF ≤ %40) tanısı daha kolay iken, korunmuş ejeksiyon fraksiyonlu KY (KEF-KY, SVEF ≥ %50) tanısı uzmanlar için bile daha karmaşık ve zordur; zira SVEF normal görünmektedir [1]. Bu bağlamda, ekokardiyografi ile EF ölçümünde üç boyutlu (3D) ekokardiyografinin, geometrik varsayımlara ihtiyaç duymadan sol ventrikül volümleri ve EF'yi daha güvenilir olarak hesaplayabildiği belirtilmektedir [17]. Kardiyak MRG ise yüksek çözünürlüğü sayesinde bu tür karmaşık vakalarda daha doğru değerlendirme imkânı sunabilmektedir.\n\n## Yöntemlerin Sınırlılıkları ve Avantajları\n\nEkokardiyografi, yaygın bulunabilirliği, düşük maliyeti, tekrarlanabilirliği ve gerçek zamanlı görüntüleme kapasitesi ile klinik pratikte ilk basamak görüntüleme yöntemi olarak kabul edilmektedir [6]. Bununla birlikte, ekokardiyografi obezite, akciğer hastalıkları ve göğüs duvarı deformiteleri gibi durumlarda yetersiz kalabilmektedir [25]. Kardiyak MRG ise bu tür durumlarda üstün görüntü kalitesi sunmakla birlikte, daha yüksek maliyet, daha uzun inceleme süresi ve belirli kontrendikasyonlar (örneğin, klostrofobi, bazı metal implantlar) nedeniyle sınırlı kullanıma sahiptir.\n\n## Sonuç\n\nEkokardiyografi ve kardiyak MRG, kalp damar hastalıklarının tanısında birbirini tamamlayıcı nitelikte iki önemli non-invaziv görüntüleme yöntemidir. Ekokardiyografi, yaygın bulunabilirliği, düşük maliyeti ve pratik kullanımı ile ilk basamak değerlendirme aracı olarak öne çıkarken; kardiyak MRG, yüksek uzaysal ve temporal çözünürlüğü, üç boyutlu görüntüleme kapasitesi ve ekokardiyografinin yetersiz kaldığı durumlarda sağladığı üstün anatomik ve fonksiyonel bilgilerle alternatif bir yöntem olarak değer kazanmaktadır. Her iki yöntemin birlikte kullanımı, kalp damar hastalıklarının daha doğru ve kapsamlı bir şekilde değerlendirilmesine olanak tanımaktadır.",
+      "n_citations": 26,
+      "citations_ieee": [
+        "[1] PINAR ÖZEN, \"Ejeksiyon fraksiyonu düşük ve korunmuş kalp yetersizliği vakaları için tek sinyal kullanarak makine öğrenmesi tabanlı yeni bir tanı algoritması,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı / Elektronik Mühendisliği Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kIrIdtdJ31bRgjb6fHvMUdfD2JH6213rfm3yEdsZWGeUEAYkdHtWphUN6vWvGUVQ",
+        "[2] SAMET VERİM, \"Kardiyak MRG,\" Yüksek Lisans/Doktora tezi, GATA / Tıp Fakültesi / Radyodiagnostik Ana Bilim Dalı, 2002. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sY7m19PfcL6F1NUw-cr80CpN58Lelx5Rtn4xwBAPcayyDFZP-6bbTW2pjoD_MmcD",
+        "[3] FERHAT ÖZYURTLU, \"Kalp kapak hastalığı ile NT-proBNP ilişkisi,\" Yüksek Lisans/Doktora tezi, Celal Bayar Üniversitesi / Tıp Fakültesi / Kardiyoloji Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ePX_SaJ0b35Gq45swKG3lPG06ZjU39-0lfoiQUXwx-hzqVWr55uJffkPPvtsIa5Q",
+        "[4] KERİM ESENBOĞA, \"Ekokardiyografide görsel olarak değerlendirilen ejeksiyon fraksiyonunun diğer kantitatif yöntemlerle karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Tıp Fakültesi / Kardiyoloji Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sY7m19PfcL6F1NUw-cr80HBSPjHoHeoZzvA9ls61ggmugTk1GuA_yeePHjLbF_eN",
+        "[5] OZAN ALTINTAS, \"Sol ventrikül sistolik fonksiyonunun anterior mitral annulus hareketi aracılığıyla tahmini,\" Yüksek Lisans/Doktora tezi, İzmir Katip Çelebi Üniversitesi / İzmir Atatürk Eğitim ve Araştırma Hastanesi / Acil Tıp Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxJ1EZ8dmg4lZZrQ-K4v-fquHHIn2y8xY__w6RIIIw1Wj",
+        "[6] BAHAR YILMAZ ÇANKAYA, \"Sol ventrikül volüm ve fonksiyonlarının değerlendirilmesinde kardiyak MRG ve ekokardiyografi bulgularının karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Tıp Fakültesi / Radyoloji Ana Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RYan9_S-Z7Eir3xdWGXBiPRzWSX53RLD8hxpcecUQ3NXdNSGE0Yxsp0tliP2P1LW",
+        "[7] SERDAR SERİNSÖZ, \"Doğumsal ve edinsel kalp hastalıklarında kardiyak manyetik rezonans görüntüleme /,\" Yüksek Lisans/Doktora tezi, Sağlık Bakanlığı / İstanbul Bakırköy Dr. Sadi Konuk Eğitim ve Araştırma Hastanesi / Radyoloji Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=5XiSE4yCP_gmnukpMEp65Q3hfW_qyW_THgR-EDUaHyPWfH9H-iKKMOILpQ2slobw",
+        "[8] NURAY MISIRLI, \"Durağan dalgacık dönüşümü ile EKG işaretinde gürültü giderimi ve QRS kompleksinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Erciyes Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZbv7DWRKXdZOxLR3RdjbIZIs4TyhXfAEe29eykFTh1KPw",
+        "[9] ONUR CAN POLAT, \"Kalp yetmezliğinde perirenal yağ doku kalınlığı ile klinik, ekokardiyografik, biyokimyasal parametrelerin ilişkisi,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Tıp Fakültesi / Kardiyoloji Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQtXhyVTeXEypo9wirssrD-q8VbenqixFcVrTS_OjD1Rl",
+        "[10] YASHAR M. JWMAH, \"Telemedikal elektrokardiyografi sinyallerin yapay sinir ağları ile değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Fen Bilimleri Enstitüsü / Biyomedikal Mühendisliği Ana Bilim Dalı / Biyomedikal Mühendisliği Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zD1B0cW7zVr3VcnZjitVXnksk5mLofOA14VQufvzOLf2DN4fM3KZfiJIQDML4Xfp",
+        "[11] MERVENUR ÇAKIR, \"Eko görüntülerinde derin öğrenme tabanlı aort kapak ilgi bölgesi ve kalsifikasyon tespiti,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1pwTzRXnomYf6jwqVORfUXTi9_L37bXA4tGp-76qGit4dnE59aaDtusXQvhcOfRT",
+        "[12] MOHANAD SAAD ABBAS MAHROUS, \"Sol ventril hipertrofi hastalığının teşhisi için yeni bir bulanık kural tabanlı sistem,\" Yüksek Lisans/Doktora tezi, Türk Hava Kurumu Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik ve Bilgisayar Mühendisliği Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RrI-Krk3A-RkF4YfHofukwN6SsAIyQY63TiF46MziyYSRkiM6k94XS6LomwS0-Xp",
+        "[13] BEKİR ÇALAPKORUR, \"Orta dereceli koroner arter lezyonlarının dobutamin stres ekokardiyografide strain değerleri ve stres sonrası kalp tipi yağ asidi bağlayıcı protein seviyeleri ile değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Erciyes Üniversitesi / Tıp Fakültesi / Kardiyoloji Ana Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=rcbWnuqW6HxCZ_98ARapglT4p6y1VkrOJgEPcBdWDA4BrWy4g31GoQMW8OqEIA3e",
+        "[14] MERTCAN GÖRGÜN, \"Makine öğrenmesi yöntemleriyle kalp hastalıklarının teşhis edilmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Aydın Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı / Bilgisayar Mühendisliği Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGR_haqNflUWZPTSCL8coE_uumn019dHWMFGpKw320gqZ",
+        "[15] MURAT ATALAY, \"Aort ve pulmoner darlığı olan hastalarda darlık derecesinin kardiyak manyetik rezonans ile değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, GATA / Haydarpaşa Eğitim Hastanesi  / Kardiyoloji Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RYan9_S-Z7Eir3xdWGXBiGhpDaBPkw3GKT_Qne2xDBQz4odCXrSrGkfXSTj8lHkU",
+        "[16] DURSUN ÇAYAN AKKOYUN, \"Ekokardiyografik mitral darliğin EKG'deki yansimasi: İnteratrial blok ve P terminal force,\" Yüksek Lisans/Doktora tezi, Gaziantep Üniversitesi / Tıp Fakültesi / Kardiyoloji Ana Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAdahWFv9KNXS8l4wRh9arL38Qf5W7_fWXsDvGXIIfOTz",
+        "[17] RAMAZAN GENGÖRÜ, \"Oktojenaryen bireylerde üç boyutlu ve iki boyutlu ekokardiyografi ile ölçülen  ef'nin karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Recep Tayyip Erdoğan Üniversitesi / Tıp Fakültesi / Kardiyoloji Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vbVkXe1KChYWNElr1MuLZoUDDbs3w1_Yk0EqKRSc9N2Bwm6Cu_NafwS4WK3Ze8Vt",
+        "[18] HALİL LÜTFİ KISACIK, \"Koroner arter hastalığının non-invaziv tanısında eğzersiz stres testi ile smültan dobutamin stres ekokardiyografi ve technetium-99m isonitrilesingle photon emission komputerize tomografinin karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Sağlık Bakanlığı / Tıp Fakültesi / Kardiyoloji Ana Bilim Dalı, 1994. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBroSZE1fM-VjAV7Hjd_7XrZHC6DhbkI8z74eo_H92Kzo",
+        "[19] İSMAİL BABAOĞLU, \"Koroner arter hastalığı ve lezyon lokalizasyonu tahminlerinde efor stres testinin yapay zeka yöntemleri ile değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=veR1mHu9yoWjwcVUjCEoPAS92UVrJ4SPJ-N05XZFbWb8cHtu3o7vrjRH9sW_vGz4",
+        "[20] ASLI YILDIZ, \"Sol ventrikül volümleri ve ejeksiyon fraksiyonunun QGS, 4D-MSPECT ve ECTb algoritmaları ile değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Tıp Fakültesi / Nükleer Tıp Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGqPpA7eNwHm6tkGDT62_dnVSPSoUYHtml5xt-sg7RO5_",
+        "[21] FATİH ÖZTÜRK, \"Akut koroner sendrom hastalarının epikardiyal yağ dokusu kalınlığının syntax skoru ile korelasyonu,\" Yüksek Lisans/Doktora tezi, Yüzüncü Yıl Üniversitesi / Tıp Fakültesi / Kardiyoloji Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpcBOcNyFyYgc_a0PsKoBkN7fE8QGun4HtTwwqkvxfE3W",
+        "[22] HAVVA KALKAN, \"Koroner ektaziye bağlı iskemilerin değerlendirilmesinde kardiak MR görüntüleme ve strain eko'nun rolü,\" Yüksek Lisans/Doktora tezi, Necmettin Erbakan Üniversitesi / Meram Tıp Fakültesi / Radyoloji Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WBc656i315e2eV6-EZV1ouDK_dAIET08unTPc2JsolBmmLXQLmAep02N3ccM4P73",
+        "[23] ZEKİ DOĞAN, \"Koroner arter hastalığı lokalizasyonunun belirlenmesinde color kinesis-dobutamin stres ekokardiyografisi yönteminin yeri,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Cerrahpaşa Tıp Fakültesi / Kardiyoloji Ana Bilim Dalı, 1998. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5SgvlggzcrMkDBxTOYM7N1kcTgnVhqswhElvaQNwOE6WnvaFwk",
+        "[24] ELVİN HÜSREVZADE, \"Kalp yetersizliği hastalarında kardiyak resenkronizasyon tedavisinin nabız dalga hızı üzerindeki akut dönem etkisi,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Tıp Fakültesi / Kardiyoloji Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=gyLHMouPes-CvnhRcjQsKSSiSNvW55K3Zbs7YlQaRdK0S3w44gbctJbknIt7VZ5s",
+        "[25] MEHMET DURSUN, \"Sol ventrikul volüm ve fonksiyonlarının değerlendirilmesinde kardiak MRG ve ekokardiografi bulgularının karşılaştırılması /,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Tıp Fakültesi / Radyodiagnostik Ana Bilim Dalı, 2003. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=p911s0iMPy2wtZbYYckXOdGXLyj4NsE-6KjkHS9qkAFbNUCsT3gBdON5ZdX_DYqq",
+        "[26] DENİZ TURGUT, \"Fonksiyonel kardiyak manyetik rezonans görüntüleme: Ekokardiyografi bulguları ile karşılaştırmalı değerlendirme,\" Yüksek Lisans/Doktora tezi, Dokuz Eylül Üniversitesi / Tıp Fakültesi / Radyoloji Ana Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAQHbTE_dLLV39FSfjs6ytABXvl8KaY0VGf9FOrsOCSWR"
+      ]
+    }
+  },
+  "error": null
+}

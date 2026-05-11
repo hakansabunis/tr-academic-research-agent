@@ -1,0 +1,12 @@
+{
+  "id": "q03",
+  "question": "Derin öğrenme yöntemleri Türkiye'deki sel ve taşkın tahmininde nasıl uygulanmıştır?",
+  "category": "computer_science",
+  "judgment": {
+    "citation_accuracy": 0.3,
+    "faithfulness": 0.4,
+    "coverage": 0.2,
+    "holistic_score": 2,
+    "rationale": "Yanıt, soruyu doğrudan cevaplamak yerine genel taşkın çalışmalarını özetlemiş; derin öğrenme yöntemlerinin sel/taşkın tahmininde uygulanmasına dair neredeyse hiç somut bilgi sunmamıştır. Atıfların çoğu (örn. [14], [15], [18]-[21]) sel/taşkınla ilgisiz tezlere yapılmış, ilgili kaynaklar ise derin öğrenme değil geleneksel yöntemler içermektedir. Alt soruların hiçbiri (modeller, veri kaynakları, performans karşılaştırması, sınırlılıklar, bölgesel farklılıklar, erken uyarı entegrasyonu) yeterince ele alınmamıştır."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "q27",
+  "question": "Yüksek yoğunluklu interval antrenmanın elit sporcuların performansına etkisi nasıl ölçülmüştür?",
+  "category": "sports",
+  "judgment": {
+    "citation_accuracy": 0.6,
+    "faithfulness": 0.65,
+    "coverage": 0.5,
+    "holistic_score": 3,
+    "rationale": "Yanıt, HIIT ölçüm yöntemlerini sistematik olarak sınıflandırmış ve akıcı bir Türkçe ile sunmuştur. Ancak atıfların önemli bir kısmı (örn. [1], [5], [6], [8], [10]-[16], [19], [23]-[27]) ya HIIT ile doğrudan ilgisizdir ya da yanıtta kullanılmamıştır; bu da citation_accuracy ve faithfulness puanlarını düşürmüştür. Ayrıca alt sorulardan kontrol koşulları/deneysel desenler ve sınırlılıklar/genellenebilirlik soruları yanıtta hiç ele alınmamıştır (coverage eksikliği)."
+  }
+}

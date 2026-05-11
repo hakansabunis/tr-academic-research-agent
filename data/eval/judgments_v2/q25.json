@@ -1,0 +1,12 @@
+{
+  "id": "q25",
+  "question": "Mikroplastiklerin sucul ekosistemlerdeki canlılar üzerindeki ekotoksikolojik etkileri nasıl araştırılmıştır?",
+  "category": "biology",
+  "judgment": {
+    "citation_accuracy": 0.4,
+    "faithfulness": 0.5,
+    "coverage": 0.3,
+    "holistic_score": 2,
+    "rationale": "Yanıt, alt soruların çoğunu (deneysel yöntemler, boyut/şekil/polimer karşılaştırmaları, kombine etkiler, sınırlılıklar) ya hiç ele almamış ya da çok yüzeysel geçmiştir. Atıfların önemli bir kısmı (ör. [6], [13], [20]-[24]) konuyla ilgisiz tezlere yapılmıştır. Kaynaklarda olmayan detaylar (ör. 8-OHdG, AOPP, GSH gibi spesifik biyobelirteçler) [17] numaralı tezde mevcut olsa da genel olarak yanıt, getirilen kaynakların içeriğine sadık kalmamış ve birçok iddia kaynaklarla doğrulanamamaktadır."
+  }
+}

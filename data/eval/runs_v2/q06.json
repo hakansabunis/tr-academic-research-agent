@@ -1,0 +1,429 @@
+{
+  "id": "q06",
+  "category": "education",
+  "type": "method",
+  "question": "Uzaktan eğitimde öğrenci motivasyonunu artıran pedagojik stratejiler nelerdir?",
+  "expected_subjects": [
+    "Eğitim ve Öğretim"
+  ],
+  "min_citations": 5,
+  "result": {
+    "latency_seconds": 114.66,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Uzaktan eğitimde öğrenci motivasyonunu artırmak için kullanılan oyunlaştırma (gamification) stratejileri Türkiye'deki YÖK tezlerinde nasıl ele alınmıştır?",
+          "rationale": "Oyunlaştırma, motivasyon artırıcı popüler bir pedagojik stratejidir; bu alt soru, ilgili tezlerdeki bulguları ve uygulama biçimlerini ortaya çıkarır."
+        },
+        {
+          "text": "YÖK tezlerinde uzaktan eğitimde öğrenci motivasyonu için kullanılan etkileşimli öğretim yöntemleri (tartışma forumları, canlı dersler, işbirlikli öğrenme vb.) hangileridir ve etkililik düzeyleri nedir?",
+          "rationale": "Etkileşim, motivasyonun temel bileşenlerindendir; bu soru farklı etkileşim türlerinin karşılaştırmalı etkisini sorgular."
+        },
+        {
+          "text": "Uzaktan eğitimde öğrenci motivasyonunu artırmaya yönelik öz-düzenleme ve öz-yeterlik stratejileri üzerine YÖK tezlerinde hangi bulgular raporlanmıştır?",
+          "rationale": "Öz-düzenleme ve öz-yeterlik, motivasyonun bireysel psikolojik boyutunu temsil eder; bu alt soru farklı bir kavramsal açı (bilişsel/duyuşsal) getirir."
+        },
+        {
+          "text": "YÖK tezlerinde uzaktan eğitimde motivasyonu artıran pedagojik stratejilerin uygulanmasında karşılaşılan sınırlılıklar ve zorluklar nelerdir?",
+          "rationale": "Stratejilerin etkililiği kadar uygulama engelleri de önemlidir; bu soru tezlerde raporlanan sınırlılıkları ve pratik zorlukları ortaya koyar."
+        },
+        {
+          "text": "Türkiye'deki YÖK tezlerinde uzaktan eğitimde motivasyon stratejileri farklı öğrenim düzeylerine (lisans, yüksek lisans, doktora) veya disiplinlere göre nasıl farklılaşmaktadır?",
+          "rationale": "Stratejilerin bağlama göre değişip değişmediğini anlamak, daha hedefli öneriler geliştirmek için kritiktir; bu soru karşılaştırmalı bir analiz sunar."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 33,
+      "max_score": 0.8846,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "672792",
+          "title_tr": "Uzaktan eğitimin öğrencilerin Türkçe derslerine yönelik akademik motivasyonlarına yansımaları",
+          "author": "BELKIS ORHAN",
+          "year": 2020,
+          "score": 0.8846,
+          "abstract_excerpt": "Toplumların günlük yaşam gerekliliklerinin öğrenilmesi, kültürel birikimlerin aktarımı ve çağın gerekliliklerini yerine getirebilme gibi sebeplerle gerçekleştirilen eğitim aktiviteleri yüzyıllar boyunca farklı model, yöntem ve tekniklerle sürdürülmektedir. Temelde bu aktivitelerden en yüksek düzeyde"
+        },
+        {
+          "tez_no": "228626",
+          "title_tr": "Uzaktan eğitim öğrencilerinin akademik güdülenme düzeyleri (SAÜ örneği)",
+          "author": "ZELİHA DEMİR",
+          "year": 2008,
+          "score": 0.8649,
+          "abstract_excerpt": "Bilim ve teknolojideki gelişmeler, eğitim sistemlerinin ve toplumların yapısını değiştirmektedir. Sanayi ve bilgi toplumları bu gelişmelerin birer ürünüdür. Bunun yanında özellikle teknolojideki gelişmeler eğitim yaklaşımlarına ve uygulamalarına farklı boyutlar kazandırmıştır. Uzaktan eğitim de tekn"
+        },
+        {
+          "tez_no": "640529",
+          "title_tr": "İlköğretim kademesindeki öğretmenlerin öğretme motivasyonları ile uzaktan eğitime yönelik tutumlarının incelenmesi",
+          "author": "GÜLSÜM KÜTÜKCÜ",
+          "year": 2020,
+          "score": 0.8569,
+          "abstract_excerpt": "Eğitim, toplumda istenen özellikte bireylerin yetişmesi için gerekli olan en önemli araçlardan biri olarak görülmektedir. Günümüzde yaşanan teknolojik gelişmeler ve değişimler, eğitime atfedilen anlamı da çeşitlendirmekte ve çağın getirdiği yenilikler, eğitime olan ihtiyacı arttırmaktadır. Uzaktan e"
+        },
+        {
+          "tez_no": "241846",
+          "title_tr": "Uzaktan eğitim",
+          "author": "AYŞE ÇİĞDEM YENAL",
+          "year": 2009,
+          "score": 0.8566,
+          "abstract_excerpt": "Günümüzde örgün eğitimin dışında gerek örgün eğitimi destekleyici gerekse örgüneğitime alternatif olarak uzaktan eğitim önemini gittikçe arttırmaktadır. Küreselleşme ilebirlikte bilginin dolaşımı da artmış , bilgiden en fazla yararlanma ve bu bilgiyi almateknolojileri de geliştirilmiştir. Gelişen bu"
+        },
+        {
+          "tez_no": "749718",
+          "title_tr": "Öğrenme analitiklerine dayalı gösterge paneli müdahalesinin öğrenci etkileşimi ve akademik başarısına etkisi",
+          "author": "DİLARA BAĞCI",
+          "year": 2022,
+          "score": 0.8506,
+          "abstract_excerpt": "Gelişen teknoloji, evrensel eğitim uygulamaları ve pandemi süreciyle birlikte eğitimde uzaktan eğitim uygulamalarının yaygınlaştığı bilinmektedir. Uzaktan eğitim ortamlarında, geleneksel eğitim ortamlarından farklı olarak öğrenci-eğitimci etkileşimi, öğrenci-öğrenci etkileşimi veya öğrenci-içerik et"
+        },
+        {
+          "tez_no": "862639",
+          "title_tr": "Uzaktan eğitimde öğrencilerin duygularını yapay zekâ ile tespit ederek dönüt sağlayan ortamın tasarımı ve değerlendirilmesi",
+          "author": "AHMET DOĞUKAN SARIYALÇINKAYA",
+          "year": 2024,
+          "score": 0.8479,
+          "abstract_excerpt": "Uzaktan eğitim Covid-19 pandemisinin de etkisiyle oldukça hızlı bir ivme kazanmış ve yaygınlaşmıştır. Canlı ders yazılımlarının sunmuş olduğu birçok özellik ortak olmakla birlikte öncelikle bilişsel olarak dersin yapılması amaçlandığından duyuşsal öğelerin yeterince kazandırılamadığı görülmektedir. "
+        },
+        {
+          "tez_no": "432497",
+          "title_tr": "Uzaktan eğitimde motivasyon stratejilerinin öğrenenlerin ilgileri, motivasyonları, eylem yeterlikleri ve başarıları üzerine etkisi",
+          "author": "HASAN UÇAR",
+          "year": 2016,
+          "score": 0.8397,
+          "abstract_excerpt": "Bu araştırmanın amacı, uzaktan eğitimde Keller'in ARCS-V motivasyon tasarımı modeline dayanarak kullanılan motivasyon stratejilerinin; öğrenenlerin derse karşı ilgilerine, motivasyonlarına, eylem yeterliklerine ve akademik başarılarına etkisini araştırmaktır. Araştırmanın katılımcıları, bir öğretim "
+        },
+        {
+          "tez_no": "388239",
+          "title_tr": "Yükseköğretimde her yerde öğrenmenin uygulanması: İnsan bilgisayar etkileşimi dersi örneği",
+          "author": "FATİH ERDOĞDU",
+          "year": 2015,
+          "score": 0.8387,
+          "abstract_excerpt": "Bu araştırmada, her yerde öğrenmenin üniversite düzeyinde bir uygulamasını yaparak sonuçları ders başarısı, derse yönelik motivasyon, kullanışlılık ve öğrenci görüşleri açısından değerlendirilmiştir. Araştırma karma yöntem kullanılarak yapılmıştır. Araştırmada amaçlı örnekleme yöntemlerinden ölçüte "
+        },
+        {
+          "tez_no": "770467",
+          "title_tr": "Uzaktan eğitimde akademisyenlerde mesleki motivasyonun belirleyicileri ve bir ölçek geliştirme çalışması",
+          "author": "DUYGU BURCU GÖNÜLAÇAR GÜVENDİ",
+          "year": 2022,
+          "score": 0.8381,
+          "abstract_excerpt": "Çalışmanın amacı, akademisyenlerin uzaktan eğitimde mesleki motivasyonunu ölçmek için geçerli ve güvenilir bir ölçme aracı geliştirmek ve uzaktan eğitimde mesleki motivasyonunun işe tutulma üzerine etkisini araştırmak ve akademisyenlerin uzaktan eğitimde mesleki motivasyonu ile uzaktan eğitimde kuru"
+        },
+        {
+          "tez_no": "710952",
+          "title_tr": "Uzaktan eğitimle ilgili yapılmış lisansüstü tez çalışmalarının incelenmesi: 2000-2021",
+          "author": "ARZU EKİN",
+          "year": 2022,
+          "score": 0.8377,
+          "abstract_excerpt": "Geleneksel bir eğitim sistemine sahip olan günümüz eğitim ve öğretim sistemi teknolojinin hızla gelişmesi nedeniyle, yeni bir yöntem olan uzaktan eğitim sistemini de uygulamaya geçirmiş ve böylece eğitim sistemine yeni bir bakış eklemiştir. Bu kapsamda uzaktan eğitim sistemi; eğitim kurumlarında tek"
+        },
+        {
+          "tez_no": "380243",
+          "title_tr": "Uzaktan eğitimde öğretimi ayrıntılama kuramına göre yapılan programlama öğretiminin değerlendirilmesi",
+          "author": "MÜCAHİT ÖZTÜRK",
+          "year": 2014,
+          "score": 0.8371,
+          "abstract_excerpt": "Bilgi çağına geçişle birlikte, bireylerin eğitim ihtiyacının artmasının yanında sosyal ve ekonomik sebeplerle geleneksel eğitimden yararlanamayan bireyler için alternatif olabilecek bir eğitim sistemi; Uzaktan Eğitim ortaya çıkmıştır. Son yıllarda gerek dünyada gerekse ülkemizde Uzaktan Eğitim, özel"
+        },
+        {
+          "tez_no": "145054",
+          "title_tr": "Pedagojik motivasyon: Eğitici-öğrenci iletişimi /",
+          "author": "ELİF YEŞİLYAPRAK",
+          "year": 2004,
+          "score": 0.8331,
+          "abstract_excerpt": "ÖZET Motivasyon bireyleri, özel bir tavırla hareket etmeye, davranmaya teşvik eden, kendilerinden veya çevrelerinden kaynaklanan çeşitli güdü ve güdüler topluluğudur. Öğrenci motivasyonu ise, anlamak, sindirmek ve bilgiye başvurmak amacıyla öğrenilecek konu hakkında yükseltilmiş bir dikkat durumudur"
+        },
+        {
+          "tez_no": "730859",
+          "title_tr": "Çevrimiçi canlı derslerde öğrenci ve öğretmen arasındaki diyaloğun transaksiyonel uzaklık kuramı bağlamında incelenmesi",
+          "author": "MUSTAFA GÜVEN",
+          "year": 2022,
+          "score": 0.8305,
+          "abstract_excerpt": "Yapılan bu araştırmanın amacı, Covid-19 uzaktan eğitim dönemi göz önünde bulundurularak ortaokul öğrencilerinin yeni tanıştıkları çevrimiçi canlı derslerde, etkileşimsel uzaklık kuramı bağlamında öğrenci-öğretmen etkileşiminin incelenmesidir. Durum çalışması yöntemi ile oluşturulan araştırmanın katı"
+        },
+        {
+          "tez_no": "317492",
+          "title_tr": "Kurumlarda istihdam edilen kişilerin uzaktan eğitimden tatmin olma derecelerinin belirlenmesi",
+          "author": "EMRE GÜLEÇOĞLU",
+          "year": 2012,
+          "score": 0.8299,
+          "abstract_excerpt": "Bilgi toplumuna geçiş süreci ile birlikte bilginin taşıdığı anlam ve önem değişmeye başlamıştır. İnsanın bilgi ve toplumla olan ilişkisindeki değişimi, onun niteliklerinin de değişmesine neden olmaktadır. Bilgili olmak, hızla değişen teknolojiyi bu yönde kullanmak, hem işletmelerin hem de bireylerin"
+        },
+        {
+          "tez_no": "204322",
+          "title_tr": "Yatılı okullarda öğrenim gören öğrencilerin motivasyonları üzerine bir çalışma",
+          "author": "BAHADIR AYTAÇ",
+          "year": 2006,
+          "score": 0.8288,
+          "abstract_excerpt": "T.C.KOCAEL ÜN VERS TESSOSYAL B L MLER ENST TÜSÜŞLETME ANAB L M DALIYATILI OKULLARDA ÖĞREN M GÖREN ÖĞRENC LER NMOT VASYONLARI ÜZER NE B R ARAŞTIRMAÖZETMotivasyon modern iş yaşamında son derece önemli kararlardanbirisidir. Motivasyonun kavramsal ve kuramsal temellerine geçmeden önce?insanlar neden çal"
+        },
+        {
+          "tez_no": "558949",
+          "title_tr": "Eğitimde oyunlaştırma üzerine yapılan araştırmalara ilişkin bir meta analiz çalışması",
+          "author": "ŞEYDA ÖZCAN",
+          "year": 2019,
+          "score": 0.8221,
+          "abstract_excerpt": "Oyunlaştırma, oyun dışı ortamlara oyun elemanlarını ekleyerek ortamı oyuna dönüştürmektir. Bu araştırmada eğitimde oyunlaştırmanın öğrencilerin akademik başarısı, performansı, tutumu, katılımı ve motivasyonu üzerindeki etkisini belirlemek için bu beş tema ile ilgili bir meta analiz çalışma yapılmışt"
+        },
+        {
+          "tez_no": "632014",
+          "title_tr": "Uzaktan eğitimde oyunlaştırma uygulamalarının üniversite öğrencilerinin İngilizce derslerindeki akademik başarı ve motivasyonlarına etkisi",
+          "author": "AYŞENUR AĞAOĞLU",
+          "year": 2020,
+          "score": 0.822,
+          "abstract_excerpt": "Bu çalışmanın amacı, uzaktan İngilizce derslerinde kullanılan oyunlaştırma uygulamalarının öğrencilerin akademik başarı ve motivasyonları üzerine etkisinin incelenmesidir. Araştırma iç içe geçmiş karma araştırma desenine göre tasarlanmıştır. Bu amaçla sontest kontrol gruplu deneysel desene uygun ola"
+        },
+        {
+          "tez_no": "822950",
+          "title_tr": "Senkron uzaktan matematik eğitimine yönelik motivasyon ve öz-düzenleme düzeyleri: Bir ölçek geliştirme çalışması",
+          "author": "ELİF ŞEYMA TÜTÜNCÜ",
+          "year": 2023,
+          "score": 0.8161,
+          "abstract_excerpt": "Bu çalışmanın amacı, ortaokul öğrencilerinin çevrimiçi uzaktan matematik derslerine yönelik motivasyon ve öz-düzenleme becerilerini ölçebilecek geçerli ve güvenilir bir ölçek geliştirmektir. Çalışmada nicel araştırma deseni kullanılmıştır.  Ölçek geliştirme süreci altı adımda gerçekleştirilmiştir. İ"
+        },
+        {
+          "tez_no": "570997",
+          "title_tr": "Şirket içi uzaktan eğitimde oyunlaştırma: Quizgame örneği",
+          "author": "ŞEYDA BURCU SOYLU",
+          "year": 2019,
+          "score": 0.8158,
+          "abstract_excerpt": "Bu çalışmanın amacı; şirket içi uzaktan eğitimde oyunlaştırma uygulaması kullanılan bir kurumda çalışanların, görev türü ve şirket içi performans puanlarına göre uygulamaya katılım tercihlerinin ele alınması ve şirket içerisinde oyunlaştırma uygulaması kullanılmasına yönelik görüşlerinin incelenmesi"
+        },
+        {
+          "tez_no": "659972",
+          "title_tr": "Öğretmen adaylarının uzaktan eğitim tercihlerini etkileyen faktörlerin belirlenmesi",
+          "author": "YUSUF DİNÇ",
+          "year": 2020,
+          "score": 0.8149,
+          "abstract_excerpt": "Eğitim kavramı, insanla birlikte hayata başlayan, hem insanın hayatını anlamlı kılan hem de insanın kendisini geliştirmesini sağlayan özel bir kavramdır. Eğitim ve teknolojinin birleşmesinden meydana gelen bir kavram olan uzaktan eğitim ise genel olarak öğretici ve öğrenenin aynı anda aynı yerde bul"
+        },
+        {
+          "tez_no": "700095",
+          "title_tr": "Turizm öğrencilerinin uzaktan eğitim ve oyunlaştırmaya yönelik tutum ve motivasyonu",
+          "author": "ENİSE ÖZMEN",
+          "year": 2021,
+          "score": 0.8139,
+          "abstract_excerpt": "İlerleyen teknoloji ile artık eğitimin yüz yüze işlenmesi bir zorunluluk olmaktan çıkmış, internet aracılığıyla dersler sanal sınıflarda işlenmeye başlamıştır. Mobil cihazların, internetin, genişbant bağlantısının hızlı bir şekilde artması dünya genelindeki yükseköğretim turizm programlarında da büy"
+        },
+        {
+          "tez_no": "467760",
+          "title_tr": "Oyunlaştırma ilkeleri temelinde bir çevrimiçi oyunlaştırma platformunun sınıf içi uygulamalara yönelik olarak geliştirilmesi",
+          "author": "BAYRAM KOCAAĞA",
+          "year": 2017,
+          "score": 0.8137,
+          "abstract_excerpt": "Oyunlar insanlık tarihi boyunca hep var olmuş ve günlük hayatın bir parçası haline gelmiştir. Son yıllarda gelişen teknoloji ile beraber bireylerin oyun anlayışları şekillenmiş, fiziki oyunlardan teknolojik oyunlara doğru bir geçiş sürecine girilmiştir. Oyunların hayatın tüm boyutlarında büyük orand"
+        },
+        {
+          "tez_no": "731579",
+          "title_tr": "Ortaokul öğrencilerinin uzaktan eğitime yönelik tutumları ile öz-düzenleme becerileri arasındaki ilişkinin incelenmesi",
+          "author": "HAFİZE DUYGU KANPAKOĞLU",
+          "year": 2022,
+          "score": 0.8133,
+          "abstract_excerpt": "Daha önceki yıllarda kurumlarından ve öğretmenlerinden coğrafi olarak ayrılmış öğrencilerin ders kaynaklarından yararlanmalarını sağlayan uzaktan eğitim, daha sonraki yıllarda özellikle yükseköğretimde, eğitim programlarına yoğun bir şekilde dâhil edilen öğrenme deneyimi olarak karşımıza çıkmaktadır"
+        },
+        {
+          "tez_no": "600441",
+          "title_tr": "Programlama öğretiminde öğrenenlerin kendi videolarını oluşturmasının üstbiliş ve motivasyona göre incelenmesi",
+          "author": "EMRAH AVCIOĞLU",
+          "year": 2019,
+          "score": 0.8554,
+          "abstract_excerpt": "Amaç: Çalışmanın amacı öğrenenlerin kendi videolarını oluştururken; üstbiliş düzenleme stratejilerin planlama, izleme ve değerlendirme aşamalarında neler yaptıkları ve motivasyonlarına etkisi incelenmeye çalışılmıştır.\nYöntem: Nitel araştırma yöntemlerinden durum çalışması temel alınarak geçekleştir"
+        },
+        {
+          "tez_no": "532709",
+          "title_tr": "Farklı bilişsel esneklik düzeyine sahip öğrencilerin uzaktan eğitime karşı motivasyon düzeylerinin incelenmesi",
+          "author": "YASEMİN BERTİZ",
+          "year": 2018,
+          "score": 0.8547,
+          "abstract_excerpt": "Bu araştırmanın amacı farklı bilişsel esneklik düzeylerine sahip uzaktan eğitim öğrencilerinin uzaktan eğitime yönelik motivasyon düzeylerinin incelenmesidir. Aynı zamanda öğrencilerin bilişsel esneklik ve uzaktan eğitime yönelik motivasyon düzeyleri farklı değişkenlere göre (cinsiyet, yaş, öğrenim "
+        },
+        {
+          "tez_no": "341624",
+          "title_tr": "e-ders içeriklerinde kullanılabilir çevrimiçi çoklu video aktarımı için örnek bir uygulama",
+          "author": "MAHMUT KILIÇASLAN",
+          "year": 2013,
+          "score": 0.8323,
+          "abstract_excerpt": "Gelişen teknoloji ile birlikte eğitimde farklı gelişmeler ve değişimler meydana gelmiştir. Günümüz bilgi çağındaki bu gelişmeler kalıcı öğrenmeyi, bilgiye ulaşmayı, bireyin kendi hızında öğrenmesini, tekrar yaparak öğrenmede kalıcılığı sağlamasını beraberinde getirmiştir. Bilgisayarın eğitimde kulla"
+        },
+        {
+          "tez_no": "245592",
+          "title_tr": "Uzaktan eğitimde sesli ve görüntülü yayınların internet üzerinden eşzamanlı aktarılması ve yayınlanması",
+          "author": "AHMET GEZER",
+          "year": 2009,
+          "score": 0.8274,
+          "abstract_excerpt": "Mevcut uzaktan eğitim sistemlerinin başarısı, uzaktan eğitimi bu günkü seviyesine ulaştırmıştır. Ancak uzaktan eğitimden umulan başarının elde edilebilmesi için gerektiğinde gerçek bir sınıf ortamının sağlanabilmesi de önemlidir. Bunun internet ortamında oluşturulabilmesi için sesli ve görüntülü yay"
+        },
+        {
+          "tez_no": "291558",
+          "title_tr": "Uzaktan eğitimde hizmet kalitesinin ölçümlenmesi ve eğitim sektöründe bir uygulama",
+          "author": "TOLGA DURSUN",
+          "year": 2011,
+          "score": 0.8243,
+          "abstract_excerpt": "Hizmet kalitesi kavramı, hizmet sektörü firmalarının artması ve ürün satan firmaların da verdikleri hizmet ile daha fazla kazanç sağlamaları ile son yıllarda daha da önem kazanmıştır. Dolayısı ile her firmada müşteri bağlılığını artırmak için ürün kalitesi ve hizmet kalitesinin artırılması yönünde ç"
+        },
+        {
+          "tez_no": "675165",
+          "title_tr": "YouTube'un eğitim ortamı olarak kullanımının izleyici ve eğitmen bağlamında incelenmesi",
+          "author": "HASAN HÜSEYİN CİHANGİR",
+          "year": 2021,
+          "score": 0.8201,
+          "abstract_excerpt": "Youtube'un dünya üzerinde en popüler video paylaşım platformu olduğu bilinmektedir. Bu platform üzerinden milyonlarca insan, farklı türlerde milyarlarca video içeriğe ücretsiz olarak ulaşabilmektedirler. Youtube'un 2020 yılında kendi sunduğu istatistiklere göre Youtube üzerinden günlük 1 milyar saat"
+        },
+        {
+          "tez_no": "762559",
+          "title_tr": "6. sınıf \"Ses ve Özellikleri\" ünitesinde işbirlikli öğrenme modelinin uzaktan eğitim ortamlarında uygulanmasının etkileri",
+          "author": "ÖMER KARA",
+          "year": 2022,
+          "score": 0.8199,
+          "abstract_excerpt": "Bu araştırmanın amacı 6. sınıf fen bilgisi dersinde işbirlikli öğrenme modeliyle yapılan öğretimin öğrencilerin akademik başarı ve derse yönelik motivasyonlarına etkisini incelemektir. Araştırma yarı deneysel desende ve ön test - son test yöntemiyle yapılmıştır. Araştırmanın örneklemi 2020-2021 eğit"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 10,
+      "findings": [
+        {
+          "claim": "Uzaktan eğitimde oyunlaştırma uygulamaları öğrenci motivasyonunu artırmaktadır.",
+          "citations": [
+            "632014",
+            "700095",
+            "570997",
+            "467760",
+            "558949"
+          ]
+        },
+        {
+          "claim": "ARCS-V motivasyon tasarımı modeline dayalı stratejiler uzaktan eğitimde öğrenci motivasyonunu ve akademik başarıyı artırmaktadır.",
+          "citations": [
+            "432497"
+          ]
+        },
+        {
+          "claim": "Öğrenci-öğretmen etkileşimi ve iletişimin niteliği uzaktan eğitimde motivasyonu etkileyen önemli bir faktördür.",
+          "citations": [
+            "145054",
+            "730859",
+            "862639"
+          ]
+        },
+        {
+          "claim": "Öz-düzenleme becerileri ile uzaktan eğitime yönelik motivasyon arasında ilişki bulunmaktadır.",
+          "citations": [
+            "822950",
+            "731579"
+          ]
+        },
+        {
+          "claim": "Uzaktan eğitimde öğrencilerin kendi videolarını oluşturması gibi aktif öğrenme stratejileri motivasyonu olumlu etkilemektedir.",
+          "citations": [
+            "600441"
+          ]
+        },
+        {
+          "claim": "İşbirlikli öğrenme modeli uzaktan eğitim ortamlarında öğrenci motivasyonunu artırmaktadır.",
+          "citations": [
+            "762559"
+          ]
+        },
+        {
+          "claim": "Uzaktan eğitimde öğrencilerin duygularının tespit edilerek anlık bireysel dönüt sağlanması motivasyonu artırabilmektedir.",
+          "citations": [
+            "862639"
+          ]
+        },
+        {
+          "claim": "Öğrenme analitiklerine dayalı gösterge paneli müdahaleleri öğrenci etkileşimini ve akademik başarıyı artırmaktadır.",
+          "citations": [
+            "749718"
+          ]
+        },
+        {
+          "claim": "Uzaktan eğitimde öğrencilerin bilişsel esneklik düzeyleri motivasyon düzeyleri ile ilişkilidir.",
+          "citations": [
+            "532709"
+          ]
+        },
+        {
+          "claim": "Uzaktan eğitimde hizmet kalitesi ve kurumsal memnuniyet öğrenci motivasyonunu etkilemektedir.",
+          "citations": [
+            "291558",
+            "770467"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Kaynaklarda doğrudan bir çelişki tespit edilmemiştir. Bununla birlikte, bazı kaynaklar uzaktan eğitimde motivasyon sorunlarına işaret ederken (ör. 862639, 749718), diğerleri belirli stratejilerin (oyunlaştırma, ARCS-V, işbirlikli öğrenme) motivasyonu artırdığını göstermektedir; bu bir çelişki değil, sorun-çözüm ilişkisidir."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Özerklik desteği ve seçim hakkı (self-determination theory) stratejileri",
+        "Senkron (canlı ders) vs asenkron (kayıt) öğrenme ortamlarının motivasyona etkisi",
+        "Sosyal varoluş (social presence) ve topluluk hissi oluşturma stratejileri",
+        "Mikro-öğrenme (micro-learning) ve kısa içerik sunumu stratejileri",
+        "Zaman yönetimi ve esnek programlama stratejileri",
+        "Multimedya tasarım ilkeleri (Mayer ilkeleri) ve görsel-işitsel içerik stratejileri",
+        "Akran değerlendirmesi ve akran geribildirimi stratejileri",
+        "Kültürel farklılıklar ve bireysel farklılıklara duyarlı stratejiler",
+        "Hedef belirleme (goal setting) ve ilerleme takibi stratejileri",
+        "Dijital okuryazarlık ve teknolojik yeterlilik desteği"
+      ],
+      "requery_terms": [
+        "uzaktan eğitim özerklik desteği motivasyon",
+        "uzaktan eğitim senkron asenkron motivasyon",
+        "uzaktan eğitim sosyal varoluş topluluk hissi motivasyon",
+        "uzaktan eğitim mikro öğrenme motivasyon",
+        "uzaktan eğitim zaman yönetimi motivasyon stratejisi",
+        "uzaktan eğitim multimedya tasarım ilkeleri motivasyon",
+        "uzaktan eğitim akran değerlendirme motivasyon",
+        "uzaktan eğitim kültürel farklılıklar motivasyon stratejisi",
+        "uzaktan eğitim hedef belirleme motivasyon",
+        "uzaktan eğitim dijital okuryazarlık motivasyon"
+      ],
+      "notes": "Mevcut sentez oyunlaştırma, ARCS-V, etkileşim, öz-düzenleme, aktif öğrenme, işbirlikli öğrenme, duygu tespiti, öğrenme analitikleri, bilişsel esneklik ve hizmet kalitesi gibi stratejileri kapsamaktadır. Ancak öz-belirleme kuramı (özerklik, yeterlik, aidiyet) çerçevesindeki stratejiler, senkron/asenkron ayrımı, sosyal varoluş, mikro-öğrenme, zaman yönetimi, multimedya tasarım ilkeleri, akran değerlendirme, kültürel/bireysel farklılıklar, hedef belirleme ve dijital okuryazarlık gibi önemli alt boyutlar örtülmemiştir. Bu eksiklikler literatürde sıkça ele alınan pedagojik stratejiler olduğu için kapsamın genişletilmesi önerilir."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nUzaktan eğitim, teknolojik gelişmeler ve özellikle pandemi sürecinin etkisiyle eğitim sistemlerinde kalıcı bir yer edinmiştir. Ancak bu öğrenme ortamlarında karşılaşılan en önemli sorunlardan biri öğrenci motivasyonunun sürdürülebilmesidir [5][6]. Bu bağlamda, uzaktan eğitimde öğrenci motivasyonunu artırmaya yönelik çeşitli pedagojik stratejiler geliştirilmiş ve araştırmalarla test edilmiştir. Aşağıda bu stratejiler, ilgili bulgular ışığında sistematik olarak ele alınmaktadır.\n\n## Oyunlaştırma Uygulamaları\n\nUzaktan eğitimde oyunlaştırma, öğrenci motivasyonunu artıran en etkili pedagojik stratejilerden biri olarak öne çıkmaktadır. Oyunlaştırma, oyun dışı ortamlara oyun ögelerinin eklenmesi yoluyla öğrenme sürecini daha ilgi çekici hâle getiren bir yaklaşımdır [16][22]. Araştırmalar, uzaktan eğitimde oyunlaştırma uygulamalarının öğrencilerin akademik başarıları ve motivasyonları üzerinde olumlu etkiler yarattığını göstermektedir [17]. Özellikle turizm öğrencileri üzerinde yapılan bir çalışmada, uzaktan eğitime yönelik düşük motivasyonun oyunlaştırma yöntemiyle artırılabileceği belirtilmiştir [21]. Şirket içi uzaktan eğitimde oyunlaştırma uygulamalarının da katılımı ve motivasyonu olumlu yönde etkilediği tespit edilmiştir [19]. Meta-analiz çalışmaları da oyunlaştırmanın eğitimde motivasyon üzerindeki etkisini doğrulamaktadır [16].\n\n## ARCS-V Motivasyon Tasarımı Modeli\n\nKeller'in ARCS-V (Dikkat, İlgi, Güven, Tatmin, İstek) motivasyon tasarımı modeli, uzaktan eğitimde öğrenci motivasyonunu artırmaya yönelik sistematik bir çerçeve sunmaktadır. Deneysel bir araştırmada, bu modele dayalı motivasyon stratejilerinin öğrencilerin derse karşı ilgilerini, motivasyonlarını, eylem yeterliklerini ve akademik başarılarını anlamlı düzeyde artırdığı bulunmuştur [7]. Bu model, öğrencilerin dikkatini çekme, içerikle ilişki kurma, başarıya olan güveni pekiştirme ve öğrenme sürecinden tatmin olmayı sağlama gibi bileşenleriyle kapsamlı bir yaklaşım sunmaktadır.\n\n## Öğrenci-Öğretmen Etkileşimi ve İletişimin Niteliği\n\nUzaktan eğitimde öğrenci-öğretmen etkileşiminin niteliği, motivasyonu etkileyen temel faktörlerden biridir. Pedagojik motivasyon bağlamında eğitici-öğrenci iletişimi, öğrencilerin güdülenmesinde kritik bir rol oynamaktadır [12]. Transaksiyonel uzaklık kuramı çerçevesinde yapılan bir araştırma, çevrimiçi canlı derslerde öğrenci ve öğretmen arasındaki diyaloğun niteliğinin motivasyon üzerinde belirleyici olduğunu ortaya koymaktadır [13]. Ayrıca, uzaktan eğitimde öğrencilerin duygularının yapay zekâ ile tespit edilerek anlık bireysel dönüt sağlanması, etkileşim eksikliği ve yalnızlık gibi sorunların üstesinden gelinmesine yardımcı olmakta ve motivasyonu artırmaktadır [6].\n\n## Öz-Düzenleme Becerileri\n\nÖz-düzenleme becerileri ile uzaktan eğitime yönelik motivasyon arasında anlamlı bir ilişki bulunmaktadır. Ortaokul öğrencileri üzerinde yapılan bir çalışmada, senkron uzaktan eğitime yönelik motivasyon ile öz-düzenleme düzeyleri arasında pozitif bir ilişki tespit edilmiştir [18]. Benzer şekilde, öğrencilerin uzaktan eğitime yönelik tutumları ile öz-düzenleme becerileri arasında anlamlı bir ilişki olduğu görülmüştür [23]. Bu bulgular, öz-düzenleme becerilerinin geliştirilmesinin motivasyonu artırıcı bir strateji olarak değerlendirilebileceğini göstermektedir.\n\n## Aktif Öğrenme Stratejileri\n\nUzaktan eğitimde öğrencilerin kendi videolarını oluşturması gibi aktif öğrenme stratejileri motivasyonu olumlu yönde etkilemektedir. Programlama öğretiminde öğrenenlerin kendi videolarını oluşturmasının üstbiliş ve motivasyon açısından incelendiği bir çalışmada, bu sürecin öğrencilerin motivasyonlarına katkı sağladığı belirlenmiştir [24]. Öğrencilerin içerik üreticisi konumuna gelmesi, öğrenme sürecine aktif katılımı teşvik etmekte ve içsel motivasyonu desteklemektedir.\n\n## İşbirlikli Öğrenme Modeli\n\nİşbirlikli öğrenme modeli, uzaktan eğitim ortamlarında öğrenci motivasyonunu artıran bir diğer etkili stratejidir. Fen bilgisi dersinde işbirlikli öğrenme modelinin uzaktan eğitim ortamlarında uygulanmasının etkilerini inceleyen deneysel bir çalışma, bu modelin öğrencilerin derse yönelik motivasyonlarını anlamlı düzeyde artırdığını ortaya koymuştur [30]. İşbirlikli öğrenme, öğrenciler arası etkileşimi güçlendirerek uzaktan eğitimde sıklıkla yaşanan yalnızlık hissini azaltmakta ve motivasyonu desteklemektedir.\n\n## Öğrenme Analitiklerine Dayalı Müdahaleler\n\nÖğrenme analitiklerine dayalı gösterge paneli müdahaleleri, öğrenci etkileşimini ve akademik başarıyı artırmaktadır. Bu tür müdahaleler, öğrencilerin öğrenme süreçlerine ilişkin geri bildirim almalarını sağlayarak motivasyonlarını olumlu yönde etkileyebilmektedir [5]. Öğrenme analitikleri, öğrencilerin kendi ilerlemelerini izlemelerine olanak tanıyarak öz-düzenleme becerilerini de desteklemektedir.\n\n## Bilişsel Esneklik ve Motivasyon İlişkisi\n\nUzaktan eğitimde öğrencilerin bilişsel esneklik düzeyleri ile motivasyon düzeyleri arasında anlamlı bir ilişki bulunmaktadır. Farklı bilişsel esneklik düzeyine sahip öğrencilerin uzaktan eğitime yönelik motivasyon düzeylerinin incelendiği bir araştırma, bilişsel esnekliğin motivasyon üzerinde belirleyici bir faktör olduğunu göstermektedir [25]. Bu bulgu, öğrencilerin bilişsel esnekliklerini geliştirmeye yönelik stratejilerin motivasyonu artırabileceğine işaret etmektedir.\n\n## Hizmet Kalitesi ve Kurumsal Memnuniyet\n\nUzaktan eğitimde hizmet kalitesi ve kurumsal memnuniyet, öğrenci motivasyonunu etkileyen önemli çevresel faktörlerdir. Uzaktan eğitimde hizmet kalitesinin ölçümlenmesine yönelik bir çalışma, hizmet kalitesinin öğrenci memnuniyeti ve motivasyonu üzerinde belirleyici olduğunu ortaya koymaktadır [28]. Akademisyenlerin uzaktan eğitimde mesleki motivasyonu ile kurumdan duyulan memnuniyet arasındaki ilişki de bu bulguyu desteklemektedir [9]. Kurumsal destek ve kaliteli hizmet altyapısı, öğrencilerin uzaktan eğitime yönelik motivasyonlarını dolaylı yoldan etkilemektedir.\n\n## Sonuç\n\nUzaktan eğitimde öğrenci motivasyonunu artırmaya yönelik pedagojik stratejiler çok boyutlu bir yaklaşım gerektirmektedir. Oyunlaştırma uygulamaları, ARCS-V motivasyon tasarımı modeli, öğrenci-öğretmen etkileşiminin güçlendirilmesi, öz-düzenleme becerilerinin geliştirilmesi, aktif öğrenme stratejileri, işbirlikli öğrenme modeli, öğrenme analitiklerine dayalı müdahaleler ve bilişsel esnekliğin desteklenmesi, literatürde etkililiği kanıtlanmış başlıca stratejilerdir. Bununla birlikte, hizmet kalitesi ve kurumsal memnuniyet gibi çevresel faktörlerin de motivasyon üzerinde belirleyici olduğu unutulmamalıdır. Kaynaklarda doğrudan bir çelişki tespit edilmemiş olmakla birlikte, bazı çalışmalar uzaktan eğitimde motivasyon sorunlarına işaret ederken [5][6], diğerleri belirtilen stratejilerin bu sorunların çözümünde etkili olduğunu göstermektedir. Bu durum, sorun-çözüm ilişkisi bağlamında değerlendirilmeli ve motivasyonu artırmak için bütüncül bir pedagojik yaklaşım benimsenmelidir.",
+      "n_citations": 33,
+      "citations_ieee": [
+        "[1] BELKIS ORHAN, \"Uzaktan eğitimin öğrencilerin Türkçe derslerine yönelik akademik motivasyonlarına yansımaları,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Eğitim Bilimleri Enstitüsü / Türkçe ve Sosyal Bilimler Eğitimi Ana Bilim Dalı / Türkçe Eğitimi Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEArNFs45uDbJiL5Gh9kyKyYfb6PQBJ8hF3q66wtm_ozCJ",
+        "[2] ZELİHA DEMİR, \"Uzaktan eğitim öğrencilerinin akademik güdülenme düzeyleri (SAÜ örneği),\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Sosyal Bilimler Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6Q8pLlsAUyCicBNaMA7ijxBSygAmCQMIGPjTEenT5mxO_",
+        "[3] GÜLSÜM KÜTÜKCÜ, \"İlköğretim kademesindeki öğretmenlerin öğretme motivasyonları ile uzaktan eğitime yönelik tutumlarının incelenmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Sabahattin Zaim Üniversitesi / Lisansüstü Eğitim Enstitüsü / Eğitim Bilimleri Ana Bilim Dalı / Eğitim Yönetimi ve Denetimi Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fl0Kw4p1rmMDotyKRdYv1IhnKnROzkl5tFMgEUHjRDCab34C1-7wcDubm8Y3R9ST",
+        "[4] AYŞE ÇİĞDEM YENAL, \"Uzaktan eğitim,\" Yüksek Lisans/Doktora tezi, Yeditepe Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / Eğitim Denetimi ve Yönetimi Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAVRe9ZOdO9kn39-t5wB3niuka-2ppOmWJsMyR4EeyYZo",
+        "[5] DİLARA BAĞCI, \"Öğrenme analitiklerine dayalı gösterge paneli müdahalesinin öğrenci etkileşimi ve akademik başarısına etkisi,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Eğitim Bilimleri Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sELqxhTlFGAjsbjOuuiyCBgpoPsrMf5LX9rT-qJie7SnH4TDvfVkma5ccqZM3e9t",
+        "[6] AHMET DOĞUKAN SARIYALÇINKAYA, \"Uzaktan eğitimde öğrencilerin duygularını yapay zekâ ile tespit ederek dönüt sağlayan ortamın tasarımı ve değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Trabzon Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQgUHcu-YW_XoHYwBceN1vJD86nDm3KIJBWCZA16otf_r",
+        "[7] HASAN UÇAR, \"Uzaktan eğitimde motivasyon stratejilerinin öğrenenlerin ilgileri, motivasyonları, eylem yeterlikleri ve başarıları üzerine etkisi,\" Yüksek Lisans/Doktora tezi, Anadolu Üniversitesi / Sosyal Bilimler Enstitüsü / Uzaktan Eğitim Ana Bilim  Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cbOXH84ZayrLjc0tI-QXKogxYOShKYGuOMp0We4vtAFKo-FqqFnnNrQdEkJKiTeH",
+        "[8] FATİH ERDOĞDU, \"Yükseköğretimde her yerde öğrenmenin uygulanması: İnsan bilgisayar etkileşimi dersi örneği,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Eğitim Bilimleri Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sY7m19PfcL6F1NUw-cr80CnIarQUSD4lRKgZTam-KAvFVR2CvFutQDJ6TLdMFE6w",
+        "[9] DUYGU BURCU GÖNÜLAÇAR GÜVENDİ, \"Uzaktan eğitimde akademisyenlerde mesleki motivasyonun belirleyicileri ve bir ölçek geliştirme çalışması,\" Yüksek Lisans/Doktora tezi, Burdur Mehmet Akif Ersoy Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kIrIdtdJ31bRgjb6fHvMUXDdMGdKaCaQVjgrnbHPIxPTqD5AfM4dX4tKuo5R5NdS",
+        "[10] ARZU EKİN, \"Uzaktan eğitimle ilgili yapılmış lisansüstü tez çalışmalarının incelenmesi: 2000-2021,\" Yüksek Lisans/Doktora tezi, İnönü Üniversitesi / Eğitim Bilimleri Enstitüsü / Eğitim Bilimleri Ana Bilim Dalı / Eğitim Programları ve Öğretim Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=5XiSE4yCP_gmnukpMEp65RhiSXW3yi-xlkq_VqZmJ0cBtW3X8ajfbkL5d0vLMo3x",
+        "[11] MÜCAHİT ÖZTÜRK, \"Uzaktan eğitimde öğretimi ayrıntılama kuramına göre yapılan programlama öğretiminin değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Eğitim Bilimleri Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sY7m19PfcL6F1NUw-cr80HEymo6FcVB-8O4Ws8b1iD-SE-5gEYYOh7r6dvFfc8Ap",
+        "[12] ELİF YEŞİLYAPRAK, \"Pedagojik motivasyon: Eğitici-öğrenci iletişimi /,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Sosyal Bilimler Enstitüsü / Halkla İlişkiler Ana Bilim Dalı, 2004. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Keh6sQzap4ZTp8dqWPlH1JixEmyqSeFCCLesC1boVP-2TmyXCoRZewJZHdRXfMhJ",
+        "[13] MUSTAFA GÜVEN, \"Çevrimiçi canlı derslerde öğrenci ve öğretmen arasındaki diyaloğun transaksiyonel uzaklık kuramı bağlamında incelenmesi,\" Yüksek Lisans/Doktora tezi, Çanakkale Onsekiz Mart Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkmiuilJEeCd26yFwosqL_aTOspO9Jw07IbGaYh2QPoyx",
+        "[14] EMRE GÜLEÇOĞLU, \"Kurumlarda istihdam edilen kişilerin uzaktan eğitimden tatmin olma derecelerinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / İnsan Kaynakları Yönetimi Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RYan9_S-Z7Eir3xdWGXBiGlYyN7ZUtujR1OYAdhDONolZKrS0Zxo7TpqOc9he_lS",
+        "[15] BAHADIR AYTAÇ, \"Yatılı okullarda öğrenim gören öğrencilerin motivasyonları üzerine bir çalışma,\" Yüksek Lisans/Doktora tezi, Kocaeli Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2006. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ePX_SaJ0b35Gq45swKG3lLX0sL_C9KpZFuaEIv0lRz1wfjccmcohXiMcac1BbXNh",
+        "[16] ŞEYDA ÖZCAN, \"Eğitimde oyunlaştırma üzerine yapılan araştırmalara ilişkin bir meta analiz çalışması,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Eğitim Bilimleri Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZbjC2_ceNb03UZroK6X53-yeMfY448-Znsh2THswyGgAh",
+        "[17] AYŞENUR AĞAOĞLU, \"Uzaktan eğitimde oyunlaştırma uygulamalarının üniversite öğrencilerinin İngilizce derslerindeki akademik başarı ve motivasyonlarına etkisi,\" Yüksek Lisans/Doktora tezi, İnönü Üniversitesi / Eğitim Bilimleri Enstitüsü / Eğitim Bilimleri Ana Bilim Dalı / Eğitim Programları ve Öğretim Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=_F5QEpayDXGqGZlp9XiFtOTJ1K4cwKV7Ft0X7FD9yphCOIhtSbALWNdv2wn1lHCa",
+        "[18] ELİF ŞEYMA TÜTÜNCÜ, \"Senkron uzaktan matematik eğitimine yönelik motivasyon ve öz-düzenleme düzeyleri: Bir ölçek geliştirme çalışması,\" Yüksek Lisans/Doktora tezi, Necmettin Erbakan Üniversitesi / Eğitim Bilimleri Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı / Matematik Eğitimi Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=nLNfCsWgUluh5T2iyudShpevbx4S_Q7l3KgZJ4U8KrowG3JptuBJfMtdEDMnK1k8",
+        "[19] ŞEYDA BURCU SOYLU, \"Şirket içi uzaktan eğitimde oyunlaştırma: Quizgame örneği,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Eğitim Bilimleri Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı / Bilgisayar ve Öğretim Teknolojileri Eğitimi Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=jNRDC1RLfVd4_T7x7ZXmmW6zeNU-Leab4_861hNYCzY-yZyIofTPWR1Nd-X0xI_-",
+        "[20] YUSUF DİNÇ, \"Öğretmen adaylarının uzaktan eğitim tercihlerini etkileyen faktörlerin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Necmettin Erbakan Üniversitesi / Eğitim Bilimleri Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı / Bilgisayar ve Öğretim Teknolojileri Eğitimi Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMs70aZvH1AxYjCg_YOcrhGkqfVFA4PoO2w0OT0K--C2YU",
+        "[21] ENİSE ÖZMEN, \"Turizm öğrencilerinin uzaktan eğitim ve oyunlaştırmaya yönelik tutum ve motivasyonu,\" Yüksek Lisans/Doktora tezi, Muğla Sıtkı Koçman Üniversitesi / Sosyal Bilimler Enstitüsü / Turizm İşletmeciliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5Sgvlgg-SJJEYQnKZaB1_kuHeDRJ98FOtS5fXw_NcHIINTilwh",
+        "[22] BAYRAM KOCAAĞA, \"Oyunlaştırma ilkeleri temelinde bir çevrimiçi oyunlaştırma platformunun sınıf içi uygulamalara yönelik olarak geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı / Bilgisayar ve Öğretim Teknolojileri Eğitimi Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpUqKfhpV8qf9ftJg-zZsiJJKVT5JJSw_FR_ouhEVz8cv",
+        "[23] HAFİZE DUYGU KANPAKOĞLU, \"Ortaokul öğrencilerinin uzaktan eğitime yönelik tutumları ile öz-düzenleme becerileri arasındaki ilişkinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Eğitim Bilimleri Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı / Bilgisayar ve Öğretim Teknolojileri Eğitimi Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFktGUaBPTZiAf_jEgBEnOGBT9mlz8Fqt3PEX-X05WHAyo",
+        "[24] EMRAH AVCIOĞLU, \"Programlama öğretiminde öğrenenlerin kendi videolarını oluşturmasının üstbiliş ve motivasyona göre incelenmesi,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Eğitim Bilimleri Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBoc33WZh3_JgHC3FvxHfoxRT7PMlzVcfnsII4GJnQJ8Y",
+        "[25] YASEMİN BERTİZ, \"Farklı bilişsel esneklik düzeyine sahip öğrencilerin uzaktan eğitime karşı motivasyon düzeylerinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Eğitim Bilimleri Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=as2oTjW5jfr9IKSvmCdJYoK9D5sfgKvU83S9YUZ7rxvX7UY2n6PZJe-Q-MxlGJs_",
+        "[26] MAHMUT KILIÇASLAN, \"e-ders içeriklerinde kullanılabilir çevrimiçi çoklu video aktarımı için örnek bir uygulama,\" Yüksek Lisans/Doktora tezi, Süleyman Demirel Üniversitesi / Fen Bilimleri Enstitüsü / Elektronik-Bilgisayar Eğitimi Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=iTkOhwevEenJZ3onUvs52tn6TR8nmYBz-tTVvRcLYi4rSlUKkq20IKLP56idZ1ev",
+        "[27] AHMET GEZER, \"Uzaktan eğitimde sesli ve görüntülü yayınların internet üzerinden eşzamanlı aktarılması ve yayınlanması,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Bilişim Enstitüsü / Elektronik-Bilgisayar Eğitimi Ana Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAW90SMZ0RPUENFXDU4oW32Ep3zneib2dLsmCvYXKu9Rk",
+        "[28] TOLGA DURSUN, \"Uzaktan eğitimde hizmet kalitesinin ölçümlenmesi ve eğitim sektöründe bir uygulama,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / Üretim Yönetimi ve Pazarlama Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGhTrwgkrrbGiJJoqq9E3FUMoGlVdxqkoNdZKxPw5s2uj",
+        "[29] HASAN HÜSEYİN CİHANGİR, \"YouTube'un eğitim ortamı olarak kullanımının izleyici ve eğitmen bağlamında incelenmesi,\" Yüksek Lisans/Doktora tezi, Necmettin Erbakan Üniversitesi / Eğitim Bilimleri Enstitüsü / Bilgisayar ve Öğretim Teknolojileri Eğitimi Ana Bilim Dalı / Bilgisayar ve Öğretim Teknolojileri Eğitimi Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEAknG5YllDKn7gAxf4AIJmFpw1h_QC6sbDPHlki4VMz_S",
+        "[30] ÖMER KARA, \"6. sınıf \"Ses ve Özellikleri\" ünitesinde işbirlikli öğrenme modelinin uzaktan eğitim ortamlarında uygulanmasının etkileri,\" Yüksek Lisans/Doktora tezi, Zonguldak Bülent Ecevit Üniversitesi / Fen Bilimleri Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiP5qSXIC1_Hs3WuvQSlAlFlF1bYA9CsrdEh73AgcqnOR",
+        "[31] Sema Buz, Meliha Funda Afyonoğlu, \"SOSYAL HİZMET ÖĞRENCİLERİNİN COVİD-19 PANDEMİ SÜRECİNDE UZAKTAN EĞİTİME YÖNELİK DEĞERLENDİRMELERİ: TÜRKİYE’NİN YEDİ BÖLGESİNDE YEDİ İL ÖRNEKLEMİ,\" Yüksek Lisans/Doktora tezi, [openalex] Toplum ve sosyal hizmet(Online)/Toplum ve sosyal hizmet, 2021. [Online]. https://doi.org/10.33417/tsh.1000515",
+        "[32] Aykut Günlü, \"Pandemi Döneminde Üniversitelerin Dijitalleşme Performanslarının Öğrenci Gözünden Değerlendirilmesi: Meta-Sentez Çalışması,\" Yüksek Lisans/Doktora tezi, [openalex] Uluslararası İnsan Çalışmaları Dergisi, 2022. [Online]. https://doi.org/10.35235/uicd.1194666",
+        "[33] Dilaver Tengilimoğlu, Fatma MANSUR, Pınar Amjad KHALEEL SAFFAR, Emre TENGİLİMOĞLU, \"Yabancı Öğrencilerin Covid-19 Salgını Nedeni ile Verilen Uzaktan Eğitim Hakkındaki Görüş ve Memnuniyetlerinin Değerlendirilmesi: Türkiye Örneği,\" Yüksek Lisans/Doktora tezi, [openalex] Afyon Kocatepe Üniversitesi Sosyal Bilimler Dergisi, 2021. [Online]. https://doi.org/10.32709/akusosbil.986942"
+      ]
+    }
+  },
+  "error": null
+}

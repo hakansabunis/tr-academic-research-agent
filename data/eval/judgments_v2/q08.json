@@ -1,0 +1,12 @@
+{
+  "id": "q08",
+  "question": "Diyabet hastalarında beslenme alışkanlıklarının glisemik kontrol üzerindeki etkisi nasıl değerlendirilmiştir?",
+  "category": "health",
+  "judgment": {
+    "citation_accuracy": 0.7,
+    "faithfulness": 0.65,
+    "coverage": 0.4,
+    "holistic_score": 2,
+    "rationale": "Yanıt, kaynaklardan bazılarını doğru kullansa da (örn. [1], [12], [16]), birçok atıf ya ilgisizdir ya da kaynakta olmayan iddiaları destekler görünmektedir. Ayrıca yanıtta [31]-[34] gibi getirilmeyen kaynaklara atıf yapılmıştır. Alt soruların çoğu (ölçekler/yöntemler, aracı/düzenleyici değişkenler, sınırlılıklar, klinik öneriler) ya hiç ele alınmamış ya da çok yüzeysel geçilmiştir. Akademik üslup kısmen uygun olsa da yapı dağınıktır ve derinlik eksiktir."
+  }
+}

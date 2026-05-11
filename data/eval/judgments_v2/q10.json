@@ -1,0 +1,12 @@
+{
+  "id": "q10",
+  "question": "Türkiye'de hemşirelik öğrencilerinin klinik karar verme becerilerinin geliştirilmesi için kullanılan yöntemler nelerdir?",
+  "category": "health",
+  "judgment": {
+    "citation_accuracy": 0.7,
+    "faithfulness": 0.75,
+    "coverage": 0.6,
+    "holistic_score": 3,
+    "rationale": "Yanıt, simülasyon ve vaka temelli yöntemleri iyi özetlemiş ancak ölçek/geçerlik-güvenirlik çalışmaları, bilişsel değişkenlerle ilişki (eleştirel düşünme, problem çözme, öz-yeterlilik) ve sınırlılıklar/öneriler gibi alt soruları yeterince kapsamamıştır. Atıfların çoğu ilgili kaynaklara uygun olsa da bazı kaynaklar (örn. [8], [10], [11], [12], [20], [21], [22], [23], [24], [25], [26], [27], [30], [31], [32], [33], [34]) yanıtın içeriğiyle doğrudan ilgili değildir veya yanıtta kullanılmamıştır. Kaynak [4]'ün içeriği yanlış aktarılmıştır (ölçek uyarlama çalışması olduğu belirtilmemiş). Akademik üslup genel olarak uygundur."
+  }
+}

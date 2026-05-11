@@ -1,0 +1,12 @@
+{
+  "id": "q26",
+  "question": "COVID-19 sonrası Türkiye turizm sektöründe sürdürülebilir turizm yaklaşımlarının değişimi nasıldır?",
+  "category": "tourism",
+  "judgment": {
+    "citation_accuracy": 0.6,
+    "faithfulness": 0.5,
+    "coverage": 0.4,
+    "holistic_score": 2,
+    "rationale": "Yanıt, COVID-19'un turizme etkilerini genel hatlarıyla ele alsa da, planner'ın dört alt sorusunun hiçbirini (araştırma yöntemleri, tez bulgularının boyutları, pandemi öncesi-sonrası karşılaştırmalı farklılıklar, uygulanabilirlik/zorluklar) doğrudan ve sistematik şekilde yanıtlamamaktadır. Atıfların bir kısmı ilgisiz kaynaklara yapılmış (ör. [6] 2015 tarihli genel turizm-ekonomi tezi, [10] sağlık turizmi, [13] 2014 sağlık turizmi, [17] sağlık turizmi, [19] 2018 sağlık turizmi, [20] 2019 sağlık turizmi, [23] 2002 Gündem 21 tezi) ve bu kaynaklar COVID-19 sonrası sürdürülebilir turizm değişimiyle ilgili değildir. Ayrıca yanıt, kaynaklarda olmayan veya kaynakların kapsamadığı genellemeler içermekte, özellikle \"yeşil ekonomi dönüşümü\" ve \"sürdürülebilir turizm yaklaşımlarının genişlemesi\" gibi iddialar doğrudan tez bulgularına dayanmamaktadır. Akademik üslup kabul edilebilir düzeydedir ancak içerik alt soruları karşılamamakta ve atıf-kaynak uyumu zayıftır."
+  }
+}

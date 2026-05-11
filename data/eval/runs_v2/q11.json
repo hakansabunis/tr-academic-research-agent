@@ -1,0 +1,491 @@
+{
+  "id": "q11",
+  "category": "engineering",
+  "type": "application",
+  "question": "Yenilenebilir enerji kaynaklarından rüzgar türbinlerinin Türkiye'deki potansiyeli ve verimliliği üzerine yapılan çalışmalar nelerdir?",
+  "expected_subjects": [
+    "Enerji",
+    "Makine Mühendisliği",
+    "Elektrik-Elektronik Mühendisliği"
+  ],
+  "min_citations": 5,
+  "result": {
+    "latency_seconds": 160.53,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Türkiye'de rüzgar enerjisi potansiyelini belirlemek için kullanılan yöntemler (Weibull dağılımı, sayısal hava durumu modelleri vb.) nelerdir ve bu yöntemler hangi bölgelere odaklanmıştır?",
+          "rationale": "Potansiyel belirleme çalışmalarının metodolojik çeşitliliğini ve bölgesel dağılımını anlamak için temel bir alt soru."
+        },
+        {
+          "text": "Türkiye'deki rüzgar türbinlerinin yıllık enerji üretim verimliliği (kapasite faktörü) hangi aralıklarda seyretmekte ve bu verimlilik mevsimsel/coğrafi olarak nasıl değişmektedir?",
+          "rationale": "Verimlilik bulgularını somut sayısal değerlerle ortaya koymak ve bölgesel farklılıkları tespit etmek için kritik bir alt soru."
+        },
+        {
+          "text": "Rüzgar türbini kurulumlarının çevresel etkileri (kuş ölümleri, gürültü, görsel kirlilik) ve sosyal kabulü üzerine Türkiye'de yapılmış ampirik çalışmalar hangi sonuçlara ulaşmıştır?",
+          "rationale": "Sadece teknik değil, aynı zamanda çevresel ve sosyal boyutları da kapsayan bütüncül bir değerlendirme için gerekli."
+        },
+        {
+          "text": "Türkiye'deki rüzgar enerjisi santrallerinin ekonomik fizibilitesi (yatırım maliyeti, geri ödeme süresi, teşvik mekanizmaları) üzerine yapılan çalışmalarda hangi bulgular öne çıkmaktadır?",
+          "rationale": "Potansiyel ve verimliliğin ekonomik sürdürülebilirlikle ilişkisini kurmak ve politika önerilerine temel oluşturmak için önemli."
+        },
+        {
+          "text": "Türkiye'deki rüzgar enerjisi çalışmalarında karşılaşılan temel sınırlılıklar (veri eksikliği, ölçüm istasyonu yetersizliği, model belirsizlikleri) nelerdir ve gelecek araştırmalar için hangi boşluklar tanımlanmıştır?",
+          "rationale": "Mevcut literatürün eksik yönlerini belirleyerek araştırma boşluklarını haritalamak ve ileriye dönük öneriler geliştirmek için kapsayıcı bir alt soru."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 31,
+      "max_score": 0.9469,
+      "min_score": 0.9101,
+      "chunks": [
+        {
+          "tez_no": "486752",
+          "title_tr": "Osmaniye ili sınırları içerisindeki bir bölgenin rüzgar enerjisi potansiyelinin analiz edilmesi",
+          "author": "CENK ÖZTÜRK",
+          "year": 2017,
+          "score": 0.9469,
+          "abstract_excerpt": "Türkiye enerji ihtiyacının büyük bir bölümünü ithalat yolu ile sağlayan bir ülkedir. Türkiye'de enerji bağımlılığı ve fosil yakıtların kullanım dezavantajları nedeniyle yenilenebilir enerji kaynakları önem kazanmaktadır. Özellikle rüzgar enerjisi gibi yüksek miktarda yenilenebilir enerji potansiyell"
+        },
+        {
+          "tez_no": "354580",
+          "title_tr": "Başlangıcından günümüze Türkiye'de rüzgâr enerjisi mevzuatı lisanslı ve lisanssız üretim",
+          "author": "GÜVENİR KAAN ESEN",
+          "year": 2014,
+          "score": 0.9454,
+          "abstract_excerpt": "Enerjinin hayatın her alanında etkili olduğu günümüzde, artan nüfusa paralel olarak, gelişen enerji tabanlı teknolojik aygıtların kullanımının artması sebebiyle oluşan enerji ihtiyacına, devletler ve sivil toplum organizasyonları, potansiyel enerji krizlerinin ve aynı eksenli savaşların önüne geçebi"
+        },
+        {
+          "tez_no": "814078",
+          "title_tr": "Türkiye rüzgâr enerjisi potansiyelinin olasılık dağılım parametreleri kullanılarak bölgelere göre analizi",
+          "author": "ALİ ORHAN",
+          "year": 2023,
+          "score": 0.9376,
+          "abstract_excerpt": "Rüzgar, dünyanın güneş tarafından eşit olmayan ısınması ve soğuması ve atmosfer basıncındaki farklılıklar tarafından oluşturulan kuvvetlerin neden olduğu havanın hareketidir. Rüzgâr enerjisi, rüzgârın oluşmasıyla birlikte türbin dediğimiz genellikle 3 kanatlı olan rüzgâr türbinleri sayesinde depolan"
+        },
+        {
+          "tez_no": "638341",
+          "title_tr": "Rüzgâr enerji potansiyelinin istatistiksel yöntemler ve genetik algoritmayla hesaplanması",
+          "author": "MELİH BURAK KOCA",
+          "year": 2020,
+          "score": 0.9362,
+          "abstract_excerpt": "İnsanlık tarihi boyunca nüfusun artması ve mevcut enerji kaynaklarının zamanla\nyetersiz kalması, insanoğlunu farklı enerji kaynakları arayışı içine sokmuştur.\nGünümüzde fosil enerji kaynaklarının hızla tükenmesi ve artan çevresel kaygılar\nyenilenebilir enerji türlerine olan ilgiyi artırmıştır. Yenil"
+        },
+        {
+          "tez_no": "523795",
+          "title_tr": "Türkiye'nin rüzgâr enerji potansiyelinin belirlenmesi",
+          "author": "HIDIR SERKENDİZ",
+          "year": 2018,
+          "score": 0.9358,
+          "abstract_excerpt": "Fosil yakıtların hızla tükeniyor olması, küresel ısınma ve çevre kirliliği nedeniyle rüzgâr enerjisinin önemi hızla artmaktadır. Belirli bir alanın rüzgâr enerji potansiyelini doğru değerlendirmek önemlidir. Bu Tez çalışması, tüm Türkiye'de rüzgâr enerjisi potansiyeline ilişkin bir araştırma sunmakt"
+        },
+        {
+          "tez_no": "809749",
+          "title_tr": "Yenilenebilir enerji kaynaklarının enerji ihtiyacını karşılamadaki payının artırılması kapsamında Türkiye rüzgar enerjisinden yararlanma analizi",
+          "author": "YASİN ASLAN",
+          "year": 2023,
+          "score": 0.9347,
+          "abstract_excerpt": "Bu tez çalışmasında yenilenebilir enerji kaynaklarının enerji arzındaki konumunun önümüzdeki süreçler içerisinde artırılması hususunda ülkemizdeki rüzgar enerjisi uygulamalarına ilişkin araştırmalar yer almaktadır. Dünya genelinde artan nüfus ve sanayileşmeye bağlı olarak enerji ihtiyacı günden güne"
+        },
+        {
+          "tez_no": "181784",
+          "title_tr": "Rüzgar türbinleri ile enerji üretimi",
+          "author": "ÖMER ERGÜR",
+          "year": 2006,
+          "score": 0.9342,
+          "abstract_excerpt": "Son yıllardaki rüzgar enerjisinin kullanımı hızlı bir artış göstermesiyle birçok ülkederüzgar enerjisinin kullanımını teşvik etmek için programlar başlatılmıştır. Türkiye'debirçok özel sektör kuruluşu verimli bölgelerde fizibilite çalışmalarına başlamıştır.Türkiye'de özellikle Marmara ve Ege bölgesi"
+        },
+        {
+          "tez_no": "517707",
+          "title_tr": "Bir rüzgar enerji santralinin kuruluş yerinin tespiti, optimum türbin seçimi ve fizibilite analizinin gerçekleştirilmesi",
+          "author": "MERT ALTINKAYA",
+          "year": 2018,
+          "score": 0.9306,
+          "abstract_excerpt": "Enerji, insan ile ayrılmaz bir bütündür. İnsanlığın enerji ihtiyacı bu bütünlük çerçevesinde hızla artmaya devam etmektedir. İnsanlık bu ihtiyacını, var olduğu ilk andan bugüne çeşitli yöntemlerle karşılamıştır. Su gücünün ve ateşten elde edilen ısı enerjisinin kullanımıyla başlayan bu yöntemler gün"
+        },
+        {
+          "tez_no": "755199",
+          "title_tr": "Türkiye'de güneş ve rüzgâr enerjisi potansiyeli indeksinin belirlenmesi ve rüzgâr türbini tasarımı",
+          "author": "HANDE NUR ALP",
+          "year": 2022,
+          "score": 0.9284,
+          "abstract_excerpt": "Çağımızın en büyük ve göz ardı edilemeyecek sorunlarından olan küresel iklim değişikliğinin ortaya çıkması ile birçok araştırma ve çözüm önerisi de beraberinde gelişmiştir. Yenilenebilir enerji kaynakları bu çözüm önerilerinin en önemlisidir. Zamanımızda yaygın olarak kullanılan fosil yakıtların yer"
+        },
+        {
+          "tez_no": "259594",
+          "title_tr": "Rüzgar enerji sistemleri ve uygulamaları",
+          "author": "MUZAFFER YÜCEL",
+          "year": 2009,
+          "score": 0.9279,
+          "abstract_excerpt": "Günümüzde, enerji gereksinimi hızla artarken, buna bağlı yoğun olarak kullanılan fosil yakıtlar da hızla tükenmektedir. Diğer yandan fosil yakıtlar ve nükleer enerji gibi, enerji kaynakları çevreye zarar vermektedir. Dolayısıyla rüzgâr, güneş, jeotermal gibi alternatif enerji kaynaklarının kullanımı"
+        },
+        {
+          "tez_no": "291861",
+          "title_tr": "Rüzgar enerjisinde uygun türbin seçimi",
+          "author": "SERDAR DURDYEV",
+          "year": 2010,
+          "score": 0.9267,
+          "abstract_excerpt": "Dünya'daki nüfus artı?ı ve sanayinin geli?mesi ile birlikte enerji ihtiyacı önemli bir faktör haline gelmi?tir. Bu enerji ihtiyacı geçmi? yıllarda neredeyse tamamı fosillerden olu?an enerji kaynaklarından üretilip kar?ılanıyordu. Birkaç yıl içinde bu tür konvensiyonel enerji kaynaklarının tükenmeye "
+        },
+        {
+          "tez_no": "275805",
+          "title_tr": "Rüzgar enerjisi santrallerinin Türkiye elektrik enerji sistemine olan etkilerinin analizi",
+          "author": "MURAT ÖZDEMİR",
+          "year": 2010,
+          "score": 0.9231,
+          "abstract_excerpt": "İçinde bulunduğumuz 21.yüzyılın ilk çeyreğinde bilim ve mühendisliğin yarattığı teknolojik devrimler, yaşamı büyük ölçüde değiştirmiştir. Bu değişim, enerjiye olan bağımlılığı giderek artırmaktadır. Böylece dünyada enerji, tüm teknolojik gelişimlerin ve buna bağlı olarak gelişen yaşam kalitesinin ön"
+        },
+        {
+          "tez_no": "732384",
+          "title_tr": "Türkiye'nin bölgesel rüzgar enerji potansiyelinin dağılım fonksiyonları kullanılarak karşılaştırmalı analizi",
+          "author": "MUSTAFA YILMAZ",
+          "year": 2021,
+          "score": 0.9228,
+          "abstract_excerpt": "Modern toplumlarda ekonomik büyümenin en önemli göstergelerinden birisi enerjidir. Elektrik enerjisinin yaşamın her alanında kullanılması ile birlikte ona olan bağımlılık her geçen gün artmaktadır. İnsan yaşamının devam ettirilebilmesi ve yüksek seviyeleri çıkartılabilmesi için ihtiyaç duyulan enerj"
+        },
+        {
+          "tez_no": "312182",
+          "title_tr": "Rüzgar hidroelektrik ve termik santrallerin ekonomik ve çevresel açıdan karşılaştırılması",
+          "author": "SERHAT BİLGİN",
+          "year": 2012,
+          "score": 0.9121,
+          "abstract_excerpt": "Bir bölgenin, hatta bir ülkenin kalkınmasında, toplumun refah düzeyinin yükseltilmesinde, enerji kaynakları projelerinin sürdürülebilir bir kalkınma ve planlama anlayışı içinde yürütülmesi çok büyük önem taşımaktadır. Enerjiye olan talebin arttığı son yıllarda elektrik üretim santralleri büyük önem "
+        },
+        {
+          "tez_no": "787759",
+          "title_tr": "Dünyada ve Türkiye'de rüzgar enerji santrallerinde yaşam sonu stratejilerinin değerlendirilmesi",
+          "author": "EREN DEDE",
+          "year": 2023,
+          "score": 0.911,
+          "abstract_excerpt": "Tüm dünyada yenilenebilir enerji üzerine olan yatırımlar her geçen gün hızla artmaktadır ve genel olarak yenilenebilir kaynakların kullanımı günümüzde pek çok ülkede yaygın hale gelmiştir. Özellikle bu yenilenebilir enerji sistemlerinden rüzgâr enerjisi üzerine olan girişimler ve projeler, Türkiye'n"
+        },
+        {
+          "tez_no": "295926",
+          "title_tr": "Yenilenebilir güç üretiminin elektrik üretim sektörüne ve enerji maliyetlerine etkilerinin analizi",
+          "author": "GÜLNUR ARSLANOĞLU",
+          "year": 2011,
+          "score": 0.9097,
+          "abstract_excerpt": "Yenilenebilir enerji kaynaklarına olan ilgi gün geçtikçe artmaktadır. Bu nedenlerden başlıcası özel sektörün göstermiş olduğu ilgi ve uygulama fiyat politikalarıdır. Ancak özellikle rüzgâr enerjisine olan yoğun talebin mevcut enerji üretim yapısı nasıl etkilediği ve uygulama fiyat politikası ile kur"
+        },
+        {
+          "tez_no": "826613",
+          "title_tr": "Rüzgar enerji sistemlerinde enerji verimliliğinin arttırılması ve simülasyonu",
+          "author": "RESUL ÜNAL",
+          "year": 2023,
+          "score": 0.9075,
+          "abstract_excerpt": "Rüzgar dünyada oluşan sıcaklık değişimlerinin sonucunda atmosferde\nmeydana gelmektedir. Isınan havanın düşük basınç ile karşılaşarak yükselmesi, yüksek\nbasınçlı ve soğuk olan havanın ortama giriş yapmasına sebebiyet vermektedir. Bu yolla\nortamda bulunan hava basıncı eşitlenmeye çalışılırken hava akı"
+        },
+        {
+          "tez_no": "233046",
+          "title_tr": "Trakya bölgesindeki bir karargahta rüzgar enerjisi santrali fizibilite çalışması",
+          "author": "TOLGA ATEŞ",
+          "year": 2007,
+          "score": 0.9046,
+          "abstract_excerpt": "Enerji darbogazının, milletlerarası çatısmalara yol açtıgı günümüzde, mevcut enerji\u000bkaynaklarının, yakın bir gelecekte tükenecek olması, devletleri alternatif enerji kaynagı\u000barayısına yönlendirerek, kaliteli, uzun vadeli ve az maliyetli enerjiyi elde çalısmalara itmistir.\u000bFosil hammaddeli enerji kay"
+        },
+        {
+          "tez_no": "202606",
+          "title_tr": "İskenderun-Belen bölgesinin rüzgar enerjisi ve elektrik üretim potansiyeli",
+          "author": "ALİ KEMAL ÇAKIR",
+          "year": 2007,
+          "score": 0.8999,
+          "abstract_excerpt": "Enerji, özellikle de elektrik enerjisi, insan hayatında tartısmasız bir öneme\u000bsahiptir. Onsuz bir yasam, günümüz kosullarında neredeyse mümkün değildir. Bunun\u000byanısıra gelisen teknolojiye paralel olarak ortaya çıkan çağdas gereksinimlerinden\u000bdolayı, gün geçtikçe artan elektrik enerjisi sarfiyatı, in"
+        },
+        {
+          "tez_no": "889764",
+          "title_tr": "Türkiye'de rüzgar enerjisinin sosyal kabul düzeyi ve halkın kabul/ reddetme tutum ve davranışlarının araştırılması",
+          "author": "ÇAĞDAŞ KILIÇ",
+          "year": 2024,
+          "score": 0.8995,
+          "abstract_excerpt": "Rüzgar Santralleri, konvansiyonel enerjilerin kullanımına bağlı küresel ısınma\nyaygın bilgisi çerçevesinde romantize edilmiş ve geniş kamuoyu desteğine ulaşmış\ntesislerdir. Bununla birlikte yaygınlaşmaya başlamaları ve özellikle yerelliklerde\nkurulmalarına istinaden ortaya çıkan sorunlar ışığında en"
+        },
+        {
+          "tez_no": "154915",
+          "title_tr": "Türkiye'de ki rüzgar enerjisi potansiyelinin değerlendirilmesi",
+          "author": "BİLGE AKBIYIK",
+          "year": 2004,
+          "score": 0.8876,
+          "abstract_excerpt": "ÖZET TÜRKİYE'DE Ki RÜZGAR ENERJİSİ POTANSİYELİNİN DEĞERLENDİRİLMESİ AKBIYIK, Bilge Kırıkkale Üniversitesi Fen Bilimleri Enstitüsü Elektrik Elektronik Anabilim Dalı, Yüksek Lisans Tezi Danışman : Prof. Dr. İlhan KOCAARSLAN Temmuz 2004, 92 sayfa Hava kütlelerinin hareketi olarak tanımlanan rüzgar, gel"
+        },
+        {
+          "tez_no": "112252",
+          "title_tr": "Türkiye rüzgarlarının alan-zaman modellemesi",
+          "author": "AHMET DURAN ŞAHİN",
+          "year": 2001,
+          "score": 0.8832,
+          "abstract_excerpt": "TÜRKİYE RÜZGARLARININ ALAN-ZAMAN MODELLEMESI ÖZET Yeni ve yenilenebilir enerji kaynaklarına 20. yüzyılın sonlarına doğru enerji açısından büyük bir yönelme olmuştur. Buna ilave olarak, bilmin doğa olaylarının çözülmesinde katetmek istediği mesafeden dolayı, son yıllarda rüzgar ve değişkenleri ile il"
+        },
+        {
+          "tez_no": "443352",
+          "title_tr": "Enerji Hukukunda lisans usulü: Rüzgar enerjisi örneği",
+          "author": "MERVE ALACALI",
+          "year": 2016,
+          "score": 0.8809,
+          "abstract_excerpt": "Enerji, insanlar için her zaman temel bir ihtiyaç halinin almıştır. Enerji ülkeler arası bir güç simgesi olarak görülmektedir. Enerji ihtiyacı en çok petrol, kömür gibi fosil kaynaklardan ya da nükleer enerji ile giderilmekte iken; bu kaynakların kullanımı zaman içerisinde çevre sorunlarını da berab"
+        },
+        {
+          "tez_no": "487785",
+          "title_tr": "Rüzgar enerji sistemlerinin analizi ve yöresel bir uygulama",
+          "author": "FATMA KADRİYE ÖRGEN",
+          "year": 2017,
+          "score": 0.8664,
+          "abstract_excerpt": "Enerji, özellikle de elektrik enerjisi, bugünün dünyasında insan yaşamının vazgeçilmez bir parçası olmuştur. Onsuz bir yaşam neredeyse imkansızdır. Bu sebeple dünyanın hızla artan nüfusu ve bu nüfusa paralel değişen enerji tüketimi dünyadaki enerji kaynaklarının kısıtlı kullanılmasına sebep olmaktad"
+        },
+        {
+          "tez_no": "477230",
+          "title_tr": "Türkiye'de yenilenebilir enerji kaynakları, uygulama: Güneş enerji santrali ve rüzgar enerji santrali kuruluş maliyetleri",
+          "author": "EMEL YILDIZ",
+          "year": 2017,
+          "score": 0.9428,
+          "abstract_excerpt": "Geçmişten bugüne ihtiyaçların karşılanması ve yaşamın devamlılığı için gereken enerji, üretim ve tüketim boyutuyla da sosyo-ekonomik kalkınmanın önemli parametrelerinin başında yer alması nedeniyle ülkelerin sürekli gündeminde ve çokça tartışılan bir konusu haline gelmiştir. Günümüzde enerji tüketim"
+        },
+        {
+          "tez_no": "263013",
+          "title_tr": "Türkiye'de yenilenebilir enerji kaynakları içerisinde rüzgar ve güneş enerjilerinin yeri",
+          "author": "SÜLEYMAN KARATAŞ",
+          "year": 2009,
+          "score": 0.9352,
+          "abstract_excerpt": "Enerji ihtiyaçlarının kar?ılanması, ülkeler için yüzyılımızın en önemli sorunlarından birisidir. Özellikle son yıllarda, geli?mi? ve geli?mekte olan ülkeler, hem kendilerine yetebilirlikleri hem de çevreye olan duyarlılıkları nedeniyle mevcut ve yenilenebilir enerji kaynaklarına yönelmenin önemine v"
+        },
+        {
+          "tez_no": "786134",
+          "title_tr": "Güneş ve rüzgar enerjisinde güç kalitesi analizi",
+          "author": "ANIL AKPINAR",
+          "year": 2023,
+          "score": 0.9208,
+          "abstract_excerpt": "Günümüzde dünya popülasyonunun artması, şehirlerin ve tesislerin büyüyüp \ngelişmesi, ülkelerin enerji rezervlerini kontrol etme ihtiyacı, enerjiye olan talebi\nve stratejik önemini her geçen gün daha da arttırmaktadır. Çünkü ülkelerin enerji \nihtiyaçlarını karşılamasıyla, refah seviyelerini arttırma "
+        },
+        {
+          "tez_no": "406567",
+          "title_tr": "Ulusal enerji şebekesine bağlanabilecek optimum rüzgar enerji potansiyelinin belirlenmesi",
+          "author": "ALİ ERDUMAN",
+          "year": 2015,
+          "score": 0.9197,
+          "abstract_excerpt": "Fosil enerji kaynaklarının hızla tükenmelerine ek olarak çevreye vermiş oldukları zararlı etkilerin gün geçtikçe artması insanları alternatif enerji kaynağı arayışına yönlendirmektedir. Alternatif enerji kaynakları içinde yenilenebilir ve hızlı kurulum özelliği ile rüzgar enerjisi ön plana çıkmaktad"
+        },
+        {
+          "tez_no": "311104",
+          "title_tr": "Yenilenebilir enerji kaynaklarından rüzgâr ile üretilen enerjinin ekonomik değerinin Markov zinciri ile modellenmesi ve Yalova ilinde bir uygulama",
+          "author": "SELİN KARATEPE",
+          "year": 2011,
+          "score": 0.9136,
+          "abstract_excerpt": "Enerji, ekonominin temel girdilerinden biri, sosyal ve ekonomik kalkınmanın vazgeçilmez bir unsurudur. Dengeli ve sürdürülebilir bir kalkınma ucuz, yeterli ve güvenilir enerji kaynaklarına sahip olmakla ve bu kaynakların yönetiminde kalitenin ve etkinliğin sağlanmasıyla yakından ilgilidir. Türkiye, "
+        },
+        {
+          "tez_no": "282700",
+          "title_tr": "Rüzgar enerjisinin optimizasyonu",
+          "author": "GÖNENÇ AYDIN",
+          "year": 2010,
+          "score": 0.9136,
+          "abstract_excerpt": "Enerji, özellikle de elektrik enerjisi insan hayatındaki önemini gün geçtikçe arttırmaktadır. Günümüz koşullarında enerji olmadan hayatlarımızı sürdürmek neredeyse mümkün değildir. Bunun yanı sıra gelişen teknolojiyle birlikte ortaya çıkan çağdaş gereksinimlerden dolayı, her geçen gün artan elektrik"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 13,
+      "findings": [
+        {
+          "claim": "Türkiye enerji ihtiyacının büyük bölümünü ithalat yoluyla karşılamakta olup, yenilenebilir enerji kaynaklarına ve özellikle rüzgar enerjisine yönelim artmaktadır.",
+          "citations": [
+            "486752",
+            "354580",
+            "814078",
+            "638341",
+            "523795",
+            "809749",
+            "181784",
+            "517707",
+            "755199",
+            "259594",
+            "291861",
+            "275805",
+            "732384",
+            "312182",
+            "787759",
+            "295926",
+            "826613",
+            "233046",
+            "202606",
+            "889764",
+            "154915",
+            "112252",
+            "443352",
+            "487785",
+            "477230",
+            "263013",
+            "786134",
+            "406567",
+            "311104",
+            "282700",
+            "389452"
+          ]
+        },
+        {
+          "claim": "Rüzgar enerjisi potansiyelinin belirlenmesinde Weibull dağılım fonksiyonu başta olmak üzere istatistiksel yöntemler yaygın olarak kullanılmaktadır.",
+          "citations": [
+            "523795",
+            "638341",
+            "814078",
+            "154915",
+            "732384"
+          ]
+        },
+        {
+          "claim": "Türkiye'de rüzgar enerjisi potansiyeli en yüksek bölgeler Marmara ve Ege bölgeleri olup, özellikle Alaçatı, Gökçeada, Datça, Bozcaada gibi yerler elverişlidir.",
+          "citations": [
+            "181784",
+            "7"
+          ]
+        },
+        {
+          "claim": "Türkiye'nin toplam rüzgar gücü potansiyeli 88.000 MW olarak hesaplanmış, şebekeye bağlanabilir optimum değer ise 13.260 MW olarak belirlenmiştir.",
+          "citations": [
+            "406567"
+          ]
+        },
+        {
+          "claim": "Rüzgar enerjisi santrallerinin kuruluş yeri seçimi, optimum türbin seçimi ve fizibilite analizi yatırım kararlarında kritik öneme sahiptir.",
+          "citations": [
+            "517707",
+            "291861",
+            "233046",
+            "826613",
+            "17"
+          ]
+        },
+        {
+          "claim": "Rüzgar enerjisi, fosil yakıtlara kıyasla çevre dostu ve sürdürülebilir bir enerji kaynağı olarak öne çıkmakta, küresel ısınma ve çevre kirliliği sorunlarına çözüm sunmaktadır.",
+          "citations": [
+            "523795",
+            "755199",
+            "259594",
+            "291861",
+            "312182",
+            "786134",
+            "282700",
+            "389452"
+          ]
+        },
+        {
+          "claim": "Rüzgar enerjisi yatırımlarının artmasıyla birlikte sosyal kabul düzeyi, lisans/lisanssız üretim mevzuatı ve finansman seçenekleri gibi konular önem kazanmıştır.",
+          "citations": [
+            "889764",
+            "354580",
+            "443352",
+            "389452",
+            "311104"
+          ]
+        },
+        {
+          "claim": "Rüzgar türbinlerinin verimliliğinin artırılması için enerji verimliliği simülasyonları ve optimizasyon çalışmaları yapılmaktadır.",
+          "citations": [
+            "826613",
+            "282700",
+            "30"
+          ]
+        },
+        {
+          "claim": "Türkiye'de rüzgar enerjisi santrali ilk olarak 1998 yılında İzmir'de kurulmuştur.",
+          "citations": [
+            "814078"
+          ]
+        },
+        {
+          "claim": "Rüzgar enerjisi santrallerinin yaşam sonu stratejileri (geri dönüşüm, atık yönetimi) giderek daha fazla önem kazanmaktadır.",
+          "citations": [
+            "787759"
+          ]
+        },
+        {
+          "claim": "Osmaniye ve İskenderun-Belen gibi Akdeniz Bölgesi'ndeki alanlar da rüzgar enerjisi potansiyeli açısından incelenmiş ve değerlendirilmiştir.",
+          "citations": [
+            "486752",
+            "202606"
+          ]
+        },
+        {
+          "claim": "Rüzgar enerjisinin elektrik şebekesine entegrasyonu ve güç kalitesi üzerine etkileri analiz edilmiştir.",
+          "citations": [
+            "275805",
+            "786134",
+            "406567"
+          ]
+        },
+        {
+          "claim": "Yenilenebilir enerji kaynaklarının (rüzgar ve güneş) kuruluş maliyetleri ve ekonomik karşılaştırmaları yapılmıştır.",
+          "citations": [
+            "477230",
+            "312182",
+            "295926"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Kaynaklar arasında belirgin bir çelişki bulunmamaktadır. Tüm tezler rüzgar enerjisinin önemi, potansiyeli ve Türkiye'deki durumu konusunda uyumlu bulgular sunmaktadır."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Rüzgar türbinlerinin teknik verimlilik parametreleri (kapasite faktörü, güç eğrisi, türbin tipleri vb.)",
+        "Türkiye'deki rüzgar türbini teknolojilerinin karşılaştırmalı analizi (yerli üretim, ithal teknolojiler)",
+        "Rüzgar hızı ölçümleri ve saha bazlı verimlilik değerlendirmeleri (belirli santrallerin performans verileri)",
+        "Rüzgar enerjisinin diğer yenilenebilir kaynaklarla (güneş, hidroelektrik) entegre kullanımı ve hibrit sistem potansiyeli",
+        "İklim değişikliğinin rüzgar rejimlerine ve dolayısıyla türbin verimliliğine etkisi",
+        "Türkiye'de rüzgar enerjisi hedefleri, teşvik mekanizmaları ve YEKDEM gibi politika çerçeveleri",
+        "Rüzgar türbinlerinin çevresel etkileri (gürültü, kuş ölümleri, görsel kirlilik) ve bu etkilerin verimlilikle ilişkisi"
+      ],
+      "requery_terms": [
+        "Türkiye rüzgar türbini kapasite faktörü verimlilik",
+        "Türkiye rüzgar enerjisi santrali performans analizi",
+        "Türkiye rüzgar türbini teknolojisi yerli üretim",
+        "Türkiye rüzgar-güneş hibrit sistem potansiyeli",
+        "iklim değişikliği Türkiye rüzgar rejimi etkisi",
+        "YEKDEM rüzgar enerjisi teşvik Türkiye",
+        "rüzgar türbini çevresel etki kuş ölümü gürültü Türkiye",
+        "Türkiye rüzgar enerjisi hedefleri 2035"
+      ],
+      "notes": "Mevcut sentez, rüzgar enerjisinin genel potansiyeli, bölgesel dağılımı ve bazı çevresel/ekonomik yönlerini kapsamakla birlikte, soruda doğrudan vurgulanan 'rüzgar türbinlerinin verimliliği' boyutunu yeterince derinlemesine ele almamaktadır. Özellikle teknik verimlilik parametreleri (kapasite faktörü, güç eğrisi, türbin tipleri), saha bazlı performans verileri, yerli/ithal teknoloji karşılaştırmaları, hibrit sistem potansiyeli, iklim değişikliğinin rüzgar rejimlerine etkisi ve politika/teşvik çerçeveleri gibi alt-açılar örtülmemiştir. Önerilen anahtar kelimeler, bu boşlukları doldurmak üzere korpusta somut arama yapmaya uygun şekilde seçilmiştir."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nTürkiye, enerji ihtiyacının büyük bir bölümünü ithalat yoluyla karşılayan bir ülke konumunda olup, fosil yakıtların hızla tükenmesi ve çevresel etkileri nedeniyle yenilenebilir enerji kaynaklarına, özellikle rüzgar enerjisine yönelim giderek artmaktadır [1][2][3]. Bu bağlamda, rüzgar türbinlerinin Türkiye'deki potansiyeli ve verimliliği üzerine çok sayıda akademik çalışma yapılmıştır. Bu çalışmalar, rüzgar enerjisi potansiyelinin belirlenmesinden optimum türbin seçimine, fizibilite analizlerinden sosyal kabul düzeyine kadar geniş bir yelpazeyi kapsamaktadır.\n\n## Rüzgar Enerjisi Potansiyelinin Belirlenmesinde Kullanılan Yöntemler\n\nRüzgar enerjisi potansiyelinin doğru bir şekilde belirlenmesi, yatırım kararları açısından kritik öneme sahiptir. Bu amaçla, başta Weibull dağılım fonksiyonu olmak üzere çeşitli istatistiksel yöntemler yaygın olarak kullanılmaktadır [4][5][6][21][13]. Rüzgar hızının istatistiksel özelliklerinin analiz edilmesi, bir bölgenin enerji potansiyelinin değerlendirilmesinde temel yaklaşım olarak öne çıkmaktadır [5]. Ayrıca, genetik algoritma gibi hesaplamalı yöntemler de rüzgar enerjisi potansiyelinin hesaplanmasında kullanılmaktadır [4].\n\n## Türkiye'de Rüzgar Enerjisi Potansiyeli Yüksek Bölgeler\n\nTürkiye'de rüzgar enerjisi potansiyelinin en yüksek olduğu bölgeler Marmara ve Ege bölgeleridir [7]. Özellikle Alaçatı, Gökçeada, Datça ve Bozcaada gibi yerler rüzgar enerjisi üretimi açısından en elverişli alanlar olarak belirlenmiştir [7]. Bununla birlikte, Akdeniz Bölgesi'nde Osmaniye ve İskenderun-Belen gibi alanlar da rüzgar enerjisi potansiyeli açısından incelenmiş ve değerlendirilmiştir [1][19]. Türkiye'nin toplam rüzgar gücü potansiyeli 88.000 MW olarak hesaplanmış, ulusal elektrik şebekesine bağlanabilecek optimum değer ise 13.260 MW olarak belirlenmiştir [28].\n\n## Rüzgar Türbini Yatırımlarında Fizibilite ve Optimizasyon Çalışmaları\n\nRüzgar enerjisi santrallerinin kuruluş yeri seçimi, optimum türbin seçimi ve fizibilite analizi, yatırım kararlarında kritik öneme sahiptir [8][11][18][17]. Bu kapsamda, rüzgar türbinlerinin verimliliğinin artırılması için enerji verimliliği simülasyonları ve optimizasyon çalışmaları yürütülmektedir [17][30]. Rüzgar enerjisi yatırımlarının artmasıyla birlikte, sosyal kabul düzeyi, lisanslı ve lisanssız üretim mevzuatı ile finansman seçenekleri gibi konular da önem kazanmıştır [20][2][23][31][29].\n\n## Rüzgar Enerjisinin Çevresel ve Ekonomik Boyutları\n\nRüzgar enerjisi, fosil yakıtlara kıyasla çevre dostu ve sürdürülebilir bir enerji kaynağı olarak öne çıkmakta, küresel ısınma ve çevre kirliliği sorunlarına çözüm sunmaktadır [5][9][10][11][14][27][30][31]. Yenilenebilir enerji kaynaklarının (rüzgar ve güneş) kuruluş maliyetleri ve ekonomik karşılaştırmaları yapılmış, rüzgar enerjisinin elektrik şebekesine entegrasyonu ve güç kalitesi üzerine etkileri analiz edilmiştir [25][14][16][12][27][28]. Ayrıca, rüzgar enerjisi santrallerinin yaşam sonu stratejileri (geri dönüşüm, atık yönetimi) giderek daha fazla önem kazanmaktadır [15].\n\n## Tarihsel Gelişim\n\nTürkiye'de ilk rüzgar enerjisi santrali 1998 yılında İzmir'de kurulmuştur [3]. Bu tarihten itibaren rüzgar enerjisi alanındaki yatırımlar ve akademik çalışmalar hız kazanmış, ülkenin enerji portföyünde rüzgar enerjisinin payı giderek artmıştır.\n\n## Sonuç\n\nTürkiye'de rüzgar türbinlerinin potansiyeli ve verimliliği üzerine yapılan akademik çalışmalar, ülkenin önemli bir rüzgar enerjisi potansiyeline sahip olduğunu ve bu potansiyelin özellikle Marmara, Ege ve kısmen Akdeniz bölgelerinde yoğunlaştığını göstermektedir. Weibull dağılımı başta olmak üzere istatistiksel yöntemlerle yapılan analizler, potansiyelin doğru belirlenmesinde temel araçlar olarak kullanılmaktadır. Rüzgar enerjisi yatırımlarının artırılması, enerjide dışa bağımlılığı azaltma potansiyeli taşırken, çevre dostu ve sürdürülebilir bir enerji arzı sağlamaktadır. Bununla birlikte, optimum türbin seçimi, fizibilite analizleri, şebeke entegrasyonu, sosyal kabul ve finansman gibi konular, yatırımların başarısı için dikkate alınması gereken önemli faktörler olarak öne çıkmaktadır.",
+      "n_citations": 31,
+      "citations_ieee": [
+        "[1] CENK ÖZTÜRK, \"Osmaniye ili sınırları içerisindeki bir bölgenin rüzgar enerjisi potansiyelinin analiz edilmesi,\" Yüksek Lisans/Doktora tezi, Osmaniye Korkut Ata Üniversitesi / Fen Bilimleri Enstitüsü / Makine Mühendisliği Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RrI-Krk3A-RkF4YfHofuk3KlBjMnkplC10oHM5xW2Bg7BDGbnjTwkw6CfUK799tk",
+        "[2] GÜVENİR KAAN ESEN, \"Başlangıcından günümüze Türkiye'de rüzgâr enerjisi mevzuatı lisanslı ve lisanssız üretim,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Enerji Enstitüsü / Enerji Bilim ve Teknoloji Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1zw6GvYMe-q3Hf6HR-3US3nAUKr5lNCXWMjOxkAKnzCts2_Q4c39aFA1MbF8gza4",
+        "[3] ALİ ORHAN, \"Türkiye rüzgâr enerjisi potansiyelinin olasılık dağılım parametreleri kullanılarak bölgelere göre analizi,\" Yüksek Lisans/Doktora tezi, İstanbul Medeniyet Üniversitesi / Lisansüstü Eğitim Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=a0OMTmEd_3mfOBxT8SiBTC5b1Nj-cWn81cPjzHSVb0-VheWTsmLWSU9bAFIMdI5k",
+        "[4] MELİH BURAK KOCA, \"Rüzgâr enerji potansiyelinin istatistiksel yöntemler ve genetik algoritmayla hesaplanması,\" Yüksek Lisans/Doktora tezi, Burdur Mehmet Akif Ersoy Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=_F5QEpayDXGqGZlp9XiFtJHNIpe170fdR_HJqzbluaISlkdWNYu6zUKg32DvdWie",
+        "[5] HIDIR SERKENDİZ, \"Türkiye'nin rüzgâr enerji potansiyelinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Çanakkale Onsekiz Mart Üniversitesi / Sosyal Bilimler Enstitüsü / Coğrafya Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fS4sqEZr79C_n60Rk6MjFaeLPlvQ7cMIxjgvQIG4RN2Wg6OUIbGuEhd8N2e2hGlp",
+        "[6] YASİN ASLAN, \"Yenilenebilir enerji kaynaklarının enerji ihtiyacını karşılamadaki payının artırılması kapsamında Türkiye rüzgar enerjisinden yararlanma analizi,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Fen Bilimleri Enstitüsü / Makine Mühendisliği Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=j_Fjwp4JS4mk97Puqti8ri1vfp8qKMM_wjtWPVnFvuDiFEzh2os3wS085ED9yydg",
+        "[7] ÖMER ERGÜR, \"Rüzgar türbinleri ile enerji üretimi,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı, 2006. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-L8ilcwn9ZRRc_YMKxXW1rYiBzGh-7PQptt_XzyyvuRGmcWIRAwLeN33tFPOBCQu",
+        "[8] MERT ALTINKAYA, \"Bir rüzgar enerji santralinin kuruluş yerinin tespiti, optimum türbin seçimi ve fizibilite analizinin gerçekleştirilmesi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik Mühendisliği Ana Bilim Dalı / Elektrik Makinaları ve Güç Elektroniği Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=hcgrYffRbz0Z44UJEuLtwdyfiWeH8jxVlDETnW46Z_40NQaj3O5ZOPQeDGZsvFvC",
+        "[9] HANDE NUR ALP, \"Türkiye'de güneş ve rüzgâr enerjisi potansiyeli indeksinin belirlenmesi ve rüzgâr türbini tasarımı,\" Yüksek Lisans/Doktora tezi, Harran Üniversitesi / Fen Bilimleri Enstitüsü / Endüstri Mühendisliği Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RsTBl6RWK25OBMIKtIgYYYbpLoFTW3XvOJJko4a-5F0ngfNvXwOtrh03LzYUh1z4",
+        "[10] MUZAFFER YÜCEL, \"Rüzgar enerji sistemleri ve uygulamaları,\" Yüksek Lisans/Doktora tezi, Çanakkale Onsekiz Mart Üniversitesi / Fen Bilimleri Enstitüsü / Fizik Eğitimi Ana Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=NtBAevXNhYaNqJFoAcdBdrWr1GxeKhDfK25cTHIiHI3bMiq9A7XbbmHACEIEdofY",
+        "[11] SERDAR DURDYEV, \"Rüzgar enerjisinde uygun türbin seçimi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Hidrolik ve Su Kaynakları Mühendisliği Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGqmS2pP1wLIev-77_XlUImym4oPjdubrJJ46cOZPdli-",
+        "[12] MURAT ÖZDEMİR, \"Rüzgar enerjisi santrallerinin Türkiye elektrik enerji sistemine olan etkilerinin analizi,\" Yüksek Lisans/Doktora tezi, Kocaeli Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik Mühendisliği Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=veR1mHu9yoWjwcVUjCEoPFIb2njCvNtt7MPYzHfL4bvrNmVD6KWBRLpNFEk1RSK4",
+        "[13] MUSTAFA YILMAZ, \"Türkiye'nin bölgesel rüzgar enerji potansiyelinin dağılım fonksiyonları kullanılarak karşılaştırmalı analizi,\" Yüksek Lisans/Doktora tezi, Bilecik Şeyh Edebali Üniversitesi / Fen Bilimleri Enstitüsü / Enerji Sistemleri Mühendisliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFktP1w9PBzN463Qg1yEquFdy_y4H6HXmz0qaeoGVOaNRg",
+        "[14] SERHAT BİLGİN, \"Rüzgar hidroelektrik ve termik santrallerin ekonomik ve çevresel açıdan karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RYan9_S-Z7Eir3xdWGXBiL2vEsD4hZApM6qjoTRQQljNhFR4wll6iG89T3baX7qc",
+        "[15] EREN DEDE, \"Dünyada ve Türkiye'de rüzgar enerji santrallerinde yaşam sonu stratejilerinin değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı / Elektrik Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxGwN9fALN7fn9VVi8JDgfr5iKUrwVoTOIOfubPe60ai3",
+        "[16] GÜLNUR ARSLANOĞLU, \"Yenilenebilir güç üretiminin elektrik üretim sektörüne ve enerji maliyetlerine etkilerinin analizi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Makine Mühendisliği Ana Bilim Dalı / Enerji Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGuiZaKcc6Ygnps5Qqm4AlzB3gmt-9d2vR9uFlfS73KK1",
+        "[17] RESUL ÜNAL, \"Rüzgar enerji sistemlerinde enerji verimliliğinin arttırılması ve simülasyonu,\" Yüksek Lisans/Doktora tezi, Haliç Üniversitesi / Lisansüstü Eğitim Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı / Elektrik Elektronik Mühendisliği Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=nLNfCsWgUluh5T2iyudShkH-RYntOXn7QXb1R5b0segzlnM0xJ30JHKqtdUSeEeR",
+        "[18] TOLGA ATEŞ, \"Trakya bölgesindeki bir karargahta rüzgar enerjisi santrali fizibilite çalışması,\" Yüksek Lisans/Doktora tezi, İstanbul Ticaret Üniversitesi / Fen Bilimleri Enstitüsü / Endüstri Mühendisliği Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=UPP_Zu9isEmWGFXFCBYasYXsN17RxO27xns081F-HgQULp_fC0sPUIWDd2w7TKUn",
+        "[19] ALİ KEMAL ÇAKIR, \"İskenderun-Belen bölgesinin rüzgar enerjisi ve elektrik üretim potansiyeli,\" Yüksek Lisans/Doktora tezi, Hatay Mustafa Kemal Üniversitesi / Fen Bilimleri Enstitüsü / Makine Mühendisliği Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ePX_SaJ0b35Gq45swKG3lHCvpxjdHu7QQBgEV3caHR2OyYDcBqSwhZTWkFup2G5_",
+        "[20] ÇAĞDAŞ KILIÇ, \"Türkiye'de rüzgar enerjisinin sosyal kabul düzeyi ve halkın kabul/ reddetme tutum ve davranışlarının araştırılması,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Coğrafya Ana Bilim Dalı / Beşeri ve İktisadi Coğrafya Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-11O2_vwjvGxMQPcmx5aaXaPf_Gymll721UoVuTjRbwL",
+        "[21] BİLGE AKBIYIK, \"Türkiye'de ki rüzgar enerjisi potansiyelinin değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Kırıkkale Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı, 2004. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ERzfJLahXz4lHWyByonS6caYfRB7YXwmmnaL1wdMdPKSI5tQOksvR4Oim03N-bZf",
+        "[22] AHMET DURAN ŞAHİN, \"Türkiye rüzgarlarının alan-zaman modellemesi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü, 2001. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=7VkJg65xt2nwp1k6o1EsAyWWHs1gAoi7OmPvrCQxSap-4HgCDCLp6qzK5IlA1iKU",
+        "[23] MERVE ALACALI, \"Enerji Hukukunda lisans usulü: Rüzgar enerjisi örneği,\" Yüksek Lisans/Doktora tezi, Bahçeşehir Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=OykDDeWBWTL9-Wm52sZBrLxRH9HHvGzGG9U-_egzECekILIV9oQG-UyLIvFxn5co",
+        "[24] FATMA KADRİYE ÖRGEN, \"Rüzgar enerji sistemlerinin analizi ve yöresel bir uygulama,\" Yüksek Lisans/Doktora tezi, Süleyman Demirel Üniversitesi / Fen Bilimleri Enstitüsü / Enerji Sistemleri Mühendisliği Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RrI-Krk3A-RkF4YfHofuk6n9UScVTEVyxLVnDW6bbFgNwAIhmaex-cH5kM3OkcSt",
+        "[25] EMEL YILDIZ, \"Türkiye'de yenilenebilir enerji kaynakları, uygulama: Güneş enerji santrali ve rüzgar enerji santrali kuruluş maliyetleri,\" Yüksek Lisans/Doktora tezi, Trakya Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=7lOJX8w_8PRQU1mSHU6-jo4NMoIbUMFW5AyTeE-Ik7Rd9L8gR0mVU09e5-wgR_Bl",
+        "[26] SÜLEYMAN KARATAŞ, \"Türkiye'de yenilenebilir enerji kaynakları içerisinde rüzgar ve güneş enerjilerinin yeri,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Bölümü / İktisat Ana Bilim Dalı / Teknoloji ve Sanayi İktisadı Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ZeTyprYuef2HkaF3xt4wYpqmtcbzMyXrL-Rply_WAvqxfxmTt--XGVV8R-59IAR9",
+        "[27] ANIL AKPINAR, \"Güneş ve rüzgar enerjisinde güç kalitesi analizi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik Mühendisliği Ana Bilim Dalı / Elektrik Tesisleri Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxLz3bwf3EbEnJRRJaJ_4BZBU155DXRYXzpiZyiVLN1df",
+        "[28] ALİ ERDUMAN, \"Ulusal enerji şebekesine bağlanabilecek optimum rüzgar enerji potansiyelinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik Mühendisliği Ana Bilim Dalı / Elektrik Tesisleri Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=X-M9ZoIuIoNTj2P7iY13hXmODBhnQFiCylZ4tEJ3q0LC63vQzBpMxUqde9ynLmJc",
+        "[29] SELİN KARATEPE, \"Yenilenebilir enerji kaynaklarından rüzgâr ile üretilen enerjinin ekonomik değerinin Markov zinciri ile modellenmesi ve Yalova ilinde bir uygulama,\" Yüksek Lisans/Doktora tezi, Uludağ Üniversitesi / Sosyal Bilimler Enstitüsü / Ekonometri Ana Bilim Dalı / Yöneylem Araştırması Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RYan9_S-Z7Eir3xdWGXBiEac7J94Qyhls6nOaUPICw3arMLCqO2VoAbA0ZQaOtzR",
+        "[30] GÖNENÇ AYDIN, \"Rüzgar enerjisinin optimizasyonu,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zD1B0cW7zVr3VcnZjitVXi3JJbX38REgNTy45tGGFKAaIApET8yijSz-Grr2S-oN",
+        "[31] GÜNGÖR BAŞAR, \"Rüzgar enerjisi yatırım projelerinde finansman seçeneklerinin karşılaştırılması,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik Mühendisliği Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sY7m19PfcL6F1NUw-cr80P7jgwCiK4WS8UWh9Fdckykc6iVT03q_1YoawIHkVIw6"
+      ]
+    }
+  },
+  "error": null
+}

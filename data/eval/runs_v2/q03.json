@@ -1,0 +1,272 @@
+{
+  "id": "q03",
+  "category": "computer_science",
+  "type": "application",
+  "question": "Derin öğrenme yöntemleri Türkiye'deki sel ve taşkın tahmininde nasıl uygulanmıştır?",
+  "expected_subjects": [
+    "İnşaat Mühendisliği",
+    "Bilgisayar Mühendisliği",
+    "Çevre Mühendisliği"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 60.27,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Türkiye'de sel ve taşkın tahmini için kullanılan derin öğrenme modelleri (CNN, LSTM, RNN, hibrit vb.) nelerdir ve hangi veri kaynakları (yağış, akış, topografya vb.) ile beslenmiştir?",
+          "rationale": "Yöntem ve veri çeşitliliğini ortaya koyarak hangi derin öğrenme mimarilerinin tercih edildiğini ve hangi girdi verilerinin kullanıldığını belirlemek."
+        },
+        {
+          "text": "Bu çalışmalarda derin öğrenme modellerinin performansı geleneksel yöntemler (yapay sinir ağları, istatistiksel modeller, fizik tabanlı modeller) ile karşılaştırıldığında nasıl bir fark ortaya çıkmıştır?",
+          "rationale": "Derin öğrenmenin taşkın tahmininde geleneksel yöntemlere göre üstünlük veya zayıflıklarını değerlendirmek."
+        },
+        {
+          "text": "Türkiye'deki sel ve taşkın tahmini çalışmalarında derin öğrenme modellerinin karşılaştığı başlıca sınırlılıklar (veri azlığı, hesaplama maliyeti, genelleme sorunu vb.) nelerdir?",
+          "rationale": "Uygulamadaki engelleri ve modellerin pratikte karşılaştığı zorlukları tespit etmek."
+        },
+        {
+          "text": "Bu çalışmaların bulgularına göre, hangi derin öğrenme yaklaşımı hangi taşkın türü (ani sel, nehir taşkını, kıyı taşkını) veya bölge (Karadeniz, Akdeniz, İç Anadolu vb.) için daha başarılı sonuçlar vermiştir?",
+          "rationale": "Bölgesel ve taşkın türüne göre hangi modelin daha uygun olduğunu belirleyerek uygulama odaklı bir çıkarım sağlamak."
+        },
+        {
+          "text": "Bu tezlerde önerilen derin öğrenme tabanlı taşkın tahmin sistemlerinin erken uyarı ve afet yönetimine entegrasyonu konusunda ne tür öneriler sunulmuştur?",
+          "rationale": "Akademik bulguların pratik afet yönetimine nasıl aktarılabileceğini ve uygulama potansiyelini değerlendirmek."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 24,
+      "max_score": 0.9091,
+      "min_score": 0.8405,
+      "chunks": [
+        {
+          "tez_no": "300941",
+          "title_tr": "Web servislerine dayalı bir afet ve acil durum yönetim sisteminin tasarlanması: Taşkın tahmin erken uyarı sistemleri örneği",
+          "author": "SEVSİN ERDOĞAN",
+          "year": 2011,
+          "score": 0.9091,
+          "abstract_excerpt": "Doğal ve insan kaynaklı afetlerin toplum açısından yıkıcı etkileri gün geçtikçeartmaktadır. Gelişen teknoloji ile birlikte afetlerin önceden tahmin edilmesine yönelikçalışmalar hızla artmakta ve toplumların maddi manevi zararlarının en aza indirilmesineyönelik afet yönetim sistemleri geliştirilmekte"
+        },
+        {
+          "tez_no": "565593",
+          "title_tr": "Yapay sinir ağları ile ortalama debi ve maksimum yağış tahmini İstanbul Göksu dere örneği",
+          "author": "ABDULGANİ FIRAT",
+          "year": 2019,
+          "score": 0.8977,
+          "abstract_excerpt": "Gelişen dünya, doğayı daha iyi tanımaya, doğadan maksimum fayda elde etmeye çalışmakta ve bunu yaparken doğal olaylardan en az zararla kurtulmaya çalışmaktadır. Yaşam ve medeniyet her zaman su kenarlarında başlamış ve büyümüştür. İnsanoğlu ilk günden beri hep nehir kenarlarına şehirler kurmuş, tarım"
+        },
+        {
+          "tez_no": "743690",
+          "title_tr": "Makine öğrenmesi kullanılarak hidrolojik modelleme: fırtına deresi örneği",
+          "author": "ENSAR EFENDİ CELEPCİ",
+          "year": 2021,
+          "score": 0.886,
+          "abstract_excerpt": "Su yeryüzündeki yaşamın temelini oluşturan maddedir. Suyun var olmaması dünya üzerindeki canlıların çok büyük bölümünün yaşamasını imkansız hale getirmektedir. Su canlılar ve insan için bu kadar önemliyken suya kolay ulaşım imkanı da aynı derecede önemli olmaktadır. Ancak suya yakın olmak bazı sorun"
+        },
+        {
+          "tez_no": "334737",
+          "title_tr": "Taşkın tehlikesinin belirlenmesi amacı ile otomatik yağış miktarı ölçüm sisteminin geliştirilmesi.",
+          "author": "YELİZ SARICAN",
+          "year": 2013,
+          "score": 0.8814,
+          "abstract_excerpt": "Doğal olarak meydana gelen afetlerin en önemlilerinden ve tahrip edicilerinden birisi taşkınlardır. Meteorolojik, jeomorfolojik ya da insan müdahalesi sonucunda meydana gelen taşkınlar çok sayıda can ve mal kaybına ayrıca çevre ve ekonomi üzerinde de oldukça ağır etkilere sebep olmaktadırlar. Taşkın"
+        },
+        {
+          "tez_no": "439608",
+          "title_tr": "Taşkın debilerinin tahmini için olasılık modeli yaklaşımı",
+          "author": "ESRA SÖKMEL",
+          "year": 2016,
+          "score": 0.8787,
+          "abstract_excerpt": "Taşkın bir dere yatağındaki mevcut su miktarının, havzaya normalden fazla yağmur yağması veya havzada mevcut kar örtüsünün erimesinden dolayı hızla artması ve yatak çevresinde yaşayan canlılara, arazilere, mal ve mülke zarar vermesi olayına denmektedir. \nTaşkın ekonomi ve insan hayatı açısından önem"
+        },
+        {
+          "tez_no": "632077",
+          "title_tr": "Sel–taşkın modellerinde hava lidar verilerinin kullanımı: Ulus Çayı örneği",
+          "author": "İBRAHİM ŞİMŞEK",
+          "year": 2020,
+          "score": 0.877,
+          "abstract_excerpt": "Sel ve taşkınlar dünyanın hemen her köşesinde yaşanmakta can kayıplarına ve büyük ekonomik kayıplara neden olmaktadır. Sel ve taşkınların insan yaşamına ve faaliyetlerine olan etkisini azaltmak ve ortadan kaldırmak için sel ve taşkına neden olan faktörler doğru bir şekilde araştırılması, sel ve taşk"
+        },
+        {
+          "tez_no": "548907",
+          "title_tr": "Yıllık anlık maksimum akımların, coğrafi veri bileşenleri ve yapay sinir ağları ile modellenmesi",
+          "author": "ESRA ASLI ÇUBUKÇU",
+          "year": 2019,
+          "score": 0.8731,
+          "abstract_excerpt": "Yıllık Anlık Maksimum Akım (YAMA), su yılı içerisindeki anlık olarak kaydedilen en büyük debiyi göstermektedir. Bu debi meydana geldiği yerde genelde taşkınla sonuçlanmaktadır. Taşkına sebebiyet veren en önemli parametreler ani yağışlar ve kar erimeleri olarak görülmektedir. Ortaya çıkan taşkın; yer"
+        },
+        {
+          "tez_no": "784410",
+          "title_tr": "Günlük nehir debilerinin mekan ve zaman  serisinde topluluk öğrenme yaklaşımı ile tahmini",
+          "author": "ÜMİT CANPOLAT",
+          "year": 2023,
+          "score": 0.8706,
+          "abstract_excerpt": "Canlı yaşamının devamlılığı için en önemli unsur olan suyun dünyada buharlaşma, yoğunlaşma, yağış, akış gibi aşamalardan geçerek sürekli bir döngü halinde bulunma durumuna su döngüsü adı verilmektedir. Su döngüsü içerisinde nehir akımlarının önemli bir yeri bulunmaktadır. Nehir akımının doğru bir şe"
+        },
+        {
+          "tez_no": "560049",
+          "title_tr": "Taşkın akımlarının tahmininde WRF-ARW ve HEC-HMS modellerinin birlikte kullanılması, Ergene Havzası örneği",
+          "author": "FATMA BETÜL DEMİR",
+          "year": 2019,
+          "score": 0.8677,
+          "abstract_excerpt": "Taşkınlar şiddetli yağışlar, kar erimeleri ve zeminin doyması ile birlikte akarsuyun yatağından taşarak çevresine yayılması sonucu oluşan ve büyük ölçüde ekonomik, sosyal, çevresel ve tarımsal zararlara neden olan doğal bir afettir. Son yıllarda nüfus artışı ile birlikte ekolojik dengenin bozulması "
+        },
+        {
+          "tez_no": "437316",
+          "title_tr": "Şehir taşkın modellemesi: Bodrum örnegi",
+          "author": "NUSSAIBAH BEGUM RAJA",
+          "year": 2016,
+          "score": 0.8662,
+          "abstract_excerpt": "Türkiye; topografik yapısının yüksek ve engebeli oluşu, jeolojik yapı ve toprakların erozyona karşı hassasiyeti, yarı kurak iklim şartlarının karakteristik özelliklerine sahip olması, şiddetli sağanak yağışlar sebebiyle, sel felaketine oldukça hassas bir yapıda bulunmaktadır. Türkiye'deki coğrafi bö"
+        },
+        {
+          "tez_no": "920485",
+          "title_tr": "Doğu Karadeniz Bölümünde 1950-2020 yılları arası yaşanan taşkınların makine öğrenimi ve diğer metotlar ile analizi",
+          "author": "UFUK YÜKSELER",
+          "year": 2024,
+          "score": 0.8654,
+          "abstract_excerpt": "Taşkın tahminleri, istatistiksel ve hidrolojik pek çok farklı modelleme yöntemi kullanılarak literatürde sıkça incelenmektedir. Ancak taşkınların önceden tahmini oldukça zordur. Bu zorluğun temel nedeni, taşkınlara etki eden çok sayıda parametrenin varlığıdır. Bu çalışmada, Türkiye'nin en fazla taşk"
+        },
+        {
+          "tez_no": "397766",
+          "title_tr": "Akarsu havzalarında topoğrafik nem indeksleri ile taşkına meyilli alanların belirlenmesi",
+          "author": "IŞITAN SELİN ERMİŞ",
+          "year": 2015,
+          "score": 0.8622,
+          "abstract_excerpt": "İnsanlar tarihten bu yana yerleşik hayata geçmek için su kenarlarını tercih etmiş, bu durumun dezavantajı olarak küçük ya da büyük ölçekli birçok taşkın olayına maruz kalmışlardır. Güvenilir barınma ve ekonomik gelişim sağlama ihtiyaçları açısından toplumlar için her zaman bir tehdit unsuru oluştura"
+        },
+        {
+          "tez_no": "843842",
+          "title_tr": "Coğrafi bilgi sistemleri tabanlı yarı dinamik sel ve taşkın tahmin modelinin geliştirilmesi",
+          "author": "RIDVAN ERTUĞRUL YILDIRIM",
+          "year": 2023,
+          "score": 0.8614,
+          "abstract_excerpt": "Afetler çağlar boyunca insanlık üzerinde en büyük yıkıcı etkiye sahip başlıca olaylardandır. Dünya genelinde artan nüfus insanları kentleşmeye itmekte, artan nüfus afetlerden etkilenen kişi sayısını doğrudan etkilemektedir. Dünya genelinde ek sık yaşanan afetler meteorolojik kökenli olanlardır. Rapo"
+        },
+        {
+          "tez_no": "769853",
+          "title_tr": "Kumaş imgelerinin derin öğrenme ile sınıflandırılması",
+          "author": "AYŞE AKPINAR",
+          "year": 2022,
+          "score": 0.8609,
+          "abstract_excerpt": "Her gün insan ve teknoloji etkileşiminden milyonlarca veri üretilmektedir. Bu verilerin\nişlenmesi ve belirli sonuçlar elde edilmesi bilginin varlığı açısından önemlidir. İnsanlar\ntarafından yapılan çıkarımlar artık gün geçtikçe başarı oranı artan, hata payı azalan yapay\nzekâ tabanlı sistemler tarafı"
+        },
+        {
+          "tez_no": "907271",
+          "title_tr": "Derin öğrenme modelleri için yeni ve özgün aktivasyon fonksiyonlarının geliştirilmesi",
+          "author": "ZEYNEP VİLDAN IŞIK",
+          "year": 2023,
+          "score": 0.8593,
+          "abstract_excerpt": "Derin öğrenme, insana ait davranışları büyük verileri kullanarak öğrenme algoritmalarıyla makinalara kazandırabilen sistemler bütünüdür. Derin öğrenmede kullanılan evrişimli sinir ağı modelleri verileri işleyerek analiz eder ve anlamlı çıktılar üretir. Derin öğrenme modelleri verileri sisteme tanıtm"
+        },
+        {
+          "tez_no": "522200",
+          "title_tr": "Kınıklı deresinin taşkın risk haritasının oluşturulması",
+          "author": "DERYA DAMÇAYIRI",
+          "year": 2018,
+          "score": 0.8592,
+          "abstract_excerpt": "Bu çalışmada, Kınıklı Deresi havzasında taşkın riskinin belirlenmesinde yağış verilerinden faydalanılmıştır. Yağıştan akışa geçilerek taşkın olayı tahmin edilip, taşkın risk haritaları üretilmiştir.\n\nKınıklı Deresi havzasında Çorlu ve Tekirdağ yağış gözlem istasyonlarından alınan yağış verileri olas"
+        },
+        {
+          "tez_no": "590847",
+          "title_tr": "Coğrafi bilgi modelleme sistemine dayalı taşkın risk analizi",
+          "author": "UĞUR ENGİN",
+          "year": 2019,
+          "score": 0.8548,
+          "abstract_excerpt": "Günümüzde iklim değişikliği ile birlikte dünyada ve ülkemizde kısa süreli ani yağışlar görülmektedir. Olumsuz hava şartlarının neden olduğu taşkın olayları önemli ölçüde can ve mal kaybına neden olabilmektedir. Taşkın zararlarını en düşük seviyeye indirebilmek için taşkın riski ön değerlendirme çalı"
+        },
+        {
+          "tez_no": "724182",
+          "title_tr": "Konvolüsyonel sinir ağlarında ağ eğitiminin iyileştirilmesi",
+          "author": "KÜBRA UYAR",
+          "year": 2022,
+          "score": 0.8534,
+          "abstract_excerpt": "Literatürde görüntü analizi problemlerinin çözümü için makine öğrenmesi yöntemleri kullanılarak farklı yaklaşımlar geliştirilmiştir. Fakat makine öğrenmesi yöntemleri ile görüntülerin analiz edilebilmesi için öncelikle özellik çıkarımının yapılması gerekmektedir. Ham veri üzerinde özellik keşfinin o"
+        },
+        {
+          "tez_no": "850321",
+          "title_tr": "Derin öğrenme modellerinin belirsizlik ölçümü",
+          "author": "SAMET GÜMÜŞ",
+          "year": 2024,
+          "score": 0.8448,
+          "abstract_excerpt": "Derin öğrenme modelleri, görüntü sınıflandırma, belirsizlikle başa çıkma yeteneklerini artırmaya, doğal dil işleme ve makine çevirisi gibi birçok alanda uzman insanları aşan performanslar sergilemektedir. Ancak, bu modeller belirsizlik durumlarını ele alırken zorluk yaşamaktadır, bu da yanlış kararl"
+        },
+        {
+          "tez_no": "682557",
+          "title_tr": "Derin öğrenme kullanılarak görüntülerden insan duruş tespiti",
+          "author": "FIRGAT MURADLİ",
+          "year": 2021,
+          "score": 0.8442,
+          "abstract_excerpt": "Son yıllarda insan pozu tahmini önemli ilerlemeler kaydetmiştir. Bununla birlikte, mevcut veri setleri, genel poz tahmin zorluklarını kapsama açısından sınırlıdır. Yine de bunlar sistemi değerlendirmek ve eğitmek için ortak kaynaklar olarak hizmet etmekte ve üzerinde farklı modeller karşılaştırılabi"
+        },
+        {
+          "tez_no": "845029",
+          "title_tr": "Derin öğrenme üzerine yapılmış uluslararası yayınların bibliyometrik analizi",
+          "author": "CANSU KIRIK",
+          "year": 2024,
+          "score": 0.8439,
+          "abstract_excerpt": "Son yıllarda gelişen teknoloji ve beraberinde gelişen teknolojik sistemeler sayesinde veriye ulaşmak daha basit hale gelmiştir. Veriye ulaşmanın kolaylaşması ile birlikte büyük veri yığınları oluşmuştur. Büyük veri içerinde istenilen çıktıya ulaşmak zorlaşmıştır. Bu durum aranan çıktıya ulaşma ihtiy"
+        },
+        {
+          "tez_no": "739584",
+          "title_tr": "Morfometrik parametrelerin taşkın üzerindeki etkilerinin incelenmesi",
+          "author": "İREM ŞAHİN",
+          "year": 2022,
+          "score": 0.8422,
+          "abstract_excerpt": "Taşkın, meteorolojik ve jeomorfolojik özellikler başta olmak üzere birçok nedene bağlı olarak akarsuyun yatağından taşması sonucu havzası dışına çıkarak çevreye yayılması olarak tanımlanabilir. Meydana gelecek olan taşkın, yerleşim birimleri ve tarım arazilerini etkilemekte, normal sosyo-ekonomik fa"
+        },
+        {
+          "tez_no": "467186",
+          "title_tr": "Taşkın modellemede LiDAR verisi ile performans analizleri",
+          "author": "HAKAN ÇELİK",
+          "year": 2017,
+          "score": 0.8416,
+          "abstract_excerpt": "Taşkınlar, dünyada pek çok ülkenin her yıl karşı karşıya kaldığı, en ciddi, yaygın ve maliyetli afetlerden birisidir. Günümüzde küresel ısınma arttıkça, taşkınlar da insanlığa yönelik küresel bir tehdit halini almaktadır. Bu nedenle riskli bölgeye ait klasik ölçme, fotogrametri ve uydu görüntülerind"
+        },
+        {
+          "tez_no": "334523",
+          "title_tr": "Taşkın kontrolünde tasarım debisinin ekonomik kriterlere göre belirlenmesi",
+          "author": "CÜNEYT CİVELEK",
+          "year": 2013,
+          "score": 0.8405,
+          "abstract_excerpt": "Ülkemizde taşkın afetleri, depremlerden sonra en çok can ve ekonomik kayıplara neden olan doğal afettir. Taşkınların büyüklüğü ve frekansı, su yapılarının boyutlandırılması için önemlidir. Taşkınlar, mühendislik hidrolojisinin en karmaşık problemlerini oluştururlar. Bu nedenle planlanan su yapıların"
+        }
+      ]
+    },
+    "synthesis": null,
+    "critic": null,
+    "iteration_count": 1,
+    "final": {
+      "answer_md": "## Giriş\n\nTürkiye'de sel ve taşkın olayları, depremlerden sonra en büyük can ve mal kaybına neden olan doğal afetler arasında yer almaktadır [5]. Ülkenin topografik yapısının yüksek ve engebeli oluşu, yarı kurak iklim şartları ve şiddetli sağanak yağışlar, sel felaketine karşı hassasiyeti artırmaktadır [10]. Son yıllarda derin öğrenme yöntemleri, taşkın tahmini ve erken uyarı sistemlerinde giderek daha fazla kullanılmaya başlanmıştır. Bu bağlamda, Türkiye'deki sel ve taşkın tahmin çalışmalarında derin öğrenme ve yapay zekâ tabanlı yaklaşımların nasıl uygulandığı önemli bir araştırma konusudur.\n\n## Yapay Sinir Ağları ile Taşkın Tahmini\n\nTürkiye'de taşkın tahmininde en yaygın kullanılan yapay zekâ yöntemlerinden biri yapay sinir ağları (YSA) olmuştur. Fırat [2], İstanbul Göksu Deresi örneğinde yapay sinir ağları kullanarak ortalama debi ve maksimum yağış tahmini gerçekleştirmiştir. Çubukçu [7] ise yıllık anlık maksimum akımların (YAMA) coğrafi veri bileşenleri ve yapay sinir ağları ile modellenmesini ele almış; taşkına sebebiyet veren debinin tahmin edilmesinin, alınacak önlemler ve zararların en aza indirilmesi açısından kritik önem taşıdığını vurgulamıştır.\n\n## Makine Öğrenmesi ve Topluluk Öğrenme Yaklaşımları\n\nMakine öğrenmesi yöntemleri, hidrolojik modelleme çalışmalarında önemli bir yer edinmiştir. Celepci [3], makine öğrenmesi kullanarak hidrolojik modelleme yapmış ve Fırtına Deresi örneğinde bu yaklaşımı uygulamıştır. Canpolat [8], günlük nehir debilerinin mekân ve zaman serisinde topluluk öğrenme yaklaşımı ile tahminini gerçekleştirmiş; nehir akımının doğru modellenmesinin sürdürülebilir su kaynakları planlaması ve yönetimi için önemine dikkat çekmiştir.\n\nYükseler [11], Doğu Karadeniz Bölümü'nde 1950-2020 yılları arasında yaşanan taşkınların makine öğrenimi ve diğer metotlar ile analizini yapmıştır. Çalışmada, taşkın tahmininin istatistiksel ve hidrolojik pek çok farklı modelleme yöntemi kullanılarak incelendiği, ancak taşkınlara etki eden çok sayıda parametrenin varlığı nedeniyle tahminin oldukça zor olduğu belirtilmiştir [11].\n\n## Derin Öğrenme ve Görüntü Tabanlı Yaklaşımlar\n\nDerin öğrenme, yapay zekânın bir alt dalı olarak derin katmanlı ağ mimarilerinin genel adıdır ve özellikle görüntü analizi problemlerinde özellik keşfinin otomatik olarak yapılabilmesini sağlamaktadır [18]. Işık [15], derin öğrenme modelleri için yeni ve özgün aktivasyon fonksiyonlarının geliştirilmesi üzerine çalışmış; evrişimli sinir ağı modellerinin verileri işleyerek analiz ettiğini ve anlamlı çıktılar ürettiğini belirtmiştir.\n\nAncak, mevcut kaynaklar incelendiğinde, derin öğrenme yöntemlerinin doğrudan sel ve taşkın tahminine uygulanmasına yönelik Türkiye özelinde sınırlı sayıda çalışma bulunmaktadır. Derin öğrenme üzerine yapılan ulusal çalışmaların büyük bir kısmı, görüntü sınıflandırma [14], insan duruş tespiti [20], kumaş imgelerinin sınıflandırılması [14] ve belirsizlik ölçümü [19] gibi farklı alanlara odaklanmıştır. Kırık [21], derin öğrenme üzerine yapılmış uluslararası yayınların bibliyometrik analizini gerçekleştirmiş ve bu alandaki çalışmaların küresel ölçekte arttığını ortaya koymuştur.\n\n## Hidrolojik Modelleme ve Coğrafi Bilgi Sistemleri Entegrasyonu\n\nTürkiye'de taşkın tahmin çalışmalarında geleneksel hidrolojik modeller ile Coğrafi Bilgi Sistemleri (CBS) entegrasyonu yaygın olarak kullanılmaktadır. Demir [9], Ergene Havzası örneğinde WRF-ARW ve HEC-HMS modellerini birlikte kullanarak taşkın akımlarının tahminini gerçekleştirmiştir. Yıldırım [13], CBS tabanlı yarı dinamik sel ve taşkın tahmin modeli geliştirmiştir. Engin [17] ise CBS'ye dayalı taşkın risk analizi çalışması yapmış; taşkın zararlarını en düşük seviyeye indirebilmek için erken uyarı sistemlerinin kullanılmasının çağımızın gereği olduğunu vurgulamıştır.\n\nLiDAR verilerinin taşkın modellemede kullanımı da dikkat çeken bir diğer yaklaşımdır. Şimşek [6], sel-taşkın modellerinde hava LiDAR verilerinin kullanımını Ulus Çayı örneğinde incelemiş; Çelik [23] ise taşkın modellemede LiDAR verisi ile performans analizleri gerçekleştirmiştir.\n\n## Erken Uyarı Sistemleri ve Otomatik Ölçüm Sistemleri\n\nTaşkın tahmin ve erken uyarı sistemlerinin oluşturulması, taşkın tehlikesinin önlenmesi ve kayıpların azaltılması açısından kritik öneme sahiptir [4]. Erdoğan [1], web servislerine dayalı bir afet ve acil durum yönetim sistemi tasarlamış ve taşkın tahmin erken uyarı sistemleri örneğini ele almıştır. Sarıcan [4], taşkın tehlikesinin belirlenmesi amacıyla otomatik yağış miktarı ölçüm sistemi geliştirmiştir. Bu sistemler, geleneksel yöntemlerle birlikte çalışmakta olup, derin öğrenme tabanlı yaklaşımların entegrasyonu henüz sınırlı düzeydedir.\n\n## Sonuç\n\nTürkiye'de sel ve taşkın tahmininde derin öğrenme yöntemlerinin uygulanması henüz emekleme aşamasındadır. Mevcut çalışmalar ağırlıklı olarak yapay sinir ağları, makine öğrenmesi ve geleneksel hidrolojik modeller ile CBS entegrasyonuna odaklanmıştır. Derin öğrenme yöntemleri, özellikle evrişimli sinir ağları ve topluluk öğrenme yaklaşımları, uluslararası literatürde taşkın tahmininde giderek daha fazla kullanılmakla birlikte, Türkiye özelinde bu alandaki çalışmaların sayısı sınırlıdır. Gelecekte, derin öğrenme tabanlı modellerin mevcut hidrolojik modeller ve erken uyarı sistemleri ile entegrasyonu, taşkın tahmin doğruluğunun artırılması ve afet yönetiminin iyileştirilmesi açısından önemli bir potansiyel taşımaktadır.",
+      "n_citations": 24,
+      "citations_ieee": [
+        "[1] SEVSİN ERDOĞAN, \"Web servislerine dayalı bir afet ve acil durum yönetim sisteminin tasarlanması: Taşkın tahmin erken uyarı sistemleri örneği,\" Yüksek Lisans/Doktora tezi, Ondokuz Mayıs Üniversitesi / Fen Bilimleri Enstitüsü / Harita Mühendisliği Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-AusPQ27O3d7Dg6YHOMGRbGcjKNMpJjVrIBtR8DmTR74s",
+        "[2] ABDULGANİ FIRAT, \"Yapay sinir ağları ile ortalama debi ve maksimum yağış tahmini İstanbul Göksu dere örneği,\" Yüksek Lisans/Doktora tezi, Sakarya Uygulamalı Bilimler Üniversitesi / Lisansüstü Eğitim Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / İnşaat Mühendisliği Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZlCB5ahGI7Y8Hl2AowXPvAJ53dE46ozGzhPAKgFTlNTK",
+        "[3] ENSAR EFENDİ CELEPCİ, \"Makine öğrenmesi kullanılarak hidrolojik modelleme: fırtına deresi örneği,\" Yüksek Lisans/Doktora tezi, Bolu Abant İzzet Baysal Üniversitesi / Lisansüstü Eğitim Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sELqxhTlFGAjsbjOuuiyCEyxK6JPCxrZGb0EzxwgAjg9vJZUWgjeuFciLhVJ_tKW",
+        "[4] YELİZ SARICAN, \"Taşkın tehlikesinin belirlenmesi amacı ile otomatik yağış miktarı ölçüm sisteminin geliştirilmesi.,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Fen Bilimleri Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vVNzTGHHhjH-u3WMToxQ-gQ7qfqv4sYqmJjMuOH3L2oYmw-Eliq1IIZpSYXpu64x",
+        "[5] ESRA SÖKMEL, \"Taşkın debilerinin tahmini için olasılık modeli yaklaşımı,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Hidrolik ve Su Kaynakları Mühendisliği Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cbOXH84ZayrLjc0tI-QXKr3SHr-xCkOXayjz0MlfZVctICwZw20p-lrOvA2b14_d",
+        "[6] İBRAHİM ŞİMŞEK, \"Sel–taşkın modellerinde hava lidar verilerinin kullanımı: Ulus Çayı örneği,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / Coğrafya Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=_F5QEpayDXGqGZlp9XiFtM_YXfO_vAIePRag4DKFkxjuQ9eOl7vLygHf_mwfWgKG",
+        "[7] ESRA ASLI ÇUBUKÇU, \"Yıllık anlık maksimum akımların, coğrafi veri bileşenleri ve yapay sinir ağları ile modellenmesi,\" Yüksek Lisans/Doktora tezi, KTO Karatay Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=T1mWGp9MngYYkCSgiJvtVg0M4UNFVRHassuc3SGW5BxejFXxAP4WHEPT8BtdnFuZ",
+        "[8] ÜMİT CANPOLAT, \"Günlük nehir debilerinin mekan ve zaman  serisinde topluluk öğrenme yaklaşımı ile tahmini,\" Yüksek Lisans/Doktora tezi, Erciyes Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxMWazyRReRUFNtHpzQxsb-XrDjIC06nreeASZwAAb5dM",
+        "[9] FATMA BETÜL DEMİR, \"Taşkın akımlarının tahmininde WRF-ARW ve HEC-HMS modellerinin birlikte kullanılması, Ergene Havzası örneği,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Meteoroloji Mühendisliği Ana Bilim Dalı / Atmosfer Bilimleri Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZvay9eHxtWd0wTV_B6DrGAwbf673n6iO6mH7Sy63hSGD",
+        "[10] NUSSAIBAH BEGUM RAJA, \"Şehir taşkın modellemesi: Bodrum örnegi,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Coğrafya Ana Bilim Dalı / Fiziki Coğrafya Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cbOXH84ZayrLjc0tI-QXKvaF9jNnS0kcss5ibl00pZ29KtILBBgP1i3pQJhMzkjj",
+        "[11] UFUK YÜKSELER, \"Doğu Karadeniz Bölümünde 1950-2020 yılları arası yaşanan taşkınların makine öğrenimi ve diğer metotlar ile analizi,\" Yüksek Lisans/Doktora tezi, İnönü Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Hidrolik Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=P3dtmmHrq-mzEcmCLi1CqQ5s3DtmkpGBalx2BXhkpVUTwBYLfd0owMs8f9Z1IgGF",
+        "[12] IŞITAN SELİN ERMİŞ, \"Akarsu havzalarında topoğrafik nem indeksleri ile taşkına meyilli alanların belirlenmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Hidrolik ve Su Kaynakları Mühendisliği Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WBc656i315e2eV6-EZV1otbQB_DBXZk3tNM0xbA2hwEz1mbfjx5LLhGV3jJEhKZM",
+        "[13] RIDVAN ERTUĞRUL YILDIRIM, \"Coğrafi bilgi sistemleri tabanlı yarı dinamik sel ve taşkın tahmin modelinin geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Ondokuz Mayıs Üniversitesi / Lisansüstü Eğitim Enstitüsü / Harita Mühendisliği Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHMjVyog3SZikUhZhkLPftF4B5M8_M3uAztau5O-snnia",
+        "[14] AYŞE AKPINAR, \"Kumaş imgelerinin derin öğrenme ile sınıflandırılması,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı / Yazılım Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiEX_9DqTWI0E7f3gIC9yQ6qv8gaciiwBgdep28O-TZSr",
+        "[15] ZEYNEP VİLDAN IŞIK, \"Derin öğrenme modelleri için yeni ve özgün aktivasyon fonksiyonlarının geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Erciyes Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=LY6e5xGA7WWUpEdrBmEPLjEwRnsk2jirSc5JeZF0hpi8rPsli5OGa3aBnhHX0cEO",
+        "[16] DERYA DAMÇAYIRI, \"Kınıklı deresinin taşkın risk haritasının oluşturulması,\" Yüksek Lisans/Doktora tezi, Süleyman Demirel Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Hidrolik Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fS4sqEZr79C_n60Rk6MjFYphqDQnsdGhn5WIYClReej0TTyEZtJecO0RBOSwuHjA",
+        "[17] UĞUR ENGİN, \"Coğrafi bilgi modelleme sistemine dayalı taşkın risk analizi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Hidrolik Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=npGs9H39x7G6401x51yqpJH9otZpzzSBaU_jdWvvO53wlQEyEy_8zuSIZd8XaKdx",
+        "[18] KÜBRA UYAR, \"Konvolüsyonel sinir ağlarında ağ eğitiminin iyileştirilmesi,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı / Bilgisayar Mühendisliği Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CG8WvdvvxJP04Unr7Yecf9yloko6XD8tvuJEYhSIIRQb0XJecsg4oTJcg9iPp-Q0",
+        "[19] SAMET GÜMÜŞ, \"Derin öğrenme modellerinin belirsizlik ölçümü,\" Yüksek Lisans/Doktora tezi, İstanbul Aydın Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı / Bilgisayar Mühendisliği Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cr4SkWLaRMhkDRBjqthpsR5vBLg5nGGNSziTTkzx9P9BcqUzXG9--6lbVmgOx7RJ",
+        "[20] FIRGAT MURADLİ, \"Derin öğrenme kullanılarak görüntülerden insan duruş tespiti,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar ve Bilişim Mühendisliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77LcAMjwhh1JeeliefUIBAxH0W2G3UnWFs3yJXwOJQ023z",
+        "[21] CANSU KIRIK, \"Derin öğrenme üzerine yapılmış uluslararası yayınların bibliyometrik analizi,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / İstatistik Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHNTPWIo6scCvBOFhtpeFFvElNNmNiaEBXxeA1UM66Oc5",
+        "[22] İREM ŞAHİN, \"Morfometrik parametrelerin taşkın üzerindeki etkilerinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkmlB4NykvCE3gfAtKwU1zeS4hbPBMXNPnLTBg_l7I4HN",
+        "[23] HAKAN ÇELİK, \"Taşkın modellemede LiDAR verisi ile performans analizleri,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Geomatik Mühendisliği Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpVSCA-zJcDCu6eYu9Pv46pL59Tpw-SHgYxif3Efem07f",
+        "[24] CÜNEYT CİVELEK, \"Taşkın kontrolünde tasarım debisinin ekonomik kriterlere göre belirlenmesi,\" Yüksek Lisans/Doktora tezi, Celal Bayar Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vVNzTGHHhjH-u3WMToxQ-pvRbJ6Jz35zomAp4Wh8yhJ6GhYcEDl4qEUYZvUwSPPl"
+      ]
+    }
+  },
+  "error": null
+}

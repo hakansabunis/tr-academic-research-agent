@@ -1,0 +1,458 @@
+{
+  "id": "q07",
+  "category": "education",
+  "type": "limitation",
+  "question": "Kapsayıcı eğitim uygulamalarının Türkiye'deki uygulanmasındaki temel sorunlar nelerdir?",
+  "expected_subjects": [
+    "Eğitim ve Öğretim"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 115.03,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Türkiye'de kapsayıcı eğitim uygulamalarında karşılaşılan yapısal ve politika düzeyindeki engeller nelerdir?",
+          "rationale": "Bu alt soru, kapsayıcı eğitimin uygulanmasındaki yasal, politik ve kurumsal düzeydeki sistemsel sorunları ortaya koyarak makro düzeydeki engelleri anlamamızı sağlar."
+        },
+        {
+          "text": "Öğretmen yeterlilikleri ve hizmet öncesi/hizmet içi eğitim açısından kapsayıcı eğitim uygulamalarında hangi sorunlar yaşanmaktadır?",
+          "rationale": "Bu alt soru, uygulamanın en kritik aktörü olan öğretmenlerin pedagojik yeterlilik, tutum ve eğitim ihtiyaçlarına odaklanarak insan kaynağı boyutundaki sorunları inceler."
+        },
+        {
+          "text": "Kapsayıcı eğitim uygulamalarında fiziksel altyapı, materyal ve kaynak yetersizlikleri nasıl bir sorun teşkil etmektedir?",
+          "rationale": "Bu alt soru, okulların fiziksel erişilebilirliği, özel eğitim materyalleri ve teknolojik altyapı gibi somut kaynak eksikliklerini ele alarak uygulamanın maddi boyutundaki engelleri ortaya koyar."
+        },
+        {
+          "text": "Türkiye'de kapsayıcı eğitim uygulamalarında aile katılımı ve toplumsal farkındalık düzeyi hangi sorunları barındırmaktadır?",
+          "rationale": "Bu alt soru, ebeveynlerin sürece dahil olması, toplumsal önyargılar ve farkındalık eksikliği gibi sosyal boyuttaki engelleri analiz ederek uygulamanın toplumsal kabul düzeyini sorgular."
+        },
+        {
+          "text": "Kapsayıcı eğitim uygulamalarında ölçme-değerlendirme süreçleri ve bireyselleştirilmiş eğitim programlarının (BEP) uygulanmasında karşılaşılan sorunlar nelerdir?",
+          "rationale": "Bu alt soru, özel gereksinimli öğrencilere yönelik değerlendirme yöntemleri ve BEP'lerin hazırlanması/uygulanmasındaki aksaklıklara odaklanarak pedagojik uygulama düzeyindeki sorunları inceler."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 41,
+      "max_score": 0.8834,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "872117",
+          "title_tr": "Türkiye'deki güncel eğitim politikalarında kapsayıcı eğitim",
+          "author": "MİNE KOZANHAN ÇAKIR",
+          "year": 2024,
+          "score": 0.8834,
+          "abstract_excerpt": "Kapsayıcı eğitim, her öğrencinin ayrıştırılmadan bireysel özelliklerini dikkate alarak gelişimini desteklemeyi hedefleyen bir süreçtir. Kapsayıcı eğitim anlayışında bireyler arasındaki farklılıklar bir zenginlik olarak görülür. Bu nedenle yayımlanan politika belgelerinde kapsayıcı eğitime yer verilm"
+        },
+        {
+          "tez_no": "861475",
+          "title_tr": "Bireyselleştirilmiş eğitim programının geliştirme, uygulama, izleme ve değerlendirme süreçlerini temele alan çalışmalara ilişkin sistematik bir derleme",
+          "author": "HÜSEYİN EMRE ÇELİK",
+          "year": 2023,
+          "score": 0.8399,
+          "abstract_excerpt": "Bu çalışmanın amacı; Türkiye'de bireyselleştirilmiş eğitim programı ile ilgili yürütülmüş çalışmalar bilimsel araştırma süreci basamakları doğrultusunda analiz edilerek araştırmaların geliştirme, uygulama, izleme ve değerlendirme süreçleri bakımından özelliklerini ortaya çıkarmaktır. Bu amaç doğrult"
+        },
+        {
+          "tez_no": "604891",
+          "title_tr": "Genel öğretmenlik yeterliliklerinin belirlenmesi ve yeterliliklere dayalı bir hizmet öncesi öğretmen eğitimi programının tasarlanması",
+          "author": "BÜLENT ALAN",
+          "year": 2019,
+          "score": 0.8204,
+          "abstract_excerpt": "Bu araştırmanın amacı, ölçülebilir ve gözlenebilir bir öğretmenlik mesleği genel yeterlilik çerçevesi belirlemek ve bu yeterlilikleri kazandırmaya yönelik hizmet öncesi öğretmen eğitimi program tasarısı ortaya koymaktır. Araştırma keşfedici sıralı karma yöntem deseninde tasarlanmıştır. Araştırmanın "
+        },
+        {
+          "tez_no": "185028",
+          "title_tr": "Meslek liselerinde öğretmen yeterliliği",
+          "author": "MEHMET HANİFİ UĞUR",
+          "year": 2006,
+          "score": 0.8126,
+          "abstract_excerpt": "İnsanlar doğdukları günden itibaren bir eğitim süreci içine girmekte, eğitim hayatın birparçası haline gelmektedir. İnsanlarda, önce yaşamsal eylemleri yerine getirme, biyolojik vefiziksel ihtiyaçlarını karşılamayı öğrenme ile ailede başlayan eğitim süreci, bir aileye, birtopluma ait olma, arkadaşlı"
+        },
+        {
+          "tez_no": "13407",
+          "title_tr": "Hizmet içi eğitim programlarının değerlendirme durumları /",
+          "author": "ALİ RIZA KARABAŞ",
+          "year": 1989,
+          "score": 0.8115,
+          "abstract_excerpt": "BOLUM IV ÖZET, YARGI we ÖNERİLER DZET Araştırma, kurumların hizmet içi eğitim programlarını nicelik ve nitelik olarak durumları açısından değerlendirerek, hizmet içi eğitim etkinliklerinin değerlendirilmesinin iyileş tirilmesine yönelik öneriler geliştirmek amacıyla düzenlenip yürütülmüştür. Araştır"
+        },
+        {
+          "tez_no": "897616",
+          "title_tr": "İlkokullarda görev yapan yönetici ve öğretmenlerin kapsayıcı eğitime dair görüşlerinin incelenmesi",
+          "author": "TÜRKAN BUCAKLIOĞLU",
+          "year": 2024,
+          "score": 0.8114,
+          "abstract_excerpt": "Bu çalışmada okul yöneticileri ve sınıf öğretmenlerinin kapsayıcı eğitime dair görüşlerinin incelenmesi amaçlanmıştır. Nitel araştırma yaklaşımı ile kurgulanan çalışma durum çalışması ile desenlenmiştir. Çalışmanın katılımcı grubunu Gaziantep ili merkez ilçelerinde bulunan ilkokullarda görev yapan 1"
+        },
+        {
+          "tez_no": "261124",
+          "title_tr": "Hizmet içi eğitim programlarının oluşturulmasına ilişkin öğretmen görüşleri",
+          "author": "MUSTAFA ÖZKAN",
+          "year": 2010,
+          "score": 0.8103,
+          "abstract_excerpt": "Ya?am boyu eğitimin bir gereği olan hizmet içi eğitim, çalı?anlara mesleklerinde daha ba?arılı, üretici ve mutlu olmasını sağlayacak bilgi, beceri ve tutumlar kazandırmayı amaçlamaktadır. Ülkemizde öğretmen ve diğer eğitim personelinin, hizmet içi eğitim yoluyla geli?im ve ilerlemelerinin sağlanması"
+        },
+        {
+          "tez_no": "417674",
+          "title_tr": "Halk eğitim merkezi kurslarına katılan kursiyerlerin beklentileri ve memnuniyet düzeyleri (Kastamonu ili örneği)",
+          "author": "HAYATİ ACUN",
+          "year": 2015,
+          "score": 0.8094,
+          "abstract_excerpt": "20. yüzyılın başından bu yana, dünyamız da sosyal, ekonomik ve kültürel olarak\nçok önemli değişim ve dönüşümlerin yaşandığı söylenilmektedir. Bu, değişim sürecinin\ntüm kurumları etkilediği ifade edilmektedir. Genel manada eğitimin de, bu değişim ve\ndönüşüm sürecinin dünyamızda meydana getirdiği yeni"
+        },
+        {
+          "tez_no": "262343",
+          "title_tr": "Türkiye için program değerlendirme standartları oluşturma çalışması",
+          "author": "İSMAİL YÜKSEL",
+          "year": 2010,
+          "score": 0.809,
+          "abstract_excerpt": "Eğitim programları, yetiştirilecek insan özelliklerinin belirleyicisidir. Bir ülkenin, bir kurumun eğitim programlarına bakılarak bu programların uygulanması sonucunda ortaya çıkacak eğitim çıktıları konusunda yordamalar yapılabilir. Bu nedenle uygulanan programların aksaklık ve eksiklikleri gideril"
+        },
+        {
+          "tez_no": "575928",
+          "title_tr": "Sosyal bilgiler öğretmenlerinin kapsayıcı eğitime yönelik tutum ve özyeterlikleri ile sınıf içi uygulamalara ilişkin görüşlerinin karşılaştırılması",
+          "author": "ÜNAL ŞİMŞEK",
+          "year": 2019,
+          "score": 0.8058,
+          "abstract_excerpt": "Kapsayıcı eğitim, sadece özel eğitime gereksinim duyan öğrencileri değil tüm öğrenciler için adil bir eğitim ortamı oluşturmayı benimseyen, toplumu \"herkes için kaliteli eğitim\" düşüncesi etrafında birleştiren, marjinalleştirici ve dışlayıcı tutum ve davranışlardan uzak bir okul iklimi oluşturmayı h"
+        },
+        {
+          "tez_no": "598631",
+          "title_tr": "İlköğretim yapılarında kapsayıcı tasarım için bir kılavuz önerisi",
+          "author": "NESLİHAN SAYGILI SESLİKAYA",
+          "year": 2019,
+          "score": 0.7982,
+          "abstract_excerpt": "Toplumda çoğunluktan \"farklı\" olmak çeşitli zorluklar yaratmaktadır. Farklılıkları olan bireyler gerek insanlar tarafından gerek yapısal çevre nedeniyle dışlanmakta ve kentsel demokratik haklarını kullanmaktan mahrum bırakılmaktadır. Bu haklardan birini oluşturan eğitim hakkının \"herkes için\" tam ve"
+        },
+        {
+          "tez_no": "764114",
+          "title_tr": "Fen bilimleri öğretmenlerinin kapsayıcı eğitim anlayışlarının incelenmesi",
+          "author": "KÜBRA GÜNGÖR",
+          "year": 2022,
+          "score": 0.7959,
+          "abstract_excerpt": "Kapsayıcılık günümüzde, toplum, politika ve eğitim yaklaşımları arasında oldukça tartışılan konulardandır. Bu yaklaşımın son yıllarda daha popüler olması, günümüzde öğrenci merkezli eğitimin benimsenmesi ile \"herkese yönelik eğitim\" vurgusu ile ilişkilendirilmektedir. Bu vurgunun gerçekleşebilmesi i"
+        },
+        {
+          "tez_no": "664942",
+          "title_tr": "Eğitim kurumlarının ailelere hesap verebilirliği: Ortaokullar için bir model önerisi",
+          "author": "ENDER KANALAN",
+          "year": 2021,
+          "score": 0.7949,
+          "abstract_excerpt": "Bu araştırmada; Türkiye koşullarına uygun, ortaokulların ailelere karşı hesap verebilecekleri bir model önermek amaçlanmıştır. Araştırmada karma araştırma deseni kullanılmıştır. Birinci aşamada; kavramsal çerçevede ve OECD ülkelerinde yer alan uygulamalar incelenerek, ailere karşı hesap vermeye iliş"
+        },
+        {
+          "tez_no": "836416",
+          "title_tr": "İlkokulda kapsayıcı eğitimin önündeki engellere yönelik öğretmen ve öğrenci görüşleri",
+          "author": "ŞEYMA AKINCI",
+          "year": 2023,
+          "score": 0.7948,
+          "abstract_excerpt": "Bu araştırmanın amacı ilkokullardaki kapsayıcı eğitimin niteliğini ve kapsayıcı eğitimin önündeki\nengellerin neler olduğunu belirlemektir. Kapsayıcı eğitimin niteliği ve önündeki engelleri\nbelirleyen bu çalışmada öğretmen ve öğrencilerin görüşlerinin incelenmesi alan yazına katkı\nsağlayabileceği düş"
+        },
+        {
+          "tez_no": "897181",
+          "title_tr": "Eğitimde aile katılımı ve okul-aile işbirliği: Tek ebeveynli ailelerin deneyimleri",
+          "author": "MELİKE YİĞİT",
+          "year": 2024,
+          "score": 0.7912,
+          "abstract_excerpt": "Eğitimde aile katılımı giderek önem kazanan bir kavram olmakla birlikte artan sayıda çalışma eğitimde aile katılımı ile çeşitli öğrenci başarı göstergelerini ve çocukların genel eğitim deneyimlerini ilişkilendirmektedir. Bununla birlikte mevcut araştırmalar ağırlıklı olarak, özellikle gelişmekte ola"
+        },
+        {
+          "tez_no": "694632",
+          "title_tr": "Eğitimde ölçme ve değerlendirme dersi programının değerlendirilmesi",
+          "author": "MUHAMMED AKINCI",
+          "year": 2021,
+          "score": 0.7797,
+          "abstract_excerpt": "Bu çalışmanın amacı, eğitim fakültelerinin tüm programlarında zorunlu olan, öğretmenlik meslek bilgisi derslerinden eğitimde ölçme ve değerlendirme dersi programının değerlendirilmesidir. Araştırmada karma yöntem tasarımlarından çok aşamalı değerlendirme tasarımı kullanılmıştır. Program değerlendirm"
+        },
+        {
+          "tez_no": "542870",
+          "title_tr": "Koruma ve bakım altında bulunan çocukların aile algısı: Bilecik örneği",
+          "author": "MUHAMMED ENES TEMELLİ",
+          "year": 2019,
+          "score": 0.7795,
+          "abstract_excerpt": "Bir toplumun hedeflediği refah düzeyine ulaşması, onu oluşturan bireylerin iyi ve nitelikli yetiştirilmesine bağlıdır. Bu sebeple gelecekte toplum içerisinde üretken bireyler olacak günümüz çocuklarının, değerlerini öğrenebileceği, eğitimini ve gelişimini sağlayabileceği ve sağlıklı ilişkiler kurabi"
+        },
+        {
+          "tez_no": "62354",
+          "title_tr": "Türkiye`de eğitim sisteminin genel amaçları ve temel ilkelerinin değerlendirilmesi /",
+          "author": "MEHMET MEHDİ İÇER",
+          "year": 1997,
+          "score": 0.7779,
+          "abstract_excerpt": "\"Türkiye'de Eğitim Sisteminin Genel Amaçlan ve Temel İlkelerinin Değerlendirilmesi\" başlığım taşıyan bu araşurmada,araştırma problemine ilişkin ayrıntılar dört alt problem halinde yanıtlanmıştır. Araştırmanın yöntemi betimsel bir yöntemdir. Araştırma problemini yanıtlamak için alanyazında ulaşılabil"
+        },
+        {
+          "tez_no": "407532",
+          "title_tr": "Bireyselleştirilmiş eğitim programı eğitiminin, kaynaştırma öğretmenlerinin BEP yeterliliklerine etkisi",
+          "author": "ŞERİFE ŞENAY İLİK",
+          "year": 2015,
+          "score": 0.7768,
+          "abstract_excerpt": "Eğitimde bireysel farklılıkların dikkate alınmasının benimsenmesi sınıf ortamındaki özel gereksinimli çocuklara uygun Bireyselleştirilmiş Eğitim Programlarının geliştirilmesini okul programlarının uyarlanmasını, derslerin kapsamının tüm özel gereksinimli bireylerin gereksinimlerini karşılayacak ölçü"
+        },
+        {
+          "tez_no": "211682",
+          "title_tr": "Öğretmenlerin ve velilerin okulöncesi eğitim kurumlarında uygulanan aile katılımı çalışmalarına ilişkin görüşleri",
+          "author": "MEHMET AKKAYA",
+          "year": 2007,
+          "score": 0.7757,
+          "abstract_excerpt": "Okulöncesi dönemde, çocugun gelisim ve egitiminde en etkin rol çocugun ailesindedir.\u000bAncak, bu dönemde, ailenin yanı sıra onun egitimini üstlenecek olan okulöncesi egitim\u000bkurumlarına da gereksinim duyulmaktadır. Ailenin ve okulöncesi egitim kurumlarının\u000bçocugun egitiminde istenilen düzeyde basarıyı "
+        },
+        {
+          "tez_no": "802579",
+          "title_tr": "Bireyselleştirilmiş Eğitim Programlarının (BEP) geliştirilmesi sürecine ilişkin bir durum çalışması",
+          "author": "ÇAĞRI GİRAY",
+          "year": 2023,
+          "score": 0.774,
+          "abstract_excerpt": "Çalışmanın amacı, özel eğitim öğretmenlerinin ve akademisyenlerin BEP geliştirme sürecine ve hizmet öncesi dönemde BEP ile ilgili verilen derslere ilişkin görüşlerini ortaya koymak, özel eğitim öğretmenlerinin BEP geliştirme sürecindeki izledikleri basamakları ve özel eğitim öğretmenleri tarafından "
+        },
+        {
+          "tez_no": "221446",
+          "title_tr": "Türkiye'de eğitime ayrılan kaynaklar ve eğitimin iktisadi büyüme ve Türk ekononmisindeki etkileri",
+          "author": "KUDRET COŞKUN",
+          "year": 2008,
+          "score": 0.7684,
+          "abstract_excerpt": "Ekonomik büyüme ve kalkınmanın sağlanmasında ülkeler için en önemli faktör iyi eğitilmiş ve verimli hale getirilmiş nitelikli insan gücü kaynağıdır. Ülkelerin uluslararası piyasalarda rekabet gücü elde edebilmesi için, iyi yetişmiş insan gücü olan beşeri sermayeye ihtiyacı vardır. Eğitim yoluyla bil"
+        },
+        {
+          "tez_no": "873209",
+          "title_tr": "Eşgüdümlü iki alan : Eğitim öğretim ve modernleşme",
+          "author": "MEHMET SALİH DEMİR",
+          "year": 2024,
+          "score": 0.7679,
+          "abstract_excerpt": "Eğitim-öğretim toplumu dönüştüren temel dinamiklerin başında gelmektedir. Toplum, eğitim aracılığıyla çağın koşullarına uyarak, başta iktisadi ve teknolojik olmak üzere her alanda rekabet yeteneği kazanır. Eğitimin işlev ve tanımı siyasi, ekonomik ve toplumsal gereksinime göre dinamik bir süreç olar"
+        },
+        {
+          "tez_no": "657858",
+          "title_tr": "Eğitim yapıları iç mekan konfigürasyonu odaklı bir denetim modeli",
+          "author": "ASLAN NAYEB KHOSROSHAHI",
+          "year": 2021,
+          "score": 0.7599,
+          "abstract_excerpt": "Türkiye'de her kademede eğitim ve eğitime bağlı, bina ve tesisleri milli eğitim bakanlığı tarafından toplumun ihtiyaçlarına ve hedeflenen eğitimin gereksinimlerine bağlı olarak planlanmakta ve yapılmaktadır. 1950'li yıllardan sonra Türkiye'de başta ekonomik sebepler olmak üzere birçok farklı sebeple"
+        },
+        {
+          "tez_no": "548507",
+          "title_tr": "1997-2017 yılları arasında kaynaştırma eğitimi ile ilgili yapılmış lisansüstü tezlerin çeşitli değişkenler açısından incelenmesi",
+          "author": "AYŞE GÜNDOĞDU IRMAK",
+          "year": 2019,
+          "score": 0.8817,
+          "abstract_excerpt": "1997–2017 yılları arasında Türkiye'de kaynaştırma eğitimi alanında yapılmış lisansüstü tezlerin çeşitli değişkenler açısından incelenmesini ve araştırmaların Türkiye'de ne boyutta olduğunun tespitini amaçlayan bu çalışma nitel verilere dayalı doküman analizi tekniği ile yapılan bir araştırmadır. Ara"
+        },
+        {
+          "tez_no": "263625",
+          "title_tr": "Sivas ili örneği'nde kaynaştırma eğitimi",
+          "author": "BETÜL GÜLDÜ",
+          "year": 2010,
+          "score": 0.8624,
+          "abstract_excerpt": "Bu araştırmanın amacı Sivas ili kaynaştırma eğitimi veren merkez ilköğretim okullarında kaynaştırmaya tabi tutulan öğrencilerin öğretmenleri ve anne-babalarının kaynaştırma eğitimi hakkındaki görüşlerini almaktır. Araştırma kapsamına 12 ilköğretim okulunda görev yapan 68 sınıf öğretmeninin ve bu öğr"
+        },
+        {
+          "tez_no": "394701",
+          "title_tr": "Kaynaştırma eğitiminin uygulanmasında karşılaşılan sorunların değerlendirilmesine yönelik nitel bir çalışma",
+          "author": "CÜNEYT DEMİR",
+          "year": 2015,
+          "score": 0.8561,
+          "abstract_excerpt": "Bu çalışmanın amacı özel eğitime muhtaç bireylerin yaşıtlarıyla aynı ortam ve sınıf düzeyinde bulundurularak sosyalleşmeleri, kendilerine olan güvenlerini artırma, yaşıtlarından ayrı tutulmadan insancıl haklarına uygun biçimde kendi kişiliğini geliştirme yönünde eğitim almalarını hedefleyen kaynaştı"
+        },
+        {
+          "tez_no": "588057",
+          "title_tr": "İlk ve ortaokullarda kaynaştırma eğitimi uygulamalarına ilişkin veli, yönetici ve öğretmen görüşleri (Sivas ili örneği)",
+          "author": "HALİME ERÜSTÜN BULUTOĞLU",
+          "year": 2019,
+          "score": 0.8508,
+          "abstract_excerpt": "Kaynaştırma eğitimi, özel gereksinimi akranlarıyla eğitim görmesine engel oluşturmayan bireylerin, her eğitim kademesinde mümkün olduğu kadar akranları ile aynı aktivitelere katılarak hayata hazırlanması sürecidir. Bu süreç bir ekip işi olmakla beraber, bu ekipte yer alan her birey (aile, yönetici, "
+        },
+        {
+          "tez_no": "531487",
+          "title_tr": "Özel eğitim sınıflarında/okullarında öğrenim gören hafif düzeyde zihinsel yetersizliğe sahip öğrencisi bulunan velilerin özel eğitimden beklenti düzeyleri (Sivas ili örneği)",
+          "author": "YADİGAR İREM",
+          "year": 2018,
+          "score": 0.8487,
+          "abstract_excerpt": "Her aile, sağlıklı bir çocuğa sahip olmak ister; ancak çocuklarının özel gereksinimli olduğunu öğrenen aileler, büyük hayal kırıklığı yaşarlar. Bu durum ailenin beklediği bir durum değildir ve aile bireylerinin yaşantısında büyük değişiklikler meydana getirir. Bununla birlikte ailelerin o ana kadar "
+        },
+        {
+          "tez_no": "383514",
+          "title_tr": "İlkokullarda kaynaştırma eğitimi uygulamalarında karşılaşılan sorunlar ve çözüm önerileri",
+          "author": "ESEN DAMLA BALO",
+          "year": 2015,
+          "score": 0.8464,
+          "abstract_excerpt": "Kaynaştırma, özel eğitim gereksinimi ve yetersizliği olan öğrencilerin eğitim olanaklarını artırmak için geliştirilen önemli bir eğitim planıdır. Günümüzde kaynaştırma uygulamaları yaygınlaşmış, kaynaştırma öğrenci sayısı artmış olup hemen hemen her okulumuzda kaynaştırma öğrencisi bulunmaktadır. Bu"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 10,
+      "findings": [
+        {
+          "claim": "Kapsayıcı eğitim politikalarının uygulamaya yeterince yansımadığı, politika belgeleri ile uygulama arasında boşluk olduğu görülmektedir.",
+          "citations": [
+            "872117",
+            "897616",
+            "836416"
+          ]
+        },
+        {
+          "claim": "Öğretmenlerin kapsayıcı eğitim ve BEP (Bireyselleştirilmiş Eğitim Programı) konusunda yeterli bilgi, beceri ve özyeterliğe sahip olmadığı, hizmet öncesi ve hizmet içi eğitimlerin yetersiz kaldığı belirtilmektedir.",
+          "citations": [
+            "861475",
+            "604891",
+            "407532",
+            "802579",
+            "575928",
+            "764114",
+            "897616"
+          ]
+        },
+        {
+          "claim": "Fiziksel erişilebilirlik sorunları bulunmaktadır; eğitim yapıları engelli öğrencilerin ihtiyaçlarına uygun şekilde tasarlanmamıştır.",
+          "citations": [
+            "598631",
+            "657858",
+            "615460",
+            "897616"
+          ]
+        },
+        {
+          "claim": "Aile katılımı ve okul-aile işbirliği yetersizdir; özellikle dezavantajlı ailelerin (tek ebeveynli, düşük sosyoekonomik düzey) eğitim sürecine katılımında sorunlar yaşanmaktadır.",
+          "citations": [
+            "897181",
+            "211682",
+            "588057",
+            "263625",
+            "531487"
+          ]
+        },
+        {
+          "claim": "Kaynaştırma/bütünleştirme uygulamalarında sınıf mevcutlarının kalabalık olması, fiziksel ve materyal kaynak yetersizliği, destek hizmetlerinin (rehberlik, özel eğitim desteği) eksikliği gibi yapısal sorunlar bulunmaktadır.",
+          "citations": [
+            "394701",
+            "383514",
+            "588057",
+            "876568",
+            "836416",
+            "897616"
+          ]
+        },
+        {
+          "claim": "Kapsayıcı eğitimin önündeki engeller arasında toplumsal farkındalık eksikliği, ayrımcı tutumlar ve önyargılar yer almaktadır.",
+          "citations": [
+            "836416",
+            "897616",
+            "764114",
+            "575928"
+          ]
+        },
+        {
+          "claim": "Bireyselleştirilmiş Eğitim Programlarının (BEP) geliştirilmesi, uygulanması, izlenmesi ve değerlendirilmesi süreçlerinde ciddi aksaklıklar yaşanmaktadır.",
+          "citations": [
+            "861475",
+            "802579",
+            "407532",
+            "897616"
+          ]
+        },
+        {
+          "claim": "Eğitimde ölçme ve değerlendirme süreçleri kapsayıcı eğitim ilkelerine uygun şekilde yapılandırılmamıştır; program değerlendirme standartları eksiktir.",
+          "citations": [
+            "694632",
+            "262343",
+            "861475"
+          ]
+        },
+        {
+          "claim": "Kapsayıcı eğitime ayrılan kaynaklar (finansman, personel, materyal) yetersizdir.",
+          "citations": [
+            "221446",
+            "897616",
+            "836416"
+          ]
+        },
+        {
+          "claim": "Okul yöneticilerinin kapsayıcı eğitim konusunda yeterli bilgi ve liderlik becerisine sahip olmadığı, yönetimsel destek eksikliği bulunduğu ifade edilmektedir.",
+          "citations": [
+            "897616",
+            "588057",
+            "876568"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Kaynak [872117] politika belgelerinde kapsayıcı eğitime yer verilmesinin uygulamadaki sorunları ortadan kaldıracağını ima ederken, [897616] ve [836416] politika belgelerinin varlığına rağmen uygulamada ciddi sorunlar yaşandığını göstermektedir. Bu bir çelişki değil, politika-uygulama boşluğuna işaret eden tamamlayıcı bir durumdur."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Mülteci/sığınmacı öğrencilerin kapsayıcı eğitimdeki durumu ve karşılaştıkları dil, kültür, uyum sorunları",
+        "Kapsayıcı eğitimin cinsiyet eşitliği boyutu (kız çocuklarının eğitime erişimi, toplumsal cinsiyet temelli engeller)",
+        "Müfredatın kapsayıcılık açısından değerlendirilmesi (müfredatın çeşitliliği yansıtma düzeyi, kültürel olarak duyarlı pedagoji)",
+        "Özel yetenekli (üstün zekâlı) öğrencilerin kapsayıcı eğitim kapsamındaki durumu",
+        "Kırsal bölgelerde kapsayıcı eğitim uygulamalarına özgü sorunlar (altyapı, ulaşım, öğretmen bulundurma)",
+        "Erken çocukluk döneminde kapsayıcı eğitim uygulamaları ve sorunları",
+        "COVID-19 pandemisi sonrası uzaktan eğitim sürecinde kapsayıcı eğitimin durumu ve dijital uçurum",
+        "Roman, göçebe, mevsimlik tarım işçisi çocukları gibi belirli dezavantajlı gruplara yönelik kapsayıcı eğitim sorunları"
+      ],
+      "requery_terms": [
+        "mülteci öğrenciler kapsayıcı eğitim Türkiye sorunlar",
+        "kapsayıcı eğitim cinsiyet eşitliği kız çocukları Türkiye",
+        "kapsayıcı eğitim müfredat çeşitlilik kültürel duyarlılık",
+        "üstün zekalı öğrenciler kapsayıcı eğitim Türkiye",
+        "kırsal bölge kapsayıcı eğitim sorunlar Türkiye",
+        "erken çocukluk kapsayıcı eğitim Türkiye",
+        "pandemi uzaktan eğitim kapsayıcı eğitim engelli öğrenciler Türkiye",
+        "Roman öğrenciler kapsayıcı eğitim Türkiye",
+        "mevsimlik tarım işçisi çocuk eğitim Türkiye"
+      ],
+      "notes": "Mevcut sentez, öğretmen yeterlikleri, fiziksel erişilebilirlik, aile katılımı, BEP sorunları, kaynak yetersizliği, toplumsal farkındalık, okul yönetimi ve politika-uygulama boşluğu gibi temel alanları kapsamaktadır. Ancak Türkiye bağlamında kapsayıcı eğitimin önemli boyutları olan mülteci öğrenciler (Suriyeli vb.), cinsiyet eşitliği, müfredatın kapsayıcılığı, özel yetenekli öğrenciler, kırsal bölge sorunları, erken çocukluk eğitimi, pandemi sonrası dijital uçurum ve Roman/mevsimlik tarım işçisi çocukları gibi belirli dezavantajlı grupların durumu örtülmemiştir. Bu eksiklikler, Türkiye'de kapsayıcı eğitim sorunlarının bütüncül bir resmini çizmek için önemli boşluklar oluşturmaktadır."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nKapsayıcı eğitim, her öğrencinin bireysel özellikleri doğrultusunda ayrıştırılmadan gelişimini desteklemeyi hedefleyen bir süreç olarak tanımlanmakta ve toplumda farklılıkları bir zenginlik olarak gören bir anlayışı temsil etmektedir [1][10]. Türkiye'de kapsayıcı eğitim politikalarının varlığına rağmen, bu politikaların uygulamaya yeterince yansımadığı ve politika belgeleri ile saha uygulamaları arasında belirgin bir boşluk bulunduğu görülmektedir [1][6][14]. Bu bağlamda, kapsayıcı eğitim uygulamalarının Türkiye'deki uygulanmasında karşılaşılan temel sorunlar; öğretmen yeterlikleri, fiziksel erişilebilirlik, aile katılımı, yapısal ve kaynak sorunları, Bireyselleştirilmiş Eğitim Programı (BEP) süreçleri, ölçme-değerlendirme, toplumsal farkındalık ve yönetimsel destek eksikliği olmak üzere çok boyutlu bir yapı arz etmektedir.\n\n## Öğretmen Yeterlikleri ve Eğitim Eksiklikleri\n\nKapsayıcı eğitimin önündeki en önemli engellerden biri, öğretmenlerin kapsayıcı eğitim ve BEP konusunda yeterli bilgi, beceri ve özyeterliğe sahip olmamasıdır [2][3][19][21][10][12][6]. Hizmet öncesi öğretmen eğitimi programlarının kapsayıcı eğitim anlayışını yeterince içermediği, hizmet içi eğitimlerin ise nicelik ve nitelik bakımından yetersiz kaldığı belirtilmektedir [3][5][7]. Öğretmenlerin sınıf içi uygulamalarda farklı öğrenci ihtiyaçlarına yanıt vermede zorlandıkları, bu durumun kapsayıcı eğitimin niteliğini olumsuz etkilediği ifade edilmektedir [10][12].\n\n## Fiziksel Erişilebilirlik Sorunları\n\nEğitim yapılarının engelli öğrencilerin ihtiyaçlarına uygun şekilde tasarlanmamış olması, kapsayıcı eğitimin önündeki önemli yapısal engellerden biridir [11][24][36][6]. Okul binalarında rampa, asansör, uygun tuvalet düzenlemeleri ve sınıf içi fiziksel düzenlemeler gibi erişilebilirlik unsurlarının eksik olduğu; tip proje uygulamalarının günümüz ihtiyaçlarına yanıt vermekte yetersiz kaldığı vurgulanmaktadır [11][24]. Bu durum, özel gereksinimli öğrencilerin eğitim ortamlarına tam ve eşit katılımını engellemektedir [36].\n\n## Aile Katılımı ve Okul-Aile İşbirliği Yetersizliği\n\nKapsayıcı eğitim sürecinde aile katılımı ve okul-aile işbirliğinin yetersiz olduğu görülmektedir [15][20][28][26][29]. Özellikle tek ebeveynli aileler, düşük sosyoekonomik düzeye sahip aileler ve özel gereksinimli çocuğa sahip ailelerin eğitim sürecine katılımında ciddi sorunlar yaşanmaktadır [15][29]. Ailelerin kapsayıcı eğitim konusunda yeterince bilgilendirilmemesi ve sürece dahil edilmemesi, uygulamaların etkililiğini azaltmaktadır [20][26].\n\n## Yapısal Sorunlar ve Kaynak Yetersizliği\n\nKaynaştırma/bütünleştirme uygulamalarında sınıf mevcutlarının kalabalık olması, fiziksel ve materyal kaynak yetersizliği, destek hizmetlerinin (rehberlik, özel eğitim desteği) eksikliği gibi yapısal sorunlar bulunmaktadır [27][30][28][33][14][6]. Kapsayıcı eğitime ayrılan finansman, personel ve materyal kaynaklarının yetersiz olduğu; bu durumun eğitimin niteliğini doğrudan etkilediği ifade edilmektedir [22][6][14]. Ayrıca okullarda özel eğitim destek odalarının ve yardımcı personelin bulunmaması, kaynaştırma öğrencilerinin ihtiyaç duyduğu bireysel desteği alamamasına yol açmaktadır [27][30].\n\n## Bireyselleştirilmiş Eğitim Programı (BEP) Süreçlerindeki Aksaklıklar\n\nBEP'lerin geliştirilmesi, uygulanması, izlenmesi ve değerlendirilmesi süreçlerinde ciddi aksaklıklar yaşanmaktadır [2][21][19][6]. Öğretmenlerin BEP hazırlama konusunda yeterli bilgi ve deneyime sahip olmadığı, BEP ekiplerinin işlevsel şekilde çalışmadığı ve hazırlanan programların çoğu zaman kâğıt üzerinde kaldığı belirtilmektedir [2][21]. BEP'lerin öğrenci ihtiyaçlarına uygun şekilde bireyselleştirilmemesi ve düzenli olarak güncellenmemesi, kapsayıcı eğitimin temel ilkeleriyle çelişmektedir [19].\n\n## Ölçme ve Değerlendirme Süreçlerindeki Sorunlar\n\nEğitimde ölçme ve değerlendirme süreçlerinin kapsayıcı eğitim ilkelerine uygun şekilde yapılandırılmadığı görülmektedir [16][9][2]. Program değerlendirme standartlarının eksik olduğu, mevcut değerlendirme sistemlerinin farklı öğrenci ihtiyaçlarını dikkate almadığı ifade edilmektedir [9]. Ölçme ve değerlendirme dersi programlarının da kapsayıcı eğitim anlayışını yeterince yansıtmadığı belirtilmektedir [16].\n\n## Toplumsal Farkındalık Eksikliği ve Ayrımcı Tutumlar\n\nKapsayıcı eğitimin önündeki engeller arasında toplumsal farkındalık eksikliği, ayrımcı tutumlar ve önyargılar önemli bir yer tutmaktadır [14][6][12][10]. Toplumda farklılıklara yönelik olumsuz algıların ve dışlayıcı tutumların varlığı, kapsayıcı eğitim anlayışının benimsenmesini zorlaştırmaktadır [14][12]. Öğrenciler arasında da önyargılı tutumların bulunduğu, bu durumun kaynaştırma öğrencilerinin sosyal kabulünü olumsuz etkilediği ifade edilmektedir [14].\n\n## Yönetimsel Destek Eksikliği\n\nOkul yöneticilerinin kapsayıcı eğitim konusunda yeterli bilgi ve liderlik becerisine sahip olmadığı, yönetimsel destek eksikliği bulunduğu belirtilmektedir [6][28][33]. Yöneticilerin kapsayıcı eğitim uygulamalarını planlama, koordine etme ve denetleme konusunda yetersiz kaldığı; bu durumun okul genelinde kapsayıcı bir iklim oluşturulmasını engellediği ifade edilmektedir [6][28].\n\n## Sonuç\n\nTürkiye'de kapsayıcı eğitim uygulamalarının önündeki temel sorunlar, politika-uygulama boşluğu, öğretmen yeterlikleri, fiziksel erişilebilirlik, aile katılımı, yapısal ve kaynak yetersizlikleri, BEP süreçlerindeki aksaklıklar, ölçme-değerlendirme sorunları, toplumsal farkındalık eksikliği ve yönetimsel destek yetersizliği olmak üzere çok boyutlu bir yapı sergilemektedir. Bu sorunların birbiriyle ilişkili olduğu ve tek başına ele alınamayacağı görülmektedir. Kapsayıcı eğitimin başarıya ulaşabilmesi için politika belgelerinin uygulamaya etkin bir şekilde yansıtılması, öğretmen eğitiminin güçlendirilmesi, fiziksel altyapının iyileştirilmesi, aile katılımının artırılması, kaynakların çeşitlendirilmesi ve toplumsal farkındalığın geliştirilmesi gerekmektedir.",
+      "n_citations": 41,
+      "citations_ieee": [
+        "[1] MİNE KOZANHAN ÇAKIR, \"Türkiye'deki güncel eğitim politikalarında kapsayıcı eğitim,\" Yüksek Lisans/Doktora tezi, Kırşehir Ahi Evran Üniversitesi / Sosyal Bilimler Enstitüsü / Eğitim Bilimleri Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1pwTzRXnomYf6jwqVORfUcERTvtn7UQV0TkCU-G0Sf4F007sBi7K9ju33lnlJh27",
+        "[2] HÜSEYİN EMRE ÇELİK, \"Bireyselleştirilmiş eğitim programının geliştirme, uygulama, izleme ve değerlendirme süreçlerini temele alan çalışmalara ilişkin sistematik bir derleme,\" Yüksek Lisans/Doktora tezi, Burdur Mehmet Akif Ersoy Üniversitesi / Eğitim Bilimleri Enstitüsü / Eğitim Bilimleri Ana Bilim Dalı / Eğitim Programları ve Öğretim Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQsJX2aBQhXXKQKPBhWW8gDb8DmrUnBVXqVs9zl-AcDY6",
+        "[3] BÜLENT ALAN, \"Genel öğretmenlik yeterliliklerinin belirlenmesi ve yeterliliklere dayalı bir hizmet öncesi öğretmen eğitimi programının tasarlanması,\" Yüksek Lisans/Doktora tezi, Anadolu Üniversitesi / Eğitim Bilimleri Enstitüsü / Eğitim Programları ve Öğretimi Ana Bilim Dalı / Eğitimde Program Geliştirme Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBt_vVbRHIeeSCDc2A78iEs9QvgBG22pZokw8zhzmmFVl",
+        "[4] MEHMET HANİFİ UĞUR, \"Meslek liselerinde öğretmen yeterliliği,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Fen Bilimleri Enstitüsü / Teknoloji Eğitimi Ana Bilim Dalı, 2006. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-L8ilcwn9ZRRc_YMKxXW1kAO-u5HKmMhS4pS-W31fADqVD0W3LpwTJ0fuXXll6_Q",
+        "[5] ALİ RIZA KARABAŞ, \"Hizmet içi eğitim programlarının değerlendirme durumları /,\" Yüksek Lisans/Doktora tezi, Anadolu Üniversitesi / Sosyal Bilimler Enstitüsü, 1989. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=p911s0iMPy2wtZbYYckXOVKXNltEBfLSwZ157YzJN6fXtdqOn4qREIIyGgcHrXvM",
+        "[6] TÜRKAN BUCAKLIOĞLU, \"İlkokullarda görev yapan yönetici ve öğretmenlerin kapsayıcı eğitime dair görüşlerinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Gaziantep Üniversitesi / Eğitim Bilimleri Enstitüsü / Temel Eğitim Ana Bilim Dalı / Sınıf Eğitimi Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=UjlM15wKZGQW6TLC0pvCt_-ZB4QDy2sbnxABh3IazhLgKPUyMlFm0HU_ZHSlg8kw",
+        "[7] MUSTAFA ÖZKAN, \"Hizmet içi eğitim programlarının oluşturulmasına ilişkin öğretmen görüşleri,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / Eğitim Bilimleri Bölümü / Eğitim Programları ve Öğretimi Ana Bilim Dalı / Eğitim Programları ve Öğretim Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ZeTyprYuef2HkaF3xt4wYvUpKrDQznabwPOGejiJXIZT_CDQqIj4qqLfqcnsrcb2",
+        "[8] HAYATİ ACUN, \"Halk eğitim merkezi kurslarına katılan kursiyerlerin beklentileri ve memnuniyet düzeyleri (Kastamonu ili örneği),\" Yüksek Lisans/Doktora tezi, Okan Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / İşletme Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WY5CM7tPNE2z_YM6pBu0t1lnTUlNwCpR7_NXgic42u5Wa09bgpVEOsLuwgC3B5Gf",
+        "[9] İSMAİL YÜKSEL, \"Türkiye için program değerlendirme standartları oluşturma çalışması,\" Yüksek Lisans/Doktora tezi, Anadolu Üniversitesi / Eğitim Bilimleri Enstitüsü / Eğitim Bilimleri Ana Bilim Dalı / Eğitim Programları ve Öğretim Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ZeTyprYuef2HkaF3xt4wYl00Ux6dzd4dgA_EJODGw-gNABPmYLO-pqQJV73G8vI7",
+        "[10] ÜNAL ŞİMŞEK, \"Sosyal bilgiler öğretmenlerinin kapsayıcı eğitime yönelik tutum ve özyeterlikleri ile sınıf içi uygulamalara ilişkin görüşlerinin karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Eğitim Bilimleri Enstitüsü / Türkçe ve Sosyal Bilimler Eğitimi Ana Bilim Dalı / Sosyal Bilgiler Eğitimi Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=jNRDC1RLfVd4_T7x7ZXmmYhW8ReQq56avEfymz8k8rI0wgb_VlwujU7zCLazPlz2",
+        "[11] NESLİHAN SAYGILI SESLİKAYA, \"İlköğretim yapılarında kapsayıcı tasarım için bir kılavuz önerisi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Mimarlık Ana Bilim Dalı / Mimari Tasarım Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=npGs9H39x7G6401x51yqpPBQ-ab2Y-Cf8Le6XjQgGVj-BT9fhJdFfxVxExMBhKOL",
+        "[12] KÜBRA GÜNGÖR, \"Fen bilimleri öğretmenlerinin kapsayıcı eğitim anlayışlarının incelenmesi,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Eğitim Bilimleri Enstitüsü / Matematik ve Fen Bilimleri Eğitimi Ana Bilim Dalı / Biyoloji Öğretmenliği Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiCOZlb1CjygPT_W-9xqJwN4QJ2JE-98HdefmOOv-v0i_",
+        "[13] ENDER KANALAN, \"Eğitim kurumlarının ailelere hesap verebilirliği: Ortaokullar için bir model önerisi,\" Yüksek Lisans/Doktora tezi, Kocaeli Üniversitesi / Sosyal Bilimler Enstitüsü / Eğitim Bilimleri Ana Bilim Dalı / Eğitim Yönetimi, Teftişi, Planlaması ve Ekonomisi Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=9MiDp3x86xrwjpi5-14w-cpYIChyG-HH3wb_auzmpUEWaVNumsLFvFh8pJdMa8N2",
+        "[14] ŞEYMA AKINCI, \"İlkokulda kapsayıcı eğitimin önündeki engellere yönelik öğretmen ve öğrenci görüşleri,\" Yüksek Lisans/Doktora tezi, Kırıkkale Üniversitesi / Sosyal Bilimler Enstitüsü / Eğitim Programları ve Öğretimi Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=S2eMu1TIwY_v4mYv58xAr2-f72CWLjmvhirxDfpuk5PGyBfFRC_UI5w1DLO2SmAa",
+        "[15] MELİKE YİĞİT, \"Eğitimde aile katılımı ve okul-aile işbirliği: Tek ebeveynli ailelerin deneyimleri,\" Yüksek Lisans/Doktora tezi, Amasya Üniversitesi / Sosyal Bilimler Enstitüsü / Eğitim Bilimleri Ana Bilim Dalı / Eğitim Yönetimi Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=UjlM15wKZGQW6TLC0pvCt2KVTSWJOyRFXe61Kpzqki1WSx9GoeDBCgLFjwpVKbjj",
+        "[16] MUHAMMED AKINCI, \"Eğitimde ölçme ve değerlendirme dersi programının değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Eğitim Bilimleri Enstitüsü / Eğitim Bilimleri Ana Bilim Dalı / Eğitim Programları ve Öğretim Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=tqUiYt63sTQLTpozMJ92QqPmbbHFqUQGMQZvO72aUgNpdMCFBptPtOsKfurx7cwo",
+        "[17] MUHAMMED ENES TEMELLİ, \"Koruma ve bakım altında bulunan çocukların aile algısı: Bilecik örneği,\" Yüksek Lisans/Doktora tezi, Yalova Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyal Hizmet Ana Bilim Dalı / Sosyal Hizmet Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=T1mWGp9MngYYkCSgiJvtVoixNCSprYxuUvyC-QnTahB97QM8si56tP8H8mFOtoWb",
+        "[18] MEHMET MEHDİ İÇER, \"Türkiye`de eğitim sisteminin genel amaçları ve temel ilkelerinin değerlendirilmesi /,\" Yüksek Lisans/Doktora tezi, İnönü Üniversitesi / Sosyal Bilimler Enstitüsü / Eğitim Yönetimi ve Denetimi Ana Bilim Dalı, 1997. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGdnNV_RUqDgA0pHZDYqAwH3P81spD3rBDphTeL_ObyHA",
+        "[19] ŞERİFE ŞENAY İLİK, \"Bireyselleştirilmiş eğitim programı eğitiminin, kaynaştırma öğretmenlerinin BEP yeterliliklerine etkisi,\" Yüksek Lisans/Doktora tezi, Necmettin Erbakan Üniversitesi / Eğitim Bilimleri Enstitüsü / Eğitim Bilimleri Ana Bilim Dalı / Eğitim Programları ve Öğretim Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=X-M9ZoIuIoNTj2P7iY13hfFxRKG3uJY5nnZfF9CYiDEBT0_QHVTTL8KOcyd_bGux",
+        "[20] MEHMET AKKAYA, \"Öğretmenlerin ve velilerin okulöncesi eğitim kurumlarında uygulanan aile katılımı çalışmalarına ilişkin görüşleri,\" Yüksek Lisans/Doktora tezi, Anadolu Üniversitesi / Eğitim Bilimleri Enstitüsü / İlköğretim Ana Bilim Dalı / Okul Öncesi Öğretmenliği Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wBmNpkQC9Nhi90NLW7E7-bVnitjg7AH0Q-OcOLUMmDV9fLr_jaIA8u4JQV_d0j6a",
+        "[21] ÇAĞRI GİRAY, \"Bireyselleştirilmiş Eğitim Programlarının (BEP) geliştirilmesi sürecine ilişkin bir durum çalışması,\" Yüksek Lisans/Doktora tezi, Burdur Mehmet Akif Ersoy Üniversitesi / Eğitim Bilimleri Enstitüsü / Eğitim Bilimleri Ana Bilim Dalı / Eğitim Programları ve Öğretim Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=j_Fjwp4JS4mk97Puqti8rqaDEc1wMs4nEXIaZhu5LXQGpAVF-pQkIG1su8ZxtdaJ",
+        "[22] KUDRET COŞKUN, \"Türkiye'de eğitime ayrılan kaynaklar ve eğitimin iktisadi büyüme ve Türk ekononmisindeki etkileri,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Bölümü / İktisat Ana Bilim Dalı / İktisat Teorisi Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6Q-Cx6RfWusfku7ab78YE7tl1TzqMpY5Mvm7mNzeMkolW",
+        "[23] MEHMET SALİH DEMİR, \"Eşgüdümlü iki alan : Eğitim öğretim ve modernleşme,\" Yüksek Lisans/Doktora tezi, Batman Üniversitesi / Lisansüstü Eğitim Enstitüsü / Tarih Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1pwTzRXnomYf6jwqVORfUVmzvZk_H61AbjN27nIxoIYzuFTKGKYIH5he1Y58hqFk",
+        "[24] ASLAN NAYEB KHOSROSHAHI, \"Eğitim yapıları iç mekan konfigürasyonu odaklı bir denetim modeli,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Mimarlık Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMs-kSOlKqfTPRnii7j0Tu_dnGg2QuH7bo_MLG6S1aEeUZ",
+        "[25] AYŞE GÜNDOĞDU IRMAK, \"1997-2017 yılları arasında kaynaştırma eğitimi ile ilgili yapılmış lisansüstü tezlerin çeşitli değişkenler açısından incelenmesi,\" Yüksek Lisans/Doktora tezi, Necmettin Erbakan Üniversitesi / Eğitim Bilimleri Enstitüsü / Temel Eğitim Ana Bilim Dalı / Sınıf Eğitimi Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=T1mWGp9MngYYkCSgiJvtVn1gqZnwAs_HIqsr1b22m-pceAesO8lALHubtyGP_pkS",
+        "[26] BETÜL GÜLDÜ, \"Sivas ili örneği'nde kaynaştırma eğitimi,\" Yüksek Lisans/Doktora tezi, Cumhuriyet Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyoloji Bölümü / Sosyoloji Ana Bilim Dalı / Sosyoloji Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ZeTyprYuef2HkaF3xt4wYiBmDLmBSI0Ie3B-VYrMdMOkx_50fYW2yEFYUSDzynFb",
+        "[27] CÜNEYT DEMİR, \"Kaynaştırma eğitiminin uygulanmasında karşılaşılan sorunların değerlendirilmesine yönelik nitel bir çalışma,\" Yüksek Lisans/Doktora tezi, Zirve Üniversitesi / Sosyal Bilimler Enstitüsü / Sınıf Öğretmenliği Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WBc656i315e2eV6-EZV1ojEfUbWoJLRENQKorshX5OOk44607raJk_nJkDiMpGyq",
+        "[28] HALİME ERÜSTÜN BULUTOĞLU, \"İlk ve ortaokullarda kaynaştırma eğitimi uygulamalarına ilişkin veli, yönetici ve öğretmen görüşleri (Sivas ili örneği),\" Yüksek Lisans/Doktora tezi, Erzincan Binali Yıldırım Üniversitesi / Sosyal Bilimler Enstitüsü / İlköğretim Ana Bilim Dalı / Sınıf Öğretmenliği Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vjszP7PzV0HebcjFEvDfwP5MafhTfJ6CwvhOB7SdLSM_noL5Mwu0xxMrfhDUsTZ7",
+        "[29] YADİGAR İREM, \"Özel eğitim sınıflarında/okullarında öğrenim gören hafif düzeyde zihinsel yetersizliğe sahip öğrencisi bulunan velilerin özel eğitimden beklenti düzeyleri (Sivas ili örneği),\" Yüksek Lisans/Doktora tezi, Sivas Cumhuriyet Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyoloji Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=as2oTjW5jfr9IKSvmCdJYuNDiVqDr_kbzJrLDtFc_gX_JB2ltrnOyiZfyxFzpxog",
+        "[30] ESEN DAMLA BALO, \"İlkokullarda kaynaştırma eğitimi uygulamalarında karşılaşılan sorunlar ve çözüm önerileri,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Eğitim Bilimleri Enstitüsü / İlköğretim Ana Bilim Dalı / Sınıf Öğretmenliği Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sY7m19PfcL6F1NUw-cr80G--YmluwuS4A_LsiX2sJt6V_kJpr3TT4u6QmncVG5i7",
+        "[31] BERRİN TUNÇ, \"Okul sosyal hizmetinin hayata geçirilmesinin üzerine bir araştırma,\" Yüksek Lisans/Doktora tezi, Üsküdar Üniversitesi / Sağlık Bilimleri Enstitüsü / Sosyal Hizmet Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZrYXMtZoRrpruDZ0pvpE-VhW6guK1p-7JvYs4MZ2209L",
+        "[32] REVŞAN MENDİ, \"Michel Foucault'da iktidar: Özel eğitim uygulama okulları üzerine bir analiz,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyoloji Ana Bilim Dalı / Sosyoloji Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=G_oJ1rKE4SgJUkomyAKpRxx4v4V9Zue5-fLQ45kr9KVou0xwIariyXzETAzUqPGp",
+        "[33] FAZİLET YAVUZ, \"Kaynaştırma öğrencilerinin yaşadığı sorunların çözümünde yönetici ve öğretmen görüşleri: Zonguldak Alaplı örneği,\" Yüksek Lisans/Doktora tezi, Zonguldak Bülent Ecevit Üniversitesi / Sosyal Bilimler Enstitüsü / Eğitim Yönetimi Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1pwTzRXnomYf6jwqVORfUXvbF_ge0nD1372gdk6Wl6pdWtZWx0SoDG2Ru-aVqik_",
+        "[34] PINAR ÇELİK, \"Türkiye'de ve Avrupa'da 2000-2013 tarihleri arasında özel gereksinimli çocuklarla ilgili yapılmış olan müzik eğitimi çalışmalarının değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Dokuz Eylül Üniversitesi / Eğitim Bilimleri Enstitüsü / Güzel Sanatlar Eğitimi Ana Bilim Dalı / Müzik Öğretmenliği Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=48XPj7KKQhKUgntkUiKO3Mp_BRqkAb12rH6yFjmxoznbpFOlOqtz9DD2ua6ZJQcZ",
+        "[35] MAHMUT ÇİTİL, \"Cumhuriyetin ilanından günümüze kadar Türkiye'de özel eğitim (1923-2007),\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Eğitim Bilimleri Enstitüsü / Eğitim Bilimleri Bölümü / Eğitim Programları ve Öğretimi Ana Bilim Dalı / Eğitimin Sosyal ve Tarihi Temelleri Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6Q33tqI6VwGsNCSHw__-o6AXI6fcIgxwLqF3zhyx2BQJT",
+        "[36] NURİ ÇAĞRI ÖZDEMİR, \"Eğitim yapılarında erişilebilirliğin incelenmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Kültür Üniversitesi / Lisansüstü Eğitim Enstitüsü / Mimarlık Ana Bilim Dalı / Mimarlık Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=4J_FzTwlrMCH4qBROpXPH2c-89pZn6jSpdeJMQaEIWdC_vV5PhU3gsqhrny67NKh",
+        "[37] ÖZGE ERİNÇ ŞİMŞEK, \"Atatürk döneminde özel yetenekli öğrencilerin tespiti ve eğitimi,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Türkiyat Araştırmaları Enstitüsü / Atatürk İlkeleri ve İnkılap Tarihi Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=a0OMTmEd_3mfOBxT8SiBTIV7WLUJWpUsdpuFM8KF3hgXnlQJS6euzaeIOxvNfEDv",
+        "[38] Sercan Yavan, Gamze Çimen, \"Kamu Harcamalarının Eğitim Yoluyla Aile Refahına Etkisi: Karşılaştırmalı Bir Analiz,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Ahi Evran Üniversitesi Sosyal Bilimler Enstitüsü Dergisi, 2026. [Online]. https://www.semanticscholar.org/paper/7b886145c98a8a0ec14721b03a4142438c456756",
+        "[39] E. Akça, Buket Kaya, \"TOPLUMSAL CİNSİYET EŞİTLİĞİ PERSPEKTİFİNDEN DİJİTAL BÖLÜNME VE FARKLI YAKLAŞIMLAR,\" Yüksek Lisans/Doktora tezi, [semantic_scholar], 2016. [Online]. https://www.semanticscholar.org/paper/1bb8849a9c087ede643ee044e2a9996e92f1da9c",
+        "[40] Nihat Kotluk, Serhat Kocakaya, \"Türkiye için Alternatif Bir Anlayış: Kültürel Değerlere Duyarlı Eğitim,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Yuzunci Yil Universitesi Egitim Fakultesi Dergisi, 2018. [Online]. https://www.semanticscholar.org/paper/1f6a1242b173f49ce23ea3f1bc4f411bd5c9073c",
+        "[41] Pervin Doğan Göksel, \"Kız Çocuklarının Erken Evlendirilmesi ile Eğitim Eksikliği ve Eşitsizliği Üzerine Sosyal Hizmet Açısından Bir Değerlendirme,\" Yüksek Lisans/Doktora tezi, [semantic_scholar], 2015. [Online]. https://www.semanticscholar.org/paper/e9a74321a6ced9eea8a7366f79bcb472019e525e"
+      ]
+    }
+  },
+  "error": null
+}

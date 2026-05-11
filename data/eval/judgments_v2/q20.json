@@ -1,0 +1,12 @@
+{
+  "id": "q20",
+  "question": "Türkçenin tarihi lehçeleri üzerine yapılan ses bilgisi çalışmalarındaki ana yöntemler nelerdir?",
+  "category": "linguistics",
+  "judgment": {
+    "citation_accuracy": 0.6,
+    "faithfulness": 0.5,
+    "coverage": 0.6,
+    "holistic_score": 3,
+    "rationale": "Yanıt, kaynakların çoğunu doğru kullanmış olsa da [23]'te iç rekonstrüksiyon yöntemi atfedilirken kaynağın özetinde bu yöntemden bahsedilmemekte; [1]'de yazı sistemleri karşılaştırması doğru ancak yöntem vurgusu sınırlı. Ayrıca [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20], [21], [22], [25], [27] gibi birçok kaynak yanıtta hiç kullanılmamış, bu da kaynak seçiminde verimsizlik göstergesi. Karşılaştırmalı yöntem (comparative method) ve artzamanlı/eşzamanlı yaklaşım farkı gibi alt sorular yeterince ele alınmamış; yöntemlerin sınırlılıklarına hiç değinilmemiş. Akademik üslup ve organizasyon kabul edilebilir düzeydedir."
+  }
+}

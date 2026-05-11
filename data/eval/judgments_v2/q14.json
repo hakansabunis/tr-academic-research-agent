@@ -1,0 +1,12 @@
+{
+  "id": "q14",
+  "question": "Türkiye'de sosyal medyanın siyasi katılım üzerindeki etkisini inceleyen araştırmalardaki bulgular nelerdir?",
+  "category": "social_sciences",
+  "judgment": {
+    "citation_accuracy": 0.5,
+    "faithfulness": 0.4,
+    "coverage": 0.6,
+    "holistic_score": 2,
+    "rationale": "Yanıt, atıf yapılan kaynakların çoğuyla uyumsuzdur. [11]-[16] gibi ilgisiz tezlere (felsefe, jeodezi, varyans analizi) atıf yapılmış; [31]-[38] arası atıflar getirilen kaynak listesinde bulunmamaktadır. Ayrıca [33] ve [36] aynı makaleye farklı DOI'larla atıf yapıp tekrar etmektedir. İddiaların önemli kısmı kaynaklarda desteklenmemekte, özellikle \"linç kültürü\" ve \"slaktivizm\" bölümleri ilgisiz kaynaklara dayandırılmıştır. Alt sorulardan yöntem, ara değişkenler, sınırlılıklar/öneriler ve uluslararası karşılaştırma yeterince ele alınmamıştır. Akademik üslup kısmen iyi olsa da kaynak kullanımındaki ciddi sorunlar güvenilirliği zedelemiştir."
+  }
+}

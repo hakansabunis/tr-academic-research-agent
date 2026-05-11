@@ -1,0 +1,12 @@
+{
+  "id": "q13",
+  "question": "Endüstri 4.0 kapsamında Türk imalat sanayisinde dijital dönüşüm uygulamaları nasıl ilerlemiştir?",
+  "category": "engineering",
+  "judgment": {
+    "citation_accuracy": 0.6,
+    "faithfulness": 0.5,
+    "coverage": 0.4,
+    "holistic_score": 2,
+    "rationale": "Yanıt genel ve yüzeysel kalmış; alt soruların çoğu (benimsenme düzeyi, sektörel yoğunlaşma, karşılaştırmalı analiz, işgücü etkileri) ya hiç ele alınmamış ya da çok zayıf işlenmiştir. Atıfların bir kısmı kaynaklarla uyumsuzdur (ör. [25] TOPSIS yöntemi makalesi \"odak sektörler\" bağlamında zorlama kullanılmış, [26][27][28][29][31][32][33] konuyla ilgisizdir). Kaynaklarda olmayan iddialar (ör. \"model fabrika uygulamaları hız kazanmış\") mevcuttur. Akademik üslup kabul edilebilir ancak içerik derinlikten yoksundur."
+  }
+}

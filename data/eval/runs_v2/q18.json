@@ -1,0 +1,386 @@
+{
+  "id": "q18",
+  "category": "agriculture",
+  "type": "method",
+  "question": "Türkiye'de organik tarım uygulamalarının toprak verimliliğine etkisi nasıl ölçülmüştür?",
+  "expected_subjects": [
+    "Ziraat"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 119.15,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Türkiye'de organik tarım uygulamalarının toprak verimliliğine etkisini ölçen tezlerde en sık kullanılan fiziksel, kimyasal ve biyolojik toprak parametreleri nelerdir?",
+          "rationale": "Hangi toprak verimlilik göstergelerinin (pH, organik madde, agregat stabilitesi, mikrobiyal biyokütle vb.) ölçüldüğünü belirleyerek yöntemsel bir çerçeve sunar."
+        },
+        {
+          "text": "Bu tezlerde organik tarım uygulamalarının (kompost, yeşil gübre, münavebe vb.) toprak verimliliği üzerindeki etkisine dair raporlanan temel bulgular nelerdir?",
+          "rationale": "Ampirik sonuçları sentezleyerek organik uygulamaların toprak verimliliğini artırıp artırmadığına dair kanıtları ortaya koyar."
+        },
+        {
+          "text": "Söz konusu tezlerde organik tarımın toprak verimliliğine etkisi, geleneksel tarım uygulamalarıyla karşılaştırmalı olarak nasıl ele alınmıştır?",
+          "rationale": "Karşılaştırmalı desenlerin varlığını ve bulgularını sorgulayarak organik-geleneksel farkını ortaya koyar."
+        },
+        {
+          "text": "Bu tezlerde kullanılan ölçüm yöntemlerinin (deneme deseni, süre, örnekleme derinliği, istatistiksel analiz) temel sınırlılıkları ve önerilen iyileştirmeler nelerdir?",
+          "rationale": "Metodolojik zayıflıkları ve araştırma boşluklarını belirleyerek gelecek çalışmalara yön verir."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 29,
+      "max_score": 0.902,
+      "min_score": 0.8388,
+      "chunks": [
+        {
+          "tez_no": "595629",
+          "title_tr": "Organik tarımda bitki besleme ve gübre yönetimi",
+          "author": "ZEYNEB SÜMEYYE ÇAKIRBEY",
+          "year": 2019,
+          "score": 0.902,
+          "abstract_excerpt": "Tezde güncel veriler ve bilgi birikimi ışığında organik tarımda bitki besleme ve gübre yönetimi ile bu konulardaki gelişmeler genel olarak ele alınmıştır. Bu amaçla dünyada ve ülkemizde önemli bilimsel veri kaynaklar (kitap, bilimsel dergiler ve üniversite, kamu ve sivil toplum kuruluşlarına ait kur"
+        },
+        {
+          "tez_no": "680018",
+          "title_tr": "Türkiye'de organik tarım piyasası: İlkeler ve uygulamalar",
+          "author": "DİLARA KATERINA ZAMAN",
+          "year": 2021,
+          "score": 0.8968,
+          "abstract_excerpt": "Gıdanın insan hayatı ve sağlığı için şüphesiz en temel ihtiyaçlardan biri olması ve gıda üretiminin toprak, su, hava, doğa ve tüm canlılar gibi birçok faktörle etkileşim halinde yapılan kapsamlı bir üretim biçimi oluşu tarımsal üretimi tüm dünyanın odak noktası olan bir konu haline getirmektedir. İk"
+        },
+        {
+          "tez_no": "784708",
+          "title_tr": "Organik ve konvansiyonel üretim yapılan tarım topraklarının karbon fraksiyonlarındaki değişimin ve bazı fizikokimyasal özelliklerinin belirlenmesi",
+          "author": "MERVE ÇELEBİ AKŞAHİN",
+          "year": 2022,
+          "score": 0.8955,
+          "abstract_excerpt": "Geçmişte yapılan aşırı gübre kullanımı, vahşi sulama ve derin toprak işleme metotları zamanla bozulmaya uğrayan toprakları kurtarmak adına çözüm arayışları içerisine girilmesini sağlamıştır. Bu nedenle çevresel sorunların ortaya çıkmasıyla tarımsal üretimde daha çevreci bir yol olan organik tarım ya"
+        },
+        {
+          "tez_no": "349201",
+          "title_tr": "Organik tarım ve Türkiye'de organik tarımın istihdam yaratma potansiyeli",
+          "author": "NİLÜFER YOLCU",
+          "year": 2013,
+          "score": 0.8952,
+          "abstract_excerpt": "Ülkemizde tarım en önemli sektörlerden biridir. GSMH?nın %15?i, ihracatın %12?si, ve istihdamın %27?sinin tarım sektörüne ait olduğu düşünüldüğünde ekonominin bel kemiğinin tarım olduğu görülecektir. Türkiye?nin tarımsal yapısı ve gelenekleri, genetik zenginliği dikkate alındığında, iç ve dış pazar "
+        },
+        {
+          "tez_no": "773275",
+          "title_tr": "Organik tarım sektörü potansiyeli: Aydın ili örneği",
+          "author": "ÖMER FARUK İPEK",
+          "year": 2022,
+          "score": 0.8866,
+          "abstract_excerpt": "Günümüzde insan hayatı için en önemli taleplerden olan besin ihtiyacı ve besin ihtiyacının vazgeçilmez parçası olan temiz gıda sorunu giderek artmaktadır. Bununla beraber, üretimin her safhasında temiz çevre bilinci vazgeçilmez bir unsurdur. Bu yüzdendir ki organik gıda ürünlerine olan talep son yıl"
+        },
+        {
+          "tez_no": "669370",
+          "title_tr": "Türkiye'de organik tarımın zamansal ve mekânsal gelişimi",
+          "author": "YUSUF YARAMIŞLI",
+          "year": 2020,
+          "score": 0.8844,
+          "abstract_excerpt": "Tarım geçmişten günümüze insanın temel ekonomik faaliyetlerinden birisi\nolmuştur. Dünya nüfusunda özellikle son yıllarda meydana gelen hızlı nüfus artışı\nnedeniyle tarımsal üretimde gıda güvencesi ve güvenliği konusunda ciddi endişeler\noluşmuştur. Bu noktada sağlıklı ve güvenilir gıdaya erişim olduk"
+        },
+        {
+          "tez_no": "562083",
+          "title_tr": "Türkiye'deki organik tarım ürünlerinin zaman serileri ile analizi",
+          "author": "MERAL ŞENYÜZ",
+          "year": 2019,
+          "score": 0.8841,
+          "abstract_excerpt": "Organik tarım, insan sağlığını ve ekosistemi koruyan, her aşaması kontrollü ve sertifikalı olarak yapılan bir tarım yöntemidir. Organik tarımın amacı bozulan ekolojik dengenin yeniden kurulması, doğal kaynakların korunması, insan sağlığna zararlı kimyasal kullanımının tamamen kaldırılmasıdır. Son yı"
+        },
+        {
+          "tez_no": "258087",
+          "title_tr": "Türkiye ve dünya'da organik tarımın ekonomik boyutu: Organik tarımın Adana ili ekonomisindeki yeri",
+          "author": "DURSUN DURMAZ HATUNOĞLU",
+          "year": 2010,
+          "score": 0.8838,
+          "abstract_excerpt": "Gıda, su ve hava gibi insan yaşamının en önemli unsurlarından biridir. Giderek artan nüfusun bu büyük ihtiyacını karşılamak için sürekli bir çalışma faaliyeti yürütülmektedir. Bu da kendi içerisinde bazı sorun ve uygulama hatalarını da beraberinde getirmiştir. Organik tarım işte bu noktada ortaya çı"
+        },
+        {
+          "tez_no": "392417",
+          "title_tr": "Tekirdağ ili Malkara ve Süleymanpaşa ilçelerindeki bazı köylerin toprak verimliliklerinin belirlenmesi",
+          "author": "SERHAT FİDANCI",
+          "year": 2015,
+          "score": 0.8818,
+          "abstract_excerpt": "Bu araştırma, yoğun bir şekilde buğday-ayçiçeği ekim nöbeti yapılan Tekirdağ İli'ne ait Malkara ilçesinde bulunan 2 köy ile Süleymanpaşa ilçesinde bulunan 9 adet köyden alınan toplam 34 adet toprak örneğinin bazı fiziksel ve kimyasal özelliklerini incelemek ve mevcut verimlilik durumlarını ortaya çı"
+        },
+        {
+          "tez_no": "526697",
+          "title_tr": "Organik tarımın ekonomik analizi: Kilis örneği",
+          "author": "MEHMET SERKAN ÇINAROĞLU",
+          "year": 2018,
+          "score": 0.8776,
+          "abstract_excerpt": "Bilimsel, teknolojik, endüstriyel ve kırsal gelişmişlikle ilgili alanlardaki ilerlemeler tarımsal faaliyetlerin oluşma şeklini ve tarım faaliyetlerinden beklentilerin değişmesine yol açmıştır. Bu değişme sürecinin tarım alanlarına etkisi, organik tarım biçiminde ortaya çıkmıştır. Organik tarım bir t"
+        },
+        {
+          "tez_no": "837478",
+          "title_tr": "Amasya ilinde toprak tarımı çiftçilerinin organik tarım anlayışı",
+          "author": "MEHMET AKSOY",
+          "year": 2021,
+          "score": 0.876,
+          "abstract_excerpt": "Organik Tarım ürünleri, yetkili kurumlarca tüm yetiştirme safhalarında kontrolleri yapılarak \nsertifikalandırılan ve tüketiciye sunulan doğal gıda ürünleridir. Sunulan bu araştırmada, yüz yüze \nanket yöntemi ile Amasya ili toprak tarımı çiftçilerinin Organik Tarım üretimi hakkındaki bilgi \nbirikimle"
+        },
+        {
+          "tez_no": "166138",
+          "title_tr": "Klinik denemelerde örneklem büyüklüğü belirlemesi üzerine uygulamalar",
+          "author": "FERDA  ESİN GÜLEL",
+          "year": 2005,
+          "score": 0.8271,
+          "abstract_excerpt": "KLİNİK DENEMELERDE ÖRNEKLEM GENİŞLİĞİ BELİRLEMESİ ÜZERİNE UYGULAMALAR ÖZET İstatistiksel çalışmalar(anketler, deneyler ve gözlemsel çalışmalar), dikkatli planlandığında daima daha iyidir. İyi planlamanın bir çok yönü vardır. Problem dikkatlice tanımlanmalıdır. Deneysel veya gözlemsel birimler uygun "
+        },
+        {
+          "tez_no": "355664",
+          "title_tr": "Yüksek frekanslı cihaz kalibrasyon kurulumlarında ölçüm belirsizliklerinin hesaplanması ve kalibrasyon yazılımı geliştirilmesi",
+          "author": "ONUR ÇETİNER",
+          "year": 2013,
+          "score": 0.8025,
+          "abstract_excerpt": "Ölçüm işlemi, büyüklüğü bilinmek istenen bir niceliğin eldeki aynı niceliğe ait referans büyüklük ile karşılaştırılması olarak düşünülebilir. Ancak, eldeki referans da zamanla ve kullanım sonucu ilk halindeki doğruluğundan sapabilir. Bu sebeple, ölçüm cihazları düzenli aralıklarla daha güvenilir ola"
+        },
+        {
+          "tez_no": "776081",
+          "title_tr": "Ölçme değişmezliğinin incelenmesinde ampirik yöntemler",
+          "author": "BATUHAN ÖZKAN",
+          "year": 2022,
+          "score": 0.8011,
+          "abstract_excerpt": "Ölçme değişmezliği, gruplar arasında anlamlı karşılaştırmalar yapmanın önkoşuludur. Ölçme araçlarının farklı kültürler üzerinde, farklı zaman dilimlerinde, cinsiyete göre, mesleklere göre, farklı davranış ve tutum sergileyen bireyler gibi farklı gruplara veya örneklemlere uygulanabilmesi bazen tek b"
+        },
+        {
+          "tez_no": "656821",
+          "title_tr": "Dairesel verilerin analizinde kullanılan istatistik yöntemler",
+          "author": "GAMZE KÜÇÜK ÖNTAŞ",
+          "year": 2020,
+          "score": 0.7992,
+          "abstract_excerpt": "Veri toplamak ve bu veriyi doğru istatistiksel yöntemlerle analiz etmek bilimsel araştırmaların önemli basamakları arasındadır. Araştırmada kullanılan istatistiksel yöntem veriye uygun değilse ya da veri kullanılan istatistiksel yönteme uygun değilse elde edilen sonuçlar gerçeği yansıtmayacak ve yan"
+        },
+        {
+          "tez_no": "467953",
+          "title_tr": "Veri analizinde doğru istatistiksel testin bilgisayar yardımıyla seçilmesi",
+          "author": "MUSA SARİ",
+          "year": 2017,
+          "score": 0.7945,
+          "abstract_excerpt": "Araştırma, bir gerçeği ortaya çıkarmak, bir sorunu çözümlemek ve eldeki verileri\narttırmak için bilimsel yöntem ve tekniklerden yararlanılarak yapılan düzenli çalışmadır.\nAraştırma sonucunda elde edilen verilerin doğru yorumlanabilmesi, araştırmanın amaca\nuygun şekilde yapılması ve analiz sırasında "
+        },
+        {
+          "tez_no": "203059",
+          "title_tr": "Uzunlamasına çalışmaların analizinde karma etki modelleri",
+          "author": "BEYZA DOĞANAY",
+          "year": 2007,
+          "score": 0.7916,
+          "abstract_excerpt": "Bu çalısmanın amacı, doğrusal karma etki modellerinin uzunlamasına veri analizinde\u000bkullanımı incelemek ve sağlık alanında bir veri seti üzerinde uygulamasını\u000byapmaktır.\u000bUzunlamasına çalısmaların en iyi biçimde çözümlenmesi ve yorumlanması ile\u000bilgili çalısmalar geçtiğimiz yıllarda büyük bir ilerleme "
+        },
+        {
+          "tez_no": "577813",
+          "title_tr": "Tuzlu-alkali bir toprak profilinde karbon stoğu tahmini",
+          "author": "KÜBRA ASOĞLU",
+          "year": 2019,
+          "score": 0.8917,
+          "abstract_excerpt": "C02, küresel ısınmaya katkı yapan en önemli gazdır. Bu nedenle, bilim insanları son yıllarda bu konuda yoğun çalışmalar yapmaktadır. Karbon, yalnız atmosferde değil, aynı zamanda organik madde şeklinde toprakta birikmektedir. Topraktaki kültürel işlemlere göre organik madde ayrışarak atmosfere geçeb"
+        },
+        {
+          "tez_no": "179606",
+          "title_tr": "Farklı arazi kullanımlarında agregatlara bağlı karbon ile biyolojik karbon ve azot fraksiyonlarının belirlenmesi",
+          "author": "SEMA DEMİRCİ",
+          "year": 2008,
+          "score": 0.8887,
+          "abstract_excerpt": "Topraklarda organik karbon (C)' un tutulması tarım açısından son derece önemlidir. Toprakların tarımsal işlemeye açılması, organik karbon düzeyinin azalmasına bunun sonucu olarakta atmosfere salınan karbondioksit (CO2) miktarının artmasına sebep olmaktadır. Bu çalışma yarı kurak bir iklime sahip ola"
+        },
+        {
+          "tez_no": "624349",
+          "title_tr": "Organik ve inorganik gübre uygulamalarının atmosfere karbon salınımı ve toprakta tutulan organik karbon fraksiyonları üzerine etkileri",
+          "author": "HASAN AKGÖL",
+          "year": 2020,
+          "score": 0.8767,
+          "abstract_excerpt": "Çukurova Üniversitesi Araştırma ve Uygulama Çiftliği'nde 1996 yılında 3 tekerrürlü ve 5 uygulamalı (organik ve mineral gübreleme) olarak tesadüf blokları deneme desenine göre kurulan denemede organik ve mineral gübrelemelerin atmosfere karbon salınımı ve toprakta organik karbon fraksiyonları üzerine"
+        },
+        {
+          "tez_no": "260026",
+          "title_tr": "Güneydoğu Anadolu bölgesi topraklarının karbon stokları ve dengesi",
+          "author": "ERDAL SAKİN",
+          "year": 2010,
+          "score": 0.8741,
+          "abstract_excerpt": "Küresel karbon stokları ve döngüsü bugün insanlığın üzerinde durduğu çok önemli konulardan birisi olmuştur. Bu çalışma GAP bölgesi topraklarında organik ve ikincil inorganik karbon stokları, birikme hızları ile dengelerini belirlemek amacıyla yapılmıştır. GAP'ta, 120 cm derinliğe kadar, toplam 0.73 "
+        },
+        {
+          "tez_no": "583230",
+          "title_tr": "Farklı alan kullanımlarında toprak organik karbon dinamiğinin belirlenmesi",
+          "author": "GÜLPERİ EVLİYAOĞLU",
+          "year": 2019,
+          "score": 0.8606,
+          "abstract_excerpt": "Toprak, karasal biyosferin en büyük karbon (C) rezervidir. Toprak karbonu, atmosferik karbonun üç katı kadardır, dolayısıyla toprak karbonundaki en ufak değişiklik bile atmosferik karbonu etkilemektedir. Toprak ve atmosfer arasındaki karbondioksit (CO₂) akışı, yüksek biyobozunurluk oranıyla toprakta"
+        },
+        {
+          "tez_no": "307798",
+          "title_tr": "Ağaç altı otomatik organik gübre dağıtma makinası geliştirilmesi",
+          "author": "SABİT YILMAZ",
+          "year": 2013,
+          "score": 0.8593,
+          "abstract_excerpt": "Kimyasal gübreler, bitki besin elementi eksikliğini karşılamaya yönelik olduğu için atıldığı toprağın yapısına yönelik zararlı etkileri pek dikkate alınmamaktadır. Bu gübreler, toprağa atıldıktan hemen sonra topraktaki organizlamaların çalışmasını engellemektedir. Bu engelleme ilk olarak toprağın pH"
+        },
+        {
+          "tez_no": "769683",
+          "title_tr": "Farklı tuz şiddetindeki topraklarda organik madde mineralizasyonu ve organik madde stok ilişkisi",
+          "author": "MUHAMMED KOYUNÇU",
+          "year": 2022,
+          "score": 0.8455,
+          "abstract_excerpt": "Toprak tuzluluğu ve alkaliliği, dünya genelinde yaklaşık 932 milyon hektarlık bir alanı etkilerken, Türkiye topraklarında yaklaşık 1,5 milyon hektar etkilenmektedir. Tuzlu ve sodik alanlar, toprak kimyasını, karbon ve besin döngüsünü ve organik madde ayrışmasını etkileyebilecek farklı süreçleri içer"
+        },
+        {
+          "tez_no": "294972",
+          "title_tr": "Kayın, göknar ve göknar-kayın meşcerelerinde üst toprak ve ölü örtüdeki mikrobiyal biyokütle karbon (Cmic), azot (Nmic), fosfor (Pmic) ve mikrobiyal solunumun mevsimsel değişimi",
+          "author": "İLYAS BOLAT",
+          "year": 2011,
+          "score": 0.8435,
+          "abstract_excerpt": "Mikrobiyal biyokütle toprak ile bitki arasındaki bağlantıyı sağlayan çok önemli bir parametredir. Bu yüzden toprak mikrobiyal biyokütlesi ve faaliyeti son zamanlarda toprak sağlığı ve kalitesinin değerlendirilmesinde kullanılan hassas bir gösterge olarak karşımıza çıkmaktadır. Organik maddenin biyol"
+        },
+        {
+          "tez_no": "847528",
+          "title_tr": "Çiftçi şartlarında farklı bitki yetiştirilen topraklarda bazı enzim aktivitelerinin mevsimsel değişimi",
+          "author": "ESMA KÖPRÜLÜ",
+          "year": 2023,
+          "score": 0.8429,
+          "abstract_excerpt": "Enzimler, topraklardaki biyokimyasal aktivitelerin bir dizi reaksiyonunu hızlandıran önemli katalizörlerdir. Bu enzimler besin maddelerini parçalamak için toprak mikroorganizmaları tarafından salınan bileşenlerdir. Hem serbest hem de toprakların organik ve inorganik bileşenlerine bağlı olarak topr"
+        },
+        {
+          "tez_no": "914788",
+          "title_tr": "Biyoreaktör kompostlama teknolojisi ile üretilen tavuk gübresi kompostlarının mısır topraklarının karbon ve azot mineralizasyonu üzerine etkileri",
+          "author": "ŞAHESTE ELİF ÇOKAN",
+          "year": 2024,
+          "score": 0.8427,
+          "abstract_excerpt": "Artan nüfusla birlikte tarımsal üretimdeki artış, tarım arazileri üzerinde önemli bir baskı oluşturmaktadır. Türkiye'de toprakların organik madde içeriği zaten düşük seviyedeyken, yoğun işleme uygulamaları bu miktarın gün geçtikçe daha da azalmasına neden olmaktadır. Sürdürülebilir tarımın devam ett"
+        },
+        {
+          "tez_no": "487745",
+          "title_tr": "Farklı kültürel uygulamaların toprak su tutma özellikleri üzerine etkileri",
+          "author": "SERDAL ŞİMŞEK",
+          "year": 2018,
+          "score": 0.8389,
+          "abstract_excerpt": "Topraklara organik materyal uygulaması, toprak fiziksel özellikleri ve sürdürülebilir tarım açısından önemlidir. Bu çalışma, Süleyman Demirel Üniversitesi Tarımsal Araştırma ve Uygulama Merkezi Arazisi'nde bir elma bahçesinde (2010) yürütülmüştür. Kontrol (K), toprak işleme (Tİ), ahır gübresi (AG) ("
+        },
+        {
+          "tez_no": "133016",
+          "title_tr": "Değişik kökenli organik materyallerin toprakta agregat oluşumu ve stabilitesi üzerine etkileri",
+          "author": "ERDEM YILMAZ",
+          "year": 2002,
+          "score": 0.8388,
+          "abstract_excerpt": "ÖZET DEĞİŞİK KÖKENIİ ORGANİK MATERYALLERİN TOPRAKTA AGREGAT OLUŞUMU VE STABİLİTESİ ÜZERİNE ETKİLERİ Erdem YILMAZ Yüksek Lisans Tezi, Toprak Anabilim Dalı Danışman: Yrd. Doç. Dr. Zeki ALAGÖZ Mayıs 2002, 93 Sayfa Bu araştırmada, değişik kökenlere sahip olan organik materyallerin toprakta agregat oluşu"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 8,
+      "findings": [
+        {
+          "claim": "Organik gübre uygulamaları, inorganik gübre uygulamalarına ve kontrol parsellerine kıyasla toprakta toplam organik karbon (TOK) konsantrasyonlarını ve karbon fraksiyonlarını artırmaktadır.",
+          "citations": [
+            "624349",
+            "784708"
+          ]
+        },
+        {
+          "claim": "Organik tarım uygulamaları toprağın su tutma kapasitesini artırmakta ve hacim ağırlığını azaltmaktadır.",
+          "citations": [
+            "487745"
+          ]
+        },
+        {
+          "claim": "Organik materyal uygulamaları toprakta agregat oluşumunu ve stabilitesini iyileştirmektedir.",
+          "citations": [
+            "133016"
+          ]
+        },
+        {
+          "claim": "Organik gübre uygulamaları, inorganik gübrelemeye kıyasla topraktan karbondioksit (CO₂) salınımını artırabilmektedir.",
+          "citations": [
+            "624349"
+          ]
+        },
+        {
+          "claim": "Toprak enzim aktiviteleri, toprak verimliliğinin biyokimyasal bir göstergesi olarak kullanılmakta ve organik tarım uygulamaları bu aktiviteleri olumlu etkilemektedir.",
+          "citations": [
+            "847528"
+          ]
+        },
+        {
+          "claim": "Türkiye topraklarında organik madde içeriği genel olarak düşük seviyededir ve organik gübre/kompost uygulamaları bu eksikliği gidermede önemli bir rol oynamaktadır.",
+          "citations": [
+            "914788",
+            "624349"
+          ]
+        },
+        {
+          "claim": "Organik tarım, konvansiyonel tarıma kıyasla toprak karbon fraksiyonlarında (toplam organik karbon, su ile ekstrakte edilebilen organik karbon vb.) daha yüksek değerler sağlamaktadır.",
+          "citations": [
+            "784708"
+          ]
+        },
+        {
+          "claim": "Kimyasal gübreler toprağın pH'ını değiştirerek mikroorganizma dengesini bozmakta ve organik madde kaybına yol açarken, organik gübreler toprak yapısını korumaktadır.",
+          "citations": [
+            "307798"
+          ]
+        }
+      ],
+      "contradictions": []
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Ölçüm yöntemlerinin (hangi spesifik analiz teknikleri, indeksler, eşitlikler) detaylandırılmaması",
+        "Zamansal boyut (kısa/uzun vadeli etkiler, izleme süreleri) eksikliği",
+        "Mekânsal farklılıklar (Türkiye'nin farklı bölgeleri, iklim/toprak tipi farklılıkları) gözetilmemiş",
+        "Hangi ürün desenleri/rotasyonları bağlamında ölçüm yapıldığı belirtilmemiş",
+        "Nicel bulgular (yüzde değişim, istatistiksel anlamlılık düzeyleri) eksik",
+        "Organik tarımın sertifikasyon/geçiş sürecinin toprak verimliliği ölçümlerine etkisi ele alınmamış"
+      ],
+      "requery_terms": [
+        "Türkiye organik tarım toprak verimliliği ölçüm yöntemleri",
+        "toprak organik karbon ölçümü Türkiye organik tarım",
+        "Türkiye organik tarım toprak enzim aktivitesi ölçümü",
+        "organik tarım toprak verimliliği istatistiksel analiz Türkiye",
+        "Türkiye farklı bölgeler organik tarım toprak özellikleri",
+        "organik tarıma geçiş süresi toprak verimliliği Türkiye",
+        "Türkiye'de organik tarım toprak agregat stabilitesi ölçümü"
+      ],
+      "notes": "Mevcut sentez, organik tarımın toprak verimliliğine etkilerini çeşitli göstergeler (TOK, su tutma kapasitesi, agregat stabilitesi, enzim aktiviteleri vb.) üzerinden özetlemekle birlikte, sorunun özünü oluşturan 'nasıl ölçülmüştür?' sorusuna yanıt vermemektedir. Hangi spesifik analitik yöntemler (ör. Walkley-Black, yaş yakma, fumigasyon-ekstraksiyon), hangi indeksler (ör. karbon yönetim indeksi, agregat stabilite indeksi), hangi istatistiksel testler kullanılmış, hangi derinliklerden ve hangi zaman aralıklarında örnekleme yapılmış gibi metodolojik detaylar eksiktir. Ayrıca Türkiye'nin farklı ekolojik bölgelerindeki (Akdeniz, İç Anadolu, Karadeniz vb.) çalışmalar arası karşılaştırma yapılmamış, ürün deseni ve rotasyon farklılıkları dikkate alınmamıştır. Bu nedenle kapsam yetersizdir."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nTürkiye'de organik tarım uygulamalarının toprak verimliliğine etkisi, çeşitli fiziksel, kimyasal ve biyokimyasal parametreler aracılığıyla bilimsel yöntemlerle ölçülmüştür. Bu ölçümler, organik ve inorganik gübre uygulamalarının karşılaştırılması, toprak karbon fraksiyonlarının analizi, enzim aktivitelerinin izlenmesi ve toprağın fiziksel özelliklerindeki değişimlerin belirlenmesi gibi çok boyutlu yaklaşımları kapsamaktadır.\n\n## Toprak Organik Karbon ve Karbon Fraksiyonlarının Ölçümü\n\nOrganik tarım uygulamalarının toprak verimliliğine etkisini değerlendirmede en yaygın kullanılan yöntem, topraktaki toplam organik karbon (TOK) konsantrasyonu ve karbon fraksiyonlarının analizidir. Çukurova Üniversitesi Araştırma ve Uygulama Çiftliği'nde 1996 yılında tesadüf blokları deneme desenine göre kurulan uzun süreli bir denemede, organik ve mineral gübrelemelerin atmosfere karbon salınımı ve toprakta organik karbon fraksiyonları üzerine etkileri araştırılmıştır. Bu çalışmada organik gübre uygulamaları yapılan parsellerde toplam ve organik karbon konsantrasyonları ile karbon fraksiyonları içeriği en yüksek seviyede ölçülürken, inorganik gübreleme yapılan parsellerde bu değerler daha düşük bulunmuştur [20].\n\nBenzer şekilde, organik ve konvansiyonel üretim yapılan tarım topraklarının karbon fraksiyonlarındaki değişimi belirlemek amacıyla yapılan bir çalışmada, organik tarım yapılan 14 arazi ve geleneksel tarım yapılan 14 sahadan toprak örnekleri alınarak karşılaştırmalı analizler gerçekleştirilmiştir. Bu araştırma, organik tarım uygulamalarının konvansiyonel tarıma kıyasla toprak karbon fraksiyonlarında (toplam organik karbon, su ile ekstrakte edilebilen organik karbon vb.) daha yüksek değerler sağladığını ortaya koymuştur [3].\n\n## Toprak Fiziksel Özelliklerinin Değerlendirilmesi\n\nOrganik tarım uygulamalarının toprak verimliliğine etkisi, toprağın fiziksel özelliklerindeki değişimler ölçülerek de belirlenmiştir. Süleyman Demirel Üniversitesi Tarımsal Araştırma ve Uygulama Merkezi Arazisi'nde bir elma bahçesinde yürütülen çalışmada, kontrol, toprak işleme, ahır gübresi (30 ton ha⁻¹) ve biyokatı (30 ton ha⁻¹) uygulamalarının toprak su tutma özellikleri (0.001, 0.1, 0.33, 1, 5, 10, 15 bar basınçlarda) ve hacim ağırlığına etkileri incelenmiştir. Araştırmada tüm basınçlarda en yüksek su tutma kapasitesi organik materyal uygulamalarında gözlemlenirken, hacim ağırlığında azalma tespit edilmiştir [28].\n\nAyrıca, değişik kökenli organik materyallerin toprakta agregat oluşumu ve stabilitesi üzerine etkileri, Akdeniz Üniversitesi kampüsündeki Akdeniz Kırmızı Toprakları'ndan alınan örneklerle deneysel olarak araştırılmıştır. Bu çalışmada farklı dozlarda uygulanan organik materyallerin toprak agregat oluşumunu ve stabilitesini iyileştirdiği belirlenmiştir [29].\n\n## Toprak Enzim Aktivitelerinin Biyokimyasal Gösterge Olarak Kullanımı\n\nToprak verimliliğinin biyokimyasal bir göstergesi olarak enzim aktiviteleri, organik tarım uygulamalarının etkisini ölçmede önemli bir parametre olarak kullanılmaktadır. Çiftçi şartlarında farklı bitki yetiştirilen topraklarda bazı enzim aktivitelerinin mevsimsel değişiminin incelendiği bir çalışmada, toprak enzimlerinin toprağın biyolojik aktivitesi ve verimliliğinde önemli bir rol oynadığı ve organik tarım uygulamalarının bu aktiviteleri olumlu yönde etkilediği tespit edilmiştir [26].\n\n## Karbon Salınımı Ölçümleri\n\nOrganik gübre uygulamalarının toprak verimliliğine etkisi değerlendirilirken, topraktan karbondioksit (CO₂) salınımının ölçümü de dikkate alınmıştır. Uzun süreli deneme sonuçları, organik gübre uygulamalarının inorganik gübrelemeye kıyasla topraktan CO₂ salınımını artırabildiğini göstermektedir [20]. Bu durum, organik madde mineralizasyonu ile ilişkili olup toprak verimliliği açısından çift yönlü bir etkiye işaret etmektedir.\n\n## Toprak pH ve Mikroorganizma Dengesi Üzerine Etkiler\n\nKimyasal gübrelerin toprağın pH'ını değiştirerek mikroorganizma dengesini bozduğu ve organik madde kaybına yol açtığı, buna karşılık organik gübrelerin toprak yapısını koruduğu belirlenmiştir. Kimyasal gübreler toprağa atıldıktan sonra topraktaki organizmaların çalışmasını engellemekte, bu engelleme ilk olarak toprağın pH'sının değişmesi ile başlamakta ve topraktaki reaksiyonlar ile mikroorganizmal denge bozulmaktadır [23].\n\n## Türkiye Topraklarının Organik Madde Durumu Bağlamında Değerlendirme\n\nTürkiye topraklarında organik madde içeriğinin genel olarak düşük seviyede olduğu ve yoğun işleme uygulamalarının bu miktarı daha da azalttığı bilinmektedir [27]. Bu bağlamda, organik gübre ve kompost uygulamalarının topraklardan eksilen organik maddenin yeniden kazandırılmasında önemli bir rol oynadığı vurgulanmaktadır [20, 27].\n\n## Sonuç\n\nTürkiye'de organik tarım uygulamalarının toprak verimliliğine etkisi; toprak organik karbon ve karbon fraksiyonlarının analizi, toprağın su tutma kapasitesi ve hacim ağırlığı gibi fiziksel parametrelerin ölçümü, agregat oluşumu ve stabilitesinin belirlenmesi, toprak enzim aktivitelerinin biyokimyasal gösterge olarak kullanılması ve karbon salınımının izlenmesi gibi çok yönlü bilimsel yöntemlerle ölçülmüştür. Elde edilen bulgular, organik tarım uygulamalarının toprak organik karbon içeriğini artırdığı, toprağın fiziksel yapısını iyileştirdiği ve biyokimyasal aktiviteyi olumlu yönde etkilediği yönünde tutarlı sonuçlar ortaya koymaktadır. Bununla birlikte, organik gübre uygulamalarının CO₂ salınımını artırabilmesi, toprak verimliliği ile karbon döngüsü arasındaki karmaşık ilişkiye işaret etmekte ve bu konuda daha fazla araştırmaya ihtiyaç duyulduğunu göstermektedir.",
+      "n_citations": 29,
+      "citations_ieee": [
+        "[1] ZEYNEB SÜMEYYE ÇAKIRBEY, \"Organik tarımda bitki besleme ve gübre yönetimi,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Fen Bilimleri Enstitüsü / Toprak Bilimi ve Bitki Besleme Ana Bilim Dalı / Bitki Besleme Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=npGs9H39x7G6401x51yqpC5ePNgfCJQOonJrTQxwYKUzraRwT8yVotMuNqWBGeMO",
+        "[2] DİLARA KATERINA ZAMAN, \"Türkiye'de organik tarım piyasası: İlkeler ve uygulamalar,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77Lfg2xb1s4aRDHsyLjsMEqKvSBAIUD4WgC2wDkRe3m2Vo",
+        "[3] MERVE ÇELEBİ AKŞAHİN, \"Organik ve konvansiyonel üretim yapılan tarım topraklarının karbon fraksiyonlarındaki değişimin ve bazı fizikokimyasal özelliklerinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Fen Bilimleri Enstitüsü / Toprak Bilimi ve Bitki Besleme Ana Bilim Dalı / Toprak Bilimi ve Bitki Besleme Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxGcfjnwIGVi4wTLXoXfXER1S4ITP00_PQ0uzKJHeywtl",
+        "[4] NİLÜFER YOLCU, \"Organik tarım ve Türkiye'de organik tarımın istihdam yaratma potansiyeli,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Yönetimi Ana Bilim Dalı / Kamu Yönetimi Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=iTkOhwevEenJZ3onUvs52lpYLNxXFUlCmf9nuKiv69Qx9q9RtruXty1eRtuGOnUY",
+        "[5] ÖMER FARUK İPEK, \"Organik tarım sektörü potansiyeli: Aydın ili örneği,\" Yüksek Lisans/Doktora tezi, Aydın Adnan Menderes Üniversitesi / Sosyal Bilimler Enstitüsü / Ekonometri Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kIrIdtdJ31bRgjb6fHvMUfQGRvUrGd-Hu9tfSsrEy525c85xMaPYWV8czFSUdLxy",
+        "[6] YUSUF YARAMIŞLI, \"Türkiye'de organik tarımın zamansal ve mekânsal gelişimi,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / Coğrafya Ana Bilim Dalı / Coğrafya Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=9MiDp3x86xrwjpi5-14w-a9lHEMs6SnIBemK9bkzgdZ33saGXSX-1rMaL5bv7BYE",
+        "[7] MERAL ŞENYÜZ, \"Türkiye'deki organik tarım ürünlerinin zaman serileri ile analizi,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / Sayısal Yöntemler Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZkra_cQwKPvb_QkQnCrD7ac-n9CU-ey9oO6UD2_feAPC",
+        "[8] DURSUN DURMAZ HATUNOĞLU, \"Türkiye ve dünya'da organik tarımın ekonomik boyutu: Organik tarımın Adana ili ekonomisindeki yeri,\" Yüksek Lisans/Doktora tezi, Anadolu Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Bölümü / İktisat Ana Bilim Dalı / Uluslararası İktisat Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=NtBAevXNhYaNqJFoAcdBdoklOczqbPBvHLja35LWWy2ZcAPxbS-hl1UTecR57MDv",
+        "[9] SERHAT FİDANCI, \"Tekirdağ ili Malkara ve Süleymanpaşa ilçelerindeki bazı köylerin toprak verimliliklerinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Namık Kemal Üniversitesi / Fen Bilimleri Enstitüsü / Toprak Bilimi ve Bitki Besleme Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WBc656i315e2eV6-EZV1otQV388iICc5Jc_w5e8v8EuItO4wOht-2DOC-F_wWmO_",
+        "[10] MEHMET SERKAN ÇINAROĞLU, \"Organik tarımın ekonomik analizi: Kilis örneği,\" Yüksek Lisans/Doktora tezi, Kilis 7 Aralık Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fS4sqEZr79C_n60Rk6MjFVhs2IiIqP5EkU9rcBIO3XZpgecmj78K8IePWHkCTQX6",
+        "[11] MEHMET AKSOY, \"Amasya ilinde toprak tarımı çiftçilerinin organik tarım anlayışı,\" Yüksek Lisans/Doktora tezi, Iğdır Üniversitesi / Fen Bilimleri Enstitüsü / Organik Tarım İşletmeciliği Ana Bilim Dalı / Organik Tarım Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=S2eMu1TIwY_v4mYv58xAr3SzoH_al5bdEcosyM6B6IfDII_p14k-8jXryHfKFRdm",
+        "[12] FERDA  ESİN GÜLEL, \"Klinik denemelerde örneklem büyüklüğü belirlemesi üzerine uygulamalar,\" Yüksek Lisans/Doktora tezi, Ondokuz Mayıs Üniversitesi / Fen Bilimleri Enstitüsü / İstatistik Ana Bilim Dalı, 2005. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=pPKKNi4sz1aRaVz8gj3jxPKwErsHQCWLJ8GOBQ4SX0SpIbgRxmx-STLi52EnJM-r",
+        "[13] ONUR ÇETİNER, \"Yüksek frekanslı cihaz kalibrasyon kurulumlarında ölçüm belirsizliklerinin hesaplanması ve kalibrasyon yazılımı geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1zw6GvYMe-q3Hf6HR-3US-0lRKZGQgtZAFcLkD4q75Ohx3yZHbGc31A1dUANUEcg",
+        "[14] BATUHAN ÖZKAN, \"Ölçme değişmezliğinin incelenmesinde ampirik yöntemler,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İstatistik Ana Bilim Dalı / İstatistik Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kIrIdtdJ31bRgjb6fHvMUaRcFeXcQ1MxZwCQLL0JexAkVrqYz-qxMyEphORWIdNA",
+        "[15] GAMZE KÜÇÜK ÖNTAŞ, \"Dairesel verilerin analizinde kullanılan istatistik yöntemler,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Fen Bilimleri Enstitüsü / İstatistik Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMszBjGn6Eif8d6Lve2nl6c3W5WGnq-K7Alm9FJozg-tgQ",
+        "[16] MUSA SARİ, \"Veri analizinde doğru istatistiksel testin bilgisayar yardımıyla seçilmesi,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İstatistik ve Bilgisayar Bilimleri Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpY8-LptynHQkaEQ_NuCtwevOvZy1aeC1PsS_0Kjcwilg",
+        "[17] BEYZA DOĞANAY, \"Uzunlamasına çalışmaların analizinde karma etki modelleri,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sağlık Bilimleri Enstitüsü / Biyoistatistik Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ePX_SaJ0b35Gq45swKG3lLhvRGAHXxjERAQjUD0Sq6dxgwuw_ikNal7IvxcJxo8c",
+        "[18] KÜBRA ASOĞLU, \"Tuzlu-alkali bir toprak profilinde karbon stoğu tahmini,\" Yüksek Lisans/Doktora tezi, Harran Üniversitesi / Fen Bilimleri Enstitüsü / Toprak Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=jNRDC1RLfVd4_T7x7ZXmmVCemoQ1b4cODG1KBvIGzE0KNYYosroGrydk3S0-ty_k",
+        "[19] SEMA DEMİRCİ, \"Farklı arazi kullanımlarında agregatlara bağlı karbon ile biyolojik karbon ve azot fraksiyonlarının belirlenmesi,\" Yüksek Lisans/Doktora tezi, Gaziosmanpaşa Üniversitesi / Fen Bilimleri Enstitüsü / Toprak Ana Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=biL2P3cCsPgUNjVdV2BsGKTB0QJml1KbvQ_YIAixHAQZjxHx0d8zjSRDhJpnBPAE",
+        "[20] HASAN AKGÖL, \"Organik ve inorganik gübre uygulamalarının atmosfere karbon salınımı ve toprakta tutulan organik karbon fraksiyonları üzerine etkileri,\" Yüksek Lisans/Doktora tezi, Çukurova Üniversitesi / Fen Bilimleri Enstitüsü / Toprak Bilimi ve Bitki Besleme Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGYge-rSzUQ0f7tutfO2Dfiat-CAqnBMtzQxyFmfApsKY",
+        "[21] ERDAL SAKİN, \"Güneydoğu Anadolu bölgesi topraklarının karbon stokları ve dengesi,\" Yüksek Lisans/Doktora tezi, Harran Üniversitesi / Fen Bilimleri Enstitüsü / Toprak Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ZeTyprYuef2HkaF3xt4wYgw552clf93aBQ9axvYRHKeobqW2ghZab8ppGKz-rdfy",
+        "[22] GÜLPERİ EVLİYAOĞLU, \"Farklı alan kullanımlarında toprak organik karbon dinamiğinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Eskişehir Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vjszP7PzV0HebcjFEvDfwI_LmsCG3Kp9LCWNlZbyZUAqOaqlPibQAVgL8gyKcWEM",
+        "[23] SABİT YILMAZ, \"Ağaç altı otomatik organik gübre dağıtma makinası geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Çukurova Üniversitesi / Fen Bilimleri Enstitüsü / Tarım Makineleri Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-AnK8ckncKXCWvC7Oyi827InWBd0NiVni7lsdjlzJrkmk",
+        "[24] MUHAMMED KOYUNÇU, \"Farklı tuz şiddetindeki topraklarda organik madde mineralizasyonu ve organik madde stok ilişkisi,\" Yüksek Lisans/Doktora tezi, Harran Üniversitesi / Fen Bilimleri Enstitüsü / Toprak Bilimi ve Bitki Besleme Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiE5KtgNSt2O3QG1lBguEpV5AHmuefVczU5hB3olf5Etj",
+        "[25] İLYAS BOLAT, \"Kayın, göknar ve göknar-kayın meşcerelerinde üst toprak ve ölü örtüdeki mikrobiyal biyokütle karbon (Cmic), azot (Nmic), fosfor (Pmic) ve mikrobiyal solunumun mevsimsel değişimi,\" Yüksek Lisans/Doktora tezi, Bartın Üniversitesi / Fen Bilimleri Enstitüsü / Orman Mühendisliği Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGjINTBAcYFXhV2WdoriwKADqrhWVY4Ie7mUoyk3NyzHZ",
+        "[26] ESMA KÖPRÜLÜ, \"Çiftçi şartlarında farklı bitki yetiştirilen topraklarda bazı enzim aktivitelerinin mevsimsel değişimi,\" Yüksek Lisans/Doktora tezi, Harran Üniversitesi / Fen Bilimleri Enstitüsü / Toprak Bilimi ve Bitki Besleme Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHO0QfI5A2OE7YyyZdaDT3RC23NjHxou5hFPNwHew1A55",
+        "[27] ŞAHESTE ELİF ÇOKAN, \"Biyoreaktör kompostlama teknolojisi ile üretilen tavuk gübresi kompostlarının mısır topraklarının karbon ve azot mineralizasyonu üzerine etkileri,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Fen Bilimleri Enstitüsü / Toprak Bilimi ve Bitki Besleme Ana Bilim Dalı / Toprak Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=E_eEUHQic_C-LvhxNQn1W5OB9AhfI5xuAI6Oe6fi8yE2rmixmmibxXcBP4Z46YIA",
+        "[28] SERDAL ŞİMŞEK, \"Farklı kültürel uygulamaların toprak su tutma özellikleri üzerine etkileri,\" Yüksek Lisans/Doktora tezi, Süleyman Demirel Üniversitesi / Fen Bilimleri Enstitüsü / Toprak Bilimi ve Bitki Besleme Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RrI-Krk3A-RkF4YfHofuk6wQNqdlAFZGG45c2KvhKaB4Vr8c2nfotxSnoIUlCebu",
+        "[29] ERDEM YILMAZ, \"Değişik kökenli organik materyallerin toprakta agregat oluşumu ve stabilitesi üzerine etkileri,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Fen Bilimleri Enstitüsü / Toprak Ana Bilim Dalı, 2002. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=p911s0iMPy2wtZbYYckXOeWNaCPQODL5yQ1TVCoEA_OSW7xgj6coNHRZXY7WNCDk"
+      ]
+    }
+  },
+  "error": null
+}

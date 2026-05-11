@@ -1,0 +1,417 @@
+{
+  "id": "q12",
+  "category": "engineering",
+  "type": "method",
+  "question": "Beton karışımına nano malzeme katkılarının mekanik özelliklere etkisi nasıl incelenmiştir?",
+  "expected_subjects": [
+    "İnşaat Mühendisliği",
+    "Malzeme Bilimi"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 167.59,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Nano malzeme katkılı betonların mekanik özelliklerini inceleyen tezlerde en sık kullanılan deneysel yöntemler (basınç dayanımı, eğilme dayanımı, elastisite modülü vb.) nelerdir ve bu yöntemler hangi standartlara göre uygulanmıştır?",
+          "rationale": "Yöntemsel çeşitliliği ve standartları ortaya koyarak araştırma desenini anlamak için temel bir alt soru."
+        },
+        {
+          "text": "Farklı nano malzeme türlerinin (nano-SiO2, nano-Al2O3, nano-TiO2, karbon nanotüp vb.) betonun mekanik özelliklerine etkisi arasında anlamlı farklılıklar var mıdır ve hangi nano malzeme hangi mekanik özellikte en belirgin iyileşmeyi sağlamıştır?",
+          "rationale": "Nano malzeme türleri arasında karşılaştırmalı bir analiz sunarak hangi malzemenin hangi bağlamda öne çıktığını belirlemek."
+        },
+        {
+          "text": "Nano malzeme katkı oranının (ağırlıkça %0,5, %1, %2 vb.) betonun mekanik performansı üzerindeki etkisi doğrusal mıdır yoksa belirli bir optimum katkı oranı var mıdır?",
+          "rationale": "Dozaj-etki ilişkisini sorgulayarak pratik uygulamalar için kritik bir tasarım parametresini aydınlatmak."
+        },
+        {
+          "text": "Nano malzeme katkılı betonların mekanik özelliklerindeki değişimin mikro-yapısal karakterizasyon (SEM, XRD, FTIR vb.) bulgularıyla nasıl ilişkilendirildiği ve bu ilişkinin tezlerde ne ölçüde kanıtlandığı sorgulanmalıdır.",
+          "rationale": "Mekanik bulguların altında yatan fiziksel/kimyasal mekanizmaları anlamak ve tezlerin açıklayıcılık düzeyini değerlendirmek."
+        },
+        {
+          "text": "Tezlerde nano malzeme katkılı betonların mekanik özelliklerine ilişkin raporlanan sınırlılıklar (dağılma sorunu, maliyet, işlenebilirlik kaybı vb.) nelerdir ve bu sınırlılıklara yönelik hangi çözüm önerileri sunulmuştur?",
+          "rationale": "Araştırma bulgularının uygulanabilirliğini ve gelecek çalışmalara yön veren kısıtları belirlemek."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 25,
+      "max_score": 0.8949,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "737058",
+          "title_tr": "Nano silika-mikro silika içeren normal ve yüksek dayanımlı betonlarda donatı-beton aderans özelliklerinin incelenmesi",
+          "author": "BÜŞRA BOYACI",
+          "year": 2022,
+          "score": 0.8949,
+          "abstract_excerpt": "Günümüz dünyasında en çok tüketilen yapı malzemesinin beton olduğu bilinmektedir. Zaman geçtikçe beton yapılardan daha yüksek dayanım ve daha uzun hizmet ömrü beklenmektedir. Yıllar içinde inşaatta kullanılan betonun dayanım gerekliliği arttıkça yüksek dayanım tanımı da değişmektedir. Yüksek dayanım"
+        },
+        {
+          "tez_no": "559967",
+          "title_tr": "Nanosilika katkılı geleneksel betonların mekanik ve elastik özelliklerinin incelenmesi",
+          "author": "ESEN ÖNDER",
+          "year": 2019,
+          "score": 0.8946,
+          "abstract_excerpt": "Günümüzde pek çok farklı alanda hem taşıyıcı hem de dekoratif amaçlı olarak kullanılan ve oldukça önemli bir yapı malzemesi olan beton, düşük dayanım ve durabilite, geçirimlilik, segregasyon, çatlaklar, rötre gibi problemlerle karşı karşıya gelmektedir. Bu problemlerin üstesinden gelmek için betona "
+        },
+        {
+          "tez_no": "793846",
+          "title_tr": "Nano silikanın çimentonun kısmi ikamesi olarak betonun özellikleri üzerindeki etkisinin incelenmesi",
+          "author": "SHIREEN KAREEM RAHEEM BADAWANI",
+          "year": 2023,
+          "score": 0.8888,
+          "abstract_excerpt": "Beton, günümüzde farklı alanlarda, binalarda taşıyıcı ve dekoratif amaçlı kullanılan çok önemli bir yapı malzemesidir. Malzeme teknolojisindeki gelişmeler, binaların yapımında şekil, boyut ve tamamlanma hızı açısından uygun malzemelerin seçilmesine yansıyan geniş bir kullanım alanı sağlamaktadır. Be"
+        },
+        {
+          "tez_no": "661114",
+          "title_tr": "Nano malzemeli farklı dayanımlara sahip betonlarda mekanik ve durabilite özelliklerinin incelenmesi",
+          "author": "MUHAMMED ERDEN",
+          "year": 2021,
+          "score": 0.8871,
+          "abstract_excerpt": "Bu çalışmada, nano-SiO2 (NS), nano-Al2O3 (NA) ve nano-Fe2O3 (NF) katkılı düşük (DDB), normal (NDB) ve yüksek dayanımlı betonların (YDB) donma-çözülme (DÇ) çevrimleri sonrası su emme, görünür gözeneklilik, su penetrasyon derinliği, kütle kaybı ve kalan basınç dayanımı (KBD) gibi özellikleri incelenmi"
+        },
+        {
+          "tez_no": "609554",
+          "title_tr": "Kimyasal buhar çöktürme yöntemiyle üretilmiş karbon nanotüp ile takviyelendirilmiş betonun bazı özelliklerinin araştırılması /",
+          "author": "NAZLI NİSA CACİM",
+          "year": 2019,
+          "score": 0.8861,
+          "abstract_excerpt": "Günümüzde, teknolojinin gelişmesiyle birlikte birçok farklı beton karışım türü ortaya çıkmıştır. Nano malzemelerin beton karışımlarına uygulanmasının, geleneksel beton özelliklerini geliştirdiği görüldüğünde nano malzemelere olan ilgi artmıştır. Beton karışımındaki maddeler doğada bol miktarda bulun"
+        },
+        {
+          "tez_no": "536658",
+          "title_tr": "Çimentolu kompozitlerde mikro ve nano mineral katkıların performasyonlarının karşılaştırılması",
+          "author": "NANH RIDHA FAISAL FAİSAL",
+          "year": 2019,
+          "score": 0.8803,
+          "abstract_excerpt": "İnşaat mühendisliğinde nanoteknolojideki gelişmeler yakından takip edilmekte ve olası yeni uygulama alanları belirlenmeye çalışılmaktadır. Nanopartiküllerin yapı malzemelerinde kullanımı her geçen gün daha da ilgi çekmektedir. Nanopartiküllerin kullanımıyla yapı malzemelerinin mukavemet ve durabilit"
+        },
+        {
+          "tez_no": "807316",
+          "title_tr": "Nanobor katkılı betonların fiziko-mekanik özellikleri",
+          "author": "EMRE UZUN",
+          "year": 2023,
+          "score": 0.8792,
+          "abstract_excerpt": "Beton; çimento, su, agrega, kimyasal ve mineral katkıların belirli oranlarda homojen olarak karıştırılarak başlangıçta şekil verilebilen kıvamda, daha sonra priz alarak sertleşen yapı malzemesidir. Beton geniş bir kullanım alanına hitap ettiği için en çok kullanılan yapı malzemelerinden biridir. Ülk"
+        },
+        {
+          "tez_no": "392759",
+          "title_tr": "İnşaat endüstrisine yönelik doğal elyaf katkılı kompozit malzemelerin hazırlanması",
+          "author": "AHMET CENGİZ",
+          "year": 2015,
+          "score": 0.8736,
+          "abstract_excerpt": "Beton; binlerce yıldır yapı malzemesi olarak kullanılmaktadır. İnsanlar yapılarının fiziksel dayanımına çok önem vermişler ve kullandıkları betonun da dayanıklılığını sürekli geliştirmişlerdir. Betonun fiziksel dayanımını arttırmada uygulanan en pratik yol; beton harcının içerisine fiber malzemeler "
+        },
+        {
+          "tez_no": "737791",
+          "title_tr": "Nano silika ve mikro silika katkılı harçlarda durabilite ve mekanik özellikler",
+          "author": "MERVE BAŞARAN",
+          "year": 2022,
+          "score": 0.8649,
+          "abstract_excerpt": "Beton; çimento, agrega, katkı maddeleri ve karışım suyunu içeren karmaşık yapıya sahip olan bir yapı malzemesidir. Aynı zamanda en yaygın olarak kullanılan insan yapımı yapı malzemelerinden biridir ve her yıl yaklaşık 20 milyar metrik ton üretilmektedir. Beton yapımı için üretilen çimento, küresel k"
+        },
+        {
+          "tez_no": "405959",
+          "title_tr": "Kimyasal katkı maddelerinin çimento ile uyumluluğunun ve harç üretimine etkisinin incelenmesi",
+          "author": "ECE GİRAY",
+          "year": 2015,
+          "score": 0.8575,
+          "abstract_excerpt": "Bu çalışmada, çimento ve süper akışkanlaştırıcı kimyasal katkı uyumu araştırılmıştır. Süper akışkanlaştırıcı katkı türünün ve dozajının betonun basınç dayanımına, işlenebilirliğine ve mikroyapısal özelliklerine olan etkileri incelenmiştir. Sabit su/çimento oranında, katkısız ve farklı oranlarda katk"
+        },
+        {
+          "tez_no": "467260",
+          "title_tr": "Nano silika kullanımının kendiliğinden yerleşen betonların reolojik, mekanik ve içyapısal özellikleri üzerine etkilerinin araştırılması",
+          "author": "MUHAMMED YASİN DURGUN",
+          "year": 2017,
+          "score": 0.8571,
+          "abstract_excerpt": "Beton; çimento, agrega, su ve gerektiğinde çeşitli katkı malzemelerinin belirli miktarlardaki karışımlarından meydana gelmektedir. Teknolojinin ilerlemesiyle birlikte birçok farklı beton türü ortaya çıkmıştır. Betonu oluşturan ham maddeler doğada bol miktarda bulunmaktadır. Ucuza sağlanması ve kolay"
+        },
+        {
+          "tez_no": "698491",
+          "title_tr": "Nano partiküler malzemelerin uçucu kül mineral katkılı çimento bazlı harçların reolojik özellikleri üzerinde etkisinin incelenmesi",
+          "author": "SAMET MÜFİT BOZKIR",
+          "year": 2021,
+          "score": 0.8541,
+          "abstract_excerpt": "Bu tez kapsamında çeşitli ilave oranlarında (%0.0, %0.3, %0.6, %0.9, %1.2 ve %1.5) 4 farklı nano partiküller malzemenin (n-SiO2, n-TiO2, n-ZnO ve n-Al2O3) farklı ikame oranlarında (%0-kontrol numune, %5, %10, %15, %20, %25 ve %30) uçucu kül (UK) mineral katkılı çimento esaslı harçların reolojik, akı"
+        },
+        {
+          "tez_no": "328515",
+          "title_tr": "Nanoteknolojik malzemelerin mekan tasarımındaki yansımalarına genel bir bakış",
+          "author": "MERİH KASAP",
+          "year": 2012,
+          "score": 0.8638,
+          "abstract_excerpt": "Tasarımın Nano Gücü ?Nanoteknoloji, nanometre ölçekli yapılar üzerinde çalışan bir teknolojidir. Günümüzde nanoteknoloji ülkeler için stratejik bir önem taşımaya başlamış durumdadır. Gelişmiş ülkeler öncelikli alanlarını belirleyip bu konu üzerinde gün geçtikçe daha da yoğunlaşmaktadır. Nanoteknoloj"
+        },
+        {
+          "tez_no": "818956",
+          "title_tr": "Tek duvarlı karbon nanotüp takviyeli ultra yüksek performanslı betonların özelliklerinin araştırılması",
+          "author": "MUHAMMET SEİS",
+          "year": 2023,
+          "score": 0.8597,
+          "abstract_excerpt": "Nanoteknolojinin gelişmesi ile birlikte inşaat sektöründe özellikle yapı malzemeleri alanında farklı özelliklere sahip nano malzemelerin kullanılması araştırmacıların ilgisini çekmektedir. Nano malzemeler arasında günümüzün en büyük buluşlarından olduğuna inanılan karbon nanotüpler (CNT) boyutu ve o"
+        },
+        {
+          "tez_no": "741546",
+          "title_tr": "Grafen kullanımının harçların mekanik özeliklerine ve korozyon dayanıklılığına etkisi",
+          "author": "FARUK ALPEREN AYTEKİN",
+          "year": 2022,
+          "score": 0.8505,
+          "abstract_excerpt": "Beton, en yaygın kullanılan yapı malzemesidir. Betonun çekme dayanımı, basınç \ndayanımına göre oldukça düşüktür. Bu nedenle günümüze kadar, çelik takviyelerle \nbetonun çekme dayanımı iyileştirilmiştir. Çelikteki korozyon oluşumu, servis ömrünü \ndüşürmekte ve yapıyı kullanılamaz hale getirebilmektedi"
+        },
+        {
+          "tez_no": "723027",
+          "title_tr": "Elektromanyetik kalkanlama özellikli nano malzeme katkılı yapı malzemelerinin üretimi",
+          "author": "ÖZER DURMAZ",
+          "year": 2022,
+          "score": 0.8371,
+          "abstract_excerpt": "Ülkemizde yapı sektöründe temel malzeme olan betonun endüstriyel üretimi son zamanlarda hızlı bir gelişim ve yaygınlaşma sürecine girmiştir. Beton; agrega, çimento, su ve gerektiğinde bazı katkı maddelerinin karıştırılmasıyla elde edilen bir yapı malzemesidir. Teknolojideki gelişmeler, bilim insanla"
+        },
+        {
+          "tez_no": "553114",
+          "title_tr": "Betonun ultrasonik tomografi yöntemi ile incelenmesinde frekansın etkisi",
+          "author": "MUSTAFA ALTUĞ PEKER",
+          "year": 2019,
+          "score": 0.8324,
+          "abstract_excerpt": "İnşaat mühendisliği uygulamalarında en fazla kullanılan malzemelerden biri olan beton; günlük hayattaki birçok önemli yapıda bulunmaktadır. Bu önemli yapıların kullanım ömrünün ve güvenliğinin doğru şekilde belirlenmesi gerekmektedir.\nYapıların mevcut durumunu ve yapının kalitesini belirlemek için t"
+        },
+        {
+          "tez_no": "352567",
+          "title_tr": "Karbon nanotüp katkılı betonda karışık modda arcan yüklemesinde boyut etkisi",
+          "author": "VEYSEL BARAN BODUROĞLU",
+          "year": 2014,
+          "score": 0.8311,
+          "abstract_excerpt": "Deneysel bu çalışmanın amacı, çok duvarlı nano karbon tüp katkısının beton dayanımına etkisinin anlaşılmasıdır. Karışımın homojen olabilmesi için ultrasonik karıştırıcı kullanılmış ve çentikli dikdörtgen numunelerin çekme performansını tespit için modifiye arcan deney aleti kullanılmıştır. Çekme den"
+        },
+        {
+          "tez_no": "597287",
+          "title_tr": "Farklı faz ve boyutlardaki titanyum dioksitin çimento bağlayıcılı kompozitlerin özellikleri üzerine etkileri",
+          "author": "KEMAL KOCA",
+          "year": 2019,
+          "score": 0.8304,
+          "abstract_excerpt": "Hacimsel olarak sudan sonra en çok kullanılan malzemenin beton olduğu düşünüldüğünde, modern toplumların karşı karşıya kaldığı hava kirliliklerini aşmanın temel yollarından birisinin de, var olan temel yapı malzemelerini havada kirliliği oluşturan maddeleri kimyasal olarak bağlayarak azaltacak nitel"
+        },
+        {
+          "tez_no": "252447",
+          "title_tr": "C3A oranı farklı çimentolarla üretilmiş betonlarda sülfat etkisi ve klorür geçirimliliği",
+          "author": "MEHMET GÖKTEPE",
+          "year": 2008,
+          "score": 0.8301,
+          "abstract_excerpt": "Bu çalışmada farklı C3A oranına sahip çimentolar ile üretilen betonların klorür geçirimliliği ve sülfat etkisi altında dayanıklılığı incelenmiştir. Ülkemizde yaygın olarak kullanılan C25, C30, C35 ve C40 dayanım sınıflarında farklı bağlayıcılar ile üretimler yapılmıştır. CEM I 42.5R, SDÇ 32.5 ve ağı"
+        },
+        {
+          "tez_no": "252487",
+          "title_tr": "Farklı çimentolarla üretilen betonlarda sülfat etkisi ve klorür geçirimliliği",
+          "author": "TOLGA ILICA",
+          "year": 2008,
+          "score": 0.8299,
+          "abstract_excerpt": "Bu çalışmada farklı bağlayıcı türlerinin betonun klorür geçirimliliğine, sülfat ve deniz suyu ortamında betonun dayanıklılığına etkisi incelenmiştir. Ülkemizde yaygın olarak kullanılan C25, C30, C35 ve C40 dayanım sınıflarında farklı bağlayıcılar ile üretimler yapılmıştır. CEM I 42.5R, CEM III/A 32."
+        },
+        {
+          "tez_no": "470759",
+          "title_tr": "Karbon nanotüplerin çimentolu kompozitlerde farklı katkılarla etkileşimi",
+          "author": "HASSAN MAMMAN TELA",
+          "year": 2016,
+          "score": 0.8247,
+          "abstract_excerpt": "Bu tez çalışmasında Silis dumanı (SD), Yüksek fırın cürufu (YFC) endüstriyel atıkları ile Metakaolin (MT) puzolanı ve Karbon nanotüp (KNT) malzemelerinin harçlarda kullanımı ile en ideal kombinasyonun belirlenmesi ve bu kombinasyon ile üretilen beton örneklerin fiziksel ve mekanik özelliklerine etki"
+        },
+        {
+          "tez_no": "630593",
+          "title_tr": "Atık nano karbon karası kullanılarak üretilen betonlarda yüksek sıcaklık etkisinin incelenmesi",
+          "author": "HAKAN BEKAR",
+          "year": 2020,
+          "score": 0.8216,
+          "abstract_excerpt": "Ömrünü tamamlamış atık lastiklerin geri dönüştürülmesinde piroliz işlemi sonucu nano karbon karası elde edilmektedir. Oluşan bu atığın bertarafı ve beton içinde kullanımının araştırılması amacıyla bu yüksek lisans tezi hazırlanmıştır. Günümüzün büyük afetlerinden sayılan yangın ve ortaya çıkardığı y"
+        },
+        {
+          "tez_no": "735216",
+          "title_tr": "Nano silikanın yüksek oranda uçucu kül içeren betonların taze hal, priz süresi ve mekanik ozellikleri üzerine etkisinin araştırılması",
+          "author": "AHMET BARAN",
+          "year": 2022,
+          "score": 0.8179,
+          "abstract_excerpt": "Beton; çimento, agrega, su ve katkı malzemelerinden oluşmaktadır. Beton ve harç yapımında bağlayıcı malzeme olarak kullanılan çimentonun üretim ve nakliye aşamalarında çevreye yüksek miktarda karbondioksit (CO2) salınmaktadır. Bu nedenle, çimento üretimi, çevreye sürdürülebilirlik anlamında büyük za"
+        },
+        {
+          "tez_no": "W4297538301",
+          "title_tr": "Farklı Su/Bağlayıcı Oranına Sahip Betonlarda Nano Silika ve Granüle Yüksek Fırın Cürufu Kullanımın Mekanik ve Elastik Özellikler Üzerine Etkisi",
+          "author": "Hasan Nuri Turkmenoglu, Esen ÖNDER, Hakan Nuri Atahan",
+          "year": 2022,
+          "score": 0.5,
+          "abstract_excerpt": "Yapılan çalışmada, farklı su/bağlayıcı oranına sahip üç farklı beton karışımına, ağırlıkça %1 oranında nano silika (NS) ve/veya ağırlıkça %20 oranında granüle yüksek fırın cürufu (GYFC) eklenmesi ile birlikte basınç dayanımı, elastisite modülü ve Poisson oranı değerlerinde meydana gelen değişimler v"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 10,
+      "findings": [
+        {
+          "claim": "Nano silika (nano-SiO2) katkısı betonun basınç dayanımını artırmaktadır.",
+          "citations": [
+            "559967",
+            "793846",
+            "737791",
+            "467260",
+            "735216"
+          ]
+        },
+        {
+          "claim": "Nano malzemeler (nano-SiO2, nano-Al2O3, nano-Fe2O3, karbon nanotüp, grafen, nanobor) betonun mekanik özelliklerini (basınç dayanımı, eğilme dayanımı, aderans) iyileştirmektedir.",
+          "citations": [
+            "737058",
+            "559967",
+            "793846",
+            "661114",
+            "609554",
+            "536658",
+            "807316",
+            "737791",
+            "467260",
+            "818956",
+            "741546",
+            "352567",
+            "735216"
+          ]
+        },
+        {
+          "claim": "Nano malzeme katkısı, betonun durabilite özelliklerini (donma-çözülme direnci, geçirimlilik, klorür ve sülfat direnci) iyileştirmektedir.",
+          "citations": [
+            "661114",
+            "737791",
+            "741546",
+            "609554"
+          ]
+        },
+        {
+          "claim": "Nano malzemelerin optimum kullanım oranı aşıldığında (genellikle %1-2 civarı) mekanik özelliklerde düşüş gözlenebilmektedir.",
+          "citations": [
+            "559967",
+            "793846",
+            "698491",
+            "467260"
+          ]
+        },
+        {
+          "claim": "Nano malzemeler (özellikle karbon nanotüp ve nano silika) betonun mikro yapısını yoğunlaştırarak ve çimento hidratasyon ürünlerini iyileştirerek mekanik özellikleri geliştirmektedir.",
+          "citations": [
+            "559967",
+            "793846",
+            "609554",
+            "536658",
+            "737791",
+            "467260",
+            "818956",
+            "352567"
+          ]
+        },
+        {
+          "claim": "Nano malzeme katkısı betonun işlenebilirliğini azaltmakta, su ihtiyacını artırmakta ve süper akışkanlaştırıcı kullanımını gerektirebilmektedir.",
+          "citations": [
+            "559967",
+            "793846",
+            "467260",
+            "698491",
+            "735216"
+          ]
+        },
+        {
+          "claim": "Nano malzemelerin beton karışımında homojen dağılımı kritik öneme sahiptir; ultrasonik karıştırma gibi yöntemler kullanılmaktadır.",
+          "citations": [
+            "352567",
+            "818956",
+            "609554"
+          ]
+        },
+        {
+          "claim": "Farklı nano malzeme türleri (nano-SiO2, nano-Al2O3, nano-Fe2O3, nano-TiO2, nano-ZnO, karbon nanotüp, grafen, nanobor, nanoselüloz) beton özelliklerini farklı şekillerde etkilemektedir.",
+          "citations": [
+            "661114",
+            "698491",
+            "807316",
+            "741546",
+            "392759",
+            "818956",
+            "352567",
+            "597287",
+            "630593"
+          ]
+        },
+        {
+          "claim": "Nano malzeme katkısı, çimento ikamesi olarak kullanıldığında çimento miktarını azaltarak çevresel fayda sağlayabilmektedir.",
+          "citations": [
+            "793846",
+            "609554",
+            "737791",
+            "735216"
+          ]
+        },
+        {
+          "claim": "Nano silika, özellikle yüksek dayanımlı ve kendiliğinden yerleşen betonlarda mekanik ve reolojik özellikleri iyileştirmektedir.",
+          "citations": [
+            "737058",
+            "467260",
+            "735216"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Nano malzemelerin optimum oranı konusunda farklı tezlerde farklı değerler raporlanmıştır; bazı çalışmalar %0.5-1 oranını optimal bulurken bazıları %1.5-2 oranını önermektedir.",
+        "Nano malzeme katkısının işlenebilirliğe etkisi konusunda: bazı çalışmalar nano malzemelerin işlenebilirliği azalttığını belirtirken, süper akışkanlaştırıcı kullanımıyla bu etkinin dengelenebildiği ifade edilmektedir; ancak farklı nano malzeme türleri ve oranları için işlenebilirlik üzerindeki etkinin derecesi değişkendir."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Nano malzemelerin beton karışımına eklenme yöntemleri (toz, süspansiyon, dispersiyon) ve bu yöntemlerin mekanik özelliklere etkisi",
+        "Nano malzeme katkılarının erken yaş dayanımı (1, 3, 7 gün) ile uzun dönem dayanımı (28, 56, 90 gün) üzerindeki farklılaşan etkileri",
+        "Farklı nano malzeme türlerinin mekanik özellikler üzerindeki etki mekanizmalarının karşılaştırmalı analizi (hangi nano malzeme hangi mekanik özelliği daha çok iyileştiriyor?)",
+        "Nano malzeme katkılarının betonun elastisite modülü, poisson oranı gibi diğer mekanik özelliklere etkisi",
+        "Nano malzeme katkılı betonların yüksek sıcaklık/yangın sonrası mekanik özelliklerinin incelenmesi",
+        "Nano malzeme katkılarının betonun yorulma ve sünme davranışına etkisi",
+        "Nano malzeme katkılarının maliyet analizi ve ekonomik uygulanabilirliği"
+      ],
+      "requery_terms": [
+        "nano malzeme katkılı beton erken yaş dayanımı",
+        "nano silika beton elastisite modülü",
+        "nano malzeme beton yüksek sıcaklık dayanımı",
+        "nano malzeme beton yorulma sünme",
+        "nano malzeme beton maliyet analizi",
+        "nano SiO2 Al2O3 Fe2O3 TiO2 karşılaştırma mekanik özellik",
+        "nano malzeme dispersiyon yöntemi beton karışım"
+      ],
+      "notes": "Mevcut sentez, nano malzeme katkılarının betonun mekanik özelliklerine etkisini genel hatlarıyla kapsamakla birlikte, önemli alt-açılar eksiktir. Özellikle (1) farklı nano malzeme türlerinin hangi mekanik özellikleri ne ölçüde iyileştirdiğine dair karşılaştırmalı bir analiz, (2) erken yaş ve uzun dönem dayanım gelişiminin ayrıştırılması, (3) elastisite modülü gibi diğer mekanik parametreler, (4) yüksek sıcaklık/yangın sonrası performans, (5) yorulma ve sünme gibi zaman bağımlı mekanik özellikler, (6) maliyet ve ekonomik uygulanabilirlik boyutu örtülmemiştir. Ayrıca nano malzemelerin betona eklenme yöntemlerinin (toz, süspansiyon, dispersiyon yöntemleri) mekanik özelliklere etkisi de sentezde yer almamaktadır. Bu eksiklikler, sorunun kapsamını tam olarak karşılamamaktadır."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nBeton, günümüz inşaat sektöründe en yaygın kullanılan yapı malzemesi olup, artan dayanım ve durabilite talepleri doğrultusunda sürekli geliştirilmektedir. Nanoteknolojideki ilerlemeler, beton karışımlarına nano boyutlu malzemelerin eklenmesiyle mekanik özelliklerin iyileştirilmesine yönelik kapsamlı araştırmaları beraberinde getirmiştir. Bu bağlamda, nano malzeme katkılarının betonun mekanik özellikleri üzerindeki etkileri çeşitli deneysel çalışmalarla incelenmiştir.\n\n## Nano Malzemelerin Mekanik Özelliklere Etkisi\n\n### Basınç Dayanımı\n\nNano malzeme katkılarının betonun mekanik özellikleri üzerindeki en belirgin etkisi basınç dayanımında gözlenmektedir. Nano silika (nano-SiO2) katkısının betonun basınç dayanımını önemli ölçüde artırdığı çok sayıda çalışmada raporlanmıştır [1][2][3][4][5]. Nano silikanın yanı sıra nano-Al2O3, nano-Fe2O3, karbon nanotüp, grafen ve nanobor gibi farklı nano malzemelerin de betonun basınç dayanımını iyileştirdiği belirlenmiştir [6][7][8][9][10][11][12][13].\n\n### Eğilme Dayanımı ve Aderans\n\nNano malzeme katkıları yalnızca basınç dayanımını değil, aynı zamanda betonun eğilme dayanımı ve donatı-beton aderans özelliklerini de olumlu yönde etkilemektedir [6][7][14]. Özellikle nano silika-mikro silika içeren yüksek dayanımlı betonlarda donatı-beton aderans özelliklerinin iyileştiği gözlenmiştir [1].\n\n## Etki Mekanizmaları\n\nNano malzemelerin betonun mekanik özelliklerini geliştirmesinin altında yatan temel mekanizma, mikro yapı üzerindeki etkileridir. Nano malzemeler, özellikle karbon nanotüp ve nano silika, betonun mikro yapısını yoğunlaştırarak ve çimento hidratasyon ürünlerini iyileştirerek mekanik özellikleri geliştirmektedir [2][3][8][9][10][11][14][15]. Bu malzemeler, çimento matrisi içinde çekirdeklenme bölgeleri oluşturarak hidratasyon reaksiyonlarını hızlandırmakta ve daha yoğun bir mikro yapı elde edilmesini sağlamaktadır.\n\n## Optimum Kullanım Oranı\n\nNano malzemelerin beton karışımında kullanım oranı, mekanik özellikler üzerinde belirleyici bir faktördür. Yapılan çalışmalarda, nano malzemelerin optimum kullanım oranı aşıldığında (genellikle %1-2 civarı) mekanik özelliklerde düşüş gözlenebilmektedir [2][3][12][4]. Bununla birlikte, optimum oran konusunda farklı çalışmalarda farklı değerler raporlanmıştır; bazı araştırmalar %0.5-1 oranını optimal bulurken, bazıları %1.5-2 oranını önermektedir. Bu farklılık, kullanılan nano malzeme türüne, beton karışım tasarımına ve bağlayıcı tipine bağlı olarak değişkenlik göstermektedir.\n\n## İşlenebilirlik ve Karışım Tasarımı\n\nNano malzeme katkısının betonun işlenebilirliğini azalttığı ve su ihtiyacını artırdığı belirtilmektedir [2][3][4][12][5]. Bu olumsuz etkinin giderilmesi için süper akışkanlaştırıcı kullanımı gerekmektedir. Bununla birlikte, farklı nano malzeme türleri ve oranları için işlenebilirlik üzerindeki etkinin derecesi değişkendir. Nano malzemelerin beton karışımında homojen dağılımı kritik öneme sahip olup, ultrasonik karıştırma gibi yöntemler kullanılarak topaklanmanın önlenmesi ve homojen bir dağılım sağlanması hedeflenmektedir [15][14][8].\n\n## Farklı Nano Malzeme Türlerinin Etkileri\n\nFarklı nano malzeme türleri (nano-SiO2, nano-Al2O3, nano-Fe2O3, nano-TiO2, nano-ZnO, karbon nanotüp, grafen, nanobor, nanoselüloz) beton özelliklerini farklı şekillerde etkilemektedir [6][12][7][9][16][14][15][17][18]. Nano silika, özellikle yüksek dayanımlı ve kendiliğinden yerleşen betonlarda mekanik ve reolojik özellikleri iyileştirmektedir [1][4][5]. Karbon nanotüpler ise ultra yüksek performanslı betonlarda kullanılarak mekanik özelliklerin geliştirilmesinde etkili olmaktadır [14].\n\n## Çevresel Faydalar\n\nNano malzeme katkısının çimento ikamesi olarak kullanılması, çimento miktarını azaltarak çevresel fayda sağlayabilmektedir [3][8][9][5]. Çimento üretiminin küresel karbondioksit emisyonlarına önemli katkısı göz önüne alındığında, nano malzemelerin bağlayıcı ikamesi olarak kullanımı sürdürülebilirlik açısından değerli bir yaklaşım sunmaktadır.\n\n## Sonuç\n\nBeton karışımına nano malzeme katkılarının mekanik özelliklere etkisi, çok sayıda deneysel çalışmayla kapsamlı bir şekilde incelenmiştir. Araştırmalar, nano silika başta olmak üzere çeşitli nano malzemelerin betonun basınç dayanımı, eğilme dayanımı ve aderans gibi mekanik özelliklerini iyileştirdiğini göstermektedir. Bu iyileşme, nano malzemelerin mikro yapıyı yoğunlaştırması ve hidratasyon ürünlerini iyileştirmesiyle açıklanmaktadır. Bununla birlikte, optimum kullanım oranının aşılması durumunda mekanik özelliklerde düşüş gözlenebilmekte olup, optimum oran kullanılan nano malzeme türüne ve karışım tasarımına bağlı olarak değişkenlik göstermektedir. Nano malzemelerin işlenebilirliği azaltıcı etkisi, süper akışkanlaştırıcı kullanımı ve homojen dağılım için ultrasonik karıştırma gibi yöntemlerle dengelenebilmektedir. Sonuç olarak, nano malzeme katkıları betonun mekanik özelliklerini iyileştirme potansiyeline sahip olmakla birlikte, optimum karışım tasarımının belirlenmesi ve homojen dağılımın sağlanması kritik öneme sahiptir.",
+      "n_citations": 25,
+      "citations_ieee": [
+        "[1] BÜŞRA BOYACI, \"Nano silika-mikro silika içeren normal ve yüksek dayanımlı betonlarda donatı-beton aderans özelliklerinin incelenmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Yapı Mühendisliği Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFki8YELf4MepShZW7Xvn-nFYeCnCNCfkCdyAumKpdqrHy",
+        "[2] ESEN ÖNDER, \"Nanosilika katkılı geleneksel betonların mekanik ve elastik özelliklerinin incelenmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Yapı Mühendisliği Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZblATgfpQ9Wu3AERgakvpHJoue9d8F5iIrf7EcZ0evxaB",
+        "[3] SHIREEN KAREEM RAHEEM BADAWANI, \"Nano silikanın çimentonun kısmi ikamesi olarak betonun özellikleri üzerindeki etkisinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Çankırı Karatekin Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=G_oJ1rKE4SgJUkomyAKpRxe2h_PlGFc-R1POD06eoGt3DsPV7bf1H6oRMAXX5Cka",
+        "[4] MUHAMMED ERDEN, \"Nano malzemeli farklı dayanımlara sahip betonlarda mekanik ve durabilite özelliklerinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Van Yüzüncü Yıl Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=9MiDp3x86xrwjpi5-14w-SHKMeY0o6HP0Lmx0ZIYCBESeqwcveku29vNwBW9FRR-",
+        "[5] NAZLI NİSA CACİM, \"Kimyasal buhar çöktürme yöntemiyle üretilmiş karbon nanotüp ile takviyelendirilmiş betonun bazı özelliklerinin araştırılması /,\" Yüksek Lisans/Doktora tezi, Mersin Üniversitesi / Fen Bilimleri Enstitüsü / Nanoteknoloji ve İleri Malzemeler Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBjg2YKzfYBmiKl1uC1VTm8SDffOk63bPc0NCoixfCrdZ",
+        "[6] NANH RIDHA FAISAL FAİSAL, \"Çimentolu kompozitlerde mikro ve nano mineral katkıların performasyonlarının karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Süleyman Demirel Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=as2oTjW5jfr9IKSvmCdJYodKL9syBecVxbc39kQ_rJsRDP37pXM4XppGzmmR8qal",
+        "[7] EMRE UZUN, \"Nanobor katkılı betonların fiziko-mekanik özellikleri,\" Yüksek Lisans/Doktora tezi, Giresun Üniversitesi / Fen Bilimleri Enstitüsü / Makine Mühendisliği Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=j_Fjwp4JS4mk97Puqti8rqd1XtE2zqWUHpwA5ohY5c-1Rt-Z9_yltWcJVnc_rSJC",
+        "[8] AHMET CENGİZ, \"İnşaat endüstrisine yönelik doğal elyaf katkılı kompozit malzemelerin hazırlanması,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WBc656i315e2eV6-EZV1opEyka1Nr4VeeDBtcBgNjSNmoA1ILZwEyJZp8nPLHR7m",
+        "[9] MERVE BAŞARAN, \"Nano silika ve mikro silika katkılı harçlarda durabilite ve mekanik özellikler,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Yapı Mühendisliği Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkkMOlVsnBbhciBdmFtDwl-0ZmZQR3HEQBXMYlOePkww0",
+        "[10] ECE GİRAY, \"Kimyasal katkı maddelerinin çimento ile uyumluluğunun ve harç üretimine etkisinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Anadolu Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Mühendisliği Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=X-M9ZoIuIoNTj2P7iY13heqjg1MCXohOo8e6tbNkpXYyGQZ70prX2ESD-_AfMI58",
+        "[11] MUHAMMED YASİN DURGUN, \"Nano silika kullanımının kendiliğinden yerleşen betonların reolojik, mekanik ve içyapısal özellikleri üzerine etkilerinin araştırılması,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Yapı Mühendisliği Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpdDTiRrQd8ShHS9EDqgvItRLlas8XsdDnyTRc9S0lO-g",
+        "[12] SAMET MÜFİT BOZKIR, \"Nano partiküler malzemelerin uçucu kül mineral katkılı çimento bazlı harçların reolojik özellikleri üzerinde etkisinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Niğde Ömer Halisdemir Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=tqUiYt63sTQLTpozMJ92Qk_q3nlN6M3JLciJSDlrKLmrmsgdn7zab1sREfCUcX1P",
+        "[13] MERİH KASAP, \"Nanoteknolojik malzemelerin mekan tasarımındaki yansımalarına genel bir bakış,\" Yüksek Lisans/Doktora tezi, Mimar Sinan Güzel Sanatlar Üniversitesi / Fen Bilimleri Enstitüsü / İç Mimarlık Ana Bilim Dalı / İç Mimari Tasarım Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=rcbWnuqW6HxCZ_98ARapgvMrWQrCHDU086g-gIkfi6p1QMrt9DNf2ftPGclX3VTS",
+        "[14] MUHAMMET SEİS, \"Tek duvarlı karbon nanotüp takviyeli ultra yüksek performanslı betonların özelliklerinin araştırılması,\" Yüksek Lisans/Doktora tezi, Düzce Üniversitesi / Fen Bilimleri Enstitüsü / Disiplinlerarası Kompozit Malzeme Teknolojileri Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=a0OMTmEd_3mfOBxT8SiBTCwmdyD3V2dm-xU0a0hTLySXN9xtaD4Hr2DMlhj43H15",
+        "[15] FARUK ALPEREN AYTEKİN, \"Grafen kullanımının harçların mekanik özeliklerine ve korozyon dayanıklılığına etkisi,\" Yüksek Lisans/Doktora tezi, Kütahya Dumlupınar Üniversitesi / Lisansüstü Eğitim Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Yapı Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sELqxhTlFGAjsbjOuuiyCLuvwAwVBdl45NWVw4552CbPINbBKtTMak2SRd_424Ls",
+        "[16] ÖZER DURMAZ, \"Elektromanyetik kalkanlama özellikli nano malzeme katkılı yapı malzemelerinin üretimi,\" Yüksek Lisans/Doktora tezi, Tekirdağ Namık Kemal Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Yapı Malzemeleri Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CG8WvdvvxJP04Unr7Yecf6-74tDn7IN7jFIO2Kr3RQ9jYNAAiqu13-fAXn0xNvcx",
+        "[17] MUSTAFA ALTUĞ PEKER, \"Betonun ultrasonik tomografi yöntemi ile incelenmesinde frekansın etkisi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Yapı Mühendisliği Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZbuZRBXSS_KM2lBT_R4uGg1NX2VA7XrJlCiWDFEWz2QK4",
+        "[18] VEYSEL BARAN BODUROĞLU, \"Karbon nanotüp katkılı betonda karışık modda arcan yüklemesinde boyut etkisi,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1zw6GvYMe-q3Hf6HR-3US2CWYiRcBD7KOMsbzYDjpx6e-tYhQJ_aGXF6HcErfktM",
+        "[19] KEMAL KOCA, \"Farklı faz ve boyutlardaki titanyum dioksitin çimento bağlayıcılı kompozitlerin özellikleri üzerine etkileri,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=npGs9H39x7G6401x51yqpDas_ezl3g96r4O5mgAnuJ9TQmuwBVugHvsgJVPaW7oj",
+        "[20] MEHMET GÖKTEPE, \"C3A oranı farklı çimentolarla üretilmiş betonlarda sülfat etkisi ve klorür geçirimliliği,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Yapı Mühendisliği Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=NtBAevXNhYaNqJFoAcdBdo_y2UXXKLTYWAutzYEqmSGB-W3WPPFaF7q8-ibj8_pQ",
+        "[21] TOLGA ILICA, \"Farklı çimentolarla üretilen betonlarda sülfat etkisi ve klorür geçirimliliği,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Yapı Mühendisliği Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=NtBAevXNhYaNqJFoAcdBdhpLKNeJgivJ3p30iEQNHu9wuuAg-m_JuGxIUwmi_QY7",
+        "[22] HASSAN MAMMAN TELA, \"Karbon nanotüplerin çimentolu kompozitlerde farklı katkılarla etkileşimi,\" Yüksek Lisans/Doktora tezi, Süleyman Demirel Üniversitesi / Fen Bilimleri Enstitüsü / Yapı Eğitimi Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=7lOJX8w_8PRQU1mSHU6-jlukiJ2qds_LJqxNfOu558zRvePyj6fJHBPADWwojxFv",
+        "[23] HAKAN BEKAR, \"Atık nano karbon karası kullanılarak üretilen betonlarda yüksek sıcaklık etkisinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Fen Bilimleri Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Yapı Malzemeleri Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=_F5QEpayDXGqGZlp9XiFtEAlltJ-tJDdYnW95u-hJqP8T1DPMdcyM4OfbJWYPkOm",
+        "[24] AHMET BARAN, \"Nano silikanın yüksek oranda uçucu kül içeren betonların taze hal, priz süresi ve mekanik ozellikleri üzerine etkisinin araştırılması,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / İnşaat Mühendisliği Ana Bilim Dalı / Yapı Mühendisliği Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkhzBx4028gPZkwXUWk3teYWRPTdebEu9RVa_UvxRdwwG",
+        "[25] Hasan Nuri Turkmenoglu, Esen ÖNDER, Hakan Nuri Atahan, \"Farklı Su/Bağlayıcı Oranına Sahip Betonlarda Nano Silika ve Granüle Yüksek Fırın Cürufu Kullanımın Mekanik ve Elastik Özellikler Üzerine Etkisi,\" Yüksek Lisans/Doktora tezi, [openalex] DÜMF Mühendislik Dergisi, 2022. [Online]. https://doi.org/10.24012/dumf.1147581"
+      ]
+    }
+  },
+  "error": null
+}

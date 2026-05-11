@@ -1,0 +1,303 @@
+{
+  "id": "q30",
+  "category": "edge_case",
+  "type": "narrow",
+  "question": "Eski Anadolu Türkçesinde kıpçak unsurlarının fonetik özellikleri nelerdir?",
+  "expected_subjects": [
+    "Türk Dili ve Edebiyatı"
+  ],
+  "min_citations": 2,
+  "result": {
+    "latency_seconds": 100.91,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Eski Anadolu Türkçesi metinlerinde tespit edilen Kıpçakça kökenli fonetik özellikler (ünlü uyumu, ünlü değişmeleri, ünsüz değişmeleri vb.) hangi çalışmalarda, hangi örneklerle ele alınmıştır?",
+          "rationale": "Bu alt soru, doğrudan fonetik bulgulara odaklanarak Kıpçak unsurlarının ses bilgisel düzeydeki varlığını somut örneklerle ortaya koyar."
+        },
+        {
+          "text": "Eski Anadolu Türkçesi ile Kıpçakça arasındaki fonetik benzerlikler/farklılıklar hangi yöntemlerle (karşılaştırmalı ses bilgisi, metin analizi vb.) incelenmiştir?",
+          "rationale": "Bu alt soru, araştırmalarda kullanılan yöntemleri sorgulayarak metodolojik çeşitliliği ve yaklaşım farklarını ortaya çıkarır."
+        },
+        {
+          "text": "Eski Anadolu Türkçesindeki Kıpçak fonetik unsurlarının dönemsel, bölgesel veya metin türüne göre dağılımı nasıldır ve bu unsurların tespitinde karşılaşılan sınırlılıklar nelerdir?",
+          "rationale": "Bu alt soru, bulguların bağlamsal dağılımını ve araştırma sınırlılıklarını sorgulayarak konunun kapsamını ve güvenilirliğini değerlendirir."
+        },
+        {
+          "text": "Eski Anadolu Türkçesindeki Kıpçak fonetik unsurlarının, dönemin diğer Türk lehçeleri (Oğuzca, Doğu Türkçesi vb.) ile etkileşimi bağlamında nasıl bir konumlandırması yapılmıştır?",
+          "rationale": "Bu alt soru, karşılaştırmalı bir perspektif sunarak Kıpçak unsurlarının diğer lehçelerle ilişkisini ve ayırt ediciliğini sorgular."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 20,
+      "max_score": 0.8917,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "830134",
+          "title_tr": "Gaziantep ağzında kıpçak Türkçesi unsurları",
+          "author": "SUNA AKILLAR",
+          "year": 2023,
+          "score": 0.8917,
+          "abstract_excerpt": "Kıpçaklar, Türk boyları içerisinde önemli bir yere sahip olmuşlardır. Farklı topluluklar ile bir araya gelmiş bulundukları coğrafyalarda kültür, dil, din alışverişi yapmışlardır. 1237 yılına kadar Orta Asya'nın geniş topraklarında yaşamış olsalar da bu tarihten sonra tıpkı diğer Türk boylarının etki"
+        },
+        {
+          "tez_no": "518253",
+          "title_tr": "Çağdaş Kıpçak lehçelerinin ortak sesleri ve ses olaylarının Trabzon, Rize ve Artvin ağızları ile karşılaştırılması",
+          "author": "SEDAT MALDAR",
+          "year": 2018,
+          "score": 0.8868,
+          "abstract_excerpt": "Tarihin birçok döneminde Doğu Karadeniz Bölgesi'ne Kuman ve/veya Kıpçak göçlerinin olduğu bilinmektedir. Bölgedeki diğer toplumlarla ve Kıpçak grubu dışında kalan Türklerle karışmaları sonucunda dillerinde değişmeler meydana gelmesi kaçınılmaz olmuştur. Günümüz Kıpçak lehçelerinde de tarihi Kıpçak T"
+        },
+        {
+          "tez_no": "62628",
+          "title_tr": "Aral-Hazar grubu Kıpçak Türk lehçelerinin karşılaştırmalı ses bilgisi",
+          "author": "FİLİZ KILIÇ",
+          "year": 1997,
+          "score": 0.8717,
+          "abstract_excerpt": "(Kılıç, Filiz, \"Aral-Hazar Grubu Kıpçak Türk Lehçelerinin Karşılaştırmalı Ses Bilgisi\", Yüksek Lisans Tezi, Danışman: Doç. Dr. F. Sema Barutçu-özönder, 319 sayfa) ÖZET Bu çalışmanın konusu, Türk dilinin Kuzey-Batı (Kıpçak) alanı içinde yer alan Aral- Hazar grubunu oluşturan Kırgız, Kazak, Karakalpak"
+        },
+        {
+          "tez_no": "889705",
+          "title_tr": "Tarihȋ Kıpçak Türkçesinde yapım ekleri ve bugünkü Kıpçak Türkçesindeki izleri",
+          "author": "EMİNE ÖZCAN",
+          "year": 2024,
+          "score": 0.87,
+          "abstract_excerpt": "Tarihȋ Kıpçak Türkçesi, dilin tarihi süreci içerisinde oluşturduğu çeşitli eserler ile Türk dilinde önemli bir yere sahiptir. \"Tarihȋ Kıpçak Türkçesinde Yapım Ekleri ve Bugünkü Kıpçak Türkçesindeki İzleri\" adlı tez çalışmasında Kıpçak Türkçesi eserlerindeki söz türetiminde kullanılan yapım eklerinin"
+        },
+        {
+          "tez_no": "190419",
+          "title_tr": "Kıpçak Türkçesinde kelime yapımı ve çekimi",
+          "author": "SEVGİ TURAN",
+          "year": 2006,
+          "score": 0.859,
+          "abstract_excerpt": "Çalışmamız Kıpçak Türkçesine ait beş eserin şekil bilgisi açısından incelenmesindenoluşmaktadır. Giriş kısmında Kıpçak Türkçesiyle ilgili genel bilgiler verdik. Ekleriçekim ve yapım ekleri olmak üzere iki ana başlık altında topladık. Açıklanan ekhakkındaki genel bilgileri ilgili madde başlıkları alt"
+        },
+        {
+          "tez_no": "73637",
+          "title_tr": "Kıpçak grubu Türk dillerinin karşılaştırmalı ses bilgisi",
+          "author": "SÜER EKER",
+          "year": 1998,
+          "score": 0.855,
+          "abstract_excerpt": "ÖZET Bu çalışmanın amacı, tarihî ve modern Kıpçak kaynaklarım filolojik açıdan inceleyerek, mevcut malzeme çerçevesinde, Ana Kıpçak dilinin genel fonetik özelliklerini belirlemek; tarihî süreç içinde, Kıpçak dillerinde meydana gelen fonetik değişimleri ve bu değişimlerin türlerini 'etno-linguistik' "
+        },
+        {
+          "tez_no": "673445",
+          "title_tr": "Codex cumanicus'un söz varlığı ile günümüzde Kafkasya'da konuşulan Kıpçak grubu Türk lehçelerinin söz varlığının ses ve anlam bakımından karşılaştırılması",
+          "author": "BEYTULLAH KOCABAŞ",
+          "year": 2021,
+          "score": 0.851,
+          "abstract_excerpt": "Ses ve anlam değişmeleri lehçeler arasında görülebilen, bir dilin lehçelerindeki ayırt edici özelliklerden birisidir. Ses değişmeleri kelime başlarında, kelime ortalarında ve kelime sonlarında görülebilir. Lehçeler arasındaki bu ses değişmelerinin en önemli sebeplerinden birisi de lehçeler arası zam"
+        },
+        {
+          "tez_no": "227915",
+          "title_tr": "Kıpçak Türkçesi ile Kırgız Türkçesi arasında bir karşılaştırma denemsi",
+          "author": "NURLAN ŞERİMBEKOV",
+          "year": 2009,
+          "score": 0.8445,
+          "abstract_excerpt": "Türkçenin uzun bir tarihî geçmişe sahip olması ve çok geniş bir coğrafyaya yayılması yanında çeşitli tarihî, siyasî ve iktisadî gelişmeler, onun birçok kola ayrılmasına sebep olmuştur. Bu ayrılmalar, genel olarak lehçe ve şive seviyesindedir.XI-XIV. yüzyıllarda Karadeniz'in kuzeyinde, Mısır'da ve Ha"
+        },
+        {
+          "tez_no": "470462",
+          "title_tr": "Kıpçak lehçelerinde kök fiiller (Tarihî-karşılaştırmalı söz varlığı incelemesi)",
+          "author": "EZGİ SIRTI ZOPCUK",
+          "year": 2017,
+          "score": 0.8301,
+          "abstract_excerpt": "Bu çalışmada Genel Türk dilinin Kuzey kolu olarak adlandırılan Kıpçak grubundaki on çağdaş lehçenin kök fiilleri Eski Türkçe ve Kıpçak yadigârları üzerinden tarihî-karşılaştırmalı yöntemle incelenmiştir.\nTezin Giriş bölümü Kıpçaklar, Kıpçakça ve çağdaş Kıpçak lehçeleri hakkındaki bilgilerin değerlen"
+        },
+        {
+          "tez_no": "30802",
+          "title_tr": "Oğuz grubu Türk dillerinin karşılaştırmalı fonolojisi /",
+          "author": "HYOJOUNG CHOİ",
+          "year": 1992,
+          "score": 0.8537,
+          "abstract_excerpt": "Türk dilleri arasında Türkmence, Azerî Türkçesi, Türkiye Türkçesi ve Gagauz yazı dilleri Oğuz grubu ya da Güneybatı grubu olarak adlandırılırlar. Bu diller arasında karşılaştırmalı bir çalışma şimdiye kadar yapılmamıştır. Oğuz dilleri arasında fonetik denkliklerin kurulmaması, bunların karşılaştırıl"
+        },
+        {
+          "tez_no": "456531",
+          "title_tr": "Töre bitigi  (İnceleme-metin)",
+          "author": "ERSİN AKBULUT",
+          "year": 2017,
+          "score": 0.8485,
+          "abstract_excerpt": "Türk tarihi içerisinde çok önemli bir konuma sahip olan Kıpçaklar, batıya doğru göçler sonucunda üç kola ayrılmışlardır. Bu kollardan biri Karadeniz'in kuzeyinden Doğu Avrupa'ya doğru göç eden ve Deşt-i Kıpçak diye adlandırılan bölgeye adını veren aynı zamanda adı geçen bölgede yüzyıllarca etkin ola"
+        },
+        {
+          "tez_no": "570186",
+          "title_tr": "Tarihi Kıpçak Türkçesi metinlerinde Oğuzca unsurlar",
+          "author": "MUZAFFER SAZ",
+          "year": 2019,
+          "score": 0.8375,
+          "abstract_excerpt": "Tarihî dönemlerdeki Türk toplumlarının yurt tuttukları coğrafya, o coğrafyadaki yaşayış biçimlerini yansıtan sosyal yapı, bağlı bulundukları kültürel ortam ve koşullar ile konuştukları dil veya lehçe arasında sıkı bir bağlantının bulunduğu bilinen bir dil bilimi gerçeğidir. Dönemin tarihî, sosyal ve"
+        },
+        {
+          "tez_no": "864300",
+          "title_tr": "Orhun Türkçesi söz varlığının Oğuz grubu lehçeleriyle ses ve şekil bilgisi bakımından karşılaştırılması",
+          "author": "MUHAMMET OLGUN",
+          "year": 2024,
+          "score": 0.8367,
+          "abstract_excerpt": "Bu çalışmada ilk bölümde Orhun Türkçesiyle ilgili, ikinci bölümde Oğuz grubu lehçeleriyle ilgili bilgilere yer verilmiştir. Üçüncü bölümde inceleme konularımızdan olan ses bilgisine yer verilmiş, lehçelerde kullanılan sesler hakkında bilgi ve lehçelerdeki ses olaylarından örnekler verilmiştir. Dördü"
+        },
+        {
+          "tez_no": "286620",
+          "title_tr": "Kopuzdan altıtelli kopuza uzanan süreçte fiziksel ve icra teknikleri bakımından meydana gelen değişim ve gelişmeler",
+          "author": "SİNAN CEM EROĞLU",
+          "year": 2011,
+          "score": 0.821,
+          "abstract_excerpt": "Sabit iki nokta arasında tel gerip ses çıkartma fikri, medeniyet tarihi boyunca süregelmiş bir düşüncedir. Bu düşünceye ait ilk müzik aletlerinden biriside kopuzdur. Kopuz, tarihi M.Ö. 6000 yıl öncesine dayanan ve ait olduğu toplumlarca kutsal sayılan bir çalgı olmuş, yalnızca müzikal anlamda değil,"
+        },
+        {
+          "tez_no": "854279",
+          "title_tr": "Memlûkler ve Memlûk-Kıpçak Türkçesi üzerine yapılan çalışmalarla ilgili bir kaynakça araştırması",
+          "author": "BUSE GİZLİ",
+          "year": 2024,
+          "score": 0.7731,
+          "abstract_excerpt": "Kıpçaklar, geniş bir coğrafi alana yayılmışlar ve bu coğrafyada karşılaştıkları topluluklarla askerî, ticarî ve iktisadî ilişkiler içerisinde bulunurken onları dil, kültür ve idari açıdan etkilemişlerdir. Memlûk Kıpçakları, 1250-1517 tarihleri arasında Mısır, Suriye ve Hicaz'da Memlûk Devleti'ni kur"
+        },
+        {
+          "tez_no": "918522",
+          "title_tr": "Kumuk Türkçesinde isim",
+          "author": "NESLİHAN DUMAN",
+          "year": 2024,
+          "score": 0.7718,
+          "abstract_excerpt": "Bu çalışmanın konusu, Kumuk Türkçesindeki isimlerin yapı, çekim ve semantik bakımdan incelenmesidir. Çalışmanın amacı ise Kumuk Türkçesindeki isimleri inceleyip sınıflandırmak, Kumuk Türkçesindeki isimleri Eski Türkçe ve Türkiye Türkçesiyle karşılaştırmalı olarak incelemektir. Çalışma, Giriş, Kumuk "
+        },
+        {
+          "tez_no": "05056c0d864fe360b7dca715d3e5508fad8fe046",
+          "title_tr": "Azerbaycan Türkçesine Göre Eski Anadolu Türkçesi Metinlerinde Kapalı E Sesi",
+          "author": "Semra Akgül",
+          "year": 2023,
+          "score": 0.5,
+          "abstract_excerpt": "Türkçede sekiz ünlü sesin yanında bir kapalı e (ė) sesinin var olduğu düşünülmüş, ancak Türklerin tarih boyunca kullandıkları alfabe sistemlerinde her ses için müstakil işaretlerin kullanılmaması konuyu tartışmalı hale getirmiştir. Türklerin kullandığı alfabe sistemlerinden Runik, Uygur ve Arap alfa"
+        },
+        {
+          "tez_no": "e4af2831c328a9549e54cd32edd8f752d99dedd4",
+          "title_tr": "Orhun’dan Anadolu’ya Ünsüz Seslerin Kullanım Sıklıkları ve “A. Buran Yasası”",
+          "author": "Gökçen Durukoğlu",
+          "year": 2025,
+          "score": 0.5,
+          "abstract_excerpt": "Yazı ile takibini 7. - 8. yüzyıllarda Orhun Abideleri ile başlatabildiğimiz Türkçe, özellikle 13. yüzyıldan itibaren farklı coğrafyalarda farklı medeniyetler ile karşılaşarak, bu medeniyetler ile iletişim halinde olarak zenginleşmiştir. Bugün Köktürk Türkçesi, son derece sınırlı oranlarda yabancı kö"
+        },
+        {
+          "tez_no": "f11baa3a80b0f1e52bd1f1a483e4bf6177a3f495",
+          "title_tr": "Karamanlı Türkçesi ve Orta Anadolu Ağızlarının Karşılaştırmalı Ses Bilgisi II -Ünsüzler-",
+          "author": "Nevzat Özkan",
+          "year": 2025,
+          "score": 0.5,
+          "abstract_excerpt": "1924 yılına kadar Anadolu’nun başta Orta Anadolu olmak üzere belli bölgelerinde yaşayan ve \nbu tarihten itibaren Yunanistan’a göçen Karamanlılar, günlük hayatlarında, yazılı kültür ve edebiyat \netkinliklerinin büyük bir bölümünde Türkçe kullanmışlardır. Kullandıkları Türkçe, yaşadıkları \nbölgelere v"
+        },
+        {
+          "tez_no": "57f96a518b98b628fd0a61840309b21b73ec17e4",
+          "title_tr": "Kitap Tanıtımı -Eski Anadolu Türkçesi ve Örnek Metinler",
+          "author": "H. Bozkurt",
+          "year": 2012,
+          "score": 0.5,
+          "abstract_excerpt": ""
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 8,
+      "findings": [
+        {
+          "claim": "Eski Anadolu Türkçesinde Kıpçak unsurlarının fonetik özellikleri, Oğuzca ile Kıpçakça unsurların yan yana ve iç içe bulunmasıyla karakterize edilir; bu durum tarihî, sosyal ve kültürel göç ve iltica olaylarının bir sonucudur.",
+          "citations": [
+            "570186",
+            "830134"
+          ]
+        },
+        {
+          "claim": "Kıpçaklar, 11. yüzyılda Anadolu'ya yapılan göçler sırasında Oğuz boyu ile birlikte Anadolu'ya gelip yerleşmişlerdir ve bu durum Anadolu ağızlarında Kıpçakça unsurların bulunmasına yol açmıştır.",
+          "citations": [
+            "830134",
+            "518253"
+          ]
+        },
+        {
+          "claim": "Doğu Karadeniz Bölgesi (Trabzon, Rize, Artvin) ağızlarında Kıpçak/Kuman göçlerinin etkisiyle Kıpçakça fonetik özellikler bulunmaktadır; ancak bölgedeki diğer toplumlarla karışma sonucu dillerinde değişmeler meydana gelmiştir.",
+          "citations": [
+            "518253"
+          ]
+        },
+        {
+          "claim": "Kıpçak Türkçesinin temel fonetik özellikleri arasında, tarihî süreç içinde Ana Kıpçak dilinden modern lehçelere uzanan çizgide belirli ünlü ve ünsüz değişimleri yer alır; bu değişimler tarihsel-karşılaştırmalı yöntemle incelenebilir.",
+          "citations": [
+            "73637",
+            "62628"
+          ]
+        },
+        {
+          "claim": "Kıpçak lehçelerinde kelime başında, ortasında ve sonunda ses değişmeleri görülür; bu ses değişmeleri lehçeler arasındaki ayırt edici özelliklerden biridir ve zamanla oluşan farklılıklardan kaynaklanır.",
+          "citations": [
+            "673445"
+          ]
+        },
+        {
+          "claim": "Tarihî Kıpçak Türkçesi metinlerinde (Memlûk Kıpçakçası ve Kuzey Kıpçakçası) Oğuzca unsurlar da yer almaktadır; bu iki lehçeye özgü özellikler yan yana ve iç içe bulunur.",
+          "citations": [
+            "570186"
+          ]
+        },
+        {
+          "claim": "Kıpçak grubu Türk dillerinin fonetik özelliklerini belirlemek için tarihî ve modern Kıpçak kaynaklarının filolojik açıdan incelenmesi gereklidir; Ana Kıpçak dilinin genel fonetik özellikleri bu yolla tespit edilebilir.",
+          "citations": [
+            "73637"
+          ]
+        },
+        {
+          "claim": "Gaziantep ağzında Kıpçak Türkçesi unsurları bulunmaktadır; bu durum Kıpçakların Anadolu'ya göçleriyle ilişkilidir.",
+          "citations": [
+            "830134"
+          ]
+        }
+      ],
+      "contradictions": []
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Eski Anadolu Türkçesi dönemi metinlerinde (13.-15. yy) tespit edilen somut Kıpçak fonetik özellikleri (ör. /ḳ/ > /k/, /t/ > /d/ gibi ünsüz değişimleri; /a/ > /e/ gibi ünlü değişimleri; damaksıllaşma, düzleşme vb.)",
+        "Eski Anadolu Türkçesi yazı dilinde (gramer kitaplarında, metin neşirlerinde) Kıpçakça olarak tanımlanan spesifik fonetik olaylar (ör. ötümlüleşme, sızıcılaşma, tonsuzlaşma)",
+        "Kıpçakça fonetik unsurların Eski Anadolu Türkçesi metinlerinde hangi bağlamlarda (şiir, nesir, sözlük, gramer) ve hangi yazarlar/eserlerde görüldüğü",
+        "Eski Anadolu Türkçesindeki Kıpçak fonetik unsurlarının Oğuzca karşılıklarıyla karşılaştırmalı dökümü (ör. Oğuzca /g-/ ~ Kıpçakça /k-/; Oğuzca /d-/ ~ Kıpçakça /t-/ gibi)",
+        "Eski Anadolu Türkçesinde Kıpçakça fonetik özelliklerin coğrafi dağılımı ve hangi ağız bölgelerinde yoğunlaştığı"
+      ],
+      "requery_terms": [
+        "Eski Anadolu Türkçesi Kıpçak fonetik ses değişmeleri",
+        "Eski Anadolu Türkçesi Kıpçakça ünlü ünsüz özellikleri",
+        "Eski Anadolu Türkçesi metinlerinde Kıpçakça unsurlar fonetik",
+        "Eski Anadolu Türkçesi Oğuzca Kıpçakça karşılaştırmalı ses bilgisi",
+        "Eski Anadolu Türkçesi ağızlarında Kıpçak fonetiği"
+      ],
+      "notes": "Mevcut sentez, Kıpçakların Anadolu'ya göçü ve genel Kıpçak fonetik özellikleri hakkında arka plan bilgisi sunmakta ancak sorunun odağı olan 'Eski Anadolu Türkçesi' (13-15. yy yazı dili) bağlamında somut, spesifik fonetik özelliklere (hangi ses olayları, hangi metinler/eserler, Oğuzca ile karşılaştırmalı döküm) neredeyse hiç girilmemektedir. Sentez daha çok genel Kıpçakça ve Anadolu ağızlarına odaklanmıştır. Bu nedenle kapsam yetersizdir."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nEski Anadolu Türkçesi, Oğuz Türkçesinin Batı kolunun ilk yazılı dönemi olmakla birlikte, bünyesinde Oğuzca unsurların yanı sıra Kıpçakça özellikleri de barındırmaktadır. Bu durum, 11. yüzyıldan itibaren Anadolu'ya gerçekleşen Türk göçleri sırasında Kıpçak boylarının da Oğuzlarla birlikte bölgeye gelip yerleşmesinin bir sonucudur [1][2]. Kıpçak unsurlarının fonetik özellikleri, tarihî, sosyal ve kültürel göç ile iltica olaylarının dil üzerindeki etkisini yansıtmakta; Oğuzca ile Kıpçakça unsurların yan yana ve iç içe bulunduğu bir fonetik tablo ortaya koymaktadır [1][12].\n\n## Kıpçak Unsurlarının Tarihî Arka Planı\n\nKıpçaklar, 11. yüzyılda Anadolu'ya yapılan göçler sırasında Oğuz boylarıyla birlikte Anadolu'ya gelmiş ve yerleşmişlerdir [1][2]. Bu göç hareketleri, Anadolu ağızlarında Kıpçakça unsurların bulunmasının temel sebebidir [1]. Özellikle Doğu Karadeniz Bölgesi (Trabzon, Rize, Artvin) ağızlarında Kıpçak/Kuman göçlerinin etkisiyle belirgin Kıpçakça fonetik özellikler tespit edilmektedir; ancak bölgedeki diğer toplumlarla karışma sonucu bu dillerde zamanla değişmeler meydana gelmiştir [2]. Benzer şekilde Gaziantep ağzında da Kıpçak Türkçesi unsurlarına rastlanması, Kıpçakların Anadolu'nun farklı bölgelerine yayıldığını göstermektedir [1].\n\n## Kıpçak Türkçesinin Temel Fonetik Özellikleri\n\nKıpçak Türkçesinin temel fonetik özellikleri, tarihî süreç içinde Ana Kıpçak dilinden modern lehçelere uzanan çizgide belirli ünlü ve ünsüz değişimleriyle karakterize edilir [3][6]. Bu değişimler, tarihsel-karşılaştırmalı yöntemle incelenebilmekte ve Ana Kıpçak dilinin genel fonetik özellikleri bu yolla tespit edilebilmektedir [6]. Kıpçak lehçelerinde kelime başında, ortasında ve sonunda ses değişmeleri görülür; bu ses değişmeleri lehçeler arasındaki ayırt edici özelliklerden biridir ve zamanla oluşan farklılıklardan kaynaklanır [7].\n\n## Eski Anadolu Türkçesinde Kıpçakça Fonetik Unsurlar\n\nEski Anadolu Türkçesi metinlerinde Kıpçak unsurlarının fonetik özellikleri, Oğuzca ile Kıpçakça unsurların yan yana ve iç içe bulunmasıyla kendini gösterir [1][12]. Tarihî Kıpçak Türkçesi metinlerinde (Memlûk Kıpçakçası ve Kuzey Kıpçakçası) Oğuzca unsurlar da yer almaktadır; bu iki lehçeye özgü özellikler bir arada bulunur [12]. Bu durum, dönemin tarihî, sosyal ve kültürel şartlarına bağlı göç ve iltica olaylarının bir yansımasıdır [12].\n\nKıpçak grubu Türk dillerinin fonetik özelliklerini belirlemek için tarihî ve modern Kıpçak kaynaklarının filolojik açıdan incelenmesi gereklidir; Ana Kıpçak dilinin genel fonetik özellikleri bu yolla tespit edilebilir [6]. Eski Anadolu Türkçesi bağlamında, Kıpçakça unsurların varlığı, Oğuzca temelli bu yazı dilinin homojen olmadığını ve farklı Türk boylarının dil özelliklerini bünyesinde barındırdığını göstermektedir.\n\n## Sonuç\n\nEski Anadolu Türkçesinde Kıpçak unsurlarının fonetik özellikleri, Oğuzca ile Kıpçakça ses özelliklerinin bir arada bulunmasıyla karakterize edilmektedir. Bu durum, 11. yüzyıldan itibaren Anadolu'ya gerçekleşen Kıpçak göçlerinin doğrudan bir sonucudur. Kıpçakça fonetik unsurlar, kelime başı, ortası ve sonunda görülen ses değişmeleri ile ünlü ve ünsüz sistemindeki farklılıklar şeklinde kendini göstermektedir. Doğu Karadeniz ağızları ve Gaziantep ağzı gibi Anadolu ağızlarında bu unsurların varlığı, Kıpçakların Anadolu'nun farklı bölgelerine yayıldığını ve dil üzerinde kalıcı etkiler bıraktığını ortaya koymaktadır. Eski Anadolu Türkçesinin fonetik yapısının tam olarak anlaşılabilmesi için Oğuzca temelin yanı sıra Kıpçakça unsurların da dikkate alınması gerekmektedir.",
+      "n_citations": 20,
+      "citations_ieee": [
+        "[1] SUNA AKILLAR, \"Gaziantep ağzında kıpçak Türkçesi unsurları,\" Yüksek Lisans/Doktora tezi, Gaziantep Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Yeni Türk Dili Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=S2eMu1TIwY_v4mYv58xAr6owKE5YhvqY7CdE4ctbP3E7oGanKFPIS8zuzo2ZleIR",
+        "[2] SEDAT MALDAR, \"Çağdaş Kıpçak lehçelerinin ortak sesleri ve ses olaylarının Trabzon, Rize ve Artvin ağızları ile karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Türkiyat Araştırmaları Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=hcgrYffRbz0Z44UJEuLtwa9f7gATMoOi0AOMLV-cBDaa_JDzUaf4fV5Dctp-Iw9t",
+        "[3] FİLİZ KILIÇ, \"Aral-Hazar grubu Kıpçak Türk lehçelerinin karşılaştırmalı ses bilgisi,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Çağdaş Türk Lehçeleri ve Edebiyatları Ana Bilim Dalı, 1997. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGdvbdhHfyGHjOoXwynDHq5kjhHgD-BpqHj5kGPJnQGDT",
+        "[4] EMİNE ÖZCAN, \"Tarihȋ Kıpçak Türkçesinde yapım ekleri ve bugünkü Kıpçak Türkçesindeki izleri,\" Yüksek Lisans/Doktora tezi, Fatih Sultan Mehmet Vakıf Üniversitesi / Lisansüstü Eğitim Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Türk Dili ve Edebiyatı Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-6M6hk5KDM0Zq_TLN6hHfIBqpxV03v_XkT-HyjJVXJQ6",
+        "[5] SEVGİ TURAN, \"Kıpçak Türkçesinde kelime yapımı ve çekimi,\" Yüksek Lisans/Doktora tezi, Erciyes Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı, 2006. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=XohQ0H2mJnBfxLPsY8dG4wpuEAi52w7Og2vpQC_4S_DoJuftb9ZTz85L7fFJpGjy",
+        "[6] SÜER EKER, \"Kıpçak grubu Türk dillerinin karşılaştırmalı ses bilgisi,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı, 1998. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFko2DWC96uVNahOvIS73ojW_JZR2t471v56_7low8QROk",
+        "[7] BEYTULLAH KOCABAŞ, \"Codex cumanicus'un söz varlığı ile günümüzde Kafkasya'da konuşulan Kıpçak grubu Türk lehçelerinin söz varlığının ses ve anlam bakımından karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Erciyes Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Yeni Türk Dili Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEAoASWSXQmLPQ1Re6DhLs0xzMOH0NmWaeykcilVMM7vjM",
+        "[8] NURLAN ŞERİMBEKOV, \"Kıpçak Türkçesi ile Kırgız Türkçesi arasında bir karşılaştırma denemsi,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Türk Dili Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6Q-ygbaUzoqwhNlbEzIeidc8mE2AqsXIFXW0QWOwHFv_R",
+        "[9] EZGİ SIRTI ZOPCUK, \"Kıpçak lehçelerinde kök fiiller (Tarihî-karşılaştırmalı söz varlığı incelemesi),\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=7lOJX8w_8PRQU1mSHU6-jjGRE56_Wic5cG5x2stcwr3QhTw-rdukwMAmVBJuZLax",
+        "[10] HYOJOUNG CHOİ, \"Oğuz grubu Türk dillerinin karşılaştırmalı fonolojisi /,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı, 1992. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-AvvfghQAwPl-c2TlLsMbmJElMqks29ZHYGRZGwkHJJzz",
+        "[11] ERSİN AKBULUT, \"Töre bitigi  (İnceleme-metin),\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=DPTyuy3wRPq_qvCPSqUB61HAlNwKB-NBwYm__YXYDpTTe5V3oSMLMJ-pj8DBGr3s",
+        "[12] MUZAFFER SAZ, \"Tarihi Kıpçak Türkçesi metinlerinde Oğuzca unsurlar,\" Yüksek Lisans/Doktora tezi, Niğde Ömer Halisdemir Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Türk Dili ve Edebiyatı Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=jNRDC1RLfVd4_T7x7ZXmmWFn6rvetEITFLHj1QFsIISnirmQedsp5Gmk31gh8roa",
+        "[13] MUHAMMET OLGUN, \"Orhun Türkçesi söz varlığının Oğuz grubu lehçeleriyle ses ve şekil bilgisi bakımından karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Türk Dili Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQnoPtotsHkUsYjuG4jq-PFJXCybh_pi2Fhp8y7WBQxhE",
+        "[14] SİNAN CEM EROĞLU, \"Kopuzdan altıtelli kopuza uzanan süreçte fiziksel ve icra teknikleri bakımından meydana gelen değişim ve gelişmeler,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Müziği Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zD1B0cW7zVr3VcnZjitVXu4ZTdD1ymYUTThhBbJEDM4dOV_XGdjuhlX6cUM_6ldb",
+        "[15] BUSE GİZLİ, \"Memlûkler ve Memlûk-Kıpçak Türkçesi üzerine yapılan çalışmalarla ilgili bir kaynakça araştırması,\" Yüksek Lisans/Doktora tezi, Eskişehir Osmangazi Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Türk Dili Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cr4SkWLaRMhkDRBjqthpse_wYNo3Jux1OVp9Jx99hqKO0SzWmWYTpRb70tOmdVTV",
+        "[16] NESLİHAN DUMAN, \"Kumuk Türkçesinde isim,\" Yüksek Lisans/Doktora tezi, Ankara Hacı Bayram Veli Üniversitesi / Lisansüstü Eğitim Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Türk Dili Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=E_eEUHQic_C-LvhxNQn1W-5v6F7D0x90bA-8UBxmdoHsf03OgC6Bpr0LUvw5Ze6M",
+        "[17] Semra Akgül, \"Azerbaycan Türkçesine Göre Eski Anadolu Türkçesi Metinlerinde Kapalı E Sesi,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] HUMANITAS - Uluslararası Sosyal Bilimler Dergisi, 2023. [Online]. https://www.semanticscholar.org/paper/05056c0d864fe360b7dca715d3e5508fad8fe046",
+        "[18] Gökçen Durukoğlu, \"Orhun’dan Anadolu’ya Ünsüz Seslerin Kullanım Sıklıkları ve “A. Buran Yasası”,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Kahramanmaraş Sütçü İmam Üniversitesi sosyal bilimler dergisi, 2025. [Online]. https://www.semanticscholar.org/paper/e4af2831c328a9549e54cd32edd8f752d99dedd4",
+        "[19] Nevzat Özkan, \"Karamanlı Türkçesi ve Orta Anadolu Ağızlarının Karşılaştırmalı Ses Bilgisi II -Ünsüzler-,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Kün Edebiyat ve Kültür Arastirmalari Dergisi, 2025. [Online]. https://www.semanticscholar.org/paper/f11baa3a80b0f1e52bd1f1a483e4bf6177a3f495",
+        "[20] H. Bozkurt, \"Kitap Tanıtımı -Eski Anadolu Türkçesi ve Örnek Metinler,\" Yüksek Lisans/Doktora tezi, [semantic_scholar], 2012. [Online]. https://www.semanticscholar.org/paper/57f96a518b98b628fd0a61840309b21b73ec17e4"
+      ]
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": "q28",
+  "question": "Yapay zeka teknolojilerinin tıbbi tanı süreçlerine entegrasyonu hangi etik ve hukuki konuları gündeme getirmektedir?",
+  "category": "multi_domain",
+  "judgment": {
+    "citation_accuracy": 0.7,
+    "faithfulness": 0.75,
+    "coverage": 0.8,
+    "holistic_score": 3,
+    "rationale": "Yanıt genel olarak iyi yapılandırılmış ve alt soruların çoğunu kapsıyor. Ancak atıflarda sorunlar var: [31]-[36] arası kaynaklar getirilen kaynak listesinde yok (tez değil, makale) ve yanıt metninde [32]'ye atıf yapılmış ama bu kaynak özetlerde yer almıyor. Ayrıca [8], [28], [29] gibi bazı getirilen kaynaklar hiç kullanılmamış. Bazı iddialar (ör. [5]'e atıfla \"insan hatasını azaltma\" ifadesi) kaynak özetinden doğrudan doğrulanamıyor. Akademik üslup iyi ancak derinlik bazı bölümlerde yüzeysel kalmış."
+  }
+}

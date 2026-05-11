@@ -1,0 +1,12 @@
+{
+  "id": "q06",
+  "question": "Uzaktan eğitimde öğrenci motivasyonunu artıran pedagojik stratejiler nelerdir?",
+  "category": "education",
+  "judgment": {
+    "citation_accuracy": 0.7,
+    "faithfulness": 0.65,
+    "coverage": 0.6,
+    "holistic_score": 3,
+    "rationale": "Atıfların çoğu ilgili kaynaklarla eşleşse de [1], [2], [3], [4], [8], [10], [11], [14], [15], [20], [26], [27], [29] numaralı kaynaklar yanıtta hiç kullanılmamış, bu da citation accuracy'yi düşürüyor. Faithfulness kısmen sorunlu: [12] nolu kaynak (Yeşilyaprak, 2004) uzaktan eğitim değil genel pedagojik motivasyon üzerine; [24] nolu kaynak (Avcıoğlu, 2019) programlama öğretiminde video oluşturma üzerine olup uzaktan eğitim bağlamı net değil; [25] nolu kaynak (Bertiz, 2018) uzaktan eğitim motivasyonu ile bilişsel esneklik arasında ilişki bulsa da yanıttaki \"bilişsel esnekliği geliştirmeye yönelik stratejiler motivasyonu artırabilir\" iddiası kaynakta doğrudan desteklenmiyor. Coverage zayıf: Planner'ın 5 alt sorusundan özellikle \"sınırlılıklar ve zorluklar\" ile \"farklı öğrenim düzeylerine/disiplinlere göre farklılaşma\" alt soruları yanıtta neredeyse hiç ele alınmamış. Holistic score 3: Türkçe akademik üslup iyi, organizasyon düzgün ancak kaynak kullanımındaki zayıflıklar ve alt soruların kapsanmaması nedeniyle orta düzeyde kalıyor."
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "id": "q10",
+  "category": "health",
+  "type": "application",
+  "question": "Türkiye'de hemşirelik öğrencilerinin klinik karar verme becerilerinin geliştirilmesi için kullanılan yöntemler nelerdir?",
+  "expected_subjects": [
+    "Hemşirelik"
+  ],
+  "min_citations": 5,
+  "result": {
+    "latency_seconds": 165.18,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Türkiye'de hemşirelik öğrencilerinin klinik karar verme becerilerini değerlendirmek için kullanılan ölçekler ve geçerlik-güvenirlik çalışmaları nelerdir?",
+          "rationale": "Klinik karar verme becerisinin ölçülmesinde hangi araçların kullanıldığını ve bunların psikometrik özelliklerini belirlemek, yöntemlerin etkililiğini değerlendirmek için temel oluşturur."
+        },
+        {
+          "text": "Türkiye'de hemşirelik öğrencilerinin klinik karar verme becerilerini geliştirmeye yönelik simülasyon temelli eğitim yöntemlerinin etkililiği hangi tez çalışmalarında incelenmiştir?",
+          "rationale": "Simülasyon, klinik karar verme becerilerinin geliştirilmesinde yaygın kullanılan bir yöntemdir; bu yöntemin Türkiye bağlamındaki etkililiğini ortaya koyan tez bulgularını derlemek gerekir."
+        },
+        {
+          "text": "Türkiye'de hemşirelik öğrencilerinin klinik karar verme becerileri ile eleştirel düşünme, problem çözme ve öz-yeterlilik gibi bilişsel değişkenler arasındaki ilişkiyi inceleyen tez çalışmalarının bulguları nelerdir?",
+          "rationale": "Klinik karar verme becerisinin hangi bilişsel ve duyuşsal faktörlerle ilişkili olduğunu belirlemek, müdahale programlarının hangi bileşenlere odaklanması gerektiğine ışık tutar."
+        },
+        {
+          "text": "Türkiye'de hemşirelik öğrencilerinin klinik karar verme becerilerinin geliştirilmesinde vaka temelli öğrenme, yansıtıcı düşünme ve akran eğitimi gibi aktif öğrenme yöntemlerinin kullanıldığı tez çalışmaları ve sonuçları nelerdir?",
+          "rationale": "Simülasyon dışındaki aktif öğrenme yöntemlerinin klinik karar verme üzerindeki etkisini inceleyen tezleri ayrıştırarak yöntem çeşitliliğini ve karşılaştırmalı etkililiği ortaya koymak önemlidir."
+        },
+        {
+          "text": "Türkiye'de hemşirelik öğrencilerinin klinik karar verme becerilerine yönelik tez çalışmalarında karşılaşılan sınırlılıklar ve gelecek araştırmalar için öneriler nelerdir?",
+          "rationale": "Mevcut tezlerin yöntemsel sınırlılıklarını ve önerilerini sentezlemek, araştırma boşluklarını ve gelecek çalışmalar için yönelimleri belirlemeye yardımcı olur."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 34,
+      "max_score": 0.8927,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "468810",
+          "title_tr": "Yüksek gerçeklikli simülasyon yönteminin hemşirelik öğrencilerinin bilgi ve klinik karar verme düzeyine etkisi",
+          "author": "GÜLCAN COŞKUN",
+          "year": 2017,
+          "score": 0.8927,
+          "abstract_excerpt": "Bu araştırma Yüksek Gerçeklikli Simülasyon yönteminin hemşirelik öğrencilerinin bilgi ve klinik karar verme düzeyine etkisini belirlemek amacıyla yapılmıştır.\nAraştırma, basit rastgele örneklem seçimi ve deneysel araştırma özelliğindedir. Araştırmanın örneklemini 2015-2016 eğitim-öğretim yılı, 2.sın"
+        },
+        {
+          "tez_no": "827772",
+          "title_tr": "Hemşirelik eğitiminde venöz kan örneği alma becerisinin kazandırılmasında sanal oyun simülasyon yönteminin etkinliği",
+          "author": "TURGAY YALÇINKAYA",
+          "year": 2023,
+          "score": 0.8774,
+          "abstract_excerpt": "Giriş: Sanal Sanal Oyun Simülasyonu (SOS), dijital bir öğrenme ortamında kısmi dallandırmayı kullanarak kullanıcılara gerçekçi bir deneyim sunmayı amaçlar. Bu simülasyonlar, hemşirelik öğrencilerinin kendi kliniklerinde karşılaşmadıkları klinik karar verme senaryolarını deneyimlemelerine olanak tanı"
+        },
+        {
+          "tez_no": "896126",
+          "title_tr": "Öğrencilerin hemşirelik süreci geliştirmesinde simülasyon ve vaka tartışması yöntemlerinin etkinliğinin incelenmesi /",
+          "author": "BOTAN ADSAY",
+          "year": 2024,
+          "score": 0.8716,
+          "abstract_excerpt": "Araştırma, hemşirelik eğitiminde kullanılan simülasyon ve vaka tartışması yöntemlerinin, hemşirelik öğrencilerinin hemşirelik süreci geliştirmesindeki etkinliğinin incelenmesi amacıyla yapılmıştır.\n                 Araştırma randomize kontrollü desende, 2023-2024 Bahar yarıyılında 12.02.2024-28.05.2"
+        },
+        {
+          "tez_no": "308291",
+          "title_tr": "Hemşirelik öğrencilerinin ameliyat öncesi ve sonrası hasta bakım yönetimini öğrenmesinde bilgisayar destekli simülasyon tekniğinin etkisi",
+          "author": "AYLİN DURMAZ",
+          "year": 2012,
+          "score": 0.8673,
+          "abstract_excerpt": "Araştırmanın birinci aşamasında; deneysel aşamada kullanmak amacıyla Hemşirelikte Klinik Karar Verme Ölceği Türkçe'ye uyarlanmıştır. Araştırmanın ikinci aşamasında, hemşirelik fakültesi 2. sınıf öğrencilerinin ameliyat öncesi ve sonrası bakım yönetimini öğrenmesinde bilgisayar destekli simülasyonun "
+        },
+        {
+          "tez_no": "625858",
+          "title_tr": "Hemşirelik eğitiminde simülasyon yönteminin etkinliğinin incelenmesi",
+          "author": "HALE SEZER",
+          "year": 2014,
+          "score": 0.8581,
+          "abstract_excerpt": "Hemşirelik eğitiminde simülasyon yönteminin etkinliğinin incelenmesi amacıyla yapılan deneysel bir çalışmadır.\nAraştırma 2012-2013 eğitim öğretim yılında Ege Üniversitesi Hemşirelik Fakültesi'nde öğrenim gören 2. sınıf öğrenci hemşireler üzerinde yürütülmüştür. \nAraştırmanın örneklemini; Ege Ünivers"
+        },
+        {
+          "tez_no": "589546",
+          "title_tr": "Simülasyona dayalı eğitimde farklı çözümleme yöntemlerinin hemşirelik öğrencilerinin bilgi ve performansına etkisi",
+          "author": "HİLAL TÜZER",
+          "year": 2019,
+          "score": 0.8534,
+          "abstract_excerpt": "Araştırma, simülasyona dayalı eğitimde farklı çözümleme yöntemlerinin hemşirelik öğrencilerinin bilgi ve performansına etkisini belirlemek amacıyla deneysel desende yapılmıştır.  Araştırmanın evrenini, Ankara Yıldırım Beyazıt Üniversitesi Sağlık Bilimleri Fakültesi Hemşirelik Bölümü'nde 2017-2018 Öğ"
+        },
+        {
+          "tez_no": "301366",
+          "title_tr": "Beceri temelli eleştirel düşünme öğretiminin öğrenci hemşirelerde eleştirel düşünme gelişimine etkisi",
+          "author": "BELGİN YILDIRIM",
+          "year": 2010,
+          "score": 0.8284,
+          "abstract_excerpt": "Bu araştırma, öğrenci hemşirelerin eleştirel düşünme eğilim ve becerilerinin belirlenmesi ve yükseltilmesine yönelik beceri temelli eleştirel düşünme öğretim programının uygulanması ve değerlendirilmesi amacıyla gerçekleştirilmiş ?denk olmayan kontrol gruplu, zaman serili desen? çalışmasıdır.Çalışma"
+        },
+        {
+          "tez_no": "571421",
+          "title_tr": "Hemşirelerin karar verme stratejilerine ilişkin görüşlerinin belirlenmesi",
+          "author": "CANSU BUZUNOĞLU",
+          "year": 2019,
+          "score": 0.824,
+          "abstract_excerpt": "Bu araştırma; hemşirelerin karar verme stratejilerine ilişkin görüşlerinin belirlenmesi \namacı ile tanımlayıcı olarak yapılmıştır. Çalışma, özel bir hastanede çalışan 215 hemşirenin katılımı ile Haziran- Ekim 2017 tarihleri arasında yapılmıştır. Araştırmanın verileri, kişisel bilgi formu ve ''Karar "
+        },
+        {
+          "tez_no": "443996",
+          "title_tr": "Öğrenci ve mezun hemşirelerin yetkinlik algıları ile otonomi ve eleştirel düşünme eğilimleri arasındaki ilişki",
+          "author": "ZÜLFİYE BIKMAZ",
+          "year": 2016,
+          "score": 0.8207,
+          "abstract_excerpt": "Araştırma, hemşirelerin algılanan yetkinlik düzeyleriyle öğrenci hemşirelerin hemşirelerden bekledikleri yetkinlik düzeyleri, eleştirel düşünme eğilimleri, algılanan otonomi düzeyleriyle sosyo-demografik arasındaki ilişkiyi belirlemek üzere tanımlayıcı ve ilişki arayıcı tipte tasarlanmıştır. Ayrıca "
+        },
+        {
+          "tez_no": "831601",
+          "title_tr": "Ameliyathane hemşirelerinin klinik karar verme düzeyleri ile öz yeterlilik düzeyleri arasındaki ilişki",
+          "author": "SEDAT KAYA",
+          "year": 2023,
+          "score": 0.8141,
+          "abstract_excerpt": "Bu araştırma, ameliyathane hemşirelerinin klinik karar verme düzeyleri ile öz yeterlilik düzeyleri arasındaki ilişkinin belirlenmesi amacıyla planlanmıştır. Araştırmanın örneklemi Ankara ilinde bir devlet üniversite hastanelerinde çalışmaya katılmayı kabul eden 94 ameliyathane hemşiresi oluşturmuştu"
+        },
+        {
+          "tez_no": "659459",
+          "title_tr": "Bir psikiyatri hastanesinde çalışan hemşirelerin klinik karar verme düzeyleri ve etkileyen bireysel ve mesleki özelliklerin incelenmesi",
+          "author": "VELAT CANGÜLEÇ",
+          "year": 2020,
+          "score": 0.8122,
+          "abstract_excerpt": "Bu araştırma, psikiyatri hastalarıyla çalışan hemşirelerin klinik karar verme düzeyleri ve bunu etkileyen bireysel ve mesleki özelliklerin belirlenmesi amacıyla gerçekleştirilmiştir. Tanımlayıcı nitelikte yapılan araştırmanın örneklemini İstanbul'da bulunan bir psikiyatri bölge hastanesinde görevli "
+        },
+        {
+          "tez_no": "298891",
+          "title_tr": "Hemşirelerin eleştirel düşünme eğilimleri ve problem çözme becerilerinin incelenmesi",
+          "author": "SAADET ERZİNCANLI",
+          "year": 2010,
+          "score": 0.8065,
+          "abstract_excerpt": "Araştırma, hemşirelerin eleştirel düşünme eğilimlerini ve problem çözme becerileri ve etkileyen etmenleri etkenleri belirlemek amacı ile yapılmış tanımlayıcı bir çalışmadır.Araştırma Ağustos 2009 ? Ekim 2009 tarihleri arasında bir üniversite hastanesi ve bir özel hastanede yapılmıştır. Araştırmanın "
+        },
+        {
+          "tez_no": "743727",
+          "title_tr": "Hemşirelik öğrencilerinde vaka temelli öğrenmenin klinik performansta öz yeterlik ve klinik karar verme üzerine etkisi",
+          "author": "AHMET EROL",
+          "year": 2022,
+          "score": 0.7935,
+          "abstract_excerpt": "Amaç: Bu araştırma, hemşirelik öğrencilerinde vaka temelli öğrenmenin klinik performansta öz yeterlik ve klinik karar verme üzerine etkisini incelemek amacıyla yapılmış yarı deneysel bir çalışmadır.\nYöntem: Araştırma, Ege Üniversitesi Hemşirelik Fakültesi'nde Ekim 2021-Nisan 2022 tarihleri arasında "
+        },
+        {
+          "tez_no": "288743",
+          "title_tr": "Hemşirelik esasları dersi klinik uygulama değerlendirme formu geliştirme çalışması",
+          "author": "ATİKE NİLAY KUBLASHVILI",
+          "year": 2011,
+          "score": 0.7934,
+          "abstract_excerpt": "Araştırma, Hemşirelik Esasları Dersi klinik uygulamadeğerlendirme formu geliştirmek amacıyla tanımlayıcı olarakyapılmıştır.Araştırma iki aşamada yürütülmüştür. Araştırmanınbirinci aşamasında örneklem seçimine gidilmemiş ve öğretimüyelerinin tamamına ulaşılmak istenmiştir. YÖK Web Sayfası'ndanelde ed"
+        },
+        {
+          "tez_no": "880561",
+          "title_tr": "Öğrenci hemşirelerin bakım planı hazırlama becerisine yönelik bir karar destek sisteminin geliştirilmesi : N-Care",
+          "author": "MELTEM ÖZDUYAN KILIÇ",
+          "year": 2024,
+          "score": 0.7903,
+          "abstract_excerpt": "Bu çalışma, öğrenci hemşirelerin bakım planı hazırlama becerisine yönelik bir karar destek sisteminin geliştirilmesi (N-Care) amacıyla gelişimsel araştırma tasarımı kullanılarak (analiz, tasarım, geliştirme, uygulama ve değerlendirme basamaklarına dayalı) yürütülmüştür. Bu kapsamda araştırmanın anal"
+        },
+        {
+          "tez_no": "453890",
+          "title_tr": "Sağlıkta karar verme yöntemleri için geliştirilen deterministik ve olasılıksal duyarlılık analizleri",
+          "author": "CAN ATEŞ",
+          "year": 2017,
+          "score": 0.7865,
+          "abstract_excerpt": "Günümüzde, bilim ve teknoloji alanındaki hızlı gelişime paralel olarak \"kolay, kullanışlı, hızlı, daha az maliyetli, girişimsel olmayan, ucuz\" gibi avantajlarıyla karşımıza çıkan yeni yöntemlerin eskilerinin yerini alıp alamayacakları konusunda daha objektif ve net değerlendirmelere olan ihtiyaç art"
+        },
+        {
+          "tez_no": "805021",
+          "title_tr": "Sorun çözme ve karar verme eğitiminin hemşire yöneticilerin sorun çözme ve karar verme becerilerine etkisi",
+          "author": "BERRA YILMAZ KUŞAKLI",
+          "year": 2023,
+          "score": 0.7859,
+          "abstract_excerpt": "Bu araştırma alt, orta ve üst düzey hemşire yöneticilerin sorun çözme ve karar verme\nbecerilerini geliştirmek amacıyla oluşturulan Sorun Çözme ve Karar Verme Eğitim\nprogramının hemşire yöneticilerin sorun çözme ve karar verme becerilerine etkisinin öz ve\nastları tarafından değerlendirilmesi amacıyla"
+        },
+        {
+          "tez_no": "224356",
+          "title_tr": "GATA Hemşirelik Yükseokulu Öğrencilerinin laboratuar ve klinik becerilerini geliştirmeye yönelik model oluşturma",
+          "author": "VESİLE ÜNVER",
+          "year": 2007,
+          "score": 0.7858,
+          "abstract_excerpt": "Çalısma, GATA Hemsirelik Yüksekokulu ögrencilerinin laboratuar ve klinik\u000bbeceri egitimlerini gelistirmeye yönelik model olusturma amacıyla\u000bplanlanmıstır. Bu amaç dogrultusunda, uygulanan Akran Egitimi Modelinin\u000betkinligi incelenmistir. Arastırma, kontrol gruplu deneysel çalısma ve niteliksel\u000bolarak "
+        },
+        {
+          "tez_no": "523691",
+          "title_tr": "Hemşirelik öğrencilerinin yönetimsel problem çözme ve karar verme becerilerinin geliştirilmesinde senaryo temelli simülasyon yönteminin etkisi",
+          "author": "SEVDA ARSLAN",
+          "year": 2018,
+          "score": 0.7832,
+          "abstract_excerpt": "Bu araştırma,\nsenaryo temelli simülasyon yöntemi kullanımının hemşirelik lisans son sınıf\nöğrencilerinin yönetimsel problem çözme ve karar verme becerilerini kazanma\ndüzeylerine etkisini saptamak amacıyla yarı-deneysel ve niteliksel olarak yapılmıştır.\nAraştırmanın örneklemini 2016–2017 Öğretim Yılı"
+        },
+        {
+          "tez_no": "760059",
+          "title_tr": "Bir hemşirelik yüksekokulunda eğitim gören öğrencilerin meslek seçimlerini etkileyen faktörlerin değerlendirilmesi",
+          "author": "ÜMİT YAŞAR KAMACI",
+          "year": 2022,
+          "score": 0.7831,
+          "abstract_excerpt": "Amaç: Bu çalışma bir hemşirelik yüksekokulunda eğitim gören öğrencilerin meslek seçimlerini etkileyen faktörlerin değerlendirilmesi amacıyla planlandı. Gereç ve Yöntem: Çalışma 10 Ocak- 21 Ocak 2022 tarihleri arasında 1, 2, 3, 4. sınıfta öğrenim gören öğrenciler ile gerçekleştirildi. Tanımlayıcı nit"
+        },
+        {
+          "tez_no": "843204",
+          "title_tr": "Hemşirelerin klinik karar destek sistemleri ile ilgili görüşlerinin incelenmesi: Nitel araştırma",
+          "author": "BURAK YAVUZ",
+          "year": 2023,
+          "score": 0.7823,
+          "abstract_excerpt": "Amaç: Hemşireler, meslekleri gereği kritik anlarda önemli kararlar vermeleri\ngereken bir konumdadırlar. Özellikle gelişen sağlık uygulamaları bu süreci\nkarmaşıklaştırmaktadır. Bu süreçte hemşirelere klinik karar destek sistemleri (KKDS)\ndestek olmaktadır. Bu çalışma, hemşirelerin KKDS hakkındaki gör"
+        },
+        {
+          "tez_no": "319033",
+          "title_tr": "Hemşirelik öğrencilerinin nanda-ı hemşirelik tanılarını belirleme yetkinliğinin saptanması",
+          "author": "SEMİHA AYAN",
+          "year": 2012,
+          "score": 0.7821,
+          "abstract_excerpt": "Ayan, S. (2012). Hemşirelik Öğrencilerinin NANDA-I Hemşirelik Tanılarını Belirleme Yetkinliğinin Saptanması. İstanbul Üniversitesi Sağlık Bilimleri Enstitüsü, Hemşirelik Esasları AD. Yüksek Lisans Tezi. İstanbul.Araştırma, hemşirelik öğrencilerinin NANDA-I hemşirelik tanılarını belirlemek yetkinliği"
+        },
+        {
+          "tez_no": "422716",
+          "title_tr": "Türkiye'de cerrahi hastalıkları  hemşireliği anabilim dalında yapılan yüksek lisans ve doktora tezlerinin  içerik ve yöntem açısından değerlendirilmesi",
+          "author": "İBRAHİM ÇİFTÇİ",
+          "year": 2014,
+          "score": 0.7801,
+          "abstract_excerpt": "Hemşirelikte araştırma kullanımı karmaşık, zor ve çok çaba gerektiren bir süreç olmasına karşın, hem hemşireliğin profesyönelleşmesi için bir fırsat hemde toplumun sağlığının iyileştirilmesi için vazgeçilmezdir. Bu çalışma Türkiye'de Cerrahi Hastalıkları Hemşireliği Anabilim Dalı'na ait yüksek lisan"
+        },
+        {
+          "tez_no": "759042",
+          "title_tr": "Türk hemşirelik öğrencilerinin meslek seçimini etkileyen nedenler",
+          "author": "BURÇİN SELÇUK",
+          "year": 2022,
+          "score": 0.7799,
+          "abstract_excerpt": "Bu araştırma, Türk hemşirelik öğrencilerinin meslek seçimini etkileyen nedenleri\nbelirlemek amacıyla kesitsel tipte yapılmıştır. Araştırma 15 Ocak - 10 Mart 2020\ntarihleri arasında yapılmıştır. Araştırmanın evrenini yedi bölgedeki üniversite\nhemşirelik öğrencileri, örneklemini ise çalışmaya katılmay"
+        },
+        {
+          "tez_no": "911267",
+          "title_tr": "Hekim ve hemşire adaylarına yönelik aydınlatma ve onam konusundaki vaka videolarının etik eğitimine etkisi",
+          "author": "İNCİ AKALPER",
+          "year": 2024,
+          "score": 0.8398,
+          "abstract_excerpt": "Aydınlatma ve onam alma uygulaması, hastaların sağlıkları hakkında bilinçli ve özgürce karar verebilmelerini sağlamak açısından son derece önemlidir. Bu süreç, hem etik hem de yasal bir gereklilik olarak, sağlık profesyonellerinin hastalarla kurdukları iletişimin temelini oluşturur. Sağlık hizmetler"
+        },
+        {
+          "tez_no": "247601",
+          "title_tr": "Yoğun bakımda hastaların kabulü, tanı ve tedavi süreçleri için karar desteği sağlayan web-tabanlı klinik rehber geliştirilmesi",
+          "author": "DENİZ ÖZEL",
+          "year": 2010,
+          "score": 0.8351,
+          "abstract_excerpt": "Klinik Karar Destek Sistemleri (KKDS), son yıllarda hekimlerin doğru tanı ve tedavi kararları vermelerinde önemli rol oynayan araçlar olarak dikkati çekmektedir. Bu sistemler aynı zamanda iyi birer eğitim aracı olma potansiyeline de sahiptir. Özellikle Yoğun Bakım Üniteleri gibi tıbbi süreçleri karm"
+        },
+        {
+          "tez_no": "266984",
+          "title_tr": "Tıp bilişimi yüksek lisans eğitiminde web tabanlı e-öğrenme için modül tasarımı",
+          "author": "SEZGİN ATAÇ",
+          "year": 2010,
+          "score": 0.822,
+          "abstract_excerpt": "Amaç: Web tabanlı e-öğrenme ortamları son yıllarda tıp bilişimi lisansüstü programlarındakullanılan araçlardan biridir. Bu programlar yardımı ile öğrenciler çok sayıda öğrenmeaktivitesine herhangi bir zamanda, herhangi bir mekandan interaktiv olarak katılabilirler. Buçalışmada Moodle adı verilen bir"
+        },
+        {
+          "tez_no": "195370",
+          "title_tr": "Hemşirelik eğitiminde web tabanlı uzaktan eğitim uygulaması: \"hasta eğitimi dersi örneği\"",
+          "author": "EMİNE AKÇİN ŞENYUVA",
+          "year": 2007,
+          "score": 0.821,
+          "abstract_excerpt": "Arastırma, hemsirelik egitiminde ?Hasta Egitimi? dersini ?Karma Tasarım\u000bModeli? dogrultusunda web tabanlı uzaktan egitim yöntemine dayalı bir örnek olarak\u000bhazırlamak/gelistirmek, uygulamak, ögrenci görüsleri dogrultusunda degerlendirmek ve\u000bilgili arastırmalara kaynak olusturmak amacıyla, tanımlayıcı"
+        },
+        {
+          "tez_no": "889547",
+          "title_tr": "Hemşirelikte hasta bakımı ve klinik karar vermeye ilişkin sanal servis/hasta platformunun geliştirilmesi: Tasarım tabanlı araştırma",
+          "author": "TANER ONAY",
+          "year": 2024,
+          "score": 0.8117,
+          "abstract_excerpt": "Amaç: Hemşirelik eğitimi için bakım vermeye yönelik geliştirilen sanal servis ve hasta tabanlı eğitim uygulamasının geliştirilmesi ve uygulamanın hemşirelik öğrencilerinde bakım planı hazırlama ve klinik karar verme yeterliği gelişimine etkisinin değerlendirilmesidir.\nGereç ve Yöntem: Tasarım-tabanl"
+        },
+        {
+          "tez_no": "572791",
+          "title_tr": "Türkiye'deki kamu ve özel hastane web sitelerinin işleyiş kalitesi, güncellik ve tasarım altyapısı bakımından analizi",
+          "author": "SÜMEYRA BOYDAK",
+          "year": 2019,
+          "score": 0.8116,
+          "abstract_excerpt": "Sağlık hizmeti veren kurumların web sitelerinin olumlu yönde değişimi ve gelişimi çok önemlidir. Hastane web siteleri marifetiyle, kaliteli bir imaj yaratılması, tanıtım olanakları,  bireylerin ilgili hastanenin varlığı hakkında bilgi sahibi olması vb. getirileri ile beraber, bu siteler aracılığı il"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 14,
+      "findings": [
+        {
+          "claim": "Yüksek gerçeklikli simülasyon (HFS) yöntemi hemşirelik öğrencilerinin bilgi ve klinik karar verme düzeyini artırmaktadır.",
+          "citations": [
+            "468810"
+          ]
+        },
+        {
+          "claim": "Sanal oyun simülasyonu (SOS), hemşirelik öğrencilerinin klinik karar verme senaryolarını deneyimlemelerine olanak tanır ve anında geri bildirim sağlayarak öğrenmeyi hızlandırır.",
+          "citations": [
+            "827772"
+          ]
+        },
+        {
+          "claim": "Simülasyon ve vaka tartışması yöntemleri, hemşirelik öğrencilerinin hemşirelik süreci geliştirmesinde etkili yöntemlerdir.",
+          "citations": [
+            "896126"
+          ]
+        },
+        {
+          "claim": "Bilgisayar destekli simülasyon, hemşirelik öğrencilerinin ameliyat öncesi ve sonrası bakım yönetimini öğrenmesinde bilgi, beceri ve klinik karar verme üzerine olumlu etkiye sahiptir.",
+          "citations": [
+            "308291"
+          ]
+        },
+        {
+          "claim": "Simülasyon yöntemi, hemşirelik eğitiminde öğrencilerin bilgi düzeyini artırmada etkilidir.",
+          "citations": [
+            "625858"
+          ]
+        },
+        {
+          "claim": "Simülasyona dayalı eğitimde farklı çözümleme (debriefing) yöntemleri, hemşirelik öğrencilerinin bilgi ve performansını etkilemektedir.",
+          "citations": [
+            "589546"
+          ]
+        },
+        {
+          "claim": "Beceri temelli eleştirel düşünme öğretimi, öğrenci hemşirelerde eleştirel düşünme gelişimine katkı sağlamaktadır.",
+          "citations": [
+            "301366"
+          ]
+        },
+        {
+          "claim": "Vaka temelli öğrenme, hemşirelik öğrencilerinin klinik performansta öz yeterlik ve klinik karar verme düzeyini olumlu yönde etkilemektedir.",
+          "citations": [
+            "743727"
+          ]
+        },
+        {
+          "claim": "Senaryo temelli simülasyon yöntemi, hemşirelik öğrencilerinin yönetimsel problem çözme ve karar verme becerilerini geliştirmede etkilidir.",
+          "citations": [
+            "523691"
+          ]
+        },
+        {
+          "claim": "Sanal servis/hasta platformu (sanal simülasyon), hemşirelik öğrencilerinde bakım planı hazırlama ve klinik karar verme yeterliği gelişimine katkı sağlamaktadır.",
+          "citations": [
+            "889547"
+          ]
+        },
+        {
+          "claim": "Karar destek sistemleri (N-Care gibi), öğrenci hemşirelerin bakım planı hazırlama becerisini geliştirmede kullanılmaktadır.",
+          "citations": [
+            "880561"
+          ]
+        },
+        {
+          "claim": "Akran eğitimi modeli, hemşirelik öğrencilerinin laboratuvar ve klinik becerilerini geliştirmede etkili bir yöntemdir.",
+          "citations": [
+            "224356"
+          ]
+        },
+        {
+          "claim": "Vaka çalışması (vaka tartışması) yöntemi, hemşirelik öğrencilerinin problem çözme ve karar verme becerilerini geliştirmede kullanılan bir yöntemdir.",
+          "citations": [
+            "523691",
+            "896126"
+          ]
+        },
+        {
+          "claim": "Web tabanlı ve bilgisayar destekli eğitim yöntemleri, hemşirelik eğitiminde klinik karar verme becerilerinin geliştirilmesinde kullanılmaktadır.",
+          "citations": [
+            "308291",
+            "195370"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Kaynaklar arasında doğrudan bir çelişki bulunmamaktadır. Farklı simülasyon türleri (yüksek gerçeklikli, sanal oyun, bilgisayar destekli, senaryo temelli) ve vaka temelli yöntemlerin hepsi klinik karar vermeyi geliştirmede etkili bulunmuştur; ancak hangi yöntemin daha üstün olduğuna dair karşılaştırmalı bir bulgu mevcut değildir."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Geleneksel/yapılandırılmış klinik uygulama (staj) yöntemleri ve klinikte mentörlük/rehberlik modelleri",
+        "Kavram haritası (concept mapping) kullanımı",
+        "Yansıtıcı düşünme (reflective thinking) günlükleri/portfolyo yöntemleri",
+        "Standart hasta (standardized patient) kullanımı",
+        "Problem temelli öğrenme (PBL) yöntemi",
+        "Simülasyon dışındaki aktif öğrenme stratejileri (rol-play, beyin fırtınası, tartışma grupları)",
+        "Klinik karar verme ölçekleri/değerlendirme araçları (hangi yöntemlerin hangi ölçeklerle değerlendirildiği)",
+        "Türkiye bağlamına özgü kültürel/müfredatsal faktörlerin etkisi"
+      ],
+      "requery_terms": [
+        "hemşirelik öğrencileri klinik karar verme kavram haritası",
+        "hemşirelik öğrencileri klinik karar verme standart hasta",
+        "hemşirelik öğrencileri klinik karar verme problem temelli öğrenme",
+        "hemşirelik öğrencileri klinik karar verme yansıtıcı düşünme",
+        "hemşirelik öğrencileri klinik karar verme mentörlük rehberlik",
+        "hemşirelik öğrencileri klinik karar verme rol-play",
+        "hemşirelik öğrencileri klinik karar verme portfolyo",
+        "Türkiye hemşirelik eğitimi klinik karar verme yöntemleri"
+      ],
+      "notes": "Mevcut sentez büyük ölçüde simülasyon temelli yöntemlere (HFS, sanal oyun, bilgisayar destekli, senaryo temelli, sanal servis) ve vaka temelli öğrenme ile akran eğitimine odaklanmıştır. Ancak hemşirelik eğitiminde klinik karar vermeyi geliştirmede kullanılan başka önemli yöntemler (kavram haritası, standart hasta, PBL, yansıtıcı günlükler, mentörlük, portfolyo, rol-play gibi) sentezde yer almamaktadır. Ayrıca Türkiye bağlamına özgü faktörler ve kullanılan değerlendirme araçları da örtülmemiştir. Bu eksik alanlar için ek arama yapılması önerilir."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "# Türkiye'de Hemşirelik Öğrencilerinin Klinik Karar Verme Becerilerinin Geliştirilmesinde Kullanılan Yöntemler\n\n## Giriş\n\nKlinik karar verme becerisi, hemşirelik eğitiminin temel çıktılarından biri olup, öğrencilerin mesleki yaşamlarında güvenli ve etkili bakım sunabilmeleri için kritik öneme sahiptir. Türkiye'de bu becerinin geliştirilmesine yönelik olarak çeşitli eğitim yöntemleri uygulanmakta ve araştırılmaktadır. Mevcut bulgular, simülasyon temelli yöntemlerden vaka temelli öğrenmeye, akran eğitiminden karar destek sistemlerine kadar geniş bir yelpazede yaklaşımın kullanıldığını göstermektedir.\n\n## Simülasyon Temelli Yöntemler\n\n### Yüksek Gerçeklikli Simülasyon (HFS)\n\nYüksek gerçeklikli simülasyon yöntemi, hemşirelik öğrencilerinin bilgi ve klinik karar verme düzeyini anlamlı şekilde artırmaktadır [1]. Bu yöntem, öğrencilerin gerçek klinik ortama en yakın koşullarda deneyim kazanmalarına olanak tanımakta ve karar verme süreçlerini geliştirmektedir.\n\n### Sanal Oyun Simülasyonu (SOS)\n\nSanal oyun simülasyonu, öğrencilerin kendi klinik uygulamalarında karşılaşmadıkları klinik karar verme senaryolarını deneyimlemelerine olanak tanımakta ve anında geri bildirim sağlayarak öğrenme sürecini hızlandırmaktadır [2]. Dijital ortamda kısmi dallandırma tekniği kullanılarak gerçekçi deneyimler sunan bu yöntem, özellikle nadir karşılaşılan klinik durumların öğretiminde avantaj sağlamaktadır.\n\n### Bilgisayar Destekli Simülasyon\n\nBilgisayar destekli simülasyon tekniği, hemşirelik öğrencilerinin ameliyat öncesi ve sonrası hasta bakım yönetimini öğrenmesinde bilgi, beceri ve klinik karar verme üzerine olumlu etki göstermektedir [4]. Bu yöntem, öğrencilerin teorik bilgilerini sanal ortamda uygulamaya dönüştürmelerine katkı sağlamaktadır.\n\n### Senaryo Temelli Simülasyon\n\nSenaryo temelli simülasyon yöntemi, hemşirelik öğrencilerinin yönetimsel problem çözme ve karar verme becerilerini geliştirmede etkili bulunmuştur [19]. Özellikle lisans son sınıf öğrencilerinin yönetimsel karar verme becerilerinin kazandırılmasında bu yöntemin önemli bir rol oynadığı belirtilmektedir.\n\n### Sanal Servis/Hasta Platformu\n\nHemşirelik eğitimi için geliştirilen sanal servis ve hasta tabanlı eğitim uygulamaları, öğrencilerde bakım planı hazırlama ve klinik karar verme yeterliği gelişimine katkı sağlamaktadır [29]. Tasarım-tabanlı yarı deneysel araştırmalar, bu platformların klinik eğitime ek olarak kullanıldığında öğrenci performansını artırdığını göstermektedir.\n\n### Simülasyon ve Çözümleme (Debriefing) Yöntemleri\n\nSimülasyona dayalı eğitimde farklı çözümleme yöntemlerinin, hemşirelik öğrencilerinin bilgi ve performansını etkilediği belirlenmiştir [6]. Çözümleme aşamasının simülasyon eğitiminin ayrılmaz bir parçası olduğu ve öğrencilerin deneyimlerini anlamlandırmalarında kritik rol oynadığı anlaşılmaktadır.\n\n## Vaka Temelli Yöntemler\n\n### Vaka Temelli Öğrenme\n\nVaka temelli öğrenme yöntemi, hemşirelik öğrencilerinin klinik performansta öz yeterlik ve klinik karar verme düzeyini olumlu yönde etkilemektedir [13]. Yarı deneysel çalışmalar, bu yöntemin öğrencilerin gerçek klinik durumlara hazırlanmasında etkili olduğunu ortaya koymaktadır.\n\n### Vaka Tartışması\n\nSimülasyon ve vaka tartışması yöntemleri, hemşirelik öğrencilerinin hemşirelik süreci geliştirmesinde etkili yöntemler olarak değerlendirilmektedir [3]. Vaka çalışması yöntemi, öğrencilerin problem çözme ve karar verme becerilerini geliştirmede kullanılan bir diğer önemli yaklaşımdır [3, 19].\n\n## Eleştirel Düşünme Odaklı Yöntemler\n\n### Beceri Temelli Eleştirel Düşünme Öğretimi\n\nBeceri temelli eleştirel düşünme öğretimi, öğrenci hemşirelerde eleştirel düşünme gelişimine katkı sağlamaktadır [7]. Eleştirel düşünme, klinik karar verme sürecinin temel bileşenlerinden biri olarak kabul edilmekte ve bu becerinin sistematik öğretimi önem taşımaktadır.\n\n## Teknoloji Destekli Yöntemler\n\n### Karar Destek Sistemleri (N-Care)\n\nÖğrenci hemşirelerin bakım planı hazırlama becerisine yönelik geliştirilen karar destek sistemleri (N-Care gibi), analiz, tasarım, geliştirme, uygulama ve değerlendirme basamaklarına dayalı olarak yapılandırılmakta ve öğrencilerin klinik karar verme süreçlerine destek olmaktadır [15].\n\n### Web Tabanlı ve Bilgisayar Destekli Eğitim\n\nWeb tabanlı ve bilgisayar destekli eğitim yöntemleri, hemşirelik eğitiminde klinik karar verme becerilerinin geliştirilmesinde kullanılmaktadır [4, 28]. Bu yöntemler, öğrencilere zaman ve mekândan bağımsız öğrenme fırsatı sunarak esnek bir eğitim ortamı sağlamaktadır.\n\n## Akran Eğitimi Modeli\n\nAkran eğitimi modeli, hemşirelik öğrencilerinin laboratuvar ve klinik becerilerini geliştirmede etkili bir yöntem olarak belirlenmiştir [18]. Kontrol gruplu deneysel çalışmalar, bu modelin öğrencilerin psikomotor becerilerinin yanı sıra karar verme yetkinliklerine de katkı sağladığını göstermektedir.\n\n## Sonuç\n\nTürkiye'de hemşirelik öğrencilerinin klinik karar verme becerilerinin geliştirilmesinde simülasyon temelli yöntemler (yüksek gerçeklikli simülasyon, sanal oyun simülasyonu, bilgisayar destekli simülasyon, senaryo temelli simülasyon, sanal servis/hasta platformu), vaka temelli yöntemler (vaka temelli öğrenme, vaka tartışması), eleştirel düşünme odaklı yaklaşımlar, teknoloji destekli sistemler (karar destek sistemleri, web tabanlı eğitim) ve akran eğitimi modeli olmak üzere çok çeşitli yöntemler kullanılmaktadır. Mevcut bulgular, bu yöntemlerin her birinin klinik karar verme becerisi üzerinde olumlu etkiler gösterdiğini ortaya koymakla birlikte, hangi yöntemin diğerlerine göre daha üstün olduğuna dair karşılaştırmalı kanıtlar sınırlıdır. Gelecek araştırmaların, farklı yöntemlerin etkililik düzeylerini karşılaştırmalı olarak değerlendirmesi ve hangi bağlamda hangi yöntemin daha uygun olduğunu belirlemesi, hemşirelik eğitiminin kalitesinin artırılmasına önemli katkılar sağlayacaktır.",
+      "n_citations": 34,
+      "citations_ieee": [
+        "[1] GÜLCAN COŞKUN, \"Yüksek gerçeklikli simülasyon yönteminin hemşirelik öğrencilerinin bilgi ve klinik karar verme düzeyine etkisi,\" Yüksek Lisans/Doktora tezi, Cumhuriyet Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Esasları Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpSjTdN-7qvfFM8P4h3EgcXoP6VnQ212rHRKvoSk_eotk",
+        "[2] TURGAY YALÇINKAYA, \"Hemşirelik eğitiminde venöz kan örneği alma becerisinin kazandırılmasında sanal oyun simülasyon yönteminin etkinliği,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Esasları Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=nLNfCsWgUluh5T2iyudShmHNPXFXujD9tX9JR-rdq2KfAqgsJp7-g8TkL1EWyQy6",
+        "[3] BOTAN ADSAY, \"Öğrencilerin hemşirelik süreci geliştirmesinde simülasyon ve vaka tartışması yöntemlerinin etkinliğinin incelenmesi /,\" Yüksek Lisans/Doktora tezi, Dokuz Eylül Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Ana Bilim Dalı / Hemşirelik Esasları Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=UjlM15wKZGQW6TLC0pvCt169nO2yQjIS4yyxY8tVTxaVqsOmCwxHOtOzia61rlCT",
+        "[4] AYLİN DURMAZ, \"Hemşirelik öğrencilerinin ameliyat öncesi ve sonrası hasta bakım yönetimini öğrenmesinde bilgisayar destekli simülasyon tekniğinin etkisi,\" Yüksek Lisans/Doktora tezi, Dokuz Eylül Üniversitesi / Sağlık Bilimleri Enstitüsü / Cerrahi Hastalıkları Hemşireliği Ana Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-Ap2ttIXXtrAXcIW4VPFFL4SgS2V1LdfYd8jB1QcsxB93",
+        "[5] HALE SEZER, \"Hemşirelik eğitiminde simülasyon yönteminin etkinliğinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelikte Öğretim Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGThUY4u28xEgsktwpzp8ZLPNKx7K9U4wWPsAYOa17aHf",
+        "[6] HİLAL TÜZER, \"Simülasyona dayalı eğitimde farklı çözümleme yöntemlerinin hemşirelik öğrencilerinin bilgi ve performansına etkisi,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sağlık Bilimleri Enstitüsü / Tıp Eğitimi Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vjszP7PzV0HebcjFEvDfwMwSlPvJ3izl51yTCvK71IYLQx358dyOhEG5XVwd7aeB",
+        "[7] BELGİN YILDIRIM, \"Beceri temelli eleştirel düşünme öğretiminin öğrenci hemşirelerde eleştirel düşünme gelişimine etkisi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sağlık Bilimleri Enstitüsü / Halk Sağlığı Hemşireliği Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-AiEG7TqupwkoWElR-OfM_m_TXGk36W7w-1zmVWek4lr4",
+        "[8] CANSU BUZUNOĞLU, \"Hemşirelerin karar verme stratejilerine ilişkin görüşlerinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Medipol Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=jNRDC1RLfVd4_T7x7ZXmmeHdfu_i6CkQ5gq7Cuu0MLQ75Rokv9vc1PjTnGQEQsNY",
+        "[9] ZÜLFİYE BIKMAZ, \"Öğrenci ve mezun hemşirelerin yetkinlik algıları ile otonomi ve eleştirel düşünme eğilimleri arasındaki ilişki,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelikte Yönetim Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=OykDDeWBWTL9-Wm52sZBrKp2OIPYIl6EoOBawXWyjrT-w2Px7ENtvHgODrZ2_DJN",
+        "[10] SEDAT KAYA, \"Ameliyathane hemşirelerinin klinik karar verme düzeyleri ile öz yeterlilik düzeyleri arasındaki ilişki,\" Yüksek Lisans/Doktora tezi, Maltepe Üniversitesi / Lisansüstü Eğitim Enstitüsü / Hemşirelik Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=S2eMu1TIwY_v4mYv58xArx2oJeyKm0y20OwTF-P0I1EUgiTs2V6C0-JLSgF7RsqB",
+        "[11] VELAT CANGÜLEÇ, \"Bir psikiyatri hastanesinde çalışan hemşirelerin klinik karar verme düzeyleri ve etkileyen bireysel ve mesleki özelliklerin incelenmesi,\" Yüksek Lisans/Doktora tezi, Üsküdar Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Ana Bilim Dalı / Psikiyatri Hemşireliği Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMsydugYWzypRdWOk1sPcbjbvKRRpSeSDkeqhUhIB3u5x8",
+        "[12] SAADET ERZİNCANLI, \"Hemşirelerin eleştirel düşünme eğilimleri ve problem çözme becerilerinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGtMUs56Exjqr4wAxJDcnqvi7pWSKd8hUue1iRAgvp54U",
+        "[13] AHMET EROL, \"Hemşirelik öğrencilerinde vaka temelli öğrenmenin klinik performansta öz yeterlik ve klinik karar verme üzerine etkisi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Esasları Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sELqxhTlFGAjsbjOuuiyCJK15Kbuj5Hr3k5ox98hHjzfB_uRtzHVKr1laUbHyAS_",
+        "[14] ATİKE NİLAY KUBLASHVILI, \"Hemşirelik esasları dersi klinik uygulama değerlendirme formu geliştirme çalışması,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zD1B0cW7zVr3VcnZjitVXo2ENr3fA4_0BsSAbfbMzwA0welZXIAg8_wdCDB2T4oK",
+        "[15] MELTEM ÖZDUYAN KILIÇ, \"Öğrenci hemşirelerin bakım planı hazırlama becerisine yönelik bir karar destek sisteminin geliştirilmesi : N-Care,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Esasları Ana Bilim Dalı / Hemşirelik Esasları Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-09qF4Sy39bWO0ueNh6xsXndrXbgutK4V7CM7SOLKpq2",
+        "[16] CAN ATEŞ, \"Sağlıkta karar verme yöntemleri için geliştirilen deterministik ve olasılıksal duyarlılık analizleri,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sağlık Bilimleri Enstitüsü / Biyoistatistik Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=DPTyuy3wRPq_qvCPSqUB66n4MRXzh81oLL1MhtTy_32kgdAhtS1gEXh4-Y5skM9s",
+        "[17] BERRA YILMAZ KUŞAKLI, \"Sorun çözme ve karar verme eğitiminin hemşire yöneticilerin sorun çözme ve karar verme becerilerine etkisi,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi-Cerrahpaşa / Lisansüstü Eğitim Enstitüsü / Hemşirelikte Yönetim Ana Bilim Dalı /  Hemşirelikte Yönetim Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=j_Fjwp4JS4mk97Puqti8rkKDWI7ICleakE-i-q3GOd6-0n82sZt67x-hVAAPpWdt",
+        "[18] VESİLE ÜNVER, \"GATA Hemşirelik Yükseokulu Öğrencilerinin laboratuar ve klinik becerilerini geliştirmeye yönelik model oluşturma,\" Yüksek Lisans/Doktora tezi, GATA / Sağlık Bilimleri Enstitüsü / İç Hastalıkları Hemşireliği Ana Bilim Dalı / İç Hastalıkları Hemşireliği Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6QxV9z3bW4cHGvcwjfqjpI0M1xNXS7L-B4PkjNKfMUgCK",
+        "[19] SEVDA ARSLAN, \"Hemşirelik öğrencilerinin yönetimsel problem çözme ve karar verme becerilerinin geliştirilmesinde senaryo temelli simülasyon yönteminin etkisi,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Esasları Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fS4sqEZr79C_n60Rk6MjFREJVAcTY6yA56LP5Lm1e_B_ZwbsUf3l0S9tYWxvV66J",
+        "[20] ÜMİT YAŞAR KAMACI, \"Bir hemşirelik yüksekokulunda eğitim gören öğrencilerin meslek seçimlerini etkileyen faktörlerin değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Demiroğlu Bilim Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiHj7H4Gm0d4vB8TEMb3BSkrBemqKl6yVTSgfzQku5pFI",
+        "[21] BURAK YAVUZ, \"Hemşirelerin klinik karar destek sistemleri ile ilgili görüşlerinin incelenmesi: Nitel araştırma,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Esasları Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHMrmxKDRPYXvtTfiOV6h7cDjbh7FTQjgphyOPI5OyLao",
+        "[22] SEMİHA AYAN, \"Hemşirelik öğrencilerinin nanda-ı hemşirelik tanılarını belirleme yetkinliğinin saptanması,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Esasları Ana Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RYan9_S-Z7Eir3xdWGXBiNK1oylEYsJaiA2L1ONKLs-iCMuSUUhzBomtM9Gw8rX6",
+        "[23] İBRAHİM ÇİFTÇİ, \"Türkiye'de cerrahi hastalıkları  hemşireliği anabilim dalında yapılan yüksek lisans ve doktora tezlerinin  içerik ve yöntem açısından değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Acıbadem Üniversitesi / Sağlık Bilimleri Enstitüsü / Cerrahi Hastalıkları Hemşireliği Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Br_XTptK8CZ70f0JGX9xEjamTiXGRyv_YyDvbrNTvjEeS5fpnV9Im6a2ibyML6Vo",
+        "[24] BURÇİN SELÇUK, \"Türk hemşirelik öğrencilerinin meslek seçimini etkileyen nedenler,\" Yüksek Lisans/Doktora tezi, Gaziantep Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Ana Bilim Dalı / Halk Sağlığı Hemşireliği Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RsTBl6RWK25OBMIKtIgYYVafXo_A1AxU5iH6DKNg97AAqrTLi4STAbq6-lAMM3MY",
+        "[25] İNCİ AKALPER, \"Hekim ve hemşire adaylarına yönelik aydınlatma ve onam konusundaki vaka videolarının etik eğitimine etkisi,\" Yüksek Lisans/Doktora tezi, Mersin Üniversitesi / Sağlık Bilimleri Enstitüsü / Tıp Tarihi ve Etik Ana Bilim Dalı / Tıp Tarihi ve Etik Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=E_eEUHQic_C-LvhxNQn1W7RyTCRtpNHdpkIAO8eoXOggTawrnfaYGiEpFEJObd5r",
+        "[26] DENİZ ÖZEL, \"Yoğun bakımda hastaların kabulü, tanı ve tedavi süreçleri için karar desteği sağlayan web-tabanlı klinik rehber geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Sağlık Bilimleri Enstitüsü / Biyoistatistik ve Tıbbi Bilişim Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAQVsKdyNfI4I5GdCiK-Ez5qlAAmErZ-y756EA-__56hk",
+        "[27] SEZGİN ATAÇ, \"Tıp bilişimi yüksek lisans eğitiminde web tabanlı e-öğrenme için modül tasarımı,\" Yüksek Lisans/Doktora tezi, Dokuz Eylül Üniversitesi / Sağlık Bilimleri Enstitüsü / Tıp Bilişimi Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ZeTyprYuef2HkaF3xt4wYnscu8Vg4F9SJ8whRomUIvS-t4A4uQ1R8TDIUqR_pFf0",
+        "[28] EMİNE AKÇİN ŞENYUVA, \"Hemşirelik eğitiminde web tabanlı uzaktan eğitim uygulaması: \"hasta eğitimi dersi örneği\",\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sağlık Bilimleri Enstitüsü / Hemşirelik Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=XohQ0H2mJnBfxLPsY8dG4ysHrcjFNNm_P599gWaCENYrHorfMrDFJzG5wlUXNs0_",
+        "[29] TANER ONAY, \"Hemşirelikte hasta bakımı ve klinik karar vermeye ilişkin sanal servis/hasta platformunun geliştirilmesi: Tasarım tabanlı araştırma,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sağlık Bilimleri Enstitüsü / Tıp Eğitimi Ana Bilim Dalı / Tıp Eğitimi Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-3U0q1IFJoPKTf41mDfNgQdjgwM1TmxBwN4wzOSuOPJM",
+        "[30] SÜMEYRA BOYDAK, \"Türkiye'deki kamu ve özel hastane web sitelerinin işleyiş kalitesi, güncellik ve tasarım altyapısı bakımından analizi,\" Yüksek Lisans/Doktora tezi, Necmettin Erbakan Üniversitesi / Sağlık Bilimleri Enstitüsü / Sağlık Yönetimi Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=jNRDC1RLfVd4_T7x7ZXmmf0pddebUcytG3Fp4iGPcNNiNxwrsFmQTL9PHn7h6PEJ",
+        "[31] YİĞİT ALİŞAN, \"Eğitim sürecinde bilgisayar destekli karar destek sistemleri ile alternatiflerin önceliklendirilmesi,\" Yüksek Lisans/Doktora tezi, Munzur Üniversitesi / Lisansüstü Eğitim Enstitüsü / Mühendislik Yönetimi Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGQXEruCwIaPLH19S7MxH5dsEo2r6vKq7sqKintnkbQX-",
+        "[32] HATİCE ŞAHİN, \"Ege Üniversitesi Tıp Fakültesi halk sağlığı stajının intörn bakış açısı ile değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sosyal Bilimler Enstitüsü / Eğitim Programları ve Öğretimi Ana Bilim Dalı, 2004. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Keh6sQzap4ZTp8dqWPlH1HO4UCNP5VbEwmZMmrsvYptATP5afafiP-RiITU8r0l6",
+        "[33] ÖZGE SAĞLAM, \"Hemşirelik yüksekokulu ile okul öncesi eğitim alan öğrencilerin tamamlayıcı ve alternatif tıp yöntemlerine yönelik bilgi ve tutumlarının değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Girne Amerikan Üniversitesi / Yurtdışı Enstitü, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kIrIdtdJ31bRgjb6fHvMUQmcyWq9Va3joQOxriBzWkt3mJR8fWhglByt9a_QQ88t",
+        "[34] Derya Uzelli Yılmaz, Dilek Sarı, \"Nursing Students' Opinions About the Low and High Fidelity Simulation Method Used in Psychomotor Skills Teaching the Effect of Clinical Skills Levels,\" Yüksek Lisans/Doktora tezi, [openalex] Turkiye Klinikleri Journal of Nursing Sciences, 2018. [Online]. https://doi.org/10.5336/nurses.2017-58851"
+      ]
+    }
+  },
+  "error": null
+}

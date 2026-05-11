@@ -1,0 +1,12 @@
+{
+  "id": "q09",
+  "question": "Kalp damar hastalıklarının teşhisinde ekokardiyografi ve manyetik rezonans görüntülemenin karşılaştırmalı performansı nedir?",
+  "category": "health",
+  "judgment": {
+    "citation_accuracy": 0.6,
+    "faithfulness": 0.5,
+    "coverage": 0.4,
+    "holistic_score": 2,
+    "rationale": "Yanıt genel geçer ifadelerle dolu olup kaynaklardan somut veri (duyarlılık, özgüllük, korelasyon katsayıları vb.) aktarmamaktadır. Alt soruların çoğu (stres testlerinin duyarlılık/özgüllük karşılaştırması, miyokardiyal viabilite, maliyet-etkinlik) ya hiç ele alınmamış ya da yüzeysel geçilmiştir. Atıfların bir kısmı ilgisiz kaynaklara yapılmış (ör. [8],[10],[12],[14],[16],[19],[20],[21],[23],[24] yanıtla doğrudan ilgili değildir). Akademik üslup kısmen uygun olsa da içerik zayıf ve kanıt düzeyi düşüktür."
+  }
+}

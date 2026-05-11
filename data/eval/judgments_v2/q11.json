@@ -1,0 +1,12 @@
+{
+  "id": "q11",
+  "question": "Yenilenebilir enerji kaynaklarından rüzgar türbinlerinin Türkiye'deki potansiyeli ve verimliliği üzerine yapılan çalışmalar nelerdir?",
+  "category": "engineering",
+  "judgment": {
+    "citation_accuracy": 0.35,
+    "faithfulness": 0.4,
+    "coverage": 0.4,
+    "holistic_score": 2,
+    "rationale": "Yanıt, kaynaklardan bağımsız genel geçer bilgiler sunmakta, atıfların çoğu ya ilgisiz ya da kaynak özetlerinde desteklenmeyen iddialara yapılmıştır. Örneğin [7]'ye atfedilen \"Marmara ve Ege bölgeleri en yüksek potansiyel\" ifadesi kaynak özetinde yoktur; [28]'e atfedilen \"88.000 MW toplam potansiyel, 13.260 MW optimum\" bilgisi kaynak özetinde yer almamaktadır. Ayrıca [31] numaralı kaynak getirilen kaynaklar listesinde bulunmamaktadır (uydurma atıf). Alt sorulardan kapasite faktörü/verimlilik aralıkları, çevresel etkiler (kuş ölümleri, gürültü), ekonomik fizibilite (yatırım maliyeti, geri ödeme süresi) ve sınırlılıklar/gelecek araştırma boşlukları neredeyse hiç ele alınmamıştır. Üslup genel geçer ve yüzeyseldir."
+  }
+}

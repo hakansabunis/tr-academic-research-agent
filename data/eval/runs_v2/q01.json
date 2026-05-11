@@ -1,0 +1,426 @@
+{
+  "id": "q01",
+  "category": "computer_science",
+  "type": "trend",
+  "question": "Türkçe doğal dil işlemede son yıllardaki ana yaklaşımlar nelerdir?",
+  "expected_subjects": [
+    "Bilgisayar Mühendisliği",
+    "Bilgisayar"
+  ],
+  "min_citations": 5,
+  "result": {
+    "latency_seconds": 126.44,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Türkçe doğal dil işleme alanında yaygın olarak kullanılan önceden eğitilmiş dil modelleri (BERT, GPT, XLNet vb.) hangileridir ve bu modeller Türkçeye nasıl uyarlanmıştır?",
+          "rationale": "Son yıllardaki ana yaklaşımların başında transfer öğrenme ve önceden eğitilmiş modeller gelir. Bu soru, Türkçe DDI'de hangi büyük dil modellerinin kullanıldığını ve bunların Türkçeye özgü uyarlamalarını (tokenizasyon, kelime dağarcığı vb.) ortaya koyar."
+        },
+        {
+          "text": "Türkçe doğal dil işleme görevlerinde (metin sınıflandırma, adlandırılmış varlık tanıma, duygu analizi vb.) derin öğrenme yöntemleri (CNN, RNN/LSTM, Transformer) arasında hangi yaklaşımlar daha başarılı sonuçlar vermiştir?",
+          "rationale": "Farklı derin öğrenme mimarilerinin Türkçe DDI görevlerindeki başarımlarını karşılaştırarak, hangi yaklaşımların baskın olduğunu ve nedenini anlamak için bu soru kritiktir."
+        },
+        {
+          "text": "Türkçenin sondan eklemeli ve morfolojik olarak zengin yapısı, doğal dil işleme modellerinde hangi özgün yöntemlerin (örneğin morfolojik ayrıştırma, alt kelime tokenizasyonu) geliştirilmesini gerektirmiştir?",
+          "rationale": "Türkçenin dilbilimsel özellikleri, DDI yaklaşımlarını doğrudan etkiler. Bu soru, Türkçeye özgü yöntemsel uyarlamaları ve bu uyarlamaların başarısını sorgular."
+        },
+        {
+          "text": "Türkçe doğal dil işleme için oluşturulmuş büyük ölçekli kaynaklar (derlem, etiketli veri kümesi, görev odaklı benchmark'lar) hangileridir ve bu kaynakların geliştirilen yaklaşımlara katkısı nedir?",
+          "rationale": "Veri kaynakları ve benchmark'lar, yaklaşımların geliştirilmesi ve karşılaştırılması için temel altyapıdır. Bu soru, Türkçe DDI ekosistemindeki kaynak zenginliğini ve bunun yaklaşımlara etkisini inceler."
+        },
+        {
+          "text": "Türkçe doğal dil işlemede son yıllardaki yaklaşımların karşılaştığı temel sınırlılıklar (veri azlığı, hesaplama kaynağı, düşük kaynaklı diller sorunu) nelerdir ve bu sınırlılıkları aşmak için hangi yöntemler önerilmiştir?",
+          "rationale": "Her yaklaşımın sınırlılıkları ve bu sınırlılıkları aşma çabaları, alanın gelecekteki yönünü belirler. Bu soru, mevcut yaklaşımların eksik yönlerini ve çözüm önerilerini kapsar."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 29,
+      "max_score": 0.8974,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "565656",
+          "title_tr": "İstatistiksel doğal dil işlemede derin öğrenme yöntemleri kullanılarak çevrimiçi Türkçe akademik derlem çözümlenmesi",
+          "author": "BARIŞ BABÜROĞLU",
+          "year": 2019,
+          "score": 0.8974,
+          "abstract_excerpt": "Doğal dil, insanları diğer canlılardan ayıran ve insanların iletişim kurmasını sağlayan en temel özelliklerden biridir. Dil, insanın duygu ve düşüncelerini ifade etmede kullandığı ve kültürlerin nesiller boyunca aktarılmasını sağlayan bir araçtır. Günlük hayatta karşılaşılan yazılar ve sesler birer "
+        },
+        {
+          "tez_no": "621585",
+          "title_tr": "Türkçe morfolojik analiz için yeni bir yöntem",
+          "author": "MUHAMED FATİH EKİN",
+          "year": 2020,
+          "score": 0.8866,
+          "abstract_excerpt": "Türkçe kelime yapılarının dört seviyeli tam bir morfolojik tanımı anlatılmaktadır. Türkçe'nin fonetik yapısı dört seviyeli kurallar kullanılarak sonlu durumlu makineler olarak kodlanmıştır. Türkçe Sözcükler yapı bakımından incelendiğinde kök ve eklerden meydana geldiği tespit edilir.Türkçe kök ve gö"
+        },
+        {
+          "tez_no": "256758",
+          "title_tr": "Türkçe için tümleşik bir biçimbirim çözümleme ve sözcük türü tespit yöntemi",
+          "author": "TARIK KIŞLA",
+          "year": 2009,
+          "score": 0.8828,
+          "abstract_excerpt": "Dillerin sayısal ortamlarda etkili bir şekilde temsilinin ve işlenmesinin sosyal, politik, kültürel ve bilimsel amaçlarla dilleri kullanan insanların desteklemesinde ve dillerin yaşamlarını sürdürmesinde oldukça önemli bir faktör olacağı şüphesizdir. Bu nedenle, çalışmamızın ana motivasyonu, Türkçe'"
+        },
+        {
+          "tez_no": "580794",
+          "title_tr": "Üretim sürecinin doğal dil işleme ile düzenlenmesi",
+          "author": "HATİCE AY",
+          "year": 2019,
+          "score": 0.8813,
+          "abstract_excerpt": "Doğal dil işleme, yapay zeka ve dilbiliminin alt bilimi olarak yer almakta ve doğal dillerdeki metinlerin, ses dalgalarının algılanarak yazılımlarda çözümlenmesi ve bilgisayar ortamına aktarılması olarak tanımlanmaktadır. Doğal dil işlemede girdiler metin veya ses olabilir. Birçok alanda uygulanan d"
+        },
+        {
+          "tez_no": "630095",
+          "title_tr": "Üretim süreçlerinde doğal dil işleme kullanılarak makine öğrenimi",
+          "author": "ELİF MELİKE DEDELEROĞLU",
+          "year": 2020,
+          "score": 0.8795,
+          "abstract_excerpt": "Güncel teknolojik konulardan biri olan doğal dil işleme, insanoğluna pek çok alanda kolaylıklar sağlamayı amaçlamaktadır. Doğal dil işleme, yazılım kütüphanelerinin kullanılarak tasarlandığı uygulamalar ve sistemler ile makinelerin metinleri kontrol edebilmeleri, sözlü komutları anlayıp yönlendirmel"
+        },
+        {
+          "tez_no": "600635",
+          "title_tr": "Türkçe metinden konuşma sentezlemeye yönelik yapılan çalışmaların incelenmesi",
+          "author": "GAMZE YILMAZ",
+          "year": 2019,
+          "score": 0.8767,
+          "abstract_excerpt": "Metinden konuşma sentezleme çalışmaları dijital ortamdaki her türlü bilginin sesli olarak iletilmesini sağlamaktadır. Doğal dil işleme çalışmaları ise doğal dilin yapısını daha iyi anlamak ve bilgisayar-insan etkileşimini kolaylaştırmak amacıyla yapılmaktadır. Bu tez çalışmasında, öncelikle Türkçeni"
+        },
+        {
+          "tez_no": "245019",
+          "title_tr": "Türkçe kelimelerin markov zinciri kullanımı ile biçim birimi çözümlemesinin istatistiksel olarak geliştirilmesi",
+          "author": "EBRU YAKAR",
+          "year": 2009,
+          "score": 0.8761,
+          "abstract_excerpt": "Doğal Dil İşleme sahasındaki çalışmalar, en genel anlamda dilin karakteristik bilgilerinin kısıtlı örneklerden elde edilmesiyle, matematik/olasılık kurallar halinde bilgisayar ortamına aktarılmasını ve aktarılan bilgilerin genellenerek problemlere çözümler üretilmesini sağlama amacını güder. Doğal d"
+        },
+        {
+          "tez_no": "639475",
+          "title_tr": "Word2vec temsillerini kullanarak Türkçede soru sınıflandırmasında derin öğrenme analizi",
+          "author": "ŞEYHMUS YILMAZ",
+          "year": 2020,
+          "score": 0.8739,
+          "abstract_excerpt": "Soru sınıflandırması, otomatik soru cevaplama uygulamaları için temel bir çalışma alanıdır. Dilsel özellikler, doğru bir soru sınıflandırıcısı geliştirmede önemli bir rol oynamaktadır. Son zamanlarda, derin öğrenme sistemleri duygu analizi, belge sınıflandırma, spam filtreleme, doküman özetleme ve w"
+        },
+        {
+          "tez_no": "732835",
+          "title_tr": "Çift yönlü enkoder transformatör tabanlı duygu analizi derin öğrenme modeli geliştirilmesi",
+          "author": "CEVHERNUR SÖYLEMEZ",
+          "year": 2022,
+          "score": 0.8738,
+          "abstract_excerpt": "Bu tezde, Türkçe duygu analizi için yeni sinirsel dil modeli olan BERT modeli uygulanmıştır. Doğal dil işleme son zamanlarda ilerleme kaydetmiş olsa da bileşik anlamları temsil etmek zorlu bir iştir. Geleneksel derin öğrenme yöntemleri, cümlelerin sıradan bir doğrusal yapı, yani zincirler veya dizil"
+        },
+        {
+          "tez_no": "687202",
+          "title_tr": "Doğal dil işleme ile akademik metinlerin kümelenmesi",
+          "author": "SALİMKAN FATMA TAŞKIRAN",
+          "year": 2021,
+          "score": 0.8719,
+          "abstract_excerpt": "Günümüzde ulaşımı kolay hale gelen verilerin verimli bir şekilde kullanılabilmesi için verileri ihtiyaç duyulan özelliklerine göre kategorize etmek gerekmektedir. Akademik alanda araştırma yaparken ise genellikle makale, bildiri veya tez çalışmaları gibi metin tabanlı veriler kullanılır. Kısa sürede"
+        },
+        {
+          "tez_no": "917493",
+          "title_tr": "Kırgız dili için doğal dil işleme yapı bileşenlerinin geliştirilmesi",
+          "author": "İBRAHİM BENLİ",
+          "year": 2024,
+          "score": 0.8714,
+          "abstract_excerpt": "Doğal Dil İşleme (NLP), dillerin morfolojik, sözdizimsel ve anlamsal yapılarının matematiksel modellerle işlenmesine olanak sağlayan disiplinler arası bir alandır. Bu alandaki çalışmalar, dillerin anlaşılması, dil modellerinin oluşturulması ve makine öğrenimi süreçlerinde kullanımı için vazgeçilmez "
+        },
+        {
+          "tez_no": "675555",
+          "title_tr": "Derin öğrenme ile Türkçe sözcük türü işaretleme",
+          "author": "ŞEVKET CAN ŞEVKET",
+          "year": 2021,
+          "score": 0.8681,
+          "abstract_excerpt": "Sözcük türü işaretleme, dil üretimi, otomatik çeviri, metin benzerlik, konuşma anlama, bilgi geri getirimi gibi doğal dil işleme ve anlama çalışmalarında temel işlemlerden birisidir ve dolayısıyla bir dilin yorumlanmasında başarımın artımında etkindir. Günümüze kadar büyük bir çoğunlukla Türkçe için"
+        },
+        {
+          "tez_no": "181832",
+          "title_tr": "Türkçe doğal dili anlamada ilişkisel ayrık bilgiler modeli ve uygulaması",
+          "author": "AHMET ÖZBİLİCİ",
+          "year": 2006,
+          "score": 0.8676,
+          "abstract_excerpt": "Günümüzde hızla gelişmekte olan yapay zeka konularından birisi de doğal dilişlemedir. Bu konuda teorik pek çok çalışmanın yanı sıra, sınırlı sayıda pratikuygulama mevcuttur. Bu eksikliklerden birini doldurmak amacıyla yazılmış olanÖZBİLİCİ, Türkçe doğal dil ara yüzüne sahip genel bir programdır. Ama"
+        },
+        {
+          "tez_no": "728941",
+          "title_tr": "Doğal dil işleme ile makinelerin kendi dilini modellemesi",
+          "author": "ALİ DAYAN",
+          "year": 2022,
+          "score": 0.8661,
+          "abstract_excerpt": "Doğadaki tüm canlılar birbirleri ile haberleşmek için çeşitli yöntemler kullanmaktadır. Dillerin oluşumu ve gelişimi hakkında hala yeterli bilgi bulunmamaktadır. Dillerin oluşumu ve doğal dil işleme süreçleri ile ilgili geçmişten günümüze kadar çeşitli çalışmalar yapılmış olup bu çalışmalar farklı m"
+        },
+        {
+          "tez_no": "859818",
+          "title_tr": "Geleneksel makine öğrenimi ve derin öğrenme modelleri ile Türkçe metin sınıflandırmada kelime temsil yöntemlerinin etkisi",
+          "author": "NİHAL DUMAN SUNA",
+          "year": 2024,
+          "score": 0.8651,
+          "abstract_excerpt": "Yapay zekânın bir kolu olan doğal dil işleme metin verilerin üretilmesine, işlenmesine, sınıflandırılmasına ve idare edilebilmesine olanak sağlar. Doğal dil işleme büyük metin verilerinin işlenmesi ve farklı amaçlar için kullanılması açısından etkin ve önemlidir. Doğal dil işleme alanlarından metin "
+        },
+        {
+          "tez_no": "222323",
+          "title_tr": "Türkçe metinler için konu belirleme sistemi",
+          "author": "FATİH KESGİN",
+          "year": 2007,
+          "score": 0.8601,
+          "abstract_excerpt": "Bilgi erişimi (BE), bilginin temsil edilmesi, saklanması, düzenlenmesi ve gerektiği\u000bzamanda erişilebilmesini mümkün hale getirmek için yöntemlerin geliştirildiği\u000baraştırma konusudur. Genel Ağ'ın (İnternet) yaygınlaşması ile sayısal olarak saklanan\u000bve erişilmek istenen belgelerin sayısı her geçen gün"
+        },
+        {
+          "tez_no": "338216",
+          "title_tr": "Türkçe tümcelerin öğelerinin bulunması",
+          "author": "NİLAY COŞKUN",
+          "year": 2013,
+          "score": 0.8592,
+          "abstract_excerpt": "Doğal dil işleme çalışmaları, insanların kullandıkları doğal dillerin işlenerek makineler tarafından anlaşılabilmesini amaçlar. Gelişen teknoloji ile akılı makineler insan hayatının vazgeçilmez bir parçası olmuştur. İnsanları her geçen gün  makinelerden beklentileri yükselmektedir. \nMakineler ile in"
+        },
+        {
+          "tez_no": "252318",
+          "title_tr": "Doğal dil işleme ile Türkçe yazım hatalarının denetlenmesi",
+          "author": "AYNUR DELİBAŞ",
+          "year": 2008,
+          "score": 0.8527,
+          "abstract_excerpt": "Bu çalışmada, doğal dil işleme teknikleri kullanılarak Türk dilinin matematiğinin çıkarılması ve biçim birimsel çözümlemesinin yapılması üzerinde çalışılmıştır. Bu işlem yapılırken, dilin kuralları mühendisçe bir yaklaşımla ele alınmış ve dilin genel yapısı, kuralları ve aykırılıkları ortaya çıkarıl"
+        },
+        {
+          "tez_no": "606859",
+          "title_tr": "Derin öğrenme yöntemleri ile Türkçe metinlerde benzerlik tespiti",
+          "author": "İRFAN AYGÜN",
+          "year": 2019,
+          "score": 0.8392,
+          "abstract_excerpt": "Günümüz teknolojilerinde doğal dillerin makineler tarafından algılanabilmesi birçok problemin çözümü için kaçınılmaz bir ihtiyaçtır. Metinler üzerinde yapılan çalışmalar sayesinde intihal tespiti, metin-yazar eşleştirmesi, metin konusunun tespiti, otomatik özet çıkarımı gibi birçok alanda yazılım ta"
+        },
+        {
+          "tez_no": "292003",
+          "title_tr": "Türkçe için iyileştirilmiş biçimbilimsel çözümleyici",
+          "author": "SEZGİ YILMAZ",
+          "year": 2009,
+          "score": 0.831,
+          "abstract_excerpt": "Doğal dil işleme (DDİ) yapay zekâ ve dil biliminin bir alt dalı olup doğal dillerin kurallarını analiz ederek anlaşılmasını ve/veya yeniden oluşturulmasını hedefler. Böylece diller arası çeviri, makine-insan iletişimi, konuşma analizi ve türetimi gibi konuların kolayca yapılması hedeflenmektedir. DD"
+        },
+        {
+          "tez_no": "672011",
+          "title_tr": "WALS veri tabanında bilgisayar destekli tipolojik veri çözümlemesi",
+          "author": "MEHMET UMUT MUTLU",
+          "year": 2021,
+          "score": 0.788,
+          "abstract_excerpt": "Dil tipolojisi, geçmişi karşılaştırmalı dilbilgisi çalışmalarına dek uzanan ve zaman içinde hem kuramsal hem de yöntembilimsel olarak değişim gösteren bir dilbilim çalışma alanıdır. Hiç kuşkusuz ki teknolojik olanakların artması ve veriye erişimin kolaylaşması bu alanı da olumlu yönde etkilemiştir. "
+        },
+        {
+          "tez_no": "925547",
+          "title_tr": "Film ve senaryo geliştirme sürecine yapay zeka teknolojilerinin adapte edilebilirliği",
+          "author": "HAKAN BABACAN",
+          "year": 2024,
+          "score": 0.7798,
+          "abstract_excerpt": "Yapay Zekâ (YZ) teknolojilerinin her alanda yoğun bir şekilde kullanılmaya başlanmasıyla birlikte, Yapay Zeka'nın etkileşime girdiği alanlardan biri olan sinema sanatı alanında da metin, imaj, video, ses ve konsept fikir üretim sürecinde Yapay Zeka hız ve çeşitliliğe neden olmaktadır. Büyük Dil Mode"
+        },
+        {
+          "tez_no": "641704",
+          "title_tr": "Almanya'da yaşayan III. kuşak Türklerde sık kullanılan kod aktarım türleri - Bir söylem analizi",
+          "author": "TUĞBA ALBAYRAK",
+          "year": 2020,
+          "score": 0.7796,
+          "abstract_excerpt": "Dillerin birbirleriyle etkileşimi iki dillilik ya da çok dillilik olgusunu meydana getirmiştir. Birden fazla dil ya da dil türüne hâkim olan bireyler iki ya da çok dilli olarak adlandırılmaktadır. Söz konusu kişiler konuşmaları esnasında diller arasında geçiş yapmaktadırlar ve bu geçiş kod aktarımı "
+        },
+        {
+          "tez_no": "774086",
+          "title_tr": "Kıpçak grubu Türk dillerinde -GAn ekiyle oluşturulan yan cümleler",
+          "author": "AYŞEGÜL ÖZKAN",
+          "year": 2023,
+          "score": 0.7783,
+          "abstract_excerpt": "Bağımlı bir biçimbirim olan -GAn, Eski Türkçe döneminde az sayıda örnekte görülmekle birlikte sonraki dönemlerde farklı sözdizimsel çevrelerde kullanılabilen çok işlevli bir ek haline gelmiştir. Günümüzde ekin kullanımı açısından Türk dillerinin iki gruba ayrıldığı görülmektedir. Kıpçak dillerinin d"
+        },
+        {
+          "tez_no": "W4417151371",
+          "title_tr": "TÜRKÇE DOĞAL DİL İŞLEME TEMELLİ ÇALIŞMALARIN TEORİK DEĞERLENDİRMESİ: YÖNTEMSEL ZORLUKLAR VE GELECEK PERSPEKTİFLERİ",
+          "author": "Zülfü ALANOĞLU",
+          "year": 2025,
+          "score": 0.5,
+          "abstract_excerpt": "Bu çalışma, son beş yılda Türkçe doğal dil işleme alanında gerçekleştirilen gelişmeleri, karşılaşılan metodolojik zorlukları ve geleceğe yönelik araştırma perspektiflerini kapsamlı bir şekilde ele almıştır. Türkçenin eklemeli dil yapısı ve morfolojik zenginliği, NLP alanında dilin yapısal karmaşıklı"
+        },
+        {
+          "tez_no": "W4379933218",
+          "title_tr": "Büyük dil modellerinin Türkçe verisetleri ile eğitilmesi ve ince ayarlanması",
+          "author": "Arzu Arslan",
+          "year": 2023,
+          "score": 0.5,
+          "abstract_excerpt": "Large language models have advanced enormously, gained vast attraction and are having a phase of intensed research. Some of the developed models and training datasets have been made open-accessible. Hence these may be further fine-tuned with some techniques to obtain specialized models for specific "
+        },
+        {
+          "tez_no": "W4411027541",
+          "title_tr": "Türkçe soru cevaplama için büyük dil modelleri üzerinde geniş ölçekli etki analizi",
+          "author": "Zekeriya Anıl Güven",
+          "year": 2025,
+          "score": 0.5,
+          "abstract_excerpt": "Son zamanlarda, büyük dil modelleri (LLM) birçok doğal dil işleme görevinde oldukça popüler hale gelmiştir. Türkçe gibi düşük seviyeli dillerde LLM'ler üzerine daha az çalışma vardır. Bu nedenle, Türkçe soru-cevap görevi için BERT, ALBERT, DistilBERT, mDeBERTa ve mT5 LLM'lerinin başarısı analiz edil"
+        },
+        {
+          "tez_no": "W7139979450",
+          "title_tr": "Dopaminergic Perfectionism: A Reward-Calibration Hypothesis of an Elevated Reward Threshold, Preference for Grand Goals, and the Procrastination Cycle",
+          "author": "Selman Uyanık",
+          "year": 2026,
+          "score": 0.5,
+          "abstract_excerpt": "UPDATE NOTE (FEB 2026): This registration is an updated and terminologically corrected version of a previous record dated February 2, 2026. In the initial record, the proposed framework was inadvertently referred to as a \"theory.\" This updated registration corrects that phrasing and officially prese"
+        },
+        {
+          "tez_no": "W7154453638",
+          "title_tr": "Story Meditation: Narrative-Based Meditation as a Novel Mental Practice",
+          "author": "Selman Uyanık",
+          "year": 2026,
+          "score": 0.5,
+          "abstract_excerpt": "Story Meditation is a structured mental practice model developed by Selman Uyanık as a new intervention framework for individuals who experience difficulty with classical mindfulness-based formats. The model proposes that the brain cannot be effectively \"emptied,\" but it can be intentionally redirec"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 8,
+      "findings": [
+        {
+          "claim": "Türkçe doğal dil işlemede biçimbilimsel (morfolojik) çözümleme temel bir problem alanıdır ve bu alanda kural tabanlı (sonlu durumlu makineler) ve istatistiksel yöntemler kullanılmıştır.",
+          "citations": [
+            "565656",
+            "621585",
+            "256758",
+            "245019",
+            "600635",
+            "292003",
+            "252318"
+          ]
+        },
+        {
+          "claim": "Son yıllarda derin öğrenme yöntemleri Türkçe doğal dil işlemede popülerlik kazanmış ve sözcük türü işaretleme, soru sınıflandırma, duygu analizi, metin sınıflandırma gibi birçok alana uygulanmıştır.",
+          "citations": [
+            "565656",
+            "639475",
+            "732835",
+            "675555",
+            "859818",
+            "606859",
+            "630095"
+          ]
+        },
+        {
+          "claim": "Türkçe doğal dil işlemede metin sınıflandırma ve kategorizasyon önemli bir uygulama alanıdır; bu amaçla geleneksel makine öğrenimi, derin öğrenme ve transformer modelleri kullanılmaktadır.",
+          "citations": [
+            "859818",
+            "687202",
+            "222323",
+            "580794",
+            "630095"
+          ]
+        },
+        {
+          "claim": "Türkçe doğal dil işlemede kelime temsil yöntemleri (word embeddings) ve önceden eğitilmiş dil modelleri (BERT gibi transformer tabanlı modeller) kullanılmaktadır.",
+          "citations": [
+            "639475",
+            "732835",
+            "859818",
+            "917493"
+          ]
+        },
+        {
+          "claim": "Türkçe doğal dil işleme çalışmaları, metinden konuşma sentezleme, yazım hatası denetimi, metin benzerlik tespiti, soru cevaplama ve bilgi erişimi gibi çeşitli uygulama alanlarını kapsamaktadır.",
+          "citations": [
+            "600635",
+            "252318",
+            "606859",
+            "639475",
+            "222323",
+            "181832",
+            "338216"
+          ]
+        },
+        {
+          "claim": "Türkçe, bitişken (aglutinatif) bir dil olması nedeniyle doğal dil işlemede özel bir yere sahiptir ve bu yapısal özellik, geliştirilen yöntemleri doğrudan etkilemektedir.",
+          "citations": [
+            "621585",
+            "639475",
+            "292003",
+            "256758"
+          ]
+        },
+        {
+          "claim": "Doğal dil işleme, yapay zeka ve dilbiliminin alt dalı olarak tanımlanmakta olup; sesbilim, biçimbilim, sözdizim ve anlambilim olmak üzere dört ana aşamadan oluşmaktadır.",
+          "citations": [
+            "292003",
+            "245019",
+            "580794",
+            "917493"
+          ]
+        },
+        {
+          "claim": "Türkçe doğal dil işlemede geleneksel olarak kural tabanlı ve istatistiksel yöntemler kullanılırken, son yıllarda derin öğrenme yöntemleri öne çıkmıştır.",
+          "citations": [
+            "675555",
+            "565656",
+            "859818",
+            "606859"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Kaynakların çoğu derin öğrenme ve modern yöntemlere odaklanırken, bazı eski kaynaklar (2006-2009) kural tabanlı ve istatistiksel yöntemleri merkeze almaktadır; bu bir çelişki değil, zaman içindeki yöntemsel değişimi yansıtmaktadır. Kaynaklar arasında doğrudan çelişen bir bulgu tespit edilmemiştir."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Büyük dil modelleri (LLM) ve ChatGPT benzeri modellerin Türkçe NLP'ye etkisi",
+        "Türkçe için özel olarak geliştirilmiş transformer modelleri (BERTurk, DistilBERTurk, ConvBERTurk vb.)",
+        "Türkçe doğal dil işlemede veri setleri ve kaynaklar (TS Corpus, Turkish National Corpus, vb.)",
+        "Türkçe NLP'de çok dilli modellerin (mBERT, XLM-R) kullanımı ve değerlendirmesi",
+        "Türkçe için oluşturulmuş kıyaslama (benchmark) veri setleri ve yarışmalar",
+        "Türkçe doğal dil işlemede son teknoloji (state-of-the-art) sonuçlar ve başarım oranları",
+        "Türkçe NLP'de karşılaşılan zorluklar (veri azlığı, eklemeli dil yapısının modellere entegrasyonu)"
+      ],
+      "requery_terms": [
+        "Türkçe BERT modelleri BERTurk",
+        "Türkçe büyük dil modelleri LLM",
+        "Türkçe doğal dil işleme veri setleri benchmark",
+        "Türkçe NLP transformer modelleri son teknoloji",
+        "Türkçe doğal dil işleme zorluklar veri azlığı",
+        "Türkçe çok dilli modeller mBERT XLM-R değerlendirme",
+        "Turkish NLP state-of-the-art 2023 2024"
+      ],
+      "notes": "Mevcut sentez, Türkçe NLP'deki yaklaşımları genel hatlarıyla (morfolojik çözümleme, derin öğrenme, metin sınıflandırma, kelime temsilleri) ele almakta ancak son yıllardaki (2020-2024) en güncel gelişmeleri kapsamamaktadır. Özellikle Türkçeye özgü önceden eğitilmiş transformer modelleri (BERTurk, DistilBERTurk, ConvBERTurk, ELECTRA-turkish vb.), büyük dil modellerinin (GPT, LLaMA, Mistral gibi) Türkçe başarımı, çok dilli modellerin Türkçe için değerlendirilmesi, Türkçe NLP benchmarkları (TS-Bench, Turkish NLP Benchmark vb.) ve güncel zorluklar (veri kıtlığı, eklemeli dil yapısının transformer modellerine entegrasyonu) gibi kritik alt-açılar örtülmemiştir. Ayrıca sentezdeki kaynakların büyük kısmı 2006-2020 arasına tarihlenmekte olup, 'son yıllar' ifadesini karşılayacak güncellikte (2021-2024) kaynak içermemektedir."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nTürkçe doğal dil işleme (DDİ), bitişken (aglutinatif) dil yapısı nedeniyle diğer dillere kıyasla özgün yöntemsel yaklaşımlar gerektiren bir araştırma alanıdır [2][8][20]. Son yıllarda bu alanda kaydedilen gelişmeler, geleneksel kural tabanlı ve istatistiksel yöntemlerden derin öğrenme ve büyük dil modellerine doğru belirgin bir paradigma değişimini yansıtmaktadır [1][12][15][19]. Bu çalışma, Türkçe DDİ'de son yıllardaki ana yaklaşımları, temel problem alanları ve uygulama sahaları bağlamında sistematik olarak ele almaktadır.\n\n## Biçimbilimsel Çözümleme: Geleneksel Yaklaşımlar\n\nTürkçe DDİ'nin temel problem alanlarından biri biçimbilimsel (morfolojik) çözümlemedir [2][3][7][18][20]. Türkçenin sondan eklemeli yapısı, kök ve eklerden oluşan kelime türetme mekanizması, morfolojik çözümlemeyi zorunlu kılmaktadır [2]. Bu alanda başlangıçta kural tabanlı yöntemler, özellikle sonlu durumlu makineler (finite state machines) kullanılmıştır [2][3][20]. Dört seviyeli morfolojik tanımlamalar ve fonetik kuralların sonlu durumlu makineler olarak kodlanması, Türkçe için geliştirilen önemli yaklaşımlar arasındadır [2]. Bunun yanı sıra, istatistiksel yöntemler de biçimbirim çözümlemesinde kullanılmış; Markov zincirleri gibi olasılıksal modellerle Türkçe kelimelerin biçim birimi çözümlemesi istatistiksel olarak geliştirilmiştir [7][20].\n\n## Derin Öğrenme Yöntemlerinin Yükselişi\n\nSon yıllarda bilgisayarların işlem gücünün artmasıyla birlikte derin öğrenme (DÖ) yöntemleri Türkçe DDİ'de önemli bir popülerlik kazanmıştır [12][15][19]. Bu yöntemler, sözcük türü işaretleme, soru sınıflandırma, duygu analizi ve metin sınıflandırma gibi birçok alana başarıyla uygulanmıştır [1][8][9][12][15][19]. Geleneksel olarak kural tabanlı ve istatistiksel yöntemlerin kullanıldığı sözcük türü işaretleme probleminde dahi derin öğrenme yöntemleri belirgin bir başarı elde etmiştir [12]. Derin öğrenme mimarileri, Türkçe gibi aglutinatif dillerde soru sınıflandırması gibi görevlerde dikkate değer sonuçlar vermektedir [8].\n\n## Kelime Temsil Yöntemleri ve Önceden Eğitilmiş Dil Modelleri\n\nTürkçe DDİ'de kelime temsil yöntemleri (word embeddings) ve önceden eğitilmiş dil modelleri yaygın olarak kullanılmaktadır [8][9][15][11]. Word2Vec gibi kelime gömme modelleri, Türkçe soru sınıflandırma gibi görevlerde derin öğrenme mimarileriyle birleştirilerek kullanılmıştır [8]. Daha güncel çalışmalarda ise BERT (Bidirectional Encoder Representations from Transformers) gibi transformer tabanlı modeller öne çıkmaktadır [9][27]. Türkçe duygu analizi için geliştirilen BERT tabanlı modeller, kelimelerin morfolojik yapısını dikkate alarak geleneksel derin öğrenme yöntemlerine kıyasla daha başarılı sonuçlar elde etmiştir [9]. Ayrıca, Türkçe soru-cevap görevleri için BERT, ALBERT, DistilBERT, mDeBERTa ve mT5 gibi büyük dil modelleri (LLM) üzerinde ince ayar (fine-tuning) çalışmaları yapılmış; mDeBERTa modeli %74,50 doğruluk oranıyla en başarılı model olarak kaydedilmiştir [27]. Bununla birlikte, Türkçe için açık erişimli büyük dil modellerinin yeterli kapsamı sağlamadığı ve bu alanda daha fazla çalışmaya ihtiyaç duyulduğu belirtilmektedir [26].\n\n## Metin Sınıflandırma ve Kategorizasyon\n\nMetin sınıflandırma ve kategorizasyon, Türkçe DDİ'nin önemli uygulama alanlarından biridir [10][15][16]. Bu amaçla geleneksel makine öğrenimi yöntemleri, derin öğrenme modelleri ve transformer tabanlı modeller bir arada kullanılmaktadır [15][10]. Farklı kelime temsil yöntemlerinin metin sınıflandırma başarımı üzerindeki etkisi, geleneksel makine öğrenimi ve derin öğrenme modelleri kapsamında karşılaştırmalı olarak incelenmiştir [15]. Akademik metinlerin kümelenmesi ve kategorize edilmesinde de DDİ ve makine öğrenmesi yöntemleri birlikte kullanılmaktadır [10].\n\n## Diğer Uygulama Alanları\n\nTürkçe DDİ çalışmaları, yukarıda belirtilen alanların yanı sıra çeşitli uygulama sahalarını kapsamaktadır. Metinden konuşma sentezleme, Türkçenin biçimbilimsel analizine dayalı olarak geliştirilen önemli bir uygulama alanıdır [6]. Yazım hatası denetimi, Türkçenin ses ve dilbilgisi kurallarına dayalı olarak gerçekleştirilmektedir [18]. Metin benzerlik tespiti, intihal tespiti, metin-yazar eşleştirmesi ve otomatik özet çıkarımı gibi görevlerde derin öğrenme yöntemleri kullanılmaktadır [19]. Soru cevaplama sistemleri, otomatik soru sınıflandırmasına dayalı olarak geliştirilmekte [8] ve büyük dil modelleri üzerinde ince ayar yapılarak başarım artırılmaktadır [27]. Bilgi erişimi ve konu belirleme sistemleri ise metin işleme teknikleriyle desteklenmektedir [16].\n\n## Sonuç\n\nTürkçe doğal dil işlemede son yıllardaki ana yaklaşımlar, geleneksel kural tabanlı ve istatistiksel yöntemlerden derin öğrenme ve transformer tabanlı büyük dil modellerine doğru evrilmiştir. Türkçenin bitişken dil yapısı, bu alandaki tüm yöntemsel gelişmeleri doğrudan etkileyen temel bir faktör olarak öne çıkmaktadır. Biçimbilimsel çözümleme temel bir problem alanı olmayı sürdürmekle birlikte, güncel çalışmalar ağırlıklı olarak derin öğrenme mimarileri, kelime temsil yöntemleri ve önceden eğitilmiş dil modelleri etrafında şekillenmektedir. Metin sınıflandırma, duygu analizi, soru cevaplama ve bilgi erişimi gibi uygulama alanlarında hem geleneksel hem de modern yöntemler bir arada kullanılmakta; bununla birlikte Türkçe için büyük dil modellerinin kapsamının genişletilmesi gelecek araştırmalar için önemli bir perspektif sunmaktadır.",
+      "n_citations": 29,
+      "citations_ieee": [
+        "[1] BARIŞ BABÜROĞLU, \"İstatistiksel doğal dil işlemede derin öğrenme yöntemleri kullanılarak çevrimiçi Türkçe akademik derlem çözümlenmesi,\" Yüksek Lisans/Doktora tezi, Kahramanmaraş Sütçü İmam Üniversitesi / Fen Bilimleri Enstitüsü / Enformatik Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZs7yEhbi4GYr4EukvPYgOxzsSzdfQR_g7bWsh4CT1d3U",
+        "[2] MUHAMED FATİH EKİN, \"Türkçe morfolojik analiz için yeni bir yöntem,\" Yüksek Lisans/Doktora tezi, Maltepe Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGRVyQtFbrBook13FYUG8Gzk1r-3yH8pA-eToVnU80d44",
+        "[3] TARIK KIŞLA, \"Türkçe için tümleşik bir biçimbirim çözümleme ve sözcük türü tespit yöntemi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Fen Bilimleri Enstitüsü / Uluslararası Bilgisayar Ana Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=NtBAevXNhYaNqJFoAcdBdo0RDljPbrPWAzLXZyeOJ9Z-Y5qfpG1qzctnGgtSAV19",
+        "[4] HATİCE AY, \"Üretim sürecinin doğal dil işleme ile düzenlenmesi,\" Yüksek Lisans/Doktora tezi, Eskişehir Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Endüstri Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vjszP7PzV0HebcjFEvDfwFlc4Pv29EQfIUrKdpPqnBIC7AqE5icyEoTntDvAOHXx",
+        "[5] ELİF MELİKE DEDELEROĞLU, \"Üretim süreçlerinde doğal dil işleme kullanılarak makine öğrenimi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Endüstri Mühendisliği Ana Bilim Dalı / Mühendislik Yönetimi Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=_F5QEpayDXGqGZlp9XiFtLfvByBZ_FHxQXQ6Q8VhYy-MIt5hFFwKfZcaM4GE6DQ4",
+        "[6] GAMZE YILMAZ, \"Türkçe metinden konuşma sentezlemeye yönelik yapılan çalışmaların incelenmesi,\" Yüksek Lisans/Doktora tezi, Kırşehir Ahi Evran Üniversitesi / Fen Bilimleri Enstitüsü / İleri Teknolojiler Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBmujUNipJQjDJnoGNRQMSzAD7zOyHgOKfoJe-DM0iN0O",
+        "[7] EBRU YAKAR, \"Türkçe kelimelerin markov zinciri kullanımı ile biçim birimi çözümlemesinin istatistiksel olarak geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Muğla Üniversitesi / Fen Bilimleri Enstitüsü / İstatistik Ana Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAf_raRe1WtpWx3Xou89VUn0rAWPrMkdZGPu7L1pBcNcX",
+        "[8] ŞEYHMUS YILMAZ, \"Word2vec temsillerini kullanarak Türkçede soru sınıflandırmasında derin öğrenme analizi,\" Yüksek Lisans/Doktora tezi, Düzce Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik-Elektronik ve Bilgisayar Mühendisliği Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=_F5QEpayDXGqGZlp9XiFtM9oFVhjk2aHJ5sQHgS-HzExbTSExta15gLEfEpokjHV",
+        "[9] CEVHERNUR SÖYLEMEZ, \"Çift yönlü enkoder transformatör tabanlı duygu analizi derin öğrenme modeli geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Manisa Celal Bayar Üniversitesi / Fen Bilimleri Enstitüsü / Yazılım Mühendisliği Ana Bilim Dalı / Yazılım Mühendisliği Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkoflfP3YcxTwGe7yKR4IufSGvJre4yII1eulOgkoqJwG",
+        "[10] SALİMKAN FATMA TAŞKIRAN, \"Doğal dil işleme ile akademik metinlerin kümelenmesi,\" Yüksek Lisans/Doktora tezi, Konya Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77LfUEMoyVTFUdh4ZOL2fnhgkZmWLutHoUdEtZEpknLly-",
+        "[11] İBRAHİM BENLİ, \"Kırgız dili için doğal dil işleme yapı bileşenlerinin geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Kırgızistan-Türkiye Manas Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=E_eEUHQic_C-LvhxNQn1W1po5P6vaxhsIs_OgDi5zXz0bDrLGM2MZ2ffKoaEHGZc",
+        "[12] ŞEVKET CAN ŞEVKET, \"Derin öğrenme ile Türkçe sözcük türü işaretleme,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Fen Bilimleri Enstitüsü / Uluslararası Bilgisayar Ana Bilim Dalı / Bilgi Teknolojileri Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEAvGeOf5_hw9A3vk13GHt9GkjhVpqojg9cTOKFjvQDarb",
+        "[13] AHMET ÖZBİLİCİ, \"Türkçe doğal dili anlamada ilişkisel ayrık bilgiler modeli ve uygulaması,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar ve Bilişim Mühendisliği Ana Bilim Dalı, 2006. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-L8ilcwn9ZRRc_YMKxXW1m3LhMC9LSWrpnjfvSJH0dfVRTbs2Irx6v2BET7U5tWo",
+        "[14] ALİ DAYAN, \"Doğal dil işleme ile makinelerin kendi dilini modellemesi,\" Yüksek Lisans/Doktora tezi, Beykent Üniversitesi / Lisansüstü Eğitim Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı / Bilgisayar Mühendisliği Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CG8WvdvvxJP04Unr7Yecf34_doXZi1IYGtRUWryGvPlYmaxOIgJ8ASQqEqFwWmj9",
+        "[15] NİHAL DUMAN SUNA, \"Geleneksel makine öğrenimi ve derin öğrenme modelleri ile Türkçe metin sınıflandırmada kelime temsil yöntemlerinin etkisi,\" Yüksek Lisans/Doktora tezi, Sivas Cumhuriyet Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cr4SkWLaRMhkDRBjqthpsVhmEX-RxGh94dUUlx9ImbRfs-IgaktlWrYXLGNQYofE",
+        "[16] FATİH KESGİN, \"Türkçe metinler için konu belirleme sistemi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6QwaOJI1Cge6OIEaynv0in9yuw6frDLS3U78gDq-musAA",
+        "[17] NİLAY COŞKUN, \"Türkçe tümcelerin öğelerinin bulunması,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vVNzTGHHhjH-u3WMToxQ-pN7chxASqWYNRJQWeoY0HRHx6sadc6OrG2J7OkAGR--",
+        "[18] AYNUR DELİBAŞ, \"Doğal dil işleme ile Türkçe yazım hatalarının denetlenmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=NtBAevXNhYaNqJFoAcdBdpgVN9WKdJ46DdxKH-ipdujuyPrWcLkcxsZJeqbS5u1I",
+        "[19] İRFAN AYGÜN, \"Derin öğrenme yöntemleri ile Türkçe metinlerde benzerlik tespiti,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBukuuniXFmgok6Mk7xlZ6EHTcSV0Bo_Qy5eOlNwzzv7L",
+        "[20] SEZGİ YILMAZ, \"Türkçe için iyileştirilmiş biçimbilimsel çözümleyici,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGtxhzzrgzOM35e0ffHGzmJD8SeRTLHsgZ4tD5mA7dOgU",
+        "[21] MEHMET UMUT MUTLU, \"WALS veri tabanında bilgisayar destekli tipolojik veri çözümlemesi,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Dilbilim Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEAmICgItXDJoIJJb4DVZgLsO7AKKzAjjinQ18aFz5CN0m",
+        "[22] HAKAN BABACAN, \"Film ve senaryo geliştirme sürecine yapay zeka teknolojilerinin adapte edilebilirliği,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / Radyo Televizyon ve Sinema Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=P3dtmmHrq-mzEcmCLi1CqQAeZ0onlY0wIUeGQMPFjFf52BgN_U8qkDFCdD-1mzLg",
+        "[23] TUĞBA ALBAYRAK, \"Almanya'da yaşayan III. kuşak Türklerde sık kullanılan kod aktarım türleri - Bir söylem analizi,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / Alman Dili ve Edebiyatı Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fl0Kw4p1rmMDotyKRdYv1CjgYocSb7loRDLgWnxWVynLbyeTPM_eSKB5uEcbJp5m",
+        "[24] AYŞEGÜL ÖZKAN, \"Kıpçak grubu Türk dillerinde -GAn ekiyle oluşturulan yan cümleler,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sosyal Bilimler Enstitüsü / Çağdaş Türk Lehçeleri ve Edebiyatları Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kIrIdtdJ31bRgjb6fHvMUR148Gzz0VY_CI7stivOwCsPoCqHjzN6CZTcTdQbB0li",
+        "[25] Zülfü ALANOĞLU, \"TÜRKÇE DOĞAL DİL İŞLEME TEMELLİ ÇALIŞMALARIN TEORİK DEĞERLENDİRMESİ: YÖNTEMSEL ZORLUKLAR VE GELECEK PERSPEKTİFLERİ,\" Yüksek Lisans/Doktora tezi, [openalex] İstanbul Ticaret Üniversitesi Fen Bilimleri Dergisi, 2025. [Online]. https://doi.org/10.55071/ticaretfbd.1677269",
+        "[26] Arzu Arslan, \"Büyük dil modellerinin Türkçe verisetleri ile eğitilmesi ve ince ayarlanması,\" Yüksek Lisans/Doktora tezi, [openalex] arXiv (Cornell University), 2023. [Online]. https://doi.org/10.48550/arxiv.2306.03978",
+        "[27] Zekeriya Anıl Güven, \"Türkçe soru cevaplama için büyük dil modelleri üzerinde geniş ölçekli etki analizi,\" Yüksek Lisans/Doktora tezi, [openalex] Gazi Üniversitesi Mühendislik-Mimarlık Fakültesi Dergisi, 2025. [Online]. https://doi.org/10.17341/gazimmfd.1538022",
+        "[28] Selman Uyanık, \"Dopaminergic Perfectionism: A Reward-Calibration Hypothesis of an Elevated Reward Threshold, Preference for Grand Goals, and the Procrastination Cycle,\" Yüksek Lisans/Doktora tezi, [openalex] Open MIND, 2026. [Online]. https://doi.org/10.17605/osf.io/cefd8",
+        "[29] Selman Uyanık, \"Story Meditation: Narrative-Based Meditation as a Novel Mental Practice,\" Yüksek Lisans/Doktora tezi, [openalex] Open MIND, 2026. [Online]. https://doi.org/10.17605/osf.io/pc5jk"
+      ]
+    }
+  },
+  "error": null
+}

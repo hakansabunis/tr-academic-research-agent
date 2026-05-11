@@ -1,0 +1,12 @@
+{
+  "id": "q07",
+  "question": "Kapsayıcı eğitim uygulamalarının Türkiye'deki uygulanmasındaki temel sorunlar nelerdir?",
+  "category": "education",
+  "judgment": {
+    "citation_accuracy": 0.7,
+    "faithfulness": 0.75,
+    "coverage": 0.9,
+    "holistic_score": 4,
+    "rationale": "Yanıt, alt soruların neredeyse tamamını kapsamış ve akademik üslup açısından başarılıdır. Ancak bazı atıflar sorunludur: [36] ve [33] kaynakları getirilen listede yoktur (uydurma atıf), [4], [8], [13], [17], [18], [22], [23], [25], [31], [32], [34], [35], [37], [38], [39], [40], [41] gibi kaynaklar yanıtta hiç kullanılmamıştır. Ayrıca bazı iddialar (örn. \"tip proje uygulamalarının günümüz ihtiyaçlarına yanıt vermekte yetersiz kaldığı\" için [11][24]'e atıf yapılmış) kaynak özetlerinde doğrudan görünmemektedir. Genel olarak yanıt kaynaklara dayansa da atıf doğruluğu ve sadakat kısmen zedelenmiştir."
+  }
+}

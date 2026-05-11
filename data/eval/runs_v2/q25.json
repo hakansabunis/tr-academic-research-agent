@@ -1,0 +1,384 @@
+{
+  "id": "q25",
+  "category": "biology",
+  "type": "method",
+  "question": "Mikroplastiklerin sucul ekosistemlerdeki canlılar üzerindeki ekotoksikolojik etkileri nasıl araştırılmıştır?",
+  "expected_subjects": [
+    "Biyoloji",
+    "Çevre Mühendisliği",
+    "Su Ürünleri"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 119.21,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Mikroplastiklerin sucul canlılar üzerindeki ekotoksikolojik etkilerini inceleyen Türkiye'deki YÖK tezlerinde en sık kullanılan deneysel yöntemler (maruziyet süresi, konsantrasyon aralığı, test organizması türü) nelerdir?",
+          "rationale": "Yöntemsel açıdan literatürdeki eğilimi ve standart protokolleri belirlemek için."
+        },
+        {
+          "text": "Bu tezlerde mikroplastiklerin sucul organizmalarda hangi biyolojik düzeylerde (hücresel, doku, organizma, popülasyon) hangi spesifik toksik etkileri (oksidatif stres, üreme bozukluğu, büyüme geriliği vb.) rapor edilmiştir?",
+          "rationale": "Ekotoksikolojik bulguların kapsamını ve en çok hangi etki mekanizmalarının çalışıldığını ortaya koymak için."
+        },
+        {
+          "text": "Mikroplastiklerin boyut, şekil (fiber, fragman, küre) ve polimer türü (PE, PP, PS vb.) gibi fizikokimyasal özelliklerinin toksisite düzeyini nasıl etkilediğine dair tezlerde hangi karşılaştırmalı bulgular sunulmuştur?",
+          "rationale": "Farklı mikroplastik özelliklerinin ekotoksikolojik etki farklılıklarını anlamak ve hangi parametrelerin daha kritik olduğunu belirlemek için."
+        },
+        {
+          "text": "Bu tezlerde mikroplastiklerin diğer kirleticilerle (ağır metal, pestisit, antibiyotik vb.) oluşturduğu kombine etkiler (sinerjistik/antagonistik) nasıl ele alınmış ve hangi sonuçlara ulaşılmıştır?",
+          "rationale": "Gerçek çevresel senaryolarda mikroplastiklerin tek başına değil, diğer kirleticilerle birlikte etki gösterdiği düşünüldüğünde, kombine etki çalışmalarının kapsamını değerlendirmek için."
+        },
+        {
+          "text": "Tezlerde mikroplastik ekotoksikolojisi çalışmalarının sınırlılıkları (laboratuvar-gerçek çevre farkı, nanoplastiklerin ihmal edilmesi, standart test protokolü eksikliği vb.) nasıl tartışılmış ve gelecek araştırmalar için hangi öneriler sunulmuştur?",
+          "rationale": "Mevcut bilgi boşluklarını ve metodolojik eksiklikleri tespit ederek araştırma alanının yönünü belirlemek için."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 24,
+      "max_score": 0.9117,
+      "min_score": 0.7877,
+      "chunks": [
+        {
+          "tez_no": "587791",
+          "title_tr": "İstanbul'un Karadeniz kıyılarında mikroplastik kirliliğinin araştırılması",
+          "author": "MÜGE ŞENER",
+          "year": 2019,
+          "score": 0.9117,
+          "abstract_excerpt": "Çevresel problemler arasında en önemli konulardan birisi deniz kirliliğidir. Evsel ve endüstriyel atıksuların arıtılmadan denizlere boşaltılması, tanker kazaları nedeniyle petrol sızıntısı, gemilerin sintine ve balast suları, tarımsal alanlardan gelen sular, turizm faaliyetleri vb. denizlerin kirlen"
+        },
+        {
+          "tez_no": "734369",
+          "title_tr": "Su kaynaklarında mikroplastik riski ve arıtma yöntemlerinin araştırılması",
+          "author": "CANAN CANTEMUR",
+          "year": 2022,
+          "score": 0.9054,
+          "abstract_excerpt": "Boyutları 5 milimetreden daha küçük olan polimerik partiküller olarak tanımlanan mikroplastikler 1950'li yıllardan itibaren sağladığı birçok avantaj sayesinde her alanda yaygın olarak kullanılmaktadır. Her geçen gün kullanımı daha fazla artan plastik üretim hacmi atık plastik miktarlarıyla birleşinc"
+        },
+        {
+          "tez_no": "678285",
+          "title_tr": "Mikroplastikler için AHPve bulanık çıkarım sistemi kullanılarak bütüncül bir çevresel risk değerlendirme yaklaşımı",
+          "author": "BEYZA ÇAKMAK",
+          "year": 2021,
+          "score": 0.9004,
+          "abstract_excerpt": "Mikroplastik kirliliği günümüzdeki küresel çevre sorunlardan biridir. Su, toprak ve hava ekosistemlerinde birçok kaynaktan mikroplastik kirliliği oluşmaktadır. Mikroplastikler, ekosistemin bulunduğu bölge, ortam şartları ve meteorolojik değerlere göre farklı şekillerde taşınır ve ekosistem maruziyet"
+        },
+        {
+          "tez_no": "815780",
+          "title_tr": "Antropojenik baskılar etkisinde aksu çayı ve kollarının zamana ve mekana bağlı mikroplastik kirliliğinin değerlendirilmesi",
+          "author": "ZEYNEP ZABUN",
+          "year": 2023,
+          "score": 0.8975,
+          "abstract_excerpt": "Mikroplastik kirliliği, sucul ekosistemlerde toksikolojik etkileri nedeniyle küresel \nçapta ciddi bir sorun olarak ortaya çıkmaktadır. Besin zinciri yoluyla sucul \nekosistemlerdeki organizmalarda birikerek toksikolojik etkilere yol açabilmektedir. Bu \nkirliliğin denizel ortama geçişi ise karasal ort"
+        },
+        {
+          "tez_no": "881569",
+          "title_tr": "Yüzme havuzlarında mikroplastik kirliliğinin araştırılması",
+          "author": "ELİF KARAAĞAÇLIOĞLU",
+          "year": 2024,
+          "score": 0.8864,
+          "abstract_excerpt": "Ülkemizde plastik muhtevalı ürünlerin 10 milyon tonu geçen toplam üretimi kullanımındaki artışıda beraberinde getirmiştir. Plastik muhtevalı ürünler bulunduğu alanda mekanik aşınmaya, güneş ışığına, UV radyasyon ve biyolojik bozunmaya maruz kaldıklarında daha küçük mikro yapılara dönüşerek havada, t"
+        },
+        {
+          "tez_no": "831795",
+          "title_tr": "Tek kullanımlık dünya",
+          "author": "ÖMER SAMİ CİMİNLİ",
+          "year": 2023,
+          "score": 0.8851,
+          "abstract_excerpt": "Tek kullanımlık plastik tüketim miktarımız her geçen yıl hızla artmaktadır. Plastiğin hafif, ucuz ve kolay şekil verilebilir olması bunun nedenleri arasında görülebilir. Plastikler fosil yakıtlardan elde edildiği için doğal yollarla yok olmaz. İlk üretilen plastikler bile dünya üzerinde varlığı"
+        },
+        {
+          "tez_no": "895883",
+          "title_tr": "Güneydoğu Karadeniz'de zooplankton ve mikroplastiklerin dağılımı ve etkileşimi",
+          "author": "YASEMEN ŞENTÜRK",
+          "year": 2024,
+          "score": 0.8831,
+          "abstract_excerpt": "Güneydoğu Karadeniz'de mikroplastiklerin su kolonunda dağılımı, kompozisyonu, olası kaynakları ilk kez eş zamanlı olarak zooplanktonlaetkileşimi ile araştırılmıştır. Ayrıca deneysel çalışmalar ile mikroplastiklerin Karadeniz pelajik besin zincirine olası giriş yolları ve zooplanktonun beslenmesine e"
+        },
+        {
+          "tez_no": "461741",
+          "title_tr": "Atıksulardaki mikroplastik kirliliğinin incelenmesi",
+          "author": "BERKİM CEYLAN",
+          "year": 2017,
+          "score": 0.8703,
+          "abstract_excerpt": "5 mm'den küçük plastik parçacıkları \"mikroplastik\" olarak tanımlanmaktadır. Plastikler toksik organik kirleticileri tutabilme potansiyeline sahiptir. Balıklar, çekirgeler, kuşlar, böcekler ve daha küçük boyuttaki canlılar, sulara ve çevreye dağılan mikroplastikleri yiyecek zannederek yutabilmektedir"
+        },
+        {
+          "tez_no": "810173",
+          "title_tr": "İstanbul'da toplanan çiğ midye numunelerinde mikroplastik kirliliğinin araştırılması",
+          "author": "FARUK GALYON",
+          "year": 2023,
+          "score": 0.8653,
+          "abstract_excerpt": "Günümüzde, plastik malzemeler günlük hayatımızın her alanında kullanılmaktadır. Faydaları yadsınamaz olsa da plastik malzemelerin yaygın olarak kullanılması, çevrede birikmelerinin kaçınılmaz sonucuna yol açacaktır. Küresel plastik üretiminin şu anda yılda 320 milyon tonu aştığı, bunun %40'ından faz"
+        },
+        {
+          "tez_no": "839421",
+          "title_tr": "Polistiren mikro ve nanoplastik partiküllerin sitotoksik etkilerinin in vitro değerlendirmesi",
+          "author": "SONGÜL YÜCEL",
+          "year": 2023,
+          "score": 0.863,
+          "abstract_excerpt": "Mikroplastikler (MP'ler), plastik atıklar ve giysilerden elde edilen mikro lifler dahil olmak üzere çeşitli kaynaklardan oluşan küçük plastik parçalardır. MP'ler çapı 1 µm'den daha küçük olan yapılardır. Nano plastikler (NP'ler) ise 1-100 nm boyutta olan plastik parçalar olarak tanımlanmaktadır. Mik"
+        },
+        {
+          "tez_no": "932207",
+          "title_tr": "Mikroplastik konsantrasyonu siyonabakteri yoğunluğu üzerine etkisinin araştırılması",
+          "author": "FATMA GÜZEL YILMAZ",
+          "year": 2023,
+          "score": 0.8504,
+          "abstract_excerpt": "Son yıllarda plastik günlük hayatın ayrılmaz bir parçası haline gelmiştir. Her yıl dünya çapında milyonlarca ton plastik malzeme üretilmektedir. Plastiğin birçok farklı sektörde yaygın olarak uygulanması ve uzun ömürlü özellikleri nedeniyle, son zamanlarda plastik çöp miktarı önemli ölçüde artmış ol"
+        },
+        {
+          "tez_no": "765756",
+          "title_tr": "Farklı boyutlarda toplanmış atmosferik partikül madde örneklerinin mikroplastik karakterizasyonu",
+          "author": "SEVDA ERYILMAZ SOYDAN",
+          "year": 2022,
+          "score": 0.8489,
+          "abstract_excerpt": "Plastiklerin yaygın kullanımına bağlı olarak, mikroplastikler ekosistemler ve insan sağlığı için ciddi bir çevresel tehdit haline gelmiştir. Bununla birlikte havadaki mikroplastiklerin atmosferdeki mevcudiyeti ve mevcut mikroplastiklerin boyut aralığının tespiti soluma yoluyla insanların mikroplasti"
+        },
+        {
+          "tez_no": "882424",
+          "title_tr": "Yardımcı üreme teknikleri ve spontan gebe kalan hastalara ait plasenta örneklerinde mikroplastik varlığının çeşitli parametreler ile değerlendirilmesi",
+          "author": "MUAZZEZ ÇELİKYÜREK",
+          "year": 2024,
+          "score": 0.8462,
+          "abstract_excerpt": "Plastikler hafif ve esnek olması, kolay işlenebilirliği, kullanım kolaylığı ve ekonomik olması gibi özellikleri ile hayatımızın birçok alanında karşımıza çıkmaktadır. Doğada kolay parçalanamayan bu ürünler zamanla daha küçük boyutlu plastik parçalara ayrılır. Mikroplastikler boyutları 0,001-5 mm ara"
+        },
+        {
+          "tez_no": "817986",
+          "title_tr": "Endüstriyel kent atmosferinde mikroplastik ve seçili organik kirletici konsantrasyonlarının belirlenmesi ve aralarındaki ilişkilerin incelenmesi",
+          "author": "IŞIL ÇELİK SAĞLAM",
+          "year": 2023,
+          "score": 0.8424,
+          "abstract_excerpt": "Organik kirleticiler ve mikroplastikler insan faaliyetleri sonucu çevreye salınır ve çoğunlukla endüstri bölgeleri, şehir tozları ve trafiği yoğun olan bölgelerde bulunurlar. Bu çalışmada daha önce sucul ortamlarda incelenmiş ve ciddi bir tehlike potansiyeline sahip olduğu görülmüş mikroplastikler s"
+        },
+        {
+          "tez_no": "773491",
+          "title_tr": "Asitlenme, deoksijenasyon ve mikroplastiklerin midyedeki (mMytilus galloprovincialis) fizyolojik etkileri üzerine laboratuvar çalışmaları",
+          "author": "BETÜL DERE",
+          "year": 2022,
+          "score": 0.8517,
+          "abstract_excerpt": "Endüstri devriminden bu yana CO2 emisyonlarına bağlı olarak okyanus yüzey suyu asitliği yaklaşık %30 oranında artış (0.10 ila 0.15 pH birimlik azalma) göstermiştir. İçinde bulunduğumuz yüzyıl sonunda okyanuslardaki bu asitlenmenin 0.3 ila 0.4 pH birimi seviyesine ulaşabileceği tahmin edilmektedir. D"
+        },
+        {
+          "tez_no": "706109",
+          "title_tr": "Karadeniz'in Türkiye kıyılarının mikroplastik kirliliği",
+          "author": "AYŞAH ÖZTEKİN",
+          "year": 2021,
+          "score": 0.8321,
+          "abstract_excerpt": "Plastik kirliliği, günümüzün en önemli kirlilik problemlerinden biri olarak tüm sucul ekosistemde karşımıza çıkmaktadır. Bu çalışmada, Karadeniz'in Türkiye kıyılarından seçilen göl ve nehirlerin geçiş suyu sistemlerinin yüzey sedimanlarındaki mikroplastik varlığı, mikroplastiklerin miktarı, tipleri "
+        },
+        {
+          "tez_no": "793424",
+          "title_tr": "Çevresel kirletici mikroplastiklerin zebra balıklarında (Danio rerio) genotoksik ve oksidatif hasar üzerine etkilerinin belirlenmesi",
+          "author": "SEVDA ÖNDER",
+          "year": 2023,
+          "score": 0.829,
+          "abstract_excerpt": "Küresel su ortamlarında yaygın olarak bulunan mikroplastiklerin farklı sucul orgazimalar üzerinde çok çeşitli zararlı etkileri tespit edilmiştir. Bu çalışmada, polistren (PS) ve polietilen (PE) mikroplastiklerinin zebra balıklarında (Danio rerio, Hamilton,1822) DNA hasarı (8-OHdG), ileri oksidasyon "
+        },
+        {
+          "tez_no": "807159",
+          "title_tr": "Evaluating & comparing microplastic uptake by different groups of freshwater invertebrates",
+          "author": "GÜLŞEN NİLAY TUNCER",
+          "year": 2023,
+          "score": 0.8231,
+          "abstract_excerpt": "Son yıllarda ortaya çıkan ve bir endişe haline gelen mikroplastikler (çapı veya uzunluğu 5 mm'den küçük olan plastik parçalar), su ekosistemlerinde birçok yerde karşımıza çıkmaktadır. Mikroplastikler 5 mm ile 1 µm arasındaki boyutlarda olan plastiklere verilen isimdir. Boyutlarından kaynaklı olarak "
+        },
+        {
+          "tez_no": "614585",
+          "title_tr": "Nano boyuttaki polistiren plastik parçacıkların zebra balığı (Danio rerio) embriyosundaki gelişim toksisitesinin incelenmesi",
+          "author": "TEOMAN ÖZGÜR SÖKMEN",
+          "year": 2019,
+          "score": 0.8148,
+          "abstract_excerpt": "Yıllık %4'ün üzerinde bir büyüme ve 2017 yılı itibariyle dünya genelinde yıllık 350 milyon tonluk üretimle günlük hayatımızın vazgeçilmez bir parçası hâline gelen plastikler, atık yönetimi iyi değerlendirilemediğinden dolayı ciddi bir sağlık ve çevre sorunu hâline gelmiştir. Plastik atıklardan ve di"
+        },
+        {
+          "tez_no": "196746",
+          "title_tr": "Ataktik polipropilenin fonksiyonlandırılması",
+          "author": "HALİL ÜNVER",
+          "year": 2005,
+          "score": 0.8071,
+          "abstract_excerpt": "ÖZET$7$.7Ã¸.32/Ã¸3523Ã¸/(1Ã¸1)21.6Ã¸<21/$1',5,/0$6,ÜNVER, Halil.ÃUÃNNDOHhQLYHUVLWHVLFen Bilimleri Enstitüsü.LP\\D$QDELOLP'DOÃ<ÂNVHN/LVDQV7H]L'DQÃÃºPDQ3URI'U=HNLg.7(0Haziran 2005 , 80 sayfa%X oDOÃÃºPDGD DWDNWLN SROLSURSLOHQLQ $33 SROLPHUOHÃºPH HÃ·LOLPLROPD\\DQ oHÃºLWOL DOLOLN PRQRPHUOH IRQNVL\\RQO"
+        },
+        {
+          "tez_no": "256206",
+          "title_tr": "Değişik stres kaynaklarına maruz bırakılan Sivas Kangal Balıklı Kaplıca'daki (Cyprinidae) balıklardan Hsp 70 saflaştırılması",
+          "author": "ŞULE OKAN BOZKALE",
+          "year": 2010,
+          "score": 0.7991,
+          "abstract_excerpt": "Ülkemizde Doktor Balıklar olarak tanınan balıklar, Cyprinidae'ya ait olan Cyprinion macrostomus ve Garra rufa obtusa'dır. 39 °C nin üzerindeki sıcak sularda balıkların yaşadığına dair bilgiler vardır. Kaplıcada ortalama sıcaklık yıl boyunca 35 °C dir. Bu ortamda birçok zorluk, yüksek basınç, düşük o"
+        },
+        {
+          "tez_no": "302572",
+          "title_tr": "Süperkritik mikronizasyon yöntemleriyle kontrollü ilaç salımına yönelik ilaç-polimer kompozit mikrotaneciklerinin hazırlanması",
+          "author": "İPAR NİMET UZUN",
+          "year": 2011,
+          "score": 0.7957,
+          "abstract_excerpt": "Günümüzde ilaç teknolojisi alanında yapılan çalışmalar geçmiş yıllarda olduğu gibi uzun zaman alan ve maliyetli çalışmalar sonucu ortaya çıkan yeni moleküller geliştirmekten çok hastanın yaşam kalitesini arttıran ve işlevselliği yüksek yeni formülasyonların geliştirilmesi doğrultusundadır. Kontrollü"
+        },
+        {
+          "tez_no": "233351",
+          "title_tr": "İnvers-süspansiyon polimerizasyonu yöntemiyle sentezlenen mikrokürelerin karakterizasyonu ve ilaç salınımı çalışmaları",
+          "author": "ZUHAL NART",
+          "year": 2008,
+          "score": 0.7911,
+          "abstract_excerpt": "Son yıllarda, yeni ilaç keşifleri alanında kombinatoryal kimya gibi yeni teknolojilerin sunduğu kolaylık sayesinde hızlı bir gelişim söz konusudur. Bu kompleks ilaçların gelişimiyle birlikte, ilaçların daha etkin ve verimli şekilde salınımı için yeni tekniklerin geliştirilmesi üzerinde araştırmalar "
+        },
+        {
+          "tez_no": "360869",
+          "title_tr": "Biyomalzeme olarak kullanılabilecek poli(Laktik Asit)/poliüretan polimer karışımları",
+          "author": "ŞEBNEM KEMALOĞLU DOĞAN",
+          "year": 2014,
+          "score": 0.7877,
+          "abstract_excerpt": "Son yıllarda, katma değeri yüksek biyomalzemelerin geliştirilmesi hem akademik hem de endüstriyel ilgi odağı halini almıştır. Biyobozunur polimerler, biyomedikal uygulamalarda kullanılabilirliğinin keşfedilmesiyle büyük önem kazanmıştır. Ticari olarak en yaygın biyobozunur polimerlerden biri poli(la"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 10,
+      "findings": [
+        {
+          "claim": "Mikroplastikler sucul ekosistemlerde besin zinciri yoluyla taşınarak canlılarda birikmekte ve toksik etkilere yol açmaktadır.",
+          "citations": [
+            "587791",
+            "734369",
+            "678285",
+            "815780",
+            "461741",
+            "706109",
+            "793424",
+            "807159",
+            "895883"
+          ]
+        },
+        {
+          "claim": "Mikroplastikler sucul canlılar tarafından besin zannedilerek yutulmakta ve bu yolla besin zincirine girmektedir.",
+          "citations": [
+            "678285",
+            "461741",
+            "895883",
+            "807159"
+          ]
+        },
+        {
+          "claim": "Mikroplastikler zebra balığı (Danio rerio) gibi model organizmalarda genotoksik hasar (DNA hasarı), oksidatif stres (MDA, AOPP) ve antioksidan savunma (GSH) düzeylerinde değişime neden olmaktadır.",
+          "citations": [
+            "793424",
+            "614585"
+          ]
+        },
+        {
+          "claim": "Mikroplastiklerin sucul ortamlarda dağılımı; kaynak, mevsim, bölge ve ortam koşullarına göre değişiklik göstermektedir.",
+          "citations": [
+            "678285",
+            "815780",
+            "706109",
+            "895883"
+          ]
+        },
+        {
+          "claim": "Mikroplastik kirliliği deniz, göl, nehir gibi sucul ortamların yanı sıra atmosferde ve karasal ortamlarda da tespit edilmiştir.",
+          "citations": [
+            "734369",
+            "765756",
+            "817986",
+            "839421",
+            "881569"
+          ]
+        },
+        {
+          "claim": "Mikroplastikler toksik organik kirleticileri (PAH, PCB, PBDE, ftalat gibi) bünyelerinde tutarak bu kirleticilerin besin zinciri boyunca taşınmasına aracılık etmektedir.",
+          "citations": [
+            "461741",
+            "817986"
+          ]
+        },
+        {
+          "claim": "Mikroplastiklerin sucul canlılarda fizyolojik etkileri (örneğin midyelerde) asitlenme ve deoksijenasyon gibi diğer çevresel stresörlerle etkileşim halinde incelenmiştir.",
+          "citations": [
+            "773491"
+          ]
+        },
+        {
+          "claim": "Zooplankton ve mikroplastiklerin su kolonundaki dağılımı ve etkileşimi, mikroplastiklerin pelajik besin zincirine giriş yollarını göstermektedir.",
+          "citations": [
+            "895883"
+          ]
+        },
+        {
+          "claim": "Atıksu arıtma tesisleri mikroplastiklerin sucul ortama ulaşmasında önemli bir kaynak/geçiş noktasıdır ve arıtma yöntemlerinin etkinliği araştırılmaktadır.",
+          "citations": [
+            "461741",
+            "734369"
+          ]
+        },
+        {
+          "claim": "Nano boyuttaki plastiklerin (nanoplastikler) mikroplastiklere kıyasla daha yüksek risk faktörü taşıdığı ve daha detaylı moleküler çalışmalara ihtiyaç olduğu belirtilmektedir.",
+          "citations": [
+            "614585",
+            "839421"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Kaynaklarda mikroplastiklerin sucul canlılar üzerindeki etkilerine dair belirgin bir çelişki bulunmamaktadır. Farklı çalışmalar farklı organizma türleri, farklı plastik türleri ve farklı maruziyet koşulları altında benzer yönde (toksik etki, birikim, besin zincirine geçiş) bulgular rapor etmiştir."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Farklı mikroplastik türlerinin (polietilen, polipropilen, polistiren vb.) karşılaştırmalı toksisitesi",
+        "Mikroplastik boyut ve şekil (fiber, fragman, küre) farklılıklarının etkileri",
+        "Maruziyet konsantrasyonu ve süresine bağlı doz-yanıt ilişkileri",
+        "Sucul canlıların farklı trofik seviyelerinin (birincil üreticiler, birincil tüketiciler, üst trofik seviyeler) sistematik olarak ele alınması",
+        "Mikroplastiklerin üreme, gelişim, davranış gibi spesifik ekotoksikolojik son noktalar (endpoint) üzerindeki etkileri",
+        "Laboratuvar (in vivo/in vitro) çalışmaları ile saha çalışmalarının karşılaştırmalı değerlendirmesi",
+        "Mikroplastiklerin sucul canlılardan eliminasyonu ve vücuttan atılım mekanizmaları",
+        "Mikroplastiklerin histopatolojik etkileri (doku hasarı, inflamasyon vb.)"
+      ],
+      "requery_terms": [
+        "mikroplastik türleri karşılaştırmalı toksisite sucul",
+        "mikroplastik boyut şekil etkisi balık",
+        "mikroplastik doz-yanıt maruziyet süresi",
+        "mikroplastik trofik seviye besin zinciri sucul",
+        "mikroplastik üreme gelişim davranış etkisi",
+        "mikroplastik saha çalışması laboratuvar karşılaştırma",
+        "mikroplastik eliminasyon atılım balık",
+        "mikroplastik histopatoloji doku hasarı sucul"
+      ],
+      "notes": "Mevcut sentez, mikroplastiklerin sucul ekosistemlerdeki varlığı, besin zincirine girişi ve genel toksik etkileri konusunda kapsamlı olsa da, ekotoksikolojik araştırma yöntemlerinin çeşitliliği açısından önemli boşluklar içermektedir. Özellikle (1) farklı polimer türlerinin karşılaştırmalı toksisitesi, (2) boyut ve şekil gibi fiziksel özelliklerin etkileri, (3) doz-yanıt ilişkileri, (4) farklı trofik seviyelerin sistematik incelenmesi, (5) üreme, gelişim, davranış gibi spesifik ekotoksikolojik son noktalar, (6) laboratuvar-saha çalışması karşılaştırması, (7) eliminasyon/atılım mekanizmaları ve (8) histopatolojik etkiler gibi alt-açılar örtülmemiştir. Bu eksiklikler, sorunun 'nasıl araştırılmıştır?' kısmına yanıt vermek için metodolojik çeşitliliğin yeterince yansıtılmadığını göstermektedir."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nMikroplastikler (boyutu 5 mm'den küçük plastik parçacıklar), sucul ekosistemlerde giderek artan bir çevresel tehdit olarak karşımıza çıkmakta ve bu kirleticilerin sucul canlılar üzerindeki ekotoksikolojik etkileri, son yıllarda yoğun biçimde araştırılmaktadır [1][2][3]. Bu araştırmalar; mikroplastiklerin canlılar tarafından alım mekanizmaları, besin zincirinde taşınması, dokularda birikimi, moleküler ve fizyolojik düzeydeki toksik etkileri ile diğer çevresel stresörlerle etkileşimleri gibi çok boyutlu bir çerçevede yürütülmüştür.\n\n## Mikroplastiklerin Sucul Canlılar Tarafından Alımı ve Besin Zincirine Girişi\n\nAraştırmalar, mikroplastiklerin sucul ortamlarda yaşayan canlılar tarafından besin zannedilerek yutulduğunu ve bu yolla besin zincirine dâhil olduğunu göstermektedir [3][5][7][8]. Balıklar, zooplanktonlar, midyeler ve diğer sucul omurgasızlar, boyutları nedeniyle mikroplastikleri av sanarak tüketmekte; böylece bu partiküller trofik seviyeler arasında taşınmaktadır [7][8][18]. Özellikle zooplankton ve mikroplastiklerin su kolonundaki eş zamanlı dağılımının incelendiği çalışmalar, mikroplastiklerin pelajik besin zincirine giriş yollarını ortaya koymuştur [7].\n\n## Mikroplastiklerin Toksik Etki Mekanizmaları\n\nMikroplastiklerin sucul canlılar üzerindeki ekotoksikolojik etkileri, model organizmalar üzerinde yürütülen deneysel çalışmalarla detaylı biçimde araştırılmıştır. Zebra balığı (*Danio rerio*) gibi model organizmalarda yapılan çalışmalar, polistiren (PS) ve polietilen (PE) mikroplastiklerine maruziyetin genotoksik hasara (DNA hasarı, 8-OHdG düzeyinde artış), oksidatif strese (malondialdehit - MDA ve ileri oksidasyon protein ürünleri - AOPP düzeylerinde artış) ve antioksidan savunma sisteminde değişimlere (glutatyon - GSH düzeyinde azalma) yol açtığını göstermiştir [17]. Nano boyuttaki plastiklerin (nanoplastikler) ise mikroplastiklere kıyasla daha yüksek risk faktörü taşıdığı ve gelişim toksisitesine neden olduğu belirtilmekte; bu nedenle moleküler düzeyde daha detaylı çalışmalara ihtiyaç duyulduğu vurgulanmaktadır [19][10].\n\n## Kirletici Taşıyıcılığı ve Çoklu Stresör Etkileşimleri\n\nMikroplastiklerin toksik etkileri, yalnızca fiziksel varlıklarından değil, aynı zamanda bünyelerinde adsorbe ettikleri kirleticilerden de kaynaklanmaktadır. Araştırmalar, mikroplastiklerin polisiklik aromatik hidrokarbonlar (PAH), poliklorlu bifeniller (PCB), polibromlu difenil eterler (PBDE) ve ftalatlar gibi toksik organik kirleticileri bünyelerinde tutarak bu kirleticilerin besin zinciri boyunca taşınmasına aracılık ettiğini ortaya koymuştur [8][14]. Ayrıca, mikroplastiklerin sucul canlılar üzerindeki fizyolojik etkileri, asitlenme ve deoksijenasyon gibi diğer küresel çevresel stresörlerle etkileşim halinde de incelenmiştir; midyeler (*Mytilus galloprovincialis*) üzerinde yapılan laboratuvar çalışmaları, bu çoklu stresörlerin bir arada değerlendirilmesinin önemini göstermektedir [15].\n\n## Mikroplastiklerin Çevresel Dağılımı ve Kaynakları\n\nMikroplastiklerin sucul ekosistemlerdeki dağılımı; kaynak türüne, mevsime, bölgeye ve ortam koşullarına bağlı olarak değişiklik göstermektedir [3][4][7][16]. Deniz, göl, nehir gibi sucul ortamların yanı sıra atmosferde ve karasal ortamlarda da mikroplastik varlığı tespit edilmiştir [2][12][10][14][5]. Atıksu arıtma tesisleri, mikroplastiklerin sucul ortama ulaşmasında önemli bir kaynak ve geçiş noktası olarak tanımlanmakta; bu tesislerdeki arıtma yöntemlerinin etkinliği araştırılmaktadır [8][2].\n\n## Sonuç\n\nMikroplastiklerin sucul ekosistemlerdeki canlılar üzerindeki ekotoksikolojik etkileri; alım mekanizmaları, besin zincirinde taşınım, genotoksik ve oksidatif hasar, kirletici taşıyıcılığı ve çoklu stresör etkileşimleri gibi çok yönlü bir yaklaşımla araştırılmıştır. Farklı organizma türleri, farklı plastik türleri ve farklı maruziyet koşulları altında yürütülen çalışmalar, mikroplastiklerin sucul canlılar üzerinde toksik etki oluşturduğu, dokularda biriktiği ve besin zinciri yoluyla taşındığı yönünde uyumlu bulgular sunmaktadır. Nanoplastiklerin oluşturduğu potansiyel risklerin daha iyi anlaşılabilmesi için moleküler düzeyde ileri çalışmalara gereksinim duyulduğu açıktır.",
+      "n_citations": 24,
+      "citations_ieee": [
+        "[1] MÜGE ŞENER, \"İstanbul'un Karadeniz kıyılarında mikroplastik kirliliğinin araştırılması,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi-Cerrahpaşa / Lisansüstü Eğitim Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı / Çevre Mühendisliği Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vjszP7PzV0HebcjFEvDfwJftxBLUX1i5xoYVx-YwrentsIsU-KtXj3ad67VrNnir",
+        "[2] CANAN CANTEMUR, \"Su kaynaklarında mikroplastik riski ve arıtma yöntemlerinin araştırılması,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Fen Bilimleri Enstitüsü / Biyoloji Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkgqbBe1sXHTvTZOcUIo1TmQNJiVYk3O03ADMxmL3PqUC",
+        "[3] BEYZA ÇAKMAK, \"Mikroplastikler için AHPve bulanık çıkarım sistemi kullanılarak bütüncül bir çevresel risk değerlendirme yaklaşımı,\" Yüksek Lisans/Doktora tezi, Gebze Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEAhQSlIjOwgWH23EkmHtgtqoQwfGliQpdm824q8EQtfKD",
+        "[4] ZEYNEP ZABUN, \"Antropojenik baskılar etkisinde aksu çayı ve kollarının zamana ve mekana bağlı mikroplastik kirliliğinin değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Fen Bilimleri Enstitüsü / Su Ürünleri Temel Bilimleri Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=a0OMTmEd_3mfOBxT8SiBTOFWw9uwC1OzSlO0_K6yk_Fr5IKw1czgLET77c29RNTF",
+        "[5] ELİF KARAAĞAÇLIOĞLU, \"Yüzme havuzlarında mikroplastik kirliliğinin araştırılması,\" Yüksek Lisans/Doktora tezi, Süleyman Demirel Üniversitesi / Fen Bilimleri Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-1MM5GO1bFpxwyMl6yrBBOMvtTrwLhpKpcPhQB8DpupP",
+        "[6] ÖMER SAMİ CİMİNLİ, \"Tek kullanımlık dünya,\" Yüksek Lisans/Doktora tezi, İSTANBUL BEYKENT ÜNİVERSİTESİ / Lisansüstü Eğitim Enstitüsü / Sinema Televizyon Ana Sanat Dalı / Sinema Televizyon Sanat Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=S2eMu1TIwY_v4mYv58xAr9TqhGDHKNgYtJzaQmaHvc2Vb_OQz1c-xep2TjDG3vQK",
+        "[7] YASEMEN ŞENTÜRK, \"Güneydoğu Karadeniz'de zooplankton ve mikroplastiklerin dağılımı ve etkileşimi,\" Yüksek Lisans/Doktora tezi, Recep Tayyip Erdoğan Üniversitesi / Fen Bilimleri Enstitüsü / Su Ürünleri Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=UjlM15wKZGQW6TLC0pvCt5d4mVYosw8yK7SNWX6uAhKHzH3pZrAZdy6qdM_CieGb",
+        "[8] BERKİM CEYLAN, \"Atıksulardaki mikroplastik kirliliğinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Fen Bilimleri Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpaCRqQx3JTICoR-ILiOLk4Hur6IPfKa-Uk-ElLiy15E8",
+        "[9] FARUK GALYON, \"İstanbul'da toplanan çiğ midye numunelerinde mikroplastik kirliliğinin araştırılması,\" Yüksek Lisans/Doktora tezi, İstanbul Aydın Üniversitesi / Lisansüstü Eğitim Enstitüsü / Gıda Güvenliği ve Beslenme Ana Bilim Dalı / Gıda Güvenliği Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=a0OMTmEd_3mfOBxT8SiBTM7xp1NINhmdLY8A8SUItawiCNNoKftWw9p5lMuzFgbM",
+        "[10] SONGÜL YÜCEL, \"Polistiren mikro ve nanoplastik partiküllerin sitotoksik etkilerinin in vitro değerlendirmesi,\" Yüksek Lisans/Doktora tezi, LOKMAN HEKİM ÜNİVERSİTESİ / Sağlık Bilimleri Enstitüsü / Farmasötik Toksikoloji Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=S2eMu1TIwY_v4mYv58xAr1d1HsYMGcfPRUg-XJnFUd3bDPZy0XtGHphQTq_lbcCG",
+        "[11] FATMA GÜZEL YILMAZ, \"Mikroplastik konsantrasyonu siyonabakteri yoğunluğu üzerine etkisinin araştırılması,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Fen Bilimleri Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı / Çevre Mühendisliği Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=htlyhJG97gjBTPjAeWRhPu8_l9_eXEISPRJDb44W_Nn2k_Jx0nZNlXxq5PUrQSy7",
+        "[12] SEVDA ERYILMAZ SOYDAN, \"Farklı boyutlarda toplanmış atmosferik partikül madde örneklerinin mikroplastik karakterizasyonu,\" Yüksek Lisans/Doktora tezi, Eskişehir Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı / Çevre Bilimleri Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiIJnmdnZl3u40SXkU2CKUicHjnp1x9it_dWVApeMz_66",
+        "[13] MUAZZEZ ÇELİKYÜREK, \"Yardımcı üreme teknikleri ve spontan gebe kalan hastalara ait plasenta örneklerinde mikroplastik varlığının çeşitli parametreler ile değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Süleyman Demirel Üniversitesi / Sağlık Bilimleri Enstitüsü / Histoloji ve Embriyoloji Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-1nwl0MPBZw52jQESVbMFWoq2ood_Qy_Eq5MNRK1m31z",
+        "[14] IŞIL ÇELİK SAĞLAM, \"Endüstriyel kent atmosferinde mikroplastik ve seçili organik kirletici konsantrasyonlarının belirlenmesi ve aralarındaki ilişkilerin incelenmesi,\" Yüksek Lisans/Doktora tezi, Gebze Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=a0OMTmEd_3mfOBxT8SiBTKTbXED_JzP8jUqUa8eWlBKWJpmnR674zGXvEcUSzNqw",
+        "[15] BETÜL DERE, \"Asitlenme, deoksijenasyon ve mikroplastiklerin midyedeki (mMytilus galloprovincialis) fizyolojik etkileri üzerine laboratuvar çalışmaları,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Fen Bilimleri Enstitüsü / Biyoloji Ana Bilim Dalı / Genel Biyoloji Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kIrIdtdJ31bRgjb6fHvMUb0ATwHOpugM0jgxTqFEdurclYoyQNgsIgYRCBtCWFsD",
+        "[16] AYŞAH ÖZTEKİN, \"Karadeniz'in Türkiye kıyılarının mikroplastik kirliliği,\" Yüksek Lisans/Doktora tezi, Sinop Üniversitesi / Fen Bilimleri Enstitüsü / Su Ürünleri Temel Bilimleri Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5Sgvlgg_lAJu-lUqF4R6MIHch8AoZ6YGQhDMMt5Vpup_Bo7r65",
+        "[17] SEVDA ÖNDER, \"Çevresel kirletici mikroplastiklerin zebra balıklarında (Danio rerio) genotoksik ve oksidatif hasar üzerine etkilerinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Fen Bilimleri Enstitüsü / Çevre Bilimleri Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=G_oJ1rKE4SgJUkomyAKpRxrcAuUb9ZdBynSeWEmneE1nwLqtKdsaqHhHH7B10zEa",
+        "[18] GÜLŞEN NİLAY TUNCER, \"Evaluating & comparing microplastic uptake by different groups of freshwater invertebrates,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı / Çevre Bilimleri, Mühendisliği ve Yönetimi Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=j_Fjwp4JS4mk97Puqti8roaeq4zPos7D98DPdpLX9T9TNy3zBDJg4S3KfNCl6XWB",
+        "[19] TEOMAN ÖZGÜR SÖKMEN, \"Nano boyuttaki polistiren plastik parçacıkların zebra balığı (Danio rerio) embriyosundaki gelişim toksisitesinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Fen Bilimleri Enstitüsü / Su Ürünleri Mühendisliği Ana Bilim Dalı / Yetiştiricilik Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=4J_FzTwlrMCH4qBROpXPH_iWZZpxytHvsNgQHvHw8A293t4nzsc_5KGc697ufnOp",
+        "[20] HALİL ÜNVER, \"Ataktik polipropilenin fonksiyonlandırılması,\" Yüksek Lisans/Doktora tezi, Kırıkkale Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Ana Bilim Dalı, 2005. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=XohQ0H2mJnBfxLPsY8dG4_3LQNHgAOEAhHB2Gcf1RTJHL7Sys6aQtfBr4MOUQPsy",
+        "[21] ŞULE OKAN BOZKALE, \"Değişik stres kaynaklarına maruz bırakılan Sivas Kangal Balıklı Kaplıca'daki (Cyprinidae) balıklardan Hsp 70 saflaştırılması,\" Yüksek Lisans/Doktora tezi, Cumhuriyet Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=NtBAevXNhYaNqJFoAcdBdlU6-qarDeOtQHJxQ-X5-9f2cb4ka-pkiBWys9NlZ6R9",
+        "[22] İPAR NİMET UZUN, \"Süperkritik mikronizasyon yöntemleriyle kontrollü ilaç salımına yönelik ilaç-polimer kompozit mikrotaneciklerinin hazırlanması,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Mühendisliği Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-AsO6p9np0u9uNUp7haLHpe5eUiCLpyM-0aSaDwz9rmqu",
+        "[23] ZUHAL NART, \"İnvers-süspansiyon polimerizasyonu yöntemiyle sentezlenen mikrokürelerin karakterizasyonu ve ilaç salınımı çalışmaları,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Bölümü / Kimya Ana Bilim Dalı / Organik Kimya Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=UPP_Zu9isEmWGFXFCBYasYC3Q1Hta9nqjtIPZ6uccoU3wt1ELLHtPg8q38TwZsUa",
+        "[24] ŞEBNEM KEMALOĞLU DOĞAN, \"Biyomalzeme olarak kullanılabilecek poli(Laktik Asit)/poliüretan polimer karışımları,\" Yüksek Lisans/Doktora tezi, Kocaeli Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Mühendisliği Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=gyLHMouPes-CvnhRcjQsKcVxYKW1mSYo11uIbMf6kta9bJ3P-rPo5JA905DBI3w8"
+      ]
+    }
+  },
+  "error": null
+}

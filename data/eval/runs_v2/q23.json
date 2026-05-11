@@ -1,0 +1,425 @@
+{
+  "id": "q23",
+  "category": "physics",
+  "type": "method",
+  "question": "Süperiletken malzemelerin enerji depolama uygulamaları üzerine yapılan deneysel çalışmalardaki bulgular nelerdir?",
+  "expected_subjects": [
+    "Fizik ve Fizik Mühendisliği",
+    "Enerji"
+  ],
+  "min_citations": 3,
+  "result": {
+    "latency_seconds": 123.2,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Süperiletken manyetik enerji depolama (SMES) sistemlerinde kullanılan farklı süperiletken malzeme türlerinin (Yüksek sıcaklık süperiletkenleri, düşük sıcaklık süperiletkenleri) deneysel performans karşılaştırmaları nasıldır?",
+          "rationale": "Farklı süperiletken malzeme sınıflarının enerji depolama verimliliği, kritik akım yoğunluğu ve çalışma sıcaklığı gibi parametreler açısından karşılaştırmalı deneysel bulgularını ortaya koyar."
+        },
+        {
+          "text": "SMES sistemlerinde enerji depolama kapasitesi ve verimlilik üzerine yapılan deneysel çalışmalarda elde edilen en yüksek enerji yoğunluğu ve çevrim verimliliği değerleri nelerdir?",
+          "rationale": "Deneysel çalışmalardaki somut başarı metriklerini (enerji yoğunluğu, verimlilik yüzdesi) belirleyerek alandaki ulaşılan en iyi sonuçları özetler."
+        },
+        {
+          "text": "Süperiletken enerji depolama sistemlerinde karşılaşılan deneysel sınırlılıklar (soğutma maliyetleri, kararlılık sorunları, quench olayı) nelerdir ve bu sınırlılıkları aşmak için hangi deneysel yaklaşımlar önerilmiştir?",
+          "rationale": "Deneysel çalışmalarda raporlanan teknik engelleri ve bunların çözümüne yönelik geliştirilen yöntemleri sistematik olarak ortaya koyar."
+        },
+        {
+          "text": "Süperiletken enerji depolama sistemlerinin yenilenebilir enerji kaynakları (güneş, rüzgar) ile entegrasyonuna yönelik deneysel çalışmalarda hangi bulgular elde edilmiştir?",
+          "rationale": "Süperiletken depolamanın pratik uygulama alanı olan yenilenebilir enerji sistemlerindeki deneysel performansını ve entegrasyon zorluklarını inceler."
+        },
+        {
+          "text": "Süperiletken enerji depolama alanındaki deneysel çalışmalarda kullanılan başlıca ölçüm ve karakterizasyon yöntemleri (kritik sıcaklık ölçümü, AC kayıp ölçümleri, manyetik alan haritalama) nelerdir ve bu yöntemlerin güvenilirliği nasıl değerlendirilmiştir?",
+          "rationale": "Deneysel çalışmaların metodolojik altyapısını ve kullanılan ölçüm tekniklerinin geçerliliğini sorgulayarak bulguların güvenilirliğine ışık tutar."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 30,
+      "max_score": 0.9017,
+      "min_score": 0.8286,
+      "chunks": [
+        {
+          "tez_no": "877555",
+          "title_tr": "Bor ile güçlendirilmiş aerojel tabanlı süperkapasitörlerin geliştirilmesi",
+          "author": "KHAYAL MAMMADOV",
+          "year": 2024,
+          "score": 0.9017,
+          "abstract_excerpt": "Fosil yakıtların hızla tükenmesi ve beraberinde ortaya çıkan küresel ısınma problemlerini bertaraf etmek için birçok platformda yeşil dönüşüm mutabakatlarına uyum ve sıfır karbon ayak izi hedefi benimsenmektedir. Bu kapsamda yenilenebilir enerji kaynaklarına yönelim, bu kaynakların verimli bir şekil"
+        },
+        {
+          "tez_no": "202990",
+          "title_tr": "Süper iletken manyetik yatakların analizi ve modellenmesi",
+          "author": "YUSUF ÇINAR",
+          "year": 2007,
+          "score": 0.8874,
+          "abstract_excerpt": "Süperiletkenler, direnç kaybetmeksizin elektriği ileten malzemelerdir. Ayrıca\u000bsüperiletkenler, içerisinden manyetik alanı dışlama eğiliminde oldukları için\u000bmıknatısları levite edebilirler.\u000bBu çalışmada mühendislik uygulamalarında kullanılan iki tür süperiletken\u000bmanyetik yatak, donmuş görüntü yaklaşı"
+        },
+        {
+          "tez_no": "198389",
+          "title_tr": "İkinci tür süperiletkenlerde yüksek sıcaklıkta vorteks dinamiği",
+          "author": "SELÇUK HACIÖMEROĞLU",
+          "year": 2005,
+          "score": 0.8739,
+          "abstract_excerpt": "ÖZETİKİNCİ TÜR SÜPERİLETKENLERDE YÜKSEK SICAKLIKTA VORTEKSDİNAMİĞİII. tip süperiletkenler ile ilgili deneyler, ancak sistemin süperiletken kalmaya devamedebildiği 100 K gibi düşük sıcaklıklarda yapılabilmektedir. Bu deneylerde sıcaklığınyükseltilmesiyle süperiletkende direnç gözlenmiş, bu direnci en"
+        },
+        {
+          "tez_no": "426753",
+          "title_tr": "Yüksek değerlikli katyon (W, Mo) katkılı BSCCO külçe süper iletkenlerin üretimi ve fiziksel karakterizasyonu",
+          "author": "ASLI ASİYE AĞIL",
+          "year": 2016,
+          "score": 0.8638,
+          "abstract_excerpt": "Süperiletkenliğin dikkate değer özellikleri ilk kez bundan yüz yıl önce bulunmuş ve gerek kuramsal gerekse teknolojik uygulamalarına dönük araştırmalara sebep olmuştur. Süperiletkenlik kuramsal yönden Katı Hal Fiziği'nde yeni bir anlayışın gelişmesine yol açmıştır. Yüksek manyetik alanların elde edi"
+        },
+        {
+          "tez_no": "737882",
+          "title_tr": "Farklı asitlerle katkılanmış polianilinin sentezi, karakterizasyonu ve süperkapasitör uygulaması",
+          "author": "MERVE METİN ÇELENK",
+          "year": 2022,
+          "score": 0.8631,
+          "abstract_excerpt": "Fosil yakıt kaynaklarının hızla tükenmesi ile birlikte günümüzde sürdürülebilir, çevre dostu enerji sistemlerine ihtiyaç duyulmaktadır. Bu kaynakların etkili bir biçimde kullanılabilmesi için üretilen enerjinin minimum kayıpla ve maksimum nitelikle depolanması gerekmektedir. Bu durum ise enerji depo"
+        },
+        {
+          "tez_no": "276734",
+          "title_tr": "Te katkılı FeSe tipi süperiletkenlerin yapısal ve manyetik özellikleri",
+          "author": "MUAMMER YASİN HACISALİHOĞLU",
+          "year": 2011,
+          "score": 0.8547,
+          "abstract_excerpt": "Bu çalışma, 11 Tipi Demir Tabanlı Süperiletken ailesinden FeSe Süperiletken malzemesine Te katkısının malzemenin yapısal ve manyetik özelliklerine etkisinin incelenmesi amacıyla yapılmıştır.Bu çalışmada FeSexTe1-x başlangıç formülüyle x=0.0 dan x=1.0 a kadar 0.1 katkı oranı adımlarıyla, üretilen mal"
+        },
+        {
+          "tez_no": "406351",
+          "title_tr": "Enerji depolamada kullanılan süperiletken manyetik yatakların sonlu elemanlar yöntemi ile elektromanyetik analizi",
+          "author": "NURETTİN ÖMÜR",
+          "year": 2015,
+          "score": 0.8546,
+          "abstract_excerpt": "Bu çalışmada sonlu elemanlar yöntemi kullanılarak çeşitli fiziksel durumlar için süperiletken kalıcı mıknatıs arasındaki levitasyon kuvveti incelenmiştir. İncelenen fiziksel durumlar: (i) süperiletkenin kalıcı mıknatısa yaklaştırılıp uzaklaştırılması, (ii) süperiletkenin belli bir mesafede mıknatısı"
+        },
+        {
+          "tez_no": "609994",
+          "title_tr": "Değişik oranlarda gümüş (Ag) eklenmiş Bi2Sr2Ca0.925Na0.075Cu2Oy  süperiletkenlerin magnetodirenç özelliklerinin belirlenmesi",
+          "author": "BAŞAK ATİLLA",
+          "year": 2020,
+          "score": 0.8538,
+          "abstract_excerpt": "Bu çalışmada sırasıyla sol-gel ve lazer yüzen bölge (LFZ) teknikleri kullanılarak hazırlanan %0, 1, 3 ve 5 konsantrasyonlarında gümüş (Ag) katkılı Bi2Sr2Ca0.925Na0.075Cu2Oy süperiletken seramiklerinin yapısal, manyetik ve süperiletkenlik özellikleri X-ışını kırınımı (XRD), taramalı elektron mikrosko"
+        },
+        {
+          "tez_no": "423752",
+          "title_tr": "Yenilenebilir enerji kaynaklarına destek için kullanılan batarya ve ultrakapasitör depolama birimlerinin modellenmesi ve analizi",
+          "author": "YAĞMUR KIRÇİÇEK",
+          "year": 2016,
+          "score": 0.8522,
+          "abstract_excerpt": "Yenilenebilir Enerji Kaynaklarından (YEK) üretilen enerjinin elektrik güç sistemlerine eklenmesindeki en önemli sorun, bu kaynaklardan üretilen enerjinin iklim koşullarına bağlı olarak genellikle kararsız ve değişken olmasıdır. Güneş enerjisinden, güneş çok iyi parladığında ve bulutsuz bir günde yük"
+        },
+        {
+          "tez_no": "266300",
+          "title_tr": "Üstten tohumlamalı eriyik büyütme yöntemi ile üretilmiş YBaCuO tek kristal süperiletkeninin mekaniksel ve manyetik özelliklerinin incelenmesi",
+          "author": "CAFER MERT YEŞİLKANAT",
+          "year": 2010,
+          "score": 0.8491,
+          "abstract_excerpt": "Hacimsel YBCO süperiletkeni üstten tohumlamalı eritme büyütme yöntemi ile hazırlandı. YBCO süperiletkeninin kaldırma kuvveti ölçümleri sıvı azot sıcaklığında (77K) alansız soğutma (ZFC) ve alanlı soğutma (FC) yöntemleriyle alındı. Eksponansiyel kritik hal modeli kullanılarak, deneysel verilere uyan "
+        },
+        {
+          "tez_no": "555047",
+          "title_tr": "Yüksek ve düşük sıcaklık dayanımına sahip aktif karbon temelli süperkapasitörlerin geliştirilmesi",
+          "author": "EZGİ YURTTAŞ",
+          "year": 2019,
+          "score": 0.8485,
+          "abstract_excerpt": "İleri teknoloji ürünlerinin yaygınlaşması, enerji üretim ve depolama sistemlerinin geliştirilmesi yönelik araştırmaların yoğunlaşmasına neden olmuştur. Enerjinin sürekli ve kaliteli depolanabilmesi amacıyla piller, yakıt hücreleri ve elektrokimyasal kapasitörler gibi çeşitli elektrokimyasal enerji d"
+        },
+        {
+          "tez_no": "854798",
+          "title_tr": "Enerji depolama aracı olarak süperkapasitörlerin ekstrapolasyon uygulamaları yardımı ile gelecek tahmini",
+          "author": "DİLAN DENİZ DEMİR",
+          "year": 2022,
+          "score": 0.8478,
+          "abstract_excerpt": "Artan enerji ihtiyacını karşılamak için geliştirilen teknolojiler gün geçtikçe çoğalmaktadır. Fosil yakıt kullanımının olumsuz çevresel etkileri ve kaynak kısıtı nedeniyle teknolojik gelişmeler yenilenebilir enerji sistemleri üzerinde yoğunlaşmaktadır. Gelişen teknoloji ile birlikte üretilen enerjin"
+        },
+        {
+          "tez_no": "727737",
+          "title_tr": "Yarı-katı polimer elektrolitlerin simetrik bir süperkapasitörde elektrokimyasal karakterizasyonu",
+          "author": "DURUL BÜŞRA DİLDEN",
+          "year": 2022,
+          "score": 0.839,
+          "abstract_excerpt": "Küresel ekonomideki hızlı büyüme, yaşam kalitesi standartlarındaki önemli artış ve fosil yakıt rezervlerinin hızla tükenmesi önemli çevresel problemlere yol açmaktadır. Bu sebeple, sıfır emisyonlu ve yenilenebilir enerji teknolojilerine eğilim kaçınılmaz bir sonuç olarak ortaya çıkmakta ve enerji de"
+        },
+        {
+          "tez_no": "365239",
+          "title_tr": "Yeni (RE)3Ba5Cu8Oy (RE: Y, Nd, Sm, Gd) bulk süperiletkenlerinin üretimi ve karakterizasyonu",
+          "author": "SEZAİ KÜTÜK",
+          "year": 2014,
+          "score": 0.8382,
+          "abstract_excerpt": "Yeni (RE)3Ba5Cu8Oy (RE: Y, Nd, Sm, Gd)/(RE)358 bulk süperiletken numuneleri standart SSR ve modifiye MPMG olmak üzere iki farklı metotla üretildi. Yapısal özellikler DTA-TG, bulk yoğunluğu, XRD, POM ve SEM-EDS ölçümleri ile incelendi. XRD ölçümünden Y358 MPMG numunesinin kafes parametreleri a= 3,885"
+        },
+        {
+          "tez_no": "701290",
+          "title_tr": "Dağıtık enerji üretim sistemleri için enerji depolama sistem tasarımı, planlanması ve uygulaması",
+          "author": "MEHMET BOLAT",
+          "year": 2021,
+          "score": 0.8295,
+          "abstract_excerpt": "Bu çalışmada, hidrojen üretimini hızlandırmak için HCl destekli Kalay (Sn) ile Mısır Sapı işlenerek sentezlenen Mısır sapı-HCl-Kalay katalizörünün, aynı zamanda elektriği depolamak amacıyla aktif bir süper kapasitör malzemesi olacak şekilde çift görevli bir enerji destek birimi gibi kullanılması pla"
+        },
+        {
+          "tez_no": "554435",
+          "title_tr": "UHEM veri merkezi ısıl profilinin deneysel incelemesi ve CFD analizi",
+          "author": "İSMAİL TÜRKMEN",
+          "year": 2019,
+          "score": 0.8273,
+          "abstract_excerpt": "Günümüzde farklı ölçeklerdeki birçok kurum, sektörlerinin ihtiyaçlarına göre değişen boyutlarda bilişim teknolojileri hizmeti almaktadır. Bu hizmeti sağlayan teknoloji altyapısı veri merkezi olarak adlandırdığımız yapılar içerisinde muhafaza edilmektedirler. Veri merkezi, başlıca veri işleme (sunucu"
+        },
+        {
+          "tez_no": "572784",
+          "title_tr": "Güneş enerjisi destekli süperkritik co2 ile çalışan birleşik güç üretim sisteminin incelenmesi",
+          "author": "ŞEFİKA YILDIRIM",
+          "year": 2019,
+          "score": 0.8263,
+          "abstract_excerpt": "Üzerinde yaşadığımız dünyada gün geçtikçe nüfus artmaktadır. Artan nüfusa bağlı olarak gelişen teknoloji ile sürekli yeni enerji tüketim sahaları açılmaktadır. Bu enerji tüketim sahaları, termal enerjinin yanı sıra güç enerjisi alanında da ihtiyacın artmasına sebep olmuştur. Güç üretiminin çoğunlukl"
+        },
+        {
+          "tez_no": "865183",
+          "title_tr": "Nanolif süperkapasitörlerin etkin depolama mekanizmalarının araştırılması",
+          "author": "ÖZGÜR GÜÇLÜ",
+          "year": 2024,
+          "score": 0.8258,
+          "abstract_excerpt": "Bu tez çalışması kapsamında Süperkapasitörlerin kullanım alanlarındaki verimliliğini arttırabilmek amacıyla yaptığımız çalışmaların matematiksel modellemesinin detaylarını paylaşacağız. Süperkapasitörlerin geliştirilmesi için yapılan tüm çalışmaların ulaşmak istediği nokta enerjinin en iyi şekilde d"
+        },
+        {
+          "tez_no": "519428",
+          "title_tr": "Soğuk depo uygulamasında en uygun aşırı kızdırma (superheat) değerinin deneysel olarak belirlenmesi",
+          "author": "EMRE UYSAL",
+          "year": 2018,
+          "score": 0.8249,
+          "abstract_excerpt": "Bu çalışmada oda sıcaklığı değeri -10 °C olarak referans alınan buhar sıkıştırmalı soğutma çevrimi prensibine göre çalışan, R404A soğutucu akışkanının kullanıldığı soğuk depo tasarımı ve imalatı yapılmıştır. Tasarımı ve imalatı yapılan deney düzeneğinde kullanılan PWM (Darbe Genişlik Modülasyonu) el"
+        },
+        {
+          "tez_no": "644879",
+          "title_tr": "Süperiletkenlikte termodinamik özelliklerin incelenmesi",
+          "author": "IKRAM IMANE KOUACHI",
+          "year": 2020,
+          "score": 0.8215,
+          "abstract_excerpt": "Bu tez çalışmasında, klasik süperiletkenlerin termodinamik özellikleri araştırılmıştır. Ayrıca, bu termodinamik özelliklerin klasik olmayan süperiletkenlerde nasıl değiştiği incelenmiştir. \nKlasik bir süperiletkenin elektronik öz ısısı, normal durumdan süperiletken duruma geçtiği kritik sıcaklıkta T"
+        },
+        {
+          "tez_no": "796824",
+          "title_tr": "Veri merkezleri'nin enerji verimliliklerinin değerlendirilmesi",
+          "author": "RIDVAN ÇELİK",
+          "year": 2023,
+          "score": 0.8134,
+          "abstract_excerpt": "Günümüzde mobil ve bulut teknolojisinde yaşanan gelişimler, veri depolanmanın önemini arttırmaktadır.  Veri depolamadaki artış da veri merkezlerinin artışına neden olmaktadır. Veri merkezleri bilgi teknolojileri alanında faaliyet gösteren kuruluşların verilerini saklayabildiği, işleyebildiği ve dağı"
+        },
+        {
+          "tez_no": "682633",
+          "title_tr": "Örnek bir veri merkezi için ısıl yüklerin farklı yazılımlar kullanılarak karşılaştırılması",
+          "author": "KAAN YILMAZKARASU",
+          "year": 2021,
+          "score": 0.8071,
+          "abstract_excerpt": "Günümüzde enerji tüketimi, gelişmekte olan ülkelerin giderlerinin büyük çoğunluğunu\noluşturmakta ve bu durum enerji tüketim miktarlarını etkileyebilecek etmenlerin\nirdelenerek, bir mühendislik bakış açısı ve akıl süzgecinden geçirilmesini zorunlu\nkılmaktadır.\nKişisel hayatlarımızda her türlü iş için"
+        },
+        {
+          "tez_no": "295834",
+          "title_tr": "Bir iş merkezinde enerjinin etkin kullanımının incelenmesi",
+          "author": "NEJLA YÖRÜK",
+          "year": 2011,
+          "score": 0.8059,
+          "abstract_excerpt": "21. yüzyılın ikinci yarısında petrol ve doğalgaz gibi bazı fosil yakıtların rezervlerinin sonuna gelineceği tahmin edildiğinden, bütün enerji kaynaklarının verimli bir şekilde kullanılması büyük önem taşımaktadır. Enerji ihtiyacının sürekli arttığı ama kaynakların gittikçe azaldığı dünyada, enerjini"
+        },
+        {
+          "tez_no": "614363",
+          "title_tr": "Enerji verimliliğinde yalın yöntemlerin uygulanması: Soğutucu fabrikasında bir uygulama",
+          "author": "KAZIM ONUR ALBAYRAK",
+          "year": 2019,
+          "score": 0.8023,
+          "abstract_excerpt": "Globalleşen dünyada teknolojide yaşanan son gelişmelerle beraber enerji ihtiyacı, ve tüketimi günden güne artmaktadır. Enerji, birçok sektör için ana hammadde konumundadır, bu yüzden birçok sektör enerji üzerinde yeni çalışmalar geliştirmekte, ve enerjinin en güvenli şekilde temin edilmesi için çalı"
+        },
+        {
+          "tez_no": "700278",
+          "title_tr": "Yenilenebilir enerji kaynakları ile mikro şebeke tasarımı ve optimum çözümünün HOMER ile incelenmesi",
+          "author": "SEZEN BEYARSLAN",
+          "year": 2021,
+          "score": 0.8575,
+          "abstract_excerpt": "Güvenilirlik, elektrik kalitesinin en önemli parametrelerinden biridir. Yenilenebilir enerji çevre dostu olmasına rağmen, tek bir tür yenilenebilir enerji kaynağının güç çıkışı 24 saat boyunca yükleri karşılayamaz. Bu nedenle enerji depolama sistemleri ile rüzgar türbini, hidroelektrik santrali, fot"
+        },
+        {
+          "tez_no": "718628",
+          "title_tr": "Mikroişlemci denetimli hibrit sistem tasarımı ve uygulaması",
+          "author": "MELİKE ÇATAL",
+          "year": 2021,
+          "score": 0.8524,
+          "abstract_excerpt": "Yenilenebilir enerjinin günümüzde ve gelecekte daha verimli kullanılabilmesi ve devamlılığının sağlamayı başarabilmesi açısından yapılan bir çalışmadır. Yenilebilir enerji kaynaklı elektrik enerjisinin üretiminde hibrit enerji üretim sisteminin modelinin kurulumunun yapılması ve sistemin enerji üret"
+        },
+        {
+          "tez_no": "865715",
+          "title_tr": "Batarya-süperkapasitör hibrit enerji depolama sistemleri için batarya sağlık durumuna dayalı yeni bir adaptif enerji yönetim sistemi geliştirilmesi",
+          "author": "GÖKHAN YÜKSEK",
+          "year": 2024,
+          "score": 0.8434,
+          "abstract_excerpt": "Hibrit Enerji Depolama Sistemlerinin (HEDS'lerin) güvenilirliğini, yüksek performansını ve verimliliğini sağlamada Enerji Yönetim Sistemleri (EYS'ler) önemli bir rol oynamaktadır. EYS tasarlanırken gerilim, akım, kapasite ve iç direnç gibi ölçülebilir veya hesaplanabilir birçok parametre dikkate alı"
+        },
+        {
+          "tez_no": "725407",
+          "title_tr": "Hibrit sistem ile oluşturulan mikro şebekede enerji yönetimi",
+          "author": "HAMZA POLAT",
+          "year": 2022,
+          "score": 0.8427,
+          "abstract_excerpt": "Son zamanlarda elektrik enerjisi ihtiyacı dünya nüfusunun çoğalması, sanayinin gelişmesi vb. sebeplerden dolayı artmaktadır. Bu artan enerji ihtiyacının karşılanabilmesi için yenilenebilir enerji kaynaklarına yönelim artmaya başlamıştır. Yenilenebilir enerji kaynaklarının kullanımını artırmak için f"
+        },
+        {
+          "tez_no": "911341",
+          "title_tr": "Yenilenebilir enerji santralleri dahil olan güç sistemlerinde depolama teknolojilerinin kıyaslanması",
+          "author": "ZEYNEP TÜFEK",
+          "year": 2024,
+          "score": 0.8399,
+          "abstract_excerpt": "Bu tez, hibrit enerji depolama sistemlerinin tasarımını, uygun batarya türlerini seçerek optimize etmeyi amaçlamaktadır. Bu sayede, enerji verimliliğini en üst düzeye çıkaran ve maliyetleri en aza indiren bir hibrit sistem geliştirilmiştir. Enerji depolama sistemleri, üretim ile tüketim arasındaki d"
+        },
+        {
+          "tez_no": "300992",
+          "title_tr": "YBCO (358) süperiletken sisteminin katıhal yöntemi ile hazırlanması ve karakterizastonu",
+          "author": "FİLİZ KURT",
+          "year": 2011,
+          "score": 0.8286,
+          "abstract_excerpt": "Bu tez çalışmasında katıhal reaksiyon yöntemi kullanılarak YBCO süperiletken sisteminin bir üyesi olan Y3Ba5Cu8Ox bileşiği incelenmiştir. Örnekler kalsinasyon işleminden sonra 850 0C ile 920 0C arasında 24 saat ısıl işlem görerek hazırlanmıştır. Üretilen örneklerin mikroyapısal, elektriksel ve manye"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 9,
+      "findings": [
+        {
+          "claim": "Süperiletken malzemeler, manyetik levitasyon (kaldırma) özellikleri sayesinde sürtünmesiz enerji depolama sistemlerinde (volan gibi) kullanılabilir.",
+          "citations": [
+            "202990",
+            "406351",
+            "266300"
+          ]
+        },
+        {
+          "claim": "Süperiletkenlerde enerji depolama uygulamalarının önündeki en büyük engel, süperiletkenliğin çok düşük sıcaklıklarda (kriyojenik sıcaklıklar) gerçekleşmesi ve bunun yüksek maliyet getirmesidir.",
+          "citations": [
+            "426753",
+            "198389"
+          ]
+        },
+        {
+          "claim": "Süperkapasitörler (elektrokimyasal kapasitörler), yüksek güç yoğunluğu ve hızlı şarj/deşarj özellikleriyle enerji depolamada önemli bir alternatiftir ve süperiletkenlerle aynı kategoride olmasa da enerji depolama bağlamında birlikte ele alınmaktadır.",
+          "citations": [
+            "854798",
+            "865183",
+            "555047",
+            "737882",
+            "877555",
+            "701290",
+            "727737"
+          ]
+        },
+        {
+          "claim": "Süperiletken manyetik yataklarda levitasyon kuvveti, süperiletkenin kalınlığına, mıknatısa olan mesafeye ve soğutma koşullarına (alansız/alansal soğutma) bağlı olarak değişmektedir.",
+          "citations": [
+            "406351",
+            "266300"
+          ]
+        },
+        {
+          "claim": "Yenilenebilir enerji kaynaklarının (güneş, rüzgar) kesintili ve kararsız yapısı nedeniyle enerji depolama sistemlerine olan ihtiyaç artmakta; süperiletken manyetik enerji depolama (SMES) ve süperkapasitörler bu alanda çözüm olarak değerlendirilmektedir.",
+          "citations": [
+            "877555",
+            "423752",
+            "865183",
+            "911341",
+            "725407",
+            "700278"
+          ]
+        },
+        {
+          "claim": "Süperiletken malzemelerin kritik sıcaklığı (Tc), malzemenin bileşimine ve katkılama oranlarına bağlı olarak değişir; örneğin YBCO (358) sisteminde Tc ~93-97 K aralığında, FeSe tabanlı sistemlerde ise Te katkısıyla Tc değişmektedir.",
+          "citations": [
+            "365239",
+            "300992",
+            "276734"
+          ]
+        },
+        {
+          "claim": "Süperiletkenlerde manyetik akı kuantalarının (vorteks) sabitlenmesi (pinning), yüksek sıcaklıklarda direnç oluşumunu engelleyerek süperiletkenliğin korunmasını sağlar.",
+          "citations": [
+            "198389"
+          ]
+        },
+        {
+          "claim": "Hibrit enerji depolama sistemlerinde batarya ve süperkapasitörlerin birlikte kullanımı, hem yüksek enerji yoğunluğu hem de yüksek güç yoğunluğu avantajlarını birleştirerek daha verimli enerji yönetimi sağlar.",
+          "citations": [
+            "865715",
+            "911341",
+            "718628",
+            "725407"
+          ]
+        },
+        {
+          "claim": "Süperiletken malzemelere gümüş (Ag) gibi metallerin katkılanması, manyetik histerezis ve magnetodirenç özelliklerini etkileyerek enerji depolama performansını değiştirebilir.",
+          "citations": [
+            "609994"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Kaynak [4] (Ağıl, 2016) süperiletkenliğin düşük sıcaklık (-250°C) gerektirdiğini ve maliyetin yüksek olduğunu belirtirken, kaynak [3] (Hacıömeroğlu, 2005) 100 K gibi nispeten daha yüksek sıcaklıklarda (oda sıcaklığına kıyasla hala düşük) II. tip süperiletkenlerle deney yapılabildiğini belirtmektedir. Bu, süperiletkenliğin hangi sıcaklık aralığında pratik olduğu konusunda bir çelişki değil, farklı süperiletken türlerine (düşük sıcaklık vs. yüksek sıcaklık süperiletkenleri) işaret eden bir farklılıktır."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "SMES (Süperiletken Manyetik Enerji Depolama) sistemlerinin spesifik deneysel bulguları (enerji yoğunluğu, verim, şarj/deşarj süreleri gibi nicel veriler)",
+        "Süperiletken volan (flywheel) enerji depolama sistemlerinde elde edilen deneysel sonuçlar (devir sayısı, kayıplar, depolama kapasitesi)",
+        "Farklı süperiletken malzeme türlerinin (YBCO, MgB2, Fe-tabanlı, NbTi vb.) enerji depolama performanslarının karşılaştırmalı deneysel verileri",
+        "Süperiletken enerji depolama sistemlerinin prototip/ölçekli deney sonuçları ve pilot uygulamalar",
+        "Süperiletken enerji depolamanın ekonomik fizibilitesine dair deneysel çalışmalardan elde edilen maliyet verileri",
+        "Süperiletken malzemelerin enerji depolamada kullanımına yönelik termal yönetim ve kriyojenik sistem deneysel bulguları"
+      ],
+      "requery_terms": [
+        "süperiletken volan enerji depolama deneysel sonuçlar",
+        "SMES deneysel bulgular enerji yoğunluğu verim",
+        "YBCO MgB2 süperiletken enerji depolama karşılaştırma deney",
+        "süperiletken manyetik enerji depolama prototip deney sonuçları",
+        "süperiletken enerji depolama maliyet analizi deneysel",
+        "kriyojenik soğutma süperiletken enerji depolama deney"
+      ],
+      "notes": "Mevcut sentez, süperiletken malzemelerin enerji depolamadaki potansiyelini genel hatlarıyla ele almakta ancak sorunun odağı olan 'deneysel çalışmalardaki bulgular' kısmına yeterince girmemektedir. Sentezde süperkapasitörler ve hibrit sistemler gibi konulara geniş yer verilmiş, ancak asıl odaklanılması gereken süperiletken spesifik deneysel bulgular (SMES verimlilik verileri, volan deney sonuçları, farklı malzemelerin karşılaştırmalı performansı, prototip çalışmaları) büyük ölçüde eksik kalmıştır. Özellikle nicel deneysel veriler (enerji yoğunluğu değerleri, verim yüzdeleri, sıcaklık bağımlılığı grafikleri gibi) sentezde yer almamaktadır."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nSüperiletken malzemeler, sahip oldukları benzersiz fiziksel özellikler (sıfır elektriksel direnç ve manyetik alanı dışlama/levitasyon) sayesinde enerji depolama teknolojilerinde önemli bir araştırma alanı oluşturmaktadır. Bununla birlikte, süperkapasitörler ve hibrit sistemler de enerji depolama bağlamında süperiletkenlerle birlikte değerlendirilmektedir. Bu özet, süperiletken malzemelerin enerji depolama uygulamalarına yönelik deneysel çalışmalardan elde edilen temel bulguları sistematik biçimde sunmaktadır.\n\n## Süperiletken Manyetik Yataklar ve Levitasyon Tabanlı Enerji Depolama\n\nSüperiletkenler, içerisinden manyetik alanı dışlama (Meissner etkisi) eğiliminde oldukları için mıknatısları levite edebilmekte; bu özellik, sürtünmesiz enerji depolama sistemlerinde (volan gibi) kullanım imkânı sunmaktadır [1][2]. Süperiletken manyetik yataklar, aktif kontrol gerektirmeden kararlı levitasyon sağlayabilmeleri nedeniyle mühendislik uygulamalarında geniş kullanım alanı bulmaktadır [1].\n\nDeneysel çalışmalar, süperiletken-kalıcı mıknatıs arasındaki levitasyon kuvvetinin birden fazla parametreye bağlı olduğunu göstermektedir. Sonlu elemanlar yöntemiyle yapılan analizlerde, süperiletkenin kalınlığı, mıknatısa olan mesafesi ve soğutma koşulları (alansız soğutma - ZFC veya alanlı soğutma - FC) levitasyon kuvvetini doğrudan etkilemektedir [3][4]. Hacimsel YBCO süperiletkenleri ile yapılan deneylerde, sıvı azot sıcaklığında (77 K) alansız ve alanlı soğutma yöntemleriyle kaldırma kuvveti ölçümleri gerçekleştirilmiş; deneysel veriler ile eksponansiyel kritik hal modeline dayalı teorik hesaplamalar arasında iyi bir uyum gözlenmiştir [4].\n\n## Sıcaklık Kısıtı ve Maliyet Engeli\n\nSüperiletken malzemelerin enerji depolama uygulamalarının önündeki en büyük engel, süperiletkenliğin çok düşük sıcaklıklarda (kriyojenik sıcaklıklar) gerçekleşmesi ve bunun beraberinde getirdiği yüksek maliyettir [5][6]. Süperiletkenliğin dikkate değer özellikleri keşfedilmiş olmasına rağmen, yüksek manyetik alanların elde edilmesi ve çok küçük manyetik alanların algılanabilmesi gibi teknolojik uygulamalar büyük ölçüde araştırma laboratuvarları çerçevesinde kalmıştır [5].\n\nBu noktada önemli bir ayrım bulunmaktadır: Düşük sıcaklık süperiletkenleri (örneğin -250°C civarı) ile yüksek sıcaklık süperiletkenleri (Yüksek Tc süperiletkenleri) farklı sıcaklık aralıklarında çalışmaktadır. II. tip süperiletkenler ile ilgili deneyler, sistemin süperiletken kalmaya devam edebildiği 100 K gibi nispeten daha yüksek sıcaklıklarda (oda sıcaklığına kıyasla hala düşük) yapılabilmektedir [6]. Bu durum, farklı süperiletken türlerine işaret eden bir farklılık olup, bir çelişki teşkil etmemektedir.\n\n## Kritik Sıcaklık ve Malzeme Bileşimi\n\nSüperiletken malzemelerin kritik sıcaklığı (Tc), malzemenin bileşimine ve katkılama oranlarına bağlı olarak değişmektedir. YBCO (358) sisteminde Tc ~93-97 K aralığında ölçülmüştür [7][8]. FeSe tabanlı sistemlerde ise Te katkısıyla Tc değeri değişmekte; FeSexTe1-x formülasyonunda farklı katkı oranlarının yapısal ve manyetik özellikler üzerinde belirleyici olduğu gösterilmiştir [9].\n\n## Vorteks Dinamiği ve Manyetik Akı Sabitlemesi\n\nII. tip süperiletkenlerde sıcaklığın yükseltilmesiyle direnç gözlenmekte; bu direnci engellemek için sistemden geçen manyetik akı kuantalarının (vorteksler) süperiletken içinde belirli bölgelerde sabitlenmesi (pinning) yoluna başvurulmaktadır [6]. Manyetik akı kuantalarının sabitlenmesi, yüksek sıcaklıklarda direnç oluşumunu engelleyerek süperiletkenliğin korunmasını sağlamakta ve enerji depolama uygulamalarında kritik bir rol oynamaktadır.\n\n## Katkılama ile Performans Değişimi\n\nSüperiletken malzemelere gümüş (Ag) gibi metallerin katkılanması, manyetik histerezis ve magnetodirenç özelliklerini etkileyerek enerji depolama performansını değiştirebilmektedir. Sol-gel ve lazer yüzen bölge (LFZ) teknikleriyle hazırlanan %0, 1, 3 ve 5 konsantrasyonlarında Ag katkılı Bi2Sr2Ca0.925Na0.075Cu2Oy süperiletken seramiklerinde, katkı oranının yapısal, manyetik ve süperiletkenlik özellikleri üzerinde belirleyici olduğu gözlemlenmiştir [10].\n\n## Süperkapasitörler ve Enerji Depolamadaki Rolü\n\nSüperkapasitörler (elektrokimyasal kapasitörler), yüksek güç yoğunluğu ve hızlı şarj/deşarj özellikleriyle enerji depolamada önemli bir alternatif oluşturmaktadır [11][12][13][14][15]. Süperiletkenlerle aynı kategoride olmasalar da, enerji depolama bağlamında birlikte ele alınmakta ve özellikle yenilenebilir enerji kaynaklarının kesintili yapısına çözüm olarak değerlendirilmektedirler [11][16].\n\n## Hibrit Enerji Depolama Sistemleri\n\nHibrit enerji depolama sistemlerinde batarya ve süperkapasitörlerin birlikte kullanımı, hem yüksek enerji yoğunluğu hem de yüksek güç yoğunluğu avantajlarını birleştirerek daha verimli enerji yönetimi sağlamaktadır [17][18][19][20]. Bu sistemler, yenilenebilir enerji kaynaklarının (güneş, rüzgar) kararsız ve kesintili yapısı nedeniyle artan enerji depolama ihtiyacına yanıt vermekte; süperiletken manyetik enerji depolama (SMES) ve süperkapasitörler bu alanda çözüm olarak değerlendirilmektedir [11][16][21][22][23].\n\n## Sonuç\n\nSüperiletken malzemelerin enerji depolama uygulamalarına yönelik deneysel çalışmalar, manyetik levitasyon tabanlı sürtünmesiz depolama sistemlerinin (volanlar) prensipte mümkün olduğunu göstermekle birlikte, kriyojenik sıcaklık gereksinimi ve buna bağlı yüksek maliyetin en büyük engel olduğunu ortaya koymaktadır. Yüksek sıcaklık süperiletkenlerinin (YBCO, FeSe tabanlı sistemler) geliştirilmesi ve vorteks pinning mekanizmalarının iyileştirilmesi, bu engelin aşılmasına yönelik önemli adımlardır. Bununla birlikte, süperkapasitörler ve batarya-süperkapasitör hibrit sistemleri, süperiletkenlerle aynı kategoride olmasalar da, enerji depolama alanında tamamlayıcı ve alternatif çözümler sunmaktadır. Gelecek araştırmaların, oda sıcaklığına yakın süperiletken malzemelerin sentezi ve mevcut sistemlerin maliyet etkinliğinin artırılması üzerine yoğunlaşması beklenmektedir.",
+      "n_citations": 30,
+      "citations_ieee": [
+        "[1] KHAYAL MAMMADOV, \"Bor ile güçlendirilmiş aerojel tabanlı süperkapasitörlerin geliştirilmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi-Cerrahpaşa / Lisansüstü Eğitim Enstitüsü / Kimya Ana Bilim Dalı / Fiziksel Kimya Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1pwTzRXnomYf6jwqVORfUY6XzYEg3WpEVWnh-Us-bpahyNCfdayQsEt4vpjzK6An",
+        "[2] YUSUF ÇINAR, \"Süper iletken manyetik yatakların analizi ve modellenmesi,\" Yüksek Lisans/Doktora tezi, Gebze Yüksek Teknoloji Enstitüsü / Mühendislik ve Fen Bilimleri Enstitüsü / Enerji Sistemleri Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ePX_SaJ0b35Gq45swKG3lFbOFXbe9fJHo-Ugu4qRLJE05honwpotlZtQMmaw7yv1",
+        "[3] SELÇUK HACIÖMEROĞLU, \"İkinci tür süperiletkenlerde yüksek sıcaklıkta vorteks dinamiği,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Fen Bilimleri Enstitüsü / Fizik Ana Bilim Dalı, 2005. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=XohQ0H2mJnBfxLPsY8dG4zaCOBX94A1U6t3tlzFUeqBzbSbL9q0ndmmRaTkD39Ec",
+        "[4] ASLI ASİYE AĞIL, \"Yüksek değerlikli katyon (W, Mo) katkılı BSCCO külçe süper iletkenlerin üretimi ve fiziksel karakterizasyonu,\" Yüksek Lisans/Doktora tezi, Kahramanmaraş Sütçü İmam Üniversitesi / Fen Bilimleri Enstitüsü / Malzeme Bilimi ve Mühendisliği Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Br_XTptK8CZ70f0JGX9xErCq3T0qjaCFFqS5g69NMoi2li0p5ikhrWRIQes1CPRq",
+        "[5] MERVE METİN ÇELENK, \"Farklı asitlerle katkılanmış polianilinin sentezi, karakterizasyonu ve süperkapasitör uygulaması,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Kimya Mühendisliği Ana Bilim Dalı / Kimya Mühendisliği Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkiHavXwf2iOWeb8pz7OMzZVAgWVXaCg67K87AhYj0RpN",
+        "[6] MUAMMER YASİN HACISALİHOĞLU, \"Te katkılı FeSe tipi süperiletkenlerin yapısal ve manyetik özellikleri,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Fizik Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=veR1mHu9yoWjwcVUjCEoPPDfKDHj_0X5Okzyok_PP3BB2ER_ErrZEcvFGsjfWOu7",
+        "[7] NURETTİN ÖMÜR, \"Enerji depolamada kullanılan süperiletken manyetik yatakların sonlu elemanlar yöntemi ile elektromanyetik analizi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Fizik Ana Bilim Dalı / Fizik Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=X-M9ZoIuIoNTj2P7iY13hZZnQMMWhesRoqVa6Gp8hfMgT6RKyH1Q0UpsMA-ghkxs",
+        "[8] BAŞAK ATİLLA, \"Değişik oranlarda gümüş (Ag) eklenmiş Bi2Sr2Ca0.925Na0.075Cu2Oy  süperiletkenlerin magnetodirenç özelliklerinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Çukurova Üniversitesi / Fen Bilimleri Enstitüsü / Fizik Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBsGiCZXC-f48CRRot3flZj3cLEppWWklKxJnnHS2ikyb",
+        "[9] YAĞMUR KIRÇİÇEK, \"Yenilenebilir enerji kaynaklarına destek için kullanılan batarya ve ultrakapasitör depolama birimlerinin modellenmesi ve analizi,\" Yüksek Lisans/Doktora tezi, Kocaeli Üniversitesi / Fen Bilimleri Enstitüsü / Enerji Sistemleri Mühendisliği Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Br_XTptK8CZ70f0JGX9xEm88zKuGIrrnV0qhGiRwzsYEyXl55wUjAhOmS6-YvJ6Z",
+        "[10] CAFER MERT YEŞİLKANAT, \"Üstten tohumlamalı eriyik büyütme yöntemi ile üretilmiş YBaCuO tek kristal süperiletkeninin mekaniksel ve manyetik özelliklerinin incelenmesi,\" Yüksek Lisans/Doktora tezi, Gaziosmanpaşa Üniversitesi / Fen Bilimleri Enstitüsü / Fizik Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ZeTyprYuef2HkaF3xt4wYtDFZJlPT3-dEgK8kGNs7uG7FhRuPqSFmmLsRyfIvNpI",
+        "[11] EZGİ YURTTAŞ, \"Yüksek ve düşük sıcaklık dayanımına sahip aktif karbon temelli süperkapasitörlerin geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZbpj1wWs4bLTfpryXMlDlvMvIrOvMIw37WMc9TE_scZKs",
+        "[12] DİLAN DENİZ DEMİR, \"Enerji depolama aracı olarak süperkapasitörlerin ekstrapolasyon uygulamaları yardımı ile gelecek tahmini,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Fen Bilimleri Enstitüsü / Güneş Enerjisi Ana Bilim Dalı / Enerji Teknolojisi Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cr4SkWLaRMhkDRBjqthpsbWKQcAkT3EUatv8X36HU21HCw_aDkSMhTXN2LzmkmXA",
+        "[13] DURUL BÜŞRA DİLDEN, \"Yarı-katı polimer elektrolitlerin simetrik bir süperkapasitörde elektrokimyasal karakterizasyonu,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Mühendisliği Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CG8WvdvvxJP04Unr7Yecf2MRdPEv3Fm-dpg8XPwzvCkJP0t6qHpzOYCnoHAbFkBC",
+        "[14] SEZAİ KÜTÜK, \"Yeni (RE)3Ba5Cu8Oy (RE: Y, Nd, Sm, Gd) bulk süperiletkenlerinin üretimi ve karakterizasyonu,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Fizik Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=gyLHMouPes-CvnhRcjQsKe6XGgxO4IAZxjCwhULVP5r1ZPEMSCDRpihz6568gv5t",
+        "[15] MEHMET BOLAT, \"Dağıtık enerji üretim sistemleri için enerji depolama sistem tasarımı, planlanması ve uygulaması,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik ve Elektronik Mühendisliği Ana Bilim Dalı / Elektrik Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5Sgvlgg-LdebqzaOuHK1_E4ZJnd2iFWRLrqYb6VaVN2E30yr2A",
+        "[16] İSMAİL TÜRKMEN, \"UHEM veri merkezi ısıl profilinin deneysel incelemesi ve CFD analizi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Makine Mühendisliği Ana Bilim Dalı / Isı-Akışkan Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZbkWfZckm3VRWwYpYG2gLhy4mWpmYpAPaGAxdJJiC8qv7",
+        "[17] ŞEFİKA YILDIRIM, \"Güneş enerjisi destekli süperkritik co2 ile çalışan birleşik güç üretim sisteminin incelenmesi,\" Yüksek Lisans/Doktora tezi, Isparta Uygulamalı Bilimler Üniversitesi / Lisansüstü Eğitim Enstitüsü / Enerji Sistemleri Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=jNRDC1RLfVd4_T7x7ZXmmZAgANtuqqE07SMbck3WL6-EbiztqRZJvtJaBR5ehC5-",
+        "[18] ÖZGÜR GÜÇLÜ, \"Nanolif süperkapasitörlerin etkin depolama mekanizmalarının araştırılması,\" Yüksek Lisans/Doktora tezi, Muğla Sıtkı Koçman Üniversitesi / Fen Bilimleri Enstitüsü / Enerji Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQmmZP_S2CB17r7ueSYslkCeaL0Z-FSUh94MrzINYyEjY",
+        "[19] EMRE UYSAL, \"Soğuk depo uygulamasında en uygun aşırı kızdırma (superheat) değerinin deneysel olarak belirlenmesi,\" Yüksek Lisans/Doktora tezi, Karabük Üniversitesi / Fen Bilimleri Enstitüsü / Enerji Sistemleri Mühendisliği Ana Bilim Dalı / Enerji Sistemleri Mühendisliği Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=hcgrYffRbz0Z44UJEuLtwVLmnYa9TtHAH12HcWpMzvThV4653NwA8Sjzbh5A0Yjt",
+        "[20] IKRAM IMANE KOUACHI, \"Süperiletkenlikte termodinamik özelliklerin incelenmesi,\" Yüksek Lisans/Doktora tezi, Eskişehir Osmangazi Üniversitesi / Fen Bilimleri Enstitüsü / Fizik Ana Bilim Dalı / Katıhal Fiziği Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fl0Kw4p1rmMDotyKRdYv1Cafh1SpOBA3VioArij-l9FqKXiKMLOCjM_YLlopVqBS",
+        "[21] RIDVAN ÇELİK, \"Veri merkezleri'nin enerji verimliliklerinin değerlendirilmesi,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik ve Elektronik Mühendisliği Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=G_oJ1rKE4SgJUkomyAKpR6LflsSzCRKFSemmE9PoDhTfRUuh5y3uY9bZ3bDwqp9F",
+        "[22] KAAN YILMAZKARASU, \"Örnek bir veri merkezi için ısıl yüklerin farklı yazılımlar kullanılarak karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Fen Bilimleri Enstitüsü / Makine Mühendisliği Ana Bilim Dalı / Makine Mühendisliği Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77Lc2OYmoOzrAmUa_9vHEKWLOd1IuWl3iq_ndZEv-yWh5f",
+        "[23] NEJLA YÖRÜK, \"Bir iş merkezinde enerjinin etkin kullanımının incelenmesi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Makine Mühendisliği Ana Bilim Dalı / Isı Proses Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGon3T8EuA0Tl66tmRLRf8G3gh_EAjb_KwjbJOQzSvdYt",
+        "[24] KAZIM ONUR ALBAYRAK, \"Enerji verimliliğinde yalın yöntemlerin uygulanması: Soğutucu fabrikasında bir uygulama,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Enerji Enstitüsü / Enerji Bilim ve Teknoloji Ana Bilim Dalı / Enerji Bilim ve Teknoloji Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=4J_FzTwlrMCH4qBROpXPH9eYXfh2h-Dj22MAHzPnrbCC5otgEyC322FwUPxILBp8",
+        "[25] SEZEN BEYARSLAN, \"Yenilenebilir enerji kaynakları ile mikro şebeke tasarımı ve optimum çözümünün HOMER ile incelenmesi,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Elektrik Mühendisliği Ana Bilim Dalı / Elektrik Mühendisliği Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5Sgvlgg-cWInSwGiOfL04X1ykTIIckmEuO9IfsMACUCrXUg5kk",
+        "[26] MELİKE ÇATAL, \"Mikroişlemci denetimli hibrit sistem tasarımı ve uygulaması,\" Yüksek Lisans/Doktora tezi, Afyon Kocatepe Üniversitesi / Fen Bilimleri Enstitüsü / Yenilenebilir Enerji Sistemleri Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=5XiSE4yCP_gmnukpMEp65dRa2WtEdZpa8tquTVAez1muC8Azn-p3zsCH0EzO0mTH",
+        "[27] GÖKHAN YÜKSEK, \"Batarya-süperkapasitör hibrit enerji depolama sistemleri için batarya sağlık durumuna dayalı yeni bir adaptif enerji yönetim sistemi geliştirilmesi,\" Yüksek Lisans/Doktora tezi, Mersin Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQnWVRdDr3LbHrNCjRDBAlCRRZSFR-aQgI1QYfiFd41J_",
+        "[28] HAMZA POLAT, \"Hibrit sistem ile oluşturulan mikro şebekede enerji yönetimi,\" Yüksek Lisans/Doktora tezi, Necmettin Erbakan Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik ve Elektronik Mühendisliği Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CG8WvdvvxJP04Unr7Yecf1LXWe_7bnW8lAR7JPZHtV4tnSDS2w9rQ24_DdBTZtzp",
+        "[29] ZEYNEP TÜFEK, \"Yenilenebilir enerji santralleri dahil olan güç sistemlerinde depolama teknolojilerinin kıyaslanması,\" Yüksek Lisans/Doktora tezi, Yozgat Bozok Üniversitesi / Lisansüstü Eğitim Enstitüsü / Elektrik ve Elektronik Mühendisliği Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=E_eEUHQic_C-LvhxNQn1W3YRlrjTSxiXVe4ZPzholv_3fgjLGsWWss8tDZncUvyp",
+        "[30] FİLİZ KURT, \"YBCO (358) süperiletken sisteminin katıhal yöntemi ile hazırlanması ve karakterizastonu,\" Yüksek Lisans/Doktora tezi, İnönü Üniversitesi / Fen Bilimleri Enstitüsü / Fizik Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-ApqYpc7M7PzvO_yqRwQ2B-R_9dj7NsIx5X1NLSYoKzg_"
+      ]
+    }
+  },
+  "error": null
+}

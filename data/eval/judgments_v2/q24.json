@@ -1,0 +1,12 @@
+{
+  "id": "q24",
+  "question": "Yeşil kimya prensiplerinin ilaç üretim süreçlerindeki uygulamaları nelerdir?",
+  "category": "chemistry",
+  "judgment": {
+    "citation_accuracy": 0.6,
+    "faithfulness": 0.5,
+    "coverage": 0.4,
+    "holistic_score": 2,
+    "rationale": "Yanıt, yeşil kimya prensiplerinin ilaç üretimindeki uygulamalarını genel hatlarıyla ele alsa da, atıfların önemli bir kısmı kaynaklarla zayıf bağlantılıdır. Örneğin [1] yeşil tedarik zinciri üzerine bir alan araştırmasıdır ancak ilaç üretimine dair spesifik bir içerik taşımaz; [4], [5], [8] gibi katalizör tezleri ilaç üretimiyle doğrudan ilgili değildir. Alt sorulardan özellikle Türkiye'deki sınırlılıklar/zorluklar ve spesifik ilaç etken maddeleri/tez çalışmaları neredeyse hiç ele alınmamıştır. Ayrıca maliyet ve sürdürülebilirlik etkileri yüzeysel geçilmiştir. Akademik üslup kabul edilebilir düzeydedir ancak kaynak kullanımı zayıf ve kapsam dar kalmıştır."
+  }
+}

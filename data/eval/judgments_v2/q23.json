@@ -1,0 +1,12 @@
+{
+  "id": "q23",
+  "question": "Süperiletken malzemelerin enerji depolama uygulamaları üzerine yapılan deneysel çalışmalardaki bulgular nelerdir?",
+  "category": "physics",
+  "judgment": {
+    "citation_accuracy": 0.3,
+    "faithfulness": 0.25,
+    "coverage": 0.2,
+    "holistic_score": 1,
+    "rationale": "Yanıt, süperiletken enerji depolama (SMES) konusunu ele almak yerine büyük ölçüde süperkapasitörler ve hibrit sistemler gibi ilgisiz konulara kaymıştır. Atıfların çoğu (ör. [1], [5], [11]-[29]) süperkapasitör, veri merkezi, soğutma, enerji verimliliği gibi konularla ilgili olup süperiletken enerji depolamayla doğrudan ilgili değildir. Kaynaklarla yanıt arasında ciddi bir uyumsuzluk vardır; iddiaların çoğu getirilen kaynaklarda desteklenmemektedir. Alt soruların neredeyse hiçbiri (SMES performans karşılaştırmaları, enerji yoğunluğu/verimlilik değerleri, quench olayı, yenilenebilir entegrasyon, ölçüm yöntemleri) yeterince yanıtlanmamıştır."
+  }
+}

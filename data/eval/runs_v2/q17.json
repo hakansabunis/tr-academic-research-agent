@@ -1,0 +1,289 @@
+{
+  "id": "q17",
+  "category": "business",
+  "type": "application",
+  "question": "Müşteri sadakat programlarının e-ticaret sektöründeki etkinliği üzerine yapılan araştırmalar nelerdir?",
+  "expected_subjects": [
+    "İşletme",
+    "Pazarlama"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 118.4,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Müşteri sadakat programlarının e-ticaret müşterilerinin tekrar satın alma niyeti üzerindeki etkisini inceleyen tez çalışmalarında hangi yöntemler (anket, deneysel tasarım, veri madenciliği vb.) kullanılmıştır?",
+          "rationale": "Yöntemsel çeşitliliği ortaya koyarak hangi araştırma desenlerinin tercih edildiğini gösterir."
+        },
+        {
+          "text": "E-ticaret bağlamında sadakat programlarının müşteri yaşam boyu değeri (CLV) ve kârlılık üzerindeki etkisine dair tezlerde hangi temel bulgular raporlanmıştır?",
+          "rationale": "Finansal etki boyutunu ölçen ampirik bulguları derleyerek programların somut çıktılarını ortaya koyar."
+        },
+        {
+          "text": "Türkiye'deki e-ticaret platformlarına özgü sadakat programları (örneğin Hepsiburada, Trendyol) ile uluslararası platformlar arasında karşılaştırmalı analiz yapan tez çalışmaları hangi farklılıkları ortaya koymuştur?",
+          "rationale": "Kültürel ve sektörel bağlam farklılıklarının sadakat programı etkinliğini nasıl etkilediğini anlamaya yardımcı olur."
+        },
+        {
+          "text": "Müşteri sadakat programlarının e-ticaretteki etkinliğini inceleyen tezlerde en sık karşılaşılan sınırlılıklar (örneklem, zaman kısıtı, veri erişimi vb.) nelerdir ve bu sınırlılıklar bulguların genellenebilirliğini nasıl etkilemektedir?",
+          "rationale": "Mevcut literatürün zayıf yönlerini belirleyerek gelecek araştırmalar için yol haritası sunar."
+        },
+        {
+          "text": "Sadakat programlarının e-ticarette müşteri bağlılığı ve ağızdan ağıza pazarlama (WOM) davranışı üzerindeki etkisini inceleyen tezlerde hangi aracı/düzenleyici değişkenler (güven, algılanan değer, memnuniyet vb.) modellenmiştir?",
+          "rationale": "Sadakat programlarının etki mekanizmasını açıklayan teorik çerçeveleri ve dolaylı etki yollarını ortaya koyar."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 26,
+      "max_score": 0.8773,
+      "min_score": 0.8276,
+      "chunks": [
+        {
+          "tez_no": "570794",
+          "title_tr": "Web sayfası kullanım kalitesi, güven ve canlı desteğin yeniden satın alma niyeti üzerine etkisi: Online alışveriş siteleri ve müşterileri üzerine bir araştırma",
+          "author": "EMİNE AYDINHAN",
+          "year": 2019,
+          "score": 0.8773,
+          "abstract_excerpt": "Günümüzün değişken iş çevresinde, e-perakendeciler güçlü bir rekabet ortamıyla karşı karşıyadır. İnternetin yaygınlaşması, zaman kavramının giderek daha da değerlenmesi, online ortamdaki ürün çeşitliliği ve satın alım kolaylıkları, kullanıcıların istedikleri yerde ve zamanda internete erişerek alışv"
+        },
+        {
+          "tez_no": "240160",
+          "title_tr": "B2C ticarette müşteri sadakati ve bir uygulama",
+          "author": "ESİN TETİK",
+          "year": 2009,
+          "score": 0.8683,
+          "abstract_excerpt": "B2C ticarette müşteri sadakati kavramının daha doğru biçimde anlaşılması ve tüketicilerin B2C ticaret sitelerinden alışverişlerine yönelik satın alımları sonucunda oluşan müşteri sadakatlerini belirleyen unsurların neler olduğu hususunda; internet kullanıcılarına, online tüketicilere ve girişimciler"
+        },
+        {
+          "tez_no": "362493",
+          "title_tr": "E-perakendecilik hizmet kalitesi belirleyicilerinin tüketici davranışlarına etkisi üzerinde güven, tatmin ve itibar unsurlarının rolü",
+          "author": "AYŞEGÜL DONMAZ",
+          "year": 2014,
+          "score": 0.8673,
+          "abstract_excerpt": "İşletmelerin varlıklarını sürdürebilmeleri ve rekabet avantajı sağlayabilmeleri, teknolojik gelişmeleri sürekli takip etmelerine bağlıdır. Bu konuda en önemli olgulardan biri de internettir. İnternet günümüzde müşterilerin ürün ve hizmet satın alma davranışlarında da köklü değişiklikler yapmaktadır."
+        },
+        {
+          "tez_no": "351701",
+          "title_tr": "Onlıne (Çevrimiçi) alışveriş sitelerinde e-hizmet kalitesi ve e-hizmet telafi kalitesinin elektronik sadakat üzerine etkileri",
+          "author": "MEYSURE EVREN KİPMAN",
+          "year": 2013,
+          "score": 0.8645,
+          "abstract_excerpt": "Bu çalışma, sanal ortamda online alışveriş sitelerinden alışveriş yapanları kapsayan ve alışveriş yapanların sadakatlerini inceleyen bir çalışmadır. Amaç, öncelikle online alışveriş sitelerinde Elektronik Hizmet Kalitesi ve Elektronik Hizmet Telafi Kalitesi?nin Elektronik Sadakat üzerine etkilerini "
+        },
+        {
+          "tez_no": "215241",
+          "title_tr": "E-ticarette müşteri sadakatinin ve güveninin sağlanması ve bankacılık sektöründe uygulama",
+          "author": "NİHAT ERGİN",
+          "year": 2007,
+          "score": 0.861,
+          "abstract_excerpt": "Bilgi teknolojilerinin kurum ve kuruluslarda, toplumsal ve bireysel yasamda,\u000bdegisik biçimlerde etkileri görülmektedir. Bu teknolojiler e-ticaretti toplumsal yasama\u000bsunarak insanların, kurum ve kurulusların alısveris alıskanlıklarını degistirmistir.\u000bElektronik aglar ve internet üzerinden yapılan e-t"
+        },
+        {
+          "tez_no": "649938",
+          "title_tr": "E-hizmet kalitesi, web sitesine duyulan güven ve algılanan riskin müşteri memnuniyeti ve müşterilerin olumlu davranışlarına olan etkisi",
+          "author": "MEHMET DEMİRDÖĞMEZ",
+          "year": 2020,
+          "score": 0.8586,
+          "abstract_excerpt": "Teknolojinin hızla gelişimi buna bağlı olarak internet kullanımındaki artış elektronik ticareti ve internet yoluyla alışverişi olumlu bir şekilde etkilemiştir. E-ticarette, seçilen ürün veya verilen sipariş ve bunların karşılığı olan ödeme işlemi de dâhil yapılan her işlem internet yoluyla, sanal or"
+        },
+        {
+          "tez_no": "672389",
+          "title_tr": "E-ticaret sitelerinde müşteri deneyiminin, tekrar ziyaret niyeti ve satın alma niyeti ile ilişkisinin incelenmesi: amazon.com.tr sitesi örneğinde bir uygulama",
+          "author": "GÖKHAN MERİÇ",
+          "year": 2021,
+          "score": 0.8576,
+          "abstract_excerpt": "Bu çalışmada e-ticaret sitelerinde müşteri deneyiminin, tekrar ziyaret niyeti ve satın alma niyeti ile ilişkisinin amazon.com.tr sitesi örneğinde incelenmesi amaçlanmıştır. Bunun yanında müşteri deneyimi, tekrar ziyaret niyeti ve satın alma niyetinin demografik özelliklere göre farklılık gösterip gö"
+        },
+        {
+          "tez_no": "607608",
+          "title_tr": "Türkiye'de 2000 yılı sonrası e-ticaretin gelişimi",
+          "author": "CANAN KARABULUT",
+          "year": 2019,
+          "score": 0.8576,
+          "abstract_excerpt": "E-ticaret kavramı ticaret dünyasında yeni ortaya çıkmış bir kavram değildir. Ekonomik sistemle birlikte iş dünyasında yıllar önce kendisine yer edinmiş bir olgu olarak karşımıza çıkmaktadır. E-ticaretin gelişmesi ve ortaya çıkması gelişen teknolojinin büyük katkısı ile meydana gelmiştir. Bilişim tek"
+        },
+        {
+          "tez_no": "470071",
+          "title_tr": "Mevcut e-ticaret sistemlerinin analizi ve etkin kullanımına yönelik bir sistem önerisi",
+          "author": "MUSTAFA METİN UĞUR",
+          "year": 2017,
+          "score": 0.8559,
+          "abstract_excerpt": "Dünyada ve Türkiye de günden güne hızla büyüyen e-ticaret eko sistemi, büyümesiyle doğru orantılı olarak cazip bir mecra haline gelmektedir. E-ticaret dünyada ticaret piyasasında yüksek oranlar ile yerini alıyor olmasına karşın Türkiye de henüz taze bir sektör olarak pazarda yerini almaktadır. Bu ka"
+        },
+        {
+          "tez_no": "221347",
+          "title_tr": "Dünya'da ve Türkiye'de perakendecilik ve e-ticaret karşılaştırması",
+          "author": "CAN KÜPOĞLU",
+          "year": 2008,
+          "score": 0.8509,
+          "abstract_excerpt": "Perakendecilik, üretici ve tüketici arasında malların naklini sağlayan aracılık hizmetidir. Başka bir deyişle, mal ve hizmetlerin ticari bir amaçla kullanmama veya tekrar satmama, kişisel gereksinmeleri için kullanmama koşuluyla, doğrudan doğruya son tüketiciye pazarlanmasıyla ilgili faaliyetler büt"
+        },
+        {
+          "tez_no": "494047",
+          "title_tr": "E-ticaret sektöründe müşteri memnuniyeti ve sadakati arasındaki ilişkinin Yapısal Eşitlik Modeliyle incelenmesi",
+          "author": "MUHAMMED RAŞİD ŞİMŞEK",
+          "year": 2017,
+          "score": 0.8396,
+          "abstract_excerpt": "Bu çalışmanın amacı e-ticaret sektöründe müşteri memnuniyet ve sadakati arasındaki ilişkiyi Yapısal Eşitlik Modeli ile incelemektir. Çalışmada müşteri memnuniyeti ve sadakatinin faktörleri belirlenecek, bu faktörler ile müşteri memnuniyeti ve sadakati arasındaki ilişkiler model yardımıyla tanımlanac"
+        },
+        {
+          "tez_no": "330883",
+          "title_tr": "Müşteri sadakati yaratma sürecinde müşteri değeri ve müşteri tatmininin rolü: Telekomünikasyon sektöründe bir uygulama",
+          "author": "MERVE ÇETİN KARATEKİN",
+          "year": 2012,
+          "score": 0.8354,
+          "abstract_excerpt": "Günümüzün yoğun rekabet koşullarında işletmelerin rakiplerine karşı güç kazanması ve sürdürülebilir bir rekabet avantajı elde etmesi için en önemli faktör müşteri sadakati yaratmak ve dolayısıyla sadık müşteriler kazanmaktır. Müşteri sadakatinin işletmeler için doğal sonucu pazarlama giderlerinin ve"
+        },
+        {
+          "tez_no": "340172",
+          "title_tr": "Küreselleşme sürecinde e-ticaretin önemi ve pazar payı",
+          "author": "TUĞBA KARAKAYA",
+          "year": 2013,
+          "score": 0.8346,
+          "abstract_excerpt": "Küreselleşme sürecinin geçmişten günümüze birçok etkisinin olduğu ve küreselleşme süreci ile birlikte yeniliklerin de meydana geldiği görülmüştür. Küreselleşme sürecinin meydana getirmiş olduğu faktörler üzerinde de durularak, küreselleşme sürecinin tüm dünyadaki yansımaları üzerinde de bir takım ye"
+        },
+        {
+          "tez_no": "888330",
+          "title_tr": "Elektronik perakendecilik boyutlarının elektronik tatmin ve  elektronik sadakate etkisi: Trendyol örneği",
+          "author": "MUSTAFA EFE",
+          "year": 2024,
+          "score": 0.8316,
+          "abstract_excerpt": "Elektronik perakendecilik sektörü, tüketicilere zaman ve mekân sınırlamalarını ortadan kaldırarak istedikleri her yerden ürünlere erişim imkânı sunmakta ve sürekli bir büyüme kaydetmektedir. Bu dinamik ve rekabetçi pazarda faaliyet gösteren firmalar için, müşterilerini tatmin etmek ve sadakatlerini "
+        },
+        {
+          "tez_no": "496312",
+          "title_tr": "Türkiye'de elektronik pazaryerlerinde hizmet kalitesi, güven ve satınalma niyeti arasındaki ilişki: yapısal eşitlik modeli uygulaması",
+          "author": "SERDAR AYKUT ERGÜL",
+          "year": 2017,
+          "score": 0.8314,
+          "abstract_excerpt": "Teknolojinin gelişmesiyle dünya küreselleşmiş, mesafeler artık önemsiz hale gelişmiştir. Şüphesiz ki dünyanın değişiminde önemli bir pay internetin keşfine düşmektedir. İnternetin keşfiyle hem hayatımız hem de iş yapış yöntemleri de büyük değişime uğramıştır. Başlangıçta fax, telefon hatta televizyo"
+        },
+        {
+          "tez_no": "784816",
+          "title_tr": "COVID-19 pandemi döneminde e-perakendecilikte çevrimiçi müşteri deneyiminin çevrimiçi müşteri sadakati üzerine etkisi",
+          "author": "GÜLŞAH KALENDER",
+          "year": 2023,
+          "score": 0.8306,
+          "abstract_excerpt": "İnternet ve internetten alışveriş günümüzün vazgeçilmezi haline gelmiştir. Pandemi döneminde çevrimiçi alışverişlerin artmasıyla birlikte tüketicilerin çevrimiçi ortamlarda gerçekleştirdikleri alışverişlerin artışı ve yaşadıkları deneyimler çalışmanın çıkış noktası olmuştur. Tüketicilerin gerçekleşt"
+        },
+        {
+          "tez_no": "333647",
+          "title_tr": "İlişkisel pazarlama kapsamında e-hizmet kalitesi, e-müşteri memnuniyeti ve e-müşteri bağlılığı arasındaki ilişkinin analizi: Bir alan araştırması",
+          "author": "MUSTAFA KAYIK",
+          "year": 2013,
+          "score": 0.8298,
+          "abstract_excerpt": "Bilgi ve iletişim teknolojilerinde meydana gelen hızlı ilerlemeler pazarlamada çok büyük değişikliklere yol açarak bir taraftan işletmelere yeni olanaklar sunarken, diğer taraftan da içerisinde bulundukları rekabetin daha da artmasına neden olmuştur. Bu durum işletmeleri klasik yönetim anlayışını te"
+        },
+        {
+          "tez_no": "869889",
+          "title_tr": "Çevrimiçi alışverişte hizmet kalitesinin müşteri sadakati ve elektronik ağızdan ağıza iletişime etkisinde marka imajının rolü",
+          "author": "ŞULE EKİNCİ",
+          "year": 2024,
+          "score": 0.8293,
+          "abstract_excerpt": "Araştırmanın temel amacı; çevrimiçi alışverişte hizmet kalitesinin müşteri sadakati ve elektronik ağızdan ağıza iletişime (EAAİ) etkisinde marka imajının aracılık etkisini incelemek ve işletmelere bu doğrultuda öneriler sunmaktır. Bu kapsamda çalışmanın alt amaçları ise e-hizmet kalitesinin müşteri "
+        },
+        {
+          "tez_no": "543815",
+          "title_tr": "Elektronik ağızdan ağıza pazarlama ile marka sadakati arasındaki ilişkide marka güveninin rolü ve bir araştırma",
+          "author": "DİLARA ERŞEN",
+          "year": 2019,
+          "score": 0.8268,
+          "abstract_excerpt": "Günümüzde internet teknolojisinin aktif olarak kullanılması, tüketicilerin sanal ortamdaki farklı müşterilerin belirli markalar ve ürünler hakkında paylaştıkları içeriklere hızlı bir şekilde ulaşmalarına imkan sağlamaktadır. Müşterilere ulaşan bilgilerin yorumlanmasında değerlendirilen kriterler kiş"
+        },
+        {
+          "tez_no": "271292",
+          "title_tr": "Yurtdışına e-ticaret ve ihracatımıza olası etkileri",
+          "author": "MEHMET RECEP USALAN",
+          "year": 2010,
+          "score": 0.8238,
+          "abstract_excerpt": "1990'lı yılların başında dünya gündemine giren, 2000'lerin başına kadar hızla gelişen ve 2000 yılındaki ?dot.com? krizi ile duraklayan e-ticaret 2006 yılından itibaren toparlanmaya ve dönüşüm geçirmeye başlamıştır (Goldfarb, 2006). İnternete bağlanan kullanıcıların artması ve özellikle internet eriş"
+        },
+        {
+          "tez_no": "649372",
+          "title_tr": "Elektronik ticaret sitelerinde değer ve hizmet algılarının müşteri sadakatine etkisi; tatmin ve güvenin aracılık rolü",
+          "author": "BARIŞ BATUHAN GEÇİT",
+          "year": 2020,
+          "score": 0.8144,
+          "abstract_excerpt": "Küreselleşmenin ve teknolojikleşmenin etkisiyle 20.yüzyıl boyunca ticaret dinamikleri köklü değişimlere uğraşmıştır. Dünya savaşları sonrası küresel ticaretin artması uluslararası ticareti geliştirmiştir. Elektronik icatların artışıyla birlikte 20.yüzyılın sonu itibariyle elektronik ticaret kavramı "
+        },
+        {
+          "tez_no": "566032",
+          "title_tr": "E-ticarete entegre kargo hizmetinin marka sadakatinin sürdürülebilirliğine etkisi",
+          "author": "CEMİL KAYA",
+          "year": 2019,
+          "score": 0.8133,
+          "abstract_excerpt": "İnternete entegre teknolojilerin ticari alanı da kapsamına dahil etmesi sonucu elektronik ticaretle birlikte alışveriş alışkanlıklarında zaman ve mekan kısıtı, geçerliliğini yitirmiştir. Klasik perakende ile e-ticaret arasında birçok yönden farklılıklar bulunmaktadır. İki mecra arasındaki en önemli "
+        },
+        {
+          "tez_no": "376470",
+          "title_tr": "E-ticaret ve Türkiye'de e-bankacılığın gelişimi",
+          "author": "BUKET ŞAMİL",
+          "year": 2014,
+          "score": 0.8462,
+          "abstract_excerpt": "Elektronik ticaret 1995 yılından sonra İnternet kullanımının artmasıyla ortaya çıkan, ticaretin elektronik ortamda yapılması kavramıdır. Elektronik ticaret, tüm dünyada ticaretin serbestleştirilmesi eğilimi ile birlikte, 2000'li yıllardan sonra yaşanan ve bilgi iletişimini kolaylaştıran teknolojik g"
+        },
+        {
+          "tez_no": "626964",
+          "title_tr": "Algılanan faydanın müşteri sadakati yaratmadaki önemi ve sadakat programları üzerine bir araştırma",
+          "author": "FATOŞ BİLGİN ERTE",
+          "year": 2020,
+          "score": 0.8435,
+          "abstract_excerpt": "Marka, insanların üretim yapmaya başladığı ilk zamanlardan bu yana hayatlarında farklı biçimlerde yer almış önemli bir kavramdır. Markaların başarısı elde ettikleri müşteri kitlesi kadar bu müşterilerle ilişkilerinin uzun ömürlü olup olmadığı ile de ölçülür. Bu nedenle müşteri sadakati yaratmak, mar"
+        },
+        {
+          "tez_no": "368352",
+          "title_tr": "Müşteri memnuniyeti ve müşteri elde tutmanın müşteri sadakatine etkisi: Bir araştırma",
+          "author": "CEMAL GÜMÜŞ",
+          "year": 2014,
+          "score": 0.8361,
+          "abstract_excerpt": "Günümüzde artan rekabet koşulları, işletme ile müşteri arasında uzun süreli bir ilişkiyi zorunlu hale getirmiştir. Müşteri tatmini ve müşteri sadakati işletmeler için başarının iki anahtar kavramıdır. Müşterilerini tatmin edebilen ve bunun da ötesinde onları elinde tutabilen işletmeler müşteri sadak"
+        },
+        {
+          "tez_no": "147076",
+          "title_tr": "Müşteri sadakati ve tekstil sektöründe ölçülmesi",
+          "author": "SELMA ÖZBİLGİ",
+          "year": 2004,
+          "score": 0.8276,
+          "abstract_excerpt": "02. Özet Müşteri sadakati günümüz pazarlama anlayışında önemli bir kavram haline gelmiştir. Müşteri sadakati müşterilerin devamlı olarak aynı işletmeden veya aynı üründen satınalmaları olarak tanımlanmaktadır. İşletmelerin varlıklarını ve karlılıklarını devam ettirebilmesi sadece yeni müşterilere sa"
+        }
+      ]
+    },
+    "synthesis": null,
+    "critic": null,
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "# Müşteri Sadakat Programlarının E-Ticaret Sektöründeki Etkinliği Üzerine Araştırmalar\n\n## Giriş\n\nE-ticaret sektörünün hızla büyümesi ve rekabetin yoğunlaşması, işletmelerin mevcut müşterilerini elde tutma ve sadakat yaratma çabalarını stratejik bir öncelik haline getirmiştir. Literatürde müşteri sadakati, müşterilerin belirli bir işletmeden veya markadan sürekli olarak satın alma eğilimi olarak tanımlanmakta olup, işletmelerin varlıklarını ve kârlılıklarını sürdürebilmeleri açısından kritik bir rol oynamaktadır [26]. Bu kapsamda, müşteri sadakat programlarının e-ticaret sektöründeki etkinliğini inceleyen çok sayıda akademik çalışma bulunmaktadır. Aşağıda bu araştırmaların bulguları tematik başlıklar altında sentezlenmiştir.\n\n## E-Hizmet Kalitesi ve Müşteri Sadakati İlişkisi\n\nAraştırmalar, e-hizmet kalitesinin müşteri sadakatinin en önemli belirleyicilerinden biri olduğunu ortaya koymaktadır. Online alışveriş sitelerinde sunulan hizmet kalitesi, müşterilerin elektronik sadakat düzeylerini doğrudan etkilemektedir [4]. E-perakendecilik boyutlarının (web sitesi tasarımı, güvenlik, müşteri hizmetleri vb.) tüketicilerin e-tatmin ve e-sadakat düzeyleri üzerinde anlamlı bir etkisi bulunmaktadır [14]. Benzer şekilde, çevrimiçi alışverişte hizmet kalitesinin müşteri sadakati üzerindeki etkisinde marka imajının aracılık rolü oynadığı tespit edilmiştir [18]. E-hizmet kalitesi, e-müşteri memnuniyeti ve e-müşteri bağlılığı arasında pozitif yönlü bir ilişki bulunduğu da çalışmalarla desteklenmektedir [17].\n\n## Güven, Memnuniyet ve Sadakat Arasındaki Dinamikler\n\nGüven ve memnuniyet, müşteri sadakatinin oluşmasında temel yapı taşları olarak öne çıkmaktadır. E-ticaret sitelerinde değer ve hizmet algılarının müşteri sadakatine etkisinde tatmin ve güvenin aracılık rolü üstlendiği belirlenmiştir [21]. Web sayfası kullanım kalitesi, güven ve canlı destek gibi faktörler, müşterilerin yeniden satın alma niyeti üzerinde etkili olmaktadır [1]. E-hizmet kalitesi, web sitesine duyulan güven ve algılanan risk, müşteri memnuniyeti ve olumlu davranışlar üzerinde belirleyici bir rol oynamaktadır [6]. Müşteri memnuniyeti ve sadakati arasındaki ilişki, Yapısal Eşitlik Modeli ile incelenmiş ve iki kavram arasında güçlü bir bağ olduğu ortaya konmuştur [11]. Müşteri memnuniyeti ve müşteri elde tutma çabalarının, müşteri sadakati üzerinde anlamlı bir etkisi bulunduğu da araştırmalarla desteklenmektedir [25].\n\n## Müşteri Deneyimi ve Tekrar Satın Alma Niyeti\n\nMüşteri deneyimi, e-ticaret sitelerinde sadakat oluşumunda kritik bir faktördür. E-ticaret sitelerinde müşteri deneyiminin, tekrar ziyaret niyeti ve satın alma niyeti ile pozitif bir ilişkisi olduğu tespit edilmiştir [7]. COVID-19 pandemi döneminde çevrimiçi müşteri deneyiminin, çevrimiçi müşteri sadakati üzerindeki etkisi daha da belirgin hale gelmiştir [16]. Algılanan fayda, müşteri sadakati yaratmada önemli bir rol oynamakta olup, sadakat programlarının etkinliği büyük ölçüde müşteriye sunulan faydanın algılanma düzeyine bağlıdır [24].\n\n## Elektronik Ağızdan Ağıza İletişim ve Marka Sadakati\n\nElektronik ağızdan ağıza pazarlama (e-WOM), marka sadakati üzerinde belirleyici bir etkiye sahiptir. Elektronik ağızdan ağıza pazarlama ile marka sadakati arasındaki ilişkide marka güveninin aracılık rolü oynadığı tespit edilmiştir [19]. Çevrimiçi alışverişte hizmet kalitesinin elektronik ağızdan ağıza iletişime etkisinde marka imajının aracılık etkisi bulunmaktadır [18]. Bu bulgular, müşteri sadakat programlarının sadece doğrudan ödüllerle değil, aynı zamanda olumlu ağızdan ağıza iletişimi teşvik ederek de etkinlik kazandığını göstermektedir.\n\n## Sadakat Programlarının Bileşenleri ve Etkinlik Faktörleri\n\nSadakat programlarının etkinliği, çeşitli bileşenlerin bir arada değerlendirilmesini gerektirmektedir. Müşteri sadakati yaratma sürecinde müşteri değeri ve müşteri tatmininin rolü, telekomünikasyon sektörü özelinde incelenmiş olmakla birlikte, bulgular e-ticaret sektörü için de yol gösterici niteliktedir [12]. E-ticarete entegre kargo hizmetinin marka sadakatinin sürdürülebilirliğine etkisi, lojistik süreçlerin sadakat programlarının başarısında önemli bir faktör olduğunu ortaya koymaktadır [22]. B2C ticarette müşteri sadakatini belirleyen unsurlar arasında güven, hizmet kalitesi ve müşteri memnuniyeti ön plana çıkmaktadır [2]. E-perakendecilik hizmet kalitesi belirleyicilerinin tüketici davranışlarına etkisi üzerinde güven, tatmin ve itibar unsurlarının rolü de araştırmalarla desteklenmektedir [3].\n\n## Sonuç\n\nMüşteri sadakat programlarının e-ticaret sektöründeki etkinliği üzerine yapılan araştırmalar, sadakatin çok boyutlu bir yapı olduğunu ve e-hizmet kalitesi, güven, memnuniyet, müşteri deneyimi, marka imajı ve elektronik ağızdan ağıza iletişim gibi faktörlerin birbiriyle etkileşim içinde çalıştığını göstermektedir. E-ticaret işletmelerinin sadakat programları tasarlarken yalnızca maddi teşviklere odaklanmak yerine, müşteri deneyimini bütüncül bir yaklaşımla ele almaları, güven inşa etmeleri ve hizmet kalitesini sürekli iyileştirmeleri gerekmektedir. Pandemi dönemiyle birlikte çevrimiçi alışverişin artması, sadakat programlarının stratejik önemini daha da artırmıştır. Gelecek araştırmaların, yapay zekâ ve kişiselleştirme teknolojilerinin sadakat programlarına entegrasyonu ile sektöre özgü farklılaşan dinamikleri daha derinlemesine incelemesi önerilmektedir.",
+      "n_citations": 26,
+      "citations_ieee": [
+        "[1] EMİNE AYDINHAN, \"Web sayfası kullanım kalitesi, güven ve canlı desteğin yeniden satın alma niyeti üzerine etkisi: Online alışveriş siteleri ve müşterileri üzerine bir araştırma,\" Yüksek Lisans/Doktora tezi, Gebze Teknik Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=jNRDC1RLfVd4_T7x7ZXmmXs1WLUsKCMYADHRU2Ty5-MGaZVBvwShpVES6Xd9YIbB",
+        "[2] ESİN TETİK, \"B2C ticarette müşteri sadakati ve bir uygulama,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Bölümü / İşletme Ana Bilim Dalı / İşletme Yönetimi Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAYYbcxqdjfCIaMWlopu8nFAyt1WugHV0uY34UwIxxmpk",
+        "[3] AYŞEGÜL DONMAZ, \"E-perakendecilik hizmet kalitesi belirleyicilerinin tüketici davranışlarına etkisi üzerinde güven, tatmin ve itibar unsurlarının rolü,\" Yüksek Lisans/Doktora tezi, Haliç Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Bölümü / İşletme Ana Bilim Dalı / İşletme Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=gyLHMouPes-CvnhRcjQsKRGuazwm2KQb2zaZ5egxMhNPRpJHYHk0wM40bQlgWKKk",
+        "[4] MEYSURE EVREN KİPMAN, \"Onlıne (Çevrimiçi) alışveriş sitelerinde e-hizmet kalitesi ve e-hizmet telafi kalitesinin elektronik sadakat üzerine etkileri,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / Üretim Yönetimi ve Pazarlama Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1zw6GvYMe-q3Hf6HR-3US3ol9SBT3errqA6gEMj4r5CbhAZVdelWj8QCyvQrr9ov",
+        "[5] NİHAT ERGİN, \"E-ticarette müşteri sadakatinin ve güveninin sağlanması ve bankacılık sektöründe uygulama,\" Yüksek Lisans/Doktora tezi, Dumlupınar Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wBmNpkQC9Nhi90NLW7E7-aIKOMmkLcn92Kct9a_WgKD-B39-yQdy771lLV8Jd3Hx",
+        "[6] MEHMET DEMİRDÖĞMEZ, \"E-hizmet kalitesi, web sitesine duyulan güven ve algılanan riskin müşteri memnuniyeti ve müşterilerin olumlu davranışlarına olan etkisi,\" Yüksek Lisans/Doktora tezi, Harran Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fl0Kw4p1rmMDotyKRdYv1O7me8HY89mWyYuEkrjIZsv_VGtaJevJUD0LeDqq7YS8",
+        "[7] GÖKHAN MERİÇ, \"E-ticaret sitelerinde müşteri deneyiminin, tekrar ziyaret niyeti ve satın alma niyeti ile ilişkisinin incelenmesi: amazon.com.tr sitesi örneğinde bir uygulama,\" Yüksek Lisans/Doktora tezi, İstanbul Ticaret Üniversitesi / Sosyal Bilimler Enstitüsü / Dijital Ekonomi ve Pazarlama Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEApf0D5EDiS298Q8YTQoHnxGAr3hnS6oW6aWCQxNRPm91",
+        "[8] CANAN KARABULUT, \"Türkiye'de 2000 yılı sonrası e-ticaretin gelişimi,\" Yüksek Lisans/Doktora tezi, İstanbul Aydın Üniversitesi / Lisansüstü Eğitim Enstitüsü / İşletme Ana Bilim Dalı / İşletme Yönetimi Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBoQrZZ6e3FusNGsCevIur0mg0VQNuZcDygp1i79SYT78",
+        "[9] MUSTAFA METİN UĞUR, \"Mevcut e-ticaret sistemlerinin analizi ve etkin kullanımına yönelik bir sistem önerisi,\" Yüksek Lisans/Doktora tezi, Beykent Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=7lOJX8w_8PRQU1mSHU6-jmPPIYH__qL6Ij5dQcoC-XW7H3WHknrTiWC2q72vT-iA",
+        "[10] CAN KÜPOĞLU, \"Dünya'da ve Türkiye'de perakendecilik ve e-ticaret karşılaştırması,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Bölümü / İktisat Ana Bilim Dalı / İktisat Teorisi Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6Q7J415jQCfyX0fEX7z_Q-36gRVPMnp5TA-zNMyqZUoOA",
+        "[11] MUHAMMED RAŞİD ŞİMŞEK, \"E-ticaret sektöründe müşteri memnuniyeti ve sadakati arasındaki ilişkinin Yapısal Eşitlik Modeliyle incelenmesi,\" Yüksek Lisans/Doktora tezi, Cumhuriyet Üniversitesi / Sosyal Bilimler Enstitüsü / Ekonometri Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vbVkXe1KChYWNElr1MuLZrg1AtCQ36WfAoM779vl3EJ7DmNCugOqsFwrkEbMfTj9",
+        "[12] MERVE ÇETİN KARATEKİN, \"Müşteri sadakati yaratma sürecinde müşteri değeri ve müşteri tatmininin rolü: Telekomünikasyon sektöründe bir uygulama,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vVNzTGHHhjH-u3WMToxQ-nU-QtlFfIy3mtKznhx9JjdRmkGfb4t3Lh_UJjT-974w",
+        "[13] TUĞBA KARAKAYA, \"Küreselleşme sürecinde e-ticaretin önemi ve pazar payı,\" Yüksek Lisans/Doktora tezi, İstanbul Ticaret Üniversitesi / Sosyal Bilimler Enstitüsü / Uluslararası Ticaret Ana Bilim Dalı / Uluslararası Ticaret Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=iTkOhwevEenJZ3onUvs52hotlQgZ4eps8UJR09_ETu19omi7ilH4USDAjqfRyVDU",
+        "[14] MUSTAFA EFE, \"Elektronik perakendecilik boyutlarının elektronik tatmin ve  elektronik sadakate etkisi: Trendyol örneği,\" Yüksek Lisans/Doktora tezi, Recep Tayyip Erdoğan Üniversitesi / Lisansüstü Eğitim Enstitüsü / İşletme Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT--mI11CSYCK2orGJYwHMo-KA73Mha3PfK5VIDoPA-1-a",
+        "[15] SERDAR AYKUT ERGÜL, \"Türkiye'de elektronik pazaryerlerinde hizmet kalitesi, güven ve satınalma niyeti arasındaki ilişki: yapısal eşitlik modeli uygulaması,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Endüstri Mühendisliği Ana Bilim Dalı / Mühendislik Yönetimi Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vbVkXe1KChYWNElr1MuLZvRHDB0lSzZqoghs4YFXw3FjGcZ1icl-T_4xybehVV3e",
+        "[16] GÜLŞAH KALENDER, \"COVID-19 pandemi döneminde e-perakendecilikte çevrimiçi müşteri deneyiminin çevrimiçi müşteri sadakati üzerine etkisi,\" Yüksek Lisans/Doktora tezi, Recep Tayyip Erdoğan Üniversitesi / Lisansüstü Eğitim Enstitüsü / İşletme Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxJOvj_I96w2RtQNv_J1OQCZgVmWjpP8NcC6M8po163kH",
+        "[17] MUSTAFA KAYIK, \"İlişkisel pazarlama kapsamında e-hizmet kalitesi, e-müşteri memnuniyeti ve e-müşteri bağlılığı arasındaki ilişkinin analizi: Bir alan araştırması,\" Yüksek Lisans/Doktora tezi, Dumlupınar Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vVNzTGHHhjH-u3WMToxQ-r2mhWNUz7GqdfSNWfljQS_MVWY2Ybc-t3RLX2eBZJkB",
+        "[18] ŞULE EKİNCİ, \"Çevrimiçi alışverişte hizmet kalitesinin müşteri sadakati ve elektronik ağızdan ağıza iletişime etkisinde marka imajının rolü,\" Yüksek Lisans/Doktora tezi, İnönü Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / Üretim Yönetimi ve Pazarlama Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQnRb3S-mVb7eWTzDXAp1pGjIp4RDk08SFDdeKYuksoiU",
+        "[19] DİLARA ERŞEN, \"Elektronik ağızdan ağıza pazarlama ile marka sadakati arasındaki ilişkide marka güveninin rolü ve bir araştırma,\" Yüksek Lisans/Doktora tezi, Galatasaray Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=T1mWGp9MngYYkCSgiJvtVrPZz6Bsznv5kBAc7nulDZwSTkTvHUJoC9PryqPOyfO9",
+        "[20] MEHMET RECEP USALAN, \"Yurtdışına e-ticaret ve ihracatımıza olası etkileri,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Bölümü / İktisat Ana Bilim Dalı / Uluslararası İktisat Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=veR1mHu9yoWjwcVUjCEoPBTT_EJswaG9UmGvH7VGryob0iV6rocYFT3G33oz44m4",
+        "[21] BARIŞ BATUHAN GEÇİT, \"Elektronik ticaret sitelerinde değer ve hizmet algılarının müşteri sadakatine etkisi; tatmin ve güvenin aracılık rolü,\" Yüksek Lisans/Doktora tezi, Beykent Üniversitesi / Lisansüstü Eğitim Enstitüsü / İşletme Ana Bilim Dalı / İşletme Yönetimi Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fl0Kw4p1rmMDotyKRdYv1Pju1rnoz9hlN8TyEE-wH1VujJ_1CCc3HrkjKTUXaNQM",
+        "[22] CEMİL KAYA, \"E-ticarete entegre kargo hizmetinin marka sadakatinin sürdürülebilirliğine etkisi,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / Sürdürülebilir Büyüme ve Kalite Yönetimi Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZrcCAvI2FAicBtVQFTxXAAEaQc3yI-HIc2jSQ3gJirFt",
+        "[23] BUKET ŞAMİL, \"E-ticaret ve Türkiye'de e-bankacılığın gelişimi,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı / Uluslararası Ticaret ve Para Yönetimi Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=48XPj7KKQhKUgntkUiKO3O2kE5k9peiVGLw8h7qpGHPK_fcJ3cG6-XPjz4wESCwn",
+        "[24] FATOŞ BİLGİN ERTE, \"Algılanan faydanın müşteri sadakati yaratmadaki önemi ve sadakat programları üzerine bir araştırma,\" Yüksek Lisans/Doktora tezi, Galatasaray Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Yönetimi Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGZbkfM5m0PVigMYJaSgBS2KmQwkTZj3kWFS0cYsyyMH-",
+        "[25] CEMAL GÜMÜŞ, \"Müşteri memnuniyeti ve müşteri elde tutmanın müşteri sadakatine etkisi: Bir araştırma,\" Yüksek Lisans/Doktora tezi, Afyon Kocatepe Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / Üretim Yönetimi ve Pazarlama Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=gyLHMouPes-CvnhRcjQsKSncUDUXCX6JD0kSZrFR37OEpDUxrUghQNwEt6rjLxBT",
+        "[26] SELMA ÖZBİLGİ, \"Müşteri sadakati ve tekstil sektöründe ölçülmesi,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / İşletme Bilim Dalı, 2004. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Keh6sQzap4ZTp8dqWPlH1OfrZg_ok8ncw49_Eaq78GIOQ3vlTRf-r94hxZqaO8Kb"
+      ]
+    }
+  },
+  "error": null
+}

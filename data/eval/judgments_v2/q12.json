@@ -1,0 +1,12 @@
+{
+  "id": "q12",
+  "question": "Beton karışımına nano malzeme katkılarının mekanik özelliklere etkisi nasıl incelenmiştir?",
+  "category": "engineering",
+  "judgment": {
+    "citation_accuracy": 0.35,
+    "faithfulness": 0.4,
+    "coverage": 0.5,
+    "holistic_score": 2,
+    "rationale": "Yanıt genel geçer ifadelerle yüzeysel bir anlatım sunmakta, atıfların çoğu ya ilgisiz kaynaklara yapılmış (ör. [8] doğal elyaf, [10] kimyasal katkı uyumu, [13] mekan tasarımı, [17] ultrasonik tomografi, [20-21] sülfat/klorür) ya da kaynak özetlerinde bu iddiaları destekleyecek içerik bulunmamaktadır. Alt sorulardan deneysel yöntemler/standartlar, mikro-yapısal karakterizasyon ve sınırlılıklar/çözüm önerileri neredeyse hiç ele alınmamıştır. Akademik üslup zayıf, organize edilmemiş ve kaynaklarla bağlantısı kopuktur."
+  }
+}

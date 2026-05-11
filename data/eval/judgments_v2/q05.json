@@ -1,0 +1,12 @@
+{
+  "id": "q05",
+  "question": "Türkiye'de matematik eğitiminde STEM yaklaşımının öğrenci başarısına etkisi üzerine yapılan çalışmalar nelerdir?",
+  "category": "education",
+  "judgment": {
+    "citation_accuracy": 0.7,
+    "faithfulness": 0.6,
+    "coverage": 0.5,
+    "holistic_score": 3,
+    "rationale": "Atıflar genelde doğru kaynaklara yapılmış ancak [2] nolu meta-analiz fen başarısına odaklandığı halde matematik bağlamında kullanılmış; [5], [9], [10], [13], [14], [16] kaynakları yanıtta hiç kullanılmamış. Yanıt, alt sorulardan yöntem dağılımı, etki büyüklüğü, sınırlılıklar ve geleneksel yöntemle karşılaştırma boyutlarını yeterince ele almamış; daha çok betimsel bir özet sunmuştur. Akademik üslup uygun olmakla birlikte derinlik eksiktir."
+  }
+}

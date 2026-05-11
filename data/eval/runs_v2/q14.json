@@ -1,0 +1,356 @@
+{
+  "id": "q14",
+  "category": "social_sciences",
+  "type": "trend",
+  "question": "Türkiye'de sosyal medyanın siyasi katılım üzerindeki etkisini inceleyen araştırmalardaki bulgular nelerdir?",
+  "expected_subjects": [
+    "Siyasal Bilimler",
+    "Halkla İlişkiler",
+    "Sosyoloji"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 162.81,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Türkiye'de sosyal medyanın siyasi katılım üzerindeki etkisini inceleyen araştırmalarda hangi yöntemler (anket, derinlemesine görüşme, içerik analizi vb.) kullanılmıştır?",
+          "rationale": "Yöntem çeşitliliği, bulguların güvenilirliğini ve genellenebilirliğini değerlendirmek için kritiktir. Farklı yöntemlerin kullanımı, araştırma sonuçlarının kapsamını belirler."
+        },
+        {
+          "text": "Bu araştırmalarda sosyal medya kullanımı ile siyasi katılım (çevrimiçi ve çevrimdışı) arasında nasıl bir ilişki bulunmuştur?",
+          "rationale": "Ana bulgulara odaklanarak sosyal medyanın siyasi katılımı artırıcı mı yoksa azaltıcı mı etki ettiğini, hangi katılım türlerini (protesto, oy verme, kampanya vb.) etkilediğini ortaya koyar."
+        },
+        {
+          "text": "Türkiye bağlamında sosyal medyanın siyasi katılıma etkisinde hangi ara değişkenlerin (yaş, eğitim, siyasi ilgi, dijital okuryazarlık vb.) rol oynadığı tespit edilmiştir?",
+          "rationale": "Etkinin homojen olmadığını, farklı demografik ve psikososyal gruplarda farklılaştığını göstererek bulguların nüanslı yorumlanmasını sağlar."
+        },
+        {
+          "text": "Bu araştırmaların ortaya koyduğu sınırlılıklar ve gelecek çalışmalar için öneriler nelerdir?",
+          "rationale": "Mevcut bilginin sınırlarını ve hangi boşlukların doldurulması gerektiğini belirleyerek araştırma alanının yönünü gösterir."
+        },
+        {
+          "text": "Türkiye'deki bulgular, sosyal medya ve siyasi katılım ilişkisine dair uluslararası literatürdeki genel eğilimlerle nasıl karşılaştırılabilir?",
+          "rationale": "Türkiye özelindeki sonuçların küresel bağlamdaki yerini anlamak, kültürel ve siyasi yapı farklılıklarının etkisini değerlendirmek için önemlidir."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 38,
+      "max_score": 0.9375,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "879241",
+          "title_tr": "Siyasal katılım sürecinde sosyal medyanın rolü: X, Y ve Z kuşakları üzerine bir araştırma",
+          "author": "FATMA ÖZTÜRK",
+          "year": 2024,
+          "score": 0.9375,
+          "abstract_excerpt": "Demokratik ülkelerde vatandaşların fikir ve düşüncelerini ifade etmek amacıyla gerçekleştirdikleri bütün faaliyetlere siyasal katılım adı verilir. Basit bir ilgiden oy vermeye kadar uzanan, geniş bir kapsama sahip olan siyasal katılım, sosyal medya kavramının hayatımıza girmesiyle birlikte şekil değ"
+        },
+        {
+          "tez_no": "546909",
+          "title_tr": "Türkiye'de sosyal medyanın politika ve siyasal katılma üzerinde etkisi : Örnek uygulamalar üzerinden analiz",
+          "author": "FEVZİ ÇAĞRI MENDERES",
+          "year": 2019,
+          "score": 0.934,
+          "abstract_excerpt": "Bilgi iletişim teknolojilerinden biri olan internet doğduğu günden bu yana sürekli gelişmektedir. Bilgisayarların yaygınlaşmasıyla beraber internetin kullanım yaygınlığı da artmıştır. İnternetin yaşadığı evrimsel dönüşüm ile birlikte kazandığı fonksiyonlar, internetin kullanım alanlarının da artması"
+        },
+        {
+          "tez_no": "471156",
+          "title_tr": "Sosyal medya kullanımının siyasal katılıma etkisi",
+          "author": "ERCAN AKTAN",
+          "year": 2017,
+          "score": 0.9251,
+          "abstract_excerpt": "Basit bir meraktan geniş yelpazede bir eylem bütünlüğüne kadar uzanan siyasal katılım, demokratik sistemlerin vazgeçilmez unsurları arasındadır. Bireyler, temsili demokrasinin gereklerini siyasal katılım yolu ile gerçekleştirmektedir. Siyasal katılım, siyasal sistem karşısında vatandaşlar tarafından"
+        },
+        {
+          "tez_no": "422517",
+          "title_tr": "Siyasal katılım sürecinde sosyal medyanın rolü ve etkileri",
+          "author": "MUSTAFA İŞLİYEN",
+          "year": 2015,
+          "score": 0.9196,
+          "abstract_excerpt": "Teknoloji alanında yaşanan gelişmelere bağlı olarak kitle iletişim araçları her geçen gün hızla dönüşerek yeni iletişim kanallarının oluşmasına olanak sağlamaktadır. Özellikle son yıllarda adından çokça söz edilen sosyal medya, insan hayatı üzerinde önemli etkilere sahip olmaya başlamıştır. Bireyler"
+        },
+        {
+          "tez_no": "454443",
+          "title_tr": "Sosyal medya paradigmasındaki dönüşümün siyasal katılım yansıması",
+          "author": "ABDULLAH AYDIN",
+          "year": 2017,
+          "score": 0.9156,
+          "abstract_excerpt": "Modern devlet anlayışının gelişimiyle demokrasinin diğer rejimler arasından\nsıyrılarak güçlenmiş ve yaygınlaşmıştır. Demokrasin yaygınlaşması ile demokrasi\nkültürü gelişmiş halkın karar alma süreçlerinde aktif olarak yer alması gereğini\nortaya çıkarmıştır. Siyaset Bilimi literatüründe \"Siyasal Katıl"
+        },
+        {
+          "tez_no": "618840",
+          "title_tr": "Siyasal katılımda sosyal ağların rolü: Üniversite öğrencileri üzerine bir araştırma",
+          "author": "MERAL ÇENGEL",
+          "year": 2019,
+          "score": 0.9151,
+          "abstract_excerpt": "Siyasal katılım kavramı zaman içinde farklı gelişmeler göstererek gelişmeye devam etmiştir. Siyasal katılım, hem yerel de hem de genelde oluşturulan siyasal alanlarda yapılan faaliyetler ile vatandaşların farklı şekillerde yönetimi elinde bulunduran veya siyasal manada iktidarda bulunan kesim üzerin"
+        },
+        {
+          "tez_no": "422525",
+          "title_tr": "Sosyal medyanın kamuoyu oluşturma ve siyasal katılma üzerindeki etkileri:Kuramsal ve ampirik bir analiz",
+          "author": "VAHAP GÖKSU",
+          "year": 2015,
+          "score": 0.9013,
+          "abstract_excerpt": "Bireylerin ve toplumların gündelik yaşamlarının vazgeçilmez bir parçası haline gelen sosyal medya, etkileşime dayanan iletişim felsefesi ile ekonomik, siyasal, kültürel vb. bütün toplumsal sistemleri etkileyerek kendi meşrebince dönüştürmüştür. \nModern demokrasilerin temsil sistemine dayalı olması, "
+        },
+        {
+          "tez_no": "941037",
+          "title_tr": "Sosyal medyanın siyasal katılıma etkisi",
+          "author": "MUHAMMET FATİH GÜNEŞ",
+          "year": 2023,
+          "score": 0.9003,
+          "abstract_excerpt": "21.yüzyılın başlarından itibaren bilgi ve iletişim teknolojilerinde yaşanan gelişmeler neticesinde gündelik yaşamın ayrılmaz bir parçası halini alan yeni medya araçları, toplumsal hayatın her alanını etkilemiştir. Yeni medya araçlarının gelişmesine koşut olarak dünyada yaşanan küreselleşme ve SSCB'n"
+        },
+        {
+          "tez_no": "653868",
+          "title_tr": "Sosyal medya kullanımının bireylerin siyasal katılımı üzerindeki etkileri: Üniversite öğrencileri üzerine bir araştırma",
+          "author": "MURAT ÇETİN",
+          "year": 2020,
+          "score": 0.8792,
+          "abstract_excerpt": "Çalışmanın temel amacı; sosyal medya kullanımının bireylerin siyasi görüş ve tercihlerine etkisi olup olmadığına açıklık getirmektir. Sosyal medya platformlarının kitleleri harekete geçirme özelliğini de ele alan bu çalışmada söz konusu problem ilk olarak medya ve siyaset bağlamında tartışılmaktadır"
+        },
+        {
+          "tez_no": "511203",
+          "title_tr": "Türkiye'de sosyal medya ve yeni politika yapma biçimleri",
+          "author": "GÜLCAN ERGÜN",
+          "year": 2018,
+          "score": 0.8633,
+          "abstract_excerpt": "Günümüzde sosyal medya kullanımının yaygınlaşması ile birlikte politika yapma biçiminde ciddi bir değişim ortaya çıkmıştır. Kurumsallaşmış politika yapma biçimleri ve örgütlenme tarzlarının (temsili demokrasi, ekonomi ve/veya ideoloji temelli örgütlenmiş siyasal partiler) artık ihtiyaçlara cevap ver"
+        },
+        {
+          "tez_no": "303828",
+          "title_tr": "20. yüzyıl düşüncesinde rastlantı problemi",
+          "author": "MUHAMMED ALİ ÇALIŞKAN",
+          "year": 2011,
+          "score": 0.7537,
+          "abstract_excerpt": "Gerc?eklik nedir? Felsefe ve bilim yu?zyıllardır bu sorunun cevabını aramaktadır. Her c?ag?da cevaba biraz daha yaklas?mıs?ken, yeni bir bulgu, farklı bir go?zlem her s?eyi deg?is?tirebilmektedir. Bugu?n fark ettig?imiz s?ey ise; gerc?eklig?in sahip oldug?unu du?s?u?ndu?g?u?mu?z sag?lam pozitif daya"
+        },
+        {
+          "tez_no": "30403",
+          "title_tr": "Azgelişmişlik ve gelişmişlik üzerine bir inceleme /",
+          "author": "A. MESUD KÜÇÜKKALAY",
+          "year": 1994,
+          "score": 0.7504,
+          "abstract_excerpt": "ÖZET İçinde bulunduğumuz dönem, bilim gündeminin hızla değiştiği bir dönemdir. Özellikle sosyal bilimlerdeki bilimsel çalışmalar ve bu çalışmaların sonuçları hızla değişmektedir. Bu değişim ise dünyamızda görülen pratik değişmelerle başabaaş gitmektedir. İktisat biliminin \"İktisadi Büyüme ve Kalkınm"
+        },
+        {
+          "tez_no": "687257",
+          "title_tr": "Bilim incelemelerinin epistemolojik olmayan temeli: İçsel ve dışsal koşulların çatışması",
+          "author": "DENİZ HASANÇEBİ",
+          "year": 2020,
+          "score": 0.7358,
+          "abstract_excerpt": "Bilim incelemelerinin nesnesi olan \"bilim\" hakkında doğru teorik altyapıya sahip olunmazsa pratik bilim ile çelişen bilim tarihi, felsefesi ya da sosyolojisi kaçınılmaz olur. Tarihten günümüze bilimi pozitivist anlamda kendi dinamikleri olan, deney ve gözlem sınırlarından çıkmayan bir yapı olarak fa"
+        },
+        {
+          "tez_no": "173408",
+          "title_tr": "Varyans analizinin dayandığı faraziyeler ve bunların bozulmasından doğan durumlar /",
+          "author": "FATİN SEZGİN",
+          "year": 1972,
+          "score": 0.7232,
+          "abstract_excerpt": "Şu çalışmanın gayesi varyans analizinin temel faraziyelerini ve \"bunların tutmamasında ortaya çıkacak sonuçları \"belirtmekti. Bu arada, analizi geçerli kılmak için alınabilecek \"bazı tedbirler de gösterilmiştir. Varyans analizi başlıca, muamele ortalamalarının sabit tesirlerini tahmin etmek (Model -"
+        },
+        {
+          "tez_no": "176652",
+          "title_tr": "Nirengi ağlarında sıklaştırma modelleri ve istatistik testler /",
+          "author": "MUSTAFA ŞİMŞEK",
+          "year": 1988,
+          "score": 0.7221,
+          "abstract_excerpt": "DIke 5Igmesine ili§kin jeodezik a~lar 'I bUytikten ktigti ~ e ~prensibine g5re kurulurlar. Bu a~larln duyarllgl da aynl Slradadti§tintillir. Jeodezik ag slkIa§tlrmalarl igin uyguIanageIendengeleme y5ntemlerinde baglantl noktalarlnln konum duyarllklarlG5zardl edilerek, bu noktalar hataslZ varsaYllmak"
+        },
+        {
+          "tez_no": "564947",
+          "title_tr": "Hermite çokterimlilerinin belirleniminde saptırım açılımları ve üçgencil işlev çarpanlı toplamdizi açılımları",
+          "author": "BAHAR YOLCU",
+          "year": 2019,
+          "score": 0.7171,
+          "abstract_excerpt": "Hermite çokterimlilerinin köklerini (sıfırlarını) belirlemek amaçlı yöntem geliştirimine dayalı bu savda, değişik arayışlara yönelik araştırımlara girişilmiş, ve bunlardan ulaşılan vargılarla bir kesim sonuçlara erişilmiştir.\n\nSavda, bilimsel yazında varolan ve iyi bilinen \"sonsuz derece ereyi"
+        },
+        {
+          "tez_no": "905119",
+          "title_tr": "Kullanımlar ve doyumlar yaklaşımı perspektifinden dijital aktivizm hareketlerine bir bakış",
+          "author": "EZGİ YILMAZ",
+          "year": 2024,
+          "score": 0.9412,
+          "abstract_excerpt": "Toplum için sorun teşkil eden herhangi bir olay karşısında insanların örgütlü bir şekilde harekete geçmesi olarak tanımlanabilen aktivizm, dijital teknolojilerin hayatın her alanına girmesiyle birlikte şekil değiştirmiş ve zamanla gelişen yeni medya ortamlarında kendisine yeni bir kamusal alan oluşt"
+        },
+        {
+          "tez_no": "780938",
+          "title_tr": "Dijital teknolojiler ve aktivizm",
+          "author": "ŞEYMANUR ARSLAN DOĞAN",
+          "year": 2023,
+          "score": 0.9268,
+          "abstract_excerpt": "İnsanlık tarihi boyunca bir devri kapatıp diğer devri başlatan pek çok gelişme yaşanmıştır. Teknoloji dünyasında da bilgisayarların ortaya çıkması ile başlayan bu serüven beraberinde internetin keşfedilmesine önayak olarak yeni bir dönemin başlangıcı olmuştur. İnternetin varlığı teknoloji dünyasının"
+        },
+        {
+          "tez_no": "443080",
+          "title_tr": "Sosyal medyanın siyasal iletişim aracı olarak kullanımı: 7 Haziran 2015 Genel Seçimleri Twitter örneği",
+          "author": "AHMET NECA GÖKGÜL",
+          "year": 2016,
+          "score": 0.9122,
+          "abstract_excerpt": "Son çeyrek asır içerisinde iletişim teknolojilerinde yaşanan değişim ve gelişmeler hayatın neredeyse her alanında çeşitli değişikliklere sebep olmuştur. Bunlar arasında yer alan ve toplumu yakından ilgilendiren siyaset alanı da öne çıkan konular arasında bulunmaktadır. Kitle iletişim araçları ve int"
+        },
+        {
+          "tez_no": "667099",
+          "title_tr": "Twitter aracılığı ile metropol seçmeninin siyasal tercihlerinin etkilenmesi \"2019 yılı Ankara örneği\"",
+          "author": "İLHAN KARABULUT",
+          "year": 2020,
+          "score": 0.9095,
+          "abstract_excerpt": "Siyasal iletişim, siyasi kurumların seçim sırasında yapması gereken iletişim faaliyetlerinden sadece biri değil, aynı zamanda da süreklilik gerektiren bir olgusudur. Pazardaki şirketlerin, ürünlerini satmak için kendilerini rakiplerinden farklılaştırmaları gerektiği gibi, siyasi rekabet içindeki par"
+        },
+        {
+          "tez_no": "549397",
+          "title_tr": "Twitter'da siyasi kutuplaşmanın dinamikleri: 2017 Türkiye Anayasa Değişikliği Referandumu analizi",
+          "author": "KUTLU EMRE YILMAZ",
+          "year": 2019,
+          "score": 0.9092,
+          "abstract_excerpt": "Siyasi iletişimde artan rolleri ile Facebook ve Twitter gibi sosyal ağların kutuplaşma üzerindeki etkileri sorgulanmaktadır. Sanal ortamlar, sadece benzer fikir ve görüşlere sahip bireylerin bir araya geldikleri ve sağduyunun yerini aşırılaşma ve kutuplaşmanın almasında önemli role sahip olan yankı-"
+        },
+        {
+          "tez_no": "833852",
+          "title_tr": "Fransa ve Almanya örneğinde aşırı sağın siyaset yapımında yeni bir konu olarak dijital aktivizm",
+          "author": "DİLAYNAZ ATALAY",
+          "year": 2023,
+          "score": 0.9075,
+          "abstract_excerpt": "1960 ve 1970'li yıllarda meydana gelen pek çok sosyal ve siyasal hareket, toplumlarda köklü değişimlere sebep olmuş ve toplumların giderek özgürlük ve hak arayışlarını arttırmıştır. Eskiye nazaran ele alınan konuların kitlelere daha çabuk iletilmesi ve daha anlaşılabilir olması bakımından değişim gö"
+        },
+        {
+          "tez_no": "308485",
+          "title_tr": "Yeni medya ve dijital aktivizm",
+          "author": "FETHİ FEYYAZ ÖZCAN",
+          "year": 2012,
+          "score": 0.9071,
+          "abstract_excerpt": "çağımızın en yaygın kullanılan kitle iletişim aracı internettir. 1960 lardaMarshall mc Luhanın öngörüsü olan global village kavramı ve 90 lar Pierre Levy nin öngörüsü olan bilgi toplumu ve kollektif zeka kavramı gerçeğe dönüşmüştür. bu öngörülerin günümüze yansıması dijital aktivizm olmuştur. dijita"
+        },
+        {
+          "tez_no": "559590",
+          "title_tr": "Toplumsal hareketlerin dijital dönüşümü: Slaktivizm üzerine bir araştırma",
+          "author": "REFİK KUTAY HAKVERDİGİL",
+          "year": 2019,
+          "score": 0.906,
+          "abstract_excerpt": "İletişim teknolojilerinde yaşanan gelişmeler hayatın birçok noktasına etki yaptığı gibi toplumsal hareketlerin de değişim ve dönüşüm yaşamasına sebep olmuştur. Küreselleşme ile yeni bir boyut kazanan kavram, internetin hayatımıza girmesiyle beraber yeni tür bir aktivizmin doğmasını sağlamıştır. 20. "
+        },
+        {
+          "tez_no": "900199",
+          "title_tr": "Siyasal iletişim ve sosyal medya: Polıtaınment kavramı bağlamında siyasi aktörlerin TikTok kullanımı üzerine bir analiz",
+          "author": "YEŞİM SÜRLÜ",
+          "year": 2024,
+          "score": 0.9057,
+          "abstract_excerpt": "İletişim pratiklerini değiştirerek yeni bir boyut kazandıran sosyal medya platformları dinamik yapısını korumakta; her geçen gün yeni iletişim kanallarını ortaya çıkarmaktadır. Sunduğu kolaylıklar sebebi ile toplum tarafından uyumla karşılanan bu değişim; siyasal iletişim pratiklerine de etki ederek"
+        },
+        {
+          "tez_no": "454634",
+          "title_tr": "Siyasal iletişimde sosyal medyanın yeri: Twitter bağlamında 2014 Türkiye Cumhurbaşkanlığı seçim sürecinde adayların sosyal medya kullanımı",
+          "author": "ASLI BURCU GÜLER",
+          "year": 2016,
+          "score": 0.9018,
+          "abstract_excerpt": "Siyasal iletişim, siyasal kurumların sadece seçim dönemi ihtiyaç duydukları iletişim etkinliklerinden değildir, süreklilik isteyen bir olgudur. Nasıl ki pazarda yer alan işletmelerin ürünlerini satmak için rakiplerinden farklılaşması gerekiyorsa siyasal rekabette de partiler, seçmenleri etkilemek iç"
+        },
+        {
+          "tez_no": "578360",
+          "title_tr": "Sosyal medyanın seçim dönemlerinde algı yönetimi aracı olarak kullanılması: 31 Mart 2019 Yerel Seçimlerinin twitter üzerinden analizi",
+          "author": "EZGİ GÜNEŞ",
+          "year": 2019,
+          "score": 0.9004,
+          "abstract_excerpt": "Yeni iletişim teknolojilerindeki gelişmeler kişilerarası ve kitlesel iletişim ortamlarını farklılaştırmıştır. Sosyal medyanın ortaya çıkışıyla gündelik hayatın her alanında dönüşümler yaşanırken siyasal alanda da kampanyaların sürdürüldüğü geleneksel ortamlara yeni bir alternatif gelmiştir. Bu alter"
+        },
+        {
+          "tez_no": "853831",
+          "title_tr": "Siyasal iletişimde sosyal medyanın konumu: 2023 Cumhurbaşkanlığı seçimlerinde adayların Twitter kullanımı",
+          "author": "GÖZDE SANCI",
+          "year": 2024,
+          "score": 0.8995,
+          "abstract_excerpt": "2023 yılı itibarıyla 8 milyarı aşan dünya nüfusunun araştırma verilerine göre 4.76 milyarı aktif sosyal medya kullanıcısıdır. Her geçen yılda bu rakam artmaya devam etmektedir. Türkiye'de ise sosyal medyayı aktif kullanan 62.55 milyon insan bulunmaktadır. Dolayısıyla sosyal medyanın günümüzde önemli"
+        },
+        {
+          "tez_no": "607811",
+          "title_tr": "\"Örümcekler ve denizyıldızları\": Slaktivistlerin aktivizm faaliyetleri üzerine öz değerlendirmeleri",
+          "author": "EDA AZAP",
+          "year": 2019,
+          "score": 0.8968,
+          "abstract_excerpt": "İletişim kaynaklarından biri olan teknolojinin, her geçen gün gelişim göstermesiyle birlikte toplumlar yeni iletişim mecraları ile tanışmıştır. Bu yeni iletişim teknolojileri, zaman ve mekân bariyerini ortadan kaldırmıştır. \"Böylelikle etkileşim olgusu ortaya çıkmış, kaynak alıcı, alıcı da kaynak du"
+        },
+        {
+          "tez_no": "365030",
+          "title_tr": "Sosyal medya-kamu politikaları etkileşimi: Gezi Parkı olayları üzerine bir değerlendirme",
+          "author": "MAHMUT KORKMAZ",
+          "year": 2014,
+          "score": 0.8828,
+          "abstract_excerpt": "Toplumsal olayların sosyal medya aracılığı ile geniş kitlelere yayılması sonucunda kamu politikalarını etkilediği görülmektedir. Özellikle yakın geçmişte yaşanan Arap Baharı, ABD'de Wall Street'in işgali ve Ukrayna'da Rusya karşıtı protestolar gibi örnekler, sosyal medyanın etkisiyle büyümüş, destek"
+        }
+      ]
+    },
+    "synthesis": null,
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Sosyal medya kullanımının siyasi katılım türlerine (çevrimiçi/çevrimdışı) göre etkisi",
+        "Farklı sosyal medya platformlarının (Twitter, Facebook, Instagram, YouTube vb.) siyasi katılıma etkisi",
+        "Sosyal medyanın gençler, kadınlar, farklı eğitim düzeyindeki gruplar üzerindeki etkisi",
+        "Sosyal medyanın siyasi kutuplaşma ve dezenformasyon bağlamında katılıma etkisi",
+        "Türkiye'ye özgü siyasi bağlam (seçimler, referandumlar, protestolar) içinde sosyal medyanın rolü",
+        "Sosyal medya kullanım sıklığı ve yoğunluğunun siyasi katılıma etkisi",
+        "Sosyal medyanın geleneksel medyaya kıyasla siyasi katılım üzerindeki görece etkisi"
+      ],
+      "requery_terms": [
+        "Türkiye sosyal medya siyasi katılım etki",
+        "Twitter siyasi katılım Türkiye",
+        "Facebook Instagram siyasi katılım Türkiye",
+        "gençler sosyal medya siyasi katılım Türkiye",
+        "sosyal medya seçim katılım Türkiye",
+        "sosyal medya kutuplaşma siyasi katılım Türkiye",
+        "çevrimiçi çevrimdışı siyasi katılım sosyal medya Türkiye",
+        "sosyal medya protesto katılım Türkiye"
+      ],
+      "notes": "Henüz bir sentez bulunmadığı için kapsam tamamen boş. Soru oldukça geniş kapsamlı; sosyal medyanın siyasi katılıma etkisini platform bazlı, demografik, davranışsal ve bağlamsal açılardan ele alan alt boyutların tümü eksik. Bu nedenle kapsamlı bir literatür taraması için somut anahtar kelime önerileri sunulmuştur."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "# Türkiye'de Sosyal Medyanın Siyasi Katılım Üzerindeki Etkisi: Araştırma Bulgularının Sentezi\n\n## Giriş\n\nSiyasal katılım, demokratik sistemlerin işlerliğini ve kalitesini ortaya koyan temel bir ölçüt olup, vatandaşların fikir ve düşüncelerini ifade etmek amacıyla gerçekleştirdikleri basit bir ilgiden oy vermeye kadar uzanan geniş bir faaliyet yelpazesini kapsamaktadır [1][3][5]. Bilgi ve iletişim teknolojilerindeki gelişmeler, özellikle Web 2.0 ile birlikte sosyal medya platformlarının ortaya çıkışı, siyasal katılım pratiklerinde köklü dönüşümlere yol açmıştır [2][4][8]. Türkiye bağlamında yapılan araştırmalar, sosyal medyanın siyasal katılım üzerindeki etkisini çok boyutlu bir çerçevede ele almakta; olumlu katkılar kadar risk ve sınırlılıkları da ortaya koymaktadır.\n\n## Sosyal Medyanın Siyasal Katılıma Olumlu Katkıları\n\n### Bilgiye Erişim ve Siyasal Farkındalık\n\nAraştırmalar, sosyal medyanın bireylerin siyasal bilgiye erişimini kolaylaştırdığını ve siyasal farkındalığı artırdığını göstermektedir. Sosyal medya platformları, kullanıcıların dünyanın diğer ucundaki olaylardan haberdar olmasına ve kendi yaşamlarına ilişkin konularda bilgi edinmesine olanak tanımaktadır [4]. Özellikle Twitter/X, politik meselelerin hızla yayıldığı, tartışıldığı ve bu konularda etkileşime girildiği bir mikroblog platformu olarak öne çıkmakta; birçok kişi siyasi düşüncelerini duyurmak ve siyasi gelişmeleri takip etmek amacıyla bu platformu kullanmaktadır [38].\n\n### Dijital Aktivizm ve Toplumsal Hareketler\n\nSosyal medya, dijital aktivizm hareketlerinin örgütlenmesinde ve yaygınlaşmasında kritik bir rol oynamaktadır. Toplumsal olayların sosyal medya aracılığıyla geniş kitlelere yayılması, kamu politikalarını etkileyebilmektedir [30]. Türkiye'de Gezi Parkı olayları, sosyal medyanın toplumsal hareketler üzerindeki etkisinin önemli bir örneğini teşkil etmektedir [30][31]. Dijital aktivist hareketler neticesinde toplumlar seslerini duyurma imkânı bulmuş; sosyal medya, etkileşime dayanan iletişim felsefesi ile ekonomik, siyasal ve kültürel bütün toplumsal sistemleri etkileyerek dönüştürmüştür [7][23].\n\n### Siyasal İletişim ve Seçim Kampanyaları\n\nSiyasi partiler ve adaylar, seçmeni etkilemek ve ikna etmek amacıyla sosyal medyayı aktif olarak kullanmaktadır [28]. Günümüz seçim kampanyalarında siyasi aktör ve partiler, kampanyalarını konvansiyonel medyadan daha çok sosyal medya merkezli yürütmeye başlamıştır [25]. 2011 Genel Seçimleri, 2014 Cumhurbaşkanlığı Seçimi, 2017 Anayasa Değişikliği Referandumu, 2019 Yerel Seçimleri ve 2023 Cumhurbaşkanlığı Seçimleri gibi kritik seçim dönemlerinde Twitter başta olmak üzere sosyal medya platformlarının yoğun biçimde kullanıldığı tespit edilmiştir [19][26][27][28][32][37].\n\n### Kuşaklar Arası Farklılıklar\n\nAraştırmalar, sosyal medyanın siyasal katılıma etkisinin kuşaklar arasında farklılaştığını ortaya koymaktadır. X, Y ve Z kuşakları üzerine yapılan bir araştırma, siyasal katılımın sosyal medya kavramının hayatımıza girmesiyle birlikte şekil değiştirdiğini ve her kuşağın bu dönüşümden farklı biçimlerde etkilendiğini göstermektedir [1]. Üniversite öğrencileri üzerine yapılan çalışmalar da gençlerin siyasal katılımında sosyal ağların önemli bir rol oynadığını doğrulamaktadır [6][9][38].\n\n## Sosyal Medyanın Siyasal Katılım Üzerindeki Riskleri ve Sınırlılıkları\n\n### Yankı Odaları ve Kutuplaşma\n\nSosyal medya platformlarının kutuplaşma üzerindeki etkileri önemli bir tartışma konusudur. Sanal ortamlar, sadece benzer fikir ve görüşlere sahip bireylerin bir araya geldikleri yankı-odaları (echo chambers) oluşumuna neden olmakla eleştirilmektedir. Bu durum, sağduyunun yerini aşırılaşma ve kutuplaşmanın almasında önemli bir rol oynamaktadır [21]. 2017 Türkiye Anayasa Değişikliği Referandumu analizi, Twitter'da siyasi kutuplaşmanın dinamiklerini ortaya koyarak bu olgunun somut örneklerini sunmaktadır [21].\n\n### Linç Kültürü ve Nefret Söylemi\n\nSosyal medya, ifade özgürlüğü, sosyalleşme ve katılım gibi olumlu gelişmelerin yanı sıra şiddet ve nefret söylemi gibi istenmeyen gelişmelere de sahne olmaktadır. Türkiye'de farklı etnik, siyasi, ideolojik ve dini kimlikler sosyal medyada linç edilmekte; küçümseme, nefret etme, dışlama, yabancılaştırma ve cezalandırma gibi olguların karşılığı olarak linç girişimi her geçen gün artmaktadır [33][36].\n\n### Slaktivizm ve Yüzeysel Katılım\n\nSosyal medya üzerinden gerçekleştirilen siyasal katılımın derinliği konusunda da eleştirel bulgular mevcuttur. \"Slaktivizm\" (slacktivism) kavramı, dijital platformlarda gerçekleştirilen düşük maliyetli ve yüzeysel aktivist eylemleri tanımlamak için kullanılmaktadır [24][29]. Bu tür eylemler, bireylerin gerçek hayattaki siyasal katılımının yerini alabilmekte ve derinlemesine bir siyasal angajman yerine sembolik destekle sınırlı kalmaktadır.\n\n### Temsil ve Meşruiyet Krizi\n\nModern demokrasilerin temsil sistemine dayalı olması, sıradan vatandaşların demokratik karar alma süreçlerinden dışlanmasına neden olan bir meşruiyet krizine yol açmaktadır [7][8]. Sosyal medya, bu temsil ve katılım krizini ortadan kaldırma potansiyeli taşımakla birlikte, kurumsallaşmış politika yapma biçimleri ve örgütlenme tarzlarının (temsili demokrasi, ekonomi ve/veya ideoloji temelli örgütlenmiş siyasal partiler) artık ihtiyaçlara cevap verememesi sorununa da işaret edilmektedir [10].\n\n## Metodolojik Yaklaşımlar ve Ampirik Bulgular\n\nTürkiye'de sosyal medyanın siyasal katılıma etkisini inceleyen araştırmalar, nicel ve nitel yöntemlerin bir arada kullanıldığı karma desenlerden yararlanmaktadır. Twitter verilerinin analizi, hashtag ve mention eylemlerinin Türkiye genel seçim sonuçlarının bir göstergesi olarak kullanılabileceğini ortaya koymaktadır [35]. Günlük Twitter aktivitelerinin (tweet, retweet, mention) seçim sonuçlarını öngörmede anlamlı bir potansiyele sahip olduğu belirtilmektedir [35]. Ayrıca, sosyal medya platformlarının arayüzey incelemeleri, Web 2.0'ın demokratik katılım kaynaklı yurttaşlık kültürünün gelişmesine katkıda bulunma potansiyelini değerlendirmektedir [32][37].\n\n## Sonuç\n\nTürkiye'de sosyal medyanın siyasal katılım üzerindeki etkisini inceleyen araştırmalar, bu etkinin çok boyutlu ve çelişkili bir doğaya sahip olduğunu göstermektedir. Bir yandan sosyal medya, bilgiye erişimi kolaylaştırarak, dijital aktivizmi mümkün kılarak ve siyasal iletişimi dönüştürerek katılımcı demokrasiyi güçlendirme potansiyeli taşımaktadır. Öte yandan, yankı odaları, kutuplaşma, linç kültürü ve slaktivizm gibi olgular, sosyal medyanın siyasal katılım üzerindeki olumlu etkisini sınırlamakta ve hatta demokratik süreçler için risk oluşturmaktadır. Kuşaklar arası farklılıklar, seçim dönemlerindeki yoğun kullanım ve toplumsal hareketlerdeki belirleyici rolü göz önüne alındığında, sosyal medyanın Türkiye'de siyasal katılımın ayrılmaz bir parçası haline geldiği; ancak bu dönüşümün hem fırsatlar hem de tehditler barındırdığı sonucuna varılmaktadır.",
+      "n_citations": 38,
+      "citations_ieee": [
+        "[1] FATMA ÖZTÜRK, \"Siyasal katılım sürecinde sosyal medyanın rolü: X, Y ve Z kuşakları üzerine bir araştırma,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / Halkla İlişkiler ve Tanıtım Ana Bilim Dalı / Halkla İlişkiler ve Tanıtım Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1pwTzRXnomYf6jwqVORfUbiyIejwemd3DWs7WNWECnp5iaOenSDqZKzW7Ve1cVUy",
+        "[2] FEVZİ ÇAĞRI MENDERES, \"Türkiye'de sosyal medyanın politika ve siyasal katılma üzerinde etkisi : Örnek uygulamalar üzerinden analiz,\" Yüksek Lisans/Doktora tezi, Aydın Adnan Menderes Üniversitesi / Sosyal Bilimler Enstitüsü / Siyaset Bilimi ve Kamu Yönetimi Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=T1mWGp9MngYYkCSgiJvtVjoa4ty67sQFQyLvF-81Ixt-k3DlAyNDXeLswFePMpvB",
+        "[3] ERCAN AKTAN, \"Sosyal medya kullanımının siyasal katılıma etkisi,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / Halkla İlişkiler ve Tanıtım Ana Bilim Dalı / Halkla İlişkiler ve Tanıtım Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=7lOJX8w_8PRQU1mSHU6-jiJn50xyTAPRmYlgumWVUUPpXA6WfmkGo0z7KCp4yAST",
+        "[4] MUSTAFA İŞLİYEN, \"Siyasal katılım sürecinde sosyal medyanın rolü ve etkileri,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / Gazetecilik Ana Bilim Dalı / Gazetecilik Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Br_XTptK8CZ70f0JGX9xEnl-dTbTN-5cFiOSGUtuXsJMPfyDIogoSgtZTl7sF3EE",
+        "[5] ABDULLAH AYDIN, \"Sosyal medya paradigmasındaki dönüşümün siyasal katılım yansıması,\" Yüksek Lisans/Doktora tezi, Mustafa Kemal Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Yönetimi Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=DPTyuy3wRPq_qvCPSqUB64JxS00_oIp0drmZ19BWlr4EC0kxCc2NaNlYDMlu4OZI",
+        "[6] MERAL ÇENGEL, \"Siyasal katılımda sosyal ağların rolü: Üniversite öğrencileri üzerine bir araştırma,\" Yüksek Lisans/Doktora tezi, Burdur Mehmet Akif Ersoy Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Yönetimi Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=4J_FzTwlrMCH4qBROpXPH-AZcBMYWTztQy4xwpVGsg5IKVHbrffTKmCACUByn09G",
+        "[7] VAHAP GÖKSU, \"Sosyal medyanın kamuoyu oluşturma ve siyasal katılma üzerindeki etkileri:Kuramsal ve ampirik bir analiz,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Yönetimi Ana Bilim Dalı / Kamu Yönetimi Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Br_XTptK8CZ70f0JGX9xEmkNsn98l8O_zm2uvYusvXOY4owZPmMkq76bjdL-FZK6",
+        "[8] MUHAMMET FATİH GÜNEŞ, \"Sosyal medyanın siyasal katılıma etkisi,\" Yüksek Lisans/Doktora tezi, Ankara Hacı Bayram Veli Üniversitesi / Lisansüstü Eğitim Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Kamu Hukuku Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=5NNqZKwwGohPh6_KCcfp-m9tfcBn3-6Fbfl_s7Pefrurxrt5Mh1iuHPtlSxvmNMe",
+        "[9] MURAT ÇETİN, \"Sosyal medya kullanımının bireylerin siyasal katılımı üzerindeki etkileri: Üniversite öğrencileri üzerine bir araştırma,\" Yüksek Lisans/Doktora tezi, Gümüşhane Üniversitesi / Sosyal Bilimler Enstitüsü / Siyaset Bilimi ve Kamu Yönetimi Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wf-FPgY-5qjHEzEoOgvMs9hQVX08f-HzXejZmQX4-wa-OeCe5nvhhUbwbRXbfV1P",
+        "[10] GÜLCAN ERGÜN, \"Türkiye'de sosyal medya ve yeni politika yapma biçimleri,\" Yüksek Lisans/Doktora tezi, Anadolu Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyoloji Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=hcgrYffRbz0Z44UJEuLtwT1a1ahxp3XmOgdyepY8i3MwhcL0RDlDI80VwNcMM8T4",
+        "[11] MUHAMMED ALİ ÇALIŞKAN, \"20. yüzyıl düşüncesinde rastlantı problemi,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / Felsefe Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-AoUDiSSZyfNqMcPENOshKV7Q8zpYnC9ZoKD-BNLzVyCK",
+        "[12] A. MESUD KÜÇÜKKALAY, \"Azgelişmişlik ve gelişmişlik üzerine bir inceleme /,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / İktisat Ana Bilim Dalı, 1994. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-AuxU8Qc79j2mhkKY8cPwfGaJP4DZlGv2G8PK8rRHDWtI",
+        "[13] DENİZ HASANÇEBİ, \"Bilim incelemelerinin epistemolojik olmayan temeli: İçsel ve dışsal koşulların çatışması,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Felsefe Ana Bilim Dalı / Bilim Tarihi Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=v7BkNnnepTnbhn8rNR77LWpco7vwbAQDuNJy_7MBwyvSbrCKNmQmqQhqWCbIZ0gv",
+        "[14] FATİN SEZGİN, \"Varyans analizinin dayandığı faraziyeler ve bunların bozulmasından doğan durumlar /,\" Yüksek Lisans/Doktora tezi, Atatürk Üniversitesi / Fen Bilimleri Enstitüsü, 1972. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=biL2P3cCsPgUNjVdV2BsGL3ZSegZTipP5D0WM4_3EQ7-90VubgqWd0bl9wQ0MMIP",
+        "[15] MUSTAFA ŞİMŞEK, \"Nirengi ağlarında sıklaştırma modelleri ve istatistik testler /,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü, 1988. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=biL2P3cCsPgUNjVdV2BsGHY271tjYqkXSWeWF3VLsmtVB8Gq3CttGdn4TlAXUfPg",
+        "[16] BAHAR YOLCU, \"Hermite çokterimlilerinin belirleniminde saptırım açılımları ve üçgencil işlev çarpanlı toplamdizi açılımları,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Bilişim Enstitüsü / Hesaplamalı Bilimler ve Mühendislik Ana Bilim Dalı / Hesaplamalı Bilim ve Mühendislik Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZsKolzu_xKAyjMiw8NBDIGxXlJgQEYHpl6htGJ9Byq0k",
+        "[17] EZGİ YILMAZ, \"Kullanımlar ve doyumlar yaklaşımı perspektifinden dijital aktivizm hareketlerine bir bakış,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / Halkla İlişkiler ve Tanıtım Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=LY6e5xGA7WWUpEdrBmEPLsmqz8p6OJuo7BFIr0cLW6CG7FEDKUip1ikDncW1qIEw",
+        "[18] ŞEYMANUR ARSLAN DOĞAN, \"Dijital teknolojiler ve aktivizm,\" Yüksek Lisans/Doktora tezi, Başkent Üniversitesi / Sosyal Bilimler Enstitüsü / Yönetim Bilişim Sistemleri Ana Bilim Dalı / Yönetim Bilişim Sistemleri Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=r4I1HnmXxFQovUpyAyUmxEmIM0V4IAcrYyKAFxGHTG0H-KsFQoLOlShxT1kNAMUi",
+        "[19] AHMET NECA GÖKGÜL, \"Sosyal medyanın siyasal iletişim aracı olarak kullanımı: 7 Haziran 2015 Genel Seçimleri Twitter örneği,\" Yüksek Lisans/Doktora tezi, Yeni Yüzyıl Üniversitesi / Sosyal Bilimler Enstitüsü / Halkla İlişkiler ve Reklamcılık Ana Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=OykDDeWBWTL9-Wm52sZBrHK2UB84F-aOYLzQlnV-UJSeQe2CF_CjUBCf63Hvsi6g",
+        "[20] İLHAN KARABULUT, \"Twitter aracılığı ile metropol seçmeninin siyasal tercihlerinin etkilenmesi \"2019 yılı Ankara örneği\",\" Yüksek Lisans/Doktora tezi, Yalova Üniversitesi / Sosyal Bilimler Enstitüsü / İletişim ve Tasarım Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=9MiDp3x86xrwjpi5-14w-erqUGmZuza34qVOLlW3BpGbelBR9BuO0Zm4IhJtMvat",
+        "[21] KUTLU EMRE YILMAZ, \"Twitter'da siyasi kutuplaşmanın dinamikleri: 2017 Türkiye Anayasa Değişikliği Referandumu analizi,\" Yüksek Lisans/Doktora tezi, TOBB Ekonomi ve Teknoloji Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=T1mWGp9MngYYkCSgiJvtVnTMeTdosb3qGGBQUkQ1dRtEOrJQNyO121w87Hki93H5",
+        "[22] DİLAYNAZ ATALAY, \"Fransa ve Almanya örneğinde aşırı sağın siyaset yapımında yeni bir konu olarak dijital aktivizm,\" Yüksek Lisans/Doktora tezi, Başkent Üniversitesi / Avrupa Birliği Uluslararası İlişkiler Enstitüsü / Siyaset Bilimi ve Uluslararası İlişkiler Ana Bilim Dalı / Uluslararası İlişkiler Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=S2eMu1TIwY_v4mYv58xAr5to8yEjwkI4c8OSS1mdQNIv4weTe1ClO8JguZaiyZUT",
+        "[23] FETHİ FEYYAZ ÖZCAN, \"Yeni medya ve dijital aktivizm,\" Yüksek Lisans/Doktora tezi, Kadir Has Üniversitesi / Sosyal Bilimler Enstitüsü / Yeni Medya Ana Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=EEdeQgIdFRxX5NbvVau-An6pGbyMbOUHlKokSOkx15oyg1qBx4TAgv6zmZYTVA7X",
+        "[24] REFİK KUTAY HAKVERDİGİL, \"Toplumsal hareketlerin dijital dönüşümü: Slaktivizm üzerine bir araştırma,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / Gazetecilik Ana Bilim Dalı / Bilişim Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZbtWsq-WBGQsSglZFQeLwFoh9bpsLF2I8Ufq36uBq0omH",
+        "[25] YEŞİM SÜRLÜ, \"Siyasal iletişim ve sosyal medya: Polıtaınment kavramı bağlamında siyasi aktörlerin TikTok kullanımı üzerine bir analiz,\" Yüksek Lisans/Doktora tezi, Ankara Hacı Bayram Veli Üniversitesi / Lisansüstü Eğitim Enstitüsü / Gazetecilik Ana Bilim Dalı / Siyasal İletişim Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=LY6e5xGA7WWUpEdrBmEPLtjTeuQ4o_vnJ7FfBkhNG_F9PaRhol_VA5J-fjGEAK_s",
+        "[26] ASLI BURCU GÜLER, \"Siyasal iletişimde sosyal medyanın yeri: Twitter bağlamında 2014 Türkiye Cumhurbaşkanlığı seçim sürecinde adayların sosyal medya kullanımı,\" Yüksek Lisans/Doktora tezi, Marmara Üniversitesi / Sosyal Bilimler Enstitüsü / Halkla İlişkiler ve Tanıtım Ana Bilim Dalı / Halkla İlişkiler Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=DPTyuy3wRPq_qvCPSqUB6_uVZRusIU9_9K2TBltCRzs06jvY3cCjWLLpHlq5LKLv",
+        "[27] EZGİ GÜNEŞ, \"Sosyal medyanın seçim dönemlerinde algı yönetimi aracı olarak kullanılması: 31 Mart 2019 Yerel Seçimlerinin twitter üzerinden analizi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sosyal Bilimler Enstitüsü / Halkla İlişkiler ve Tanıtım Ana Bilim Dalı / Halkla İlişkiler ve Tanıtım Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=jNRDC1RLfVd4_T7x7ZXmmVYRfU0UhBB4DJtRjBKH4-Zdhrnhoekj-MqOv-_fTvv_",
+        "[28] GÖZDE SANCI, \"Siyasal iletişimde sosyal medyanın konumu: 2023 Cumhurbaşkanlığı seçimlerinde adayların Twitter kullanımı,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / Halkla İlişkiler ve Tanıtım Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cr4SkWLaRMhkDRBjqthpsXJEUai_7-1D0QiM5SvFf4ori6Ff_twoP_KLvlJr1cT7",
+        "[29] EDA AZAP, \"\"Örümcekler ve denizyıldızları\": Slaktivistlerin aktivizm faaliyetleri üzerine öz değerlendirmeleri,\" Yüksek Lisans/Doktora tezi, İstanbul Bilgi Üniversitesi / Lisansüstü Programlar Enstitüsü / Pazarlama İletişimi Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBvwUKc9Hh0jQjqbztBfFGBsY9aIKxi6S4GsODzs41DPU",
+        "[30] MAHMUT KORKMAZ, \"Sosyal medya-kamu politikaları etkileşimi: Gezi Parkı olayları üzerine bir değerlendirme,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sosyal Bilimler Enstitüsü / Siyaset Bilimi ve Kamu Yönetimi Ana Bilim Dalı / Kamu Yönetimi Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=gyLHMouPes-CvnhRcjQsKf6QC9r6CwLix-1adRDwgjAOsrrmfKZcybqw4vsjTPl9",
+        "[31] SİMGE ALEYNA YILDIRIM, \"Toplumsal hareketler ve medya: Gezi Parkı ve Sarı Yelekliler örneği,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Sosyal Bilimler Enstitüsü / Siyaset Bilimi ve Kamu Yönetimi Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fl0Kw4p1rmMDotyKRdYv1H4PdgvxaVjTH4NDXqgF8-T0QAyKhRArpTkr_OxJi2hF",
+        "[32] Günseli Bayraktutan, Mutlu Binark, Tuğrul Çomu, Burak Doğu, Gözde İslamoğlu, Aslı Telli Aydemir, \"SOSYAL MEDYADA 2011 GENEL SEÇİMLERİ: NİCEL –NİTEL ARAYÜZEY İNCELEMESİï€ª,\" Yüksek Lisans/Doktora tezi, [openalex] DergiPark (Istanbul University), 2012. [Online]. https://doi.org/10.18094/si.21439",
+        "[33] Mahmut Kutlu, \"Sosyal Medyada Kitle Psikolojisi ve Linç Kültürü,\" Yüksek Lisans/Doktora tezi, [openalex] Kritik İletişim Çalışmaları Dergisi, 2023. [Online]. https://doi.org/10.53281/kritik.1347651",
+        "[34] Şakir GÜLER, \"Toplumsal Refahın Tahsisinde Siyasal Katılımın Rolünü Anlamak,\" Yüksek Lisans/Doktora tezi, [openalex] Zenodo (CERN European Organization for Nuclear Research), 2023. [Online]. https://doi.org/10.5281/zenodo.7889615",
+        "[35] Enes Abanoz, \"A TWITTER-BASED ANALYSIS OF HASHTAG AND MENTION ACTIONS AS AN INDICATOR OF TURKISH GENERAL ELECTIONS’ OUTCOMES,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Akdeniz Üniversitesi İletişim Fakültesi Dergisi, 2020. [Online]. https://www.semanticscholar.org/paper/d101dadde597d79b3617d63fc149111563d88878",
+        "[36] Mahmut Kutlu, \"Mass Psychology And Lynch Culture In Social Media,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Kritik İletişim Çalışmaları Dergisi, 2023. [Online]. https://www.semanticscholar.org/paper/af14c2381ea736be41d0a724b2efd86409b7a3b2",
+        "[37] Günseli Bayraktutan, Mutlu Binark, Tuğrul Çomu, Burak Doğu, Gözde Islamoğlu, A. Aydemir, \"SOSYAL MEDYADA 2011 GENEL SEÇİMLERİ: NİCEL –NİTEL ARAYÜZEY İNCELEMESİï€ª,\" Yüksek Lisans/Doktora tezi, [semantic_scholar], 2012. [Online]. https://www.semanticscholar.org/paper/6707402bfdf51e0b18cc3c8e4c058863162f8afd",
+        "[38] Halime Suvay Eker, \"Dijital Alanda Siyasete Katılım: Twitter/X’in Üniversite Öğrencileri Tarafından Siyasal Amaçla Kullanımı,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Eklektik Sosyal Bilimler Dergisi, 2025. [Online]. https://www.semanticscholar.org/paper/091adafa7e0785a05903d2812b42ffd24764878e"
+      ]
+    }
+  },
+  "error": null
+}

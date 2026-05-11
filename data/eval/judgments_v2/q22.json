@@ -1,0 +1,12 @@
+{
+  "id": "q22",
+  "question": "Türk Ceza Kanunu ile Anglo-Sakson hukuk sisteminde suç ve ceza prensiplerinin karşılaştırması nasıldır?",
+  "category": "law",
+  "judgment": {
+    "citation_accuracy": 0.6,
+    "faithfulness": 0.5,
+    "coverage": 0.6,
+    "holistic_score": 3,
+    "rationale": "Yanıt, kaynaklarla kısmen uyumlu olsa da önemli sorunlar var: (1) [32] ve [31] numaralı atıflar getirilen kaynaklar listesinde bulunmuyor (uydurma atıf). (2) [24]'e yapılan atıfların içeriği kaynakla örtüşmüyor; kaynak Anglo-Amerikan hukukunda hakimin rolüyle ilgiliyken yanıtta \"hukuk sistemlerinin yakınlaşması\" bağlamında kullanılmış. (3) [12] İslam hukuku tezi, cezanın orantılılığı için referans gösterilmiş ama uygun değil. (4) Alt sorulardan \"actus reus/mens rea\" karşılaştırması, \"kanunilik, orantılılık, kusur ilkesi\" ayrıntılı karşılaştırması ve \"ampirik çalışmaların bulguları/sınırlılıkları\" yeterince ele alınmamış. (5) Akademik üslup ve organizasyon kabul edilebilir düzeyde ancak derinlikten yoksun."
+  }
+}

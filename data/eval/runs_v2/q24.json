@@ -1,0 +1,394 @@
+{
+  "id": "q24",
+  "category": "chemistry",
+  "type": "application",
+  "question": "Yeşil kimya prensiplerinin ilaç üretim süreçlerindeki uygulamaları nelerdir?",
+  "expected_subjects": [
+    "Kimya",
+    "Eczacılık ve Farmakoloji",
+    "Kimya Mühendisliği"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 139.19,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Yeşil kimya prensiplerinin ilaç üretiminde kullanılan çözücü seçimi ve atık yönetimi stratejileri üzerindeki etkisi nedir?",
+          "rationale": "Bu alt soru, yeşil kimyanın temel prensiplerinden olan atık minimizasyonu ve daha güvenli çözücü kullanımının ilaç üretim süreçlerinde nasıl uygulandığını ortaya koyar."
+        },
+        {
+          "text": "İlaç sentezinde katalizör kullanımı ve reaksiyon verimliliği açısından yeşil kimya yaklaşımları hangi yöntemsel yenilikleri getirmiştir?",
+          "rationale": "Bu soru, yeşil kimyanın kataliz ve enerji verimliliği prensiplerinin ilaç sentez süreçlerine entegrasyonunu ve bu alandaki metodolojik gelişmeleri hedefler."
+        },
+        {
+          "text": "Yeşil kimya prensiplerinin ilaç üretim maliyetleri ve çevresel sürdürülebilirlik üzerindeki ölçülebilir etkileri nelerdir?",
+          "rationale": "Bu alt soru, yeşil kimya uygulamalarının ekonomik ve çevresel boyutlarını, maliyet-fayda analizleri ve sürdürülebilirlik göstergeleri üzerinden değerlendirir."
+        },
+        {
+          "text": "Türkiye'deki ilaç üretim tesislerinde yeşil kimya prensiplerinin uygulanmasına yönelik karşılaşılan sınırlılıklar ve zorluklar nelerdir?",
+          "rationale": "Bu soru, yeşil kimyanın pratik uygulamalarındaki engelleri, mevzuat, altyapı ve farkındalık eksiklikleri bağlamında ele alarak yerel bağlamda bir analiz sunar."
+        },
+        {
+          "text": "Yeşil kimya prensiplerinin ilaç üretim süreçlerine entegrasyonu konusunda yapılan tez çalışmalarında hangi spesifik ilaç etken maddeleri veya üretim basamakları örnek vaka olarak incelenmiştir?",
+          "rationale": "Bu soru, literatürdeki somut vaka çalışmalarını ve uygulama örneklerini tespit ederek yeşil kimyanın hangi ilaç türlerinde ve hangi üretim aşamalarında daha yoğun çalışıldığını gösterir."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 25,
+      "max_score": 0.8688,
+      "min_score": 0.7869,
+      "chunks": [
+        {
+          "tez_no": "491367",
+          "title_tr": "Yeşil tedarik zinciri uygulamaları üzerine kimya sektöründe bir alan araştırması /",
+          "author": "SERGEN COŞKUN",
+          "year": 2017,
+          "score": 0.8688,
+          "abstract_excerpt": "Küreselleşen dünyada tüketim isteği, üretimi arttırarak doğal kaynakların daha fazla kullanılmasına sebep olmaktadır. Sanayileşmeyle beraber giderek artan bu durum, çevre üzerinde olumsuz etkiler göstermekte, hatta yaşanabilir doğayı ve insan geleceğini tehdit eder duruma getirmektedir. Çevresel sor"
+        },
+        {
+          "tez_no": "442602",
+          "title_tr": "Mikrobiyal ve enzimatik reaksiyonlar kullanılarak biyoteknolojik yöntemlerle biyoaktif maddelerin sentezi",
+          "author": "TUĞBA GÜLBAY",
+          "year": 2014,
+          "score": 0.8417,
+          "abstract_excerpt": "Biyokatalizörler; biyoaktif moleküllerin sentezinde rol oynadıkları için biyoteknoloji, farmakoloji gibi çalışma alanlarında önemli bir yere sahiptirler. Katalizör olarak enzim veya mikroorganizmaların kullanılmasıyla kimyasal yöntemlerle sentezlenemeyen değerli kimyasallar sentezlenebilir ve biyoka"
+        },
+        {
+          "tez_no": "182329",
+          "title_tr": "Kimya eğitiminde \"yeşil kimya\" konusunun öğretimi ile ilgili çeşitli değerlendirmeler",
+          "author": "SEÇİL ERÖKTEN",
+          "year": 2006,
+          "score": 0.8394,
+          "abstract_excerpt": "Günümüzde çevre sorunları, insan sağlığını ve çevrenin sürdürülebilirliğini tehditeden boyutlara ulaşmıştır. Çevre kirlenmesinin önlenmesi için toplumu oluşturanbireylerin eğitimi büyük önem taşımaktadır. Bugün yeşil kimya uygulamaları iledesteklenen çevre eğitimi interdisipliner özelliğinden dolayı"
+        },
+        {
+          "tez_no": "526604",
+          "title_tr": "Oksidasyon katalizörü olarak çeşitlikoordinasyon bileşiklerinin hazırlanması,karakterizasyonu ve etkinliklerinin ölçülmesi",
+          "author": "GİZEM KAYA",
+          "year": 2018,
+          "score": 0.8355,
+          "abstract_excerpt": "Kimyasal proseslerde elde edilen ürünün verimini ya da kalitesini yükseltmek\namacıyla bir yardımcı bileşene ihtiyaç duyulur. Bu nedenle reaksiyonların hızını\narttırmak ya da elde edilmek istenen ürünün yan ürünlere göre daha çok elde\nedilmesini sağlayan maddeler kullanılır. Genellikle kullanılan mad"
+        },
+        {
+          "tez_no": "221932",
+          "title_tr": "3,4-dihidroizokinolinyum klorokromat ve 3,4- dihidroizokinolinyum florokromat sentezi ve yükseltgeme reaktifi olarak etkinliğinin arastırılması",
+          "author": "AYŞE YURDAKUL",
+          "year": 2007,
+          "score": 0.8306,
+          "abstract_excerpt": "Organik kimyacıların son zamanlarda ilgisini çeken konulardan biriside yükseltgenme-indirgenme reaksiyonlarıdır. Bu reaksiyonlar için uygunyükseltgeyici ve indirgeyici maddelerin sentezi büyük önem tasımaktadır.Sentetik organik kimyada seçimli ve yüksek verimle yükseltgenmeindirgenme reaktifi sentez"
+        },
+        {
+          "tez_no": "178377",
+          "title_tr": "Orijinal nitelikte florlanmış fosfin ve Rodyum(I) komplekslerinin sentezi ve Süperkritik karbon dioksit ortamında hidrojenasyon reaksiyonlarında kullanımı",
+          "author": "GÖKTÜRK AVŞAR",
+          "year": 2008,
+          "score": 0.8286,
+          "abstract_excerpt": "Metal katalizörlerin homojen çözeltileriyle katalizlemede kullanılan alışılagelmiş organik çözücüler yerine reaksiyon ortamı olarak su, florlu çözücüler, iyonik sıvılar ve süperkritik karbondioksit (scCO2) gibi çözücülerin kullanılmasına ilişkin çalışmalarda önemli gelişmeler kaydedilmiştir. Diğer y"
+        },
+        {
+          "tez_no": "907332",
+          "title_tr": "P(HEMA)-SO3H katalizli Biginelli reaksiyonu",
+          "author": "MAMADOU LAMINE BERTHE",
+          "year": 2024,
+          "score": 0.8285,
+          "abstract_excerpt": "Organik reaksiyonların çoğu bir ya da i ki başlangıç maddesinin birbirleri ile reaksiyonlarını içeren klasik organik reaksiyonlardır. İki den daha fazla sayıda başlangıç maddesi ni n kullanıldığı reaksiyonlar ise \"multi komponent reaksi yonlar\" olarak adlandırılır. Multikomponent reaksi yonlar (MCR'"
+        },
+        {
+          "tez_no": "398614",
+          "title_tr": "Metanın oksidatif birleşme reaksiyonu için etkin katalizörlerin hazırlanması ve karakterizasyonu",
+          "author": "HASAN ÖZDEMİR",
+          "year": 2015,
+          "score": 0.8271,
+          "abstract_excerpt": "Metanın oksidatif birleşme reaksiyonu (OCM), doğal gazın direkt olarak yüksek hidrokarbonlara (C2 ve C3 hidrokarbonları) dönüştürülebilmesi için oldukça arzu edilen bir yöntem olup araştırmalar devam etmektedir. Ancak bu reaksiyonun endüstriyelleşebilmesi için önündeki en büyük engel, yüksek etilen "
+        },
+        {
+          "tez_no": "410736",
+          "title_tr": "Yeşil laboratuvar uygulamaları",
+          "author": "AYŞE CEBE",
+          "year": 2015,
+          "score": 0.8203,
+          "abstract_excerpt": "Yeşil kimya, tehlikeli maddelerin oluşumunu veya kullanımını azaltan veya bertaraf eden kimyasal ürünlerin ve süreçlerin tasarlanmasıdır. Yeşil kimya bir kimyasal ürünün tasarımı, üretimi, kullanımı ve nihai bertarafı olmak üzere onun yaşam çevrimi boyunca uygulanmaktadır. Yeşil kimya aynı zamanda s"
+        },
+        {
+          "tez_no": "521586",
+          "title_tr": "Etken maddesi klorheksidin glukonat ve benzidamin hidroklorür olan likit farmasötik ürünün yaşam döngüsü değerlendirmesi",
+          "author": "ÇAĞRI EMRE GÜNEŞ",
+          "year": 2018,
+          "score": 0.8178,
+          "abstract_excerpt": "Gelişen bilim ve teknoloji ile birlikte tüketim ürünlerinin çeşitliliği ve bu ürünlere olan talep artış göstermektedir. Tüketilen ürünlerin miktarıyla doğru orantılı bir şekilde doğal alıcı ortamlarda biriken kirlilik miktarı da artmaktadır. Farmasötik ürünler gibi özellikle sucul ekosistem üzerinde"
+        },
+        {
+          "tez_no": "296735",
+          "title_tr": "İsteğe bağlı çevresel maliyetlerin işletme giderlerine etkisi ve bir uygulama",
+          "author": "SERAP ŞİMŞEK",
+          "year": 2011,
+          "score": 0.816,
+          "abstract_excerpt": "Dünya nüfusunun hızla artması ve sanayileşme başta olmak üzere birçok neden doğal kaynakların azalmasına ve çevre kirliliği sorunlarına yol açmıştır. Bu sorunların ortaya çıkması işletmelerin çevresel kirliliğe daha duyarlı olmaları gerekliliğini de beraberinde getirmiştir. Çünkü işletmelerin çevrey"
+        },
+        {
+          "tez_no": "485829",
+          "title_tr": "Yeşil ürün satın alan tüketicilerin yaşam tarzlarının belirlenmesi",
+          "author": "GÜLHAN ŞAHİN",
+          "year": 2017,
+          "score": 0.8075,
+          "abstract_excerpt": "Günümüzde nüfus artışı hız kazanması beraberinde tüketim ve tüketicilerin sayısını artırmıştır. Bu artış çevre problemlerinin ortaya çıkmasına neden olmuştur. Teknolojinin hızla ilerlemesi ve doğal kaynakların bilinçsizce kullanımı giderek büyüyen bir çevre kirliliğine neden olmuştur.\nÇevreye verdik"
+        },
+        {
+          "tez_no": "620678",
+          "title_tr": "Benzidamin hidroklorürün farklı oksidantlarla subkritik su oksidasyonu",
+          "author": "BURCU ÖZTÜRK",
+          "year": 2020,
+          "score": 0.8055,
+          "abstract_excerpt": "Dünya üzerindeki nüfus artışı beraberinde çok hızlı şekilde doğal kaynakların tüketilmesi problemini ortaya çıkartmaktadır. Bu doğal kaynaklar arasında en çok zarar görenlerin başında ise su gelmektedir. Su kaynaklarının zarar görmesinin en önemli nedenlerinden biri ise insan aktiviteleri sonucu ort"
+        },
+        {
+          "tez_no": "601621",
+          "title_tr": "Kalite bakışı ile ilaç üretim proseslerinin iyileştirilmesi ve etkin madde partikül boyutunun bitmiş ürün çözünme hızına etkisi",
+          "author": "RAMAZAN BAKAL",
+          "year": 2019,
+          "score": 0.8038,
+          "abstract_excerpt": "Çağımızın en belirgin özelliklerinden birisi, sürdürülebilirlik ve sürekli değişim dalgalarının hemen her şeyi etkilemesidir. İşletmelerin de bu değişim dalgaları ile çevrelerine uyum sağlayabilmek ve bu doğrultuda rekabet üstünlüğü elde edebilmek için gerekli düzeylerde yenilenmeleri, proseslerini "
+        },
+        {
+          "tez_no": "557167",
+          "title_tr": "Çevrenin kasten kirletilmesi suçu",
+          "author": "GALİP EMER",
+          "year": 2019,
+          "score": 0.7869,
+          "abstract_excerpt": "İnsanlığı tehdit eden en önemli problemlerden biri olan çevre kirliliği, kökü çok eskilere dayanmasına rağmen özellikle sanayi devriminden sonra etkisini çok daha fazla göstermeye başlamıştır. 1970'li yıllardan itibaren uluslararası kamuoyunda da sıkça dile getirilmeye başlanılan çevre kirliliği ve "
+        },
+        {
+          "tez_no": "420155",
+          "title_tr": "Yüksek performanslı sıvı kromatografisi ile ilaç analizlerinde yeşilleştirme",
+          "author": "AYŞEGÜL DOĞAN",
+          "year": 2015,
+          "score": 0.7683,
+          "abstract_excerpt": "Çevre ve insan sağlığı açısından güvenli analizlerin yapılabilmesi için geliştirilen yeşil kromatografi tekniği günümüz bilimsel çalışmaları arasında yer almaktadır. HPLC tekniklerinde yeşilleştirme süreçleri; toksik çözücü kullanımının azaltılması ve/veya daha çevre uyumlu organik çözücülerle değiş"
+        },
+        {
+          "tez_no": "399700",
+          "title_tr": "İslam Hukukunda istihâle ve hükümleri",
+          "author": "YUNUS NACİ CIBIZ",
+          "year": 2015,
+          "score": 0.7526,
+          "abstract_excerpt": "İnsanların yaşamlarını sürdürmeleri için gerekli olan gıda ve ilaç gibi maddeler doğal biçimde ancak %20 nispetinde üretilebilmekte iken aradaki gıda ve ilaç açığı, sanayi tipi üretim ile kapatılabilmektedir. Sanayi tipi gıda üretimi, GDO'lu (Genetiği Değiştirilmiş Organizmalar) ürünleri, sanayi tip"
+        },
+        {
+          "tez_no": "740626",
+          "title_tr": "H2 reseptör antagonistlerinin yeşil HPLC ayırımı için kemometrik optimizasyon yaklaşımı ve famotidin içeren farmasötik preparatlara uygulanması",
+          "author": "NAZİFE EGEŞEN HALICI",
+          "year": 2022,
+          "score": 0.8055,
+          "abstract_excerpt": "Son yıllarda, yeşil kimya konusu hem endüstri hem de akademik çevrelerde araştırmacılar tarafından artan ilgi ve kabul görmüştür. Kimyasal üretim, saflaştırma ve analiz teknolojilerinin yeşillendirilmesi giderek önem kazanmıştır. Kromatografik yöntemler de kimyanın yeşilleştirilmesi gereken bir dalı"
+        },
+        {
+          "tez_no": "705048",
+          "title_tr": "Farmasötiklerin ileri biyolojik atıksu arıtma tesisindeki akıbetleri, membran prosesler ile giderimleri ve farklı tarımsal uygulamalar ile toprak ve bitkilere geçişleri",
+          "author": "TAYLAN DOLU",
+          "year": 2021,
+          "score": 0.8013,
+          "abstract_excerpt": "Dünya'da farmasötiklerin oldukça yüksek miktarlarda üretilmesi ve farklı sektörlerdeki yaygın kullanımları; bu bileşiklerin çevreye sürekli salınmalarına ve birçok farklı çevresel matriste eş zamanlı olarak bulunmalarına neden olmaktadır. Son yıllarda endüstriyel deşarjlar, hayvancılık, tarımsal uyg"
+        },
+        {
+          "tez_no": "562595",
+          "title_tr": "Ultrasonik ortamda yeni heterohalkalı organik bileşiklerin sentezi, karakterizasyonu ve DPPH radikali giderme aktivitelerinin belirlenmesi",
+          "author": "GAMZE TAŞ",
+          "year": 2019,
+          "score": 0.7948,
+          "abstract_excerpt": "Organik kimyada, önemli bir yere sahip olan heterohalkalı bileşikler ve bunların türevleri çoğunlukla endüstriyel alanda ve tıp alanında geniş bir kullanım alanına sahiptir.\nHeterohalkalı bileşiklerin farmakolojik özellikleri oldukça yaygındır. Heterohalkalı bileşikler, halka içi atomlarından en az "
+        },
+        {
+          "tez_no": "794945",
+          "title_tr": "Tıbbi atık yönetiminde döngüsel geçişin yol haritası",
+          "author": "ARİF SÖYLER",
+          "year": 2023,
+          "score": 0.7942,
+          "abstract_excerpt": "Dünya nüfusunun ve yaşlanma oranlarının giderek artan etkisiyle oluşan sağlık hizmeti ihtiyaçlarındaki artışlar, sağlık yönetiminin tıbbi atık boyutunun sürdürülebilirlik açısından değerlendirilmesini gerektirmiştir. Mevcut duruma ek olarak dünyadaki tüm sektörleri benzeri görülmemiş bir şekilde etk"
+        },
+        {
+          "tez_no": "851299",
+          "title_tr": "İlaç endüstrisinde çözücü kullanımı ve çözücü geri kazanımı",
+          "author": "ZELİHA GÜRSAL ÖZTÜRK COŞKUN",
+          "year": 2024,
+          "score": 0.793,
+          "abstract_excerpt": "Yirmi birinci yüzyılda, çevre sorunları dünyayı etkileyen en önemli problemlerden birisidir. Bu sebeple, endüstrinin birçok dalında yaygın biçimde kullanılan çözücülerden kaynaklanan atıklardan değerli bileşenleri uygun yöntemlerle geri kazanarak hem ekonomik kaybın hem de çevresel zararların önlenm"
+        },
+        {
+          "tez_no": "269768",
+          "title_tr": "İlaç sektöründe atık yönetimi ve geri dönüşüm için tersine lojistik ağı tasarım modeli",
+          "author": "AYŞE GÜNEŞ",
+          "year": 2010,
+          "score": 0.7892,
+          "abstract_excerpt": "Rekabet unsurlarının artması, tüm kuruluşları maliyetleri düşürüp daha fazla kar elde edebilmek için farklı yöntemler araştırmaya yöneltmiştir. Kaynakların etkin kullanılması belki de tüm alanlarda en önemli faktör olarak kendini göstermektedir. Kıt kaynakların dikkatli kullanılmasının öneminin yanı"
+        },
+        {
+          "tez_no": "337587",
+          "title_tr": "Evsel ilaç atıklarının toplanması projesindeki tersine lojistik sürecinin modellenmesi için genetik algoritmaların kullanılması",
+          "author": "KADİR KIRDA",
+          "year": 2013,
+          "score": 0.789,
+          "abstract_excerpt": "Son dönemlerde fark edilmeye başlanan çevresel kirlenme ve bunun zararları sonucunda insanların çevre konusunda duyarlılıkları artmış, aynı hassasiyeti işletmelerden ve yönetimlerden de bekler hale gelmişlerdir. Tersine lojistik bu konuda büyük bir öneme sahiptir. Tersine lojistik ile işe yaramayan "
+        },
+        {
+          "tez_no": "242709",
+          "title_tr": "Akut KOAH alevlenmesinde Çorum Göğüs Hastalıkları Hastanesinde kullanılan iki farklı antibiyotiğin maliyet-etkinlik analizi üzerinde bir çalışma",
+          "author": "EMRAH BİLGENER",
+          "year": 2009,
+          "score": 0.7869,
+          "abstract_excerpt": "Geliştirilen birçok yeni teşhis ve tedavi yöntemlerinin maliyetleri teknolojileri ile aynı oranda artmıştır. Sağlık hizmetlerine artan talep ilaç ve sağlık harcamalarını artırmaktadır. Ancak, bir noktadan sonra harcamaların artması sağlık statüsünde herhangi bir değişime etki etmemektedir. Üreticile"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 13,
+      "findings": [
+        {
+          "claim": "Yeşil kimya, tehlikeli maddelerin oluşumunu veya kullanımını azaltan/bertaraf eden kimyasal ürün ve süreçlerin tasarlanmasıdır ve bir ürünün yaşam çevrimi boyunca (tasarım, üretim, kullanım, bertaraf) uygulanır.",
+          "citations": [
+            "410736",
+            "182329"
+          ]
+        },
+        {
+          "claim": "İlaç endüstrisinde kromatografik analiz yöntemlerinin yeşilleştirilmesi kapsamında toksik organik çözücülerin (ör. asetonitril, metanol) daha çevre uyumlu çözücülerle (ör. propilen karbonat) değiştirilmesi ve analiz sürelerinin kısaltılması gibi yaklaşımlar uygulanmaktadır.",
+          "citations": [
+            "420155",
+            "740626",
+            "851299"
+          ]
+        },
+        {
+          "claim": "Biyokatalizörlerin (enzim veya mikroorganizma) kullanımı, biyoaktif moleküllerin sentezinde yüksek verim ve çevreye daha az zarar sağlayarak yeşil kimya prensiplerine katkıda bulunur.",
+          "citations": [
+            "442602"
+          ]
+        },
+        {
+          "claim": "Multikomponent reaksiyonlar (MCR'ler), yüksek atom ekonomisi, yüksek verim ve karmaşık moleküllerin hızlı sentezi gibi avantajlarıyla yeşil kimya prensiplerine uygundur.",
+          "citations": [
+            "907332"
+          ]
+        },
+        {
+          "claim": "Süperkritik karbondioksit (scCO2), iyonik sıvılar ve florlu çözücüler gibi alternatif reaksiyon ortamları, geleneksel organik çözücülerin yerine kullanılarak çevresel etkiyi azaltmaktadır.",
+          "citations": [
+            "178377"
+          ]
+        },
+        {
+          "claim": "Ultrasonik ortamda sentez ve klasik ısıtma yöntemlerine alternatif yeşil sentez yöntemleri, heterohalkalı bileşiklerin sentezinde yeşil kimya prensiplerine uygun olarak kullanılmaktadır.",
+          "citations": [
+            "562595"
+          ]
+        },
+        {
+          "claim": "İlaç endüstrisinde çözücü geri kazanımı (ör. distilasyon ile asetonitril ve metanol geri kazanımı) hem ekonomik kaybı hem de çevresel zararları önlemektedir.",
+          "citations": [
+            "851299"
+          ]
+        },
+        {
+          "claim": "Farmasötik üretim kaynaklı çevresel etkiler yüksektir ve bu etkilerin azaltılması için yaşam döngüsü değerlendirmesi (YDD) gibi araçlar kullanılmaktadır.",
+          "citations": [
+            "521586"
+          ]
+        },
+        {
+          "claim": "Tersine lojistik ve atık yönetimi, ilaç sektöründe atıkların geri dönüşümü ve bertarafı için yeşil kimya prensipleriyle uyumlu çözümler sunmaktadır.",
+          "citations": [
+            "269768",
+            "337587",
+            "794945"
+          ]
+        },
+        {
+          "claim": "Katalizör kullanımı, kimyasal reaksiyonlarda yüksek verim ve seçicilik sağlayarak yan ürün oluşumunu azaltmakta ve yeşil kimya prensiplerine katkıda bulunmaktadır.",
+          "citations": [
+            "526604",
+            "398614",
+            "221932"
+          ]
+        },
+        {
+          "claim": "Subkritik su oksidasyonu gibi ileri oksidasyon yöntemleri, farmasötik atıkların (ör. benzidamin hidroklorür) arıtılmasında yeşil kimya yaklaşımı olarak kullanılmaktadır.",
+          "citations": [
+            "620678"
+          ]
+        },
+        {
+          "claim": "Yeşil tedarik zinciri uygulamaları, kimya sektöründe çevresel etkileri azaltmak amacıyla kullanılmakta olup ilaç üretim süreçlerini de kapsamaktadır.",
+          "citations": [
+            "491367"
+          ]
+        },
+        {
+          "claim": "Proses iyileştirme ve kritik parametrelerin kontrolü, ilaç üretiminde verimsiz süreçleri azaltarak atık ve uymayan ürün miktarını düşürmekte, dolaylı olarak yeşil kimya hedeflerine katkı sağlamaktadır.",
+          "citations": [
+            "601621"
+          ]
+        }
+      ],
+      "contradictions": [
+        "Kaynaklarda doğrudan bir çelişki tespit edilmemiştir."
+      ]
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Yeşil kimyanın 12 prensibinin ilaç üretim süreçlerinde sistematik olarak ele alınmaması (ör. önleme, atom ekonomisi, daha güvenli çözücüler, enerji verimliliği, yenilenebilir hammaddeler, türevlerin azaltılması, kataliz, bozunma tasarımı, gerçek zamanlı analiz, kaza önleme)",
+        "Atık azaltma stratejilerinin spesifik ilaç üretim aşamaları (API sentezi, formülasyon, saflaştırma) bağlamında detaylandırılmaması",
+        "Yeşil kimya uygulamalarının endüstriyel ölçekte karşılaştığı engeller ve maliyet analizi (ekonomik fizibilite)",
+        "İlaç üretiminde su kullanımı ve atık su yönetimine dair yeşil kimya yaklaşımları",
+        "Yeşil kimya prensiplerinin ilaç endüstrisinde regülasyonlarla (FDA, EMA kılavuzları) ilişkisi",
+        "Enerji tüketiminin azaltılmasına yönelik spesifik yeşil kimya uygulamaları (mikrodalga destekli sentez, akış kimyası gibi)"
+      ],
+      "requery_terms": [
+        "yeşil kimya 12 prensip ilaç endüstrisi",
+        "ilaç üretimi atık azaltma yeşil kimya",
+        "yeşil kimya ilaç endüstrisi ekonomik engeller",
+        "ilaç üretimi atık su arıtma yeşil kimya",
+        "FDA EMA yeşil kimya kılavuz ilaç",
+        "mikrodalga destekli sentez ilaç yeşil kimya",
+        "akış kimyası ilaç üretimi yeşil kimya",
+        "API sentezi yeşil kimya uygulamaları"
+      ],
+      "notes": "Mevcut sentez, yeşil kimyanın ilaç üretimindeki uygulamalarına dair çeşitli spesifik örnekler (alternatif çözücüler, biyokataliz, MCR'ler, scCO2, ultrasonik sentez, çözücü geri kazanımı, YDD, tersine lojistik, kataliz, subkritik su oksidasyonu, yeşil tedarik zinciri, proses iyileştirme) sunmaktadır. Ancak yeşil kimyanın 12 prensibinin sistematik bir çerçevede ele alınmaması önemli bir eksikliktir. Ayrıca endüstriyel ölçeklenebilirlik, regülasyonlarla uyum, enerji verimliliği (mikrodalga, akış kimyası gibi spesifik yöntemler), su/atık su yönetimi ve ekonomik fizibilite gibi kritik alt-boyutlar örtülmemiştir. Bu nedenle ek arama (re-query) önerilmiştir."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nYeşil kimya, tehlikeli maddelerin oluşumunu veya kullanımını azaltan ya da bertaraf eden kimyasal ürün ve süreçlerin tasarlanması olarak tanımlanmakta olup, bir kimyasal ürünün tasarım, üretim, kullanım ve nihai bertaraf aşamalarını kapsayan yaşam çevrimi boyunca uygulanmaktadır [9][3]. İlaç endüstrisi, yüksek çevresel etki potansiyeli nedeniyle yeşil kimya prensiplerinin uygulanması açısından kritik bir sektör konumundadır [10]. Bu bağlamda, farmasötik üretim süreçlerinde yeşil kimya prensiplerinin çeşitli boyutlarda uygulama alanı bulduğu görülmektedir.\n\n## Analiz Yöntemlerinin Yeşilleştirilmesi\n\nİlaç endüstrisinde kullanılan kromatografik analiz yöntemlerinin yeşilleştirilmesi kapsamında, toksik organik çözücülerin (örneğin asetonitril ve metanol) daha çevre uyumlu alternatiflerle değiştirilmesi önemli bir yaklaşımdır. Bu doğrultuda propilen karbonat gibi çözücülerin geleneksel organik çözücülerin yerine kullanılabileceği gösterilmiştir [16][18]. Ayrıca analiz sürelerinin kısaltılması ve daha az toksik hareketli fazların tercih edilmesi, kromatografik yöntemlerin çevresel etkisini azaltan diğer önemli adımlardır [18][1].\n\n## Alternatif Reaksiyon Ortamları ve Çözücü Yönetimi\n\nGeleneksel organik çözücülerin yerine süperkritik karbondioksit (scCO₂), iyonik sıvılar ve florlu çözücüler gibi alternatif reaksiyon ortamlarının kullanımı, çevresel etkiyi önemli ölçüde azaltmaktadır [6]. Bunun yanı sıra, ilaç endüstrisinde çözücü geri kazanımı uygulamaları, özellikle distilasyon yoluyla asetonitril ve metanol gibi değerli çözücülerin geri kazanılması, hem ekonomik kaybı hem de çevresel zararları önleme açısından yeşil kimya prensipleriyle doğrudan uyumludur [22].\n\n## Biyokatalizör ve Katalizör Kullanımı\n\nBiyokatalizörlerin (enzim veya mikroorganizma) kullanımı, biyoaktif moleküllerin sentezinde yüksek verim sağlarken çevreye daha az zarar verilmesine olanak tanımakta ve bu yönüyle yeşil kimya prensiplerine önemli katkılar sunmaktadır [2]. Benzer şekilde, katalizörlerin kimyasal reaksiyonlarda yüksek verim ve seçicilik sağlayarak yan ürün oluşumunu azaltması, yeşil kimyanın atık önleme ve atom ekonomisi hedefleriyle örtüşmektedir [4][8][5].\n\n## Multikomponent Reaksiyonlar ve Yeşil Sentez Yöntemleri\n\nMultikomponent reaksiyonlar (MCR'ler), yüksek atom ekonomisi, yüksek verim ve karmaşık moleküllerin hızlı sentezi gibi avantajlarıyla yeşil kimya prensiplerine uygun sentetik yöntemler arasında yer almaktadır [7]. Ayrıca ultrasonik ortamda sentez ve klasik ısıtma yöntemlerine alternatif yeşil sentez teknikleri, heterohalkalı bileşiklerin üretiminde yeşil kimya prensipleri doğrultusunda kullanılmaktadır [20].\n\n## Atık Yönetimi ve Proses İyileştirme\n\nFarmasötik atıkların arıtılmasında subkritik su oksidasyonu gibi ileri oksidasyon yöntemleri yeşil kimya yaklaşımı olarak değerlendirilmektedir [13]. Tersine lojistik ve atık yönetimi uygulamaları, ilaç sektöründe atıkların geri dönüşümü ve bertarafı için yeşil kimya prensipleriyle uyumlu çözümler sunmaktadır [23][24][21]. Proses iyileştirme ve kritik parametrelerin kontrolü, ilaç üretiminde verimsiz süreçleri azaltarak atık ve uymayan ürün miktarını düşürmekte, dolaylı olarak yeşil kimya hedeflerine katkı sağlamaktadır [14]. Yeşil tedarik zinciri uygulamaları da kimya sektöründe çevresel etkileri azaltmak amacıyla kullanılmakta olup ilaç üretim süreçlerini kapsamaktadır [1].\n\n## Sonuç\n\nYeşil kimya prensiplerinin ilaç üretim süreçlerindeki uygulamaları; analiz yöntemlerinin yeşilleştirilmesinden alternatif reaksiyon ortamlarının kullanımına, biyokatalizör ve katalizörlerin tercih edilmesinden multikomponent reaksiyonlar gibi yüksek atom ekonomili sentez yöntemlerine, çözücü geri kazanımından atık yönetimi ve proses iyileştirmeye kadar geniş bir yelpazeyi kapsamaktadır. Bu uygulamaların ortak hedefi, farmasötik üretim kaynaklı çevresel etkilerin yaşam döngüsü değerlendirmesi gibi araçlarla analiz edilerek minimize edilmesi ve sürdürülebilir üretim modellerine geçişin sağlanmasıdır [10]. Kaynaklarda doğrudan bir çelişki tespit edilmemiş olup, sunulan yaklaşımların yeşil kimyanın temel prensipleriyle uyumlu ve birbirini tamamlayıcı nitelikte olduğu görülmektedir.",
+      "n_citations": 25,
+      "citations_ieee": [
+        "[1] SERGEN COŞKUN, \"Yeşil tedarik zinciri uygulamaları üzerine kimya sektöründe bir alan araştırması /,\" Yüksek Lisans/Doktora tezi, Mersin Üniversitesi / Sosyal Bilimler Enstitüsü / Uluslararası Ticaret ve Lojistik Ana Bilim Dalı / Uluslararası Ticaret Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vbVkXe1KChYWNElr1MuLZqDDYRvzs6fza1gHyhRe9_I1FSFhoOpme8F236gNBrHL",
+        "[2] TUĞBA GÜLBAY, \"Mikrobiyal ve enzimatik reaksiyonlar kullanılarak biyoteknolojik yöntemlerle biyoaktif maddelerin sentezi,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Moleküler Biyoloji ve Genetik Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=OykDDeWBWTL9-Wm52sZBrNN0T-zT6rYsA1u2LAUKCPbri6NBreMQ9u4MggYCL3OG",
+        "[3] SEÇİL ERÖKTEN, \"Kimya eğitiminde \"yeşil kimya\" konusunun öğretimi ile ilgili çeşitli değerlendirmeler,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Fen Bilimleri Enstitüsü / Ortaöğretim Fen ve Matematik Alanları Eğitimi Ana Bilim Dalı, 2006. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-L8ilcwn9ZRRc_YMKxXW1goatT73zifWzgFOtkm4l3La0Ig6Qcv8yJKeC8G5Pl-m",
+        "[4] GİZEM KAYA, \"Oksidasyon katalizörü olarak çeşitlikoordinasyon bileşiklerinin hazırlanması,karakterizasyonu ve etkinliklerinin ölçülmesi,\" Yüksek Lisans/Doktora tezi, Sakarya Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Ana Bilim Dalı / Anorganik Kimya Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fS4sqEZr79C_n60Rk6MjFfluGZ7436vPeamEWEPYVpQ4yQFsEg_FRQBEUjFdEXsk",
+        "[5] AYŞE YURDAKUL, \"3,4-dihidroizokinolinyum klorokromat ve 3,4- dihidroizokinolinyum florokromat sentezi ve yükseltgeme reaktifi olarak etkinliğinin arastırılması,\" Yüksek Lisans/Doktora tezi, Mersin Üniversitesi / Fen Bilimleri Enstitüsü / Organik Kimya Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-Z0vbSUgrhM9fXoGkRe6Q6e9uap5hFC72dDj9Rl_DFyQfiESMOXSVvq_nv7AxbR7",
+        "[6] GÖKTÜRK AVŞAR, \"Orijinal nitelikte florlanmış fosfin ve Rodyum(I) komplekslerinin sentezi ve Süperkritik karbon dioksit ortamında hidrojenasyon reaksiyonlarında kullanımı,\" Yüksek Lisans/Doktora tezi, Çukurova Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Bölümü / Kimya Ana Bilim Dalı, 2008. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=biL2P3cCsPgUNjVdV2BsGMeCFeixAhsEjZqY5NB3t8_ZBb2G5GXFwN5JwU68EoSt",
+        "[7] MAMADOU LAMINE BERTHE, \"P(HEMA)-SO3H katalizli Biginelli reaksiyonu,\" Yüksek Lisans/Doktora tezi, Bursa Uludağ Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=LY6e5xGA7WWUpEdrBmEPLgP2vmfkKj7lJqbXDVdrIBdEVRkpEG3BJX6HmJd_MvrT",
+        "[8] HASAN ÖZDEMİR, \"Metanın oksidatif birleşme reaksiyonu için etkin katalizörlerin hazırlanması ve karakterizasyonu,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Mühendisliği Ana Bilim Dalı / Proses ve Reaktör Tasarımı Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WBc656i315e2eV6-EZV1otrVqCoRp2IVRPOWEjrMrwA-_juXrYmtgxaCap_Vt4LT",
+        "[9] AYŞE CEBE, \"Yeşil laboratuvar uygulamaları,\" Yüksek Lisans/Doktora tezi, Harran Üniversitesi / Fen Bilimleri Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WY5CM7tPNE2z_YM6pBu0tyXUQDlrHNGWQuFoDRthY_iCgkIf5NreaQqOGe9tSMeE",
+        "[10] ÇAĞRI EMRE GÜNEŞ, \"Etken maddesi klorheksidin glukonat ve benzidamin hidroklorür olan likit farmasötik ürünün yaşam döngüsü değerlendirmesi,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Fen Bilimleri Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=fS4sqEZr79C_n60Rk6MjFc8n10y5C9CNXywgJfu7z1ZHab3i9wH8cIShkYZOYYkO",
+        "[11] SERAP ŞİMŞEK, \"İsteğe bağlı çevresel maliyetlerin işletme giderlerine etkisi ve bir uygulama,\" Yüksek Lisans/Doktora tezi, Dumlupınar Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGsJ0rtdhHLmHOUDXjA0QFwTfoygrBlW244S--wdaNhU1",
+        "[12] GÜLHAN ŞAHİN, \"Yeşil ürün satın alan tüketicilerin yaşam tarzlarının belirlenmesi,\" Yüksek Lisans/Doktora tezi, Ufuk Üniversitesi / Sosyal Bilimler Enstitüsü / Sosyal Bilimler Ana Bilim Dalı / İşletme Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RrI-Krk3A-RkF4YfHofukynrDvBlGjKkB9e8VOUzGBXnqOZjoND8pK6hiYOxNDUw",
+        "[13] BURCU ÖZTÜRK, \"Benzidamin hidroklorürün farklı oksidantlarla subkritik su oksidasyonu,\" Yüksek Lisans/Doktora tezi, Mersin Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Ana Bilim Dalı / Analitik Kimya Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Eb5EkakJlp3olBdo_wNEGVG1McfkXMa2c5IcJNck5bodkWQQIqOHT1002Tq452R-",
+        "[14] RAMAZAN BAKAL, \"Kalite bakışı ile ilaç üretim proseslerinin iyileştirilmesi ve etkin madde partikül boyutunun bitmiş ürün çözünme hızına etkisi,\" Yüksek Lisans/Doktora tezi, Konya Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Kimya Mühendisliği Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=aEzj_IdWAsjiSAfK3qwrBhV7rZp6ylwJh15dfJ-84tiOhYDCxINslNKMCXtYOiOD",
+        "[15] GALİP EMER, \"Çevrenin kasten kirletilmesi suçu,\" Yüksek Lisans/Doktora tezi, Bahçeşehir Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Mir2lXQK1dkmQ9Ige3PZbjkBn-qAiZTa78YpxYYnoVihpZ4WA-KRQHRP9CKU71KL",
+        "[16] AYŞEGÜL DOĞAN, \"Yüksek performanslı sıvı kromatografisi ile ilaç analizlerinde yeşilleştirme,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sağlık Bilimleri Enstitüsü / Analitik Kimya Ana Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Br_XTptK8CZ70f0JGX9xEmvwvdWrbic0vdjAntDyLqLB1UibnSQnizi4EuhkpoAb",
+        "[17] YUNUS NACİ CIBIZ, \"İslam Hukukunda istihâle ve hükümleri,\" Yüksek Lisans/Doktora tezi, Yalova Üniversitesi / Sosyal Bilimler Enstitüsü / Temel İslam Bilimleri Ana Bilim Dalı / İslam Hukuku Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WBc656i315e2eV6-EZV1oq_1qw0oahZrapP4azQ_CQey-gJ4glosInJRVk36mHvJ",
+        "[18] NAZİFE EGEŞEN HALICI, \"H2 reseptör antagonistlerinin yeşil HPLC ayırımı için kemometrik optimizasyon yaklaşımı ve famotidin içeren farmasötik preparatlara uygulanması,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sağlık Bilimleri Enstitüsü / Analitik Kimya Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=sELqxhTlFGAjsbjOuuiyCDCpL-W_w7xWb1hgaoFzaiouOdeloS66qpFaY_0dbFCa",
+        "[19] TAYLAN DOLU, \"Farmasötiklerin ileri biyolojik atıksu arıtma tesisindeki akıbetleri, membran prosesler ile giderimleri ve farklı tarımsal uygulamalar ile toprak ve bitkilere geçişleri,\" Yüksek Lisans/Doktora tezi, Konya Teknik Üniversitesi / Lisansüstü Eğitim Enstitüsü / Çevre Mühendisliği Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5SgvlggzuXXDTPsIoT8EioOSiqSY4VL2O-NfVLg8ILHzun3jRt",
+        "[20] GAMZE TAŞ, \"Ultrasonik ortamda yeni heterohalkalı organik bileşiklerin sentezi, karakterizasyonu ve DPPH radikali giderme aktivitelerinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Kırklareli Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Ana Bilim Dalı / Kimya Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=FgmkGchPKo23qQqBeqzVZgy6u9DkKgRrVAFTzcE9vB1jOm8lSoooaoHp8itrt3EN",
+        "[21] ARİF SÖYLER, \"Tıbbi atık yönetiminde döngüsel geçişin yol haritası,\" Yüksek Lisans/Doktora tezi, İzmir Katip Çelebi Üniversitesi / Sosyal Bilimler Enstitüsü / Sağlık Yönetimi Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=G_oJ1rKE4SgJUkomyAKpR6pNVtfFTGxtpe1QY0Mu5jTPCAlCP0S97ezJx_VYuzqi",
+        "[22] ZELİHA GÜRSAL ÖZTÜRK COŞKUN, \"İlaç endüstrisinde çözücü kullanımı ve çözücü geri kazanımı,\" Yüksek Lisans/Doktora tezi, Yıldız Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Kimya Mühendisliği Ana Bilim Dalı / Kimya Mühendisliği Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cr4SkWLaRMhkDRBjqthpsTjX-Gv4FINevOT62eliBk7a-TpTq8nXE88vNdoMo7PP",
+        "[23] AYŞE GÜNEŞ, \"İlaç sektöründe atık yönetimi ve geri dönüşüm için tersine lojistik ağı tasarım modeli,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Fen Bilimleri Enstitüsü / Endüstri Mühendisliği Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=ZeTyprYuef2HkaF3xt4wYhxW9jr6aPXAQ3Wt5NnalmQ4GRey2G2m3rUK0GO9Zsu3",
+        "[24] KADİR KIRDA, \"Evsel ilaç atıklarının toplanması projesindeki tersine lojistik sürecinin modellenmesi için genetik algoritmaların kullanılması,\" Yüksek Lisans/Doktora tezi, Dokuz Eylül Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı / İşletme Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vVNzTGHHhjH-u3WMToxQ-isiKsIoJ0pbM-gWDUNAInWlsEP1cMhclATElCdtyJVQ",
+        "[25] EMRAH BİLGENER, \"Akut KOAH alevlenmesinde Çorum Göğüs Hastalıkları Hastanesinde kullanılan iki farklı antibiyotiğin maliyet-etkinlik analizi üzerinde bir çalışma,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sağlık Bilimleri Enstitüsü / Eczacılık İşletmeciliği Ana Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAViEUM3cSHzNnoK629y5-PDerUtG87GE-Gg2jjGpdlF9"
+      ]
+    }
+  },
+  "error": null
+}

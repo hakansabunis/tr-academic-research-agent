@@ -1,0 +1,356 @@
+{
+  "id": "q28",
+  "category": "multi_domain",
+  "type": "cross",
+  "question": "Yapay zeka teknolojilerinin tıbbi tanı süreçlerine entegrasyonu hangi etik ve hukuki konuları gündeme getirmektedir?",
+  "expected_subjects": [
+    "Bilgisayar Mühendisliği",
+    "Hukuk",
+    "Sağlık Eğitimi"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 135.08,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Yapay zeka destekli tıbbi tanı sistemlerinin hasta mahremiyeti ve veri güvenliği açısından doğurduğu etik sorunlar nelerdir?",
+          "rationale": "Hasta verilerinin işlenmesi ve saklanması sürecinde ortaya çıkan mahremiyet ihlalleri, veri güvenliği riskleri ve aydınlatılmış onam gibi temel etik meseleleri kapsar."
+        },
+        {
+          "text": "Yapay zeka ile konulan tıbbi tanılarda hata durumunda sorumluluğun (hukuki mesuliyetin) kime ait olduğu konusunda Türkiye'deki tezlerde hangi görüşler öne sürülmektedir?",
+          "rationale": "Hekim, hastane, yazılım geliştiricisi veya yapay zeka arasında sorumluluğun nasıl dağıtılacağına dair hukuki tartışmaları ve Türk hukuk sistemindeki karşılıklarını inceler."
+        },
+        {
+          "text": "Yapay zeka tabanlı tanı araçlarının tıbbi cihaz düzenlemeleri ve ruhsatlandırma süreçleri açısından karşılaştığı hukuki engeller nelerdir?",
+          "rationale": "Yapay zeka sistemlerinin tıbbi cihaz olarak sınıflandırılması, onay süreçleri, klinik doğrulama gereklilikleri ve mevzuat boşlukları gibi düzenleyici konuları kapsar."
+        },
+        {
+          "text": "Yapay zeka destekli tanı sistemlerinde algoritmik önyargı (bias) ve sağlıkta eşitsizlik sorunları hangi etik tartışmaları beraberinde getirmektedir?",
+          "rationale": "Eğitim verilerindeki demografik dengesizliklerin azınlık gruplarda yanlış tanılara yol açması, adalet ve eşitlik ilkeleri açısından incelenir."
+        },
+        {
+          "text": "Yapay zeka ile tıbbi tanı sürecinde hekim- hasta ilişkisinin dönüşümü ve 'insan denetimi' (human-in-the-loop) gerekliliği konusunda tezlerde hangi etik çerçeveler önerilmektedir?",
+          "rationale": "Yapay zekanın karar destek aracı mı yoksa otonom karar alıcı mı olması gerektiği, hekimin nihai karar verici rolü ve hasta güveni gibi konuları ele alır."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 36,
+      "max_score": 0.9221,
+      "min_score": 0.5,
+      "chunks": [
+        {
+          "tez_no": "905678",
+          "title_tr": "Yapay zekâ sistemlerinin tıbbi görüntüleme alanında kullanımında etik: Radyoloji uzmanlarının görüş ve tutumları",
+          "author": "SEÇİL ÖZÇİFTÇİ",
+          "year": 2024,
+          "score": 0.9221,
+          "abstract_excerpt": "Amaç: Yapay zekâ denildiğinde, genellikle insana benzer anatomiye sahip robotik varlıklar\nakla gelmektedir. Ancak yapay zekâ kavramı robotik araçların ötesinde, çok daha çeşitli\nalanlarda gelişim göstermektedir. Günümüzde yapay zekâ sistemleri kişisel elektronik\ncihazlarımızda, kamu hizmetlerinde ve"
+        },
+        {
+          "tez_no": "889346",
+          "title_tr": "Geleneksel tıp teşhis yöntemlerinin yapay zeka ile geliştirilen uygulamalarına duyulan güven ve tercih eğiliminin araştırılması",
+          "author": "BAHADIR HÜSEYİN CEVİZCİ",
+          "year": 2024,
+          "score": 0.8915,
+          "abstract_excerpt": "Yapay zeka, insan zihnini ve davranışlarını taklit eden makineler geliştirmeyi amaçlayan, mühendislik, felsefe ve psikoloji gibi disiplinleri bir araya getiren bir alandır. Derin öğrenme ve makine öğrenimi gibi yapay zeka uygulamaları, tıbbi verilerin güvenliği ve tıbbi teşhis sistemlerinin geliştir"
+        },
+        {
+          "tez_no": "690018",
+          "title_tr": "Yapay zekanın tıp alanında ikame edici veya tamamlayıcı kullanımının doktorlar üzerindeki etkilerine yönelik bir senaryo çalışması",
+          "author": "ZAFER YILDIRIM",
+          "year": 2021,
+          "score": 0.889,
+          "abstract_excerpt": "Sürekli gelişen dünyamızda özellikle sanayi devriminden sonra teknoloji başta olmak üzere pek çok alanda hızlı ve tüm dünyayı etkisi altına alan adımlar atılmıştır. Önce elektriğin kullanılmaya başlanması ve daha sonra transistörlerin de icadıyla bilgisayarlar hayatımıza girmiştir. Günümüzde ise bil"
+        },
+        {
+          "tez_no": "619505",
+          "title_tr": "5846 sayılı Fikir ve Sanat Eserleri Kanunu kapsamında eser kavramı ve yapay zeka ürünleri",
+          "author": "BÜŞRA KAYNAK BALTA",
+          "year": 2020,
+          "score": 0.8806,
+          "abstract_excerpt": "İnsan zekasının model alınması suretiyle geliştirilmeye başlanılan, makinelere insan zekasını, yani bir varlığın çevresinde olan biteni algılama işlevi gören niteliği kazandırmaya adanmış bir etkinlikten ibaret olan ve kavramsal anlamda ilk defa 1956 senesinde Amerikalı bilgisayar bilimcisi John McC"
+        },
+        {
+          "tez_no": "699553",
+          "title_tr": "Sağlık alanında yapay zeka çalışmaları",
+          "author": "BETÜL KARAKAŞ",
+          "year": 2021,
+          "score": 0.87,
+          "abstract_excerpt": "Yapay zeka makineler insanlar gibi düşünebilir mi soyut sorusuyla ortaya çıkan zamanla somutlaşan bir kavram.İlk çıktığı zamandan bu yana sürekli ilerleyen ve son zamanlarda hızlı bir şekilde gelişen sistem.Günümüzde neredeyse her sektörde yapay zeka kullanılıyor.İnsan hatasındaki azalma,verimlilik "
+        },
+        {
+          "tez_no": "468397",
+          "title_tr": "Tıbbi müdahalede hekimin taksire dayalı cezai sorumluluğu",
+          "author": "BİLGE NUR ÜREKLİ",
+          "year": 2017,
+          "score": 0.8684,
+          "abstract_excerpt": "Tıbbın, her geçen gün gelişmesine karşın, modern tıpta sıfır hadise neredeyse imkânsızdır. İleri seviye teknolojik gelişmeler, laboratuvar testlerinin hassas ölçerliği ve hastalıkların durumunu somut bir şekilde gösteren birçok yenilikler de toplumda, mükemmeliyet beklentisini oluşturmuştur. Bu sebe"
+        },
+        {
+          "tez_no": "299232",
+          "title_tr": "Hastalıkların uzman bir sistemle otomatik olarak teşhis edilmesi",
+          "author": "EMRE GÜRBÜZ",
+          "year": 2011,
+          "score": 0.8628,
+          "abstract_excerpt": "Hastalık teşhisi, tıp dünyasında ve insan hayatında önemli bir yere sahiptir. Hastalıkların teşhisi sürecinde deneyimli hekimlerin dahi tereddütte kalabileceği göz önünde bulundurulduğunda, böylesi önemli bir konuda doktorlara destek olarak hastalık teşhisini kolaylaştırmak, teşhis süresini kısaltma"
+        },
+        {
+          "tez_no": "247706",
+          "title_tr": "Türkiye'de tıp etiği ve hukuk açısından tıbbi hata kavramı",
+          "author": "MUSTAFA LEVENT ÖZGÖNÜL",
+          "year": 2010,
+          "score": 0.8613,
+          "abstract_excerpt": "Tıbbi hataların ilkel tıp uygulamaları dönemlerinde de olduğunu varsaymak mümkündür. Günümüz bilimsel tıp uygulamaları sırasında oldukça sık görüldüğü gerçeğini yapılan araştırmalardan biliyoruz.1992 yılında 44. Dünya Hekimler Birliği Genel Kurulunda hastaların tıbbi uygulamalar sırasında zarar görd"
+        },
+        {
+          "tez_no": "828086",
+          "title_tr": "Kişisel verilerin korunması hukuku bağlamında sağlık bilimlerinde yapay zeka kullanımı",
+          "author": "ELİF ILGIN ÖZCAN",
+          "year": 2023,
+          "score": 0.8602,
+          "abstract_excerpt": "Teknoloji ve dijitalleşme çağında \"yapay zeka\" ve \"kişisel verilerin korunması\" kavramları sıkça gündeme gelmektedir. Yapay zekanın kullanıldığı en önemli alanlardan biri sağlıktır. Sağlık bilimlerinde yapay zeka uygulamalarının faaliyette bulunabilmesi için veri hukukunca yüksek koruma öngörülen ki"
+        },
+        {
+          "tez_no": "706344",
+          "title_tr": "Sağlık hizmetlerinde kişisel verilerin korunması",
+          "author": "TÜRKAN PELİN UZUN",
+          "year": 2021,
+          "score": 0.8544,
+          "abstract_excerpt": "Sağlık hizmetlerinin eksiksiz olarak sunulabilmesi için kişilerin bilgilerine doğru ve eksiksiz olarak ulaşılması gerekmektedir. Kişilerin sağlık geçmişlerine ilişkin verilere, elektronik sağlık kayıt sistemlerinin geliştirilmesiyle birlikte erişmek kolaylaşmıştır. Ancak bu durum otom"
+        },
+        {
+          "tez_no": "370654",
+          "title_tr": "Tıbbi müdahale hatalarında bilirkişinin rolü",
+          "author": "VOLKAN YAŞAR IŞIKSAÇAN",
+          "year": 2014,
+          "score": 0.8479,
+          "abstract_excerpt": "Bilirkişi görüşlerinin davaların sonuçlandırılmasında çok etkili bir rolü vardır.  Mahkemeler, ceza ve hukuk davalarında,  Hakimlerin çözmekte zorlandığı bilimsel konulara açıklık getirmek için bilirkişilerin görüşlerine başvururlar.\nÜlkemizde son yıllarda hatalı tıbbi müdahale iddiasıyla açılan dav"
+        },
+        {
+          "tez_no": "875527",
+          "title_tr": "Ayrımcılık yasağı kapsamında yapay zekâ algoritmaları",
+          "author": "ÇAĞLAR YILDIRIM",
+          "year": 2024,
+          "score": 0.8453,
+          "abstract_excerpt": "Yapay zekâ algoritmaları, bilgisayar sistemlerine insan benzeri zekâ ve öğrenme yetenekleri kazandırmayı amaçlayan bir teknolojidir. Yapay zekâ, veri analizi, örüntü tanıma, dil işleme ve karar verme gibi görevleri yerine getirmek üzere tasarlanmış algoritmaları içerir. Bu teknoloji, makinelerin çeş"
+        },
+        {
+          "tez_no": "594397",
+          "title_tr": "Tıp Hukuku bakımından hekimin cezai sorumluluğu",
+          "author": "GUNEL FARZALİYEVA",
+          "year": 2019,
+          "score": 0.8361,
+          "abstract_excerpt": "Hatalı tıbbi uygulama kavramı ile ilgili Dünya Tabipler Birliği'nin 1992 yılında yapmış olduğu Genel Kurulda açıklama yapılmış olup buna göre bu kavram \" hekimin tedavi sırasında standart uygulamayı yapmaması, beceri eksikliği veya hastaya tedavi vermemesi ile oluşan zarar\" olarak ortaya çıkmaktadır"
+        },
+        {
+          "tez_no": "695123",
+          "title_tr": "Hekimin malpraktisten doğan cezai sorumluluğunun belirlenmesi ve ispata ilişkin sorunlar",
+          "author": "İSMAİL ESAD UMUT",
+          "year": 2021,
+          "score": 0.828,
+          "abstract_excerpt": "Tıp uygulamaları ve hekimlik mesleği, tarih boyunca insanların yaşamında çok önemli bir yere sahip olmuştur. Diğer taraftan tıbbi müdahale niteliği gereği bireyin yaşam hakkı, vücut bütünlüğü, sağlığı gibi Anayasayla güvence altına alınan haklarla doğrudan ilişkilidir. Bu yönüyle tıp ve hukuk geçmiş"
+        },
+        {
+          "tez_no": "704106",
+          "title_tr": "Türkiye ve Irak'ta tıbbi hatalarda hekimin cezai sorumluluğu",
+          "author": "ALYAA KHUDHAIR IBRAHEEM IBRAHEEM",
+          "year": 2021,
+          "score": 0.8221,
+          "abstract_excerpt": "Tıbbi Hata, tıbbi hizmetler sürecindeki herhangi bir sorun, planlı bir sağlık hizmeti eyleminin başarısızlığı veya bir sağlık sorununun üstesinden gelmek için yanlış bir sağlık bakımı eylem planından yararlanılması olarak tanımlanabilir. Mesleklerini icra etmeleri süreçlerinde hekimler öncelikli bir"
+        },
+        {
+          "tez_no": "323546",
+          "title_tr": "Tıbbi cihazlarda ürün güvenliği ve güvensiz ürünlere yapılacak işlemler hakkında kardiyoloji hekimlerinin bilgi düzeyleri",
+          "author": "REYHAN YALÇIN BOZKURT",
+          "year": 2012,
+          "score": 0.8215,
+          "abstract_excerpt": "Tıbbi cihaz terimi basit bir dil basacağından, kalp pillerine, kateterden ,manyetik rezonans'a kadar oldukça geniş bir alanı kapsar. Tıpkı ilaçlar ve diğer sağlık teknolojileri gibi tıbbi cihazlar da yataklı hastanelerde, kırsal kesim kliniklerinde veya geniş dalları kapsayan uzmanlaşmış hastanelerd"
+        },
+        {
+          "tez_no": "903129",
+          "title_tr": "Yapay zekâ sistemlerinde ayrımcılık yasağı",
+          "author": "TARIK VURAL",
+          "year": 2024,
+          "score": 0.821,
+          "abstract_excerpt": "İnsan zekâsını taklit etme ve insan benzeri düşünme gibi özellikler üzerine geliştirilmeye başlanan ve terminolojik olarak ilk defa Amerikalı bilgisayar bilimcisi John McCarthy tarafından 1956 yılında kullanılarak literatüre geçirilen yapay zekâ, günümüz bilişim çağının vazgeçilmez bir parçası hâlin"
+        },
+        {
+          "tez_no": "181360",
+          "title_tr": "Hipokrat-I: Bayes ağı tabanlı tıbbi teşhis destek sistemi",
+          "author": "SAİT CAN YÜCEBAŞ",
+          "year": 2006,
+          "score": 0.8123,
+          "abstract_excerpt": "Klinik karar destek sistemleri; klinik kararlarda destek sağlayan bilgisayarprogramlarıdır. Bu sistemler hekimlere, hastalara ait özel klinik bilgileri dikkate alarak kararverebilmeleri için yardım eder. Klinik karar destek sistemleri; sağlık bakım hizmetlerininkalitesini geliştirme, erken teşhis, h"
+        },
+        {
+          "tez_no": "734479",
+          "title_tr": "Yapay zekâ sistemleri tarafından üretilen fikri ürünlerin telif hakkı",
+          "author": "BATUHAN GÖK",
+          "year": 2022,
+          "score": 0.8953,
+          "abstract_excerpt": "Yapay zekâ sistemleri laboratuvar ortamından çıkıp, insanla birebir etkileşime girebilecek düzeyde hayatımızda yer ettikçe, daha fazla hukuk dalı da yapay zekâ üzerine düşünmeye başlamıştır. Yapay zekânın sağlık alanında kullanılması mevcut malpraktis düzenlemelerini, akıllı araçlar ise trafik sorum"
+        },
+        {
+          "tez_no": "869734",
+          "title_tr": "How IP struggles to define AI-generated products and the ownership dilemma",
+          "author": "MUHAMMET EMİR ÇELİK",
+          "year": 2020,
+          "score": 0.8686,
+          "abstract_excerpt": "Fikri Mülkiyet (IP) hakları, yıkıcı teknolojilerle başa çıkmakta her zaman zorluklar yaşamıştır. Yapay Zekanın (AI) geliştirilmesi ve yaygın kullanımı, telif hakkı ve patent korumasının sınırlarını zorlamaktadır. Yapay zekanın insan müdahalesi olmadan öğrenme ve çıktı üretme yeteneği nedeniyle, yapa"
+        },
+        {
+          "tez_no": "839380",
+          "title_tr": "Yapay zekânın patent hukuku çerçevesinde buluş sahipliği",
+          "author": "FATMA DİLARA İŞLER ALBAYRAK",
+          "year": 2023,
+          "score": 0.8647,
+          "abstract_excerpt": "İnternetin, büyük veri kaynaklarının ve gelişmiş bilgi işlem gücünün yaygın kullanımı ile 21. yüzyılda yapay zekâ teknolojilerinin gelişiminde sıçrama yaşanmıştır. Derin öğrenme ile doğal dil işleme, görüntü ve ses tanıma gibi alanlarda büyük başarılar elde edilmiştir. Böylece insanlar yapay zekâyı "
+        },
+        {
+          "tez_no": "802181",
+          "title_tr": "Yapay zekânın yol açtığı zararlardan doğan hukuki sorumluluk",
+          "author": "ORHAN EROL",
+          "year": 2023,
+          "score": 0.8636,
+          "abstract_excerpt": "Yapay zekâ, bilgisayarsistemlerinin insana benzerşekilde düşünmesi, öğrenmesi ve karar\nvermesi için tasarlanan bir bilim dalıdır. Yapay zekâ, doğal dil işleme, görüntü işleme, makine\nöğrenmesi, derin öğrenme, doğal dil işleme, robotik gibi birçok teknolojiyi içermektedir. \nTeknolojinin gelişimi sağl"
+        },
+        {
+          "tez_no": "717190",
+          "title_tr": "Yapay zekâ teknolojilerinin ortaya koyduğu buluşların patentlenebilirliği",
+          "author": "ANIL SENA BAYINDIR",
+          "year": 2022,
+          "score": 0.8599,
+          "abstract_excerpt": "Kişilerin ücretsizce fotoğraf, yazı vb. paylaşımlar yaptığı sosyal medya hesaplarının neredeyse dünyanın her yerinde kullanılmasıyla veri eksikliğinin ortadan kalkması ve gelişen bilgi işlem gücüyle birlikte günümüzde artık makine öğrenmesi mümkün hâle gelmiştir. Bu durum, yapay zekânın hayatın her "
+        },
+        {
+          "tez_no": "107907",
+          "title_tr": "Sağlık politikaları etiği ve klinik etik açısından tıpta adalet ilkesi",
+          "author": "GÜLSÜM ÖNAL",
+          "year": 2001,
+          "score": 0.8599,
+          "abstract_excerpt": "ÖZET Tezin temel amacı, ilke olarak adaletin tıptaki önemini vurgulamaktır; bütün zamanlarda olduğu gibi, yaşadığımız modern çağda da, dünyamıza adalet gerekiyor. Sınırları zor çizilen ve göreli bir kavram olan adaletin, tıp etiğinde karşılığı dört temel ilkeden biri olan adalet ilkesidir. Ancak tek"
+        },
+        {
+          "tez_no": "897944",
+          "title_tr": "Sağlık Hukukunda kişisel verilerin korunması ve hasta mahremiyeti",
+          "author": "ERTUĞ ERTAŞ",
+          "year": 2024,
+          "score": 0.8551,
+          "abstract_excerpt": "Kişisel yaşamın gizliliğini temin etmenin temel unsurlarından biri, sağlık verilerinin ve hasta mahremiyetinin korunmasıdır. Hastalar, kişisel sırlarının ve bilgilerin güvende olup olmadığından emin olmadıklarında, yaşamın kendisi açısından önemli olabilecek bilgileri açıklamaktan çekinebilmektedir."
+        },
+        {
+          "tez_no": "820938",
+          "title_tr": "Yapay zekâ ve ürünlerinin fikri mülkiyet hukukunda korunması",
+          "author": "BURAK MEYDANCI",
+          "year": 2023,
+          "score": 0.8547,
+          "abstract_excerpt": "Teknolojide yaşanan gelişmeler, yapay zekâyı oldukça hızlı bir şekilde hayıtımızın vazgeçilmez unsurlarından birisi haline getirmiştir. Öyle ki bugün, yapay zekânın etkisinden uzak ve bağımsız bir alandan bahsedilememektedir. Telefonlarımız, bilgisayarlarımız, kullandığımız araçlar birer birer yapay"
+        },
+        {
+          "tez_no": "767107",
+          "title_tr": "Yapay zekânın haksız fillerinden doğan hukuki sorumluluk",
+          "author": "UĞUR KARACA",
+          "year": 2022,
+          "score": 0.8542,
+          "abstract_excerpt": "Yapay zekâ teknolojilerinin hızlı gelişimi alana ilişkin birtakım soruları da beraberinde getirmiştir. Bunlardan en önemlisi yapay zekânın meydana getirdiği zarardan kimin/kimlerin, hangi şartlar altında sorumlu olacağıdır. Çünkü yaşamın her alanında yer alabilen bu karmaşık sistemler, çok ciddi zar"
+        },
+        {
+          "tez_no": "914063",
+          "title_tr": "Yasal düzlemde yapay zekâ",
+          "author": "CEREN İLAYDA ÖZTÜRK",
+          "year": 2024,
+          "score": 0.8535,
+          "abstract_excerpt": "Dijital çağdaki teknolojik gelişmeler, hızını hiç kesmeden ilerlemektedir. Yapay zekâ kavramı irdelenip tanımı üzerinde durulurken aynı zamanda yapay zekânın gelecekteki konumu açısından etik söyleme de ihtiyaç duyulmaktadır. Bu ihtiyacın sebeplerinden bazıları, yapay zekânın insan yaşantısında mutl"
+        },
+        {
+          "tez_no": "365762",
+          "title_tr": "Hasta haklarında mahremiyet ve özel hayatın gizliliği",
+          "author": "ŞEBNEM AKSOY",
+          "year": 2013,
+          "score": 0.8509,
+          "abstract_excerpt": "Toplumun gelişmişlik seviyesinin göstergelerinden olan hak ve hukuk konularında devletlerin ileri düzeyleri, toplumun müreffeh bir yere geldiğinin kanıtı olarak kabul görmektedir. Gelişmişlik düzeyinin bir diğer konusu da sağlıktır. Sağlık hizmeti alan hastaların hak ve hukuklarını düzenleyen hasta "
+        },
+        {
+          "tez_no": "844246",
+          "title_tr": "Kişisel verileri hukuka aykırı olarak verme veya ele geçirme suçunda sağlık mesleği mensuplarının ceza sorumluluğu",
+          "author": "KÜBRA YÜCEL",
+          "year": 2023,
+          "score": 0.847,
+          "abstract_excerpt": "Kişisel verilerin gizliliğinin korunması, temel bir insan hakkı olarak AİHS md.8'de ve AY md.20'de özel hayatın gizliliği şemsiyesi altında normatif olarak düzenlenmiştir. Sağlık alanında kişinin özel hayatının gizliliği diğer bir söylemle mahremiyet hakkı, sağlık hizmeti almak için ilk başvurudan i"
+        }
+      ]
+    },
+    "synthesis": null,
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Yapay zeka ile tıbbi tanıda hasta mahremiyeti ve veri güvenliği boyutu",
+        "Yapay zeka kararlarında hesap verebilirlik ve sorumluluk (doktor mu, yazılım mı?)",
+        "Yapay zeka destekli tanıda hata durumunda hukuki sorumluluk (tazminat, malpraktis)",
+        "Hasta onamı ve bilgilendirilmiş rıza sürecinde yapay zekanın rolü",
+        "Yapay zeka algoritmalarında önyargı (bias) ve ayrımcılık riski",
+        "Tıbbi cihaz düzenlemeleri ve yapay zekanın regülasyonu (FDA, CE, TÜBİTAK vb.)",
+        "Yapay zeka tanı sistemlerinin klinik doğrulama ve onay süreçleri",
+        "Sağlık çalışanlarının yapay zeka kullanımına ilişkin eğitim ve yetkinlik sorumluluğu",
+        "Yapay zeka kararlarının şeffaflığı ve açıklanabilirliği (black box problemi)",
+        "Fikri mülkiyet hakları: Yapay zeka tarafından üretilen tanıların patent ve telif durumu"
+      ],
+      "requery_terms": [
+        "yapay zeka tıbbi tanı etik sorunlar",
+        "yapay zeka tıp hukuki sorumluluk malpraktis",
+        "yapay zeka sağlık veri mahremiyeti hasta onamı",
+        "yapay zeka tıbbi cihaz regülasyonu FDA CE onay",
+        "yapay zeka algoritma önyargı ayrımcılık tıp",
+        "yapay zeka açıklanabilirlik şeffaflık tıbbi tanı",
+        "yapay zeka tıp fikri mülkiyet patent"
+      ],
+      "notes": "Henüz bir sentez bulunmadığı için kapsam tamamen boş. Soru, yapay zekanın tıbbi tanıya entegrasyonunda etik ve hukuki boyutları sorguluyor. Bu kapsamda en az 10 farklı alt-boyut mevcut: mahremiyet/veri güvenliği, hesap verebilirlik, hukuki sorumluluk/malpraktis, hasta onamı, algoritmik önyargı, regülasyon/onay süreçleri, klinik doğrulama, sağlık çalışanı yetkinliği, şeffaflık/açıklanabilirlik ve fikri mülkiyet. Tüm bu boyutların literatürde kapsanması gerekiyor. Önerilen anahtar kelimeler hem etik hem hukuki boyutları kapsayacak şekilde yapılandırılmıştır."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nYapay zekâ (YZ) teknolojilerinin tıbbi tanı süreçlerine entegrasyonu, sağlık hizmetlerinin kalitesini artırma potansiyeli taşımakla birlikte, beraberinde çok katmanlı etik ve hukuki sorunlar getirmektedir. YZ sistemleri, tıbbi görüntüleme, klinik karar destek sistemleri ve hastalık teşhisi gibi alanlarda hekimlere yardımcı olurken; veri mahremiyeti, ayrımcılık, sorumluluk, fikri mülkiyet ve hasta-hekim ilişkisinin dönüşümü gibi konuları gündeme taşımaktadır. Bu metin, ilgili akademik kaynaklar ışığında söz konusu etik ve hukuki meseleleri sistematik biçimde ele almaktadır.\n\n## Etik Boyutlar\n\n### 1. Mahremiyet ve Kişisel Verilerin Korunması\n\nYZ sistemlerinin tıbbi tanıda kullanılabilmesi için büyük miktarda kişisel sağlık verisine ihtiyaç duyulmaktadır. Bu durum, hassas veri kategorisinde yer alan sağlık verilerinin hukuka aykırı işlenmesi ve veri ihlalleri riskini doğurmaktadır [9]. Kişisel sağlık verilerinin elektronik ortamda saklanması ve işlenmesi, özel hayatın gizliliği ve mahremiyet hakkı açısından ciddi tehditler oluşturmaktadır [10]. Hastalar, kişisel bilgilerinin güvende olmadığını düşündüklerinde, yaşamsal öneme sahip bilgileri paylaşmaktan çekinebilmektedir [25]. Bu nedenle, YZ uygulamalarının kişisel sağlık verilerini işlerken Anayasa ve uluslararası sözleşmelerle güvence altına alınan mahremiyet hakkını ihlal etmemesi için sıkı düzenlemelere ihtiyaç vardır [30].\n\n### 2. Ayrımcılık Riski ve Algoritmik Adalet\n\nYZ algoritmaları, eğitildikleri veri setlerindeki önyargıları yansıtma ve pekiştirme potansiyeli taşımaktadır [12]. Tıbbi tanı süreçlerinde kullanılan YZ sistemleri, belirli demografik gruplara karşı ayrımcı sonuçlar üretebilir; bu durum, ayrımcılık yasağı ilkesiyle doğrudan çelişmektedir [17]. Algoritmik karar verme süreçlerinin şeffaf olmaması, hastaların maruz kaldığı potansiyel ayrımcılığı tespit etmeyi ve buna itiraz etmeyi zorlaştırmaktadır. Bu bağlamda, YZ sistemlerinin adalet ilkesi çerçevesinde tasarlanması ve denetlenmesi etik bir zorunluluk olarak öne çıkmaktadır [24].\n\n### 3. Hekim-Hasta İlişkisinin Dönüşümü ve Güven Sorunu\n\nYZ'nin tıbbi tanıda ikame edici veya tamamlayıcı kullanımı, hekimlerin mesleki özerkliği ve hasta-hekim ilişkisi üzerinde önemli etkiler yaratmaktadır [3]. Hastaların, geleneksel tıp yöntemleri yerine YZ destekli sistemlere duyduğu güven ve tercih eğilimi, bu teknolojilerin benimsenmesinde belirleyici bir faktördür [2]. Ancak YZ sistemlerinin \"kara kutu\" niteliği, kararların nasıl alındığının anlaşılmasını güçleştirmekte ve bu durum hem hekimler hem de hastalar açısından güven sorununa yol açmaktadır. Radyoloji uzmanları üzerinde yapılan bir çalışma, YZ sistemlerinin tıbbi görüntüleme alanında kullanımının etik boyutlarına ilişkin farkındalığın önemini vurgulamaktadır [1].\n\n### 4. İnsan Hatasının Azaltılması ve Yeni Riskler\n\nYZ sistemleri, insan hatasını azaltma, verimliliği artırma ve zamandan kazanma gibi avantajlar sunmaktadır [5]. Hastalıkların erken teşhisi, sınıflandırılması ve tedavi yönetiminde YZ'nin kullanımı, tıbbi uygulamalarda önemli iyileştirmeler vaat etmektedir [5][32]. Bununla birlikte, YZ sistemlerinin kendine özgü hata türleri (örneğin, eğitim verisindeki eksikliklerden kaynaklanan yanlış sınıflandırmalar) yeni riskler doğurmaktadır. Klinik karar destek sistemleri, hekimlere doğru karar vermede yardımcı olmakla birlikte, aşırı güven veya tamamen göz ardı etme gibi sorunlara da yol açabilmektedir [18][7].\n\n## Hukuki Boyutlar\n\n### 1. Tıbbi Hata ve Sorumluluk (Malpraktis)\n\nYZ teknolojilerinin tıbbi tanıda kullanımı, hatalı tıbbi uygulama (malpraktis) kavramını yeniden tanımlamayı gerektirmektedir. Geleneksel hukuk düzenlemelerinde hekimin standart uygulamayı yapmaması, beceri eksikliği veya tedavi vermemesi sonucu oluşan zarar tıbbi hata olarak tanımlanırken [13], YZ sistemlerinin karar alma sürecine dahil olmasıyla birlikte sorumluluğun kime ait olacağı sorusu gündeme gelmektedir [19]. YZ'nin yol açtığı zararlardan doğan hukuki sorumluluk, mevcut hukuk sistemlerinde henüz yeterli düzenlemeye kavuşmamıştır [22][27]. Hekimin, YZ sisteminin önerisini kabul veya reddetme konusundaki takdir yetkisi ve bu kararın sonuçlarından doğan sorumluluğu, tıp hukukunun merkezi tartışma konularından birini oluşturmaktadır [6][14][15].\n\n### 2. Fikri Mülkiyet Hakları\n\nYZ sistemleri tarafından üretilen tanı algoritmaları ve tıbbi buluşların fikri mülkiyet hukuku kapsamında korunması önemli bir hukuki sorundur. Mevcut telif hakkı ve patent düzenlemeleri, insan yaratıcılığını merkeze almakta olup, YZ tarafından üretilen eserlerin bu kapsamda değerlendirilmesi belirsizlik yaratmaktadır [4][19][20]. YZ'nin patent hukuku çerçevesinde buluş sahipliği, insan müdahalesinin derecesine bağlı olarak tartışılmakta ve bu alanda yeni yasal düzenlemelere ihtiyaç duyulmaktadır [21][23][26].\n\n### 3. Ürün Güvenliği ve Sorumluluk Rejimi\n\nTıbbi tanıda kullanılan YZ sistemleri, tıbbi cihaz statüsünde değerlendirilebileceğinden, ürün güvenliği mevzuatı kapsamında ele alınmalıdır [16]. YZ sistemlerinin bir ürün olarak arızalı olması durumunda, üreticinin mi, yazılım geliştiricinin mi yoksa kullanıcı hekimin mi sorumlu olacağı, haksız fiil sorumluluğu bağlamında çözülmesi gereken bir problemdir [22][27]. Bu belirsizlik, YZ teknolojilerinin tıbbi alanda yaygınlaşmasının önünde önemli bir hukuki engel teşkil etmektedir.\n\n### 4. Bilirkişilik ve İspat Sorunları\n\nYZ destekli tanı sistemlerinin kullanıldığı durumlarda ortaya çıkan uyuşmazlıklarda, bilirkişinin rolü ve ispat yükümlülüğü karmaşık bir hal almaktadır. Tıbbi müdahale hatalarında bilirkişi görüşleri davaların sonuçlandırılmasında kritik öneme sahipken [11], YZ algoritmalarının teknik karmaşıklığı, bilirkişilerin bu sistemleri değerlendirme kapasitesini sınırlamaktadır. Ayrıca, YZ sisteminin karar alma sürecinin şeffaf olmaması, ispat hukuku açısından önemli güçlükler yaratmaktadır [14].\n\n## Sonuç\n\nYapay zekâ teknolojilerinin tıbbi tanı süreçlerine entegrasyonu, etik ve hukuki açıdan çok boyutlu bir dönüşümü zorunlu kılmaktadır. Etik boyutta; mahremiyet, ayrımcılık, güven ve hekim-hasta ilişkisinin yeniden tanımlanması gibi konular öne çıkarken; hukuki boyutta tıbbi hata sorumluluğu, fikri mülkiyet, ürün güvenliği ve ispat hukuku gibi alanlarda mevcut düzenlemelerin yetersiz kaldığı görülmektedir. Bu teknolojilerin insan sağlığına faydasını maksimize etmek ve potansiyel zararlarını minimize etmek için, disiplinlerarası bir yaklaşımla hem etik ilkelerin hem de hukuki düzenlemelerin güncellenmesi gerekmektedir. Özellikle sorumluluk rejiminin netleştirilmesi, algoritmik şeffaflığın sağlanması ve veri koruma mekanizmalarının güçlendirilmesi, YZ'nin tıbbi tanı alanında güvenli ve adil bir şekilde kullanılmasının ön koşullarıdır.",
+      "n_citations": 36,
+      "citations_ieee": [
+        "[1] SEÇİL ÖZÇİFTÇİ, \"Yapay zekâ sistemlerinin tıbbi görüntüleme alanında kullanımında etik: Radyoloji uzmanlarının görüş ve tutumları,\" Yüksek Lisans/Doktora tezi, Kocaeli Üniversitesi / Sağlık Bilimleri Enstitüsü / Tıp Tarihi ve Etik Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=LY6e5xGA7WWUpEdrBmEPLl0jqEUh1Ly3kn08qNlRNCfvsl6KMwJdYIoV-2WgMvtq",
+        "[2] BAHADIR HÜSEYİN CEVİZCİ, \"Geleneksel tıp teşhis yöntemlerinin yapay zeka ile geliştirilen uygulamalarına duyulan güven ve tercih eğiliminin araştırılması,\" Yüksek Lisans/Doktora tezi, İstanbul Medipol Üniversitesi / Sağlık Bilimleri Enstitüsü / Geleneksel ve Tamamlayıcı Tıp Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=usXiZIM9Lp0wk-YzRoaT-33uXcnBnPejj_mfI0XlkirIecRRtZzWhiENzpf6Pfw8",
+        "[3] ZAFER YILDIRIM, \"Yapay zekanın tıp alanında ikame edici veya tamamlayıcı kullanımının doktorlar üzerindeki etkilerine yönelik bir senaryo çalışması,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=tqUiYt63sTQLTpozMJ92Qp9mLRq89XVx5NGCVu-1_iley9PyvPzjeBxSVNAVcnhn",
+        "[4] BÜŞRA KAYNAK BALTA, \"5846 sayılı Fikir ve Sanat Eserleri Kanunu kapsamında eser kavramı ve yapay zeka ürünleri,\" Yüksek Lisans/Doktora tezi, İstanbul Şehir Üniversitesi / Sosyal Bilimler Enstitüsü / Özel Hukuk Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=4J_FzTwlrMCH4qBROpXPH3M6tq840zSFIdKvUy08C4o-U8dY3fNq6_6nHt5eWBDP",
+        "[5] BETÜL KARAKAŞ, \"Sağlık alanında yapay zeka çalışmaları,\" Yüksek Lisans/Doktora tezi, Üsküdar Üniversitesi / Sağlık Bilimleri Enstitüsü / Nörobilim Ana Bilim Dalı / Nörobilim Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=tqUiYt63sTQLTpozMJ92QvBzl4_qX6haV8ZJCiowRwLXlLbLsdBOs55MUJUlCdod",
+        "[6] BİLGE NUR ÜREKLİ, \"Tıbbi müdahalede hekimin taksire dayalı cezai sorumluluğu,\" Yüksek Lisans/Doktora tezi, Beykent Üniversitesi / Sosyal Bilimler Enstitüsü / Hukuk Ana Bilim Dalı / Kamu Hukuku Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpcwH1EPq5uShe9XnWkPToEeVnQf06g2JSwuJWFzfAaCL",
+        "[7] EMRE GÜRBÜZ, \"Hastalıkların uzman bir sistemle otomatik olarak teşhis edilmesi,\" Yüksek Lisans/Doktora tezi, Ondokuz Mayıs Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2011. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zqI_ZOq-b18GC2rT9c2JGs3v9AmVwR2NKTyySuv-9VPPPV0b_8NmwCHtq1YYvflT",
+        "[8] MUSTAFA LEVENT ÖZGÖNÜL, \"Türkiye'de tıp etiği ve hukuk açısından tıbbi hata kavramı,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sağlık Bilimleri Enstitüsü / Tıp Tarihi ve Etik Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAcG-WvhcBe_cAzprYVGCPuYty4ATlSjTlg9Pj_m2jYfL",
+        "[9] ELİF ILGIN ÖZCAN, \"Kişisel verilerin korunması hukuku bağlamında sağlık bilimlerinde yapay zeka kullanımı,\" Yüksek Lisans/Doktora tezi, Akdeniz Üniversitesi / Sosyal Bilimler Enstitüsü / Sağlık Hukuku Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=nLNfCsWgUluh5T2iyudShnLmtsWaGh3brtkIAz2mtFbegNbj291Nh-cECHjW2jsS",
+        "[10] TÜRKAN PELİN UZUN, \"Sağlık hizmetlerinde kişisel verilerin korunması,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Özel Hukuk Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5Sgvlgg7uMha0Hq3KE5dU0GsWvni7HhIZN_VQwacdCs85_g43x",
+        "[11] VOLKAN YAŞAR IŞIKSAÇAN, \"Tıbbi müdahale hatalarında bilirkişinin rolü,\" Yüksek Lisans/Doktora tezi, Özyeğin Üniversitesi / Sosyal Bilimler Enstitüsü / Hukuk Ana Bilim Dalı, 2014. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=48XPj7KKQhKUgntkUiKO3FjE67Eub2OwiZmpbBCkP40Fjw5dCzpdG69tdIvuLlWJ",
+        "[12] ÇAĞLAR YILDIRIM, \"Ayrımcılık yasağı kapsamında yapay zekâ algoritmaları,\" Yüksek Lisans/Doktora tezi, Dokuz Eylül Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Kamu Hukuku Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=1pwTzRXnomYf6jwqVORfUWdAHvnv8bZM7s4tENsY1RzqdVskggyy7WSJegFne0DA",
+        "[13] GUNEL FARZALİYEVA, \"Tıp Hukuku bakımından hekimin cezai sorumluluğu,\" Yüksek Lisans/Doktora tezi, İnönü Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Kamu Hukuku Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=npGs9H39x7G6401x51yqpByy77SDoHhLy-oriP6ZsDA9uCZgNjZo225QHgTN5Fgn",
+        "[14] İSMAİL ESAD UMUT, \"Hekimin malpraktisten doğan cezai sorumluluğunun belirlenmesi ve ispata ilişkin sorunlar,\" Yüksek Lisans/Doktora tezi, KTO Karatay Üniversitesi / Lisansüstü Eğitim Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=tqUiYt63sTQLTpozMJ92QjkfOswGY3Y1WphI_WQ0XTO0g2fkYBagg3_5HogBNY7T",
+        "[15] ALYAA KHUDHAIR IBRAHEEM IBRAHEEM, \"Türkiye ve Irak'ta tıbbi hatalarda hekimin cezai sorumluluğu,\" Yüksek Lisans/Doktora tezi, Selçuk Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Kamu Hukuku Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=RjZwH00oMG4iNa5Sgvlgg1fJC6hW2JkY0sgez6yHzGlpAyBKxtxY-Yn5Ai94OUWp",
+        "[16] REYHAN YALÇIN BOZKURT, \"Tıbbi cihazlarda ürün güvenliği ve güvensiz ürünlere yapılacak işlemler hakkında kardiyoloji hekimlerinin bilgi düzeyleri,\" Yüksek Lisans/Doktora tezi, Başkent Üniversitesi / Sosyal Bilimler Enstitüsü / Sağlık Kurumları İşletmeciliği Ana Bilim Dalı, 2012. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=rcbWnuqW6HxCZ_98ARapgustbpxOXt6vC7sUWAd7oFG2DB2NDjxCyCCPXBGSBbyI",
+        "[17] TARIK VURAL, \"Yapay zekâ sistemlerinde ayrımcılık yasağı,\" Yüksek Lisans/Doktora tezi, İstanbul Medeniyet Üniversitesi / Lisansüstü Eğitim Enstitüsü / Özel Hukuk Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=LY6e5xGA7WWUpEdrBmEPLqroo2YGzfYdxhwAhibL6mR4H75gH5uJWOQFMrCBn-7D",
+        "[18] SAİT CAN YÜCEBAŞ, \"Hipokrat-I: Bayes ağı tabanlı tıbbi teşhis destek sistemi,\" Yüksek Lisans/Doktora tezi, Başkent Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2006. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=-L8ilcwn9ZRRc_YMKxXW1kNfelX2XSSKvj8ZLJnH7eUIuxGC-mffS4SdmavNQE7t",
+        "[19] BATUHAN GÖK, \"Yapay zekâ sistemleri tarafından üretilen fikri ürünlerin telif hakkı,\" Yüksek Lisans/Doktora tezi, İstanbul Bilgi Üniversitesi / Lisansüstü Programlar Enstitüsü / Bilişim ve Teknoloji Hukuku Ana Bilim Dalı / Bilişim ve Teknoloji Hukuku Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kScA8XnrRb0WogX-qPGFkn0A8MXSXTJOGAzTy2bI_Tp855cyhcdYHJPWtvi1R0MS",
+        "[20] MUHAMMET EMİR ÇELİK, \"How IP struggles to define AI-generated products and the ownership dilemma,\" Yüksek Lisans/Doktora tezi, City University London / Yurtdışı Enstitü / Hukuk Ana Bilim Dalı / Hukuk Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQhESkDE-c9wU7xSC43sSt82ALJ5t5Tpc1KoVBCTJk5xL",
+        "[21] FATMA DİLARA İŞLER ALBAYRAK, \"Yapay zekânın patent hukuku çerçevesinde buluş sahipliği,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sosyal Bilimler Enstitüsü / Özel Hukuk Ana Bilim Dalı / Özel Hukuk Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=S2eMu1TIwY_v4mYv58xAr4P53_JoR7eIduxvpBAvgkPhIEmcRDsBrCRuGV9Vy7Up",
+        "[22] ORHAN EROL, \"Yapay zekânın yol açtığı zararlardan doğan hukuki sorumluluk,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Özel Hukuk Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=j_Fjwp4JS4mk97Puqti8rjH8cWCvHnxvAD8jksKHN8FlwFEpJuTKNwvn89gytrV4",
+        "[23] ANIL SENA BAYINDIR, \"Yapay zekâ teknolojilerinin ortaya koyduğu buluşların patentlenebilirliği,\" Yüksek Lisans/Doktora tezi, İhsan Doğramacı Bilkent Üniversitesi / Ekonomi ve Sosyal Bilimler Enstitüsü  / Özel Hukuk Ana Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=5XiSE4yCP_gmnukpMEp65au8rX1OBqFOnW0rrOsSPmBsF_AAq0UKzDyzwzktZEay",
+        "[24] GÜLSÜM ÖNAL, \"Sağlık politikaları etiği ve klinik etik açısından tıpta adalet ilkesi,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Cerrahpaşa Tıp Fakültesi / Deontoloji Ana Bilim Dalı, 2001. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=5T1_CZ5-UGb9QCmoURec4NotWZ08wjMNF0G42cApxevnPJddJREPcHnM83iwsVvn",
+        "[25] ERTUĞ ERTAŞ, \"Sağlık Hukukunda kişisel verilerin korunması ve hasta mahremiyeti,\" Yüksek Lisans/Doktora tezi, Dokuz Eylül Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı / Kamu Hukuku Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=UjlM15wKZGQW6TLC0pvCt5yqPnpXgegVaYmSg2EFZuuwdCDgf-V7GbyGY71XlJgK",
+        "[26] BURAK MEYDANCI, \"Yapay zekâ ve ürünlerinin fikri mülkiyet hukukunda korunması,\" Yüksek Lisans/Doktora tezi, Bursa Uludağ Üniversitesi / Sosyal Bilimler Enstitüsü / Özel Hukuk Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=nLNfCsWgUluh5T2iyudShqXTVWGjLatQFILbifArmuhRcePiBV5vs7qkOfemB-z5",
+        "[27] UĞUR KARACA, \"Yapay zekânın haksız fillerinden doğan hukuki sorumluluk,\" Yüksek Lisans/Doktora tezi, Kocaeli Üniversitesi / Sosyal Bilimler Enstitüsü / Özel Hukuk Ana Bilim Dalı / Özel Hukuk Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiEXsMoXwG9wl2LilOG1hDtJs2wlFA2qRLmtgrWoeQGEJ",
+        "[28] CEREN İLAYDA ÖZTÜRK, \"Yasal düzlemde yapay zekâ,\" Yüksek Lisans/Doktora tezi, Antalya Bilim Üniversitesi / Lisansüstü Eğitim Enstitüsü / Kamu Hukuku Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=E_eEUHQic_C-LvhxNQn1W37xGzp5SmDb3_a5J5moIk0yZr72MypODc5su4x_uVoB",
+        "[29] ŞEBNEM AKSOY, \"Hasta haklarında mahremiyet ve özel hayatın gizliliği,\" Yüksek Lisans/Doktora tezi, Beykent Üniversitesi / Sosyal Bilimler Enstitüsü / İşletme Bölümü / İşletme Yönetimi Ana Bilim Dalı / Hastane ve Sağlık Kur. Yön. Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=gyLHMouPes-CvnhRcjQsKdV0F-PT-ycnbVPMnASy5qW1gdcgimaLOA0aRoFzmsPC",
+        "[30] KÜBRA YÜCEL, \"Kişisel verileri hukuka aykırı olarak verme veya ele geçirme suçunda sağlık mesleği mensuplarının ceza sorumluluğu,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Sosyal Bilimler Enstitüsü / Kamu Hukuku Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHJt11VCqKbyhMSJeT0vnEvb9mw9Vvh2vvbHpr8I1v_Db",
+        "[31] Osman Hayran, \"Yeni Tıp Teknolojilerinin Kullanımı ve Etik Sorunlar,\" Yüksek Lisans/Doktora tezi, [openalex] JOURNAL OF BIOTECHNOLOGY AND STRATEGIC HEALTH RESEARCH, 2019. [Online]. https://doi.org/10.34084/bshr.539032",
+        "[32] Osman Hayran, \"Üretken Yapay Zeka: Sağlıkta Hizmetlerinde Kullanımı, Üstün ve Zayıf Yanları,\" Yüksek Lisans/Doktora tezi, [openalex] JOURNAL OF BIOTECHNOLOGY AND STRATEGIC HEALTH RESEARCH, 2025. [Online]. https://doi.org/10.34084/bshr.1731738",
+        "[33] O. Hayran, \"Üretken Yapay Zeka: Sağlıkta Hizmetlerinde Kullanımı, Üstün ve Zayıf Yanları,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] JOURNAL OF BIOTECHNOLOGY AND STRATEGIC HEALTH RESEARCH, 2025. [Online]. https://www.semanticscholar.org/paper/7b192a60457bafb3489e266df3dbfc51c0718f14",
+        "[34] O. Hayran, \"Yeni Tıp Teknolojilerinin Kullanımı ve Etik Sorunlar,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] JOURNAL OF BIOTECHNOLOGY AND STRATEGIC HEALTH RESEARCH, 2019. [Online]. https://www.semanticscholar.org/paper/30c821ee478ecf2f7af91074552b363f1b5c93be",
+        "[35] Süleyman Temur, \"Eğitimde yapay zekâ kullanımı: Etik sorunlar ve çözümler,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Mehmet Akif Ersoy Üniversitesi Eğitim Fakültesi Dergisi, 2025. [Online]. https://www.semanticscholar.org/paper/74094b3a36a779589263d516cd986217229821b1",
+        "[36] Nesibe Kantar, \"Bilişim Felsefesi Perspektifinden Yapay Zekâ Ekosistemine Bakış: Etik Sorunlar ve Çözüm Arayışları,\" Yüksek Lisans/Doktora tezi, [semantic_scholar] Beytulhikme An International Journal of Philosophy, 2025. [Online]. https://www.semanticscholar.org/paper/cecb74835346ff28ead4e01eba7dbbebd220c47d"
+      ]
+    }
+  },
+  "error": null
+}

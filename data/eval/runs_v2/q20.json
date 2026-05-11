@@ -1,0 +1,386 @@
+{
+  "id": "q20",
+  "category": "linguistics",
+  "type": "method",
+  "question": "Türkçenin tarihi lehçeleri üzerine yapılan ses bilgisi çalışmalarındaki ana yöntemler nelerdir?",
+  "expected_subjects": [
+    "Türk Dili ve Edebiyatı",
+    "Dilbilim"
+  ],
+  "min_citations": 4,
+  "result": {
+    "latency_seconds": 113.2,
+    "plan": {
+      "sub_questions": [
+        {
+          "text": "Türkçenin tarihi lehçelerinde ses bilgisi çalışmalarında kullanılan başlıca veri toplama ve derleme yöntemleri nelerdir?",
+          "rationale": "Ses bilgisi araştırmalarının temelini oluşturan veri kaynaklarının (yazılı metinler, transkripsiyon metinleri, sözlükler vb.) nasıl derlendiğini ve hangi yöntemlerle kullanıldığını ortaya koyar."
+        },
+        {
+          "text": "Tarihi lehçelerin ses bilgisi incelemelerinde karşılaştırmalı yöntem (comparative method) nasıl uygulanmaktadır?",
+          "rationale": "Tarihsel dilbilimin temel yöntemlerinden olan karşılaştırmalı yöntemin Türkçenin tarihi lehçelerine nasıl uyarlandığını ve hangi ses değişimlerinin bu yöntemle tespit edildiğini sorgular."
+        },
+        {
+          "text": "Ses bilgisi çalışmalarında kullanılan iç yeniden yapılandırma (internal reconstruction) yöntemi hangi tarihi lehçe sorunlarına uygulanmıştır?",
+          "rationale": "İç yeniden yapılandırma yönteminin Türkçenin tarihi lehçelerinde hangi ses olaylarının (örneğin ünlü uyumu, tonsuzlaşma) açıklanmasında kullanıldığını ve bu yöntemin sınırlılıklarını belirler."
+        },
+        {
+          "text": "Ses bilgisi çalışmalarında artzamanlı (diachronic) ve eşzamanlı (synchronic) yaklaşımların kullanımı arasında nasıl bir yöntemsel farklılık bulunmaktadır?",
+          "rationale": "Tarihi lehçelerin ses yapısını incelerken araştırmacıların hangi durumlarda artzamanlı, hangi durumlarda eşzamanlı yaklaşımı tercih ettiğini ve bu tercihlerin bulguları nasıl etkilediğini sorgular."
+        },
+        {
+          "text": "Tarihi lehçelerin ses bilgisi çalışmalarında kullanılan yöntemlerin sınırlılıkları ve karşılaşılan başlıca güçlükler nelerdir?",
+          "rationale": "Mevcut yöntemlerin (örneğin yazılı metinlerin ses değerini tam yansıtmaması, veri eksikliği) hangi kısıtlamalara yol açtığını ve araştırmacıların bu sorunları nasıl aşmaya çalıştığını ortaya koyar."
+        }
+      ]
+    },
+    "retrieval": {
+      "n_chunks": 27,
+      "max_score": 0.8852,
+      "min_score": 0.8016,
+      "chunks": [
+        {
+          "tez_no": "135145",
+          "title_tr": "Türkçenin ses bilgisi tarihi üzerine bir deneme",
+          "author": "HATİCE ŞİRİN",
+          "year": 2003,
+          "score": 0.8852,
+          "abstract_excerpt": "Bu çalışmada öncelikli olarak Türkler tarafından kullanılan yazı sistemleri ve Türkçenin seslerinin tarih boyunca geçirdiği değişiklikler tespit edildi. Türkler tarafından Türkçenin yazı dilinin kaydedilmesinde kullanılan yazı türleri ve alfabelerdeki ses karşılıkları tablolar halinde sunuldu. Söz k"
+        },
+        {
+          "tez_no": "240155",
+          "title_tr": "Çağdaş Türk lehçelerinde ünlüler",
+          "author": "SÜLEYMAN KAAN YALÇIN",
+          "year": 2009,
+          "score": 0.8413,
+          "abstract_excerpt": "Dilin temeli sese dayanmaktadır; çünkü dil, yüzeysel yapıda öncelikle sesle var olabilen canlı bir varlıktır. Bu canlı varlık zaman içinde farklı nedenlere bağlı olarak ses, şekil, söz dizimi ve söz varlığı yönünden bazı değişmeler ve gelişmeler yaşar. Türkçe de hem kendi gelişim çizgisi sürecinde o"
+        },
+        {
+          "tez_no": "673393",
+          "title_tr": "Geçmişten günümüze Türk yazı dillerinde görülen b>m ses değişimi",
+          "author": "ALPKAAN EREN",
+          "year": 2021,
+          "score": 0.8356,
+          "abstract_excerpt": "Türk dilinin tarihî gelişim sürecinde zamanla dildeki iç ve dış sebeplerden ötürü çeşitli ses değişimleri gözlemlenmektedir.  Bu ses değişimlerinin ortaya konulması Türk dilinin eski dönemleriyle günümüz Türk lehçeleri arasındaki benzerliklerin ve farklılıkların belirlenmesi açısından önemlidir. \nTü"
+        },
+        {
+          "tez_no": "911989",
+          "title_tr": "Dil bilgisi kitaplarına göre 19. yüzyıl Osmanlı Türkçesinde ses benzeşmeleri ve uyumlar",
+          "author": "BUKET KÖREMEZLİ",
+          "year": 2024,
+          "score": 0.8251,
+          "abstract_excerpt": "Dillerin standartlaşma süreçleri hızlı ve keskin bir şekilde, modernleşme süreçlerinin\nparçası olarak somutlaşabildiği gibi doğal seyir içerisinde de gerçekleşebilmektedir.\nAncak bu süreç ne şekilde varlık kazanmış olursa olsun dil bilgisi kurallarının\nbelirginleşmesi, standartlaşmaya karakterini ve"
+        },
+        {
+          "tez_no": "857281",
+          "title_tr": "Orta Türkçe dönemi eserlerinde ses söz varlığı",
+          "author": "BÜŞRA ADİYAMAN",
+          "year": 2023,
+          "score": 0.8212,
+          "abstract_excerpt": "Bu çalışmada Tarihi Kuzey Doğu Türk Dili (Harezm Türkçesi, Kıpçak Türkçesi, Çağatay Türkçesi) dönemlerinde ses ve ses bildiren söz varlığı incelemesi yapılmıştır. Söz varlığı tespiti için veri kaynağı olarak belirtilen dönemlerde yazılmış olan eserler kullanılmıştır. Elde edilmiş olan söz varlığı İs"
+        },
+        {
+          "tez_no": "464566",
+          "title_tr": "Tarihî Türk lehçelerinde ünsüzler",
+          "author": "YILMAZ İNCE",
+          "year": 2017,
+          "score": 0.8174,
+          "abstract_excerpt": "Türkçe, tarihî gelişimi içerisinde, çeşitli dil içi ve dil dışı etkiler altında ses, şekil ve cümle yapısı bakımından değişikliklere uğrayarak günümüze kadar ulaşmıştır. Dillerde en kolay değişen yapılar, ses sistemleridir. Türkçenin ses sistemi de tarihî süreçte birçok değişikliğe uğramıştır. Bu sü"
+        },
+        {
+          "tez_no": "862078",
+          "title_tr": "Türkiye Türkçesi grameri eğitimine yönelik eserlerde ses bilgisi ve biçim bilgisi konusundaki örneklerin incelenmesi (1940 sonrası)",
+          "author": "MUSTAFA KEMAL KÖK",
+          "year": 2024,
+          "score": 0.7925,
+          "abstract_excerpt": "Bu çalışmada, Türk Dili ve Edebiyatı, Türk Dili ve Edebiyatı Eğitimi, Çağdaş Türk Lehçeleri ve Edebiyatları, Halk Bilimi, Türkçe Eğitimi Lisans bölümlerinin Türkiye Türkçesi derslerinde yer alan 1940 ve 1995 yılları arasında yayımlanan yedi gramer kitabındaki Ses Bilgisi ve Biçim Bilgisinin ögelerin"
+        },
+        {
+          "tez_no": "794854",
+          "title_tr": "Tarihî ve sosyokültürel bağlamda Türkiye sahası tarihî türküleri",
+          "author": "NURSEL DEMİRDEN",
+          "year": 2023,
+          "score": 0.7921,
+          "abstract_excerpt": "Türküler, insanların sosyal hayatından ve geçmişlerinde yaşadıkları olaylardan izler taşır. Tarihî türküler, yazılı kaynaklara yansımayan ya da az yansıyan olayların ezgiyle birlikte dizelere dökülmüş halidir. Tarihî türküler, Türk halkının geçmişini gelecek kuşaklara aktaran sözlü tarih kaynaklarıd"
+        },
+        {
+          "tez_no": "212064",
+          "title_tr": "Sesbirim tabanlı konuşulan dilin tanınması",
+          "author": "KAMİL ÖNCÜ ŞEN",
+          "year": 2007,
+          "score": 0.7901,
+          "abstract_excerpt": "İlkel çağlardan günümüze kadar geçen zaman zarfı içerisinde, insanlar arası\u000biletişim aracı hiç şüphe yoktur ki ses'dir. İnsanlar duygu, düşünce ve hareketlerini ifade\u000betmede gerçekleştirdikleri seslerle insanlara ifade etmektedir. Benzer bir ilişki insanla\u000bbilgisayar arasında da kurulabileceği düşün"
+        },
+        {
+          "tez_no": "902293",
+          "title_tr": "Şeflik tekniği bakımından iktus ve orkestra çalgılarının ses üretimi",
+          "author": "HELİN BEYSÜLEN",
+          "year": 2024,
+          "score": 0.79,
+          "abstract_excerpt": "Ses üretimi ve süreci, birçok farklı faktörün birleşimi sonucu ortaya çıkan bir fiziksel\nolgudur. Bu olgu, özellikle zaman kavramı bağlamında şeflik tekniğiyle birleştiğinde ve\nkolektif bir yapı olan orkestrayla işbirliği içerisinde gerçekleştirildiğinde, süreç daha da çok\nboyutlu hale gelmektedir. "
+        },
+        {
+          "tez_no": "639360",
+          "title_tr": "Ege Üniversitesi Türkçe fonetik test koklear kelime listesinin fonetik ve bilinirlik yönünden analizi",
+          "author": "TUĞBA LULACİ",
+          "year": 2020,
+          "score": 0.7815,
+          "abstract_excerpt": "Seslerin kendinden önce veya sonra üretilen seslerden farklılık göstermesi \"Coarticulation\" ile açıklanır. Sözcük içinde yer alan seslerin kendinden önce veya sonra gelen sesin çıkış yeri, çıkış biçimine göre Hertz değişikliklerine uğrayabildiği bilinmektedir.  İşitme testlerinin hastanın işitme dur"
+        },
+        {
+          "tez_no": "449246",
+          "title_tr": "Türk makam müziğinin ezgisel boyutuna yönelik interaktif eğitim programı",
+          "author": "HASAN SERCAN ATLI",
+          "year": 2016,
+          "score": 0.7812,
+          "abstract_excerpt": "Bu çalışmada Türk makam müziğinin ezgisel boyutuna yönelik interaktif bir eğitim programı oluşturulması hedeflenmiştir. Geliştirilen araç kapsamlı bir eğitim programı değildir; belirli bir makamı öğrenmek için kullanıcıya referans kayıtlar ve kayıtlarla ilgili öğrenime yardımcı bil"
+        },
+        {
+          "tez_no": "215468",
+          "title_tr": "Doğru ve güzel konuşarak gelişen kimlik",
+          "author": "ASUMAN CİDER ŞENER",
+          "year": 2005,
+          "score": 0.7803,
+          "abstract_excerpt": "Dogru ses kullanımı, güzel ve etkili konusma belli bir disiplin ile kazanılır. Bu tezçalısmamda, almıs oldugum egitim, edinmis oldugum tecrübeler ve kisisel arastırmalarımla,pek çok ögretiden yola çıkarak bir metod olusturmaya çalıstım. Bu metodta önceliklekonusma organlarımızın ne oldugunu, bunları"
+        },
+        {
+          "tez_no": "514762",
+          "title_tr": "Türkiye'de halk ağzından derleme sözlüğü'nde geçen küçük/küçültme anlamındaki kelimeler",
+          "author": "ÖZGÜR ASLANKILIÇ",
+          "year": 2018,
+          "score": 0.7797,
+          "abstract_excerpt": "Bir dizi sosyal süreçlerin bileşkesi olan kültür, bir milletin hayat tarzını ifade ederken, tarih sahnesine çıkışından günümüze kadar elde ettiği birikimleri de gözler önüne sermektedir. Zira bugünün hayatı, dünün kültür birikimidir. Toplum olarak köklü bir geçmişe sahip olmamız bu birikimi giderek "
+        },
+        {
+          "tez_no": "191887",
+          "title_tr": "Makam yapılarını yansıtan bir model önerisi için yapay zeka tekniklerinin kullanımı",
+          "author": "CENK GÜRAY",
+          "year": 2006,
+          "score": 0.7764,
+          "abstract_excerpt": "ÖZETBu çalışma kapsamında; duyuşa ve pratiğe dayalı geleneksel müziklerimizinmakamlarının zaman içindeki yapısal değişiminini kültürel altyapısı ile ortaya koyan bir ?düşünceler bütünü? önerilmektedir. Bu düşünceler bütününün ileride oluşturulabilecek dahakapsamlı makam modellerine altyapı sağlayaca"
+        },
+        {
+          "tez_no": "249623",
+          "title_tr": "Ortaöğretim 1992 ve 2005 eğitim programlarında ses bilgisi öğretiminin incelenip karşılaştırılması",
+          "author": "ZAFER İNCEBACAK",
+          "year": 2010,
+          "score": 0.77,
+          "abstract_excerpt": "Günümüzde bilgi birikiminin artmasıyla yeni bilgileri yeni nesillere planlı bir şekilde aktarmak, dinamik bir yapıya sahip olan eğitim programlarıyla sağlanabilir. Ülkelerin eğitim programlarında dil öğretiminin ayrı bir önemi vardır. Eğitim programları, dil öğretiminde istenilen amaçlara ulaşmak iç"
+        },
+        {
+          "tez_no": "574383",
+          "title_tr": "Türkçe tek heceli sözcük vurgusunun akustik özelliklerinin belirlenmesi",
+          "author": "TUGAY RİFAT DUYAR",
+          "year": 2019,
+          "score": 0.7695,
+          "abstract_excerpt": "Konuşma sesleri odyoloji alanında işitmenin değerlendirilmesinde ses sinyalleri olarak önemli bir yere sahiptir. Buna ek olarak konuşma sesleri; işitme kaybı tanısı, işitme kaybının tipi ve derecesinin belirlenmesi, ardından da işitme cihazı veya koklear implantın verimliliğinin değerlendirilmesi ve"
+        },
+        {
+          "tez_no": "142624",
+          "title_tr": "Bilgisayar destekli ses kurgularının otomatik algılanması",
+          "author": "MUHARREM TÜMÇAKIR",
+          "year": 2003,
+          "score": 0.7693,
+          "abstract_excerpt": "Adli dava süreçlerinde, ilgili kişiler arasında geçmiş olan diyalogları veya konuşmaları içeren kayıtlar delil olarak kullanılmak üzere mahkemeye sunulabilir. Söz konusu kayıtların ne kadar güvenilir kanıtlar olabileceğinin tespitinde ve kayıtların içeriğinin belirli amaçlar doğrultusunda değiştiril"
+        },
+        {
+          "tez_no": "769677",
+          "title_tr": "Müziksel işitme okuma ve yazma araştırmalarının incelenmesi: Bir sistematik derleme çalışması",
+          "author": "TÜRKÜCAN ATILGAN",
+          "year": 2022,
+          "score": 0.7662,
+          "abstract_excerpt": "Ülkemizde gerek disiplinler arası gerekse sadece müzik eğitimi alanında birçok derleme çalışması yapılmış olmakla beraber, \"müziksel işitme eğitimi\"ni esas alan sistematik derleme ve içerik analizi çalışmaları yok denecek kadar azdır. Bu yöntemle yapılacak olan araştırmaların artması ve zaman aralık"
+        },
+        {
+          "tez_no": "333448",
+          "title_tr": "Lisans düzeyinde mesleki müzik eğitimi veren kurumlarda ritim öğretim yöntemlerinin kullanılma durumları",
+          "author": "REHA SARIKAYA",
+          "year": 2013,
+          "score": 0.7657,
+          "abstract_excerpt": "Bu araştırmanın temel amacı, müzik eğitiminde mevcut ritim öğretim yöntemlerinin incelenmesi ve bu yöntemlerin işitme dersi veren öğretim elemanları tarafından kullanım durumlarının saptanmasıdır.\nAraştırmada, tarama modeline dayalı betimsel yöntem kullanılmıştır. Veri toplama aracı olarak yarı yapı"
+        },
+        {
+          "tez_no": "392843",
+          "title_tr": "Ses örneklemelerindeki zaman gecikmelerinin algısal farklılığı üzerine bir inceleme",
+          "author": "BENGİ DERYA MUŞDAL",
+          "year": 2015,
+          "score": 0.7655,
+          "abstract_excerpt": "İnsanların kulaklarına ulaşan sesi algılamasında bir çok etken vardır. Bunlardan biri; sesin, ses kaynağından çıktıktan sonra belirli bir mesafe katetmesiyle ortaya çıkan zaman gecikmeleri ve bu zaman gecikmelerinin ses dalgaları üzerinde yol açtığı faz farklılıklarıdır. Ses dalgalarında ortaya çıka"
+        },
+        {
+          "tez_no": "282639",
+          "title_tr": "Türkçe metin seslendirme için doğal konuşma sentezleme",
+          "author": "CAVİT ERDEMİR",
+          "year": 2010,
+          "score": 0.763,
+          "abstract_excerpt": "Bu tez çalışmasında Türkçe metinleri seslendiren özgün bir metin seslendirme sistemi sunulmuştur. Bu sistem dalgaşekli birleştirme yöntemiyle ve ?en çok iki harfli hece? parçacık birimi temel alınarak oluşturulmuştur. Bu tez çalışmasını iki ayrı bölüm olarak ele almak mümkündür:Çalışmanın ilk bölümü"
+        },
+        {
+          "tez_no": "794223",
+          "title_tr": "Türk dili üzerine ses bilimsel bir inceleme",
+          "author": "GAMZE YILDIRIM",
+          "year": 2023,
+          "score": 0.8794,
+          "abstract_excerpt": "Çalışma; Giriş, Ünlü Ses Birimler, Ünsüz Ses Birimler ve Sonuç olmak üzere dört bölümden oluşmaktadır.  \n\tGiriş bölümünde Türk dili ve lehçeleri, ses (fon), ses birim (fonem), alt ses birim (alofon), IPA, çeviri yazı sistemi, ses bilgisi ve ses bilimi, iç rekonstrüksiyon yöntemi hakkında bilgi veril"
+        },
+        {
+          "tez_no": "456818",
+          "title_tr": "Türkmencenin morfofonolojisi",
+          "author": "MARAL TÖRE",
+          "year": 2017,
+          "score": 0.8346,
+          "abstract_excerpt": "Ana Türkçeden beri bazı arkaik özellikleri koruyan ve günümüze kadar yaşatmaya devam eden Oğuz grubu Türk yazı dillerinden Türkmence aynı zamanda Çağataycanın etkisinde gelişmiş bir Türk yazı dilidir. Asli uzunlukları en iyi koruyan Türkmence, eklenme sırasında oluşan ikincil ünlü uzunlukları ve diğ"
+        },
+        {
+          "tez_no": "773766",
+          "title_tr": "Arap fonetiğinin tarihsel gelişimi",
+          "author": "ZEYNEP ÖZKANLI",
+          "year": 2022,
+          "score": 0.8317,
+          "abstract_excerpt": "Fonetik, bildirişim aracı olan özel bir dile ait sesleri somut gerçeklikler olarak ele alan bilim dalı olup bu çalışmada Standart Arapçanın sesleri, bu bilim dalının araştırma yöntemleri kullanılarak incelenmiştir. Çalışma, bir giriş ve beş bölümden oluşmaktadır. Giriş kısmında fonetik tarihine, fon"
+        },
+        {
+          "tez_no": "809456",
+          "title_tr": "Eski Türkçede yansımalı sözcükler",
+          "author": "GÜLSEN AKGÜN",
+          "year": 2023,
+          "score": 0.808,
+          "abstract_excerpt": "Tabiatta var olan gürültüler onu işiten insan tarafından duyuş ve seziş farklılığıyla \nbirlikte sesin verdiği imkânlar dâhilinde adlandırılmış, söz biçimine getirilmiştir. \nAnlatıma canlılık katan yansımalar yazı dilinde kalıplaşmış ve yansıma oldukları \nzamanla unutulmuştur. Türkçenin ses tarihinin"
+        },
+        {
+          "tez_no": "840113",
+          "title_tr": "Adli bilimlerde ses kayıtları üzerinde manipülasyon incelemesi",
+          "author": "ERKAN BURUCU",
+          "year": 2023,
+          "score": 0.8016,
+          "abstract_excerpt": "Bu çalışma ile Türkçe sesletilmiş ses kayıtları üzerinde yapılmış olan manipülasyonların belirlenmesi için görsel, işitsel ve dilbilimsel parametrelerden oluşan bir inceleme yönteminin önerilmesi amaçlanmıştır. Bu bağlamda analiz edilmesi gereken parametreler literatür araştırması sonucunda belirlen"
+        }
+      ]
+    },
+    "synthesis": {
+      "n_findings": 10,
+      "findings": [
+        {
+          "claim": "Türkçenin tarihî lehçelerinde ses bilgisi çalışmalarında yazı sistemleri ve alfabelerin fonem kadrosunu karşılama yeterliliği karşılaştırmalı olarak incelenmektedir.",
+          "citations": [
+            "135145"
+          ]
+        },
+        {
+          "claim": "Türkçenin ses bilgisi tarihinde dil içi (iç etkenler) ve dil dışı (coğrafya, din, alfabe değişikliği gibi) etkenlerin rol oynadığı belirtilmektedir.",
+          "citations": [
+            "240155",
+            "464566",
+            "673393"
+          ]
+        },
+        {
+          "claim": "Tarihî Türk lehçelerinde ünlü varlığı zamanla fakirleşirken (özellikle uzun ünlülerin kaybıyla), ünsüz varlığı dil içi ve dil dışı sebeplerle zenginleşmiştir.",
+          "citations": [
+            "464566"
+          ]
+        },
+        {
+          "claim": "Ses değişimlerinin (örneğin b>m) yazılı dönemde ilk ne zaman ortaya çıktığını belirlemek ve Türk lehçelerindeki yaygınlığını tespit etmek amaçlanmaktadır.",
+          "citations": [
+            "673393"
+          ]
+        },
+        {
+          "claim": "Tarihî lehçelerde ses bilgisi çalışmalarında iç rekonstrüksiyon yöntemi kullanılmaktadır.",
+          "citations": [
+            "794223"
+          ]
+        },
+        {
+          "claim": "Türkçenin tarihî lehçelerinde ses ve ses bildiren söz varlığı, belirli dönem eserlerinden (Harezm, Kıpçak, Çağatay Türkçesi) taranarak isimler ve fiiller şeklinde kategorize edilmektedir.",
+          "citations": [
+            "857281"
+          ]
+        },
+        {
+          "claim": "Türkmence gibi Oğuz grubu lehçelerde asli uzunluklar ve morfofonolojik ses olayları incelenmektedir.",
+          "citations": [
+            "456818"
+          ]
+        },
+        {
+          "claim": "Eski Türkçe dönemi eserlerindeki (Dîvânu Lugâti't-Türk gibi) yansımalı sözcükler tespit edilerek Türkçenin ses tarihi aydınlatılmaya çalışılmaktadır.",
+          "citations": [
+            "809456"
+          ]
+        },
+        {
+          "claim": "19. yüzyıl Osmanlı Türkçesinde ses benzeşmeleri ve uyumlar, dönemin dil bilgisi kitaplarına dayanarak incelenmektedir.",
+          "citations": [
+            "911989"
+          ]
+        },
+        {
+          "claim": "Tarihî lehçelerde ünsüzlerin incelenmesi, temel fonemlerin değişken seslerinin kullanım alanlarının genişlemesiyle ünsüz varlığının zenginleştiğini göstermektedir.",
+          "citations": [
+            "464566"
+          ]
+        }
+      ],
+      "contradictions": []
+    },
+    "critic": {
+      "coverage_ok": false,
+      "missing_aspects": [
+        "Karşılaştırmalı yöntem (comparative method) ve Altay dilleriyle karşılaştırma",
+        "Art zamanlı (diachronic) ses değişimi yasaları ve düzenli ses değişimi ilkesi",
+        "Metin neşri ve filolojik yöntem (transkripsiyon, okuma, yorumlama)",
+        "Ses bilgisi çalışmalarında kullanılan istatistiksel/dijital yöntemler (külliyat dilbilimi, veri tabanı taramaları)",
+        "Ses olaylarının sınıflandırılması (ünlü-ünsüz uyumları, tonsuzlaşma, ötümlüleşme, vd.)",
+        "Ses bilgisi çalışmalarında fonetik alfabelerin (IPA vb.) kullanımı ve transkripsiyon sorunları",
+        "Dönemlendirme ve lehçe tasnifi yöntemleri (ses ölçütlerine dayalı)"
+      ],
+      "requery_terms": [
+        "karşılaştırmalı yöntem tarihi Türk lehçeleri ses bilgisi",
+        "art zamanlı ses değişimi yasaları Türkçe",
+        "metin neşri transkripsiyon tarihi Türk lehçeleri",
+        "dijital yöntemler ses bilgisi Türkçe tarihi lehçeler",
+        "külliyat dilbilimi tarihi Türk lehçeleri ses",
+        "IPA transkripsiyon tarihi Türk lehçeleri",
+        "dönemlendirme lehçe tasnifi ses ölçütleri Türkçe"
+      ],
+      "notes": "Mevcut sentez, belirli ses olaylarına (ünlü/ünsüz varlığı, b>m değişimi, asli uzunluklar) ve bazı yöntemlere (iç rekonstrüksiyon, yazılı eser taraması) odaklanmış olsa da, Türkçenin tarihi lehçeleri üzerine ses bilgisi çalışmalarında kullanılan temel yöntemlerin bütüncül bir resmini sunmamaktadır. Özellikle karşılaştırmalı yöntem (comparative method), düzenli ses değişimi ilkesi, metin neşri ve transkripsiyon yöntemleri, dijital/istatistiksel yaklaşımlar, ses olaylarının sistematik sınıflandırılması ve dönemlendirme/lehçe tasnifinde ses ölçütlerinin kullanımı gibi ana yöntemler eksiktir. Sentez daha çok belirli bulgulara odaklanmış, yöntemlerin kendisini sistematik olarak ele almamıştır."
+    },
+    "iteration_count": 2,
+    "final": {
+      "answer_md": "## Giriş\n\nTürkçenin tarihî lehçeleri üzerine yapılan ses bilgisi çalışmaları, dilin art zamanlı (diyakronik) gelişimini anlamak için çeşitli yöntem ve yaklaşımları bir arada kullanmaktadır. Bu çalışmalar, yazı sistemlerinin fonem kadrosunu karşılama yeterliliğinden iç rekonstrüksiyona, belirli dönem eserlerinin taranmasından dil içi ve dil dışı etkenlerin analizine kadar geniş bir yelpazede şekillenmektedir. Aşağıda bu yöntemler alt başlıklar hâlinde ele alınmıştır.\n\n## Yazı Sistemleri ve Alfabelerin Karşılaştırmalı İncelenmesi\n\nTürkçenin tarihî lehçelerinde ses bilgisi çalışmalarının temel yöntemlerinden biri, Türkler tarafından kullanılan yazı sistemleri ve alfabelerin fonem kadrosunu karşılama yeterliliğinin karşılaştırmalı olarak incelenmesidir [1]. Bu bağlamda Göktürk yazısından başlayarak Uygur, Arap, Latin ve Kiril alfabelerinin Türkçenin ses yapısını ne derece elverişli bir biçimde yansıttığı tartışılmakta; yazı sistemlerindeki ses karşılıkları tablolar hâlinde sunulmaktadır [1]. Bu yöntem, yazılı belgelerdeki seslerin doğru yorumlanabilmesi için alfabe–fonem ilişkisinin çözümlenmesini esas alır.\n\n## İç Rekonstrüksiyon Yöntemi\n\nTarihî lehçelerde ses bilgisi çalışmalarında başvurulan bir diğer önemli yöntem iç rekonstrüksiyondur [23]. Bu yöntem, bir dilin kendi içindeki düzenli ses karşılıklarından ve dağılımsal boşluklardan yola çıkarak tarihî dönemlerde var olduğu varsayılan ses birimlerin yeniden yapılandırılmasını sağlar. İç rekonstrüksiyon, özellikle yazılı belgelerin sınırlı olduğu dönemler için Ana Türkçenin ses birimlerinin (ünlü ve ünsüz fonemlerin) tespitinde kullanılmaktadır [23].\n\n## Belirli Dönem Eserlerinin Taranması ve Söz Varlığı Kategorizasyonu\n\nTarihî lehçelerde ses bilgisi araştırmalarında, belirli dönemlere ait eserlerin taranması yaygın bir yöntemdir. Örneğin Orta Türkçe dönemi kapsamında Harezm Türkçesi, Kıpçak Türkçesi ve Çağatay Türkçesi eserlerindeki ses ve ses bildiren söz varlığı taranarak isimler ve fiiller şeklinde kategorize edilmektedir [5]. Bu yöntem, dönemsel ses envanterinin ve ses değişimlerinin somut verilerle ortaya konulmasını mümkün kılar. Benzer biçimde, Eski Türkçe dönemi eserlerinden Dîvânu Lugâti't-Türk gibi kaynaklardaki yansımalı sözcükler tespit edilerek Türkçenin ses tarihi aydınlatılmaya çalışılmaktadır [26].\n\n## Ses Değişimlerinin Tarihlendirilmesi ve Yaygınlığının Belirlenmesi\n\nSes değişimlerinin yazılı dönemde ilk ne zaman ortaya çıktığını belirlemek ve bu değişimlerin Türk lehçelerindeki yaygınlığını tespit etmek, tarihî lehçe ses bilgisi çalışmalarının temel amaçlarındandır [3]. Örneğin, Türk dilinde görülen *b > m* ses değişiminin ilk yazılı tanıklıkları ve çağdaş lehçelerdeki dağılımı bu yöntemle incelenmektedir [3]. Bu yaklaşım, ses değişimlerinin kronolojisini ve coğrafi yayılımını haritalandırmaya olanak tanır.\n\n## Dil İçi ve Dil Dışı Etkenlerin Analizi\n\nTürkçenin ses bilgisi tarihinde dil içi (iç etkenler) ve dil dışı (coğrafya değişikliği, din değişikliği, alfabe değişikliği gibi) etkenlerin rol oynadığı belirtilmektedir [2][3][6]. Ses bilgisi çalışmalarında bu etkenler sistematik biçimde analiz edilmekte; örneğin tarihî Türk lehçelerinde ünlü varlığının zamanla fakirleşmesi (özellikle uzun ünlülerin kaybıyla) ile ünsüz varlığının dil içi ve dil dışı sebeplerle zenginleşmesi arasındaki karşıtlık bu bağlamda değerlendirilmektedir [6]. Ünsüzlerin incelenmesinde, temel fonemlerin değişken seslerinin kullanım alanlarının genişlemesiyle ünsüz varlığının zenginleştiği gösterilmektedir [6].\n\n## Morfofonolojik ve Karşılaştırmalı Lehçe İncelemeleri\n\nTürkmence gibi Oğuz grubu lehçelerde asli uzunluklar ve morfofonolojik ses olayları incelenmektedir [24]. Bu yöntem, Ana Türkçeden beri korunan arkaik özelliklerin tespiti ve eklenme sırasında oluşan ikincil ünlü uzunluklarının belirlenmesi açısından önem taşır. Ayrıca çağdaş Türk lehçelerindeki ünlü sistemlerinin karşılaştırmalı olarak ele alınması, tarihî gelişimin izlerini sürmeye yardımcı olmaktadır [2].\n\n## Dil Bilgisi Kitaplarına Dayalı Dönem İncelemesi\n\n19. yüzyıl Osmanlı Türkçesinde ses benzeşmeleri ve uyumlar, dönemin dil bilgisi kitaplarına dayanarak incelenmektedir [4]. Bu yöntem, standartlaşma sürecinde ses bilgisi kurallarının belirginleşmesini ve dönüşümün gerçekleşmesini anlamak için dil bilgisi yazım geleneğini bir veri kaynağı olarak kullanır.\n\n## Sonuç\n\nTürkçenin tarihî lehçeleri üzerine yapılan ses bilgisi çalışmaları, yazı sistemlerinin karşılaştırmalı analizi, iç rekonstrüksiyon, dönem eserlerinin taranması, ses değişimlerinin tarihlendirilmesi, dil içi ve dil dışı etkenlerin analizi, morfofonolojik incelemeler ve dil bilgisi kitaplarına dayalı dönem araştırmaları gibi çok çeşitli yöntemleri bir arada kullanmaktadır. Bu yöntemlerin ortak amacı, Türkçenin art zamanlı ses gelişimini somut verilerle ortaya koymak, ses değişimlerinin kronolojisini ve yayılımını belirlemek ve tarihî lehçeler arasındaki ses bilgisel ilişkileri aydınlatmaktır.",
+      "n_citations": 27,
+      "citations_ieee": [
+        "[1] HATİCE ŞİRİN, \"Türkçenin ses bilgisi tarihi üzerine bir deneme,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı, 2003. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=p911s0iMPy2wtZbYYckXOdzy67NsebATi_Nw9GXQRnep6HYXnzjXyw2njxr4Q0r6",
+        "[2] SÜLEYMAN KAAN YALÇIN, \"Çağdaş Türk lehçelerinde ünlüler,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Edebiyatı Bölümü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Yeni Türk Dili Bilim Dalı, 2009. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogARK8MmlO5B3ADuVK3kEgowcdmpuXjy9oNgLylw4I6dIU",
+        "[3] ALPKAAN EREN, \"Geçmişten günümüze Türk yazı dillerinde görülen b>m ses değişimi,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Yeni Türk Dili Bilim Dalı, 2021. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=8tbPippmWV_b-Irrn9YEAnMiJT0YiZAbsK9pSjSy7TJoqE6d8e2-6lB8eQ2mpAQK",
+        "[4] BUKET KÖREMEZLİ, \"Dil bilgisi kitaplarına göre 19. yüzyıl Osmanlı Türkçesinde ses benzeşmeleri ve uyumlar,\" Yüksek Lisans/Doktora tezi, Erciyes Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Türk Dili Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=E_eEUHQic_C-LvhxNQn1Wx9W3TU5XuHP-6cs4YbCgY4zUsk9NR5-frd7CIHrkzCO",
+        "[5] BÜŞRA ADİYAMAN, \"Orta Türkçe dönemi eserlerinde ses söz varlığı,\" Yüksek Lisans/Doktora tezi, Erzurum Teknik Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Eski Türk Dili Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=cr4SkWLaRMhkDRBjqthpsaWaqXVSGxD9u4ocux_lTtZlO-gFl3NrKwoZfMIHLwM6",
+        "[6] YILMAZ İNCE, \"Tarihî Türk lehçelerinde ünsüzler,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Yeni Türk Dili Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=q3-d9QtLoVA2OMExHSkJpWcJuODIDKto_xXE00NTrjf5Ltpb1Pq6-HwBH8pJ1O1z",
+        "[7] MUSTAFA KEMAL KÖK, \"Türkiye Türkçesi grameri eğitimine yönelik eserlerde ses bilgisi ve biçim bilgisi konusundaki örneklerin incelenmesi (1940 sonrası),\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Eğitim Bilimleri Enstitüsü / Türkçe ve Sosyal Bilimler Eğitimi Ana Bilim Dalı / Türk Dili ve Edebiyatı Eğitimi Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQk_QySE_AZqaX78nJ-0q5CWuY-B0nj06VtSiLmd1QiLQ",
+        "[8] NURSEL DEMİRDEN, \"Tarihî ve sosyokültürel bağlamda Türkiye sahası tarihî türküleri,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Halk Bilimi Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=G_oJ1rKE4SgJUkomyAKpR1XpRulMmEIg28kxNpJQmS0P01enKokISINpNQ3PZkLa",
+        "[9] KAMİL ÖNCÜ ŞEN, \"Sesbirim tabanlı konuşulan dilin tanınması,\" Yüksek Lisans/Doktora tezi, Karadeniz Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Bilgisayar Mühendisliği Ana Bilim Dalı, 2007. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wBmNpkQC9Nhi90NLW7E7-Y_Lja8EVmaZTu9o3e4fQghQ68UQqAH0NDNR22vzo5sW",
+        "[10] HELİN BEYSÜLEN, \"Şeflik tekniği bakımından iktus ve orkestra çalgılarının ses üretimi,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Güzel Sanatlar Enstitüsü / Kompozisyon ve Orkestra Şefliği Ana Bilim Dalı, 2024. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=LY6e5xGA7WWUpEdrBmEPLqeMDEXbUskAVMJFVjq-dvZqAwzcv4iiz-r1QuaMmghG",
+        "[11] TUĞBA LULACİ, \"Ege Üniversitesi Türkçe fonetik test koklear kelime listesinin fonetik ve bilinirlik yönünden analizi,\" Yüksek Lisans/Doktora tezi, Ege Üniversitesi / Sağlık Bilimleri Enstitüsü / Kulak Burun Boğaz Ana Bilim Dalı, 2020. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=_F5QEpayDXGqGZlp9XiFtKih1lts9D3C2IXPaLLCyR5_YbnLYQPE0kppw1u4Zr09",
+        "[12] HASAN SERCAN ATLI, \"Türk makam müziğinin ezgisel boyutuna yönelik interaktif eğitim programı,\" Yüksek Lisans/Doktora tezi, Bahçeşehir Üniversitesi / Fen Bilimleri Enstitüsü / Ses Teknolojileri Bilim Dalı, 2016. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=OykDDeWBWTL9-Wm52sZBrJZjGevYlJd58XS-Ibc1i5r27Lfkp_5wwQo2r3nS8Cr1",
+        "[13] ASUMAN CİDER ŞENER, \"Doğru ve güzel konuşarak gelişen kimlik,\" Yüksek Lisans/Doktora tezi, İhsan Doğramacı Bilkent Üniversitesi / Müzik ve Sahne Sanatları Enstitüsü / Tiyatro Ana Sanat Dalı, 2005. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=wBmNpkQC9Nhi90NLW7E7-exrhYGfUYBSvnI-ZshkICdI57SeyIjNtdx8ri4ypzxN",
+        "[14] ÖZGÜR ASLANKILIÇ, \"Türkiye'de halk ağzından derleme sözlüğü'nde geçen küçük/küçültme anlamındaki kelimeler,\" Yüksek Lisans/Doktora tezi, Fırat Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı, 2018. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=hcgrYffRbz0Z44UJEuLtwXh5c-XbrRwX7Yqqbecw7dTBBWqsEI-C2AVGAoBFkI8q",
+        "[15] CENK GÜRAY, \"Makam yapılarını yansıtan bir model önerisi için yapay zeka tekniklerinin kullanımı,\" Yüksek Lisans/Doktora tezi, Başkent Üniversitesi / Sosyal Bilimler Enstitüsü / Müzik Bilimleri Ana Bilim Dalı, 2006. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=XohQ0H2mJnBfxLPsY8dG410RNC4KaJT33y4iVSp1UQ2HAVCaF4LQd22ar6sjGtJ6",
+        "[16] ZAFER İNCEBACAK, \"Ortaöğretim 1992 ve 2005 eğitim programlarında ses bilgisi öğretiminin incelenip karşılaştırılması,\" Yüksek Lisans/Doktora tezi, Zonguldak Karaelmas Üniversitesi / Sosyal Bilimler Enstitüsü / Türkçe Eğitimi Ana Bilim Dalı / Türkçe Eğitimi Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=CwVIqqBuz1VkysVpueogAZ6Mzwjet7-C7cHSyzPGJz8XCcEPrBNax-VTAiugg-nq",
+        "[17] TUGAY RİFAT DUYAR, \"Türkçe tek heceli sözcük vurgusunun akustik özelliklerinin belirlenmesi,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Sağlık Bilimleri Enstitüsü / Kulak Burun Boğaz Ana Bilim Dalı / Odyoloji ve Konuşma Bozuklukları Bilim Dalı, 2019. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=jNRDC1RLfVd4_T7x7ZXmmQbAztrBVd2StzUzU9QLKxKBHfQOqVArgVZ4l6WOKBNJ",
+        "[18] MUHARREM TÜMÇAKIR, \"Bilgisayar destekli ses kurgularının otomatik algılanması,\" Yüksek Lisans/Doktora tezi, İstanbul Teknik Üniversitesi / Fen Bilimleri Enstitüsü / Elektronik ve Haberleşme Mühendisliği Ana Bilim Dalı, 2003. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=Keh6sQzap4ZTp8dqWPlH1L-ESKrVSsXz9Vti3ypPMe_eb4GgUsMd4S429JkRGJxe",
+        "[19] TÜRKÜCAN ATILGAN, \"Müziksel işitme okuma ve yazma araştırmalarının incelenmesi: Bir sistematik derleme çalışması,\" Yüksek Lisans/Doktora tezi, Bolu Abant İzzet Baysal Üniversitesi / Lisansüstü Eğitim Enstitüsü / Güzel Sanatlar Eğitimi Ana Bilim Dalı / Müzik Eğitimi Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=qVqOZFj2DwNmvdf1oGFYiF4IPh-s94LwBan1Cv9wVTMruTTNpIVpnq8jqu6PSpK0",
+        "[20] REHA SARIKAYA, \"Lisans düzeyinde mesleki müzik eğitimi veren kurumlarda ritim öğretim yöntemlerinin kullanılma durumları,\" Yüksek Lisans/Doktora tezi, Gazi Üniversitesi / Eğitim Bilimleri Enstitüsü / Güzel Sanatlar Eğitimi Ana Bilim Dalı / Müzik Öğretmenliği Bilim Dalı, 2013. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=vVNzTGHHhjH-u3WMToxQ-q_rOjpAqZfaFf_kFaipvpP4iF7wyWUcsuEHDgtNjJ98",
+        "[21] BENGİ DERYA MUŞDAL, \"Ses örneklemelerindeki zaman gecikmelerinin algısal farklılığı üzerine bir inceleme,\" Yüksek Lisans/Doktora tezi, Bahçeşehir Üniversitesi / Fen Bilimleri Enstitüsü / Ses Teknolojileri Ana Bilim Dalı / Ses Teknolojileri Bilim Dalı, 2015. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=WBc656i315e2eV6-EZV1okCePyzIPYQu-pdUtiEYcJ50kdhBB_Gh-q1ZOLZxhY1w",
+        "[22] CAVİT ERDEMİR, \"Türkçe metin seslendirme için doğal konuşma sentezleme,\" Yüksek Lisans/Doktora tezi, İstanbul Üniversitesi / Fen Bilimleri Enstitüsü / Elektrik-Elektronik Mühendisliği Ana Bilim Dalı, 2010. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=zD1B0cW7zVr3VcnZjitVXqNzAK4wFGZfseWLlmrXG9ULFzk3R6IgTe2hPqxhG0Xv",
+        "[23] GAMZE YILDIRIM, \"Türk dili üzerine ses bilimsel bir inceleme,\" Yüksek Lisans/Doktora tezi, Sivas Cumhuriyet Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=G_oJ1rKE4SgJUkomyAKpR2ao8CgJpeoUdx2CYjXlCK_8DCEm638HG2GIGRTIhYTo",
+        "[24] MARAL TÖRE, \"Türkmencenin morfofonolojisi,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Sosyal Bilimler Enstitüsü / Çağdaş Türk Lehçeleri ve Edebiyatları Ana Bilim Dalı, 2017. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=DPTyuy3wRPq_qvCPSqUB6690aaSLyeP4URjcnMsQiGOI5oVXRkCKey-U3f4lln39",
+        "[25] ZEYNEP ÖZKANLI, \"Arap fonetiğinin tarihsel gelişimi,\" Yüksek Lisans/Doktora tezi, Ankara Üniversitesi / Sosyal Bilimler Enstitüsü / Doğu Dilleri ve Edebiyatları Ana Bilim Dalı / Arap Dili ve Edebiyatı Bilim Dalı, 2022. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=kIrIdtdJ31bRgjb6fHvMUbDHpgbt8oUzfvQqDkMaoQH0YRZNCG_2L5Zh3ZZ0qC-q",
+        "[26] GÜLSEN AKGÜN, \"Eski Türkçede yansımalı sözcükler,\" Yüksek Lisans/Doktora tezi, Eskişehir Osmangazi Üniversitesi / Sosyal Bilimler Enstitüsü / Türk Dili ve Edebiyatı Ana Bilim Dalı / Türk Dili Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=j_Fjwp4JS4mk97Puqti8rrK_LZQHkTxGbxOa25H51F6NtHBoscHn_dM4ee8-vwZ7",
+        "[27] ERKAN BURUCU, \"Adli bilimlerde ses kayıtları üzerinde manipülasyon incelemesi,\" Yüksek Lisans/Doktora tezi, Hacettepe Üniversitesi / Fen Bilimleri Enstitüsü / Adli Bilimler Ana Bilim Dalı, 2023. [Online]. https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=weFMBHaUra8rsS5wi2bmHKsQEr2srpQEkwLsmLSD1x18S-y09MTaN4mOkm1zcW3M"
+      ]
+    }
+  },
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": "q18",
+  "question": "Türkiye'de organik tarım uygulamalarının toprak verimliliğine etkisi nasıl ölçülmüştür?",
+  "category": "agriculture",
+  "judgment": {
+    "citation_accuracy": 0.6,
+    "faithfulness": 0.5,
+    "coverage": 0.25,
+    "holistic_score": 2,
+    "rationale": "Yanıt, organik tarımın toprak verimliliğine etkisini ölçen yöntemlerden bahsetmek yerine genel organik tarım faydalarını anlatmış; alt soruların yalnızca birincisine (parametreler) kısmen değinmiş, karşılaştırmalı analiz, sınırlılıklar/iyileştirmeler gibi kritik alt soruları tamamen ihmal etmiştir. Ayrıca kaynakların çoğu (ör. [1],[2],[4]-[8],[10]-[17],[21],[22],[24],[25]) ya konu dışıdır ya da yanıtta kullanılmamıştır; kullanılan kaynaklardan [23] ve [27]'deki iddialar kısmen abartılı veya tez özetinde doğrudan desteklenmemektedir."
+  }
+}
