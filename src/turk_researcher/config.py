@@ -42,6 +42,9 @@ def load_settings() -> Settings:
     data_dir_raw = _env("DATA_DIR", "")
     data_dir = Path(data_dir_raw) if data_dir_raw else ROOT / "data"
 
+    chroma_dir_raw = _env("CHROMA_PERSIST_DIR", "")
+    chroma_persist_dir = Path(chroma_dir_raw) if chroma_dir_raw else data_dir / "chroma_db"
+
     return Settings(
         # Not required at load time so utility scripts (pull, harvest) work
         # without an API key. build_llm() checks lazily.
@@ -52,7 +55,7 @@ def load_settings() -> Settings:
             "EMBEDDING_MODEL",
             "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
         ),
-        chroma_persist_dir=data_dir / "chroma_db",
+        chroma_persist_dir=chroma_persist_dir,
         chroma_collection=_env("CHROMA_COLLECTION", "turkish_theses"),
         data_dir=data_dir,
         parquet_path=data_dir / "abstracts_filtered.parquet",

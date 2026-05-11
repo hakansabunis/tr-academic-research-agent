@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import Iterable
 
 from ..schemas import RetrievedChunk
-from ..vectorstore import get_collection
+from ..vectorstore import get_collection, get_encoder
 
 
 def _doc_to_chunk(doc: str, metadata: dict, distance: float) -> RetrievedChunk:
@@ -41,13 +41,15 @@ def _doc_to_chunk(doc: str, metadata: dict, distance: float) -> RetrievedChunk:
 def retrieve(queries: Iterable[str], *, k: int = 6) -> list[RetrievedChunk]:
     """Multi-query retrieval — embeds each query, dedupes by tez_no, keeps best score."""
     coll = get_collection()
+    encoder = get_encoder()
     seen: dict[str, RetrievedChunk] = {}
 
     for q in queries:
         if not q or not q.strip():
             continue
+        qv = encoder.encode(q.strip(), normalize_embeddings=True).tolist()
         res = coll.query(
-            query_texts=[q.strip()],
+            query_embeddings=[qv],
             n_results=k,
             include=["documents", "metadatas", "distances"],
         )

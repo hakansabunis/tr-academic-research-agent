@@ -29,6 +29,8 @@ def main() -> int:
                         help="HF dataset repo id (default: from HF_INDEX_REPO env)")
     parser.add_argument("--data-dir", type=Path, default=None,
                         help="Override DATA_DIR (default: from .env)")
+    parser.add_argument("--variant", default="v1", choices=["v1", "v2"],
+                        help="v1 = chroma_db/ (mpnet baseline), v2 = chroma_db_v2/ (trakad-embed-v2)")
     parser.add_argument("--token", default=None,
                         help="HF token if the dataset is private (or set HF_TOKEN env var)")
     parser.add_argument("--force", action="store_true",
@@ -38,7 +40,9 @@ def main() -> int:
     settings = load_settings()
     repo = args.repo or settings.hf_index_repo
     data_dir = args.data_dir or settings.data_dir
-    chroma_dir = data_dir / "chroma_db"
+    # v1 -> chroma_db (existing layout), v2 -> chroma_db_v2 (new layout)
+    chroma_subdir = "chroma_db" if args.variant == "v1" else "chroma_db_v2"
+    chroma_dir = data_dir / chroma_subdir
     parquet_path = data_dir / "abstracts_filtered.parquet"
     report_path = data_dir / "filter_report.json"
 
@@ -54,33 +58,42 @@ def main() -> int:
 
     data_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"[+] Pulling {repo} from Hugging Face Hub")
+    print(f"[+] Pulling {repo} from Hugging Face Hub  (variant={args.variant})")
     print(f"    target: {data_dir}")
     print("    (~14-16 GB total — first pull can take 15-30 minutes depending on bandwidth)")
 
     cache = data_dir / "_hub_cache"
     cache.mkdir(parents=True, exist_ok=True)
 
+    # Only download the requested variant's chroma folder + parquet/report,
+    # not both v1 and v2 (would be 30+ GB).
+    allow = [
+        f"{chroma_subdir}/*",
+        "abstracts_filtered.parquet",
+        "filter_report.json",
+    ]
+
     snapshot_download(
         repo_id=repo,
         repo_type="dataset",
         local_dir=str(cache),
+        allow_patterns=allow,
         token=args.token,
     )
 
-    chroma_src = cache / "chroma_db"
+    chroma_src = cache / chroma_subdir
     parquet_src = cache / "abstracts_filtered.parquet"
     report_src = cache / "filter_report.json"
 
     if not chroma_src.exists():
-        print(f"[!] Expected chroma_db/ in {cache} — repo layout mismatch", file=sys.stderr)
+        print(f"[!] Expected {chroma_subdir}/ in {cache} — repo layout mismatch", file=sys.stderr)
         return 2
 
     if chroma_dir.exists() and args.force:
         print(f"[+] Removing existing {chroma_dir}")
         shutil.rmtree(chroma_dir)
 
-    print(f"[+] Moving chroma_db -> {chroma_dir}")
+    print(f"[+] Moving {chroma_subdir} -> {chroma_dir}")
     if chroma_dir.exists():
         shutil.rmtree(chroma_dir)
     shutil.move(str(chroma_src), str(chroma_dir))
