@@ -50,3 +50,10 @@ space/_debug2.py
 .ruff_cache/
 
 *.log
+
+# Stage 1.5 audit: intermediate bulk data (regenerable from scripts)
+data/audit/dergipark_full_text/
+data/audit/dergipark_pdf_samples/
+
+# Stage 2 prep: derived bulk data
+data/stage2a_corpus/

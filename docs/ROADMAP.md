@@ -142,6 +142,13 @@ explicit, measured version of that decision.
 The output is not a model, it is a *go/no-go decision per data source*
 and a final corpus composition for Stage 2a.
 
+**Note (2026-05-11 update).** Stage 1 eval's category-level STEM
+"regression" was largely an artifact of n=1 per category; per-question
+re-analysis showed STEM cohort is net positive (+0.04 average citation
+accuracy across 17 STEM questions). The audit therefore aims at *general
+register-aligned* corpus expansion for Stage 2a, not STEM-targeted
+augmentation.
+
 ### Sub-stage 1.5a — Inventory *(1-2 days)*
 
 Catalog every candidate Turkish academic data source. For each, record:

@@ -80,23 +80,26 @@ Linguistics and law are even bigger relative wins, but n=1 each — single quest
 
 ---
 
-## Why the STEM regression?
+## Per-question STEM re-analysis (corrigendum, 2026-05-11)
 
-A clear pattern emerges: Turkish-language-heavy domains (linguistics, CS-NLP, law, education) won; "harder science" domains (chemistry, biology, physics, engineering) lost ground.
+The category-level table above suggests STEM regressed broadly. A per-question analysis (`stem_regression_analysis.md`) shows this framing was misleading: the category means were driven by single-question swings in categories with n=1.
 
-**Hypothesis 1 — Subject distribution skew in training data.**
+Looking at all 17 STEM-tagged questions individually (citation_accuracy delta):
 
-The 633K Turkish thesis corpus over-represents social sciences, education, and CS (which dominate Turkish academic production volumes), and under-represents experimental hard sciences. Our subject-aware hard negative mining used the existing subject taxonomy, which means STEM theses had fewer same-subject siblings to discriminate against, so the model got less signal in those areas.
+| Direction | Count | Sum of deltas |
+|---|---|---|
+| UP (≥+0.05) | 5 | +1.35 |
+| DOWN (≤-0.05) | 5 | -0.70 |
+| FLAT | 7 | 0 |
+| **NET STEM** | 17 | **+0.65** (avg +0.04 per question) |
 
-**Hypothesis 2 — Discriminative concentration trade-off.**
+**Big wins inside STEM:** q01 CS Turkish NLP (+0.45 — the original failure mode targeted by Stage 1), q19 veterinary (+0.40), q09/q10 health (+0.20 each).
 
-Fine-tuning sharpened the model on the domains where mpnet was weakest (where the contrastive gradient signal was strongest), at a small cost to domains where mpnet was already good. This is a known dynamic in domain adaptation: the model spends representational capacity on the new specialization.
+**Real regressions:** q11 engineering (wind turbines, -0.25), q25 biology (microplastics, -0.20), q24 chemistry (-0.10), q04 CS (-0.10), q13 engineering (-0.05). These are 5 specific questions, not a STEM-wide pattern — and they have no shared failure mode (different sub-domains, different retrieval issues per question).
 
-**Hypothesis 3 — Small-n category noise.**
+**Verdict.** The "STEM categories regressed" claim was an artifact of small n per category. Across the full STEM cohort (n=17) v2 is **net positive** on citation accuracy. The earlier "Hypothesis: training data underrepresents experimental hard sciences" framing was speculative; the more accurate story is that v2's gain is uneven across questions but cohort-positive in STEM as in non-STEM.
 
-Several "regression" categories have n=1 (chemistry, biology, physics, tourism). A single bad question can swing the category mean dramatically. The four STEM regressions sum to a real signal but each individual category result is statistically weak.
-
-The overall +9.9% citation accuracy improvement is computed on n=29 and is robust. Per-category gains and losses are directional indicators, not statistically rigorous claims with this sample size.
+This finding redirects Stage 1.5 / 2 priorities: instead of explicitly targeting STEM augmentation, broaden the Stage 2a corpus for diversity and let Stage 2's continued pre-training + DPO handle remaining per-question gaps.
 
 ---
 
@@ -142,13 +145,13 @@ The fine-tuning paid off where it was supposed to. The improvement is modest in 
 
 ## What Stage 1.5 (data audit) should target
 
-The STEM regression points to a specific gap: our training data underrepresents experimental hard sciences. Stage 1.5's data audit should explicitly probe:
+After the per-question STEM re-analysis above, the audit's emphasis shifts from "fix STEM" to "find net-new, register-aligned Turkish academic text for Stage 2a continued pre-training." Practical priorities:
 
-- DergiPark full-text for STEM journals (chemistry, physics, engineering)
-- TÜBA / TÜBİTAK technical reports
-- METU / ITÜ STEM courseware
+- DergiPark full-text PDFs — biggest available volume (~700K articles, ~5B tokens potential, ~78% post-cleaning yield validated in 100-sample probe)
+- ITÜ Polen institutional repo — 67K records, content mix unverified
+- Other university OAI endpoints — mostly inaccessible from current network; defer
 
-If Stage 2a's continued pre-training adds these sources, then a Stage 2.5 (re-train embedder with expanded corpus + STEM hard negatives) could be a fast follow-on that closes the regression gap.
+Stage 2a corpus composition should aim for diversity (engineering, social sciences, humanities) rather than STEM concentration, since the v2 evaluation does not support a STEM-deficiency claim.
 
 ---
 

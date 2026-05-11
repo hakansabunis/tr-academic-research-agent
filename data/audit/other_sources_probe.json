@@ -1,0 +1,105 @@
+{
+  "doaj": {
+    "status": "ok",
+    "journals_total": 0,
+    "articles_total": 0,
+    "sample_journals": []
+  },
+  "anadolu": {
+    "status": "fail",
+    "reason": "no OAI endpoint responded with OAI-PMH content"
+  },
+  "tuba": {
+    "status": "probed",
+    "candidates": [
+      {
+        "url": "https://tuba.gov.tr/tr/yayinlar/acik-ders-malzemeleri",
+        "status": 404,
+        "final_url": "https://tuba.gov.tr/tr/yayinlar/acik-ders-malzemeleri",
+        "content_len": 0,
+        "preview": ""
+      },
+      {
+        "url": "https://acikders.tuba.gov.tr/",
+        "error": "HTTPSConnectionPool(host='acikders.tuba.gov.tr', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))"
+      },
+      {
+        "url": "https://www.tuba.gov.tr/tr/yayinlar/acik-ders-malzemeleri",
+        "status": 404,
+        "final_url": "https://www.tuba.gov.tr/tr/yayinlar/acik-ders-malzemeleri",
+        "content_len": 0,
+        "preview": ""
+      }
+    ]
+  },
+  "tubitak": {
+    "status": "probed",
+    "candidates": [
+      {
+        "url": "https://search.trdizin.gov.tr/oai/request",
+        "status": 200,
+        "looks_oai": false,
+        "preview": "<!doctype html>\n<html data-critters-container>\n<head>\n  <meta charset=\"utf-8\">\n  <meta http-equiv=\"expires\" content=\"0\">\n  <meta http-equiv=\"Cache-control\" content=\"no-cache\">\n  <title>TRDizin</title>"
+      },
+      {
+        "url": "https://trdizin.gov.tr/api/search/publication",
+        "status": 404,
+        "looks_oai": false,
+        "preview": ""
+      },
+      {
+        "url": "https://atif.trdizin.gov.tr/oai",
+        "error": "HTTPSConnectionPool(host='atif.trdizin.gov.tr', port=443): Max retries exceeded with url: /oai?verb=Identify (Caused by NameResolutionError(\"HTTPSConnection(host='atif.trdizin.gov.tr', port=443): Failed to resolve 'atif.trdizin.gov.tr' ([Errno 11001] getaddrinfo failed)\"))"
+      }
+    ]
+  },
+  "universities": {
+    "status": "probed",
+    "universities": [
+      {
+        "name": "METU (ODTÜ)",
+        "url": "https://open.metu.edu.tr/oai/request",
+        "error": "HTTPSConnectionPool(host='open.metu.edu.tr', port=443): Read timed out. (read timeout=15)"
+      },
+      {
+        "name": "ITÜ",
+        "url": "https://polen.itu.edu.tr/oai/request",
+        "status": 200,
+        "is_oai": true,
+        "complete_list_size": 67765
+      },
+      {
+        "name": "Boğaziçi",
+        "url": "https://acikerisim.boun.edu.tr/oai/request",
+        "error": "HTTPSConnectionPool(host='acikerisim.boun.edu.tr', port=443): Max retries exceeded with url: /oai/re"
+      },
+      {
+        "name": "Bilkent",
+        "url": "https://repository.bilkent.edu.tr/oai/request",
+        "status": 404,
+        "is_oai": false
+      },
+      {
+        "name": "Sabancı",
+        "url": "https://research.sabanciuniv.edu/oai/request",
+        "status": 404,
+        "is_oai": false
+      },
+      {
+        "name": "Hacettepe",
+        "url": "https://repository.hacettepe.edu.tr/oai/request",
+        "error": "('Connection aborted.', ConnectionResetError(10054, 'Varolan bir bağlantı uzaktaki bir ana bilgisaya"
+      },
+      {
+        "name": "İstanbul Ü.",
+        "url": "https://acikerisim.istanbul.edu.tr/oai/request",
+        "error": "HTTPSConnectionPool(host='acikerisim.istanbul.edu.tr', port=443): Read timed out. (read timeout=15)"
+      },
+      {
+        "name": "Ankara Ü.",
+        "url": "https://acikerisim.ankara.edu.tr/oai/request",
+        "error": "HTTPSConnectionPool(host='acikerisim.ankara.edu.tr', port=443): Max retries exceeded with url: /oai/"
+      }
+    ]
+  }
+}
