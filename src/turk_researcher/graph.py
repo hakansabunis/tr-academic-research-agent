@@ -14,8 +14,10 @@ from .schemas import GraphState
 
 MAX_CRITIC_LOOPS = 2
 
-# Toggle live API augmentation. Set TRRESEARCHER_LIVE=0 to disable.
-LIVE_SEARCH_ENABLED = os.getenv("TRRESEARCHER_LIVE", "1") == "1"
+# Product default = OFF: the measured system (and the reranker A/B) ran with
+# live search off; OpenAlex/Semantic Scholar inject English-centric, off-corpus
+# noise. Set TRRESEARCHER_LIVE=1 to re-enable API augmentation.
+LIVE_SEARCH_ENABLED = os.getenv("TRRESEARCHER_LIVE", "0") == "1"
 
 
 def _critic_router(state: GraphState) -> str:

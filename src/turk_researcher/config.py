@@ -17,6 +17,14 @@ class Settings:
     deepseek_base_url: str
     deepseek_model: str
 
+    # Generic OpenAI-compatible provider (provider-independent). If LLM_*
+    # env vars are unset they fall back to the DEEPSEEK_* values, so existing
+    # setups are unchanged. Works with OpenAI / OpenRouter / Groq / Together
+    # and local servers (Ollama / vLLM / LM Studio) — anything exposing /v1.
+    llm_api_key: str
+    llm_base_url: str
+    llm_model: str
+
     embedding_model: str
     chroma_persist_dir: Path
     chroma_collection: str
@@ -42,8 +50,11 @@ def load_settings() -> Settings:
     data_dir_raw = _env("DATA_DIR", "")
     data_dir = Path(data_dir_raw) if data_dir_raw else ROOT / "data"
 
+    # Product default = the *measured-best* index (trakad-embed-v2 rebuild,
+    # +9.9% citation accuracy). Override CHROMA_PERSIST_DIR to point at the
+    # old mpnet `chroma_db` for the v1 baseline.
     chroma_dir_raw = _env("CHROMA_PERSIST_DIR", "")
-    chroma_persist_dir = Path(chroma_dir_raw) if chroma_dir_raw else data_dir / "chroma_db"
+    chroma_persist_dir = Path(chroma_dir_raw) if chroma_dir_raw else data_dir / "chroma_db_v2"
 
     return Settings(
         # Not required at load time so utility scripts (pull, harvest) work
@@ -51,9 +62,17 @@ def load_settings() -> Settings:
         deepseek_api_key=_env("DEEPSEEK_API_KEY", ""),
         deepseek_base_url=_env("DEEPSEEK_BASE_URL", "https://api.deepseek.com/v1"),
         deepseek_model=_env("DEEPSEEK_MODEL", "deepseek-chat"),
+        # Generic provider: LLM_* if set, else fall back to DEEPSEEK_*.
+        llm_api_key=_env("LLM_API_KEY", _env("DEEPSEEK_API_KEY", "")),
+        llm_base_url=_env("LLM_BASE_URL",
+                          _env("DEEPSEEK_BASE_URL", "https://api.deepseek.com/v1")),
+        llm_model=_env("LLM_MODEL", _env("DEEPSEEK_MODEL", "deepseek-chat")),
         embedding_model=_env(
             "EMBEDDING_MODEL",
-            "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+            # Product default = fine-tuned Turkish academic embedder. The old
+            # generic mpnet baseline: set EMBEDDING_MODEL to
+            # sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+            "hakansabunis/trakad-embed-v2",
         ),
         chroma_persist_dir=chroma_persist_dir,
         chroma_collection=_env("CHROMA_COLLECTION", "turkish_theses"),

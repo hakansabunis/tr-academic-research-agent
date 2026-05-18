@@ -1,197 +1,134 @@
-# tr-academic-research-agent
+# TürkResearcher 🔍
 
-> **TürkResearcher** — the first open multi-agent academic research assistant for Turkish, grounded in 633K Turkish thesis abstracts.
+> **633.998 Türkçe yüksek lisans/doktora tezi** üzerinde çalışan, açık
+> kaynak, çok-ajanlı Türkçe akademik araştırma asistanı. Sorduğunuz Türkçe
+> soruyu kaynaklara dayandırarak, **IEEE atıflı** akademik bir yanıta
+> dönüştürür.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Live demo on HF Spaces](https://img.shields.io/badge/demo-HF%20Space-orange)](https://huggingface.co/spaces/hakansabunis/turkresearcher)
-[![Index on HF](https://img.shields.io/badge/index-HuggingFace-blue)](https://huggingface.co/datasets/hakansabunis/tr-academic-research-agent-index)
-[![LangGraph](https://img.shields.io/badge/LangGraph-multi--agent-green)](https://github.com/langchain-ai/langgraph)
+[![Lisans: MIT](https://img.shields.io/badge/Lisans-MIT-yellow.svg)](LICENSE)
+[![Canlı demo](https://img.shields.io/badge/demo-HF%20Space-orange)](https://huggingface.co/spaces/hakansabunis/turkresearcher)
+[![Embedder](https://img.shields.io/badge/model-trakad--embed--v2-blue)](https://huggingface.co/hakansabunis/trakad-embed-v2)
+[![İndeks](https://img.shields.io/badge/veri-HF%20dataset-blue)](https://huggingface.co/datasets/hakansabunis/tr-academic-research-agent-index)
 
-> 🚀 **Try it live:** [hakansabunis/turkresearcher](https://huggingface.co/spaces/hakansabunis/turkresearcher) (bring your own DeepSeek API key)
+Elicit / Consensus benzeri araçların Türkçe karşılığı yoktu — TürkResearcher
+bu boşluğu **Türkçe tez korpusuna** dayanarak doldurur. Soru parçalanır,
+çok-sorgulu erişim yapılır, kanıt sentezlenir, eksik kapsam denetlenir ve
+gerçek `tez.yok.gov.tr` kayıtlarına atıflı Türkçe bir akademik metin yazılır.
 
-Inspired by Elicit / Consensus.app — but Turkish-first, since no equivalent exists. Given a Turkish research question, the agent decomposes it, retrieves multi-query evidence from a 633.998-record corpus, runs a critic loop for coverage, then writes a Turkish academic answer with IEEE-style citations grounded in real `tez.yok.gov.tr` PDFs.
+---
 
-## Demo
+## 🚀 Hızlı başlangıç
 
+**Sadece denemek (kurulum yok):**
+👉 [Canlı demo (HF Space)](https://huggingface.co/spaces/hakansabunis/turkresearcher) — kendi DeepSeek API anahtarınızla.
+
+**Gerçek sistemi çalıştır (Docker — en kolay):**
 ```bash
-python scripts/run.py "Türkçe doğal dil işlemede son yıllardaki ana yaklaşımlar nelerdir?"
-```
-
-Produces a 9-section Turkish academic article with 30+ IEEE citations in ~60-90 s.
-
-## Architecture
-
-```
-                   Question (TR)
-                        │
-                        ▼
-              ┌─────────────────────┐
-              │      PLANNER        │  3-5 sub-questions (DeepSeek)
-              └─────────────────────┘
-                        │
-                        ▼
-              ┌─────────────────────┐
-              │     RETRIEVER       │  multi-query Chroma over 633K theses
-              └─────────────────────┘
-                        │
-                        ▼
-              ┌─────────────────────┐
-              │    SYNTHESISER      │  cluster + flag contradictions
-              └─────────────────────┘
-                        │
-                        ▼
-              ┌─────────────────────┐  coverage_ok=False
-              │       CRITIC        │ ──────────────► RETRIEVER (loop ≤2)
-              └─────────────────────┘                  or
-                        │                              LIVE_SEARCH
-                        │                              (OpenAlex + Semantic Scholar
-                        ▼                               + DergiPark live)
-              ┌─────────────────────┐
-              │       WRITER        │  IEEE-cited Turkish answer
-              └─────────────────────┘
-                        │
-                        ▼
-                     Answer
-```
-
-**Stack:** LangChain · LangGraph · ChromaDB · DeepSeek API · `paraphrase-multilingual-mpnet-base-v2` (768-dim, cosine).
-
-## Quick start
-
-### 1. Install
-
-```bash
-git clone https://github.com/hakansabunis/tr-academic-research-agent.git
+git clone https://github.com/hakansabunis/tr-academic-research-agent
 cd tr-academic-research-agent
-python -m venv .venv
-.venv\Scripts\activate                      # Windows PowerShell
-# source .venv/bin/activate                 # macOS/Linux
-pip install -r requirements.txt
+cp .env.example .env          # .env içine DEEPSEEK_API_KEY=sk-... ekle
+docker compose up --build     # ilk çalıştırma ~13-15 GB v2 indeksi bir kez indirir
+# → http://localhost:7860
 ```
 
-### 2. Configure
+**Docker'sız tek komut:**
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\setup.ps1   # Windows
+```
+```bash
+bash scripts/setup.sh                                          # Linux/macOS
+```
+
+Detaylı kullanım rehberi → **[`docs/KULLANIM.md`](docs/KULLANIM.md)**
+
+## 🧠 Mimari
+
+```
+Soru (TR)
+  → PLANNER       soruyu 3-5 alt soruya böler
+  → RETRIEVER     trakad-embed-v2 ile ChromaDB (633K tez) çok-sorgulu erişim
+  → RERANKER      cross-encoder ile yeniden sıralama (gürültü filtreler)
+  → SYNTHESIZER   bulguları kümeler, çelişkileri işaretler
+  → CRITIC        kapsam yeterli mi? değilse retriever'a döner (≤2 döngü)
+  → WRITER        IEEE atıflı Türkçe akademik yanıt
+```
+
+**Yığın:** LangChain · LangGraph · ChromaDB · `trakad-embed-v2`
+(fine-tuned Türkçe akademik embedder) · cross-encoder reranker
+(`bge-reranker-base`) · Gradio · sağlayıcı-bağımsız LLM.
+
+## 🔧 Kendi modelinle (sağlayıcı-bağımsız)
+
+DeepSeek'e bağımlı **değildir**. `.env`'de `LLM_*` ile herhangi bir
+OpenAI-uyumlu sağlayıcı (DEEPSEEK_* fallback; mevcut kurulum bozulmaz):
 
 ```bash
-copy .env.example .env                       # Windows
-# cp .env.example .env                       # macOS/Linux
+# Tamamen lokal, ücretsiz, offline — API anahtarı yok (Ollama/vLLM/LM Studio):
+ollama pull qwen2.5:7b
+#   .env:
+LLM_BASE_URL=http://localhost:11434/v1
+LLM_MODEL=qwen2.5:7b
+# Veya cloud: OpenRouter / OpenAI / Groq … LLM_BASE_URL/LLM_API_KEY/LLM_MODEL
 ```
+Embedder + reranker zaten lokaldi; LLM de lokal olunca **sıfır maliyet,
+offline**. (Not: structured-output için tool-calling destekleyen model
+gerekir — `qwen2.5`/`llama3.1` vb.)
 
-Edit `.env`:
-```
-DEEPSEEK_API_KEY=sk-...                      # required
-DATA_DIR=C:\dev\turk-researcher-data         # outside OneDrive recommended
-EMBEDDING_MODEL=sentence-transformers/paraphrase-multilingual-mpnet-base-v2
-CHROMA_COLLECTION=turkish_theses
-HF_INDEX_REPO=hakansabunis/tr-academic-research-agent-index
-```
+## 📊 Bulgular (dürüst — pozitif + negatif)
 
-### 3. Pull the prebuilt 14.8 GB Chroma index
+Proje aşamalı ve kanıta dayalı geliştirildi; ne çalışmadığı da raporlanır:
 
-```bash
-python scripts/04_pull_index_from_hub.py
-```
+| Bulgu | Sonuç |
+|---|---|
+| `trakad-embed-v2` özel embedder | citation accuracy **+%9.9**, CS kategorisi **+%42.6** ✅ |
+| Corpus Expansion Paradox | korpus 633K→740K büyüyünce gürültü ↑ → atıf doğruluğu **düştü** |
+| Base-model benchmark (adil BPC) | **Gemma-3-4b** > Türkçe-özel 7B/8B modeller |
+| Naif continued pre-train (Trendyol-7b) | register mode-collapse → **başarısız** ❌ (dürüst negatif) |
+| Writer distilasyon (Gemma'ya) | retrieval-bound; öğretmen zayıf → fine-tune **veriyle atlandı** ❌ |
+| **Cross-encoder reranker** | citation **0.557→0.647 (+%16)**, faithfulness +0.04, $0 ✅ |
 
-(Takes ~3–5 minutes on a fast connection. The index is rebuilt from scratch
-on Colab GPU; see `colab/build_index_colab.ipynb` for details.)
+Anlatı: embedder erişimi iyileştirdi (1) ama korpus büyüyünce gürültü
+arttı (2); writer'ı iyileştirmek işe yaramadı çünkü darboğaz writer
+değildi (5); **reranker tam o gürültüyü filtreleyerek paradoksu kapattı (6)**.
 
-### 4. Ask a question
+## 📦 Bağlantılar
 
-```bash
-python scripts/run.py "Türkiye'de derin öğrenme ile sel tahmini çalışmaları nelerdir?" --show-trace
-```
+| | |
+|---|---|
+| Canlı demo | https://huggingface.co/spaces/hakansabunis/turkresearcher |
+| Fine-tuned embedder | https://huggingface.co/hakansabunis/trakad-embed-v2 |
+| Chroma indeksi + memstore | https://huggingface.co/datasets/hakansabunis/tr-academic-research-agent-index |
+| Kullanım rehberi | [`docs/KULLANIM.md`](docs/KULLANIM.md) |
 
-## Project layout
+## 🗂️ Depo yapısı
 
 ```
 .
-├── colab/                      # Colab notebook to rebuild the index from scratch
-│   └── build_index_colab.ipynb
-├── data/
-│   └── eval/questions.json     # 30-question Turkish benchmark
-├── docs/
-│   ├── report/                 # IEEE LaTeX academic report
-│   └── presentation/           # Marp slides
-├── src/turk_researcher/
-│   ├── config.py               # env-driven settings (DATA_DIR, DeepSeek, embedder)
-│   ├── llm.py                  # DeepSeek chat (langchain_openai with base_url)
-│   ├── embeddings.py           # mpnet-base-v2 wrapper
-│   ├── vectorstore.py          # chromadb-direct, CPU-forced
-│   ├── schemas.py              # Pydantic models + GraphState
-│   ├── tools/
-│   │   ├── retriever.py        # multi-query RAG over Chroma
-│   │   └── live_search.py      # OpenAlex + Semantic Scholar + DergiPark
-│   ├── agents/
-│   │   ├── planner.py          # decompose into sub-questions
-│   │   ├── retriever_node.py   # retrieval node
-│   │   ├── synthesizer.py      # cluster findings
-│   │   ├── critic.py           # coverage check
-│   │   ├── live_search_node.py # external API augmentation
-│   │   └── writer.py           # IEEE-cited Turkish output
-│   └── graph.py                # LangGraph state machine
-└── scripts/
-    ├── 04_pull_index_from_hub.py    # download prebuilt index
-    ├── 05_harvest_dergipark.py      # OAI-PMH harvest of journal articles
-    ├── 06_run_eval.py               # run agent on 30-question benchmark
-    ├── 07_judge_eval.py             # LLM-as-judge metrics
-    ├── 08_eval_summary.py           # aggregate report
-    └── run.py                       # CLI agent runner
+├── app.py                      # Lokal web arayüzü (gerçek sistem)
+├── .claude/                    # Claude Code skill + /tr-arastir slash komutu
+├── src/turk_researcher/        # Çekirdek paket (graph, agents, tools)
+├── scripts/                    # Veri/indeks/değerlendirme/deploy betikleri
+├── docs/                       # KULLANIM.md, bulgu raporları
+├── space/                      # HF Space uygulaması
+├── Dockerfile · docker-compose.yml
+└── requirements.txt
 ```
 
-## Data
+## 🤝 Katkı & lisans
 
-| Source | Records | License | Pipeline |
-|---|---|---|---|
-| YÖK Ulusal Tez Merkezi (via [umutertugrul/turkish-academic-theses-dataset](https://huggingface.co/datasets/umutertugrul/turkish-academic-theses-dataset)) | 633,998 (filtered from 650K) | CC-BY-4.0 | `colab/build_index_colab.ipynb` |
-| DergiPark journal articles | 100K+ harvested, indexing pending | OAI-PMH/public | `scripts/05_harvest_dergipark.py` |
-| OpenAlex (live) | 250M+ works | CC0 | `tools/live_search.py` |
-| Semantic Scholar (live) | 220M+ papers | terms of use | `tools/live_search.py` |
+- **Kod:** MIT — bkz. [LICENSE](LICENSE).
+- **Veri:** YÖK Ulusal Tez Merkezi tez özetleri, CC-BY-4.0.
+- Hata/öneri için issue açabilirsiniz.
 
-The prebuilt 14.8 GB Chroma index is published as
-**[`hakansabunis/tr-academic-research-agent-index`](https://huggingface.co/datasets/hakansabunis/tr-academic-research-agent-index)**
-on Hugging Face Hub.
-
-## Evaluation
-
-```bash
-python scripts/06_run_eval.py        # ~30-40 min on 30 questions
-python scripts/07_judge_eval.py      # ~10 min LLM-as-judge
-python scripts/08_eval_summary.py    # aggregate report
-```
-
-Metrics (DeepSeek as judge):
-- **Citation accuracy** — does each `[n]` citation actually support the claim?
-- **Faithfulness** — is the answer grounded in retrieved chunks?
-- **Coverage** — fraction of sub-questions addressed?
-- **Holistic** — overall academic quality (1-5)
-- **Latency** — end-to-end seconds
-
-See `data/eval/summary.md` after running for full results.
-
-## Reproducibility
-
-- **All code** is MIT-licensed and pinned to specific dependency versions in `requirements.txt`.
-- **Source data** is fetched directly from Hugging Face Hub (no scraping required).
-- **Prebuilt index** is published openly — no need to re-run the 6-hour Colab build.
-- **Eval set** is checked in (`data/eval/questions.json`); re-running `scripts/06_run_eval.py` is deterministic up to LLM nondeterminism.
-
-## Course
-
-Final project for *Large Language Models* — Track 1 (Novel Idea), Istanbul Medipol University.
-
-## Citation
-
-If you use this project, please cite the underlying corpus:
+## 📄 Atıf
 
 ```bibtex
-@misc{umut2024theses,
-  title={Turkish academic theses dataset},
-  author={Erturul, Umut},
-  year={2024},
-  howpublished={\url{https://huggingface.co/datasets/umutertugrul/turkish-academic-theses-dataset}},
-  note={CC-BY-4.0}
+@misc{turkresearcher2026,
+  title  = {TürkResearcher: 633K Türkçe tez üzerinde çok-ajanlı akademik RAG},
+  author = {Sabuniş, Hakan},
+  year   = {2026},
+  howpublished = {\url{https://github.com/hakansabunis/tr-academic-research-agent}}
 }
 ```
 
-## License
-
-MIT (see [LICENSE](LICENSE)). The corpus retains its CC-BY-4.0 license.
+Geliştirici: **Hakan Sabuniş** · [hakansabunis.com](https://hakansabunis.com)

@@ -29,8 +29,22 @@ data/_hub_cache/
 !data/eval/summary*.md
 !data/eval/comparison*.md
 
-# Claude Code internal
-.claude/
+# Claude Code: SHIP the skill + slash command (people who clone get
+# /tr-arastir + the skill); ignore everything else under .claude/.
+.claude/*
+!.claude/skills/
+!.claude/commands/
+
+# Reranker/v2 eval — per-question dumps are too many JSONs
+# (text summaries are kept via the whitelist above).
+data/eval/runs_rerank/
+data/eval/judgments_rerank/
+data/eval/runs_v2/
+data/eval/judgments_v2/
+
+# Personal academic submissions — not for the public repo
+TurkResearcher_Proposal_Hakan_Yusuf.pdf
+Project-Assignment.pdf
 
 # Python venv
 .venv/

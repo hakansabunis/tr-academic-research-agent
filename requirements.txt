@@ -18,3 +18,5 @@ python-dotenv>=1.0.0
 click>=8.1.0
 rich>=13.7.0
 tqdm>=4.66.0
+gradio>=4.0.0
+qdrant-client>=1.9.0

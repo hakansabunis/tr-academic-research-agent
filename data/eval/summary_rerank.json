@@ -1,0 +1,1193 @@
+{
+  "overall": {
+    "n_questions": 30,
+    "n_ok": 30,
+    "n_failed": 0,
+    "latency_seconds": {
+      "n": 30,
+      "mean": 82.835,
+      "median": 83.68,
+      "min": 46.8,
+      "max": 114.05
+    },
+    "n_chunks": {
+      "n": 30,
+      "mean": 12.733,
+      "median": 13.0,
+      "min": 10,
+      "max": 16
+    },
+    "max_score": {
+      "n": 30,
+      "mean": 0.801,
+      "median": 0.909,
+      "min": 0.043,
+      "max": 0.998
+    },
+    "n_citations": {
+      "n": 30,
+      "mean": 12.733,
+      "median": 13.0,
+      "min": 10,
+      "max": 16
+    },
+    "citation_accuracy": {
+      "n": 30,
+      "mean": 0.653,
+      "median": 0.7,
+      "min": 0.3,
+      "max": 0.95
+    },
+    "faithfulness": {
+      "n": 30,
+      "mean": 0.573,
+      "median": 0.6,
+      "min": 0.2,
+      "max": 0.9
+    },
+    "coverage": {
+      "n": 30,
+      "mean": 0.443,
+      "median": 0.4,
+      "min": 0.2,
+      "max": 0.9
+    },
+    "holistic_score": {
+      "n": 30,
+      "mean": 2.433,
+      "median": 2.0,
+      "min": 2,
+      "max": 4
+    }
+  },
+  "by_category": {
+    "computer_science": {
+      "n": 4,
+      "citation_accuracy": {
+        "n": 4,
+        "mean": 0.4,
+        "median": 0.35,
+        "min": 0.3,
+        "max": 0.6
+      },
+      "faithfulness": {
+        "n": 4,
+        "mean": 0.362,
+        "median": 0.35,
+        "min": 0.25,
+        "max": 0.5
+      },
+      "coverage": {
+        "n": 4,
+        "mean": 0.275,
+        "median": 0.25,
+        "min": 0.2,
+        "max": 0.4
+      },
+      "holistic_score": {
+        "n": 4,
+        "mean": 2,
+        "median": 2.0,
+        "min": 2,
+        "max": 2
+      },
+      "latency_seconds": {
+        "n": 4,
+        "mean": 89.455,
+        "median": 83.68,
+        "min": 76.41,
+        "max": 114.05
+      }
+    },
+    "education": {
+      "n": 3,
+      "citation_accuracy": {
+        "n": 3,
+        "mean": 0.883,
+        "median": 0.85,
+        "min": 0.85,
+        "max": 0.95
+      },
+      "faithfulness": {
+        "n": 3,
+        "mean": 0.833,
+        "median": 0.8,
+        "min": 0.8,
+        "max": 0.9
+      },
+      "coverage": {
+        "n": 3,
+        "mean": 0.667,
+        "median": 0.6,
+        "min": 0.6,
+        "max": 0.8
+      },
+      "holistic_score": {
+        "n": 3,
+        "mean": 3,
+        "median": 3,
+        "min": 3,
+        "max": 3
+      },
+      "latency_seconds": {
+        "n": 3,
+        "mean": 86.447,
+        "median": 85.8,
+        "min": 80.58,
+        "max": 92.96
+      }
+    },
+    "health": {
+      "n": 3,
+      "citation_accuracy": {
+        "n": 3,
+        "mean": 0.733,
+        "median": 0.7,
+        "min": 0.6,
+        "max": 0.9
+      },
+      "faithfulness": {
+        "n": 3,
+        "mean": 0.65,
+        "median": 0.6,
+        "min": 0.5,
+        "max": 0.85
+      },
+      "coverage": {
+        "n": 3,
+        "mean": 0.467,
+        "median": 0.4,
+        "min": 0.4,
+        "max": 0.6
+      },
+      "holistic_score": {
+        "n": 3,
+        "mean": 2.333,
+        "median": 2,
+        "min": 2,
+        "max": 3
+      },
+      "latency_seconds": {
+        "n": 3,
+        "mean": 81.837,
+        "median": 90.36,
+        "min": 46.8,
+        "max": 108.35
+      }
+    },
+    "engineering": {
+      "n": 3,
+      "citation_accuracy": {
+        "n": 3,
+        "mean": 0.633,
+        "median": 0.6,
+        "min": 0.6,
+        "max": 0.7
+      },
+      "faithfulness": {
+        "n": 3,
+        "mean": 0.533,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.6
+      },
+      "coverage": {
+        "n": 3,
+        "mean": 0.4,
+        "median": 0.4,
+        "min": 0.3,
+        "max": 0.5
+      },
+      "holistic_score": {
+        "n": 3,
+        "mean": 2.333,
+        "median": 2,
+        "min": 2,
+        "max": 3
+      },
+      "latency_seconds": {
+        "n": 3,
+        "mean": 87.017,
+        "median": 85.86,
+        "min": 85.34,
+        "max": 89.85
+      }
+    },
+    "social_sciences": {
+      "n": 2,
+      "citation_accuracy": {
+        "n": 2,
+        "mean": 0.775,
+        "median": 0.775,
+        "min": 0.7,
+        "max": 0.85
+      },
+      "faithfulness": {
+        "n": 2,
+        "mean": 0.7,
+        "median": 0.7,
+        "min": 0.6,
+        "max": 0.8
+      },
+      "coverage": {
+        "n": 2,
+        "mean": 0.45,
+        "median": 0.45,
+        "min": 0.4,
+        "max": 0.5
+      },
+      "holistic_score": {
+        "n": 2,
+        "mean": 2.5,
+        "median": 2.5,
+        "min": 2,
+        "max": 3
+      },
+      "latency_seconds": {
+        "n": 2,
+        "mean": 76.685,
+        "median": 76.685,
+        "min": 75.88,
+        "max": 77.49
+      }
+    },
+    "business": {
+      "n": 2,
+      "citation_accuracy": {
+        "n": 2,
+        "mean": 0.7,
+        "median": 0.7,
+        "min": 0.7,
+        "max": 0.7
+      },
+      "faithfulness": {
+        "n": 2,
+        "mean": 0.6,
+        "median": 0.6,
+        "min": 0.6,
+        "max": 0.6
+      },
+      "coverage": {
+        "n": 2,
+        "mean": 0.4,
+        "median": 0.4,
+        "min": 0.4,
+        "max": 0.4
+      },
+      "holistic_score": {
+        "n": 2,
+        "mean": 2.5,
+        "median": 2.5,
+        "min": 2,
+        "max": 3
+      },
+      "latency_seconds": {
+        "n": 2,
+        "mean": 72.625,
+        "median": 72.625,
+        "min": 71.88,
+        "max": 73.37
+      }
+    },
+    "agriculture": {
+      "n": 1,
+      "citation_accuracy": {
+        "n": 1,
+        "mean": 0.6,
+        "median": 0.6,
+        "min": 0.6,
+        "max": 0.6
+      },
+      "faithfulness": {
+        "n": 1,
+        "mean": 0.5,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      },
+      "coverage": {
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "min": 0.4,
+        "max": 0.4
+      },
+      "holistic_score": {
+        "n": 1,
+        "mean": 2,
+        "median": 2,
+        "min": 2,
+        "max": 2
+      },
+      "latency_seconds": {
+        "n": 1,
+        "mean": 73.95,
+        "median": 73.95,
+        "min": 73.95,
+        "max": 73.95
+      }
+    },
+    "veterinary": {
+      "n": 1,
+      "citation_accuracy": {
+        "n": 1,
+        "mean": 0.85,
+        "median": 0.85,
+        "min": 0.85,
+        "max": 0.85
+      },
+      "faithfulness": {
+        "n": 1,
+        "mean": 0.7,
+        "median": 0.7,
+        "min": 0.7,
+        "max": 0.7
+      },
+      "coverage": {
+        "n": 1,
+        "mean": 0.6,
+        "median": 0.6,
+        "min": 0.6,
+        "max": 0.6
+      },
+      "holistic_score": {
+        "n": 1,
+        "mean": 3,
+        "median": 3,
+        "min": 3,
+        "max": 3
+      },
+      "latency_seconds": {
+        "n": 1,
+        "mean": 81.52,
+        "median": 81.52,
+        "min": 81.52,
+        "max": 81.52
+      }
+    },
+    "linguistics": {
+      "n": 1,
+      "citation_accuracy": {
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "min": 0.3,
+        "max": 0.3
+      },
+      "faithfulness": {
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "min": 0.4,
+        "max": 0.4
+      },
+      "coverage": {
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "min": 0.4,
+        "max": 0.4
+      },
+      "holistic_score": {
+        "n": 1,
+        "mean": 2,
+        "median": 2,
+        "min": 2,
+        "max": 2
+      },
+      "latency_seconds": {
+        "n": 1,
+        "mean": 76.88,
+        "median": 76.88,
+        "min": 76.88,
+        "max": 76.88
+      }
+    },
+    "law": {
+      "n": 2,
+      "citation_accuracy": {
+        "n": 2,
+        "mean": 0.725,
+        "median": 0.725,
+        "min": 0.6,
+        "max": 0.85
+      },
+      "faithfulness": {
+        "n": 2,
+        "mean": 0.6,
+        "median": 0.6,
+        "min": 0.4,
+        "max": 0.8
+      },
+      "coverage": {
+        "n": 2,
+        "mean": 0.6,
+        "median": 0.6,
+        "min": 0.5,
+        "max": 0.7
+      },
+      "holistic_score": {
+        "n": 2,
+        "mean": 2.5,
+        "median": 2.5,
+        "min": 2,
+        "max": 3
+      },
+      "latency_seconds": {
+        "n": 2,
+        "mean": 89.635,
+        "median": 89.635,
+        "min": 87.67,
+        "max": 91.6
+      }
+    },
+    "physics": {
+      "n": 1,
+      "citation_accuracy": {
+        "n": 1,
+        "mean": 0.6,
+        "median": 0.6,
+        "min": 0.6,
+        "max": 0.6
+      },
+      "faithfulness": {
+        "n": 1,
+        "mean": 0.5,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      },
+      "coverage": {
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "min": 0.3,
+        "max": 0.3
+      },
+      "holistic_score": {
+        "n": 1,
+        "mean": 2,
+        "median": 2,
+        "min": 2,
+        "max": 2
+      },
+      "latency_seconds": {
+        "n": 1,
+        "mean": 88.2,
+        "median": 88.2,
+        "min": 88.2,
+        "max": 88.2
+      }
+    },
+    "chemistry": {
+      "n": 1,
+      "citation_accuracy": {
+        "n": 1,
+        "mean": 0.7,
+        "median": 0.7,
+        "min": 0.7,
+        "max": 0.7
+      },
+      "faithfulness": {
+        "n": 1,
+        "mean": 0.6,
+        "median": 0.6,
+        "min": 0.6,
+        "max": 0.6
+      },
+      "coverage": {
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "min": 0.4,
+        "max": 0.4
+      },
+      "holistic_score": {
+        "n": 1,
+        "mean": 2,
+        "median": 2,
+        "min": 2,
+        "max": 2
+      },
+      "latency_seconds": {
+        "n": 1,
+        "mean": 49.98,
+        "median": 49.98,
+        "min": 49.98,
+        "max": 49.98
+      }
+    },
+    "biology": {
+      "n": 1,
+      "citation_accuracy": {
+        "n": 1,
+        "mean": 0.5,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      },
+      "faithfulness": {
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "min": 0.4,
+        "max": 0.4
+      },
+      "coverage": {
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "min": 0.3,
+        "max": 0.3
+      },
+      "holistic_score": {
+        "n": 1,
+        "mean": 2,
+        "median": 2,
+        "min": 2,
+        "max": 2
+      },
+      "latency_seconds": {
+        "n": 1,
+        "mean": 87.82,
+        "median": 87.82,
+        "min": 87.82,
+        "max": 87.82
+      }
+    },
+    "tourism": {
+      "n": 1,
+      "citation_accuracy": {
+        "n": 1,
+        "mean": 0.85,
+        "median": 0.85,
+        "min": 0.85,
+        "max": 0.85
+      },
+      "faithfulness": {
+        "n": 1,
+        "mean": 0.7,
+        "median": 0.7,
+        "min": 0.7,
+        "max": 0.7
+      },
+      "coverage": {
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "min": 0.4,
+        "max": 0.4
+      },
+      "holistic_score": {
+        "n": 1,
+        "mean": 3,
+        "median": 3,
+        "min": 3,
+        "max": 3
+      },
+      "latency_seconds": {
+        "n": 1,
+        "mean": 67.95,
+        "median": 67.95,
+        "min": 67.95,
+        "max": 67.95
+      }
+    },
+    "sports": {
+      "n": 1,
+      "citation_accuracy": {
+        "n": 1,
+        "mean": 0.6,
+        "median": 0.6,
+        "min": 0.6,
+        "max": 0.6
+      },
+      "faithfulness": {
+        "n": 1,
+        "mean": 0.5,
+        "median": 0.5,
+        "min": 0.5,
+        "max": 0.5
+      },
+      "coverage": {
+        "n": 1,
+        "mean": 0.4,
+        "median": 0.4,
+        "min": 0.4,
+        "max": 0.4
+      },
+      "holistic_score": {
+        "n": 1,
+        "mean": 2,
+        "median": 2,
+        "min": 2,
+        "max": 2
+      },
+      "latency_seconds": {
+        "n": 1,
+        "mean": 98.84,
+        "median": 98.84,
+        "min": 98.84,
+        "max": 98.84
+      }
+    },
+    "multi_domain": {
+      "n": 2,
+      "citation_accuracy": {
+        "n": 2,
+        "mean": 0.775,
+        "median": 0.775,
+        "min": 0.7,
+        "max": 0.85
+      },
+      "faithfulness": {
+        "n": 2,
+        "mean": 0.7,
+        "median": 0.7,
+        "min": 0.6,
+        "max": 0.8
+      },
+      "coverage": {
+        "n": 2,
+        "mean": 0.65,
+        "median": 0.65,
+        "min": 0.4,
+        "max": 0.9
+      },
+      "holistic_score": {
+        "n": 2,
+        "mean": 3.5,
+        "median": 3.5,
+        "min": 3,
+        "max": 4
+      },
+      "latency_seconds": {
+        "n": 2,
+        "mean": 90.26,
+        "median": 90.26,
+        "min": 80.48,
+        "max": 100.04
+      }
+    },
+    "edge_case": {
+      "n": 1,
+      "citation_accuracy": {
+        "n": 1,
+        "mean": 0.3,
+        "median": 0.3,
+        "min": 0.3,
+        "max": 0.3
+      },
+      "faithfulness": {
+        "n": 1,
+        "mean": 0.2,
+        "median": 0.2,
+        "min": 0.2,
+        "max": 0.2
+      },
+      "coverage": {
+        "n": 1,
+        "mean": 0.2,
+        "median": 0.2,
+        "min": 0.2,
+        "max": 0.2
+      },
+      "holistic_score": {
+        "n": 1,
+        "mean": 2,
+        "median": 2,
+        "min": 2,
+        "max": 2
+      },
+      "latency_seconds": {
+        "n": 1,
+        "mean": 77.79,
+        "median": 77.79,
+        "min": 77.79,
+        "max": 77.79
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "q01",
+      "category": "computer_science",
+      "type": "trend",
+      "question": "Türkçe doğal dil işlemede son yıllardaki ana yaklaşımlar nelerdir?",
+      "ok": true,
+      "latency_s": 114.05,
+      "n_chunks": 13,
+      "max_score": 0.7926,
+      "n_citations": 13,
+      "iteration_count": 2,
+      "citation_accuracy": 0.3,
+      "faithfulness": 0.4,
+      "coverage": 0.2,
+      "holistic_score": 2
+    },
+    {
+      "id": "q02",
+      "category": "computer_science",
+      "type": "method",
+      "question": "Türkçe metin sınıflandırmada Transformer tabanlı modellerin (BERT vb.) avantajla",
+      "ok": true,
+      "latency_s": 76.41,
+      "n_chunks": 15,
+      "max_score": 0.8242,
+      "n_citations": 15,
+      "iteration_count": 2,
+      "citation_accuracy": 0.6,
+      "faithfulness": 0.5,
+      "coverage": 0.4,
+      "holistic_score": 2
+    },
+    {
+      "id": "q03",
+      "category": "computer_science",
+      "type": "application",
+      "question": "Derin öğrenme yöntemleri Türkiye'deki sel ve taşkın tahmininde nasıl uygulanmışt",
+      "ok": true,
+      "latency_s": 82.87,
+      "n_chunks": 16,
+      "max_score": 0.9039,
+      "n_citations": 16,
+      "iteration_count": 2,
+      "citation_accuracy": 0.3,
+      "faithfulness": 0.25,
+      "coverage": 0.2,
+      "holistic_score": 2
+    },
+    {
+      "id": "q04",
+      "category": "computer_science",
+      "type": "comparison",
+      "question": "Türkçe görüntü tanımada konvolüsyonel sinir ağları ile geleneksel makine öğrenme",
+      "ok": true,
+      "latency_s": 84.49,
+      "n_chunks": 13,
+      "max_score": 0.789,
+      "n_citations": 13,
+      "iteration_count": 2,
+      "citation_accuracy": 0.4,
+      "faithfulness": 0.3,
+      "coverage": 0.3,
+      "holistic_score": 2
+    },
+    {
+      "id": "q05",
+      "category": "education",
+      "type": "trend",
+      "question": "Türkiye'de matematik eğitiminde STEM yaklaşımının öğrenci başarısına etkisi üzer",
+      "ok": true,
+      "latency_s": 80.58,
+      "n_chunks": 12,
+      "max_score": 0.9851,
+      "n_citations": 12,
+      "iteration_count": 2,
+      "citation_accuracy": 0.95,
+      "faithfulness": 0.9,
+      "coverage": 0.6,
+      "holistic_score": 3
+    },
+    {
+      "id": "q06",
+      "category": "education",
+      "type": "method",
+      "question": "Uzaktan eğitimde öğrenci motivasyonunu artıran pedagojik stratejiler nelerdir?",
+      "ok": true,
+      "latency_s": 85.8,
+      "n_chunks": 12,
+      "max_score": 0.8011,
+      "n_citations": 12,
+      "iteration_count": 2,
+      "citation_accuracy": 0.85,
+      "faithfulness": 0.8,
+      "coverage": 0.6,
+      "holistic_score": 3
+    },
+    {
+      "id": "q07",
+      "category": "education",
+      "type": "limitation",
+      "question": "Kapsayıcı eğitim uygulamalarının Türkiye'deki uygulanmasındaki temel sorunlar ne",
+      "ok": true,
+      "latency_s": 92.96,
+      "n_chunks": 13,
+      "max_score": 0.1506,
+      "n_citations": 13,
+      "iteration_count": 2,
+      "citation_accuracy": 0.85,
+      "faithfulness": 0.8,
+      "coverage": 0.8,
+      "holistic_score": 3
+    },
+    {
+      "id": "q08",
+      "category": "health",
+      "type": "method",
+      "question": "Diyabet hastalarında beslenme alışkanlıklarının glisemik kontrol üzerindeki etki",
+      "ok": true,
+      "latency_s": 90.36,
+      "n_chunks": 15,
+      "max_score": 0.9912,
+      "n_citations": 15,
+      "iteration_count": 2,
+      "citation_accuracy": 0.6,
+      "faithfulness": 0.5,
+      "coverage": 0.4,
+      "holistic_score": 2
+    },
+    {
+      "id": "q09",
+      "category": "health",
+      "type": "comparison",
+      "question": "Kalp damar hastalıklarının teşhisinde ekokardiyografi ve manyetik rezonans görün",
+      "ok": true,
+      "latency_s": 108.35,
+      "n_chunks": 13,
+      "max_score": 0.6346,
+      "n_citations": 13,
+      "iteration_count": 2,
+      "citation_accuracy": 0.7,
+      "faithfulness": 0.6,
+      "coverage": 0.4,
+      "holistic_score": 2
+    },
+    {
+      "id": "q10",
+      "category": "health",
+      "type": "application",
+      "question": "Türkiye'de hemşirelik öğrencilerinin klinik karar verme becerilerinin geliştiril",
+      "ok": true,
+      "latency_s": 46.8,
+      "n_chunks": 10,
+      "max_score": 0.8347,
+      "n_citations": 10,
+      "iteration_count": 1,
+      "citation_accuracy": 0.9,
+      "faithfulness": 0.85,
+      "coverage": 0.6,
+      "holistic_score": 3
+    },
+    {
+      "id": "q11",
+      "category": "engineering",
+      "type": "application",
+      "question": "Yenilenebilir enerji kaynaklarından rüzgar türbinlerinin Türkiye'deki potansiyel",
+      "ok": true,
+      "latency_s": 85.86,
+      "n_chunks": 14,
+      "max_score": 0.9624,
+      "n_citations": 14,
+      "iteration_count": 2,
+      "citation_accuracy": 0.6,
+      "faithfulness": 0.5,
+      "coverage": 0.3,
+      "holistic_score": 2
+    },
+    {
+      "id": "q12",
+      "category": "engineering",
+      "type": "method",
+      "question": "Beton karışımına nano malzeme katkılarının mekanik özelliklere etkisi nasıl ince",
+      "ok": true,
+      "latency_s": 89.85,
+      "n_chunks": 10,
+      "max_score": 0.9958,
+      "n_citations": 10,
+      "iteration_count": 2,
+      "citation_accuracy": 0.7,
+      "faithfulness": 0.6,
+      "coverage": 0.5,
+      "holistic_score": 3
+    },
+    {
+      "id": "q13",
+      "category": "engineering",
+      "type": "trend",
+      "question": "Endüstri 4.0 kapsamında Türk imalat sanayisinde dijital dönüşüm uygulamaları nas",
+      "ok": true,
+      "latency_s": 85.34,
+      "n_chunks": 16,
+      "max_score": 0.8434,
+      "n_citations": 16,
+      "iteration_count": 2,
+      "citation_accuracy": 0.6,
+      "faithfulness": 0.5,
+      "coverage": 0.4,
+      "holistic_score": 2
+    },
+    {
+      "id": "q14",
+      "category": "social_sciences",
+      "type": "trend",
+      "question": "Türkiye'de sosyal medyanın siyasi katılım üzerindeki etkisini inceleyen araştırm",
+      "ok": true,
+      "latency_s": 75.88,
+      "n_chunks": 11,
+      "max_score": 0.9885,
+      "n_citations": 11,
+      "iteration_count": 2,
+      "citation_accuracy": 0.7,
+      "faithfulness": 0.6,
+      "coverage": 0.4,
+      "holistic_score": 2
+    },
+    {
+      "id": "q15",
+      "category": "social_sciences",
+      "type": "method",
+      "question": "Yaşlı bireylerin yalnızlık duygusunu azaltan psikososyal müdahale yöntemleri nel",
+      "ok": true,
+      "latency_s": 77.49,
+      "n_chunks": 11,
+      "max_score": 0.9421,
+      "n_citations": 11,
+      "iteration_count": 2,
+      "citation_accuracy": 0.85,
+      "faithfulness": 0.8,
+      "coverage": 0.5,
+      "holistic_score": 3
+    },
+    {
+      "id": "q16",
+      "category": "business",
+      "type": "method",
+      "question": "Türkiye'deki KOBİ'lerin dijital pazarlama stratejilerini nasıl benimsediği üzeri",
+      "ok": true,
+      "latency_s": 73.37,
+      "n_chunks": 12,
+      "max_score": 0.9538,
+      "n_citations": 12,
+      "iteration_count": 2,
+      "citation_accuracy": 0.7,
+      "faithfulness": 0.6,
+      "coverage": 0.4,
+      "holistic_score": 2
+    },
+    {
+      "id": "q17",
+      "category": "business",
+      "type": "application",
+      "question": "Müşteri sadakat programlarının e-ticaret sektöründeki etkinliği üzerine yapılan ",
+      "ok": true,
+      "latency_s": 71.88,
+      "n_chunks": 14,
+      "max_score": 0.9494,
+      "n_citations": 14,
+      "iteration_count": 2,
+      "citation_accuracy": 0.7,
+      "faithfulness": 0.6,
+      "coverage": 0.4,
+      "holistic_score": 3
+    },
+    {
+      "id": "q18",
+      "category": "agriculture",
+      "type": "method",
+      "question": "Türkiye'de organik tarım uygulamalarının toprak verimliliğine etkisi nasıl ölçül",
+      "ok": true,
+      "latency_s": 73.95,
+      "n_chunks": 14,
+      "max_score": 0.9803,
+      "n_citations": 14,
+      "iteration_count": 2,
+      "citation_accuracy": 0.6,
+      "faithfulness": 0.5,
+      "coverage": 0.4,
+      "holistic_score": 2
+    },
+    {
+      "id": "q19",
+      "category": "veterinary",
+      "type": "method",
+      "question": "Sığırcılıkta yapay tohumlama tekniklerinin döl verimi üzerindeki etkileri nedir?",
+      "ok": true,
+      "latency_s": 81.52,
+      "n_chunks": 13,
+      "max_score": 0.7768,
+      "n_citations": 13,
+      "iteration_count": 2,
+      "citation_accuracy": 0.85,
+      "faithfulness": 0.7,
+      "coverage": 0.6,
+      "holistic_score": 3
+    },
+    {
+      "id": "q20",
+      "category": "linguistics",
+      "type": "method",
+      "question": "Türkçenin tarihi lehçeleri üzerine yapılan ses bilgisi çalışmalarındaki ana yönt",
+      "ok": true,
+      "latency_s": 76.88,
+      "n_chunks": 12,
+      "max_score": 0.9853,
+      "n_citations": 12,
+      "iteration_count": 2,
+      "citation_accuracy": 0.3,
+      "faithfulness": 0.4,
+      "coverage": 0.4,
+      "holistic_score": 2
+    },
+    {
+      "id": "q21",
+      "category": "law",
+      "type": "limitation",
+      "question": "Türkiye'de kişisel verilerin korunması (KVKK) hukuku uygulamalarındaki temel sor",
+      "ok": true,
+      "latency_s": 87.67,
+      "n_chunks": 12,
+      "max_score": 0.9751,
+      "n_citations": 12,
+      "iteration_count": 2,
+      "citation_accuracy": 0.85,
+      "faithfulness": 0.8,
+      "coverage": 0.7,
+      "holistic_score": 3
+    },
+    {
+      "id": "q22",
+      "category": "law",
+      "type": "comparison",
+      "question": "Türk Ceza Kanunu ile Anglo-Sakson hukuk sisteminde suç ve ceza prensiplerinin ka",
+      "ok": true,
+      "latency_s": 91.6,
+      "n_chunks": 14,
+      "max_score": 0.1086,
+      "n_citations": 14,
+      "iteration_count": 2,
+      "citation_accuracy": 0.6,
+      "faithfulness": 0.4,
+      "coverage": 0.5,
+      "holistic_score": 2
+    },
+    {
+      "id": "q23",
+      "category": "physics",
+      "type": "method",
+      "question": "Süperiletken malzemelerin enerji depolama uygulamaları üzerine yapılan deneysel ",
+      "ok": true,
+      "latency_s": 88.2,
+      "n_chunks": 13,
+      "max_score": 0.3437,
+      "n_citations": 13,
+      "iteration_count": 2,
+      "citation_accuracy": 0.6,
+      "faithfulness": 0.5,
+      "coverage": 0.3,
+      "holistic_score": 2
+    },
+    {
+      "id": "q24",
+      "category": "chemistry",
+      "type": "application",
+      "question": "Yeşil kimya prensiplerinin ilaç üretim süreçlerindeki uygulamaları nelerdir?",
+      "ok": true,
+      "latency_s": 49.98,
+      "n_chunks": 10,
+      "max_score": 0.7174,
+      "n_citations": 10,
+      "iteration_count": 1,
+      "citation_accuracy": 0.7,
+      "faithfulness": 0.6,
+      "coverage": 0.4,
+      "holistic_score": 2
+    },
+    {
+      "id": "q25",
+      "category": "biology",
+      "type": "method",
+      "question": "Mikroplastiklerin sucul ekosistemlerdeki canlılar üzerindeki ekotoksikolojik etk",
+      "ok": true,
+      "latency_s": 87.82,
+      "n_chunks": 12,
+      "max_score": 0.9624,
+      "n_citations": 12,
+      "iteration_count": 2,
+      "citation_accuracy": 0.5,
+      "faithfulness": 0.4,
+      "coverage": 0.3,
+      "holistic_score": 2
+    },
+    {
+      "id": "q26",
+      "category": "tourism",
+      "type": "trend",
+      "question": "COVID-19 sonrası Türkiye turizm sektöründe sürdürülebilir turizm yaklaşımlarının",
+      "ok": true,
+      "latency_s": 67.95,
+      "n_chunks": 11,
+      "max_score": 0.9978,
+      "n_citations": 11,
+      "iteration_count": 2,
+      "citation_accuracy": 0.85,
+      "faithfulness": 0.7,
+      "coverage": 0.4,
+      "holistic_score": 3
+    },
+    {
+      "id": "q27",
+      "category": "sports",
+      "type": "method",
+      "question": "Yüksek yoğunluklu interval antrenmanın elit sporcuların performansına etkisi nas",
+      "ok": true,
+      "latency_s": 98.84,
+      "n_chunks": 14,
+      "max_score": 0.8764,
+      "n_citations": 14,
+      "iteration_count": 2,
+      "citation_accuracy": 0.6,
+      "faithfulness": 0.5,
+      "coverage": 0.4,
+      "holistic_score": 2
+    },
+    {
+      "id": "q28",
+      "category": "multi_domain",
+      "type": "cross",
+      "question": "Yapay zeka teknolojilerinin tıbbi tanı süreçlerine entegrasyonu hangi etik ve hu",
+      "ok": true,
+      "latency_s": 100.04,
+      "n_chunks": 13,
+      "max_score": 0.9151,
+      "n_citations": 13,
+      "iteration_count": 2,
+      "citation_accuracy": 0.85,
+      "faithfulness": 0.8,
+      "coverage": 0.9,
+      "holistic_score": 4
+    },
+    {
+      "id": "q29",
+      "category": "multi_domain",
+      "type": "cross",
+      "question": "İklim değişikliğinin Türkiye'deki tarımsal üretim üzerindeki ekonomik etkileri n",
+      "ok": true,
+      "latency_s": 80.48,
+      "n_chunks": 10,
+      "max_score": 0.9935,
+      "n_citations": 10,
+      "iteration_count": 2,
+      "citation_accuracy": 0.7,
+      "faithfulness": 0.6,
+      "coverage": 0.4,
+      "holistic_score": 3
+    },
+    {
+      "id": "q30",
+      "category": "edge_case",
+      "type": "narrow",
+      "question": "Eski Anadolu Türkçesinde kıpçak unsurlarının fonetik özellikleri nelerdir?",
+      "ok": true,
+      "latency_s": 77.79,
+      "n_chunks": 14,
+      "max_score": 0.0435,
+      "n_citations": 14,
+      "iteration_count": 2,
+      "citation_accuracy": 0.3,
+      "faithfulness": 0.2,
+      "coverage": 0.2,
+      "holistic_score": 2
+    }
+  ]
+}

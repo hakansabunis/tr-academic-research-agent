@@ -1,15 +1,16 @@
 from __future__ import annotations
 
 from functools import lru_cache
-
-import chromadb
-from chromadb.api.models.Collection import Collection
+from typing import TYPE_CHECKING
 
 from .config import Settings, load_settings
 
+if TYPE_CHECKING:  # chromadb only needed for the local chroma backend
+    from chromadb.api.models.Collection import Collection
+
 
 @lru_cache(maxsize=1)
-def _collection_for(persist_dir: str, collection_name: str) -> Collection:
+def _collection_for(persist_dir: str, collection_name: str) -> "Collection":
     """Open a Chroma collection without attaching an embedding function.
 
     Why no embedding_function: chroma_db_v2 was indexed with `embeddings=`
@@ -19,6 +20,8 @@ def _collection_for(persist_dir: str, collection_name: str) -> Collection:
     ourselves via get_encoder() and passing query_embeddings= at query time.
     Works uniformly for v1 (mpnet-built) and v2 (trakad-embed-v2-built).
     """
+    import chromadb  # lazy: memory/qdrant backends don't need it
+
     client = chromadb.PersistentClient(path=persist_dir)
     return client.get_collection(name=collection_name)
 

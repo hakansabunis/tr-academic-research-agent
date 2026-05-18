@@ -1,0 +1,19 @@
+# One-command run:  docker compose up --build
+# - Pass your key via a local .env (DEEPSEEK_API_KEY=sk-...) — git-ignored.
+# - The v2 index + HF model cache persist in the named volume `tr_data`,
+#   so rebuilds don't re-download the ~13-15 GB index.
+services:
+  turkresearcher:
+    build: .
+    ports:
+      - "7860:7860"
+    env_file:
+      - .env
+    environment:
+      DATA_DIR: /data
+    volumes:
+      - tr_data:/data
+    restart: unless-stopped
+
+volumes:
+  tr_data:

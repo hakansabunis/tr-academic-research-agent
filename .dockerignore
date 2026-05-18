@@ -1,0 +1,18 @@
+# Keep the image lean — never ship data/weights/venv into the build context.
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/
+models/embed/trakad-embed-v2/
+*.parquet
+*.gguf
+*.safetensors
+*.bin
+.git/
+.env
+data/eval/runs*/
+data/eval/judgments*/
+data/derived/
+*.pdf
+.claude/

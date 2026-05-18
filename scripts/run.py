@@ -1,6 +1,7 @@
 """CLI entry point: ask TürkResearcher a Turkish academic question."""
 from __future__ import annotations
 
+import json as _json
 import sys
 from pathlib import Path
 
@@ -19,12 +20,32 @@ console = Console()
 @click.command()
 @click.argument("question", nargs=-1, required=True)
 @click.option("--show-trace/--no-show-trace", default=False, help="Print intermediate state.")
-def main(question: tuple[str, ...], show_trace: bool) -> None:
+@click.option("--json", "as_json", is_flag=True, default=False,
+              help="Emit a single JSON object instead of rich panels "
+                   "(for the turkce-arastirma-ustasi skill / programmatic use).")
+def main(question: tuple[str, ...], show_trace: bool, as_json: bool) -> None:
     q = " ".join(question).strip()
-    console.print(Panel.fit(q, title="Soru", border_style="cyan"))
+    if not as_json:
+        console.print(Panel.fit(q, title="Soru", border_style="cyan"))
 
     graph = build_graph()
     state = graph.invoke({"question": q})
+
+    if as_json:
+        final = state.get("final")
+        chunks = state.get("chunks", [])
+        plan = state.get("plan")
+        out = {
+            "question": q,
+            "answer_md": final.answer_md if final else None,
+            "citations_ieee": final.citations_ieee if final else [],
+            "n_sources": len(chunks),
+            "max_score": round(chunks[0].score, 4) if chunks else 0.0,
+            "sub_questions": [sq.text for sq in plan.sub_questions] if plan else [],
+            "ok": final is not None,
+        }
+        print(_json.dumps(out, ensure_ascii=False, indent=2))
+        return
 
     if show_trace:
         plan = state.get("plan")

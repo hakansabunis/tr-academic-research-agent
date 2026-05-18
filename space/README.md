@@ -1,5 +1,5 @@
 ---
-title: TürkResearcher Demo
+title: TürkResearcher
 emoji: 🔍
 colorFrom: blue
 colorTo: indigo
@@ -8,79 +8,48 @@ sdk_version: "5.6.0"
 app_file: app.py
 pinned: false
 license: mit
-short_description: Multi-agent LLM agent for Turkish academic search
+short_description: Turkish academic RAG over 633K theses (embedder + reranker)
 ---
 
-# TürkResearcher — Hugging Face Spaces Demo
+# TürkResearcher — Türkçe Akademik Araştırma Ajanı
 
 [![GitHub](https://img.shields.io/badge/code-GitHub-181717?logo=github)](https://github.com/hakansabunis/tr-academic-research-agent)
 [![HF Index](https://img.shields.io/badge/index-Hugging%20Face-yellow)](https://huggingface.co/datasets/hakansabunis/tr-academic-research-agent-index)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/hakansabunis/tr-academic-research-agent/blob/main/LICENSE)
 
-This is the public demo of **TürkResearcher**, a multi-agent LLM
-research assistant for Turkish academic literature.
+**Gerçek sistem** — 633K+ YÖK tezi üzerinde, fine-tuned `trakad-embed-v2`
+retriever + cross-encoder reranker + çok-ajanlı RAG. Kaynak-temelli,
+IEEE atıflı Türkçe akademik yanıt.
 
-## What it does
+## Mimari
 
-Given a Turkish academic question, the agent decomposes it into 3–5
-sub-questions, retrieves evidence from public scholarly APIs
-(OpenAlex + Semantic Scholar), and produces a Turkish academic answer
-with IEEE-style citations linking to real DOIs.
+```
+Soru (TR) → Planner → Retriever (trakad-embed-v2, in-memory uint8 search)
+          → Reranker (bge-reranker-base) → Synthesizer → Critic → Writer
+          → IEEE atıflı Türkçe yanıt
+```
 
-## Why this is the demo (not the full system)
+Harici vektör DB yok: bellek-içi arama. Açılışta `memstore/` artefaktları
+(uint8 vektörler + abstract parquet) HF index dataset'inden çekilir.
+uint8 ≈ float (top-10 parite %97); reranker geri kalan hassasiyeti toparlar
+→ **kalite kaybı yok**, ölçülen sistemle aynı.
 
-The full TürkResearcher pipeline indexes 740K Turkish thesis and
-journal-article abstracts in a 15 GB Chroma vector store, which is too
-large for the Hugging Face Spaces free tier. This demo therefore runs
-in **live-API mode**: retrieval is delegated to OpenAlex and Semantic
-Scholar at query time. The architecture, agents, prompts, and
-citation subsystem are otherwise identical.
+## Kullanım
 
-For the **full local-corpus pipeline** (with 740K embedded abstracts):
+1. Kendi **DeepSeek API key**'inizi girin (Space saklamaz · ~$0.005-0.01/sorgu).
+2. Türkçe akademik sorunuzu yazın → **Sor**.
+
+⏱️ **Ücretsiz tier dürüst notu:** Space uyuduktan sonra ilk istek
+**birkaç dakika** sürer (~2 GB indeks indirilir + RAM'e yüklenir).
+Sonraki sorgular ~2-4 dk (çok-ajanlı LLM aşaması).
+
+## Tam yerel kurulum (daha hızlı, kalıcı)
 
 ```bash
 git clone https://github.com/hakansabunis/tr-academic-research-agent
 cd tr-academic-research-agent
-pip install -r requirements.txt
-python scripts/04_pull_index_from_hub.py
-python scripts/run.py "Türkçe doğal dil işleme metodları nelerdir?"
+docker compose up --build      # veya: scripts/setup.ps1 / setup.sh
 ```
+Detay: repo'daki `docs/KULLANIM.md`.
 
-## Configuration
-
-This Space requires a single secret:
-
-| Secret | Description |
-|---|---|
-| `DEEPSEEK_API_KEY` | DeepSeek API key (https://platform.deepseek.com) |
-
-Optional (for tuning):
-
-| Secret | Default |
-|---|---|
-| `DEEPSEEK_BASE_URL` | `https://api.deepseek.com/v1` |
-| `DEEPSEEK_MODEL` | `deepseek-chat` |
-
-## Pipeline
-
-```
-Question (TR)
-   ↓
-Planner       — DeepSeek decomposes into 3–5 sub-questions
-   ↓
-LiveSearch    — OpenAlex + Semantic Scholar (deduped, top-24)
-   ↓
-Writer        — DeepSeek emits Turkish academic answer + [n] markers
-   ↓
-Citation      — IEEE references built deterministically from chunk metadata
-   ↓
-Output (TR)
-```
-
-## Author
-
-Hakan Sabuniş — Computer Engineering student at Istanbul Medipol University.
-Built as the final project for the Large Language Models course (Spring 2026).
-
-- Personal site: https://hakansabunis.com
-- GitHub: https://github.com/hakansabunis
+## Lisans
+MIT (kod) · CC-BY-4.0 (veri). Geliştirici: [Hakan Sabuniş](https://hakansabunis.com).

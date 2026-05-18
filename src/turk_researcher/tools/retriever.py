@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from typing import Iterable
 
 from ..schemas import RetrievedChunk
@@ -38,10 +39,57 @@ def _doc_to_chunk(doc: str, metadata: dict, distance: float) -> RetrievedChunk:
     )
 
 
+def _retrieve_external(queries: Iterable[str], k: int, encoder, search_fn) -> list[RetrievedChunk]:
+    """Hosted path: external / in-memory store returns minimal payload;
+    full abstract rehydrated by tez_no (no quality compromise)."""
+    from .abstract_store import get_abstract
+
+    seen: dict[str, RetrievedChunk] = {}
+    for q in queries:
+        if not q or not q.strip():
+            continue
+        qv = encoder.encode(q.strip(), normalize_embeddings=True)
+        for r in search_fn(qv, k=k):
+            tez = str(r.get("tez_no") or "")
+            if not tez:
+                continue
+            yr = r.get("year")
+            try:
+                yr = int(yr) if yr not in (None, "", 0) else None
+            except (TypeError, ValueError):
+                yr = None
+            score = float(r.get("score") or 0.0)
+            ex = seen.get(tez)
+            if ex is not None and ex.score >= score:
+                continue
+            seen[tez] = RetrievedChunk(
+                tez_no=tez,
+                title_tr=r.get("title_tr") or "",
+                author=str(r.get("author") or ""),
+                advisor=r.get("advisor") or None,
+                location=r.get("location") or None,
+                year=yr,
+                abstract_tr=get_abstract(tez),
+                score=score,
+                pdf_url=r.get("pdf_url") or None,
+            )
+    return sorted(seen.values(), key=lambda c: c.score, reverse=True)
+
+
 def retrieve(queries: Iterable[str], *, k: int = 6) -> list[RetrievedChunk]:
-    """Multi-query retrieval — embeds each query, dedupes by tez_no, keeps best score."""
-    coll = get_collection()
+    """Multi-query retrieval — embeds each query, dedupes by tez_no, keeps
+    best score. Backend via VECTOR_BACKEND env: 'chroma' (default → local
+    setup unchanged) or 'qdrant' (hosted free tier + abstract rehydration)."""
     encoder = get_encoder()
+    backend = os.getenv("VECTOR_BACKEND", "chroma").lower()
+    if backend == "qdrant":
+        from .qdrant_store import search as _s
+        return _retrieve_external(queries, k, encoder, _s)
+    if backend == "memory":
+        from .memory_store import search as _s
+        return _retrieve_external(queries, k, encoder, _s)
+
+    coll = get_collection()
     seen: dict[str, RetrievedChunk] = {}
 
     for q in queries:
