@@ -46,7 +46,7 @@ def _ensure_ready(progress=None):
             return hf_hub_download(repo_id=DATASET, repo_type="dataset",
                                    filename=f"memstore/{fn}")
 
-        if progress:
+        if progress is not None:
             progress(0.15, desc="İndeks indiriliyor (~2 GB, ilk istek)…")
         vec = _pull("vectors_uint8.npy")
         _pull("payload.parquet")                    # same snapshot dir as vec
@@ -63,7 +63,7 @@ def _ensure_ready(progress=None):
             TRRESEARCHER_LIVE="0",
         )
 
-        if progress:
+        if progress is not None:
             progress(0.5, desc="İndeks + abstract store RAM'e yükleniyor…")
         from turk_researcher.graph import build_graph
         from turk_researcher.tools import abstract_store, memory_store
@@ -86,6 +86,8 @@ def run(question: str, api_key: str, progress=gr.Progress()):
     try:
         _ensure_ready(progress)
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         return f"### ❌ Başlatma hatası\n\n```\n{e}\n```", "", "", ""
 
     os.environ["DEEPSEEK_API_KEY"] = api_key.strip()
@@ -93,6 +95,8 @@ def run(question: str, api_key: str, progress=gr.Progress()):
     try:
         state = _GRAPH.invoke({"question": q})
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         return f"### ❌ Hata\n\n```\n{e}\n```", "", "", ""
     finally:
         os.environ["DEEPSEEK_API_KEY"] = ""
